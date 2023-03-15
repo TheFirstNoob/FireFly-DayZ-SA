@@ -1,0 +1,67 @@
+{
+    "ConfigVersion": 8,
+    "ID": 13,
+    "Type": 1,
+    "Title": "Catch a Fish",
+    "Descriptions": [
+        "PLACEHOLDER",
+        "Craft an improvidsed fishing rod and catch a mackerel.",
+        "Turn in quest to get reward."
+    ],
+    "ObjectiveText": "Craft an improvised fishing rod and catch a mackerel!",
+    "FollowUpQuest": -1,
+    "IsAchivement": 0,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestClassName": "",
+    "Objectives": [
+        {
+            "ConfigVersion": 11,
+            "ID": 1,
+            "ObjectiveType": 11,
+            "ObjectiveText": "",
+            "TimeLimit": -1
+        },
+        {
+            "ConfigVersion": 11,
+            "ID": 2,
+            "ObjectiveType": 4,
+            "ObjectiveText": "",
+            "TimeLimit": -1
+        }
+    ],
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "ExpansionBanknoteHryvnia",
+            "Amount": 10,
+            "Attachments": [],
+            "HealthPercent": 0,
+            "DamagePercent": 0
+        },
+        {
+            "ClassName": "ImprovisedFishingRod",
+            "Amount": 1,
+            "Attachments": [],
+            "HealthPercent": 0,
+            "DamagePercent": 0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RewardsForGroupOwnerOnly": 1,
+    "QuestGiverIDs": [
+        1
+    ],
+    "QuestTurnInIDs": [
+        1
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": []
+}

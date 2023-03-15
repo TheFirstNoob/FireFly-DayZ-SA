@@ -1,0 +1,41 @@
+{
+    "ConfigVersion": 2,
+    "ID": 1,
+    "ClassName": "ExpansionQuestNPCDenis",
+    "IsAI": 0,
+    "Position": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "Orientation": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "QuestIDs": [
+        1,
+        3,
+        10,
+        12,
+        13,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+    ],
+    "NPCName": "Peter",
+    "DefaultNPCText": "Hmm?",
+    "Waypoints": [],
+    "NPCEmoteID": 46,
+    "NPCEmoteIsStatic": 0,
+    "NPCLoadoutFile": "NBCLoadout",
+    "IsStatic": 0,
+    "NPCInteractionEmoteID": 1,
+    "NPCQuestCancelEmoteID": 60,
+    "NPCQuestStartEmoteID": 58,
+    "NPCQuestCompleteEmoteID": 39
+}

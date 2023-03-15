@@ -1,0 +1,28 @@
+{
+    "ConfigVersion": 11,
+    "ID": 4,
+    "ObjectiveType": 2,
+    "ObjectiveText": "Kill 10 Military/NPC Infected",
+    "TimeLimit": -1,
+    "Position": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "MaxDistance": -1.0,
+    "Target": {
+        "Amount": 10,
+        "ClassNames": [
+            "ZmbM_PatrolNormal_Base",
+            "ZmbM_Soldier_Base",
+            "ZmbM_SoldierNormal_Base",
+            "ZmbM_usSoldier_normal_Base",
+            "ZmbM_NBC_Yellow",
+            "ZmbM_NBC_Grey"
+        ],
+        "CountSelfKill": 0,
+        "SpecialWeapon": 0,
+        "AllowedWeapons": [],
+        "ExcludedClassNames": []
+    }
+}

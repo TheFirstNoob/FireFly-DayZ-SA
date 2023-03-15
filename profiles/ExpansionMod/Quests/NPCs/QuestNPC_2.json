@@ -1,0 +1,33 @@
+{
+    "ConfigVersion": 2,
+    "ID": 2,
+    "ClassName": "ExpansionQuestNPCElias",
+    "IsAI": 0,
+    "Position": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "Orientation": [
+        -10.0,
+        0.0,
+        0.0
+    ],
+    "QuestIDs": [
+        1,
+        2,
+        3,
+        10
+    ],
+    "NPCName": "Steve",
+    "DefaultNPCText": "What do you want? I am busy...",
+    "Waypoints": [],
+    "NPCEmoteID": 46,
+    "NPCEmoteIsStatic": 0,
+    "NPCLoadoutFile": "NBCLoadout",
+    "IsStatic": 0,
+    "NPCInteractionEmoteID": 1,
+    "NPCQuestCancelEmoteID": 60,
+    "NPCQuestStartEmoteID": 58,
+    "NPCQuestCompleteEmoteID": 39
+}
