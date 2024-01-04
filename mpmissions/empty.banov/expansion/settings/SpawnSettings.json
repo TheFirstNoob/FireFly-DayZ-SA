@@ -25,7 +25,7 @@
                     258.21246337890627
                 ]
             ],
-            "UseCooldown": 1
+            "UseCooldown": 0
         },
         {
             "Name": "Velk DrzKovce",
@@ -51,7 +51,7 @@
                     2974.294921875
                 ]
             ],
-            "UseCooldown": 1
+            "UseCooldown": 0
         },
         {
             "Name": "Dvorec",
@@ -77,7 +77,7 @@
                     492.4552307128906
                 ]
             ],
-            "UseCooldown": 1
+            "UseCooldown": 0
         },
         {
             "Name": "Sliezska Osada",
@@ -98,7 +98,7 @@
                     2410.49072265625
                 ]
             ],
-            "UseCooldown": 1
+            "UseCooldown": 0
         },
         {
             "Name": "Miezgovce",
@@ -124,7 +124,7 @@
                     1466.6810302734376
                 ]
             ],
-            "UseCooldown": 1
+            "UseCooldown": 0
         },
         {
             "Name": "Latkovce",
@@ -145,7 +145,7 @@
                     520.9992065429688
                 ]
             ],
-            "UseCooldown": 1
+            "UseCooldown": 0
         },
 		{
             "Name": "Motesice",
@@ -166,7 +166,7 @@
                     12207.901
                 ]
             ],
-            "UseCooldown": 1
+            "UseCooldown": 0
         },
 		{
             "Name": "Krasna Ves",
@@ -192,7 +192,7 @@
                     13047.753
                 ]
             ],
-            "UseCooldown": 1
+            "UseCooldown": 0
         },
 		{
             "Name": "Hvozdy",
@@ -213,7 +213,7 @@
                     13366.888
                 ]
             ],
-            "UseCooldown": 1
+            "UseCooldown": 0
         },
 		{
             "Name": "Trebichava",
@@ -234,7 +234,7 @@
                     11152.222
                 ]
             ],
-            "UseCooldown": 1
+            "UseCooldown": 0
         },
 		{
             "Name": "Zavada pod Ciernym vrchom",
@@ -260,7 +260,7 @@
                     12246.119
                 ]
             ],
-            "UseCooldown": 1
+            "UseCooldown": 0
         },
 		{
             "Name": "Ksinna",
@@ -281,7 +281,7 @@
                     9548.051
                 ]
             ],
-            "UseCooldown": 1
+            "UseCooldown": 0
         },
 		{
             "Name": "Zitna Radisa",
@@ -307,7 +307,7 @@
                     6555.539
                 ]
             ],
-            "UseCooldown": 1
+            "UseCooldown": 0
         },
 		{
             "Name": "Omastina",
@@ -323,7 +323,7 @@
                     6355.421
                 ]
             ],
-            "UseCooldown": 1
+            "UseCooldown": 0
         },
 		{
             "Name": "Uhrovec",
@@ -344,7 +344,7 @@
                     2887.643
                 ]
             ],
-            "UseCooldown": 1
+            "UseCooldown": 0
         },
 		{
             "Name": "Horne Nastice",
@@ -365,7 +365,7 @@
                     3398.646
                 ]
             ],
-            "UseCooldown": 1
+            "UseCooldown": 0
         },
 		{
             "Name": "Horne Ozorovce",
@@ -386,7 +386,7 @@
                     2584.122
                 ]
             ],
-            "UseCooldown": 1
+            "UseCooldown": 0
         },
 		{
             "Name": "Ruskovce",
@@ -407,7 +407,7 @@
                     3460.624
                 ]
             ],
-            "UseCooldown": 1
+            "UseCooldown": 0
         },
 		{
             "Name": "Vlckovo",
@@ -423,7 +423,7 @@
                     6812.876
                 ]
             ],
-            "UseCooldown": 1
+            "UseCooldown": 0
         },
 		{
             "Name": "Hornany",
@@ -449,7 +449,7 @@
                     8262.011
                 ]
             ],
-            "UseCooldown": 1
+            "UseCooldown": 0
         },
 		{
             "Name": "Bobot",
@@ -470,7 +470,7 @@
                     10998.307
                 ]
             ],
-            "UseCooldown": 1
+            "UseCooldown": 0
         },
 		{
             "Name": "Dezerice",
@@ -486,7 +486,7 @@
                     6817.312
                 ]
             ],
-            "UseCooldown": 1
+            "UseCooldown": 0
         },
 		{
             "Name": "Prusy",
@@ -502,7 +502,7 @@
                     6104.694
                 ]
             ],
-            "UseCooldown": 1
+            "UseCooldown": 0
         },
 		{
             "Name": "Dubnicka",
@@ -518,7 +518,7 @@
                     6817.397
                 ]
             ],
-            "UseCooldown": 1
+            "UseCooldown": 0
         },
 		{
             "Name": "Lutov",
@@ -529,7 +529,7 @@
                     7609.674
                 ]
             ],
-            "UseCooldown": 1
+            "UseCooldown": 0
         },
 		{
             "Name": "Podluzani",
@@ -550,7 +550,7 @@
                     5681.167
                 ]
             ],
-            "UseCooldown": 1
+            "UseCooldown": 0
         },
 		{
             "Name": "Timoradza",
@@ -576,7 +576,7 @@
                     11300.509
                 ]
             ],
-            "UseCooldown": 1
+            "UseCooldown": 0
         }
     ],
     "StartingClothing": {
@@ -665,10 +665,10 @@
         }
     ],
     "SpawnHealthValue": 100.0,
-    "SpawnEnergyValue": 700.0,
-    "SpawnWaterValue": 500.0,
+    "SpawnEnergyValue": 1000.0,
+    "SpawnWaterValue": 750.0,
     "EnableRespawnCooldowns": 1,
-    "RespawnCooldown": 30,
+    "RespawnCooldown": 1800,
     "TerritoryRespawnCooldown": 240,
     "PunishMultispawn": 1,
     "PunishCooldown": 120,
