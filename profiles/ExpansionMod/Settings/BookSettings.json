@@ -6,12 +6,12 @@
     "EnableServerRulesTab": 1,
     "EnableTerritoryTab": 1,
     "EnableBookMenu": 1,
-    "CreateBookmarks": 0,
+    "CreateBookmarks": 1,
     "ShowHaBStats": 1,
-    "ShowPlayerFaction": 0,
+    "ShowPlayerFaction": 1,
     "RuleCategories": [
         {
-            "CategoryName": "General",
+            "CategoryName": "Типо правила",
             "Rules": [
                 {
                     "RuleParagraph": "1.1.",
@@ -36,10 +36,10 @@
             ]
         }
     ],
-    "DisplayServerSettingsInServerInfoTab": 1,
+    "DisplayServerSettingsInServerInfoTab": 0,
     "SettingCategories": [
         {
-            "CategoryName": "Base-Building Settings",
+            "CategoryName": "Строительство",
             "Settings": [
                 {
                     "SettingTitle": "Expansion.Settings.BaseBuilding.CanCraftVanillaBasebuilding",
@@ -54,7 +54,7 @@
             ]
         },
         {
-            "CategoryName": "Raid Settings",
+            "CategoryName": "Рейд",
             "Settings": [
                 {
                     "SettingTitle": "Expansion.Settings.Raid.CanRaidSafes",
@@ -89,7 +89,7 @@
             ]
         },
         {
-            "CategoryName": "Territory Settings",
+            "CategoryName": "Территории Баз",
             "Settings": [
                 {
                     "SettingTitle": "Expansion.Settings.Territory.TerritorySize",
@@ -104,7 +104,7 @@
             ]
         },
         {
-            "CategoryName": "Map Settings",
+            "CategoryName": "Карта",
             "Settings": [
                 {
                     "SettingTitle": "Expansion.Settings.Map.NeedGPSItemForKeyBinding",
@@ -119,7 +119,7 @@
             ]
         },
         {
-            "CategoryName": "Party Settings",
+            "CategoryName": "Группа",
             "Settings": [
                 {
                     "SettingTitle": "Expansion.Settings.Party.MaxMembersInParty",
@@ -136,63 +136,21 @@
     ],
     "Links": [
         {
-            "Name": "Homepage",
-            "URL": "https://www.google.com/",
-            "IconName": "Homepage",
-            "IconColor": -14473430
-        },
-        {
-            "Name": "Feedback",
-            "URL": "https://www.google.com/",
-            "IconName": "Forums",
-            "IconColor": -14473430
-        },
-        {
             "Name": "Discord",
-            "URL": "https://www.google.com/",
+            "URL": "https://discord.com/invite/8nHMeCH",
             "IconName": "Discord",
             "IconColor": -9270822
         },
         {
-            "Name": "Patreon",
-            "URL": "https://www.patreon.com/dayzexpansion",
-            "IconName": "Patreon",
-            "IconColor": -432044
-        },
-        {
-            "Name": "Steam",
-            "URL": "https://steamcommunity.com/sharedfiles/filedetails/?id=2116151222",
-            "IconName": "Steam",
-            "IconColor": -14006434
-        },
-        {
-            "Name": "Reddit",
-            "URL": "https://www.reddit.com/r/ExpansionProject/",
-            "IconName": "Reddit",
-            "IconColor": -12386303
-        },
-        {
             "Name": "GitHub",
-            "URL": "https://github.com/salutesh/DayZ-Expansion-Scripts/wiki",
+            "URL": "https://github.com/TheFirstNoob/FireFly-DayZ-SA",
             "IconName": "GitHub",
             "IconColor": -16777216
-        },
-        {
-            "Name": "YouTube",
-            "URL": "https://www.youtube.com/channel/UCZNgSvIEWfru963tQZOAVJg",
-            "IconName": "YouTube",
-            "IconColor": -65536
-        },
-        {
-            "Name": "Twitter",
-            "URL": "https://twitter.com/DayZExpansion",
-            "IconName": "Twitter",
-            "IconColor": -14835214
         }
     ],
     "Descriptions": [
         {
-            "CategoryName": "General Info",
+            "CategoryName": "О сервере",
             "Descriptions": [
                 {
                     "DescriptionText": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
@@ -206,7 +164,7 @@
             ]
         },
         {
-            "CategoryName": "Mod Info",
+            "CategoryName": "Тут надо сделать про моменты",
             "Descriptions": [
                 {
                     "DescriptionText": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
@@ -222,7 +180,7 @@
     ],
     "CraftingCategories": [
         {
-            "CategoryName": "Accessories",
+            "CategoryName": "Аксессуары",
             "Results": [
                 "armband_",
                 "armband_white",
@@ -230,7 +188,7 @@
             ]
         },
         {
-            "CategoryName": "Backpacks",
+            "CategoryName": "Рюкзаки",
             "Results": [
                 "courierbag",
                 "furcourierbag",
@@ -240,7 +198,7 @@
             ]
         },
         {
-            "CategoryName": "Base-Building",
+            "CategoryName": "Строительство",
             "Results": [
                 "expansionbarbedwirekit",
                 "fencekit",
@@ -256,7 +214,7 @@
             ]
         },
         {
-            "CategoryName": "Camouflage",
+            "CategoryName": "Камуфляжи",
             "Results": [
                 "camonet",
                 "ghillieatt_tan",
@@ -277,7 +235,7 @@
             ]
         },
         {
-            "CategoryName": "Cooking",
+            "CategoryName": "Готовка",
             "Results": [
                 "fireplace",
                 "firewood",
@@ -285,7 +243,7 @@
             ]
         },
         {
-            "CategoryName": "Fishing",
+            "CategoryName": "Рыбалка",
             "Results": [
                 "bait",
                 "bonebait",
@@ -294,7 +252,7 @@
             ]
         },
         {
-            "CategoryName": "Food",
+            "CategoryName": "Еда",
             "Results": [
                 "carpfilletmeat",
                 "mackerelfilletmeat",
@@ -304,7 +262,7 @@
             ]
         },
         {
-            "CategoryName": "Horticulture",
+            "CategoryName": "Садоводство",
             "Results": [
                 "pepperseeds",
                 "pumpkinseeds",
@@ -313,14 +271,14 @@
             ]
         },
         {
-            "CategoryName": "Lights",
+            "CategoryName": "Освещение",
             "Results": [
                 "longtorch",
                 "torch"
             ]
         },
         {
-            "CategoryName": "Medical Supplies",
+            "CategoryName": "Медицина",
             "Results": [
                 "bloodbagiv",
                 "salinebagiv",
@@ -328,20 +286,20 @@
             ]
         },
         {
-            "CategoryName": "Melee Weapons",
+            "CategoryName": "Ближний бой",
             "Results": [
                 "nailedbaseballbat",
                 "stoneknife"
             ]
         },
         {
-            "CategoryName": "Storage",
+            "CategoryName": "Хранилище",
             "Results": [
                 "woodencrate"
             ]
         },
         {
-            "CategoryName": "Supplies",
+            "CategoryName": "Припасы",
             "Results": [
                 "boarpelt",
                 "burlapsack",
@@ -362,13 +320,13 @@
             ]
         },
         {
-            "CategoryName": "Weapon Modifications",
+            "CategoryName": "Мод. Оружия",
             "Results": [
                 "sawedoffizh18shotgun"
             ]
         },
         {
-            "CategoryName": "Weapon Attachments",
+            "CategoryName": "Обвесы оружия",
             "Results": [
                 "improvisedsuppressor"
             ]
