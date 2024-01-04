@@ -56,19 +56,19 @@
             "all": {}
         },
         "BreakingDoorsDestroyAfterOpenChancePercent": {
-            "all": 25.0
+            "all": 10.0
         },
         "BreakingDoorsOpenChancePercent": {
-            "all": 25.0
+            "all": 10.0
         },
         "BreakingDoorsOpenLockPickChancePercent": {
-            "all": 5.0
+            "all": 3.0
         },
         "BreakingDoorsLossInterestAfterHitChancePercent": {
-            "all": 5.0
+            "all": 25.0
         },
         "BreakingDoorsLossInterestAfterHitLockPickChancePercent": {
-            "all": 25.0
+            "all": 30.0
         },
         "BreakingDoorsBuildingSearchRangeMeters": {
             "all": 30.0
@@ -83,10 +83,10 @@
             "all": 1
         },
         "AttackAnimalsWolfs": {
-            "all": 0
+            "all": 1
         },
         "AttackAnimalsBears": {
-            "all": 0
+            "all": 1
         },
         "AttackAnimalsWildBoar": {
             "all": 1
@@ -113,10 +113,10 @@
             "all": 1
         },
         "SearchSphereRadiusIncreaseEverySeconds": {
-            "all": 0.20000000298023225
+            "all": 0.15000000298023225
         },
         "SearchSphereDistanceToRadiusMultiplier": {
-            "all": 0.30000001192092898
+            "all": 0.28000001192092898
         },
         "SearchSphereRadiusMin": {
             "all": 0.0
@@ -128,7 +128,7 @@
             "all": 1
         },
         "SpeedLimitInSearchMode": {
-            "all": 3.0
+            "all": 2.1
         },
         "SpeedLimitInChaseMode": {
             "all": 3.0
@@ -143,16 +143,16 @@
             "all": 1
         },
         "UpJumpHeightMax": {
-            "all": 3.0
+            "all": 1.2
         },
         "UpJumpImpulseDamageChancePercent": {
             "all": 50.0
         },
         "UpJumpChancePercent": {
-            "all": 100.0
+            "all": 50.0
         },
         "UpJumpCooldownSeconds": {
-            "all": 0.0
+            "all": 15.0
         },
         "DownJumpHandlerIsActive": {
             "all": 1
@@ -193,7 +193,7 @@
             "all": 2.0
         },
         "AttackCarElementsGlobalDamageMultiplier": {
-            "all": 1.0,
+            "all": 0.8,
             "Animal_UrsusArctos": 3.0
         },
         "AttackCarElementsByCollisionsIsActive": {
@@ -218,7 +218,7 @@
             "all": 25.0
         },
         "AttackCarDoorDamagePercent": {
-            "all": 20.0
+            "all": 5.0
         },
         "AttackCarDoorChancePercent": {
             "all": 60.0
@@ -227,25 +227,25 @@
             "all": 10.0
         },
         "AttackCarCarBatteryDamagePercent": {
-            "all": 10.0
+            "all": 8.0
         },
         "AttackCarPlugDamagePercent": {
-            "all": 25.0
+            "all": 3.0
         },
         "AttackCarEngineDamagePercent": {
-            "all": 10.0
+            "all": 7.0
         },
         "AttackCarLightsDamagePercent": {
-            "all": 50.0
+            "all": 25.0
         },
         "AttackCarFenderDamagePercent": {
-            "all": 10.0
+            "all": 15.0
         },
         "AttackCarBumperDamagePercent": {
-            "all": 10.0
+            "all": 7.0
         },
         "AttackCarHoodDamagePercent": {
-            "all": 10.0
+            "all": 7.0
         },
         "AttackCarFuelTankDamagePercent": {
             "all": 5.0
@@ -263,19 +263,19 @@
             "all": 1.0
         },
         "ReactHeadtorchRedVisual": {
-            "all": 1.0
+            "all": 0.5
         },
         "ReactRoadflareVisual": {
             "all": 1.0
         },
         "ReactChemlightVisual": {
-            "all": 1.0
+            "all": 0.1
         },
         "ReactChemlightRedVisual": {
-            "all": 1.0
+            "all": 0.1
         },
         "ReactPortableGasLampVisual": {
-            "all": 1.0
+            "all": 0.4
         },
         "ReactFlammablesVisual": {
             "all": 1.0
@@ -418,76 +418,76 @@
             "all": 1
         },
         "DamageToPlayerHealthMultiplier": {
-            "police": 2.5,
-            "all": 2.0,
-            "medic": 2.5,
-            "military": 3.0
+            "police": 1.8,
+            "all": 1.5,
+            "medic": 1.6,
+            "military": 2.0
         },
         "DamageToPlayerShockMultiplier": {
-            "police": 2.5,
-            "all": 2.0,
-            "medic": 2.5,
-            "military": 3.0
+            "police": 1.7,
+            "all": 1.2,
+            "medic": 1.5,
+            "military": 2.0
         },
         "DamageToPlayerBleedingHandlerIsActive": {
             "all": 1
         },
         "DamageToPlayerBleedingChancePercent": {
-            "police": 30.0,
-            "all": 20.0,
-            "medic": 30.0,
-            "military": 50.0
+            "police": 15.0,
+            "all": 10.0,
+            "medic": 12.0,
+            "military": 25.0
         },
         "DamageToPlayerInBlockHealth": {
             "all": 0.0
         },
         "DamageToPlayerInBlockShock": {
-            "police": 25.0,
-            "all": 20.0,
-            "medic": 25.0,
-            "military": 30.0
+            "police": 7.0,
+            "all": 5.0,
+            "medic": 6.0,
+            "military": 10.0
         },
         "DamageToPlayerInBlockBleedingChancePercent": {
             "all": 0.0
         },
         "StunToPlayerChancePercent": {
-            "all": 30.0
+            "all": 12.0
         },
         "StunToPlayerInBlockChancePercent": {
-            "all": 15.0
+            "all": 5.0
         },
         "DamageToZombieHandlerIsActive": {
             "all": 1
         },
         "DamageToZombieHeadMeleeMultiplier": {
-            "all": 1.0
+            "all": 3.0
         },
         "DamageToZombieHeadRangeMultiplier": {
-            "all": 1.0
+            "all": 2.5
         },
         "DamageToZombieBodyMeleeMultiplier": {
-            "police": 0.30000001192092898,
-            "all": 0.5,
-            "medic": 0.30000001192092898,
-            "military": 0.30000001192092898
+            "police": 0.60000001192092898,
+            "all": 0.8,
+            "medic": 0.70000001192092898,
+            "military": 0.50000001192092898
         },
         "DamageToZombieBodyRangeMultiplier": {
-            "police": 0.30000001192092898,
-            "all": 0.5,
-            "medic": 0.30000001192092898,
-            "military": 0.30000001192092898
+            "police": 0.70000001192092898,
+            "all": 0.9,
+            "medic": 0.60000001192092898,
+            "military": 0.40000001192092898
         },
         "DamageToZombieFromCarsMultiplier": {
-            "police": 0.30000001192092898,
-            "all": 0.5,
-            "medic": 0.30000001192092898,
-            "military": 0.30000001192092898
+            "police": 1.20000001192092898,
+            "all": 1.5,
+            "medic": 1.30000001192092898,
+            "military": 1.10000001192092898
         },
         "DamageToZombieFromExplosionsMultiplier": {
-            "police": 0.30000001192092898,
-            "all": 0.5,
-            "medic": 0.30000001192092898,
-            "military": 0.30000001192092898
+            "police": 0.80000001192092898,
+            "all": 0.9,
+            "medic": 0.85000001192092898,
+            "military": 0.70000001192092898
         },
         "DamageToZombieFromHotItemsHp": {
             "all": 10.0
@@ -573,10 +573,10 @@
             "all": 20.0
         },
         "ButcheringWithoutGlovesBloodyHandsChancePercent": {
-            "all": 100.0
+            "all": 75.0
         },
         "ButcheringWithoutMaskVomitChancePercent": {
-            "all": 50.0
+            "all": 25.0
         },
         "ItemsAfterButchering": {
             "all": [
@@ -654,14 +654,14 @@
     },
     "Players": {
         "SmellsHandlerIsActive": 1,
-        "SmellLifetimeSeconds": 120.0,
-        "SmellsCountOnMapLimit": 1000,
+        "SmellLifetimeSeconds": 90.0,
+        "SmellsCountOnMapLimit": 500,
         "FootstepsNoiseHandlerIsActive": 1,
-        "SearchBodyToViewCargo": 0,
-        "SearchBodyToViewCargoSeconds": 3.0,
+        "SearchBodyToViewCargo": 1,
+        "SearchBodyToViewCargoSeconds": 10.0,
         "SearchBodyOnlyEmptyHands": 0,
         "QuietDoorOpeningMechanicIsActive": 1,
-        "QuietDoorOpeningMechanicSeconds": 2.0,
+        "QuietDoorOpeningMechanicSeconds": 3.0,
         "NoiseMultiplierDay": 2.0,
         "NoiseMultiplierNight": 2.0,
         "CamoClothingVisibilityMultipliers": {
@@ -710,7 +710,7 @@
     "LossInterestToIrritantAfterSeconds": 120.0,
     "LightInHouseMultiplier": 0.20000000298023225,
     "SoundInHouseMultiplier": 0.6000000238418579,
-    "SaveConfigAfterInit": 0,
+    "SaveConfigAfterInit": 1,
     "NavMeshChernarusFixes": [],
     "NavMeshEnochFixes": []
 }
