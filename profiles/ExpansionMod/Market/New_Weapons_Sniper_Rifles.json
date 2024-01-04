@@ -1,0 +1,76 @@
+{
+    "m_Version": 12,
+    "DisplayName": "Оружие - Снайперские винтовки",
+    "Icon": "Gun",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 50.0,
+    "Items": [
+		{
+            "ClassName": "SSG82",
+            "MaxPriceThreshold": 1725,
+            "MinPriceThreshold": 1380,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "VSS",
+            "MaxPriceThreshold": 2350,
+            "MinPriceThreshold": 1880,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 6,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "ASVAL",
+            "MaxPriceThreshold": 1885,
+            "MinPriceThreshold": 1508,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 8,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SVD",
+            "MaxPriceThreshold": 4125,
+            "MinPriceThreshold": 3300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 3,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "Scout",
+            "MaxPriceThreshold": 2600,
+            "MinPriceThreshold": 2080,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "expansion_awm",
+            "MaxPriceThreshold": 7500,
+            "MinPriceThreshold": 5000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 3,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        }
+    ]
+}

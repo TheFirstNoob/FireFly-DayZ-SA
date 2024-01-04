@@ -1,0 +1,32 @@
+{
+    "m_Version": 12,
+    "DisplayName": "Другое - Оружие",
+    "Icon": "Arrows",
+    "Color": "80E8E0",
+    "IsExchange": 0,
+    "InitStockPercent": 50.0,
+    "Items": [
+		{
+            "ClassName": "expansion_crossbow",
+            "MaxPriceThreshold": 1600,
+            "MinPriceThreshold": 1250,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 20,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "flaregun",
+            "MaxPriceThreshold": 1000,
+            "MinPriceThreshold": 780,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 20,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        }
+    ]
+}

@@ -1,5 +1,5 @@
 {
-    "ConfigVersion": 11,
+    "ConfigVersion": 22,
     "ID": 4,
     "ObjectiveType": 3,
     "ObjectiveText": "Find the patrol",
@@ -11,5 +11,7 @@
     ],
     "MaxDistance": 20.0,
     "MarkerName": "Find the patrol",
-    "ShowDistance": 1
+    "ShowDistance": 1,
+    "TriggerOnEnter": 1,
+    "TriggerOnExit": 0
 }

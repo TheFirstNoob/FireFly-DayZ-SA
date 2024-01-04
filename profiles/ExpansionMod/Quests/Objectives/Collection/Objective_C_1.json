@@ -1,16 +1,18 @@
 {
-    "ConfigVersion": 11,
+    "ConfigVersion": 22,
     "ID": 1,
     "ObjectiveType": 4,
     "ObjectiveText": "Collect 5 apples",
     "TimeLimit": -1,
-    "MaxDistance": 10.0,
-    "MarkerName": "Deliver Items",
-    "ShowDistance": 1,
     "Collections": [
         {
             "Amount": 5,
-            "ClassName": "Apple"
+            "ClassName": "Apple",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": -1
         }
-    ]
+    ],
+    "ShowDistance": 1,
+    "AddItemsToNearbyMarketZone": 0,
+    "NeedAnyCollection": 0
 }

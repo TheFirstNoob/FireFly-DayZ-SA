@@ -1,8 +1,8 @@
 {
-    "ConfigVersion": 11,
+    "ConfigVersion": 22,
     "ID": 2,
     "ObjectiveType": 10,
-    "ObjectiveText": "",
+    "ObjectiveText": "Plant pumkin seeds:",
     "TimeLimit": -1,
     "ActionNames": [
         "ActionPlantSeed"
@@ -10,5 +10,6 @@
     "AllowedClassNames": [
         "PumpkinSeeds"
     ],
-    "ExcludedClassNames": []
+    "ExcludedClassNames": [],
+    "ExecutionAmount": 1
 }

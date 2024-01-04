@@ -14,6 +14,7 @@
         <tag name="floor"/>
         <tag name="shelves"/>
         <tag name="ground"/>
+		<tag name="civilian" />
     </tags>
     <usageflags>
         <usage name="Military"/>
@@ -32,11 +33,14 @@
         <usage name="Lunapark"/>
         <usage name="SeasonalEvent"/>
         <usage name="ContaminatedArea"/>
+		<usage name="Historical"/>
+		<usage name="Underground"/>
     </usageflags>
     <valueflags>
         <value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
+		<value name="Tier5"/>
     </valueflags>
 </lists>

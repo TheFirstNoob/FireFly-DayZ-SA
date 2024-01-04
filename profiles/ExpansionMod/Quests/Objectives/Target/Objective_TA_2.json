@@ -1,5 +1,5 @@
 {
-    "ConfigVersion": 11,
+    "ConfigVersion": 22,
     "ID": 2,
     "ObjectiveType": 2,
     "ObjectiveText": "Kill 100 Infected",
@@ -9,7 +9,7 @@
         0.0,
         0.0
     ],
-    "MaxDistance": -1.0,
+    "MaxDistance": 150.0,
     "Target": {
         "Amount": 100,
         "ClassNames": [
@@ -82,6 +82,8 @@
         "CountSelfKill": 0,
         "SpecialWeapon": 0,
         "AllowedWeapons": [],
-        "ExcludedClassNames": []
+        "ExcludedClassNames": [],
+        "CountAIPlayers": 0,
+        "AllowedTargetFactions": []
     }
 }

@@ -1,34 +1,27 @@
 {
-    "ConfigVersion": 2,
+    "ConfigVersion": 5,
     "ID": 3,
     "ClassName": "ExpansionQuestBoardLarge",
-    "IsAI": 0,
     "Position": [
-        0.0,
-        0.0,
-        0.0
+        6614.2998046875,
+        282.4830017089844,
+        7536.509765625
     ],
     "Orientation": [
-        0.0,
+        60.0,
         0.0,
         0.0
     ],
-    "QuestIDs": [
-        4,
-        5,
-        6,
-        7,
-        8
-    ],
-    "NPCName": "Quest Board",
-    "DefaultNPCText": "There is nothing to do here for you...",
+    "NPCName": "Доска заданий",
+    "DefaultNPCText": "Совершенно обычные задания...",
     "Waypoints": [],
     "NPCEmoteID": 46,
     "NPCEmoteIsStatic": 0,
     "NPCLoadoutFile": "",
-    "IsStatic": 1,
     "NPCInteractionEmoteID": 1,
     "NPCQuestCancelEmoteID": 60,
     "NPCQuestStartEmoteID": 58,
-    "NPCQuestCompleteEmoteID": 39
+    "NPCQuestCompleteEmoteID": 39,
+    "NPCFaction": "InvincibleObservers",
+    "NPCType": 1
 }

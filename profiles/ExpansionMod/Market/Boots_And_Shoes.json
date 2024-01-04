@@ -403,6 +403,19 @@
         },
         {
             "ClassName": "nbcbootsgray",
+            "MaxPriceThreshold": 320,
+            "MinPriceThreshold": 180,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "nbcbootsyellow"
+            ]
+        },
+        {
+            "ClassName": "nbcbootsyellow",
             "MaxPriceThreshold": 300,
             "MinPriceThreshold": 150,
             "SellPricePercent": -1.0,
@@ -413,9 +426,9 @@
             "Variants": []
         },
         {
-            "ClassName": "nbcbootsyellow",
-            "MaxPriceThreshold": 300,
-            "MinPriceThreshold": 150,
+            "ClassName": "medievalboots",
+            "MaxPriceThreshold": 250,
+            "MinPriceThreshold": 75,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,

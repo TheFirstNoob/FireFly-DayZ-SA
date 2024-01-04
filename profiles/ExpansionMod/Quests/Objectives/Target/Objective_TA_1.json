@@ -1,5 +1,5 @@
 {
-    "ConfigVersion": 11,
+    "ConfigVersion": 22,
     "ID": 1,
     "ObjectiveType": 2,
     "ObjectiveText": "Kill 10 Infected with a sledgehammer",
@@ -34,7 +34,7 @@
             "ZmbM_Jacket_Base",
             "ZmbM_Jacket_LT_Base",
             "ZmbM_JoggerSkinny_Base",
-            "ZmbM__Runner_Base",
+            "ZmbM_Runner_Base",
             "ZmbM_JournalistSkinny_Base",
             "ZmbM_MechanicSkinny_Base",
             "ZmbM_MotobikerFat_Base",
@@ -84,6 +84,8 @@
         "AllowedWeapons": [
             "SledgeHammer"
         ],
-        "ExcludedClassNames": []
+        "ExcludedClassNames": [],
+        "CountAIPlayers": 0,
+        "AllowedTargetFactions": []
     }
 }

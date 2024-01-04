@@ -6,6 +6,14 @@
             "Address": "",
             "Types": [
                 {
+                    "Name": "ExpansionCOTTerritoriesModule",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "ExpansionCOTGroupModule",
+                    "Enabled": 0
+                },
+                {
                     "Name": "COTModule",
                     "Enabled": 0
                 },
@@ -94,6 +102,18 @@
                     "Enabled": 0
                 },
                 {
+                    "Name": "JMESPModuleCar_Unstuck",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMESPModuleCar_Repair",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMESPModuleCar_Refuel",
+                    "Enabled": 0
+                },
+                {
                     "Name": "JMESPModuleMakeItemSet",
                     "Enabled": 0
                 },
@@ -106,11 +126,7 @@
                     "Enabled": 0
                 },
                 {
-                    "Name": "JMESPModuleMoveToCursorRelative",
-                    "Enabled": 0
-                },
-                {
-                    "Name": "JMESPModuleMoveToCursorAbsolute",
+                    "Name": "JMESPModuleMoveToCursor",
                     "Enabled": 0
                 },
                 {

@@ -1,0 +1,133 @@
+{
+    "m_Version": 12,
+    "DisplayName": "Оружие - Автоматы",
+    "Icon": "Gun",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 50.0,
+    "Items": [
+        {
+            "ClassName": "FAL",
+            "MaxPriceThreshold": 2850,
+            "MinPriceThreshold": 2280,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 4,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "AKM",
+            "MaxPriceThreshold": 2200,
+            "MinPriceThreshold": 1760,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 4,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "AK101",
+            "MaxPriceThreshold": 1980,
+            "MinPriceThreshold": 1584,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 6,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "AK74",
+            "MaxPriceThreshold": 1450,
+            "MinPriceThreshold": 1160,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 8,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "M4A1",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 1440,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "M16A2",
+            "MaxPriceThreshold": 800,
+            "MinPriceThreshold": 640,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 10,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "FAMAS",
+            "MaxPriceThreshold": 750,
+            "MinPriceThreshold": 500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"SawedoffFAMAS"
+			]
+        },
+        {
+            "ClassName": "AUG",
+            "MaxPriceThreshold": 1500,
+            "MinPriceThreshold": 1200,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "AUGShort",
+            "MaxPriceThreshold": 1120,
+            "MinPriceThreshold": 896,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 7,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "Expansion_M16",
+            "MaxPriceThreshold": 1200,
+            "MinPriceThreshold": 960,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 6,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "Expansion_G36",
+            "MaxPriceThreshold": 1050,
+            "MinPriceThreshold": 840,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 8,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        }
+    ]
+}

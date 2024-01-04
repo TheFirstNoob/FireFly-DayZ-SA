@@ -99,14 +99,16 @@
         },
         {
             "ClassName": "nbcglovesgray",
-            "MaxPriceThreshold": 130,
-            "MinPriceThreshold": 65,
+            "MaxPriceThreshold": 160,
+            "MinPriceThreshold": 80,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "nbcglovesyellow"
+            ]
         },
         {
             "ClassName": "nbcglovesyellow",
@@ -118,6 +120,36 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
+        },
+        {
+            "ClassName": "woolgloves_green",
+            "MaxPriceThreshold": 70,
+            "MinPriceThreshold": 35,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "woolgloves_black",
+                "woolgloves_tan",
+                "woolgloves_white"
+            ]
+        },
+        {
+            "ClassName": "woolglovesfingerless_green",
+            "MaxPriceThreshold": 70,
+            "MinPriceThreshold": 35,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "woolglovesfingerless_black",
+                "woolglovesfingerless_tan",
+                "woolglovesfingerless_white"
+            ]
         }
     ]
 }

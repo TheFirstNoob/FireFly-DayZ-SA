@@ -1,16 +1,15 @@
 {
-    "ConfigVersion": 8,
+    "ConfigVersion": 20,
     "ID": 13,
     "Type": 1,
     "Title": "Catch a Fish",
     "Descriptions": [
         "PLACEHOLDER",
-        "Craft an improvidsed fishing rod and catch a mackerel.",
+        "Craft an improvised fishing rod and catch a mackerel.",
         "Turn in quest to get reward."
     ],
     "ObjectiveText": "Craft an improvised fishing rod and catch a mackerel!",
     "FollowUpQuest": -1,
-    "IsAchivement": 0,
     "Repeatable": 0,
     "IsDailyQuest": 0,
     "IsWeeklyQuest": 0,
@@ -18,41 +17,30 @@
     "Autocomplete": 0,
     "IsGroupQuest": 0,
     "ObjectSetFileName": "",
-    "QuestClassName": "",
-    "Objectives": [
-        {
-            "ConfigVersion": 11,
-            "ID": 1,
-            "ObjectiveType": 11,
-            "ObjectiveText": "",
-            "TimeLimit": -1
-        },
-        {
-            "ConfigVersion": 11,
-            "ID": 2,
-            "ObjectiveType": 4,
-            "ObjectiveText": "",
-            "TimeLimit": -1
-        }
-    ],
     "QuestItems": [],
     "Rewards": [
         {
             "ClassName": "ExpansionBanknoteHryvnia",
             "Amount": 10,
             "Attachments": [],
+            "DamagePercent": 0,
             "HealthPercent": 0,
-            "DamagePercent": 0
+            "QuestID": -1,
+            "Chance": 1.0
         },
         {
             "ClassName": "ImprovisedFishingRod",
             "Amount": 1,
             "Attachments": [],
+            "DamagePercent": 0,
             "HealthPercent": 0,
-            "DamagePercent": 0
+            "QuestID": -1,
+            "Chance": 1.0
         }
     ],
     "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
     "RewardsForGroupOwnerOnly": 1,
     "QuestGiverIDs": [
         1
@@ -60,8 +48,28 @@
     "QuestTurnInIDs": [
         1
     ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 22,
+            "ID": 1,
+            "ObjectiveType": 11
+        },
+        {
+            "ConfigVersion": 22,
+            "ID": 2,
+            "ObjectiveType": 4
+        }
+    ],
     "QuestColor": 0,
     "ReputationReward": 0,
     "ReputationRequirement": -1,
-    "PreQuestIDs": []
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 1,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {}
 }

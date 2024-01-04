@@ -16,6 +16,7 @@ Admin.Player.StopBleeding 2
 Admin.Player.BrokenLegs 2
 Admin.Player.ReceiveDamageDealt 2
 Admin.Player.Kick 2
+Admin.Player.Message 2
 Admin.Player.CannotBeTargetedByAI 2
 Admin.Player.RemoveCollision 2
 Admin.Player.Teleport 2
@@ -36,6 +37,8 @@ Admin.Player.Set.Energy 2
 Admin.Player.Set.Water 2
 Admin.Player.Set.Stamina 2
 Admin.Player.Set.BloodyHands 2
+Admin.Player.Set.ExpansionEntityStorage 2
+Admin.Player.Set.ExpansionFaction 2
 Admin.Player.Set.ExpansionReputation 2
 Admin.Player.Read 2
 Admin.Transport 2
@@ -64,6 +67,7 @@ ESP.Object.SetHealth 2
 ESP.Object.Delete 2
 ESP.Object.DuplicateAll 2
 ESP.Object.DeleteAll 2
+ESP.Object.MoveToCursor 2
 ESP.View 2
 ESP.View.Player 2
 ESP.View.Infected 2
@@ -88,10 +92,6 @@ ESP.View.Item.Ammo 2
 ESP.View.Item.Unknown 2
 ESP.View.Immovable 2
 Expansion 2
-Expansion.Groups 2
-Expansion.Groups.View 2
-Expansion.Groups.EditGroup 2
-Expansion.Groups.DeleteGroup 2
 Expansion.Territories 2
 Expansion.Territories.View 2
 Expansion.Territories.Edit 2
@@ -99,6 +99,10 @@ Expansion.Territories.Delete 2
 Expansion.Territories.Delete.All 2
 Expansion.Territories.Delete.Destroyed 2
 Expansion.Territories.Teleport 2
+Expansion.Groups 2
+Expansion.Groups.View 2
+Expansion.Groups.EditGroup 2
+Expansion.Groups.DeleteGroup 2
 COT 2
 COT.View 2
 Entity 2

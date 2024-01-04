@@ -1,8 +1,8 @@
 {
-    "ConfigVersion": 11,
+    "ConfigVersion": 22,
     "ID": 4,
     "ObjectiveType": 2,
-    "ObjectiveText": "Kill 10 Military/NPC Infected",
+    "ObjectiveText": "Kill 10 Military/NBC Infected",
     "TimeLimit": -1,
     "Position": [
         0.0,
@@ -23,6 +23,8 @@
         "CountSelfKill": 0,
         "SpecialWeapon": 0,
         "AllowedWeapons": [],
-        "ExcludedClassNames": []
+        "ExcludedClassNames": [],
+        "CountAIPlayers": 0,
+        "AllowedTargetFactions": []
     }
 }

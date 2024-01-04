@@ -16,7 +16,53 @@
     "EnableServerMarkers": 1,
     "ShowNameOnServerMarkers": 1,
     "ShowDistanceOnServerMarkers": 1,
-    "ServerMarkers": [],
+    "ServerMarkers": [
+	{
+            "m_UID": "ServerMarker_Trader_Main",
+            "m_Visibility": 6,
+            "m_Is3D": 0,
+            "m_Text": "Торговая зона",
+            "m_IconName": "Trader",
+            "m_Color": -13710223,
+            "m_Position": [
+                6611.0,
+                282.0,
+                7527.0
+            ],
+            "m_Locked": 0,
+            "m_Persist": 0
+        },
+        {
+            "m_UID": "ServerMarker_Trader_Joshua_Food",
+            "m_Visibility": 6,
+            "m_Is3D": 0,
+            "m_Text": "Лагерь Джошуа",
+            "m_IconName": "Tent",
+            "m_Color": -13710223,
+            "m_Position": [
+                15224.0,
+                514.4271240234375,
+                2798.0
+            ],
+            "m_Locked": 0,
+            "m_Persist": 0
+        },
+        {
+            "m_UID": "ServerMarker_Trader_Lab_Factory_Hidden",
+            "m_Visibility": 6,
+            "m_Is3D": 0,
+            "m_Text": "Лаборатория (скрыть)",
+            "m_IconName": "Gas Mask",
+            "m_Color": -13710223,
+            "m_Position": [
+                10489.0,
+                499.0,
+                11321.0
+            ],
+            "m_Locked": 0,
+            "m_Persist": 0
+        }
+	],
     "EnableHUDCompass": 1,
     "NeedCompassItemForHUDCompass": 1,
     "NeedGPSItemForHUDCompass": 1,

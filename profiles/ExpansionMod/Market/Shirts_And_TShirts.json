@@ -22,7 +22,8 @@
                 "tshirt_beige",
                 "tshirt_grey",
                 "tshirt_black",
-                "tshirt_green"
+                "tshirt_green",
+                "tshirt_white"
             ]
         },
         {
@@ -56,7 +57,9 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "tshirt_10thanniversary"
+            ]
         },
         {
             "ClassName": "tshirt_green",

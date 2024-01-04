@@ -1,0 +1,110 @@
+{
+    "adminSteamId": "",
+    "ShowStaminaWidgetInVehicle": 1,
+    "StaminaGeneralOptions": {
+        "IsActive": 1,
+        "RespawnValuePercent": 100.0,
+        "CostPerSecondRestPercent": 0.5,
+        "CostPerSecondNoMovementPercent": 0.30000001192092898,
+        "CostPerSecondNormalWalkingPercent": 0.30000001192092898,
+        "CostPerSecondCrouchWalkingPercent": 0.15000000596046449,
+        "CostPerSecondProneWalkingPercent": 0.15000000596046449,
+        "CostPerSecondJogPercent": -0.05000000074505806,
+        "CostPerSecondCrouchSprintPercent": -0.15000000596046449,
+        "CostPerSecondSprintPercent": -0.5,
+        "CostPerRollPercent": -0.5,
+        "CostPerJumpPercent": -1.0,
+        "CostPerClimbPercent": -1.0,
+        "CostPerMeleeAttackPercent": -0.5,
+        "CostPerMinePercent": -3.0,
+        "CostPerMinePlanksFromPileOfWoodenPlanksPercent": -3.0,
+        "CostPerMinePlanksFromWoodenLogPercent": -15.0,
+        "CostPerBuildPercent": -3.0,
+        "WalkingWeightDebuffBorderKg": 50.0,
+        "MovementRestrictionWeightLimitKg": 100.0,
+        "OneDegreeOfSlopeUpMultiplierPercent": 10.0,
+        "OneDegreeOfSlopeDownMultiplierPercent": 5.0,
+        "SurfaceRoadMultiplier": 0.8999999761581421,
+        "SurfaceGrassMultiplier": 1.0,
+        "SurfaceGrassTallMultiplier": 1.100000023841858,
+        "SurfaceForestMultiplier": 1.100000023841858,
+        "SurfaceStoneMultiplier": 1.0,
+        "SurfaceSandMultiplier": 1.5,
+        "SurfaceWaterMultiplier": 2.0,
+        "EpinephrineMultiplier": 0.20000000298023225,
+        "MorphineMultiplier": 1.0,
+        "HeatMultiplier": 2.0,
+        "ShockPerSecondJogCritical": -1.0,
+        "ShockPerSecondSprintCritical": -4.0,
+        "ShockPerSecondJogLow": 0.0,
+        "ShockPerSecondSprintLow": -2.0,
+        "CriticalThresholdPercent": 5.0,
+        "LowThresholdPercent": 20.0
+    },
+    "StaminaSleepOptions": {
+        "IsActive": 1,
+        "RespawnValuePercent": 100.0,
+        "ReductionOfMaximumSleepWhenDaytimePercent": 20.0,
+        "ReductionOfMaximumSleepWhenOutdoorsPercent": 20.0,
+        "ReductionOfMaximumSleepWhenWetPercent": 20.0,
+        "ReductionOfMaximumSleepWhenColdPercent": 20.0,
+        "ReductionOfMaximumSleepWhenHotPercent": 20.0,
+        "DelayBeforeSleepSeconds": 10.0,
+        "DelayBeforeNextSleepTryInLyingDownSeconds": 600.0,
+        "CostPerSecondSleepPercent": 0.20000000298023225,
+        "CostPerSecondRestPercent": -0.003000000026077032,
+        "CostPerSecondNoMovementPercent": -0.003000000026077032,
+        "CostPerSecondNormalWalkingPercent": -0.004000000189989805,
+        "CostPerSecondCrouchWalkingPercent": -0.004000000189989805,
+        "CostPerSecondProneWalkingPercent": -0.004000000189989805,
+        "CostPerSecondJogPercent": -0.004999999888241291,
+        "CostPerSecondCrouchSprintPercent": -0.006000000052154064,
+        "CostPerSecondSprintPercent": -0.009999999776482582,
+        "CostPerRollPercent": -0.009999999776482582,
+        "CostPerJumpPercent": -0.009999999776482582,
+        "CostPerClimbPercent": -0.009999999776482582,
+        "CostPerMeleeAttackPercent": -0.009999999776482582,
+        "CostPerMinePercent": -0.009999999776482582,
+        "CostPerMinePlanksFromPileOfWoodenPlanksPercent": -0.009999999776482582,
+        "CostPerMinePlanksFromWoodenLogPercent": -0.05000000074505806,
+        "CostPerBuildPercent": -0.009999999776482582,
+        "EpinephrineMultiplier": 0.20000000298023225,
+        "MorphineMultiplier": 50.0,
+        "CriticalThresholdPercent": 5.0,
+        "LowThresholdPercent": 20.0,
+        "SleepinessThresholdPercent": 50.0
+    },
+    "StaminaStimulants": [
+        {
+            "ItemClass": "SodaCan_Cola",
+            "StaminaGeneralIncreasePercent": 20.0,
+            "StaminaSleepIncreasePercent": 10.0
+        },
+        {
+            "ItemClass": "SodaCan_Pipsi",
+            "StaminaGeneralIncreasePercent": 20.0,
+            "StaminaSleepIncreasePercent": 10.0
+        }
+    ],
+    "ComfortablePlaces": [
+        {
+            "ItemClass": "MediumTentClutterCutter",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "LargeTentClutterCutter",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        }
+    ],
+    "Clothes": [
+        {
+            "ItemClass": "RadarCap_Black",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 1.0
+        }
+    ],
+    "InediaStamina_ConfigClass": "InediaStamina_Config",
+    "InediaStamina_ConfigVariable": "m_InediaStamina_AthleticActiveMindstate"
+}
