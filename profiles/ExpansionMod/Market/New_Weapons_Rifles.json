@@ -4,7 +4,7 @@
     "Icon": "Gun",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 50.0,
+    "InitStockPercent": 75.0,
     "Items": [
 		{
             "ClassName": "SKS",
@@ -14,7 +14,9 @@
             "MaxStockThreshold": 4,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
+            "SpawnAttachments": [
+				"Mag_CLIP762x39_10Rnd"
+			],
             "Variants": []
         },
 		{
@@ -91,7 +93,9 @@
             "MaxStockThreshold": 6,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
+            "SpawnAttachments": [
+				"Mag_CLIP762x54_5Rnd"
+			],
             "Variants": []
         },
 		{
@@ -102,7 +106,9 @@
             "MaxStockThreshold": 8,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
+            "SpawnAttachments": [
+				"Mag_CLIP762x54_5Rnd"
+			],
             "Variants": []
         },
         {

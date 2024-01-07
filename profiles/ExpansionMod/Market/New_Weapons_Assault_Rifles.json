@@ -4,7 +4,7 @@
     "Icon": "Gun",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 50.0,
+    "InitStockPercent": 75.0,
     "Items": [
         {
             "ClassName": "FAL",
@@ -14,7 +14,10 @@
             "MaxStockThreshold": 4,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
+            "SpawnAttachments": [
+				"fal_oebttstck",
+				"mag_fal_20rnd"
+			],
             "Variants": []
         },
         {
@@ -25,7 +28,11 @@
             "MaxStockThreshold": 4,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
+            "SpawnAttachments": [
+                "ak_woodbttstck",
+                "ak_woodhndgrd",
+                "mag_akm_30rnd"
+            ],
             "Variants": []
         },
         {
@@ -36,7 +43,11 @@
             "MaxStockThreshold": 6,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
+            "SpawnAttachments": [
+                "ak_plasticbttstck",
+                "ak_plastichndgrd",
+                "mag_ak101_30rnd"
+            ],
             "Variants": []
         },
         {
@@ -47,7 +58,11 @@
             "MaxStockThreshold": 8,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
+            "SpawnAttachments": [
+                "ak74_woodbttstck",
+                "ak74_hndgrd",
+                "mag_ak74_30rnd"
+            ],
             "Variants": []
         },
         {
@@ -58,7 +73,12 @@
             "MaxStockThreshold": 5,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
+            "SpawnAttachments": [
+                "m4_carryhandleoptic",
+                "mag_stanag_30rnd",
+                "m4_oebttstck",
+                "m4_plastichndgrd"
+            ],
             "Variants": []
         },
         {
@@ -69,7 +89,9 @@
             "MaxStockThreshold": 10,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
+            "SpawnAttachments": [
+                "mag_stanag_30rnd"
+            ],
             "Variants": []
         },
         {
@@ -80,7 +102,9 @@
             "MaxStockThreshold": 5,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
+            "SpawnAttachments": [
+                "mag_famas_25rnd"
+            ],
             "Variants": [
 				"SawedoffFAMAS"
 			]
@@ -93,7 +117,9 @@
             "MaxStockThreshold": 5,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
+            "SpawnAttachments": [
+                "mag_aug_30rnd"
+            ],
             "Variants": []
         },
         {
@@ -104,7 +130,9 @@
             "MaxStockThreshold": 7,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
+            "SpawnAttachments": [
+                "mag_aug_30rnd"
+            ],
             "Variants": []
         },
         {
@@ -115,7 +143,9 @@
             "MaxStockThreshold": 6,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
+            "SpawnAttachments": [
+                "mag_stanag_30rnd"
+            ],
             "Variants": []
         },
         {
@@ -126,7 +156,9 @@
             "MaxStockThreshold": 8,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
+            "SpawnAttachments": [
+                "mag_expansion_g36_30rnd"
+            ],
             "Variants": []
         }
     ]

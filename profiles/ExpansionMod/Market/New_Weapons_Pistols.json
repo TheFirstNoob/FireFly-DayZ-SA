@@ -4,7 +4,7 @@
     "Icon": "Gun",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 50.0,
+    "InitStockPercent": 75.0,
     "Items": [
         {
             "ClassName": "makarovij70",
@@ -14,7 +14,9 @@
             "MaxStockThreshold": 12,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
+            "SpawnAttachments": [
+                "mag_ij70_8rnd"
+            ],
             "Variants": []
         },
         {
@@ -26,7 +28,10 @@
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "derringer_grey",
+                "derringer_pink"
+            ]
         },
         {
             "ClassName": "cz75",
@@ -36,7 +41,9 @@
             "MaxStockThreshold": 10,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
+            "SpawnAttachments": [
+                "mag_cz75_15rnd"
+            ],
             "Variants": []
         },
         {
@@ -47,7 +54,9 @@
             "MaxStockThreshold": 10,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
+            "SpawnAttachments": [
+                "mag_fnx45_15rnd"
+            ],
             "Variants": []
         },
         {
@@ -58,7 +67,9 @@
             "MaxStockThreshold": 8,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
+            "SpawnAttachments": [
+                "mag_glock_15rnd"
+            ],
             "Variants": []
         },
         {
@@ -69,7 +80,9 @@
             "MaxStockThreshold": 7,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
+            "SpawnAttachments": [
+                "mag_mkii_10rnd"
+            ],
             "Variants": []
         },
         {
@@ -80,7 +93,9 @@
             "MaxStockThreshold": 8,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
+            "SpawnAttachments": [
+                "mag_1911_7rnd"
+            ],
             "Variants": []
         },
         {
@@ -91,7 +106,9 @@
             "MaxStockThreshold": 4,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
+            "SpawnAttachments": [
+                "mag_1911_7rnd"
+            ],
             "Variants": []
         },
         {
@@ -102,7 +119,9 @@
             "MaxStockThreshold": 6,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
+            "SpawnAttachments": [
+				"Mag_357Speedloader_6Rnd"
+			],
             "Variants": []
         },
 		{
@@ -113,7 +132,9 @@
             "MaxStockThreshold": 6,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
+            "SpawnAttachments": [
+				"Mag_357Speedloader_6Rnd"
+			],
             "Variants": []
         },
         {
@@ -124,7 +145,9 @@
             "MaxStockThreshold": 4,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
+            "SpawnAttachments": [
+                "mag_deagle_9rnd"
+            ],
             "Variants": [
                 "deagle_gold"
             ]
@@ -137,7 +160,9 @@
             "MaxStockThreshold": 4,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
+            "SpawnAttachments": [
+                "mag_deagle_9rnd"
+            ],
             "Variants": []
         },
         {
@@ -148,7 +173,9 @@
             "MaxStockThreshold": 15,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
+            "SpawnAttachments": [
+                "mag_p1_8rnd"
+            ],
             "Variants": []
         },
         {
@@ -170,7 +197,9 @@
             "MaxStockThreshold": 10,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
+            "SpawnAttachments": [
+                "mag_expansion_m9_15rnd"
+            ],
             "Variants": []
         }
     ]

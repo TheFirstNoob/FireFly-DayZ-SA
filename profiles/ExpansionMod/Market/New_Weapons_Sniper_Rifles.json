@@ -4,7 +4,7 @@
     "Icon": "Gun",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 50.0,
+    "InitStockPercent": 75.0,
     "Items": [
 		{
             "ClassName": "SSG82",
@@ -14,7 +14,9 @@
             "MaxStockThreshold": 5,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
+            "SpawnAttachments": [
+				"MAG_SSG82_5rnd"
+			],
             "Variants": []
         },
         {
@@ -25,7 +27,9 @@
             "MaxStockThreshold": 6,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
+            "SpawnAttachments": [
+                "mag_vss_10rnd"
+            ],
             "Variants": []
         },
         {
@@ -36,7 +40,9 @@
             "MaxStockThreshold": 8,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
+            "SpawnAttachments": [
+                "mag_val_20rnd"
+            ],
             "Variants": []
         },
         {
@@ -47,7 +53,9 @@
             "MaxStockThreshold": 3,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
+            "SpawnAttachments": [
+                "mag_svd_10rnd"
+            ],
             "Variants": []
         },
         {
@@ -58,7 +66,9 @@
             "MaxStockThreshold": 5,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
+            "SpawnAttachments": [
+                "mag_scout_5rnd"
+            ],
             "Variants": []
         },
         {
@@ -69,7 +79,9 @@
             "MaxStockThreshold": 3,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
+            "SpawnAttachments": [
+                "mag_expansion_awm_5rnd"
+            ],
             "Variants": []
         }
     ]
