@@ -17,8 +17,34 @@
     "LargeVehicles": [
         "expansionlhd"
     ],
-    "LandSpawnPositions": [],
-    "AirSpawnPositions": [],
+    "LandSpawnPositions": [
+		{
+			"Position": [
+				6567.2,
+				274.478,
+				7470.76
+			],
+			"Orientation": [
+				-45.0,
+				0.0,
+				0.0
+			]
+		}
+	],
+    "AirSpawnPositions": [
+		{
+			"Position": [
+				6550.58,
+				273.087,
+				7521.02
+			],
+			"Orientation": [
+				-112.0,
+				0.0,
+				0.0
+			]
+		}
+	],
     "WaterSpawnPositions": [],
     "MarketMenuColors": {
         "BaseColorVignette": "000000C8",
