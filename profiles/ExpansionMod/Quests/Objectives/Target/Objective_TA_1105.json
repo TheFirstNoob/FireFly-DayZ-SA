@@ -1,17 +1,17 @@
 {
     "ConfigVersion": 22,
-    "ID": 2,
+    "ID": 1105,
     "ObjectiveType": 2,
-    "ObjectiveText": "Kill 100 Infected",
+    "ObjectiveText": "Убейте зомби находятсь в Lutov",
     "TimeLimit": -1,
     "Position": [
-        0.0,
-        0.0,
-        0.0
+        7646.82,
+        237.432,
+        7531.37
     ],
-    "MaxDistance": 150.0,
+    "MaxDistance": 600.0,
     "Target": {
-        "Amount": 100,
+        "Amount": 1,
         "ClassNames": [
             "ZmbM_CitizenASkinny_Base",
             "ZmbM_CitizenASkinny_LT_Base",
@@ -34,7 +34,7 @@
             "ZmbM_Jacket_Base",
             "ZmbM_Jacket_LT_Base",
             "ZmbM_JoggerSkinny_Base",
-            "ZmbM__Runner_Base",
+            "ZmbM_Runner_Base",
             "ZmbM_JournalistSkinny_Base",
             "ZmbM_MechanicSkinny_Base",
             "ZmbM_MotobikerFat_Base",

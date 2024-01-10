@@ -1,25 +1,25 @@
 {
     "ConfigVersion": 20,
-    "ID": 4,
+    "ID": 5902,
     "Type": 1,
-    "Title": "Treasure Hunt - Currency",
+    "Title": "[Еженедельное] Заначка",
     "Descriptions": [
-        "PLACEHOLDER",
-        "PLACEHOLDER",
-        "PLACEHOLDER"
+        "Раз в Неделю вы можете получить Редкие халявные предметы. Точка выбирается случайно. Заначку откапывать НЕ НУЖНО!",
+        "Ты уже получил координаты. Проверь карту и ищи значок ???",
+        "Нашел? Забрал? Молодца!"
     ],
-    "ObjectiveText": "Find the treasure.",
+    "ObjectiveText": "Найдите заначку.",
     "FollowUpQuest": -1,
     "Repeatable": 1,
-    "IsDailyQuest": 1,
-    "IsWeeklyQuest": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 1,
     "CancelQuestOnPlayerDeath": 0,
     "Autocomplete": 1,
     "IsGroupQuest": 0,
     "ObjectSetFileName": "",
     "QuestItems": [
         {
-            "ClassName": "Shovel",
+            "ClassName": "WaterBottle",
             "Amount": 1
         }
     ],
@@ -38,14 +38,16 @@
     "Objectives": [
         {
             "ConfigVersion": 22,
-            "ID": 1,
+            "ID": 5902,
             "ObjectiveType": 6
         }
     ],
     "QuestColor": 0,
-    "ReputationReward": 0,
+    "ReputationReward": 250,
     "ReputationRequirement": -1,
-    "PreQuestIDs": [],
+    "PreQuestIDs": [
+		1101
+	],
     "RequiredFaction": "",
     "FactionReward": "",
     "PlayerNeedQuestItems": 1,
