@@ -3,9 +3,10 @@
 
 FireFly - Это российский сервер со своим виденьем баланса, торговли, сложности и так далее.
 
-Автор сборки: Я - TheFitstNoob
-[S-Platoon](http://s-platoon.ru/profile/923-thefirstnoob/)
-[WOGames](https://wogames.info/profile/7905-first/)
+Автор сборки: Я - TheFitstNoob  
+[S-Platoon](http://s-platoon.ru/profile/923-thefirstnoob/)  
+[WOGames](https://wogames.info/profile/7905-first/)  
+Discord: TheFirstNoob (Старое: TheFirstNoob#0538)  
 
 --------------------------
 Для корректной работы требуется:
