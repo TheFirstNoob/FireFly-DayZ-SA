@@ -1,0 +1,32 @@
+{
+    "m_Version": 12,
+    "DisplayName": "TF 3 - Обвесы Recivers",
+    "Icon": "Gun Bullets",
+    "Color": "81DD4D",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+		{
+            "ClassName": "TF_AK_Tactica_Tula1000Receiver",
+            "MaxPriceThreshold": 30,
+            "MinPriceThreshold": 24,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 150,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+		{
+            "ClassName": "TF_AK_B33Receiver",
+            "MaxPriceThreshold": 30,
+            "MinPriceThreshold": 24,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 150,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        }
+    ]
+}
