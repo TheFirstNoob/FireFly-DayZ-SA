@@ -1,5 +1,5 @@
 {
-    "ConfigVersion": 20,
+    "ConfigVersion": 21,
     "ID": 1104,
     "Type": 1,
     "Title": "[СЮЖЕТ] Проверка на способности",
@@ -19,7 +19,7 @@
     "ObjectSetFileName": "",
     "QuestItems": [],
     "Rewards": [
-		{
+        {
             "ClassName": "ExpansionBanknoteHryvnia",
             "Amount": 1000,
             "Attachments": [],
@@ -28,7 +28,7 @@
             "QuestID": -1,
             "Chance": 1.0
         }
-	],
+    ],
     "NeedToSelectReward": 0,
     "RandomReward": 0,
     "RandomRewardAmount": -1,
@@ -40,12 +40,12 @@
     "IsAchievement": 0,
     "Objectives": [
         {
-            "ConfigVersion": 22,
-			"ID": 1104,
-			"ObjectiveType": 3
+            "ConfigVersion": 26,
+            "ID": 1104,
+            "ObjectiveType": 3
         },
-		{
-            "ConfigVersion": 22,
+        {
+            "ConfigVersion": 26,
             "ID": 1105,
             "ObjectiveType": 2
         }
@@ -54,13 +54,15 @@
     "ReputationReward": 100,
     "ReputationRequirement": -1,
     "PreQuestIDs": [
-		1103
-	],
+        1103
+    ],
     "RequiredFaction": "",
     "FactionReward": "",
     "PlayerNeedQuestItems": 1,
     "DeleteQuestItems": 1,
     "SequentialObjectives": 1,
     "FactionReputationRequirements": {},
-    "FactionReputationRewards": {}
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
 }

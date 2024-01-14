@@ -402,6 +402,8 @@ class Expansion_Fighting_Positioning_State_0: eAIState {
 	}
 	override void OnEntry(string Event, ExpansionState From) {
 		time = 0;
+		if (unit.eAI_ShouldGetUp())
+		unit.Expansion_GetUp();
 	}
 	override void OnExit(string Event, bool Aborted, ExpansionState To) {
 		unit.OverrideMovementDirection(false, 0);
@@ -672,6 +674,7 @@ class Expansion_Fighting__Melee_Transition_0: eAITransition {
 		// we are targetting an entity?
 		dst.target = unit.GetTarget();
 		if (!dst.target || !dst.target.IsMeleeViable(unit) || dst.target.GetThreat(unit) < 0.4) return FAIL;
+		if (unit.IsBleeding() && unit.GetHealth01("", "Blood") < 0.7) return FAIL;
 		return SUCCESS;
 	}
 	override ExpansionState GetSource() { return src; }
@@ -1095,8 +1098,11 @@ class Expansion_Master_Idle_State_0: eAIState {
 		{
 			hands.GetCompEM().SwitchOff();
 		}
+		unit.OverrideTargetPosition(unit.GetPosition());
 		unit.OverrideMovementDirection(false, 0);
 		unit.OverrideMovementSpeed(true, 0);
+		if (unit.eAI_ShouldGetUp())
+		unit.Expansion_GetUp();
 	}
 	override void OnExit(string Event, bool Aborted, ExpansionState To) {
 	}
@@ -1118,6 +1124,8 @@ class Expansion_Master_Unconscious_State_0: eAIState {
 		unit.OverrideMovementSpeed(true, 0);
 	}
 	override void OnExit(string Event, bool Aborted, ExpansionState To) {
+		if (EXTrace.AI)
+		EXPrint(unit.ToString() + " left uncon state after " + time + " seconds");
 	}
 	override int OnUpdate(float DeltaTime, int SimulationPrecision) {
 		if (time > 3)
@@ -1127,6 +1135,7 @@ class Expansion_Master_Unconscious_State_0: eAIState {
 		if (!unit.IsUnconscious())
 		{
 			time += DeltaTime;  //! Allow time to stand up so we don't instantly start firing
+			if (unit.Expansion_IsAnimationIdle()) return EXIT;
 		}
 		return CONTINUE;
 	}
@@ -1180,9 +1189,6 @@ class Expansion_Master_FollowFormation_State_0: eAIState {
 }
 class Expansion_Master_TraversingWaypoints_State_0: eAIState {
 	Expansion_Master_FSM_0 fsm;
-	ref TVectorArray path;
-	eAIWaypointBehavior behaviour;
-	bool backtracking;
 	int index;
 	float threshold = 1.0;
 	float previousDistance;
@@ -1193,23 +1199,22 @@ class Expansion_Master_TraversingWaypoints_State_0: eAIState {
 		m_Name = "TraversingWaypoints";
 	}
 	override void OnEntry(string Event, ExpansionState From) {
-		path = unit.GetGroup().GetWaypoints();
-		if (path.Count() == 0)
-		{
-			path = { unit.GetPosition() + unit.GetDirection() * unit.Expansion_GetMovementSpeed() };
-		}
-		behaviour = unit.GetGroup().GetWaypointBehaviour();
 		unit.Expansion_GetUp();
-		if (previousWayPoint == vector.Zero && path.Count() > 1)
-		previousWayPoint = path[0] - vector.Direction(path[0], path[1]).Normalized();
 	}
 	override void OnExit(string Event, bool Aborted, ExpansionState To) {
 	}
 	override int OnUpdate(float DeltaTime, int SimulationPrecision) {
+		eAIWaypointBehavior behaviour = unit.GetGroup().GetWaypointBehaviour();
 		if (behaviour == eAIWaypointBehavior.HALT)
 		return EXIT;
+		TVectorArray path = unit.GetGroup().GetWaypoints();
+		if (path.Count() == 0)
+		{
+			return EXIT;
+			//path = { unit.GetPosition() + unit.GetDirection() * unit.Expansion_GetMovementSpeed() };
+		}
 		index = unit.GetGroup().m_CurrentWaypointIndex;
-		backtracking = unit.GetGroup().m_BackTracking;
+		bool backtracking = unit.GetGroup().m_BackTracking;
 		float distance = vector.DistanceSq(unit.GetPosition(), path[index]);
 		if (distance < threshold)
 		{
@@ -1258,9 +1263,15 @@ class Expansion_Master_TraversingWaypoints_State_0: eAIState {
 		unit.OverrideMovementSpeed(false, 0);
 		vector direction;
 		if (path.Count() > 1)
-		direction = vector.Direction(previousWayPoint, path[index]).Normalized();
+		{
+			if (previousWayPoint == vector.Zero)
+			previousWayPoint = path[0] - vector.Direction(path[0], path[1]).Normalized();
+			direction = vector.Direction(previousWayPoint, path[index]).Normalized();
+		}
 		else
-		direction = unit.GetDirection();
+		{
+			direction = unit.GetDirection();
+		}
 		unit.Expansion_DebugObject_Deferred(index + 20, path[index] - "0 1.5 0", "ExpansionDebugNoticeMe_Red", direction);
 		unit.Expansion_DebugObject_Deferred(path.Count() + 20, path[index], "ExpansionDebugNoticeMe", unit.GetDirection());
 		unit.GetGroup().m_CurrentWaypointIndex = index;
@@ -1418,9 +1429,7 @@ class Expansion_Master_TakeItemToHands_State_0: eAIState {
 	override void OnExit(string Event, bool Aborted, ExpansionState To) {
 	}
 	override int OnUpdate(float DeltaTime, int SimulationPrecision) {
-		if (!item)
-		return EXIT;
-		if (unit.GetItemInHands() != item)
+		if (item && unit.GetItemInHands() != item)
 		{
 			if (item.Expansion_IsInventoryLocked())
 			ExpansionStatic.UnlockInventoryRecursive(item, 10134);
@@ -1432,6 +1441,8 @@ class Expansion_Master_TakeItemToHands_State_0: eAIState {
 			time += DeltaTime;
 			return CONTINUE;
 		}
+		if (unit.GetActionManager().GetRunningAction())
+		return CONTINUE;
 		return EXIT;
 	}
 }
@@ -1451,9 +1462,7 @@ class Expansion_Master_TakeItemToInventory_State_0: eAIState {
 	override void OnExit(string Event, bool Aborted, ExpansionState To) {
 	}
 	override int OnUpdate(float DeltaTime, int SimulationPrecision) {
-		if (!item)
-		return EXIT;
-		if (!item.GetHierarchyRootPlayer())
+		if (item && !item.GetHierarchyRootPlayer())
 		{
 			if (item.Expansion_IsInventoryLocked())
 			ExpansionStatic.UnlockInventoryRecursive(item, 10134);
@@ -1465,6 +1474,8 @@ class Expansion_Master_TakeItemToInventory_State_0: eAIState {
 			time += DeltaTime;
 			return CONTINUE;
 		}
+		if (unit.GetActionManager().GetRunningAction())
+		return CONTINUE;
 		return EXIT;
 	}
 }

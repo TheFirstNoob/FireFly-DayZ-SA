@@ -1,5 +1,5 @@
 {
-    "ConfigVersion": 20,
+    "ConfigVersion": 21,
     "ID": 5902,
     "Type": 1,
     "Title": "[Еженедельное] Заначка",
@@ -37,7 +37,7 @@
     "IsAchievement": 0,
     "Objectives": [
         {
-            "ConfigVersion": 22,
+            "ConfigVersion": 26,
             "ID": 5902,
             "ObjectiveType": 6
         }
@@ -46,13 +46,15 @@
     "ReputationReward": 250,
     "ReputationRequirement": -1,
     "PreQuestIDs": [
-		1101
-	],
+        1101
+    ],
     "RequiredFaction": "",
     "FactionReward": "",
     "PlayerNeedQuestItems": 1,
     "DeleteQuestItems": 1,
     "SequentialObjectives": 1,
     "FactionReputationRequirements": {},
-    "FactionReputationRewards": {}
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
 }

@@ -1,9 +1,10 @@
 {
-    "ConfigVersion": 22,
+    "ConfigVersion": 26,
     "ID": 1103,
     "ObjectiveType": 5,
     "ObjectiveText": "Доставьте пакет Петровичу",
     "TimeLimit": -1,
+    "Active": 1,
     "Collections": [
         {
             "Amount": 1,
@@ -14,6 +15,6 @@
     ],
     "ShowDistance": 1,
     "AddItemsToNearbyMarketZone": 0,
-    "MaxDistance": 20.0,
-    "MarkerName": "Петрович"
+    "MaxDistance": 10.0,
+    "MarkerName": "Deliver Items"
 }

@@ -1,9 +1,10 @@
 {
-    "ConfigVersion": 22,
+    "ConfigVersion": 26,
     "ID": 1102,
     "ObjectiveType": 5,
     "ObjectiveText": "Доставьте список Бубылде",
     "TimeLimit": -1,
+    "Active": 1,
     "Collections": [
         {
             "Amount": 1,
@@ -14,6 +15,6 @@
     ],
     "ShowDistance": 1,
     "AddItemsToNearbyMarketZone": 0,
-    "MaxDistance": 20.0,
-    "MarkerName": "Бубылда"
+    "MaxDistance": 10.0,
+    "MarkerName": "Deliver Items"
 }

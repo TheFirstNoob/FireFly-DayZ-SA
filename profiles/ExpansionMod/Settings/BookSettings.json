@@ -1,5 +1,5 @@
 {
-    "m_Version": 4,
+    "m_Version": 5,
     "EnableStatusTab": 1,
     "EnablePartyTab": 1,
     "EnableServerInfoTab": 1,
@@ -7,7 +7,7 @@
     "EnableTerritoryTab": 1,
     "EnableBookMenu": 1,
     "CreateBookmarks": 1,
-    "ShowHaBStats": 0,
+    "ShowHaBStats": 1,
     "ShowPlayerFaction": 1,
     "RuleCategories": [
         {
@@ -331,5 +331,6 @@
                 "improvisedsuppressor"
             ]
         }
-    ]
+    ],
+    "EnableCraftingRecipesTab": 0
 }

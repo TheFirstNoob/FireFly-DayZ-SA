@@ -1,71 +1,72 @@
 {
-    "ConfigVersion": 22,
+    "ConfigVersion": 26,
     "ID": 5901,
     "ObjectiveType": 6,
     "ObjectiveText": "Найдите Клад",
     "TimeLimit": -1,
+    "Active": 1,
     "ShowDistance": 0,
     "ContainerName": "ExpansionQuestSeaChest",
     "DigInStash": 1,
     "MarkerName": "Клад",
     "MarkerVisibility": 4,
     "Positions": [
-		[
-			6672.06,
-			288.317,
-			7726.74
-		],
-		[
-			8857.44,
-			246.519,
-			6298.23
-		],
-		[
-			5923.69,
-			245.87,
-			9313.21
-		],
-		[
-			4427.47,
-			208.05,
-			7412.72
-		],
-		[
-			6930.14,
-			233.102,
-			3553.08
-		],
-		[
-			3224.8,
-			224.673,
-			4461.44
-		],
-		[
-			11169.1,
-			364.852,
-			8536.08
-		],
-		[
-			7535.9,
-			470.915,
-			10838.9
-		],
-		[
-			9577.94,
-			271.45,
-			5981.96
-		],
-		[
-			5467.36,
-			355.338,
-			12927.5
-		]
-	],
+        [
+            6672.06005859375,
+            289.3169860839844,
+            7726.740234375
+        ],
+        [
+            8857.4404296875,
+            247.5189971923828,
+            6298.22998046875
+        ],
+        [
+            5923.68994140625,
+            246.8699951171875,
+            9313.2099609375
+        ],
+        [
+            4427.47021484375,
+            209.0500030517578,
+            7412.72021484375
+        ],
+        [
+            6930.14013671875,
+            234.1020050048828,
+            3553.080078125
+        ],
+        [
+            3224.800048828125,
+            225.67300415039063,
+            4461.43994140625
+        ],
+        [
+            11169.099609375,
+            365.85198974609377,
+            8536.080078125
+        ],
+        [
+            7535.89990234375,
+            471.9150085449219,
+            10838.900390625
+        ],
+        [
+            9577.9404296875,
+            272.45001220703127,
+            5981.9599609375
+        ],
+        [
+            5467.35986328125,
+            356.3380126953125,
+            12927.5
+        ]
+    ],
     "Loot": [
         {
             "Name": "Binoculars",
             "Attachments": [],
-            "Chance": 0.33,
+            "Chance": 0.33000001311302187,
             "QuantityPercent": -1,
             "Max": -1,
             "Min": 0,
@@ -76,7 +77,7 @@
             "Attachments": [
                 "Battery9V"
             ],
-            "Chance": 0.05,
+            "Chance": 0.05000000074505806,
             "QuantityPercent": -1,
             "Max": -1,
             "Min": 0,
@@ -85,64 +86,64 @@
         {
             "Name": "Deagle_gold",
             "Attachments": [
-				"mag_deagle_9rnd"
-			],
-            "Chance": 0.05,
+                "mag_deagle_9rnd"
+            ],
+            "Chance": 0.05000000074505806,
             "QuantityPercent": -1,
             "Max": -1,
             "Min": 0,
             "Variants": []
         },
-		{
+        {
             "Name": "Engraved1911",
             "Attachments": [
-				"mag_1911_7rnd"
-			],
-            "Chance": 0.05,
+                "mag_1911_7rnd"
+            ],
+            "Chance": 0.05000000074505806,
             "QuantityPercent": -1,
             "Max": -1,
             "Min": 0,
             "Variants": []
         },
-		{
+        {
             "Name": "Scout",
             "Attachments": [
-				"mag_scout_5rnd"
-			],
-            "Chance": 0.05,
+                "mag_scout_5rnd"
+            ],
+            "Chance": 0.05000000074505806,
             "QuantityPercent": -1,
             "Max": -1,
             "Min": 0,
             "Variants": []
         },
-		{
+        {
             "Name": "ASVAL",
             "Attachments": [
-				"mag_val_20rnd"
-			],
-            "Chance": 0.05,
+                "mag_val_20rnd"
+            ],
+            "Chance": 0.05000000074505806,
             "QuantityPercent": -1,
             "Max": -1,
             "Min": 0,
             "Variants": []
         },
-		{
+        {
             "Name": "Saiga",
             "Attachments": [
-				"Mag_Saiga_Drum20Rnd"
-			],
-            "Chance": 0.05,
+                "Mag_Saiga_Drum20Rnd"
+            ],
+            "Chance": 0.05000000074505806,
             "QuantityPercent": -1,
             "Max": -1,
             "Min": 0,
             "Variants": []
         },
-		{
+        {
             "Name": "VSS",
             "Attachments": [
-				"mag_vss_10rnd"
-			],
-            "Chance": 0.05,
+                "mag_vss_10rnd"
+            ],
+            "Chance": 0.05000000074505806,
             "QuantityPercent": -1,
             "Max": -1,
             "Min": 0,
@@ -151,22 +152,22 @@
         {
             "Name": "WeaponCleaningKit",
             "Attachments": [],
-            "Chance": 0.1,
+            "Chance": 0.10000000149011612,
             "QuantityPercent": -1,
             "Max": -1,
             "Min": 0,
             "Variants": []
         },
-		{
+        {
             "Name": "BatteryCharger",
             "Attachments": [],
-            "Chance": 0.1,
+            "Chance": 0.10000000149011612,
             "QuantityPercent": -1,
             "Max": -1,
             "Min": 0,
             "Variants": []
         },
-		{
+        {
             "Name": "VitaminBottle",
             "Attachments": [],
             "Chance": 0.25,
@@ -175,46 +176,46 @@
             "Min": 0,
             "Variants": []
         },
-		{
+        {
             "Name": "AliceBag_Green",
             "Attachments": [],
-            "Chance": 0.05,
+            "Chance": 0.05000000074505806,
             "QuantityPercent": -1,
             "Max": -1,
             "Min": 0,
             "Variants": []
         },
-		{
+        {
             "Name": "ExpansionGPS",
             "Attachments": [],
-            "Chance": 0.1,
+            "Chance": 0.10000000149011612,
             "QuantityPercent": -1,
             "Max": -1,
             "Min": 0,
             "Variants": []
         },
-		{
+        {
             "Name": "NVGoggles",
             "Attachments": [],
-            "Chance": 0.1,
+            "Chance": 0.10000000149011612,
             "QuantityPercent": -1,
             "Max": -1,
             "Min": 0,
             "Variants": []
         },
-		{
+        {
             "Name": "CarTent",
             "Attachments": [],
-            "Chance": 0.1,
+            "Chance": 0.10000000149011612,
             "QuantityPercent": -1,
             "Max": -1,
             "Min": 0,
             "Variants": []
         },
-		{
+        {
             "Name": "ExpansionSafeMini",
             "Attachments": [],
-            "Chance": 0.1,
+            "Chance": 0.10000000149011612,
             "QuantityPercent": -1,
             "Max": -1,
             "Min": 0,
