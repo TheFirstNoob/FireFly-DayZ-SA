@@ -6,27 +6,5 @@
     "IsExchange": 0,
     "InitStockPercent": 75.0,
     "Items": [
-        {
-            "ClassName": "engineoil",
-            "MaxPriceThreshold": 140,
-            "MinPriceThreshold": 70,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "canistergasoline",
-            "MaxPriceThreshold": 600,
-            "MinPriceThreshold": 300,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        }
     ]
 }

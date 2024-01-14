@@ -1,7 +1,7 @@
 {
     "m_Version": 12,
     "DisplayName": "Детали для техники - Внутреннее",
-    "Icon": "Deliver",
+    "Icon": "Screwdriver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
     "InitStockPercent": 75.0,
@@ -65,28 +65,6 @@
             "ClassName": "carradiator",
             "MaxPriceThreshold": 400,
             "MinPriceThreshold": 200,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-		{
-            "ClassName": "CanisterGasoline",
-            "MaxPriceThreshold": 200,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-		{
-            "ClassName": "TireRepairKit",
-            "MaxPriceThreshold": 200,
-            "MinPriceThreshold": 100,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,

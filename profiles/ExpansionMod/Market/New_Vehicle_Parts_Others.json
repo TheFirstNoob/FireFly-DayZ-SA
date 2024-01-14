@@ -1,13 +1,13 @@
 {
     "m_Version": 12,
-    "DisplayName": "Все от Химической защиты",
-    "Icon": "Radiation",
-    "Color": "FF7F50",
+    "DisplayName": "Прочее",
+    "Icon": "Hammer",
+    "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 50.0,
+    "InitStockPercent": 75.0,
     "Items": [
-        {
-            "ClassName": "AntiChemInjector",
+		{
+            "ClassName": "CanisterGasoline",
             "MaxPriceThreshold": 200,
             "MinPriceThreshold": 100,
             "SellPricePercent": -1.0,
@@ -18,7 +18,7 @@
             "Variants": []
         },
 		{
-            "ClassName": "NBCGlovesYellow",
+            "ClassName": "TireRepairKit",
             "MaxPriceThreshold": 200,
             "MinPriceThreshold": 100,
             "SellPricePercent": -1.0,
@@ -26,61 +26,66 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": [
-				"NBCGlovesGray"
-			]
+            "Variants": []
         },
 		{
-            "ClassName": "NBCHoodYellow",
-            "MaxPriceThreshold": 200,
-            "MinPriceThreshold": 100,
+            "ClassName": "EngineOil",
+            "MaxPriceThreshold": 120,
+            "MinPriceThreshold": 60,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": [
-				"NBCHoodGray"
-			]
+            "Variants": []
         },
 		{
-            "ClassName": "NBCPantsYellow",
-            "MaxPriceThreshold": 200,
-            "MinPriceThreshold": 100,
+            "ClassName": "rag_car_jack",
+            "MaxPriceThreshold": 120,
+            "MinPriceThreshold": 60,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": [
-				"NBCPantsGray"
-			]
+            "Variants": []
         },
 		{
-            "ClassName": "NBCJacketYellow",
-            "MaxPriceThreshold": 200,
-            "MinPriceThreshold": 100,
+            "ClassName": "ExpansionCarKey",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 900,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
+            "MaxStockThreshold": 1000,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-				"NBCJacketGray"
-			]
+            "SpawnAttachments": [
+				"ExpansionCarChainBase"
+			],
+            "Variants": []
         },
 		{
-            "ClassName": "NBCBootsYellow",
-            "MaxPriceThreshold": 200,
-            "MinPriceThreshold": 100,
+            "ClassName": "lugwrench",
+            "MaxPriceThreshold": 8,
+            "MinPriceThreshold": 4,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": [
-				"NBCBootsGray"
-			]
+            "Variants": []
+        },
+		{
+            "ClassName": "blowtorch",
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 250,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "smallgascanister"
+            ],
+            "Variants": []
         }
     ]
 }

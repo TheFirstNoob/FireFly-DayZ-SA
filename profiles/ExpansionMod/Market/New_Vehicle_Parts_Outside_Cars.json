@@ -1,8 +1,8 @@
 {
     "m_Version": 12,
     "DisplayName": "Детали для техники - Внешне Автомобили",
-    "Icon": "Deliver",
-    "Color": "FBFCFEFF",
+    "Icon": "Scrap Metal",
+    "Color": "#9ACD32",
     "IsExchange": 0,
     "InitStockPercent": 75.0,
     "Items": [
@@ -61,17 +61,6 @@
                 "hatchbackdoors_codriver_blue",
                 "hatchbackdoors_codriver_white"
             ]
-        },
-        {
-            "ClassName": "hatchbackwheel",
-            "MaxPriceThreshold": 1000,
-            "MinPriceThreshold": 500,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         },
         {
             "ClassName": "hatchback_02_hood",
@@ -158,17 +147,6 @@
             ]
         },
         {
-            "ClassName": "hatchback_02_wheel",
-            "MaxPriceThreshold": 1000,
-            "MinPriceThreshold": 500,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "civsedanhood",
             "MaxPriceThreshold": 800,
             "MinPriceThreshold": 400,
@@ -251,17 +229,6 @@
                 "civsedandoors_backright_wine",
                 "civsedandoors_backright_black"
             ]
-        },
-        {
-            "ClassName": "civsedanwheel",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 600,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         },
         {
             "ClassName": "sedan_02_hood",
@@ -348,17 +315,6 @@
             ]
         },
         {
-            "ClassName": "sedan_02_wheel",
-            "MaxPriceThreshold": 1000,
-            "MinPriceThreshold": 500,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "truck_01_hood",
             "MaxPriceThreshold": 800,
             "MinPriceThreshold": 400,
@@ -399,28 +355,6 @@
                 "truck_01_door_2_1_blue",
                 "truck_01_door_2_1_orange"
             ]
-        },
-        {
-            "ClassName": "truck_01_wheel",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 600,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "truck_01_wheeldouble",
-            "MaxPriceThreshold": 2000,
-            "MinPriceThreshold": 1000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         },
         {
             "ClassName": "offroad_02_hood",
@@ -489,61 +423,6 @@
             "Variants": []
         },
         {
-            "ClassName": "offroad_02_wheel",
-            "MaxPriceThreshold": 1000,
-            "MinPriceThreshold": 500,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "expansiontractordoorsdriver",
-            "MaxPriceThreshold": 800,
-            "MinPriceThreshold": 400,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "expansiontractordoorscodriver",
-            "MaxPriceThreshold": 800,
-            "MinPriceThreshold": 400,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "expansiontractorbackwheel",
-            "MaxPriceThreshold": 1000,
-            "MinPriceThreshold": 500,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "expansiontractorfrontwheel",
-            "MaxPriceThreshold": 1000,
-            "MinPriceThreshold": 500,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "expansionuazdoorhood",
             "MaxPriceThreshold": 800,
             "MinPriceThreshold": 400,
@@ -591,17 +470,6 @@
             "ClassName": "expansionuazdoorcargo2",
             "MaxPriceThreshold": 1000,
             "MinPriceThreshold": 500,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "expansionuazwheel",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 600,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -668,72 +536,6 @@
             "ClassName": "expansion_landrover_trunk",
             "MaxPriceThreshold": 800,
             "MinPriceThreshold": 400,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "expansion_landrover_wheel",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 600,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "expansionvodnikdoordriver",
-            "MaxPriceThreshold": 1000,
-            "MinPriceThreshold": 500,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "expansionvodnikdoorcodriver",
-            "MaxPriceThreshold": 1000,
-            "MinPriceThreshold": 500,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "expansionvodnikwheel",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 600,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "expansionbuswheel",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 600,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "expansionbuswheeldouble",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 600,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,

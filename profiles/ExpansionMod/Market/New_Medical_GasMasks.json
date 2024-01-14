@@ -1,15 +1,15 @@
 {
     "m_Version": 12,
-    "DisplayName": "Все от Химической защиты",
-    "Icon": "Radiation",
-    "Color": "FF7F50",
+    "DisplayName": "Защита - Маски",
+    "Icon": "Gas Mask",
+    "Color": "FBFCFEFF",
     "IsExchange": 0,
     "InitStockPercent": 50.0,
     "Items": [
         {
-            "ClassName": "AntiChemInjector",
-            "MaxPriceThreshold": 200,
-            "MinPriceThreshold": 100,
+            "ClassName": "GasMask_Filter",
+            "MaxPriceThreshold": 6,
+            "MinPriceThreshold": 3,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -18,69 +18,59 @@
             "Variants": []
         },
 		{
-            "ClassName": "NBCGlovesYellow",
-            "MaxPriceThreshold": 200,
-            "MinPriceThreshold": 100,
+            "ClassName": "GasMask",
+            "MaxPriceThreshold": 16,
+            "MinPriceThreshold": 8,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": [
-				"NBCGlovesGray"
-			]
+            "Variants": []
         },
 		{
-            "ClassName": "NBCHoodYellow",
-            "MaxPriceThreshold": 200,
-            "MinPriceThreshold": 100,
+            "ClassName": "NioshFaceMask",
+            "MaxPriceThreshold": 8,
+            "MinPriceThreshold": 4,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": [
-				"NBCHoodGray"
-			]
+            "Variants": []
         },
 		{
-            "ClassName": "NBCPantsYellow",
-            "MaxPriceThreshold": 200,
-            "MinPriceThreshold": 100,
+            "ClassName": "SurgicalMask",
+            "MaxPriceThreshold": 8,
+            "MinPriceThreshold": 4,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": [
-				"NBCPantsGray"
-			]
+            "Variants": []
         },
 		{
-            "ClassName": "NBCJacketYellow",
-            "MaxPriceThreshold": 200,
-            "MinPriceThreshold": 100,
+            "ClassName": "GP5GasMask",
+            "MaxPriceThreshold": 60,
+            "MinPriceThreshold": 30,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": [
-				"NBCJacketGray"
-			]
+            "Variants": []
         },
 		{
-            "ClassName": "NBCBootsYellow",
-            "MaxPriceThreshold": 200,
-            "MinPriceThreshold": 100,
+            "ClassName": "AirborneMask",
+            "MaxPriceThreshold": 60,
+            "MinPriceThreshold": 30,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": [
-				"NBCBootsGray"
-			]
+            "Variants": []
         }
     ]
 }

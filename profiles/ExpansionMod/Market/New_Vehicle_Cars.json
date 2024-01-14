@@ -2,7 +2,7 @@
     "m_Version": 12,
     "DisplayName": "Автомобили",
     "Icon": "Car",
-    "Color": "FBFCFEFF",
+    "Color": "#E0FFFF",
     "IsExchange": 0,
     "InitStockPercent": 75.0,
     "Items": [
@@ -213,27 +213,6 @@
                 "truckbattery",
                 "carradiator",
                 "glowplug"
-            ],
-            "Variants": []
-        },
-        {
-            "ClassName": "expansionvodnik",
-            "MaxPriceThreshold": 200000,
-            "MinPriceThreshold": 100000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 4,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "expansionvodnikwheel",
-                "expansionvodnikwheel",
-                "expansionvodnikwheel",
-                "expansionvodnikwheel",
-                "truckbattery",
-                "carradiator",
-                "sparkplug",
-                "expansionvodnikdoordriver",
-                "expansionvodnikdoorcodriver"
             ],
             "Variants": []
         },
