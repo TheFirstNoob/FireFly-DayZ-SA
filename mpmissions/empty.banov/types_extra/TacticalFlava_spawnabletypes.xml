@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <spawnabletypes>
-
 	<!-- BAGS -->
-
 	<type name="TF_CamelBakBag_Black">
 		<cargo preset="foodVillage" />
 		<cargo preset="mixVillage" />
@@ -40,9 +38,7 @@
 		<cargo preset="foodArmy" />
 		<cargo preset="mixArmy" />
 	</type>
-
 	<!-- M14 -->
-
 	<type name="TF_M14_DMR">
 		<attachments chance="0.30">
 			<item name="TF_M14_Adapter" chance="1.00" />
@@ -119,9 +115,7 @@
 			<item name="TF_Mag_M14_10Rnd" chance="1.00" />
 		</attachments>
 	</type>
-
 	<!-- SCAR 20 -->
-
 	<type name="TF_SCAR_20_FDE">
 		<attachments chance="0.20">
 			<item name="M4_T3NRDSOptic" chance="0.20" />
@@ -210,9 +204,7 @@
 			<item name="TF_SCAR_Suppressor_Black" chance="1.00" />
 		</attachments>
 	</type>
-
 	<!-- SCAR L -->
-
 	<type name="TF_SCAR_L_FDE">
 		<attachments chance="0.20">
 			<item name="M4_T3NRDSOptic" chance="0.10" />
@@ -316,7 +308,7 @@
 			<item name="TF_M4_SOCOMSuppressor" chance="0.50" />
 		</attachments>
 	</type>
-		<type name="TF_SCAR_L_CQC_Black">
+	<type name="TF_SCAR_L_CQC_Black">
 		<attachments chance="0.20">
 			<item name="M4_T3NRDSOptic" chance="0.10" />
 			<item name="M68Optic" chance="0.20" />
@@ -345,9 +337,7 @@
 			<item name="M4_Suppressor" chance="1.00" />
 		</attachments>
 	</type>
-
 	<!-- SCAR H -->
-
 	<type name="TF_SCAR_H_FDE">
 		<attachments chance="0.20">
 			<item name="M4_T3NRDSOptic" chance="0.10" />
@@ -440,7 +430,7 @@
 			<item name="TF_SCAR_Suppressor_Black" chance="1.00" />
 		</attachments>
 	</type>
-		<type name="TF_SCAR_H_CQC_Black">
+	<type name="TF_SCAR_H_CQC_Black">
 		<attachments chance="0.20">
 			<item name="M4_T3NRDSOptic" chance="0.10" />
 			<item name="M68Optic" chance="0.20" />
@@ -466,9 +456,7 @@
 			<item name="TF_SCAR_Suppressor_Black" chance="1.00" />
 		</attachments>
 	</type>
-	
 	<!-- AK -->
-	
 	<type name="TF_AK101">
 		<attachments chance="0.30">
 			<item name="KashtanOptic" chance="0.50" />
@@ -656,9 +644,7 @@
 			<item name="TF_Mag_AK74_Bakelit30Rnd" chance="1.00" />
 		</attachments>
 	</type>
-
 	<!-- AR-15 -->
-
 	<type name="TF_M4A1">
 		<attachments chance="1.00">
 			<item name="M4_OEBttstck" chance="1.00" />
@@ -730,9 +716,7 @@
 			<item name="TF_Mag_M4_PMAG40Rnd" chance="0.05" />
 		</attachments>
 	</type>
-
 	<!-- AR-10 -->
-
 	<type name="TF_MK47_CQBR">
 		<attachments chance="1.00">
 			<item name="TF_M4_CMMG_RIPBttstck" chance="1.00" />
@@ -801,9 +785,7 @@
 			<item name="TF_M4_OMRGPistolGrip_Black" chance="0.50" />
 		</attachments>
 	</type>
-
 	<!-- PISTOLS -->
-
 	<type name="TF_FiveSeven">
 		<attachments chance="0.10">
 			<item name="TF_Mag_FiveSeven_20Rnd" chance="1.00" />
@@ -831,9 +813,7 @@
 			<item name="TF_Mag_MP443_18Rnd" chance="1.00" />
 		</attachments>
 	</type>
-
 	<!-- PK -->
-
 	<type name="TF_AEK999">
 		<attachments chance="0.30">
 			<item name="KashtanOptic" chance="0.50" />
@@ -875,9 +855,7 @@
 			<item name="TF_Mag_PKM_100Rnd" chance="1.00" />
 		</attachments>
 	</type>
-
 	<!-- SVCh -->
-
 	<type name="TF_SVCh308">
 		<attachments chance="0.50">
 			<item name="ACOGOptic" chance="0.15" />
@@ -908,9 +886,7 @@
 			<item name="Mag_SVD_10Rnd" chance="1.00" />
 		</attachments>
 	</type>
-
 	<!-- OTHER WEAPON-->
-
 	<type name="TF_AN94">
 		<attachments chance="0.30">
 			<item name="KashtanOptic" chance="0.50" />
@@ -949,11 +925,6 @@
 		<attachments chance="0.10">
 			<item name="TF_Harris_Bipod" chance="0.5" />
 			<item name="TF_Atlas_Bipod" chance="0.5" />
-		</attachments>
-	</type>
-	<type name="TF_Anzio20">
-		<attachments chance="1.00">
-			<item name="TF_Mag_Anzio20_3Rnd" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="TF_MAR10">
@@ -1048,9 +1019,7 @@
 			<item name="TF_Mag_M249_200Rnd" chance="1.00" />
 		</attachments>
 	</type>
-
-	<!-- WEAR--> 
-	
+	<!-- WEAR-->
 	<type name="TF_PMK4GasMask">
 		<cargo chance="0.2">
 			<item name="GasMask_Filter" />
@@ -1120,31 +1089,17 @@
 	<type name="TF_G3CombatPants_WD">
 		<cargo preset="mixArmy" />
 	</type>
-
 	<!-- VESTS -->
-
-	<type name="TF_IMTVVest">
-	</type>
-	<type name="TF_6B43Vest_EMR">
-	</type>
-	<type name="TF_6B43Vest_Syrian">
-	</type>
-	<type name="TF_6B23Vest_EMR">
-	</type>
-	<type name="TF_6B23Vest_GFlora">
-	</type>
-	<type name="TF_PlateCarrierVest_Coyote">
-	</type>
-	<type name="TF_AVSVest_Coyote">
-	</type>
-	<type name="TF_AVSVest_Tagilla">
-	</type>
-	<type name="TF_IMTVVest_Khaki">
-	</type>
-	<type name="TF_JPCVest_MC">
-	</type>
-	<type name="TF_JPCVest_Coyote">
-	</type>
-	<type name="TF_LVMBAVVest_KH">
-	</type>
-</spawnabletypes>	
+	<type name="TF_IMTVVest"></type>
+	<type name="TF_6B43Vest_EMR"></type>
+	<type name="TF_6B43Vest_Syrian"></type>
+	<type name="TF_6B23Vest_EMR"></type>
+	<type name="TF_6B23Vest_GFlora"></type>
+	<type name="TF_PlateCarrierVest_Coyote"></type>
+	<type name="TF_AVSVest_Coyote"></type>
+	<type name="TF_AVSVest_Tagilla"></type>
+	<type name="TF_IMTVVest_Khaki"></type>
+	<type name="TF_JPCVest_MC"></type>
+	<type name="TF_JPCVest_Coyote"></type>
+	<type name="TF_LVMBAVVest_KH"></type>
+</spawnabletypes>

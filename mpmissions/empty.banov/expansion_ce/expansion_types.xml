@@ -273,67 +273,6 @@
 		<lifetime>120</lifetime>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 	</type>
-	<!-- BOATS -->
-	<type name="ExpansionUtilityBoat">
-		<nominal>0</nominal>
-		<lifetime>3888000</lifetime>
-		<restock>1800</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	</type>
-	<type name="ExpansionZodiacBoat">
-		<nominal>0</nominal>
-		<lifetime>3888000</lifetime>
-		<restock>1800</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	</type>
-	<type name="ExpansionZodiacBoat_Orange">
-		<nominal>0</nominal>
-		<lifetime>10800</lifetime>
-		<restock>1800</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	</type>
-	<type name="ExpansionZodiacBoat_Black">
-		<nominal>0</nominal>
-		<lifetime>10800</lifetime>
-		<restock>1800</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	</type>
-	<type name="ExpansionZodiacBoat_Green">
-		<nominal>0</nominal>
-		<lifetime>10800</lifetime>
-		<restock>1800</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	</type>
-	<type name="ExpansionLHD">
-		<nominal>0</nominal>
-		<lifetime>3888000</lifetime>
-		<restock>1800</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	</type>
 	<!-- CARS -->
 	<type name="ExpansionUAZ">
 		<nominal>0</nominal>
@@ -448,46 +387,6 @@
 	<type name="ExpansionUAZRoofless_LightGreen">
 		<nominal>0</nominal>
 		<lifetime>10800</lifetime>
-		<restock>1800</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	</type>
-	<type name="ExpansionVodnik">
-		<nominal>0</nominal>
-		<lifetime>3888000</lifetime>
-		<restock>1800</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	</type>
-	<type name="ExpansionBus">
-		<nominal>0</nominal>
-		<lifetime>3888000</lifetime>
-		<restock>1800</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	</type>
-	<type name="ExpansionBus_Red">
-		<nominal>0</nominal>
-		<lifetime>3888000</lifetime>
-		<restock>1800</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	</type>
-	<type name="ExpansionBus_Weeb">
-		<nominal>0</nominal>
-		<lifetime>3888000</lifetime>
 		<restock>1800</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -1232,32 +1131,6 @@
 		<usage name="Industrial"/>
 		<usage name="Military"/>
 	</type>
-	<type name="ExpansionBusWheel">
-		<nominal>5</nominal>
-		<lifetime>2700</lifetime>
-		<restock>0</restock>
-		<min>2</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-		<usage name="Industrial"/>
-	</type>
-	<type name="ExpansionBusWheelDouble">
-		<nominal>5</nominal>
-		<lifetime>2700</lifetime>
-		<restock>0</restock>
-		<min>2</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-		<usage name="Industrial"/>
-	</type>
 	<type name="ExpansionUAZWheel">
 		<nominal>25</nominal>
 		<lifetime>2700</lifetime>
@@ -1275,30 +1148,6 @@
 		<lifetime>2700</lifetime>
 		<restock>0</restock>
 		<min>10</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<tag name="floor"/>
-		<usage name="Industrial"/>
-	</type>
-	<type name="ExpansionVodnikDoorDriver">
-		<nominal>15</nominal>
-		<lifetime>2700</lifetime>
-		<restock>0</restock>
-		<min>5</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<tag name="floor"/>
-		<usage name="Industrial"/>
-	</type>
-	<type name="ExpansionVodnikDoorCoDriver">
-		<nominal>15</nominal>
-		<lifetime>2700</lifetime>
-		<restock>0</restock>
-		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>

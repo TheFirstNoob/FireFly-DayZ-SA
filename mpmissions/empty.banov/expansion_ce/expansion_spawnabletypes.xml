@@ -664,20 +664,6 @@
 			<item name="ExpansionUh1hDoor_2_2_Resistance" chance="0.30" />
 		</attachments>
 	</type>
-	<type name="ExpansionGyrocopter">
-		<attachments chance="1.00">
-			<item name="ExpansionHelicopterBattery" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="SparkPlug" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="ExpansionHydraulicHoses" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="HeadlightH7" chance="0.40" />
-		</attachments>
-	</type>
 	<!-- CARS -->
 	<type name="ExpansionUAZ">
 		<attachments chance="1.00">
@@ -1225,110 +1211,6 @@
 			<item name="ExpansionUAZDoorCargo2_LightGreen" chance="0.30" />
 		</attachments>
 	</type>
-	<type name="ExpansionVodnik">
-		<attachments chance="1.00">
-			<item name="CarBattery" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CarRadiator" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="SparkPlug" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="HeadlightH7" chance="0.40" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="HeadlightH7" chance="0.40" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="ExpansionVodnikWheel" chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="ExpansionVodnikWheel" chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="ExpansionVodnikWheel" chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="ExpansionVodnikWheel" chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="ExpansionVodnikDoorDriver" chance="0.30" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="ExpansionVodnikDoorCoDriver" chance="0.30" />
-		</attachments>
-	</type>
-	<type name="ExpansionBus">
-		<attachments chance="1.00">
-			<item name="TruckBattery" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CarRadiator" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="GlowPlug" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="ExpansionBusWheel" chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="ExpansionBusWheel" chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="ExpansionBusWheelDouble" chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="ExpansionBusWheelDouble" chance="0.80" />
-		</attachments>
-	</type>
-	<type name="ExpansionBus_Weeb">
-		<attachments chance="1.00">
-			<item name="TruckBattery" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CarRadiator" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="GlowPlug" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="ExpansionBusWheel" chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="ExpansionBusWheel" chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="ExpansionBusWheelDouble" chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="ExpansionBusWheelDouble" chance="0.80" />
-		</attachments>
-	</type>
-	<type name="ExpansionBus_Red">
-		<attachments chance="1.00">
-			<item name="TruckBattery" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CarRadiator" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="GlowPlug" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="ExpansionBusWheel" chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="ExpansionBusWheel" chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="ExpansionBusWheelDouble" chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="ExpansionBusWheelDouble" chance="0.80" />
-		</attachments>
-	</type>
 	<type name="Expansion_Landrover">
 		<attachments chance="1.00">
 			<item name="Expansion_Landrover_Wheel" chance="0.80" />
@@ -1677,29 +1559,6 @@
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Expansion_Landrover_Trunk_Green" chance="0.40" />
-		</attachments>
-	</type>
-	<!-- BOATS -->
-	<type name="ExpansionUtilityBoat">
-		<attachments chance="1.00">
-			<item name="TruckBattery" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CarRadiator" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="GlowPlug" chance="0.60" />
-		</attachments>
-	</type>
-	<type name="ExpansionZodiacBoat">
-		<attachments chance="1.00">
-			<item name="TruckBattery" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CarRadiator" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="GlowPlug" chance="0.60" />
 		</attachments>
 	</type>
 	<!-- WEAPONS -->
