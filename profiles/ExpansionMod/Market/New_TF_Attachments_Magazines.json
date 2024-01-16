@@ -26,7 +26,9 @@
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"TF_Mag_SCAR_H_20Rnd_FDE"
+			]
         },
 		{
             "ClassName": "TF_Mag_SCAR_H_25Rnd_Black",
@@ -37,7 +39,9 @@
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"TF_Mag_SCAR_H_25Rnd_FDE"
+			]
         },
 		{
             "ClassName": "TF_Mag_SCAR_H_30Rnd_Black",
@@ -48,7 +52,9 @@
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"TF_Mag_SCAR_H_30Rnd_FDE"
+			]
         },
 		{
             "ClassName": "TF_Mag_SCAR_H_PMAG25Rnd_Black",
@@ -85,17 +91,6 @@
         },
 		{
             "ClassName": "TF_Mag_MAR10_10Rnd",
-            "MaxPriceThreshold": 30,
-            "MinPriceThreshold": 24,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 150,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-		{
-            "ClassName": "TF_Mag_Anzio20_3Rnd",
             "MaxPriceThreshold": 30,
             "MinPriceThreshold": 24,
             "SellPricePercent": -1.0,
@@ -191,7 +186,9 @@
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"TF_Mag_AKM_PMAG30Rnd_Banana"
+			]
         },
 		{
             "ClassName": "TF_Mag_AKM_PMAG30Rnd_Banana",
@@ -246,7 +243,9 @@
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"TF_Mag_M4_PMAG30Rnd_FDE"
+			]
         },
 		{
             "ClassName": "TF_Mag_M4_PMAG40Rnd",
@@ -257,7 +256,9 @@
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"TF_Mag_M4_PMAG40Rnd_FDE"
+			]
         },
 		{
             "ClassName": "TF_Mag_FiveSeven_20Rnd",

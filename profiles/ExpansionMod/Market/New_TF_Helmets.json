@@ -26,7 +26,9 @@
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"TF_6B47HelmetCover_Syrian"
+			]
         },
 		{
             "ClassName": "TF_PMK4GasMask",
@@ -37,7 +39,9 @@
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"TF_PMK4GasMask_OD"
+			]
         },
 		{
             "ClassName": "TF_LSHZHelmet_OD",
@@ -70,18 +74,9 @@
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-		{
-            "ClassName": "TF_Maska1SchVisor",
-            "MaxPriceThreshold": 30,
-            "MinPriceThreshold": 24,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 150,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"TF_Maska1SchVisor"
+			]
         },
 		{
             "ClassName": "TF_MICH2000Helmet",
@@ -92,7 +87,10 @@
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"TF_MICH2000Helmet_Black",
+				"TF_MICH2000Helmet_Khaku"
+			]
         },
 		{
             "ClassName": "TF_MICH2000HelmetCover_Woodland",
@@ -107,6 +105,19 @@
         },
 		{
             "ClassName": "TF_WeldingMask",
+            "MaxPriceThreshold": 30,
+            "MinPriceThreshold": 24,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 150,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"TF_WeldingMask_Tagilla"
+			]
+        },
+		{
+            "ClassName": "TF_Foil_hat",
             "MaxPriceThreshold": 30,
             "MinPriceThreshold": 24,
             "SellPricePercent": -1.0,

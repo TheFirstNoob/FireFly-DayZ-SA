@@ -15,7 +15,12 @@
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"TF_CamelBakBag_Brown",
+				"TF_CamelBakBag_EMR",
+				"TF_CamelBakBag_OD",
+				"TF_CamelBakBag_Tan"
+			]
         },
         {
             "ClassName": "TF_RifleSling_Black",
@@ -26,18 +31,10 @@
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-		{
-            "ClassName": "TF_Foil_hat",
-            "MaxPriceThreshold": 30,
-            "MinPriceThreshold": 24,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 150,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"TF_RifleSling_Brown",
+				"TF_RifleSling_OD"
+			]
         },
 		{
             "ClassName": "TF_AVSBag_Khaki",
@@ -48,7 +45,9 @@
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"TF_AVSBag_Coyote"
+			]
         },
 		{
             "ClassName": "TF_MAPBag_Khaki",
@@ -59,7 +58,9 @@
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"TF_MAPBag_Coyote"
+			]
         },
 		{
             "ClassName": "TF_FannyPack_Coyote",

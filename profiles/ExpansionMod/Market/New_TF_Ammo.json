@@ -6,30 +6,6 @@
     "IsExchange": 0,
     "InitStockPercent": 75.0,
     "Items": [
-        {
-            "ClassName": "TF_Ammo_20mm",
-            "MaxPriceThreshold": 150,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1500,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-				"TF_Ammo_20mm_HE"
-			]
-        },
-        {
-            "ClassName": "TF_Ammo_20mm_HE",
-            "MaxPriceThreshold": 150,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1500,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
 		{
             "ClassName": "TF_Ammo_338LM",
             "MaxPriceThreshold": 150,

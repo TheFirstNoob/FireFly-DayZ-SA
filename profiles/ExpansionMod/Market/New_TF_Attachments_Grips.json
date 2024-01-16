@@ -15,7 +15,9 @@
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"TF_SAW_RIS_Grip_FDE"
+			]
         },
         {
             "ClassName": "TF_AFG_RIS_Grip_Black",
@@ -26,7 +28,9 @@
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"TF_AFG_RIS_Grip_FDE"
+			]
         },
 		{
             "ClassName": "TF_AFG_MLOCK_Grip_Black",
@@ -37,7 +41,9 @@
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"TF_AFG_MLOCK_Grip_FDE"
+			]
         },
 		{
             "ClassName": "TF_BCM_MLOCK_Grip_Black",
@@ -48,7 +54,9 @@
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"TF_BCM_MLOCK_Grip_FDE"
+			]
         },
 		{
             "ClassName": "TF_RVG_RIS_Grip_Black",
@@ -59,7 +67,9 @@
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"TF_RVG_RIS_Grip_FDE"
+			]
         },
 		{
             "ClassName": "TF_OTs_14_Groza_Barrel_Grip",
@@ -114,7 +124,9 @@
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"TF_M4_MOEPistolGrip_FDE"
+			]
         },
 		{
             "ClassName": "TF_M4_OMRGPistolGrip_Black",
@@ -125,7 +137,9 @@
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"TF_M4_OMRGPistolGrip_FDE"
+			]
         },
 		{
             "ClassName": "TF_M4_TDSPistolGrip",
@@ -161,7 +175,7 @@
             "Variants": []
         },
 		{
-            "ClassName": "TF_ZenitRK1B25U_RIS_Grip",
+            "ClassName": "TF_AK_TAPCOPistolGrip_Black",
             "MaxPriceThreshold": 30,
             "MinPriceThreshold": 24,
             "SellPricePercent": -1.0,
@@ -169,7 +183,9 @@
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"TF_AK_TAPCOPistolGrip_FDE"
+			]
         }
     ]
 }
