@@ -58,8 +58,28 @@
             "MaxStockThreshold": 1000,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+		{
+            "ClassName": "ExpansionCarChainBase",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 900,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
             "SpawnAttachments": [
-				"ExpansionCarChainBase"
+				"ExpansionCarChain_Red",
+				"ExpansionCarChain_White",
+				"ExpansionCarChain_Black",
+				"ExpansionCarChain_Blue",
+				"ExpansionCarChain_Green",
+				"ExpansionCarChain_Grey",
+				"ExpansionCarChain_Orange",
+				"ExpansionCarChain_Pink",
+				"ExpansionCarChain_Purple",
+				"ExpansionCarChain_Yellow"
 			],
             "Variants": []
         },
