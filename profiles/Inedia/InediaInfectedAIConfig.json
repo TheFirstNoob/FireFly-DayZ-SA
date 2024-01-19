@@ -53,7 +53,12 @@
             "all": 1
         },
         "BreakingDoorsRestrictedDoors": {
-            "all": {}
+            "all": {
+				"Land_Bunker_Door_Area04",
+				"Land_Bunker_Entrance",
+				"Land_Bunker_Entrance1",
+				"Land_Bunker_Entrance2"
+			}
         },
         "BreakingDoorsDestroyAfterOpenChancePercent": {
             "all": 10.0
@@ -113,10 +118,10 @@
             "all": 1
         },
         "SearchSphereRadiusIncreaseEverySeconds": {
-            "all": 0.15000000298023225
+            "all": 0.15000000596046449
         },
         "SearchSphereDistanceToRadiusMultiplier": {
-            "all": 0.28000001192092898
+            "all": 0.2800000011920929
         },
         "SearchSphereRadiusMin": {
             "all": 0.0
@@ -128,10 +133,13 @@
             "all": 1
         },
         "SpeedLimitInSearchMode": {
-            "all": 2.1
+            "all": 2.0999999046325685
         },
         "SpeedLimitInChaseMode": {
             "all": 3.0
+        },
+        "SpeedNoLimitsFromDistanceMeters": {
+            "all": 0.0
         },
         "SmellsHandlerIsActive": {
             "all": 1
@@ -143,7 +151,7 @@
             "all": 1
         },
         "UpJumpHeightMax": {
-            "all": 1.2
+            "all": 1.2000000476837159
         },
         "UpJumpImpulseDamageChancePercent": {
             "all": 50.0
@@ -193,7 +201,7 @@
             "all": 2.0
         },
         "AttackCarElementsGlobalDamageMultiplier": {
-            "all": 0.8,
+            "all": 0.800000011920929,
             "Animal_UrsusArctos": 3.0
         },
         "AttackCarElementsByCollisionsIsActive": {
@@ -269,13 +277,13 @@
             "all": 1.0
         },
         "ReactChemlightVisual": {
-            "all": 0.1
+            "all": 0.10000000149011612
         },
         "ReactChemlightRedVisual": {
-            "all": 0.1
+            "all": 0.10000000149011612
         },
         "ReactPortableGasLampVisual": {
-            "all": 0.4
+            "all": 0.4000000059604645
         },
         "ReactFlammablesVisual": {
             "all": 1.0
@@ -418,14 +426,14 @@
             "all": 1
         },
         "DamageToPlayerHealthMultiplier": {
-            "police": 1.8,
+            "police": 1.7999999523162842,
             "all": 1.5,
-            "medic": 1.6,
+            "medic": 1.600000023841858,
             "military": 2.0
         },
         "DamageToPlayerShockMultiplier": {
-            "police": 1.7,
-            "all": 1.2,
+            "police": 1.7000000476837159,
+            "all": 1.2000000476837159,
             "medic": 1.5,
             "military": 2.0
         },
@@ -466,28 +474,28 @@
             "all": 1.5
         },
         "DamageToZombieBodyMeleeMultiplier": {
-            "police": 0.60000001192092898,
-            "all": 0.8,
-            "medic": 0.70000001192092898,
-            "military": 0.50000001192092898
+            "police": 0.6000000238418579,
+            "all": 0.800000011920929,
+            "medic": 0.699999988079071,
+            "military": 0.5
         },
         "DamageToZombieBodyRangeMultiplier": {
-            "police": 0.70000001192092898,
-            "all": 0.9,
-            "medic": 0.60000001192092898,
-            "military": 0.40000001192092898
+            "police": 0.699999988079071,
+            "all": 0.8999999761581421,
+            "medic": 0.6000000238418579,
+            "military": 0.4000000059604645
         },
         "DamageToZombieFromCarsMultiplier": {
-            "police": 1.20000001192092898,
+            "police": 1.2000000476837159,
             "all": 1.5,
-            "medic": 1.30000001192092898,
-            "military": 1.10000001192092898
+            "medic": 1.2999999523162842,
+            "military": 1.100000023841858
         },
         "DamageToZombieFromExplosionsMultiplier": {
-            "police": 0.80000001192092898,
-            "all": 0.9,
-            "medic": 0.85000001192092898,
-            "military": 0.70000001192092898
+            "police": 0.800000011920929,
+            "all": 0.8999999761581421,
+            "medic": 0.8500000238418579,
+            "military": 0.699999988079071
         },
         "DamageToZombieFromHotItemsHp": {
             "all": 10.0
@@ -573,10 +581,10 @@
             "all": 20.0
         },
         "ButcheringWithoutGlovesBloodyHandsChancePercent": {
-            "all": 75.0
+            "all": 50.0
         },
         "ButcheringWithoutMaskVomitChancePercent": {
-            "all": 25.0
+            "all": 10.0
         },
         "ItemsAfterButchering": {
             "all": [
@@ -586,7 +594,8 @@
                     "QuantityInStackFromPercent": 16.0,
                     "QuantityInStackToPercent": 84.0,
                     "ConditionFrom": 2,
-                    "ConditionTo": 3
+                    "ConditionTo": 3,
+                    "Foodstages": []
                 },
                 {
                     "ClassId": "Rag",
@@ -594,7 +603,8 @@
                     "QuantityInStackFromPercent": 9.0,
                     "QuantityInStackToPercent": 74.0,
                     "ConditionFrom": 2,
-                    "ConditionTo": 3
+                    "ConditionTo": 3,
+                    "Foodstages": []
                 },
                 {
                     "ClassId": "Guts",
@@ -602,7 +612,8 @@
                     "QuantityInStackFromPercent": 30.0,
                     "QuantityInStackToPercent": 100.0,
                     "ConditionFrom": 2,
-                    "ConditionTo": 3
+                    "ConditionTo": 3,
+                    "Foodstages": []
                 },
                 {
                     "ClassId": "Guts",
@@ -610,7 +621,8 @@
                     "QuantityInStackFromPercent": 30.0,
                     "QuantityInStackToPercent": 100.0,
                     "ConditionFrom": 2,
-                    "ConditionTo": 3
+                    "ConditionTo": 3,
+                    "Foodstages": []
                 },
                 {
                     "ClassId": "HumanSteakMeat",
@@ -618,7 +630,8 @@
                     "QuantityInStackFromPercent": 30.0,
                     "QuantityInStackToPercent": 100.0,
                     "ConditionFrom": 2,
-                    "ConditionTo": 3
+                    "ConditionTo": 3,
+                    "Foodstages": []
                 },
                 {
                     "ClassId": "HumanSteakMeat",
@@ -626,7 +639,8 @@
                     "QuantityInStackFromPercent": 30.0,
                     "QuantityInStackToPercent": 100.0,
                     "ConditionFrom": 2,
-                    "ConditionTo": 3
+                    "ConditionTo": 3,
+                    "Foodstages": []
                 }
             ]
         },
@@ -654,16 +668,24 @@
     },
     "Players": {
         "SmellsHandlerIsActive": 1,
-        "SmellLifetimeSeconds": 90.0,
+        "SmellLifetimeSeconds": 60.0,
         "SmellsCountOnMapLimit": 500,
         "FootstepsNoiseHandlerIsActive": 1,
         "SearchBodyToViewCargo": 1,
         "SearchBodyToViewCargoSeconds": 10.0,
         "SearchBodyOnlyEmptyHands": 0,
-        "QuietDoorOpeningMechanicIsActive": 1,
+        "QuietDoorOpeningMechanicIsActive": 0,
         "QuietDoorOpeningMechanicSeconds": 3.0,
+        "QuietDoorOpeningMechanicRestrictedBuildings": [
+			"Land_Bunker_Door_Area04",
+			"Land_Bunker_Entrance",
+			"Land_Bunker_Entrance1",
+			"Land_Bunker_Entrance2"
+		],
         "NoiseMultiplierDay": 2.0,
         "NoiseMultiplierNight": 2.0,
+        "NoiseMultiplierCrouchDay": 1.0,
+        "NoiseMultiplierCrouchNight": 1.0,
         "CamoClothingVisibilityMultipliers": {
             "all": 1.0,
             "GhillieHood_Tan": 0.800000011920929,
