@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <economycore>
 	<classes>
-<!--
-These are rootclasses to be used by economy.
-Do not forget to add attribute act="character", if root class represents character (player, infected, animal)
-Do not forget to add attribute act="car", if root class represents moveable vehicles
--->
 		<rootclass name="DefaultWeapon" /> <!-- weapons -->
 		<rootclass name="DefaultMagazine" /> <!-- magazines -->
 		<rootclass name="Inventory_Base" /> <!-- inventory items -->
@@ -35,12 +30,14 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<default name="save_types_startup" value="true"/>
 	</defaults>
 	<ce folder="types_extra">
-
         <!-- Types -->
-            <file name="Banov.xml" type="types" />
-			<file name="TacticalFlava_types.xml" type="types" />
-			<file name="TacticalFlava_spawnabletypes.xml" type="spawnabletypes" />
-    </ce>
+		<file name="Banov.xml" type="types" />
+		<file name="TacticalFlava_types.xml" type="types" />
+		<file name="TacticalFlava_spawnabletypes.xml" type="spawnabletypes" />
+		<file name="RUSForma_vehicles_types.xml" type="types" />
+		<file name="CollectablesBooks_types.xml" type="types" />
+		<file name="CollectablesOther_types.xml" type="types" />
+	</ce>
 	
 	<ce folder="expansion_ce">
 		<file name="expansion_types.xml" type="types" />
