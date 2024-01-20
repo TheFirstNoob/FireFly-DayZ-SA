@@ -3065,30 +3065,6 @@
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 	</type>
-	<type name="TF_M79">
-		<nominal>5</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
-		<min>2</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
-		<category name="weapons"/>
-		<usage name="Military"/>
-	</type>
-	<type name="TF_M79_AOR1">
-		<nominal>5</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
-		<min>2</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
-		<category name="weapons"/>
-		<usage name="Military"/>
-	</type>
 	<type name="TF_AK101">
 		<!-- Recommended to remove vanilla AK-->
 		<nominal>1</nominal>

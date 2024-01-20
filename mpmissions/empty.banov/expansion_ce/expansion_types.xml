@@ -2368,21 +2368,6 @@
 		<value name="Tier3"/>
 	</type>
 	<!-- MISC ATTACHEMENTS -->
-	<type name="Expansion_M1A_RailAtt">
-		<nominal>7</nominal>
-		<lifetime>10800</lifetime>
-		<restock>800</restock>
-		<min>4</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<usage name="Military"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
-	</type>
 	<type name="Expansion_ANPEQ15_Red">
 		<nominal>15</nominal>
 		<lifetime>7200</lifetime>
@@ -2430,34 +2415,6 @@
 		<value name="Tier4"/>
 	</type>
 	<!-- LAUNCHERS -->
-	<type name="ExpansionRPG7">
-		<nominal>5</nominal>
-		<lifetime>10800</lifetime>
-		<restock>3600</restock>
-		<min>2</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<usage name="Military"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
-	</type>
-	<type name="ExpansionLAW">
-		<nominal>5</nominal>
-		<lifetime>10800</lifetime>
-		<restock>3600</restock>
-		<min>2</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<usage name="Military"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
-	</type>
 	<type name="Expansion_M79">
 		<nominal>0</nominal>
 		<lifetime>10800</lifetime>
@@ -2571,50 +2528,6 @@
 		<value name="Tier2"/>
 		<value name="Tier3"/>
 	</type>
-	<type name="Expansion_MP5">
-		<nominal>20</nominal>
-		<lifetime>10800</lifetime>
-		<restock>1800</restock>
-		<min>10</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<usage name="Military"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
-	</type>
-	<type name="Expansion_MP5SD">
-		<nominal>20</nominal>
-		<lifetime>10800</lifetime>
-		<restock>1800</restock>
-		<min>10</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<usage name="Military"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
-	</type>
-	<type name="Expansion_MP5_RailAtt">
-		<nominal>20</nominal>
-		<lifetime>10800</lifetime>
-		<restock>1800</restock>
-		<min>10</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<usage name="Military"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
-	</type>
 	<type name="Expansion_MP7">
 		<nominal>20</nominal>
 		<lifetime>10800</lifetime>
@@ -2657,47 +2570,6 @@
 		<value name="Tier2"/>
 		<value name="Tier3"/>
 		<value name="Tier4"/>
-	</type>
-	<!-- ASSAULT RIFLES -->
-	<type name="Expansion_M16">
-		<nominal>10</nominal>
-		<lifetime>10800</lifetime>
-		<restock>3600</restock>
-		<min>4</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<usage name="Military"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
-	</type>
-	<type name="Expansion_M1A">
-		<nominal>9</nominal>
-		<lifetime>10800</lifetime>
-		<restock>3600</restock>
-		<min>3</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<usage name="Military"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
-	</type>
-	<type name="Expansion_M14">
-		<nominal>12</nominal>
-		<lifetime>10800</lifetime>
-		<restock>1800</restock>
-		<min>7</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<usage name="Military"/>
 	</type>
 	<!-- RIFLES -->
 	<type name="Expansion_DT11">
@@ -2825,34 +2697,6 @@
 		<usage name="Hunting"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
-	</type>
-	<type name="ExpansionAmmoRPG">
-		<nominal>8</nominal>
-		<lifetime>10800</lifetime>
-		<restock>10800</restock>
-		<min>1</min>
-		<quantmin>100</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<usage name="Military"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
-	</type>
-	<type name="ExpansionAmmoLAW">
-		<nominal>8</nominal>
-		<lifetime>10800</lifetime>
-		<restock>10800</restock>
-		<min>1</min>
-		<quantmin>100</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<usage name="Military"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
 	</type>
 	<type name="Ammo_Expansion_M203_Smoke_White">
 		<nominal>10</nominal>
