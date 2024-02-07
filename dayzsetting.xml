@@ -10,8 +10,8 @@
             <executable path="DataExporterApp_d.exe" parameters="" icon="" tooltip="Launch data exporter" />
         </launchbar>
     </workbench>
-    <jobsystem globalqueue="4096" threadqueue="1024">
-        <pc maxcores="2" reservedcores="1" />
+    <jobsystem globalqueue="8192" threadqueue="2048">
+        <pc maxcores="6" reservedcores="2" />
         <ps4 threadcount="4" />
         <xb1 threadcount="4" />
     </jobsystem>
