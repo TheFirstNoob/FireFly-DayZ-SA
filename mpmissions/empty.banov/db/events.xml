@@ -524,13 +524,13 @@
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>player</position>
         <limit>custom</limit>
-        <active>1</active>
+        <active>0</active>
         <children>
             <child lootmax="5" lootmin="0" max="0" min="100" type="ZmbM_Santa"/>
         </children>
     </event>
 	<event name="StaticChristmasTree">
-        <nominal>17</nominal>
+        <nominal>0</nominal>
         <min>0</min>
         <max>0</max>
         <lifetime>43200</lifetime>
@@ -541,7 +541,7 @@
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>uniform</position>
         <limit>child</limit>
-        <active>1</active>
+        <active>0</active>
         <children>
             <child lootmax="5" lootmin="1" max="17" min="17" type="ChristmasTree_Green"/>
         </children>
@@ -645,7 +645,7 @@
             <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_VillagerOld_Green"/>
         </children>
     </event>
-        <event name="ItemPlanks">
+	<event name="ItemPlanks">
         <nominal>50</nominal>
         <min>30</min>
         <max>50</max>
@@ -715,8 +715,8 @@
 		</event>
     <event name="StaticContaminatedArea">
         <nominal>0</nominal>
-        <min>1</min>
-        <max>2</max>
+        <min>2</min>
+        <max>4</max>
         <lifetime>2100</lifetime>
         <restock>0</restock>
         <saferadius>0</saferadius>
@@ -727,7 +727,7 @@
         <limit>parent</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="4" min="2" type="ContaminatedArea_Dynamic"/>
+            <child lootmax="0" lootmin="0" max="8" min="4" type="ContaminatedArea_Dynamic"/>
         </children>
     </event>
     <event name="StaticFridgeTest">
@@ -836,7 +836,7 @@
     <event name="StaticTrain">
         <nominal>2</nominal>
         <min>1</min>
-        <max>0</max>
+        <max>1</max>
         <lifetime>5400</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
