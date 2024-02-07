@@ -1,11 +1,11 @@
 {
-    "m_Version": 5,
+    "m_Version": 7,
     "m_TraderID": 1,
     "m_ClassName": "ExpansionP2PTraderAIIrena",
     "m_Position": [
-        5927.19,
-		301.818,
-		8208.71
+        5927.18994140625,
+        301.8179931640625,
+        8208.7099609375
     ],
     "m_Orientation": [
         60.0,
@@ -14,9 +14,9 @@
     ],
     "m_LoadoutFile": "YellowKingLoadout",
     "m_VehicleSpawnPosition": [
-        5944.91,
-		303.284,
-		8212.85
+        5944.91015625,
+        303.28399658203127,
+        8212.849609375
     ],
     "m_WatercraftSpawnPosition": [
         0.0,
@@ -24,9 +24,9 @@
         0.0
     ],
     "m_AircraftSpawnPosition": [
-        5957.96,
-		303.422,
-		8230.69
+        5957.9599609375,
+        303.4219970703125,
+        8230.6904296875
     ],
     "m_DisplayName": "Аукцион",
     "m_DisplayIcon": "Deliver",
@@ -34,5 +34,10 @@
     "m_Waypoints": [],
     "m_EmoteID": 46,
     "m_EmoteIsStatic": 0,
-    "m_IsGlobalTrader": 0
+    "m_IsGlobalTrader": 0,
+    "m_Currencies": [
+        "expansionbanknotehryvnia"
+    ],
+    "m_DisplayCurrencyValue": 1,
+    "m_DisplayCurrencyName": ""
 }
