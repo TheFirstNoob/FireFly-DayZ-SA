@@ -1,21 +1,222 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <ignore>
-	<type name="Bandage"></type>
+	<!-- Vanilla Ignore -->
+	<!-- Не нужно хранить данные о банданах на голове и на лице -->
 	<type name="BandanaMask_BlackPattern"></type>
 	<type name="BandanaMask_CamoPattern"></type>
 	<type name="BandanaMask_GreenPattern"></type>
 	<type name="BandanaMask_PolkaPattern"></type>
 	<type name="BandanaMask_RedPattern"></type>
+	<type name="BandanaHead_BlackPattern"></type>
+	<type name="BandanaHead_CamoPattern"></type>
+	<type name="BandanaHead_GreenPattern"></type>
+	<type name="BandanaHead_PolkaPattern"></type>
+	<type name="BandanaHead_RedPattern"></type>
+	<!-- Электрокнут - убран из-за проблем с ФПС у ИИ -->
 	<type name="CattleProd"></type>
-	<type name="DallasMask"></type>
-	<type name="Defibrillator"></type>
-	<type name="HescoBox"></type>
-	<type name="EasterEgg"></type>
-	<type name="HoxtonMask"></type>
+	<!-- Электрошокер - убран из-за проблем с ФПС у ИИ -->
 	<type name="StunBaton"></type>
-	<type name="TransitBus"></type>
+	<!-- Отсутствуют -->
+	<type name="DallasMask"></type>
+	<type name="HoxtonMask"></type>
 	<type name="WolfMask"></type>
 	<type name="Spear"></type>
+	<!-- Никогда не используйте! -->
 	<type name="Mag_STANAGCoupled_30Rnd"></type>
+	<!-- Ограждение из колючей проволки. Используйте Expansion версию -->
+	<type name="HescoBox"></type>
+	<!-- Автобус - Используйте Expansion версию если не стоит Rag Immersive Vehicle, если стоит, не используйте оба! -->
+	<type name="TransitBus"></type>
+	<!-- Для Хеликраша используйте Wreck_Mi8_Crashed -->
 	<type name="Wreck_Mi8"></type>
+	
+	<!-- TheFirstNoob Server Ignore -->
+	<!-- AK101 - Заменен на Tactical Flava версию -->
+	<type name="AK101"></type>
+	<type name="AK101_Black"></type>
+	<type name="AK101_Green"></type>
+	<type name="AK101_Clean"></type>
+	<type name="AK101_Yellow"></type>
+	<type name="AK101_Orange"></type>
+	<type name="AK101_Brown"></type>
+	<type name="AK101_White"></type>
+	<type name="AK101_Grey"></type>
+	<type name="AK101_Blue"></type>
+	<type name="AK101_Red"></type>
+	<type name="AK101_Pink"></type>
+	<!-- AK74 - Заменен на Tactical Flava версию -->
+	<type name="AK74"></type>
+	<type name="AK74_Black"></type>
+	<type name="AK74_Green"></type>
+	<type name="AK74_Clean"></type>
+	<type name="AK74_Yellow"></type>
+	<type name="AK74_Orange"></type>
+	<type name="AK74_Brown"></type>
+	<type name="AK74_White"></type>
+	<type name="AK74_Grey"></type>
+	<type name="AK74_Blue"></type>
+	<type name="AK74_Red"></type>
+	<type name="AK74_Pink"></type>
+	<!-- AKМ - Заменен на Tactical Flava версию -->
+	<type name="AKM"></type>
+	<type name="AKM_TESTBED"></type> <!-- Никогда не используйте! -->
+	<type name="AKM_Black"></type>
+	<type name="AKM_Green"></type>
+	<type name="AKM_Clean"></type>
+	<type name="AKM_Yellow"></type>
+	<type name="AKM_Orange"></type>
+	<type name="AKM_Brown"></type>
+	<type name="AKM_White"></type>
+	<type name="AKM_Grey"></type>
+	<type name="AKM_Blue"></type>
+	<type name="AKM_Red"></type>
+	<type name="AKM_Pink"></type>
+	<!-- AKS74U - Заменен на Tactical Flava версию -->
+	<type name="AKS74U"></type>
+	<type name="AKS74U_Black"></type>
+	<type name="AKS74U_Green"></type>
+	<type name="AKS74U_Clean"></type>
+	<type name="AKS74U_Yellow"></type>
+	<type name="AKS74U_Orange"></type>
+	<type name="AKS74U_Brown"></type>
+	<type name="AKS74U_White"></type>
+	<type name="AKS74U_Grey"></type>
+	<type name="AKS74U_Blue"></type>
+	<type name="AKS74U_Red"></type>
+	<type name="AKS74U_Pink"></type>
+	<!-- M4A1 - Заменен на Tactical Flava версию -->
+	<type name="M4A1"></type>
+	<type name="M4A1_Black"></type>
+	<type name="M4A1_Green"></type>
+	<type name="M4A1_Clean"></type>
+	<type name="M4A1_Yellow"></type>
+	<type name="M4A1_Orange"></type>
+	<type name="M4A1_Brown"></type>
+	<type name="M4A1_White"></type>
+	<type name="M4A1_Grey"></type>
+	<type name="M4A1_Blue"></type>
+	<type name="M4A1_Red"></type>
+	<type name="M4A1_Pink"></type>
+	<!-- M16A4-A2 - Заменен на Tactical Flava версию -->
+	<type name="M16A2"></type>
+	<type name="Expansion_M16"></type>
+	<!-- M14 - Заменен на Tactical Flava версию -->
+	<type name="M14"></type>
+	<type name="Expansion_M14"></type>
+	<!-- M1A - Заменен на Tactical Flava версию -->
+	<type name="Expansion_M1A"></type>
+	<type name="Expansion_M1A_Black"></type>
+	<type name="Expansion_M1A_Tan"></type>
+	<type name="Expansion_M1A_Green"></type>
+	<!-- Scout Pioneer - Не используйте остальные версии -->
+	<type name="Scout_Chernarus"></type>
+	<type name="Scout_Livonia"></type>
+	<!-- MP5 - Используется Ванильный -->
+	<type name="Expansion_MP5"></type>
+	<type name="Expansion_MP5SD"></type>
+	<!-- Арбалет - Используется Ванильный -->
+	<type name="Expansion_Crossbow"></type>
+	<type name="Expansion_Crossbow_Black"></type>
+	<type name="Expansion_Crossbow_Green"></type>
+	<type name="Expansion_Crossbow_Clean"></type>
+	<type name="Expansion_Crossbow_Yellow"></type>
+	<type name="Expansion_Crossbow_Orange"></type>
+	<type name="Expansion_Crossbow_Brown"></type>
+	<type name="Expansion_Crossbow_White"></type>
+	<type name="Expansion_Crossbow_Grey"></type>
+	<type name="Expansion_Crossbow_Blue"></type>
+	<type name="Expansion_Crossbow_Red"></type>
+	<type name="Expansion_Crossbow_Pink"></type>
+	<!-- Пистолет-Шокер Тайзер - Не нужен для меня -->
+	<type name="Expansion_Taser_Yellow"></type>
+	<type name="Expansion_Taser_Black"></type>
+	<!-- Anzio 20 MM - Не нужен для меня -->
+	<type name="TF_Anzio20"></type>
+	<!-- M79 - Используется Ванильный -->
+	<type name="TF_M79"></type>
+	<type name="TF_M79_AOR1"></type>
+	<!-- EXPANSION DEBUG - Никогда не используйте! -->
+	<type name="Expansion_LobotomyDartGun"></type>
+	<type name="Mag_Expansion_LobotomyDart"></type>
+	<type name="Ammo_Expansion_LobotomyDart"></type>
+	
+	<!-- Сошки - Используется Tactical Flava и убраны запрещенные/Не рабочие -->
+	<!-- Для Пулеметов сошки выдаются автоматически и не нужно хранить о них данные -->
+	<type name="AtlasBipod"></type>
+	<type name="M249_Bipod"></type>
+	<type name="TF_Anzio_Bipod"></type>
+	<type name="TF_M240_Bipod"></type>
+	<type name="TF_M249_Bipod"></type>
+	<type name="TF_PKM_Bipod"></type>
+	<type name="TF_PKP_Bipod"></type>
+	
+	<!-- ТЕХНИКА - Не используемая по определенным причинам -->
+	<!-- Автобус -->
+	<type name="ExpansionBus"></type>
+	<type name="ExpansionBus_Blue"></type>
+	<type name="ExpansionBus_Weeb"></type>
+	<type name="ExpansionBus_Red"></type>
+	<!-- Трактор -->
+	<type name="ExpansionTractor"></type>
+	<type name="ExpansionTractor_Red"></type>
+	<type name="ExpansionTractor_Blue"></type>
+	<type name="ExpansionTractor_Green"></type>
+	<!-- Водник -->
+	<type name="ExpansionVodnik"></type>
+	<type name="ExpansionVodnik_Camo"></type>
+	<type name="ExpansionVodnik_CamoMedical"></type>
+	<!-- Авианосец -->
+	<type name="ExpansionLHD"></type>
+	<!-- Лодка -->
+	<type name="ExpansionUtilityBoat"></type>
+	<type name="ExpansionUtilityBoat_Black"></type>
+	<type name="ExpansionUtilityBoat_Green"></type>
+	<!-- Катер -->
+	<type name="ExpansionZodiacBoat"></type>
+	<type name="ExpansionZodiacBoat_Orange"></type>
+	<type name="ExpansionZodiacBoat_Black"></type>
+	<type name="ExpansionZodiacBoat_Green"></type>
+	<!-- Артиллерийский трактор -->
+	<type name="artillery_tractor"></type>
+	<type name="artillery_tractor_camo"></type>
+	<type name="artillery_tractor_kung"></type>
+	<type name="artillery_tractor_kung_camo"></type>
+	<!-- БРДМ-2 -->
+	<type name="BRDM2_RF"></type>
+	<type name="BRDM2_RF_camo"></type>
+	<type name="BRDM2_RF_winter"></type>
+	<!-- БТР-80 -->
+	<type name="BTR_80"></type>
+	<type name="BTR_80_camo"></type>
+	<type name="BTR_80_camo2"></type>
+	<type name="BTR_80_rust"></type>
+	<type name="BTR_80_P"></type>
+	<type name="BTR_80_P_camo"></type>
+	<type name="BTR_80_P_camo2"></type>
+	<type name="BTR_80_P_rust"></type>
+	<!-- Гирокоптер -->
+	<type name="ExpansionGyrocopter"></type>
+	<type name="ExpansionBigGyrocopter"></type>
+	<!-- GAZ 51 - Сломан -->
+	<type name="gaz_51"></type>
+	<!-- M3A1 Scout -->
+	<type name="M3A1_Scout_Car"></type>
+	<!-- M4 Tractor -->
+	<type name="m4_tractor"></type>
+	<type name="m4_tractor_usa"></type>
+	<type name="m4_tractor_winter"></type>
+	<!-- Mercedes G4 -->
+	<type name="Mercedes_G4_W31"></type>
+	<!-- MTLB -->
+	<type name="MTLB_RF"></type>
+	<type name="MTLB_RF_camo"></type>
+	<type name="MTLB_RF_camo2"></type>
+	<!-- T34-76 -->
+	<type name="T_34_76"></type>
+	<type name="T_34_76_camo"></type>
+	<type name="T_34_76_camo2"></type>
+	<!-- Willys MB -->
+	<type name="Willys_MB"></type>
+	<!-- ZIS 5 Бензовоз -->
+	<type name="ZIS5_Benzovoz"></type>
 </ignore>
