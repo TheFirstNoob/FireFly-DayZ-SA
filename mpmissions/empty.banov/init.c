@@ -44,15 +44,6 @@ class CustomMission: MissionServer
 
 		return m_player;
 	}
-	
-	override void InvokeOnConnect(PlayerBase player, PlayerIdentity identity)
-	{
-		super.InvokeOnConnect(player, identity);
-		if (identity.GetName() == "Survivor")
-		{
-		GetGame().DisconnectPlayer(identity);
-		}
-	}
 };
 
 Mission CreateCustomMission(string path)
