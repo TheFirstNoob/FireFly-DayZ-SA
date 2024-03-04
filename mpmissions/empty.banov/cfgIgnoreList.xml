@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <ignore>
-	<!-- Vanilla Ignore -->
-	<!-- Не нужно хранить данные о банданах на голове и на лице -->
+	<!--
+		В этом файле прописаны все предметы которые не нужно сохранять в БД по причине их неисправности
+		или они во все не используются на сервере. Некоторые предметы во все сломаны! 
+		ПОЖАЛУЙСТА: Перед тем как убирать что-то отсюда узнайте и посмотрите сами зачем оно было добавлено сюда!
+		Поверьте моим словам все что тут прописано явно не просто так и лучше не убирать их остюда!
+	-->
 	<type name="BandanaMask_BlackPattern"></type>
 	<type name="BandanaMask_CamoPattern"></type>
 	<type name="BandanaMask_GreenPattern"></type>
@@ -12,26 +16,119 @@
 	<type name="BandanaHead_GreenPattern"></type>
 	<type name="BandanaHead_PolkaPattern"></type>
 	<type name="BandanaHead_RedPattern"></type>
-	<!-- Электрокнут - убран из-за проблем с ФПС у ИИ -->
 	<type name="CattleProd"></type>
-	<!-- Электрошокер - убран из-за проблем с ФПС у ИИ -->
 	<type name="StunBaton"></type>
-	<!-- Отсутствуют -->
 	<type name="DallasMask"></type>
 	<type name="HoxtonMask"></type>
 	<type name="WolfMask"></type>
 	<type name="Spear"></type>
-	<!-- Никогда не используйте! -->
-	<type name="Mag_STANAGCoupled_30Rnd"></type>
-	<!-- Ограждение из колючей проволки. Используйте Expansion версию -->
 	<type name="HescoBox"></type>
-	<!-- Автобус - Используйте Expansion версию если не стоит Rag Immersive Vehicle, если стоит, не используйте оба! -->
 	<type name="TransitBus"></type>
-	<!-- Для Хеликраша используйте Wreck_Mi8_Crashed -->
+
 	<type name="Wreck_Mi8"></type>
+
+	<type name="Ammo_12gaBeanbag"></type>
+	<type name="Ammobox_12gaBeanbag_10Rnd"></type>
+
+	<type name="AliceBag_NearBubble"></type>
+	<type name="AliceBag_FarBubble"></type>
+
+	<type name="Banana"></type>
+	<type name="Orange"></type>
+	<type name="Kiwi"></type>
+	<type name="Cannabis"></type>
+	<type name="CannabisSeeds"></type>
+	<type name="CannabisSeedsPack"></type>
+	<type name="MouflonSteakMeat"></type>
+	<type name="FoxSteakMeat"></type>
+	<type name="OtterSteakMeat"></type>
+
+	<type name="CamoNetShelter"></type>
+	<type name="Refrigerator"></type>
+	<type name="Radio"></type>
+	<type name="BearTrap"></type>
+	<type name="LandMineTrap"></type>
 	
-	<!-- TheFirstNoob Server Ignore -->
-	<!-- AK101 - Заменен на Tactical Flava версию -->
+	<type name="Chernarus_Map"></type>
+	<type name="Chernarus_Map_Open"></type>
+	<type name="GPSReceiver"></type>
+	<type name="BrakeFluid"></type>
+	<type name="TelescopicBaton"></type>
+	<type name="HockeyStick"></type>
+	<type name="NewHockeyStick"></type>
+	<type name="TelescopicBaton"></type>
+	<type name="PoliceBaton"></type>
+	<type name="ChainSaw"></type>
+	<type name="Candle"></type>
+	<type name="AlarmClock_Red"></type>
+	<type name="AlarmClock_Blue"></type>
+	<type name="AlarmClock_Green"></type>
+	<type name="KitchenTimer"></type>
+	<type name="Raycaster"></type>
+	<type name="Pen_Black"></type>
+	<type name="Pen_Red"></type>
+	<type name="Pen_Blue"></type>
+	<type name="Pen_Green"></type>
+	<type name="MessTin"></type>
+	<type name="LockPick"></type>
+	<type name="HandCuffs"></type>
+	<type name="HandCuffsLocked"></type>
+	<type name="HandCuffsKeys"></type>
+	<type name="Cassette"></type>
+	<type name="HayHook"></type>
+	<type name="ObsoleteFishingRot"></type>
+	<type name="IceAxe"></type>
+	<type name="Paddle"></type>
+
+	<type name="Magnum_Cylinder"></type>
+	<type name="Magnum_Ejector"></type>
+	<type name="Mag_STANAGCoupled_30Rnd"></type>
+	<type name="Mag_PM73_15Rnd"></type>
+	<type name="Mag_PM73_25Rnd"></type>
+	<type name="Mag_357Speedloader_6rnd"></type>
+	<type name="Mag_Ruger1022_10Rnd"></type>
+	<type name="Mag_762x54Snaploader_2Rnd"></type>
+	<type name="Mag_308WinSnaploader_2Rnd"></type>
+	<type name="Mag_CLIP762x54_5Rnd"></type>
+	<type name="Mag_CLIP762x39_10Rnd"></type>
+	<type name="Mag_CLIP9x19_10Rnd"></type>
+	<type name="Mag_ShockCartridge"></type>
+	<type name="Mag_AKM_Palm30Rnd_Green"></type>
+	<type name="Mag_AKM_Palm30Rnd_Black"></type>
+	<type name="Mag_AKM_Drum75Rnd_Green"></type>
+	<type name="Mag_AKM_Drum75Rnd_Black"></type>
+	<type name="Mag_AKM_Drum_TEST"></type>
+	<type name="Mag_AK101_30Rnd_Black"></type>
+	<type name="Mag_AK101_30Rnd_Green"></type>
+	<type name="Mag_AK74_30Rnd_Black"></type>
+	<type name="Mag_AK74_30Rnd_Green"></type>
+	<type name="Mag_12gaSnaploader_2Rnd"></type>
+	<type name="Mag_CZ550_4rnd"></type>
+	<type name="Mag_M249_Box200Rnd"></type>
+	<type name="Mag_MakarovPB_8Rnd"></type>
+	<type name="Mag_Arrows_Quiver"></type>
+	<type name="Mag_Bolts_Quiver"></type>
+	<type name="Mag_Dartgun_CO2"></type>
+	<type name="Mag_Groza_20Rnd"></type>
+	<type name="Mag_CMAG_10Rnd_Black"></type>
+	<type name="Mag_CMAG_10Rnd_Green"></type>
+	<type name="Mag_CMAG_20Rnd_Black"></type>
+	<type name="Mag_CMAG_20Rnd_Green"></type>
+	<type name="Mag_CMAG_30Rnd_Black"></type>
+	<type name="Mag_CMAG_30Rnd_Green"></type>
+	<type name="Mag_CMAG_40Rnd_Black"></type>
+	<type name="Mag_CMAG_40Rnd_Green"></type>
+	<type name="Mag_M14_10Rnd"></type>
+	<type name="Mag_M14_20Rnd"></type>
+	
+	<type name="Aug_Barrel"></type>
+	<type name="LongrangeOptic"></type>
+	<type name="GrozaOptic"></type>
+	<type name="MakarovPBSuppressor"></type>
+	<type name="Red9Bttstck"></type>
+	<type name="M249_RisHndgrd"></type>
+	<type name="M249_Hndgrd"></type>
+
 	<type name="AK101"></type>
 	<type name="AK101_Black"></type>
 	<type name="AK101_Green"></type>
@@ -44,7 +141,6 @@
 	<type name="AK101_Blue"></type>
 	<type name="AK101_Red"></type>
 	<type name="AK101_Pink"></type>
-	<!-- AK74 - Заменен на Tactical Flava версию -->
 	<type name="AK74"></type>
 	<type name="AK74_Black"></type>
 	<type name="AK74_Green"></type>
@@ -57,9 +153,8 @@
 	<type name="AK74_Blue"></type>
 	<type name="AK74_Red"></type>
 	<type name="AK74_Pink"></type>
-	<!-- AKМ - Заменен на Tactical Flava версию -->
 	<type name="AKM"></type>
-	<type name="AKM_TESTBED"></type> <!-- Никогда не используйте! -->
+	<type name="AKM_TESTBED"></type>
 	<type name="AKM_Black"></type>
 	<type name="AKM_Green"></type>
 	<type name="AKM_Clean"></type>
@@ -71,7 +166,6 @@
 	<type name="AKM_Blue"></type>
 	<type name="AKM_Red"></type>
 	<type name="AKM_Pink"></type>
-	<!-- AKS74U - Заменен на Tactical Flava версию -->
 	<type name="AKS74U"></type>
 	<type name="AKS74U_Black"></type>
 	<type name="AKS74U_Green"></type>
@@ -84,7 +178,6 @@
 	<type name="AKS74U_Blue"></type>
 	<type name="AKS74U_Red"></type>
 	<type name="AKS74U_Pink"></type>
-	<!-- M4A1 - Заменен на Tactical Flava версию -->
 	<type name="M4A1"></type>
 	<type name="M4A1_Black"></type>
 	<type name="M4A1_Green"></type>
@@ -97,24 +190,19 @@
 	<type name="M4A1_Blue"></type>
 	<type name="M4A1_Red"></type>
 	<type name="M4A1_Pink"></type>
-	<!-- M16A4-A2 - Заменен на Tactical Flava версию -->
 	<type name="M16A2"></type>
 	<type name="Expansion_M16"></type>
-	<!-- M14 - Заменен на Tactical Flava версию -->
 	<type name="M14"></type>
 	<type name="Expansion_M14"></type>
-	<!-- M1A - Заменен на Tactical Flava версию -->
 	<type name="Expansion_M1A"></type>
 	<type name="Expansion_M1A_Black"></type>
 	<type name="Expansion_M1A_Tan"></type>
 	<type name="Expansion_M1A_Green"></type>
-	<!-- Scout Pioneer - Не используйте остальные версии -->
 	<type name="Scout_Chernarus"></type>
 	<type name="Scout_Livonia"></type>
-	<!-- MP5 - Используется Ванильный -->
+
 	<type name="Expansion_MP5"></type>
 	<type name="Expansion_MP5SD"></type>
-	<!-- Арбалет - Используется Ванильный -->
 	<type name="Expansion_Crossbow"></type>
 	<type name="Expansion_Crossbow_Black"></type>
 	<type name="Expansion_Crossbow_Green"></type>
@@ -127,21 +215,20 @@
 	<type name="Expansion_Crossbow_Blue"></type>
 	<type name="Expansion_Crossbow_Red"></type>
 	<type name="Expansion_Crossbow_Pink"></type>
-	<!-- Пистолет-Шокер Тайзер - Не нужен для меня -->
 	<type name="Expansion_Taser_Yellow"></type>
 	<type name="Expansion_Taser_Black"></type>
-	<!-- Anzio 20 MM - Не нужен для меня -->
-	<type name="TF_Anzio20"></type>
-	<!-- M79 - Используется Ванильный -->
-	<type name="TF_M79"></type>
-	<type name="TF_M79_AOR1"></type>
-	<!-- EXPANSION DEBUG - Никогда не используйте! -->
 	<type name="Expansion_LobotomyDartGun"></type>
 	<type name="Mag_Expansion_LobotomyDart"></type>
 	<type name="Ammo_Expansion_LobotomyDart"></type>
-	
-	<!-- Сошки - Используется Tactical Flava и убраны запрещенные/Не рабочие -->
-	<!-- Для Пулеметов сошки выдаются автоматически и не нужно хранить о них данные -->
+	<type name="Ammo_Expansion_Taser"></type>
+	<type name="Mag_Expansion_M14_10Rnd"></type>
+	<type name="Mag_Expansion_M14_20Rnd"></type>
+	<!-- Anzio 20 MM ?? -->
+	<type name="TF_Anzio20"></type>
+
+	<type name="TF_M79"></type>
+	<type name="TF_M79_AOR1"></type>
+
 	<type name="AtlasBipod"></type>
 	<type name="M249_Bipod"></type>
 	<type name="TF_Anzio_Bipod"></type>
@@ -149,43 +236,39 @@
 	<type name="TF_M249_Bipod"></type>
 	<type name="TF_PKM_Bipod"></type>
 	<type name="TF_PKP_Bipod"></type>
-	
-	<!-- ТЕХНИКА - Не используемая по определенным причинам -->
-	<!-- Автобус -->
+
+	<type name="TF_RifleSling_Black"></type>
+	<type name="TF_RifleSling_Brown"></type>
+	<type name="TF_RifleSling_OD"></type>
+
+	<type name="ExpansionGyrocopter"></type>
+	<type name="ExpansionBigGyrocopter"></type>
 	<type name="ExpansionBus"></type>
 	<type name="ExpansionBus_Blue"></type>
 	<type name="ExpansionBus_Weeb"></type>
 	<type name="ExpansionBus_Red"></type>
-	<!-- Трактор -->
 	<type name="ExpansionTractor"></type>
 	<type name="ExpansionTractor_Red"></type>
 	<type name="ExpansionTractor_Blue"></type>
 	<type name="ExpansionTractor_Green"></type>
-	<!-- Водник -->
 	<type name="ExpansionVodnik"></type>
 	<type name="ExpansionVodnik_Camo"></type>
 	<type name="ExpansionVodnik_CamoMedical"></type>
-	<!-- Авианосец -->
 	<type name="ExpansionLHD"></type>
-	<!-- Лодка -->
 	<type name="ExpansionUtilityBoat"></type>
 	<type name="ExpansionUtilityBoat_Black"></type>
 	<type name="ExpansionUtilityBoat_Green"></type>
-	<!-- Катер -->
 	<type name="ExpansionZodiacBoat"></type>
 	<type name="ExpansionZodiacBoat_Orange"></type>
 	<type name="ExpansionZodiacBoat_Black"></type>
 	<type name="ExpansionZodiacBoat_Green"></type>
-	<!-- Артиллерийский трактор -->
 	<type name="artillery_tractor"></type>
 	<type name="artillery_tractor_camo"></type>
 	<type name="artillery_tractor_kung"></type>
 	<type name="artillery_tractor_kung_camo"></type>
-	<!-- БРДМ-2 -->
 	<type name="BRDM2_RF"></type>
 	<type name="BRDM2_RF_camo"></type>
 	<type name="BRDM2_RF_winter"></type>
-	<!-- БТР-80 -->
 	<type name="BTR_80"></type>
 	<type name="BTR_80_camo"></type>
 	<type name="BTR_80_camo2"></type>
@@ -194,29 +277,202 @@
 	<type name="BTR_80_P_camo"></type>
 	<type name="BTR_80_P_camo2"></type>
 	<type name="BTR_80_P_rust"></type>
-	<!-- Гирокоптер -->
-	<type name="ExpansionGyrocopter"></type>
-	<type name="ExpansionBigGyrocopter"></type>
-	<!-- GAZ 51 - Сломан -->
+
+	<!-- GAZ 51 - Сломан?? -->
 	<type name="gaz_51"></type>
-	<!-- M3A1 Scout -->
+
 	<type name="M3A1_Scout_Car"></type>
-	<!-- M4 Tractor -->
 	<type name="m4_tractor"></type>
 	<type name="m4_tractor_usa"></type>
 	<type name="m4_tractor_winter"></type>
-	<!-- Mercedes G4 -->
 	<type name="Mercedes_G4_W31"></type>
-	<!-- MTLB -->
 	<type name="MTLB_RF"></type>
 	<type name="MTLB_RF_camo"></type>
 	<type name="MTLB_RF_camo2"></type>
-	<!-- T34-76 -->
 	<type name="T_34_76"></type>
 	<type name="T_34_76_camo"></type>
 	<type name="T_34_76_camo2"></type>
-	<!-- Willys MB -->
 	<type name="Willys_MB"></type>
-	<!-- ZIS 5 Бензовоз -->
 	<type name="ZIS5_Benzovoz"></type>
+	
+	<type name="UAZ_469_milicia_wheel_Ruined"></type>
+	<type name="ExpansionAircraftBattery"></type>
+	<type name="headlighth7_box"></type>
+
+	<type name="Expansion_ANPEQ15_Red"></type>
+	<type name="Expansion_ANPEQ15_Greed"></type>
+
+	<type name="ExpansionSpraycanGreen"></type>
+	<type name="ExpansionSpraycanBlue"></type>
+	<type name="ExpansionSpraycanWhite"></type>
+	<type name="ExpansionSpraycanRed"></type>
+	<type name="ExpansionSpraycanBlack"></type>
+	<type name="ExpansionSpraycanGrey"></type>
+	<type name="ExpansionSpraycanWine"></type>
+	<type name="ExpansionSpraycanYellow"></type>
+	<type name="ExpansionSpraycanWeeb"></type>
+	<type name="ExpansionSpraycanDahoman"></type>
+	<type name="ExpansionSpraycanIon"></type>
+	<type name="ExpansionSpraycanPresident"></type>
+	<type name="ExpansionSpraycanVrana"></type>
+	<type name="ExpansionSpraycanWave"></type>
+	<type name="ExpansionSpraycanCivilian"></type>
+	<type name="ExpansionSpraycanMedical"></type>
+	<type name="ExpansionSpraycanUber"></type>
+	<type name="ExpansionSpraycanBlueline"></type>
+	<type name="ExpansionSpraycanDigital"></type>
+	<type name="ExpansionSpraycanElliptical"></type>
+	<type name="ExpansionSpraycanFurious"></type>
+	<type name="ExpansionSpraycanGrayWatcher"></type>
+	<type name="ExpansionSpraycanJeans"></type>
+	<type name="ExpansionSpraycanShadow"></type>
+	<type name="ExpansionSpraycanSpeedy"></type>
+	<type name="ExpansionSpraycanSunset"></type>
+	<type name="ExpansionSpraycanWasp"></type>
+	<type name="ExpansionRadio"></type>
+	<type name="ExpansionBriefcase"></type>
+	<type name="ExpansionHeroSet"></type>
+	<type name="ExpansionBanditSet"></type>
+	<type name="ExpansionParkingMeter"></type>
+	<type name="ExpansionParkingMeterKit"></type>
+	<type name="ExpansionAirCondBig"></type>
+	<type name="ExpansionAirCondSmall"></type>
+
+	<type name="ExpansionGoldBar"></type>
+	<type name="ExpansionSilverBar"></type>
+	<type name="ExpansionGoldNugget"></type>
+	<type name="ExpansionSilverNugget"></type>
+	<type name="ExpansionBanknoteUSD"></type>
+	<type name="ExpansionBanknoteEuro"></type>
+
+	<type name="Expansion_Ammo_FlareSupplyBase"></type>
+	<type name="Expansion_Ammo_FlareSupplyRed"></type>
+	<type name="Expansion_Ammo_FlareSupplyGreen"></type>
+	<type name="Expansion_Ammo_FlareSupplyBlue"></type>
+	
+	<type name="Ammo_40mm_Chemgas"></type>
+	<type name="Ammo_40mm_Explosive"></type>
+	<type name="Ammo_40mm_Smoke_Black"></type>
+	<type name="Ammo_40mm_Smoke_Green"></type>
+	<type name="Ammo_40mm_Smoke_Red"></type>
+	<type name="Ammo_40mm_Smoke_White"></type>
+	<type name="M18SmokeGrenade_Green"></type>
+	<type name="M18SmokeGrenade_Purple"></type>
+	<type name="M18SmokeGrenade_Red"></type>
+	<type name="M18SmokeGrenade_White"></type>
+	<type name="M18SmokeGrenade_Yellow"></type>
+	<type name="ClaymoreMine"></type>
+	<type name="ImprovisedExplosive"></type>
+	<type name="ExpansionSatchel"></type>
+	<type name="Plastic_Explosive"></type>
+	<type name="RemoteDetonator"></type>
+	<type name="RemoteDetonatorReciver"></type>
+	<type name="RemoteDetonatorTrigger"></type>
+	
+	<type name="ExpansionUh1hDoor_1_1"></type>
+	<type name="ExpansionUh1hDoor_1_2"></type>
+	<type name="ExpansionUh1hDoor_2_1"></type>
+	<type name="ExpansionUh1hDoor_2_2"></type>
+	<type name="ExpansionUh1hDoor_1_1_Civilian"></type>
+	<type name="ExpansionUh1hDoor_1_2_Civilian"></type>
+	<type name="ExpansionUh1hDoor_1_1_Medical"></type>
+	<type name="ExpansionUh1hDoor_2_2_Civilian"></type>
+	<type name="ExpansionUh1hDoor_1_2_Medical"></type>
+	<type name="ExpansionUh1hDoor_2_1_Medical"></type>
+	<type name="ExpansionUh1hDoor_2_2_Medical"></type>
+	<type name="ExpansionUh1hDoor_1_1_Resistance"></type>
+	<type name="ExpansionUh1hDoor_1_2_Resistance"></type>
+	<type name="ExpansionUh1hDoor_2_1_Resistance"></type>
+	<type name="ExpansionUh1hDoor_2_2_Resistance"></type>
+	<type name="ExpansionUh1hDoor_1_1_Uber"></type>
+	<type name="ExpansionUh1hDoor_1_2_Uber"></type>
+	<type name="ExpansionUh1hDoor_2_1_Uber"></type>
+	<type name="ExpansionUh1hDoor_2_2_Uber"></type>
+	<type name="Expansion_Mh6_Door_1_1"></type>
+	<type name="Expansion_Mh6_Door_1_2"></type>
+	<type name="Expansion_Mh6_Door_2_1"></type>
+	<type name="Expansion_Mh6_Door_2_2"></type>
+	<type name="Expansion_Mh6_Door_1_1_Blueline"></type>
+	<type name="Expansion_Mh6_Door_1_2_Blueline"></type>
+	<type name="Expansion_Mh6_Door_2_1_Blueline"></type>
+	<type name="Expansion_Mh6_Door_2_2_Blueline"></type>
+	<type name="Expansion_Mh6_Door_1_1_Digital"></type>
+	<type name="Expansion_Mh6_Door_1_2_Digital"></type>
+	<type name="Expansion_Mh6_Door_2_1_Digital"></type>
+	<type name="Expansion_Mh6_Door_2_2_Digital"></type>
+	<type name="Expansion_Mh6_Door_1_1_Elliptical"></type>
+	<type name="Expansion_Mh6_Door_1_2_Elliptical"></type>
+	<type name="Expansion_Mh6_Door_2_1_Elliptical"></type>
+	<type name="Expansion_Mh6_Door_2_2_Elliptical"></type>
+	<type name="Expansion_Mh6_Door_1_1_Furious"></type>
+	<type name="Expansion_Mh6_Door_1_2_Furious"></type>
+	<type name="Expansion_Mh6_Door_2_1_Furious"></type>
+	<type name="Expansion_Mh6_Door_2_2_Furious"></type>
+	<type name="Expansion_Mh6_Door_1_1_GrayWatcher"></type>
+	<type name="Expansion_Mh6_Door_1_2_GrayWatcher"></type>
+	<type name="Expansion_Mh6_Door_2_1_GrayWatcher"></type>
+	<type name="Expansion_Mh6_Door_2_2_GrayWatcher"></type>
+	<type name="Expansion_Mh6_Door_1_1_Jeans"></type>
+	<type name="Expansion_Mh6_Door_1_2_Jeans"></type>
+	<type name="Expansion_Mh6_Door_2_1_Jeans"></type>
+	<type name="Expansion_Mh6_Door_2_2_Jeans"></type>
+	<type name="Expansion_Mh6_Door_1_1_Resistance"></type>
+	<type name="Expansion_Mh6_Door_1_2_Resistance"></type>
+	<type name="Expansion_Mh6_Door_2_1_Resistance"></type>
+	<type name="Expansion_Mh6_Door_2_2_Resistance"></type>
+	<type name="Expansion_Mh6_Door_1_1_Shadow"></type>
+	<type name="Expansion_Mh6_Door_1_2_Shadow"></type>
+	<type name="Expansion_Mh6_Door_2_1_Shadow"></type>
+	<type name="Expansion_Mh6_Door_2_2_Shadow"></type>
+	<type name="Expansion_Mh6_Door_1_1_Sheriff"></type>
+	<type name="Expansion_Mh6_Door_1_2_Sheriff"></type>
+	<type name="Expansion_Mh6_Door_2_1_Sheriff"></type>
+	<type name="Expansion_Mh6_Door_2_2_Sheriff"></type>
+	<type name="Expansion_Mh6_Door_1_1_Speedy"></type>
+	<type name="Expansion_Mh6_Door_1_2_Speedy"></type>
+	<type name="Expansion_Mh6_Door_2_1_Speedy"></type>
+	<type name="Expansion_Mh6_Door_2_2_Speedy"></type>
+	<type name="Expansion_Mh6_Door_1_1_Sunset"></type>
+	<type name="Expansion_Mh6_Door_1_2_Sunset"></type>
+	<type name="Expansion_Mh6_Door_2_1_Sunset"></type>
+	<type name="Expansion_Mh6_Door_2_2_Sunset"></type>
+	<type name="Expansion_Mh6_Door_1_1_Vrana"></type>
+	<type name="Expansion_Mh6_Door_1_2_Vrana"></type>
+	<type name="Expansion_Mh6_Door_2_1_Vrana"></type>
+	<type name="Expansion_Mh6_Door_2_2_Vrana"></type>
+	<type name="Expansion_Mh6_Door_1_1_Wasp"></type>
+	<type name="Expansion_Mh6_Door_1_2_Wasp"></type>
+	<type name="Expansion_Mh6_Door_2_1_Wasp"></type>
+	<type name="Expansion_Mh6_Door_2_2_Wasp"></type>
+	<type name="Expansion_Mh6_Door_1_1_Wave"></type>
+	<type name="Expansion_Mh6_Door_1_2_Wave"></type>
+	<type name="Expansion_Mh6_Door_2_1_Wave"></type>
+	<type name="Expansion_Mh6_Door_2_2_Wave"></type>
+	
+	<type name="CP_SmallBox"></type>
+	<type name="CP_MediumBox"></type>
+
+	<type name="MSP_MedivealChest"></type>
+	<type name="MSP_TreasureChest"></type>
+	<type name="MSP_Safe"></type>
+	<type name="MSP_WaterBarrel_Valve"></type>
+	<type name="MSP_WaterBarrel_Valve_Darkwood"></type>
+	<type name="MSP_WaterBarrel_Valve_Faucet"></type>
+	<type name="MSP_Sawblade"></type>
+	<type name="MSP_BaseballCap_Beige"></type>
+	<type name="MSP_BaseballCap_Black"></type>
+	<type name="MSP_BaseballCap_Blue"></type>
+	<type name="MSP_BaseballCap_Camo"></type>
+	<type name="MSP_BaseballCap_Olive"></type>
+	<type name="MSP_BaseballCap_Pink"></type>
+	<type name="MSP_BaseballCap_Red"></type>
+	<type name="MSP_BaseballCap_CMMG_Black"></type>
+	<type name="MSP_BaseballCap_CMMG_Pink"></type>
+
+	<type name="FreezeGem_Base"></type>
+	<type name="FreezeBar_base"></type>
+	<type name="Freezestone_base"></type>
+	<type name="FreezeNugget_base"></type>
+
+	<type name="AntiViperInjector"></type>
 </ignore>
