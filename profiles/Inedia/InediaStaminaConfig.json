@@ -1,9 +1,10 @@
 {
-    "adminSteamId": "",
+    "AdminsSteamIds": [],
     "ShowStaminaWidgetInVehicle": 1,
     "StaminaGeneralOptions": {
-        "IsActive": 1,
+        "IsActive": 0,
         "RespawnValuePercent": 100.0,
+        "WeightOverloadThresholdKg": 25.0,
         "CostPerSecondRestPercent": 0.5,
         "CostPerSecondNoMovementPercent": 0.30000001192092898,
         "CostPerSecondNormalWalkingPercent": 0.30000001192092898,
@@ -46,7 +47,7 @@
     },
     "StaminaSleepOptions": {
         "IsActive": 1,
-        "RespawnValuePercent": 100.0,
+        "RespawnValuePercent": 80.0,
         "ReductionOfMaximumSleepWhenDaytimePercent": 20.0,
         "ReductionOfMaximumSleepWhenOutdoorsPercent": 20.0,
         "ReductionOfMaximumSleepWhenWetPercent": 20.0,
@@ -76,9 +77,12 @@
         "MorphineMultiplier": 50.0,
         "TremorLevelAtCritical": 0.0,
         "TremorLevelAtLow": 0.0,
+        "SleepyAlertsWhenLessCriticalIsActive": 1,
+        "LossOfConsciousnessWhenLessCriticalIsActive": 0,
+        "MovementSpeedReductionWhenLessLowIsActive": 0,
         "CriticalThresholdPercent": 5.0,
         "LowThresholdPercent": 20.0,
-        "SleepinessThresholdPercent": 50.0
+        "SleepinessThresholdPercent": 40.0
     },
     "StaminaStimulants": [
         {
@@ -89,7 +93,7 @@
         {
             "ItemClass": "SodaCan_Pipsi",
             "StaminaGeneralIncreasePercent": 20.0,
-            "StaminaSleepIncreasePercent": 10.0
+            "StaminaSleepIncreasePercent": 5.0
         }
     ],
     "ComfortablePlaces": [
