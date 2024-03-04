@@ -18,15 +18,6 @@
 			<export name="Rail7" shape="dz\structures\rail\tracks\rail_tracke_r30_20.p3d" />
 			<export name="Rail8" shape="dz\structures\rail\tracks\rail_tracke_l25_10.p3d" />
 			<export name="Rail9" shape="dz\structures\rail\tracks\rail_tracke_r25_10.p3d" />
-<!--
-			<export name="Stone1" shape="dz\rocks\stone1.p3d" />
-			<export name="Stone2" shape="dz\rocks\stone2.p3d" />
-			<export name="Stone3" shape="dz\rocks\stone3.p3d" />
-			<export name="Stone4" shape="dz\rocks\stone4.p3d" />
-			<export name="Stone5" shape="dz\rocks\stone5.p3d" />
-
-			<export name="QuercusRobur_3d" shape="dz\plants\tree\t_quercusRobur_3d.p3d" />
-<!-- 		<export name="ChickenCoop" shape="dz\structures\Residential\Misc\misc_chickenCoop.p3d" /> --><!--Feathers Eggs Will be moved to normal groups-->
 <!-- -->
 			<export name="t_LarixDecidua_1f_summer" shape="dz\plants_bliss\tree\t_LarixDecidua_1f_summer.p3d" />
 			<export name="t_LarixDecidua_1s_summer" shape="dz\plants_bliss\tree\t_LarixDecidua_1s_summer.p3d" />
@@ -243,16 +234,6 @@
 			<point pos="-0.39 -10.50 4.37" range="0.88" height="2.00" flags="32" />
 			</container>
 		</cluster>
-<!--
-		<cluster name="QuercusRobur_3d" lootmax="2" maxinstances="150">
-			<de name="TrajectoryDeciduous" />
-			<container name="branch" lootmax="1">
-			<point pos="1.495153 -0.501526 0.119188" range="0.478125" height="1.195313" flags="32" />
-			<point pos="-1.820516 -0.879303 -0.069031" range="0.478125" height="1.195313" flags="32" />
-			<point pos="-0.040581 -0.670837 -1.206359" range="0.478125" height="1.195313" flags="32" />
-			</container>
-		</cluster>
--->
 		<cluster name="QuercusRobur_fallenB" lootmax="2" maxinstances="150">
 			<de name="TrajectoryDeciduous" />
 			<container name="branch" lootmax="1">
@@ -456,46 +437,4 @@
 			<point pos="6.21 0.95 0.31" range="0.50" height="1.50" />
 			</container>
 		</cluster>
-<!--
-		<cluster name="Stone1" lootmax="2">
-			<de name="TrajectoryStones" />
-			<container name="road" lootmax="1">
-			<point pos="1.495153 -0.501526 0.119188" range="0.478125" height="1.195313" flags="32" />
-			<point pos="-1.820516 -0.879303 -0.069031" range="0.478125" height="1.195313" flags="32" />
-			<point pos="-0.040581 -0.670837 -1.206359" range="0.478125" height="1.195313" flags="32" />
-			</container>
-		</cluster>
-		<cluster name="Stone2" lootmax="2">
-			<de name="TrajectoryStones" />
-			<container name="road" lootmax="1">
-			<point pos="1.495153 -0.501526 0.119188" range="0.478125" height="1.195313" flags="32" />
-			<point pos="-1.820516 -0.879303 -0.069031" range="0.478125" height="1.195313" flags="32" />
-			<point pos="-0.040581 -0.670837 -1.206359" range="0.478125" height="1.195313" flags="32" />
-			</container>
-		</cluster>
-		<cluster name="Stone3" lootmax="2">
-			<de name="TrajectoryStones" />
-			<container name="road" lootmax="1">
-			<point pos="1.495153 -0.501526 0.119188" range="0.478125" height="1.195313" flags="32" />
-			<point pos="-1.820516 -0.879303 -0.069031" range="0.478125" height="1.195313" flags="32" />
-			<point pos="-0.040581 -0.670837 -1.206359" range="0.478125" height="1.195313" flags="32" />
-			</container>
-		</cluster>
-		<cluster name="Stone4" lootmax="2">
-			<de name="TrajectoryStones" />
-			<container name="road" lootmax="1">
-			<point pos="1.495153 -0.501526 0.119188" range="0.478125" height="1.195313" flags="32" />
-			<point pos="-1.820516 -0.879303 -0.069031" range="0.478125" height="1.195313" flags="32" />
-			<point pos="-0.040581 -0.670837 -1.206359" range="0.478125" height="1.195313" flags="32" />
-			</container>
-		</cluster>
-		<cluster name="Stone5" lootmax="2">
-			<de name="TrajectoryStones" />
-			<container name="road" lootmax="1">
-			<point pos="1.495153 -0.501526 0.119188" range="0.478125" height="1.195313" flags="32" />
-			<point pos="-1.820516 -0.879303 -0.069031" range="0.478125" height="1.195313" flags="32" />
-			<point pos="-0.040581 -0.670837 -1.206359" range="0.478125" height="1.195313" flags="32" />
-			</container>
-		</cluster>
--->
 </prototype>
