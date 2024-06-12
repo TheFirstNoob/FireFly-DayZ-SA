@@ -99,19 +99,6 @@
             "Variants": []
         },
         {
-            "ClassName": "Engraved1911",
-            "MaxPriceThreshold": 6000,
-            "MinPriceThreshold": 4800,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 4,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "mag_1911_7rnd"
-            ],
-            "Variants": []
-        },
-        {
             "ClassName": "magnum",
             "MaxPriceThreshold": 800,
             "MinPriceThreshold": 560,
@@ -141,21 +128,6 @@
             "ClassName": "deagle",
             "MaxPriceThreshold": 1200,
             "MinPriceThreshold": 960,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 4,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "mag_deagle_9rnd"
-            ],
-            "Variants": [
-                "deagle_gold"
-            ]
-        },
-        {
-            "ClassName": "deagle_gold",
-            "MaxPriceThreshold": 10000,
-            "MinPriceThreshold": 8000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 4,
             "MinStockThreshold": 0,
@@ -200,6 +172,39 @@
             "SpawnAttachments": [
                 "mag_expansion_m9_15rnd"
             ],
+            "Variants": []
+        },
+		{
+            "ClassName": "TF_FiveSeven",
+            "MaxPriceThreshold": 150,
+            "MinPriceThreshold": 100,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 150,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "TF_MP443",
+            "MaxPriceThreshold": 150,
+            "MinPriceThreshold": 100,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 150,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+		{
+            "ClassName": "TF_MakarovPB",
+            "MaxPriceThreshold": 150,
+            "MinPriceThreshold": 100,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 150,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
             "Variants": []
         }
     ]

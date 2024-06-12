@@ -1,10 +1,10 @@
 {
-    "ConfigVersion": 21,
+    "ConfigVersion": 22,
     "ID": 1106,
     "Type": 1,
-    "Title": "[СЮЖЕТ ГРУППА] Тестовая смешнявка",
+    "Title": "[СЮЖЕТ] Легендарный толчок",
     "Descriptions": [
-        "Слушай... тут такое дело. Есть мой друганя - Валерой зовут, так вот... у него Диарея. Нужно очень быстро довести его до Легендарного точка чтобы он не обосрался! Спасай!",
+        "Слушай... тут такое дело. Есть мой друганя - Вовчиком зовут, так вот... у него Диарея. Нужно очень быстро довести его до Легендарного толчка чтобы он не обосрался! Спасай!",
         "Хули ты тут делаешь все еще? Беги Форест, беги!",
         "Мне уже отзвонился Валерка. Он не обосрался!"
     ],
@@ -15,7 +15,7 @@
     "IsWeeklyQuest": 0,
     "CancelQuestOnPlayerDeath": 1,
     "Autocomplete": 1,
-    "IsGroupQuest": 1,
+    "IsGroupQuest": 0,
     "ObjectSetFileName": "",
     "QuestItems": [],
     "Rewards": [
@@ -33,6 +33,7 @@
     "RandomReward": 0,
     "RandomRewardAmount": -1,
     "RewardsForGroupOwnerOnly": 0,
+    "RewardBehavior": 0,
     "QuestGiverIDs": [
         1
     ],
@@ -42,7 +43,7 @@
     "IsAchievement": 0,
     "Objectives": [
         {
-            "ConfigVersion": 26,
+            "ConfigVersion": 27,
             "ID": 1106,
             "ObjectiveType": 9
         }

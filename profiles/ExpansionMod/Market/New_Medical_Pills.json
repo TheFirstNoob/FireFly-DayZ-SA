@@ -1,6 +1,6 @@
 {
     "m_Version": 12,
-    "DisplayName": "Медицина - Таблетки",
+    "DisplayName": "Медицина - Таблетки и мазь",
     "Icon": "Pills",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
@@ -52,6 +52,17 @@
         },
 		{
             "ClassName": "PainkillerTablets",
+            "MaxPriceThreshold": 20,
+            "MinPriceThreshold": 10,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+		{
+            "ClassName": "CP_Relief_Balm",
             "MaxPriceThreshold": 20,
             "MinPriceThreshold": 10,
             "SellPricePercent": -1.0,

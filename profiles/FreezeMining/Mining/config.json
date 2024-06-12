@@ -1,12 +1,44 @@
 {
     "MRFRMINE": [
         {
-            "actionText": "Добыть Медную руду",
+            "actionText": "Mine for Copper Ore",
             "max_mine": -1,
             "enabledTypes": [
                 "FreezeNode_copper"
             ],
             "itemsProbabilities": [
+                {
+                    "item": "FreezeGem_Amber",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Amethyst",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Aquamarine",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_FancyColourDiamond",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Iolite",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Jade",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Ruby",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Turquoise",
+                    "probability": 0
+                },
                 {
                     "item": "Freezestone_copper",
                     "probability": 70
@@ -18,12 +50,44 @@
             ]
         },
         {
-            "actionText": "Добыть Серную руду",
+            "actionText": "Mine for Sulphur Ore",
             "max_mine": -1,
             "enabledTypes": [
                 "FreezeNode_sulphur"
             ],
             "itemsProbabilities": [
+                {
+                    "item": "FreezeGem_Amber",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Amethyst",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Aquamarine",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_FancyColourDiamond",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Iolite",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Jade",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Ruby",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Turquoise",
+                    "probability": 0
+                },
                 {
                     "item": "Freezestone_sulphur",
                     "probability": 70
@@ -35,12 +99,44 @@
             ]
         },
         {
-            "actionText": "Добыть Золотую руду",
+            "actionText": "Mine for Gold Ore",
             "max_mine": -1,
             "enabledTypes": [
                 "FreezeNode_gold"
             ],
             "itemsProbabilities": [
+                {
+                    "item": "FreezeGem_Amber",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Amethyst",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Aquamarine",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_FancyColourDiamond",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Iolite",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Jade",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Ruby",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Turquoise",
+                    "probability": 0
+                },
                 {
                     "item": "Freezestone_gold",
                     "probability": 70
@@ -52,12 +148,44 @@
             ]
         },
         {
-            "actionText": "Добыть Серебрянную руду",
+            "actionText": "Mine for Silver Ore",
             "max_mine": -1,
             "enabledTypes": [
                 "FreezeNode_silver"
             ],
             "itemsProbabilities": [
+                {
+                    "item": "FreezeGem_Amber",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Amethyst",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Aquamarine",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_FancyColourDiamond",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Iolite",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Jade",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Ruby",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Turquoise",
+                    "probability": 0
+                },
                 {
                     "item": "Freezestone_silver",
                     "probability": 70
@@ -69,12 +197,44 @@
             ]
         },
         {
-            "actionText": "Добыть Оловянную руду",
+            "actionText": "Mine for Tin Ore",
             "max_mine": -1,
             "enabledTypes": [
                 "FreezeNode_tin"
             ],
             "itemsProbabilities": [
+                {
+                    "item": "FreezeGem_Amber",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Amethyst",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Aquamarine",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_FancyColourDiamond",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Iolite",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Jade",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Ruby",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Turquoise",
+                    "probability": 0
+                },
                 {
                     "item": "Freezestone_tin",
                     "probability": 70
@@ -86,7 +246,7 @@
             ]
         },
         {
-            "actionText": "Добыть Камень",
+            "actionText": "Mine for Stone",
             "max_mine": -1,
             "enabledTypes": [
                 "FreezeNode_stone"
@@ -155,12 +315,44 @@
             ]
         },
         {
-            "actionText": "Добыть Урановую руду",
+            "actionText": "Mine for Uranium Ore",
             "max_mine": -1,
             "enabledTypes": [
                 "FreezeNode_uranium"
             ],
             "itemsProbabilities": [
+                {
+                    "item": "FreezeGem_Amber",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Amethyst",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Aquamarine",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_FancyColourDiamond",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Iolite",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Jade",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Ruby",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Turquoise",
+                    "probability": 0
+                },
                 {
                     "item": "Freezestone_uranium",
                     "probability": 70
@@ -172,7 +364,7 @@
             ]
         },
         {
-            "actionText": "Добыть Янтарь необработанный",
+            "actionText": "Mine for Raw Amber Gem",
             "max_mine": -1,
             "enabledTypes": [
                 "FreezeNode_AmberGemNode"
@@ -189,7 +381,7 @@
             ]
         },
         {
-            "actionText": "Добыть Аметист необработанный",
+            "actionText": "Mine for Raw Amethyst Gem",
             "max_mine": -1,
             "enabledTypes": [
                 "FreezeNode_AmethystGemNode"
@@ -206,7 +398,7 @@
             ]
         },
         {
-            "actionText": "Добыть Аквамарин необработанный",
+            "actionText": "Mine for Raw Aquamarine Gem",
             "max_mine": -1,
             "enabledTypes": [
                 "FreezeNode_AquamarineGemNode"
@@ -223,7 +415,7 @@
             ]
         },
         {
-            "actionText": "Добыть Алмаз цветной необработанный",
+            "actionText": "Mine for Raw Fancy Colour Diamond Gem",
             "max_mine": -1,
             "enabledTypes": [
                 "FreezeNode_FancyColourDiamondGemNode"
@@ -240,7 +432,7 @@
             ]
         },
         {
-            "actionText": "Добыть Иолит необработанный",
+            "actionText": "Mine for Raw Iolite Gem",
             "max_mine": -1,
             "enabledTypes": [
                 "FreezeNode_IoliteGemNode"
@@ -257,7 +449,7 @@
             ]
         },
         {
-            "actionText": "Добыть Нефрит необработанный",
+            "actionText": "Mine for Raw Jade Gem",
             "max_mine": -1,
             "enabledTypes": [
                 "FreezeNode_JadeGemNode"
@@ -274,7 +466,7 @@
             ]
         },
         {
-            "actionText": "Добыть Рубин необработанный",
+            "actionText": "Mine for Raw Ruby Gem",
             "max_mine": -1,
             "enabledTypes": [
                 "FreezeNode_RubyGemNode"
@@ -291,7 +483,7 @@
             ]
         },
         {
-            "actionText": "Добыть Бирюза необработанный",
+            "actionText": "Mine for Raw Turquoise Gem",
             "max_mine": -1,
             "enabledTypes": [
                 "FreezeNode_TurquoiseGemNode"
@@ -308,12 +500,44 @@
             ]
         },
         {
-            "actionText": "Добыть Железную руду",
+            "actionText": "Mine for Iron Ore",
             "max_mine": -1,
             "enabledTypes": [
                 "FreezeNode_iron"
             ],
             "itemsProbabilities": [
+                {
+                    "item": "FreezeGem_Amber",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Amethyst",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Aquamarine",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_FancyColourDiamond",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Iolite",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Jade",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Ruby",
+                    "probability": 0
+                },
+                {
+                    "item": "FreezeGem_Turquoise",
+                    "probability": 0
+                },
                 {
                     "item": "Freezestone_iron",
                     "probability": 70

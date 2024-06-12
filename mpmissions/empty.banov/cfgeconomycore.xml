@@ -29,19 +29,84 @@
 		<default name="save_events_startup" value="true"/>
 		<default name="save_types_startup" value="true"/>
 	</defaults>
+
 	<ce folder="types_extra">
-        <!-- Types -->
+		<file name="Ammos.xml" type="types" />
+		<file name="Animals.xml" type="types" />
+		<file name="Attachments_Adapters.xml" type="types" />
+		<file name="Attachments_Bayonets.xml" type="types" />
+		<file name="Attachments_Bipods.xml" type="types" />
+		<file name="Attachments_Bttstck.xml" type="types" />
+		<file name="Attachments_Compensators.xml" type="types" />
+		<file name="Attachments_Flashlights.xml" type="types" />
+		<file name="Attachments_Ghillie.xml" type="types" />
+		<file name="Attachments_Grips.xml" type="types" />
+		<file name="Attachments_Hndgrd.xml" type="types" />
+		<file name="Attachments_Mags.xml" type="types" />
+		<file name="Attachments_Optics.xml" type="types" />
+		<file name="Attachments_Suppressors.xml" type="types" />
 		<file name="Banov.xml" type="types" />
-		<file name="TacticalFlava_types.xml" type="types" />
-		<file name="TacticalFlava_spawnabletypes.xml" type="spawnabletypes" />
+		<file name="Building_Camonets.xml" type="types" />
+		<file name="Building_Containers.xml" type="types" />
+		<file name="Building_Decorates.xml" type="types" />
+		<file name="Building_Items.xml" type="types" />
+		<file name="Building_MainKits.xml" type="types" />
+		<file name="Building_Tools.xml" type="types" />
+		<file name="Building_Traps.xml" type="types" />
+		<file name="Clothes_Armbands.xml" type="types" />
+		<file name="Clothes_Backpacks.xml" type="types" />
+		<file name="Clothes_Belts.xml" type="types" />
+		<file name="Clothes_Crafts.xml" type="types" />
+		<file name="Clothes_Glasses.xml" type="types" />
+		<file name="Clothes_Gloves.xml" type="types" />
+		<file name="Clothes_Hats.xml" type="types" />
+		<file name="Clothes_Helmets.xml" type="types" />
+		<file name="Clothes_Jackets.xml" type="types" />
+		<file name="Clothes_Masks.xml" type="types" />
+		<file name="Clothes_NBC.xml" type="types" />
+		<file name="Clothes_Others.xml" type="types" />
+		<file name="Clothes_Pants.xml" type="types" />
+		<file name="Clothes_Pouches.xml" type="types" />
+		<file name="Clothes_Shirts.xml" type="types" />
+		<file name="Clothes_Shoes.xml" type="types" />
+		<file name="Clothes_Vests.xml" type="types" />
+		<file name="CollectablesOthers.xml" type="types" />
+		<file name="Events.xml" type="types" />
+		<file name="expansion_types.xml" type="types" />
+		<file name="Flags.xml" type="types" />
+		<file name="Food_Water_Fish.xml" type="types" />
+		<file name="Items_Books.xml" type="types" />
+		<file name="Items_Decorations.xml" type="types" />
+		<file name="Items_Farms.xml" type="types" />
+		<file name="Items_Pelts.xml" type="types" />
+		<file name="Items_Useds.xml" type="types" />
+		<file name="Medicals.xml" type="types" />
+		<file name="msp_types.xml" type="types" />
 		<file name="RUSForma_vehicles_types.xml" type="types" />
-		<file name="CollectablesBooks_types.xml" type="types" />
-		<file name="CollectablesOther_types.xml" type="types" />
+		<file name="SecureContainers.xml" type="types" />
+		<file name="Tools.xml" type="types" />
+		<file name="Tools_or_Melee.xml" type="types" />
+		<file name="Vehicles_Vanilla.xml" type="types" />
+		<file name="Vehicles_Vanilla_Attachments.xml" type="types" />
+		<file name="Weapons_AutomaticRifle.xml" type="types" />
+		<file name="Weapons_Explosives.xml" type="types" />
+		<file name="Weapons_Grenades.xml" type="types" />
+		<file name="Weapons_Machineguns.xml" type="types" />
+		<file name="Weapons_Others.xml" type="types" />
+		<file name="Weapons_Pistols.xml" type="types" />
+		<file name="Weapons_Shotguns.xml" type="types" />
+		<file name="Weapons_SMG.xml" type="types" />
+		<file name="Weapons_SnipRifles.xml" type="types" />
+		<file name="Zombies.xml" type="types" />
 	</ce>
 	
-	<ce folder="expansion_ce">
-		<file name="expansion_types.xml" type="types" />
-		<file name="expansion_spawnabletypes.xml" type="spawnabletypes" />
-		<file name="expansion_events.xml" type="events" />
+	<ce folder="spawnabletypes_extra">
+		<file name="Expansion_spawnabletypes.xml" type="spawnabletypes" />
+		<file name="Vehicles_spawnabletypes.xml" type="spawnabletypes" />
+		<file name="TacticalFlava_spawnabletypes.xml" type="spawnabletypes" />
+	</ce>
+	
+	<ce folder="events_extra">
+		<file name="Expansion_events.xml" type="events" />
 	</ce>
 </economycore>

@@ -1,12 +1,49 @@
 {
     "RequireCarJackWheelChange": 1,
     "PlayerInCarCanBeTargetedByAI": 1,
+    "EnableSlidingForNonOffroadCars": 1,
     "WheelDamageRoad": 0.0020000000949949028,
     "WheelDamageOffroad": 0.004000000189989805,
     "VehiclesOffroad": {
         "VehicleList": [
             "Offroad_02",
-            "OffroadHatchback"
+            "OffroadHatchback",
+            "rag_landrover_110_base",
+            "rag_zil_130_base",
+            "mtvr_base",
+            "rag_jeep_willys_base",
+            "rag_hummer_Armored_base",
+            "rag_gaz69",
+            "rag_atv_base",
+            "Bicycle_Base",
+            "Expansion_Landrover_Base",
+            "Snowmobile_Base",
+            "Techs_ATV_base",
+            "Techs_Hilux_base"
+        ]
+    },
+    "WheelException": {
+        "VehicleList": [
+            "vg7_scorpion",
+            "Snowmobile_Base",
+            "ExpansionHelicopterScript",
+            "Raft",
+            "RFFSHeli_base",
+            "RFMosquito_mod",
+            "Bicycle_Base"
+        ]
+    },
+    "HeatingException": {
+        "VehicleList": [
+            "rag_jeep_willys_base",
+            "rag_gaz69",
+            "rag_derby_car_base",
+            "rag_baja_base",
+            "rag_atv_base",
+            "vg7_scorpion",
+            "Snowmobile_Base",
+            "Raft",
+            "Bicycle_Base"
         ]
     }
 }

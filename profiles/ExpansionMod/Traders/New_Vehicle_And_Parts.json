@@ -12,13 +12,15 @@
     "DisplayCurrencyValue": 1,
     "DisplayCurrencyName": "",
     "Categories": [
-        "New_Vehicle_Cars",
-        "New_Vehicle_Helicopters",
+        "New_Vehicles_Light_Cars",
+		"New_Vehicles_Medium_Cars",
+		"New_Vehicles_Heavy_Cars",
+		"New_Vehicles_Other_Cars",
+        "New_Vehicle_Helicopters:2",
+		"New_RUSForma_VehicleParts_Doors",
         "New_Vehicle_Parts_Inside",
         "New_Vehicle_Parts_Outside_Cars",
-        "New_Vehicle_Parts_Outside_Helicopters",
 		"New_Vehicle_Parts_Wheels",
-		"New_Vehicle_Spraycans",
 		"New_Vehicle_Parts_Others"
     ],
     "Items": {}

@@ -50,6 +50,10 @@
                     "Enabled": 0
                 },
                 {
+                    "Name": "JMPlayerModuleMessage",
+                    "Enabled": 0
+                },
+                {
                     "Name": "JMObjectSpawnerModule",
                     "Enabled": 0
                 },
@@ -102,15 +106,15 @@
                     "Enabled": 0
                 },
                 {
-                    "Name": "JMESPModuleCar_Unstuck",
+                    "Name": "JMESPModuleVehicle_Unstuck",
                     "Enabled": 0
                 },
                 {
-                    "Name": "JMESPModuleCar_Repair",
+                    "Name": "JMESPModuleRepair",
                     "Enabled": 0
                 },
                 {
-                    "Name": "JMESPModuleCar_Refuel",
+                    "Name": "JMESPModuleVehicle_Refuel",
                     "Enabled": 0
                 },
                 {
@@ -146,22 +150,6 @@
                     "Enabled": 0
                 },
                 {
-                    "Name": "JMVehicleSpawnerModule",
-                    "Enabled": 0
-                },
-                {
-                    "Name": "JMItemSetSpawnerModule",
-                    "Enabled": 0
-                },
-                {
-                    "Name": "JMItemSetSpawnerModuleVector",
-                    "Enabled": 0
-                },
-                {
-                    "Name": "JMItemSetSpawnerModulePlayer",
-                    "Enabled": 0
-                },
-                {
                     "Name": "JMWeatherOldModule",
                     "Enabled": 0
                 },
@@ -187,6 +175,22 @@
                 },
                 {
                     "Name": "JMWeatherOldModuleStorm",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMVehicleSpawnerModule",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMItemSetSpawnerModule",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMItemSetSpawnerModuleVector",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMItemSetSpawnerModulePlayer",
                     "Enabled": 0
                 },
                 {

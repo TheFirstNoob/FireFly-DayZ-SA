@@ -1,5 +1,5 @@
 {
-    "ConfigVersion": 21,
+    "ConfigVersion": 22,
     "ID": 1103,
     "Type": 1,
     "Title": "[СЮЖЕТ] Я что, блин, курьер тут?",
@@ -89,6 +89,7 @@
     "RandomReward": 0,
     "RandomRewardAmount": -1,
     "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
     "QuestGiverIDs": [
         2
     ],
@@ -98,7 +99,7 @@
     "IsAchievement": 0,
     "Objectives": [
         {
-            "ConfigVersion": 26,
+            "ConfigVersion": 27,
             "ID": 1103,
             "ObjectiveType": 5
         }

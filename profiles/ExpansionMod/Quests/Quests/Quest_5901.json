@@ -1,5 +1,5 @@
 {
-    "ConfigVersion": 21,
+    "ConfigVersion": 22,
     "ID": 5901,
     "Type": 1,
     "Title": "[Ежедневное] Клад",
@@ -28,6 +28,7 @@
     "RandomReward": 0,
     "RandomRewardAmount": -1,
     "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
     "QuestGiverIDs": [
         3
     ],
@@ -37,7 +38,7 @@
     "IsAchievement": 0,
     "Objectives": [
         {
-            "ConfigVersion": 26,
+            "ConfigVersion": 27,
             "ID": 5901,
             "ObjectiveType": 6
         }

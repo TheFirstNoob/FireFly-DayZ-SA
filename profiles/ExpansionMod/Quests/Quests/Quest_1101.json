@@ -1,5 +1,5 @@
 {
-    "ConfigVersion": 21,
+    "ConfigVersion": 22,
     "ID": 1101,
     "Type": 1,
     "Title": "Добро пожаловать на FireFly",
@@ -33,6 +33,7 @@
     "RandomReward": 0,
     "RandomRewardAmount": -1,
     "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
     "QuestGiverIDs": [],
     "QuestTurnInIDs": [
         1
@@ -40,7 +41,7 @@
     "IsAchievement": 0,
     "Objectives": [
         {
-            "ConfigVersion": 26,
+            "ConfigVersion": 27,
             "ID": 1101,
             "ObjectiveType": 3
         }

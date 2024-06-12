@@ -1,5 +1,5 @@
 {
-    "ConfigVersion": 21,
+    "ConfigVersion": 22,
     "ID": 1102,
     "Type": 1,
     "Title": "[СЮЖЕТ] Знакомство поближе",
@@ -23,6 +23,7 @@
     "RandomReward": 0,
     "RandomRewardAmount": -1,
     "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
     "QuestGiverIDs": [
         1
     ],
@@ -32,7 +33,7 @@
     "IsAchievement": 0,
     "Objectives": [
         {
-            "ConfigVersion": 26,
+            "ConfigVersion": 27,
             "ID": 1102,
             "ObjectiveType": 5
         }

@@ -1,5 +1,4 @@
 {
-    "AdminsSteamIds": [],
     "Zombies": {
         "Groups": {
             "Police": [
@@ -357,6 +356,224 @@
                 "Priority": 1.0
             }
         },
+        "ThrowingProjectiles": {
+            "PoliceProjectile": {
+                "ItemClasses": [
+                    "Glock19",
+                    "MakarovIJ70",
+                    "Mp133Shotgun",
+                    "CombatKnife",
+                    "CombatKnife"
+                ],
+                "Parameters": {
+                    "ThrowConditionAmountOfProjectiles": 2.0,
+                    "ThrowConditionThrowChancePercent": 10.0,
+                    "ThrowConditionCooldownSeconds": 45.0
+                }
+            },
+            "MedicsProjectile": {
+                "ItemClasses": [
+                    "Vodka",
+                    "KitchenKnife",
+                    "KitchenKnife",
+                    "SteakKnife",
+                    "GasMask_Filter",
+                    "IodineTincture",
+                    "DisinfectantAlcohol",
+                    "DisinfectantSpray"
+                ],
+                "Parameters": {
+                    "ThrowConditionAmountOfProjectiles": 2.0,
+                    "ThrowConditionThrowChancePercent": 10.0,
+                    "ThrowConditionCooldownSeconds": 45.0
+                }
+            },
+            "FirefightersProjectile": {
+                "ItemClasses": [
+                    "FirefightersHelmet_Red",
+                    "FirefightersHelmet_White",
+                    "FirefightersHelmet_Yellow",
+                    "FirefighterAxe",
+                    "FirefighterAxe"
+                ],
+                "Parameters": {
+                    "ThrowConditionAmountOfProjectiles": 2.0,
+                    "ThrowConditionThrowChancePercent": 10.0,
+                    "ThrowConditionCooldownSeconds": 45.0
+                }
+            },
+            "MilitaryProjectile": {
+                "ItemClasses": [
+                    "Binoculars",
+                    "Ssh68Helmet",
+                    "GorkaHelmet",
+                    "BallisticHelmet_Green",
+                    "Canteen",
+                    "CombatKnife",
+                    "AK_Bayonet",
+                    "SKS_Bayonet",
+                    "M9A1_Bayonet",
+                    "Mosin_Bayonet"
+                ],
+                "Parameters": {
+                    "ThrowConditionAmountOfProjectiles": 2.0,
+                    "ThrowConditionThrowChancePercent": 10.0,
+                    "ThrowConditionCooldownSeconds": 45.0
+                }
+            },
+            "CityProjectile": {
+                "ItemClasses": [
+                    "Vodka",
+                    "WaterBottle",
+                    "BaseballBat",
+                    "Pipe",
+                    "Flashlight",
+                    "CombinationLock",
+                    "KitchenKnife",
+                    "KitchenKnife",
+                    "SteakKnife"
+                ],
+                "Parameters": {
+                    "ThrowConditionAmountOfProjectiles": 2.0,
+                    "ThrowConditionThrowChancePercent": 10.0,
+                    "ThrowConditionCooldownSeconds": 45.0
+                }
+            },
+            "FlashGrenade": {
+                "ItemClasses": [
+                    "FlashGrenade"
+                ],
+                "Parameters": {
+                    "DestroyProjectileAfterSeconds": -1.0,
+                    "ThrowConditionAmountOfProjectiles": 1.0,
+                    "ActivateGrenadeAfterSeconds": 5.0
+                }
+            },
+            "GasGrenade": {
+                "ItemClasses": [
+                    "Grenade_ChemGas"
+                ],
+                "Parameters": {
+                    "DestroyProjectileAfterSeconds": -1.0,
+                    "ThrowConditionAmountOfProjectiles": 1.0,
+                    "ActivateGrenadeAfterSeconds": 0.0
+                }
+            },
+            "VillagersProjectile": {
+                "ItemClasses": [
+                    "Vodka",
+                    "FryingPan",
+                    "Firewood",
+                    "Pot",
+                    "Hammer",
+                    "MeatTenderizer",
+                    "KitchenKnife",
+                    "Pitchfork",
+                    "Hatchet",
+                    "Sickle",
+                    "WoodAxe",
+                    "Cleaver",
+                    "Shovel",
+                    "FarmingHoe"
+                ],
+                "Parameters": {
+                    "ThrowConditionAmountOfProjectiles": 2.0,
+                    "ThrowConditionThrowChancePercent": 10.0,
+                    "ThrowConditionCooldownSeconds": 45.0
+                }
+            },
+            "GarbageIfPlayerOnObstacle": {
+                "ItemClasses": [
+                    "WoodenStick",
+                    "SmallStone"
+                ],
+                "Parameters": {
+                    "ThrowConditionZombieTargetVerticalDistanceMin": 0.5,
+                    "TargetStunChancePercent": 50.0,
+                    "ThrowConditionGroundTargetDistanceMin": 0.5,
+                    "TargetShockDamage": 20.0,
+                    "TargetHealthDamage": 5.0,
+                    "TargetBleedingChancePercent": 5.0,
+                    "ThrowConditionCooldownSeconds": 30.0
+                }
+            },
+            "IndustrialProjectile": {
+                "ItemClasses": [
+                    "Vodka",
+                    "Pipe",
+                    "PipeWrench",
+                    "Wrench",
+                    "LugWrench",
+                    "Hammer",
+                    "WeldingMask",
+                    "Crowbar",
+                    "HandSaw",
+                    "Hacksaw",
+                    "Screwdriver",
+                    "Pliers"
+                ],
+                "Parameters": {
+                    "ThrowConditionAmountOfProjectiles": 2.0,
+                    "ThrowConditionThrowChancePercent": 10.0,
+                    "ThrowConditionCooldownSeconds": 45.0
+                }
+            },
+            "GarbageIfPlayerNonObstacle": {
+                "ItemClasses": [
+                    "WoodenStick",
+                    "SmallStone"
+                ],
+                "Parameters": {
+                    "ThrowConditionAmountOfProjectiles": 2.0,
+                    "TargetHealthDamage": 5.0,
+                    "TargetStunChancePercent": 50.0,
+                    "TargetShockDamage": 20.0,
+                    "TargetBleedingChancePercent": 5.0,
+                    "ThrowConditionThrowChancePercent": 10.0,
+                    "ThrowConditionCooldownSeconds": 45.0
+                }
+            },
+            "HuntersProjectile": {
+                "ItemClasses": [
+                    "Vodka",
+                    "HuntingKnife",
+                    "HuntingKnife",
+                    "Canteen",
+                    "Binoculars"
+                ],
+                "Parameters": {
+                    "ThrowConditionAmountOfProjectiles": 2.0,
+                    "ThrowConditionThrowChancePercent": 10.0,
+                    "ThrowConditionCooldownSeconds": 45.0
+                }
+            },
+            "FishermenProjectile": {
+                "ItemClasses": [
+                    "Vodka",
+                    "HuntingKnife",
+                    "KitchenKnife",
+                    "Canteen",
+                    "FishingRod",
+                    "Shovel"
+                ],
+                "Parameters": {
+                    "ThrowConditionAmountOfProjectiles": 2.0,
+                    "ThrowConditionThrowChancePercent": 10.0,
+                    "ThrowConditionCooldownSeconds": 45.0
+                }
+            },
+            "HEGrenade": {
+                "ItemClasses": [
+                    "RGD5Grenade",
+                    "M67Grenade"
+                ],
+                "Parameters": {
+                    "DestroyProjectileAfterSeconds": -1.0,
+                    "ThrowConditionAmountOfProjectiles": 1.0,
+                    "ActivateGrenadeAfterSeconds": 10.0
+                }
+            }
+        },
         "BreakingDoorsHandlerIsActive": {
             "all": 1
         },
@@ -384,17 +601,17 @@
         },
         "BreakingDoorsDestroyAfterOpenChancePercent": {
             "Police": 50.0,
-            "all": 25.0,
+            "all": 30.0,
             "Firfighter": 40.0,
             "Santa": 100.0,
             "CivilianOldWoman": 3.0,
-            "Prisoner": 30.0,
+            "MedicAndPatientMan": 8.0,
             "Pop": 0.0,
             "CivilianWoman": 10.0,
             "PopClerk": 0.0,
             "CivilianMan": 10.0,
             "WorkerWoman": 35.0,
-            "MedicAndPatientMan": 8.0,
+            "Prisoner": 30.0,
             "WorkerMan": 40.0,
             "Nbc": 0.0,
             "Mummy": 100.0,
@@ -406,17 +623,17 @@
         },
         "BreakingDoorsOpenChancePercent": {
             "Police": 50.0,
-            "all": 25.0,
+            "all": 30.0,
             "Firfighter": 40.0,
             "Santa": 100.0,
             "CivilianOldWoman": 3.0,
-            "Prisoner": 30.0,
+            "MedicAndPatientMan": 8.0,
             "Pop": 0.0,
             "CivilianWoman": 10.0,
             "PopClerk": 0.0,
             "CivilianMan": 10.0,
             "WorkerWoman": 35.0,
-            "MedicAndPatientMan": 8.0,
+            "Prisoner": 30.0,
             "WorkerMan": 40.0,
             "Nbc": 0.0,
             "Mummy": 100.0,
@@ -427,46 +644,30 @@
             "PoliceSpecForce": 100.0
         },
         "BreakingDoorsOpenLockPickChancePercent": {
-            "all": 1.0
+            "all": 15.0
         },
         "BreakingDoorsLossInterestAfterHitChancePercent": {
-            "Police": 25.0,
-            "all": 5.0,
-            "Firfighter": 0.0,
-            "Santa": 0.0,
-            "CivilianOldWoman": 90.0,
-            "Prisoner": 60.0,
-            "Pop": 95.0,
-            "CivilianWoman": 85.0,
-            "PopClerk": 95.0,
-            "CivilianMan": 80.0,
-            "WorkerWoman": 75.0,
-            "MedicAndPatientMan": 80.0,
-            "WorkerMan": 70.0,
-            "Nbc": 100.0,
-            "Mummy": 0.0,
-            "MedicAndPatientWoman": 85.0,
-            "Solder": 50.0,
-            "CivilianOldMan": 85.0,
-            "FarmerMan": 80.0,
-            "PoliceSpecForce": 5.0
+            "all": 25.0
         },
         "BreakingDoorsLossInterestAfterHitLockPickChancePercent": {
-            "all": 1.0
+            "all": 10.0
+        },
+        "BreakingDoorsCrawlersChanceMultiplier": {
+            "all": 5.0
         },
         "AttackPlayersUnconscious": {
             "Police": 0,
-            "all": 0,
+            "all": 1,
             "Firfighter": 0,
             "Santa": 1,
             "CivilianOldWoman": 1,
-            "Prisoner": 0,
+            "MedicAndPatientMan": 1,
             "Pop": 0,
             "CivilianWoman": 1,
             "PopClerk": 0,
             "CivilianMan": 0,
             "WorkerWoman": 1,
-            "MedicAndPatientMan": 1,
+            "Prisoner": 0,
             "WorkerMan": 1,
             "Nbc": 1,
             "Mummy": 1,
@@ -540,24 +741,33 @@
             "all": 120.0
         },
         "SearchSphereRadiusBurst": {
-            "all": 150.0
+            "all": 50.0
         },
         "SpeedHandlerIsActive": {
             "all": 1
         },
-        "SpeedLimitInSearchMode": {
+        "SpeedMinimumInCalmMode": {
+            "all": 0.0
+        },
+        "SpeedLimitInCalmMode": {
+            "all": 3.0
+        },
+        "SpeedMultiplierInCalmMode": {
+            "all": 1.0
+        },
+        "SpeedMinimumInSearchMode": {
             "Police": 2.0,
-            "all": 3.0,
+            "all": 0.0,
             "Firfighter": 2.0,
             "Santa": 3.0,
             "CivilianOldWoman": 1.0,
-            "Prisoner": 2.0,
+            "MedicAndPatientMan": 3.0,
             "Pop": 2.0,
             "CivilianWoman": 2.0,
             "PopClerk": 2.0,
             "CivilianMan": 2.0,
             "WorkerWoman": 2.0,
-            "MedicAndPatientMan": 3.0,
+            "Prisoner": 2.0,
             "WorkerMan": 2.0,
             "Nbc": 2.0,
             "Mummy": 3.0,
@@ -567,19 +777,28 @@
             "FarmerMan": 2.0,
             "PoliceSpecForce": 2.0
         },
+        "SpeedLimitInSearchMode": {
+            "all": 3.0
+        },
+        "SpeedMultiplierInSearchMode": {
+            "all": 1.0
+        },
+        "SpeedMinimumInChaseMode": {
+            "all": 0.0
+        },
         "SpeedLimitInChaseMode": {
             "Police": 3.0,
             "all": 3.0,
             "Firfighter": 3.0,
             "Santa": 3.0,
             "CivilianOldWoman": 1.0,
-            "Prisoner": 3.0,
+            "MedicAndPatientMan": 3.0,
             "Pop": 2.0,
             "CivilianWoman": 3.0,
             "PopClerk": 2.0,
             "CivilianMan": 3.0,
             "WorkerWoman": 3.0,
-            "MedicAndPatientMan": 3.0,
+            "Prisoner": 3.0,
             "WorkerMan": 3.0,
             "Nbc": 3.0,
             "Mummy": 3.0,
@@ -589,6 +808,9 @@
             "FarmerMan": 3.0,
             "PoliceSpecForce": 3.0
         },
+        "SpeedMultiplierInChaseMode": {
+            "all": 1.0
+        },
         "SpeedNoLimitsFromDistanceMeters": {
             "all": 0.0
         },
@@ -596,24 +818,24 @@
             "all": 1
         },
         "SmellsSphereRadius": {
-            "all": 3.0
+            "all": 2.0
         },
         "SmellsAllowStealthKills": {
             "all": 1
         },
         "SmellsLossInterestAfterReactionForSeconds": {
             "Police": 20.0,
-            "all": 5.0,
+            "all": 0.0,
             "Firfighter": 60.0,
             "Santa": 90.0,
             "CivilianOldWoman": 15.0,
-            "Prisoner": 120.0,
+            "MedicAndPatientMan": 30.0,
             "Pop": 5.0,
             "CivilianWoman": 25.0,
             "PopClerk": 5.0,
             "CivilianMan": 20.0,
             "WorkerWoman": 20.0,
-            "MedicAndPatientMan": 30.0,
+            "Prisoner": 120.0,
             "WorkerMan": 15.0,
             "Nbc": 1.0,
             "Mummy": 90.0,
@@ -627,40 +849,40 @@
             "all": 1
         },
         "UpJumpHeightMax": {
-            "Police": 0.7,
-            "all": 0.4,
+            "Police": 0.699999988079071,
+            "all": 1.7000000476837159,
             "Firfighter": 2.0,
             "Santa": 1.0,
             "CivilianOldWoman": 0.0,
-            "Prisoner": 1.0,
+            "MedicAndPatientMan": 0.5,
             "Pop": 0.0,
             "CivilianWoman": 0.5,
             "PopClerk": 0.0,
             "CivilianMan": 0.5,
-            "WorkerWoman": 0.6,
-            "MedicAndPatientMan": 0.5,
-            "WorkerMan": 0.6,
-            "Nbc": 0.4,
+            "WorkerWoman": 0.6000000238418579,
+            "Prisoner": 1.0,
+            "WorkerMan": 0.6000000238418579,
+            "Nbc": 0.4000000059604645,
             "Mummy": 1.0,
             "MedicAndPatientWoman": 0.5,
-            "Solder": 0.7,
+            "Solder": 0.699999988079071,
             "CivilianOldMan": 0.0,
-            "FarmerMan": 0.2,
-            "PoliceSpecForce": 1.2
+            "FarmerMan": 0.20000000298023225,
+            "PoliceSpecForce": 1.2000000476837159
         },
         "UpJumpImpulseDamageChancePercent": {
             "Police": 35.0,
-            "all": 15.0,
+            "all": 50.0,
             "Firfighter": 80.0,
             "Santa": 100.0,
             "CivilianOldWoman": 3.0,
-            "Prisoner": 20.0,
+            "MedicAndPatientMan": 10.0,
             "Pop": 10.0,
             "CivilianWoman": 7.0,
             "PopClerk": 10.0,
             "CivilianMan": 10.0,
             "WorkerWoman": 12.0,
-            "MedicAndPatientMan": 10.0,
+            "Prisoner": 20.0,
             "WorkerMan": 15.0,
             "Nbc": 15.0,
             "Mummy": 100.0,
@@ -672,17 +894,17 @@
         },
         "UpJumpChancePercent": {
             "Police": 35.0,
-            "all": 10.0,
+            "all": 100.0,
             "Firfighter": 80.0,
             "Santa": 100.0,
             "CivilianOldWoman": 3.0,
-            "Prisoner": 20.0,
+            "MedicAndPatientMan": 10.0,
             "Pop": 10.0,
             "CivilianWoman": 7.0,
             "PopClerk": 10.0,
             "CivilianMan": 10.0,
             "WorkerWoman": 12.0,
-            "MedicAndPatientMan": 10.0,
+            "Prisoner": 20.0,
             "WorkerMan": 15.0,
             "Nbc": 15.0,
             "Mummy": 100.0,
@@ -694,17 +916,17 @@
         },
         "UpJumpCooldownSeconds": {
             "Police": 15.0,
-            "all": 15.0,
+            "all": 0.0,
             "Firfighter": 5.0,
             "Santa": 5.0,
             "CivilianOldWoman": 75.0,
-            "Prisoner": 30.0,
+            "MedicAndPatientMan": 40.0,
             "Pop": 120.0,
             "CivilianWoman": 60.0,
             "PopClerk": 120.0,
             "CivilianMan": 45.0,
             "WorkerWoman": 45.0,
-            "MedicAndPatientMan": 40.0,
+            "Prisoner": 30.0,
             "WorkerMan": 30.0,
             "Nbc": 90.0,
             "Mummy": 5.0,
@@ -720,13 +942,13 @@
             "Firfighter": 1,
             "Santa": 1,
             "CivilianOldWoman": 0,
-            "Prisoner": 1,
+            "MedicAndPatientMan": 1,
             "Pop": 0,
             "CivilianWoman": 0,
             "PopClerk": 0,
             "CivilianMan": 1,
             "WorkerWoman": 0,
-            "MedicAndPatientMan": 1,
+            "Prisoner": 1,
             "WorkerMan": 1,
             "Nbc": 0,
             "Mummy": 1,
@@ -738,17 +960,17 @@
         },
         "DownJumpHeightMax": {
             "Police": 4.0,
-            "all": 3.0,
+            "all": 30.0,
             "Firfighter": 10.0,
             "Santa": 5.0,
             "CivilianOldWoman": 1.5,
-            "Prisoner": 4.0,
+            "MedicAndPatientMan": 3.0,
             "Pop": 2.0,
             "CivilianWoman": 2.5,
             "PopClerk": 2.0,
             "CivilianMan": 3.0,
             "WorkerWoman": 3.0,
-            "MedicAndPatientMan": 3.0,
+            "Prisoner": 4.0,
             "WorkerMan": 3.5,
             "Nbc": 3.0,
             "Mummy": 5.0,
@@ -758,19 +980,41 @@
             "FarmerMan": 2.0,
             "PoliceSpecForce": 6.0
         },
+        "StuckJumpHandlerIsActive": {
+            "Police": 0,
+            "all": 1,
+            "Firfighter": 0,
+            "Santa": 0,
+            "CivilianOldWoman": 1,
+            "MedicAndPatientMan": 1,
+            "Pop": 1,
+            "CivilianWoman": 1,
+            "PopClerk": 1,
+            "CivilianMan": 1,
+            "WorkerWoman": 1,
+            "Prisoner": 1,
+            "WorkerMan": 1,
+            "Nbc": 1,
+            "Mummy": 0,
+            "MedicAndPatientWoman": 1,
+            "Solder": 0,
+            "CivilianOldMan": 1,
+            "FarmerMan": 1,
+            "PoliceSpecForce": 0
+        },
         "FallHandlerIsActive": {
             "Police": 0,
             "all": 1,
             "Firfighter": 0,
             "Santa": 0,
             "CivilianOldWoman": 1,
-            "Prisoner": 1,
+            "MedicAndPatientMan": 1,
             "Pop": 1,
             "CivilianWoman": 1,
             "PopClerk": 1,
             "CivilianMan": 1,
             "WorkerWoman": 1,
-            "MedicAndPatientMan": 1,
+            "Prisoner": 1,
             "WorkerMan": 1,
             "Nbc": 1,
             "Mummy": 0,
@@ -786,13 +1030,13 @@
             "Firfighter": 8.0,
             "Santa": 10.0,
             "CivilianOldWoman": 1.0,
-            "Prisoner": 4.0,
+            "MedicAndPatientMan": 3.0,
             "Pop": 3.0,
             "CivilianWoman": 2.5,
             "PopClerk": 3.0,
             "CivilianMan": 3.0,
             "WorkerWoman": 3.0,
-            "MedicAndPatientMan": 3.0,
+            "Prisoner": 4.0,
             "WorkerMan": 3.5,
             "Nbc": 3.0,
             "Mummy": 10.0,
@@ -804,17 +1048,17 @@
         },
         "FallHandlerLegBreakHeightMax": {
             "Police": 8.0,
-            "all": 7.0,
+            "all": 15.0,
             "Firfighter": 15.0,
             "Santa": 20.0,
             "CivilianOldWoman": 2.0,
-            "Prisoner": 8.0,
+            "MedicAndPatientMan": 7.0,
             "Pop": 6.0,
             "CivilianWoman": 6.5,
             "PopClerk": 6.0,
             "CivilianMan": 7.0,
             "WorkerWoman": 6.5,
-            "MedicAndPatientMan": 7.0,
+            "Prisoner": 8.0,
             "WorkerMan": 7.0,
             "Nbc": 5.0,
             "Mummy": 20.0,
@@ -830,13 +1074,13 @@
             "Firfighter": 15.0,
             "Santa": 20.0,
             "CivilianOldWoman": 2.0,
-            "Prisoner": 8.0,
+            "MedicAndPatientMan": 7.0,
             "Pop": 6.0,
             "CivilianWoman": 6.5,
             "PopClerk": 6.0,
             "CivilianMan": 7.0,
             "WorkerWoman": 6.5,
-            "MedicAndPatientMan": 7.0,
+            "Prisoner": 8.0,
             "WorkerMan": 7.0,
             "Nbc": 5.0,
             "Mummy": 20.0,
@@ -848,17 +1092,17 @@
         },
         "FallHandlerDeathHeightMax": {
             "Police": 16.0,
-            "all": 12.0,
+            "all": 20.0,
             "Firfighter": 30.0,
             "Santa": 40.0,
             "CivilianOldWoman": 5.0,
-            "Prisoner": 16.0,
+            "MedicAndPatientMan": 14.0,
             "Pop": 12.0,
             "CivilianWoman": 13.0,
             "PopClerk": 12.0,
             "CivilianMan": 14.0,
             "WorkerWoman": 13.0,
-            "MedicAndPatientMan": 14.0,
+            "Prisoner": 16.0,
             "WorkerMan": 14.0,
             "Nbc": 10.0,
             "Mummy": 40.0,
@@ -921,13 +1165,13 @@
             "Firfighter": 30.0,
             "Santa": 20.0,
             "CivilianOldWoman": 0.0,
-            "Prisoner": 60.0,
+            "MedicAndPatientMan": 30.0,
             "Pop": 15.0,
             "CivilianWoman": 0.0,
             "PopClerk": 15.0,
             "CivilianMan": 0.0,
             "WorkerWoman": 20.0,
-            "MedicAndPatientMan": 30.0,
+            "Prisoner": 60.0,
             "WorkerMan": 15.0,
             "Nbc": 0.0,
             "Mummy": 20.0,
@@ -941,19 +1185,19 @@
             "all": 0.5
         },
         "InjuryHandlerInjuredBothArmsAttackMultiplier": {
-            "all": 0.2
+            "all": 0.20000000298023225
         },
         "InjuryHandlerInjuredOneArmBreakingDoorChanceMultiplier": {
             "all": 0.5
         },
         "InjuryHandlerInjuredBothArmsBreakingDoorChanceMultiplier": {
-            "all": 0.2
+            "all": 0.20000000298023225
         },
         "InjuryHandlerInjuredOneArmStunChanceMultiplier": {
             "all": 0.5
         },
         "InjuryHandlerInjuredBothArmsStunChanceMultiplier": {
-            "all": 0.2
+            "all": 0.20000000298023225
         },
         "InjuryHandlerInjuredOneArmPainMultiplier": {
             "all": 0.5
@@ -965,13 +1209,13 @@
             "all": 0.5
         },
         "InjuryHandlerInjuredBothArmsBleedingChanceMultiplier": {
-            "all": 0.2
-        },
-        "InjuryHandlerSpawnWithInjuredOneArmChancePercent": {
             "all": 0.5
         },
+        "InjuryHandlerSpawnWithInjuredOneArmChancePercent": {
+            "all": 0.20000000298023225
+        },
         "InjuryHandlerSpawnWithInjuredBothArmsChancePercent": {
-            "all": 0.2
+            "all": 0.5
         },
         "InjuryHandlerDamageThresholdToInjuryLeg": {
             "Police": 50.0,
@@ -979,13 +1223,13 @@
             "Firfighter": 60.0,
             "Santa": 500.0,
             "CivilianOldWoman": 25.0,
-            "Prisoner": 50.0,
+            "MedicAndPatientMan": 7.0,
             "Pop": 200.0,
             "CivilianWoman": 40.0,
             "PopClerk": 180.0,
             "CivilianMan": 50.0,
             "WorkerWoman": 80.0,
-            "MedicAndPatientMan": 7.0,
+            "Prisoner": 50.0,
             "WorkerMan": 100.0,
             "Nbc": 50.0,
             "Mummy": 1000.0,
@@ -1001,13 +1245,13 @@
             "Firfighter": 45.0,
             "Santa": 20.0,
             "CivilianOldWoman": 0.0,
-            "Prisoner": 90.0,
+            "MedicAndPatientMan": 45.0,
             "Pop": 15.0,
             "CivilianWoman": 0.0,
             "PopClerk": 15.0,
             "CivilianMan": 0.0,
             "WorkerWoman": 30.0,
-            "MedicAndPatientMan": 45.0,
+            "Prisoner": 90.0,
             "WorkerMan": 20.0,
             "Nbc": 0.0,
             "Mummy": 20.0,
@@ -1225,6 +1469,9 @@
         "ReactRoadflareVisual": {
             "all": 1.0
         },
+        "ReactRoadflareNoise": {
+            "all": 1.0
+        },
         "ReactChemlightVisual": {
             "all": 1.0
         },
@@ -1300,6 +1547,12 @@
         "ReactDoorsNightNoise": {
             "all": 1.0
         },
+        "ReactPlayerFallDayNoise": {
+            "all": 1.0
+        },
+        "ReactPlayerFallNightNoise": {
+            "all": 1.0
+        },
         "ReactBodyfallDayNoise": {
             "all": 0.5
         },
@@ -1312,6 +1565,54 @@
         "ReactBodyfallBackstabNightNoise": {
             "all": 0.0
         },
+        "ReactSymptomsDayNoise": {
+            "all": 1.0
+        },
+        "ReactSymptomsNightNoise": {
+            "all": 1.0
+        },
+        "ReactVoiceWhisperDayNoise": {
+            "all": 1.0
+        },
+        "ReactVoiceWhisperNightNoise": {
+            "all": 1.0
+        },
+        "ReactVoiceTalkDayNoise": {
+            "all": 1.0
+        },
+        "ReactVoiceTalkNightNoise": {
+            "all": 1.0
+        },
+        "ReactVoiceShoutDayNoise": {
+            "all": 1.0
+        },
+        "ReactVoiceShoutNightNoise": {
+            "all": 1.0
+        },
+        "ReactMiningLightDayNoise": {
+            "all": 1.0
+        },
+        "ReactMiningLightNightNoise": {
+            "all": 1.0
+        },
+        "ReactMiningHardDayNoise": {
+            "all": 1.0
+        },
+        "ReactMiningHardNightNoise": {
+            "all": 1.0
+        },
+        "ReactBuildingDayNoise": {
+            "all": 1.0
+        },
+        "ReactBuildingNightNoise": {
+            "all": 1.0
+        },
+        "ReactSawPlanksDayNoise": {
+            "all": 1.0
+        },
+        "ReactSawPlanksNightNoise": {
+            "all": 1.0
+        },
         "ReactVanillaMindstateChange": {
             "all": 1.0
         },
@@ -1319,86 +1620,89 @@
             "all": {
                 "matches": {
                     "React": 1.0,
-                    "Destroy": 1
+                    "Destroy": 1.0
                 }
             }
         },
         "ReactAndDestroyFlashlightsVisual": {
-            "all": 1
+            "all": 1.0
         },
         "ReactAndDestroyHeadtorchRedVisual": {
-            "all": 1
+            "all": 1.0
         },
         "ReactAndDestroyRoadflareVisual": {
-            "all": 1
+            "all": 1.0
+        },
+        "ReactAndDestroyRoadflareNoise": {
+            "all": 1.0
         },
         "ReactAndDestroyChemlightVisual": {
-            "all": 1
+            "all": 1.0
         },
         "ReactAndDestroyChemlightRedVisual": {
-            "all": 1
+            "all": 1.0
         },
         "ReactAndDestroyPortableGasLampVisual": {
-            "all": 1
+            "all": 1.0
         },
         "ReactAndDestroyFlammablesVisual": {
-            "all": 1
+            "all": 0.5
         },
         "ReactAndDestroySpotlightVisual": {
-            "all": 1
+            "all": 0.25
         },
         "ReactAndDestroyFireplaceVisual": {
-            "all": 1
+            "all": 0.25
         },
         "ReactAndDestroyFireplaceDayVisual": {
-            "all": 1
+            "all": 0.25
         },
         "ReactAndDestroyCarLightVisual": {
-            "all": 1
+            "all": 1.0
         },
         "ReactAndDestroyFireworksNoise": {
-            "all": 1
+            "all": 0.25
         },
         "ReactAndDestroyPowerGeneratorNoise": {
-            "all": 1
+            "all": 0.10000000149011612
         },
         "ReactAndDestroyAlarmClockNoise": {
-            "all": 1
+            "all": 1.0
         },
         "ReactAndDestroyKitchenTimerNoise": {
-            "all": 1
+            "all": 1.0
         },
         "ReactAndDestroySmokeGrenadeVisual": {
-            "all": 1
+            "all": 0.5
         },
         "DamageToPlayerHandlerIsActive": {
             "all": 1
         },
         "DamageToPlayerHealthMultiplier": {
             "Police": 1.0,
-            "all": 0.7,
-            "Firfighter": 1.1,
+            "all": 1.399999976158142,
+            "Firfighter": 1.100000023841858,
             "Santa": 3.0,
-            "CivilianOldWoman": 0.6,
-            "Prisoner": 1.0,
-            "Pop": 0.7,
-            "CivilianWoman": 0.7,
-            "PopClerk": 0.7,
-            "CivilianMan": 0.7,
+            "CivilianOldWoman": 0.6000000238418579,
+            "MedicAndPatientMan": 0.8999999761581421,
+            "Pop": 0.699999988079071,
+            "CivilianWoman": 0.699999988079071,
+            "PopClerk": 0.699999988079071,
+            "CivilianMan": 0.699999988079071,
             "WorkerWoman": 1.0,
-            "MedicAndPatientMan": 0.9,
-            "WorkerMan": 1.05,
+            "Prisoner": 1.0,
+            "WorkerMan": 1.0499999523162842,
             "Nbc": 1.0,
             "Mummy": 3.0,
-            "MedicAndPatientWoman": 0.85,
-            "Solder": 1.1,
-            "CivilianOldMan": 0.7,
-            "FarmerMan": 0.7,
-            "PoliceSpecForce": 1.1
+            "MedicAndPatientWoman": 0.8500000238418579,
+            "Solder": 1.100000023841858,
+            "CivilianOldMan": 0.699999988079071,
+            "FarmerMan": 0.699999988079071,
+            "PoliceSpecForce": 1.100000023841858
         },
         "DamageToPlayerShockMultiplier": {
             "Police": 1.100000023841858,
-            "all": 0.7,
+            "all": 0.699999988079071,
             "Firfighter": 1.2999999523162842,
             "Santa": 3.0,
             "CivilianOldWoman": 0.6000000238418579,
@@ -1439,6 +1743,9 @@
             "CivilianOldMan": 0.4000000059604645,
             "FarmerMan": 0.4000000059604645,
             "PoliceSpecForce": 1.5
+        },
+        "DamageToPlayerBloodPercent": {
+            "all": 0.0
         },
         "DamageToPlayerBleedingHandlerIsActive": {
             "all": 1
@@ -1493,6 +1800,9 @@
             "FarmerMan": 3.0,
             "PoliceSpecForce": 10.0
         },
+        "DamageToPlayerInBlockBloodPercent": {
+            "all": 0.0
+        },
         "DamageToPlayerInBlockBleedingChancePercent": {
             "all": 0.0
         },
@@ -1502,52 +1812,64 @@
         "StunToPlayerInBlockChancePercent": {
             "all": 5.0
         },
+        "DiseasesToPlayerHandlerIsActive": {
+            "all": 1
+        },
+        "DiseasesToPlayerAgents": {
+            "all": []
+        },
         "CameraShakeToPlayerIntensity": {
-            "all": 7.0
+            "all": 10.0
         },
         "PainToPlayerHandlerIsActive": {
             "all": 1
         },
         "PainToPlayerHeadMultiplier": {
-            "all": 1.1
+            "all": 1.100000023841858
         },
         "PainToPlayerHeadInBlockMultiplier": {
-            "all": 0.3
+            "all": 0.30000001192092898
         },
         "PainToPlayerArmsMultiplier": {
-            "all": 1.2
+            "all": 1.2000000476837159
         },
         "PainToPlayerArmsInBlockMultiplier": {
-            "all": 0.4
+            "all": 0.4000000059604645
+        },
+        "PainToPlayerArmsDisarmMultiplier": {
+            "all": 0.30000001192092898
+        },
+        "PainToPlayerArmsInBlockDisarmMultiplier": {
+            "all": 0.15000000596046449
         },
         "PainToPlayerLegsMultiplier": {
-            "all": 1.2
+            "all": 1.2000000476837159
         },
         "PainToPlayerLegsInBlockMultiplier": {
-            "all": 0.4
+            "all": 0.4000000059604645
         },
         "PainToPlayerTorsoMultiplier": {
-            "all": 1.2
+            "all": 1.2000000476837159
         },
         "PainToPlayerTorsoInBlockMultiplier": {
-            "all": 0.4
+            "all": 0.4000000059604645
         },
         "DamageToZombieHandlerIsActive": {
             "all": 1
         },
         "DamageToZombieHeadMeleeMultiplier": {
             "Police": 2.5,
-            "all": 2.0,
+            "all": 0.6000000238418579,
             "Firfighter": 2.299999952316284,
             "Santa": 0.20000000298023225,
             "CivilianOldWoman": 5.0,
-            "Prisoner": 2.0,
-            "Pop": 0.8,
+            "MedicAndPatientMan": 2.0,
+            "Pop": 0.800000011920929,
             "CivilianWoman": 3.5,
-            "PopClerk": 0.8,
+            "PopClerk": 0.800000011920929,
             "CivilianMan": 2.0,
             "WorkerWoman": 3.5,
-            "MedicAndPatientMan": 2.0,
+            "Prisoner": 2.0,
             "WorkerMan": 2.0,
             "Nbc": 2.5,
             "Mummy": 0.20000000298023225,
@@ -1559,17 +1881,17 @@
         },
         "DamageToZombieHeadRangeMultiplier": {
             "Police": 2.0,
-            "all": 2.5,
+            "all": 1.0,
             "Firfighter": 1.7999999523162842,
             "Santa": 0.20000000298023225,
             "CivilianOldWoman": 5.0,
-            "Prisoner": 2.0,
+            "MedicAndPatientMan": 2.0,
             "Pop": 0.5,
             "CivilianWoman": 3.5,
             "PopClerk": 0.5,
             "CivilianMan": 2.5,
             "WorkerWoman": 2.5,
-            "MedicAndPatientMan": 2.0,
+            "Prisoner": 2.0,
             "WorkerMan": 2.0,
             "Nbc": 2.0,
             "Mummy": 0.20000000298023225,
@@ -1581,17 +1903,17 @@
         },
         "DamageToZombieBodyMeleeMultiplier": {
             "Police": 1.2000000476837159,
-            "all": 1.5,
+            "all": 0.4000000059604645,
             "Firfighter": 1.5,
             "Santa": 0.20000000298023225,
             "CivilianOldWoman": 2.5,
-            "Prisoner": 1.0,
+            "MedicAndPatientMan": 1.0,
             "Pop": 0.800000011920929,
             "CivilianWoman": 2.0,
             "PopClerk": 0.800000011920929,
             "CivilianMan": 1.5,
             "WorkerWoman": 1.5,
-            "MedicAndPatientMan": 1.0,
+            "Prisoner": 1.0,
             "WorkerMan": 1.0,
             "Nbc": 1.2999999523162842,
             "Mummy": 0.20000000298023225,
@@ -1603,17 +1925,17 @@
         },
         "DamageToZombieBodyRangeMultiplier": {
             "Police": 1.2000000476837159,
-            "all": 1.5,
+            "all": 0.4000000059604645,
             "Firfighter": 1.5,
             "Santa": 0.20000000298023225,
             "CivilianOldWoman": 2.5,
-            "Prisoner": 1.0,
+            "MedicAndPatientMan": 1.0,
             "Pop": 0.800000011920929,
             "CivilianWoman": 2.0,
             "PopClerk": 0.800000011920929,
             "CivilianMan": 1.5,
             "WorkerWoman": 1.5,
-            "MedicAndPatientMan": 1.0,
+            "Prisoner": 1.0,
             "WorkerMan": 1.0,
             "Nbc": 1.2999999523162842,
             "Mummy": 0.20000000298023225,
@@ -1635,36 +1957,51 @@
         "DamageToZombieShockToStunHandlerIsActive": {
             "all": 1
         },
-        "DamageToZombieShockToStunThresholdMelee": {
-            "all": 0.3
-        },
-        "DamageToZombieShockToStunThresholdRange": {
-            "all": 0.4
-        },
-        "DamageToZombieShockToStunLightHeavyAnimationThresholdMelee": {
-            "all": 16.0
+        "DamageToZombieShockToStunLightHeavyAnimationThresholdMeleeHeavy": {
+            "all": 0.0
         },
         "DamageToZombieShockToStunLightHeavyAnimationThresholdRange": {
             "all": 70.0
+        },
+        "DamageToZombieShockToStunThresholdMeleeHeavy": {
+            "all": 0.0
+        },
+        "DamageToZombieShockToStunThresholdRange": {
+            "all": 0.4000000059604645
+        },
+        "DamageToZombieShockToStunFromButtstockHit": {
+            "all": 2.0
+        },
+        "DamageToZombieShockToStunCumulativeDamage": {
+            "all": 1
         },
         "DamageToZombieWeaponsMultipliers": {
             "all": {
                 "all": 1.0
             }
         },
+        "MeleeAttacksDodgeHandlerIsActive": {
+            "all": 1
+        },
+        "MeleeAttacksDodgeChance": {
+            "all": 50.0
+        },
+        "MeleeAttacksDodgeCooldownSeconds": {
+            "all": 10.0
+        },
         "BloodHandlerIsActive": {
             "Police": 0,
-            "all": 0,
+            "all": 1,
             "Firfighter": 1,
             "Santa": 0,
             "CivilianOldWoman": 1,
-            "Prisoner": 1,
+            "MedicAndPatientMan": 0,
             "Pop": 0,
             "CivilianWoman": 1,
             "PopClerk": 0,
             "CivilianMan": 1,
             "WorkerWoman": 1,
-            "MedicAndPatientMan": 0,
+            "Prisoner": 1,
             "WorkerMan": 1,
             "Nbc": 0,
             "Mummy": 0,
@@ -1702,7 +2039,7 @@
             "all": 1
         },
         "RespawnInCrawlingChancePercent": {
-            "all": 18.0
+            "all": 15.0
         },
         "ScreamHandlerIsActive": {
             "Police": 0,
@@ -1710,13 +2047,13 @@
             "Firfighter": 0,
             "Santa": 1,
             "CivilianOldWoman": 1,
-            "Prisoner": 0,
+            "MedicAndPatientMan": 1,
             "Pop": 0,
             "CivilianWoman": 1,
             "PopClerk": 0,
             "CivilianMan": 0,
             "WorkerWoman": 1,
-            "MedicAndPatientMan": 1,
+            "Prisoner": 0,
             "WorkerMan": 0,
             "Nbc": 0,
             "Mummy": 1,
@@ -1732,11 +2069,20 @@
         "ScreamChancePercent": {
             "all": 15.0
         },
+        "ScreamCooldownSeconds": {
+            "all": 60.0
+        },
+        "ScreamNearbyInfectedSilenceSeconds": {
+            "all": 60.0
+        },
         "SearchBodyToViewCargo": {
             "all": 1
         },
         "SearchBodyToViewCargoSeconds": {
             "all": 3.0
+        },
+        "SearchBodyExtendLootingToPlayersInRadiusMeters": {
+            "all": 30.0
         },
         "SearchBodyOnlyEmptyHands": {
             "all": 0
@@ -1822,7 +2168,7 @@
             ]
         },
         "CanBeBackstabbedHandlerIsActive": {
-            "all": 1
+            "all": 0
         },
         "CanBeBackstabbed": {
             "all": 1
@@ -1834,7 +2180,7 @@
             "all": 0.800000011920929
         },
         "SizeHandlerIsActive": {
-            "all": 1
+            "all": 0
         },
         "SizeFromMultiplier": {
             "all": 0.800000011920929
@@ -1848,6 +2194,74 @@
         "SizeBloodVolumeScalingIsActive": {
             "all": 1
         },
+        "SizeSpeedMultiplierScalingIsActive": {
+            "all": 1
+        },
+        "ThrowingProjectilesHandlerIsActive": {
+            "all": 1
+        },
+        "ThrowingProjectilesHandlerDamageMultiplier": {
+            "all": 0.8999999761581421
+        },
+        "ThrowingProjectilesHandlerVehiclesDamageMultiplier": {
+            "all": 1.7999999523162842
+        },
+        "ThrowingProjectilesHandlerProjectilesList": {
+            "police": [
+                "GarbageIfPlayerOnObstacle",
+                "PoliceProjectile"
+            ],
+            "all": [],
+            "priests": [
+                "GarbageIfPlayerOnObstacle",
+                "GarbageIfPlayerNonObstacle"
+            ],
+            "industrial": [
+                "GarbageIfPlayerOnObstacle",
+                "IndustrialProjectile"
+            ],
+            "fishermen": [
+                "GarbageIfPlayerOnObstacle",
+                "FishermenProjectile"
+            ],
+            "villagers": [
+                "GarbageIfPlayerOnObstacle",
+                "VillagersProjectile"
+            ],
+            "city": [
+                "GarbageIfPlayerOnObstacle",
+                "CityProjectile"
+            ],
+            "firefighters": [
+                "GarbageIfPlayerOnObstacle",
+                "FirefightersProjectile"
+            ],
+            "medics": [
+                "GarbageIfPlayerOnObstacle",
+                "MedicsProjectile"
+            ],
+            "prisoners": [
+                "GarbageIfPlayerOnObstacle",
+                "GarbageIfPlayerNonObstacle"
+            ],
+            "hunters": [
+                "GarbageIfPlayerOnObstacle",
+                "HuntersProjectile"
+            ],
+            "military": [
+                "GarbageIfPlayerOnObstacle",
+                "MilitaryProjectile"
+            ]
+        },
+        "RangeAttacksHandlerIsActive": {
+            "all": 0
+        },
+        "RangeAttacksHandlerZombiePlayerDistance": {
+            "all": 2.0
+        },
+        "RangeAttacksHandlerPlayerOnObstacleHeight": {
+            "all": 0.5
+        },
         "PreventClustering": {
             "all": 1
         }
@@ -1859,9 +2273,11 @@
         "FootstepsNoiseHandlerIsActive": 1,
         "SearchBodyToViewCargo": 1,
         "SearchBodyToViewCargoSeconds": 5.0,
+        "SearchBodyExtendLootingToPlayersInRadiusMeters": 30.0,
         "SearchBodyOnlyEmptyHands": 0,
-        "QuietDoorOpeningMechanicIsActive": 0,
-        "QuietDoorOpeningMechanicSeconds": 2.0,
+        "QuietDoorOpeningMechanicIsActive": 1,
+        "QuietDoorOpeningMechanicDisabledForOpening": 1,
+        "QuietDoorOpeningMechanicSeconds": 3.0,
         "QuietDoorOpeningMechanicRestrictedBuildings": [
             "DNA_Strongroom_ColourBase",
             "DNA_Strongroom_Open_Base",
@@ -1882,9 +2298,12 @@
             "land_bunker_entrance2",
             "land_bunker_door_area04"
         ],
+        "DisableVanillaDoorNoiseSystem": 1,
+        "PainSystemIsActive": 1,
         "ShowPainBadges": 1,
-        "PainHealingRatePerSecondPercent": 0.10000000149011612,
-        "HealthDrainWithOverPainedLimbPerSecondPercent": 0.10000000149011612,
+        "PainHealingRatePerSecondPercent": 0.20000000298023225,
+        "HealthDrainWithOverPainedLimbPerSecondPercent": 0.20000000298023225,
+        "BleedingChanceMultiplierWhenOverPainedLimbReceivingHits": 3.0,
         "DisableVanillaLegsDamageSystem": 1,
         "ShowPainBlur": 1,
         "UnconsciousWhenOverPainedHeadReceivingHits": 1,
@@ -1894,19 +2313,23 @@
         "ArmsLowerWhenAimingWithInjuredArms": 1,
         "ArmsLowerWhenOverPainedArmsReceivingHits": 1,
         "AuditoryHallucinationsWithPainedHead": 1,
+        "TinnitusWhenHeadReceivingHits": 1,
+        "BlurWhenHeadReceivingHits": 1,
+        "SoundAttenuationWhenHeadReceivingHits": 1,
+        "MovementCoordinationImpairmentWhenHeadReceivingHits": 1,
         "PainArmsWhenHitWithoutGloves": 1,
         "ShockIfRunsWithPainedLegs": 1,
         "ShockIfAttackingWithPainedArms": 1,
         "AllowPainFromGrenades": 1,
-        "NoiseMultiplierDay": 1.7000000476837159,
+        "NoiseMultiplierDay": 1.2000000476837159,
         "NoiseMultiplierNight": 2.0,
         "NoiseMultiplierCrouchDay": 1.0,
         "NoiseMultiplierCrouchNight": 1.0,
         "CamoClothingVisibilityMultipliers": {
-            "GhillieSuit_ColorBase": 0.30000001192092898,
+            "GhillieSuit_ColorBase": 0.800000011920929,
             "all": 1.0,
-            "GhillieTop_ColorBase": 0.30000001192092898,
-            "GhillieHood_ColorBase": 0.30000001192092898
+            "GhillieTop_ColorBase": 0.800000011920929,
+            "GhillieHood_ColorBase": 0.800000011920929
         }
     },
     "Vehicles": {
@@ -1925,8 +2348,6 @@
     },
     "LossInterestToIrritantAfterSeconds": 60.0,
     "LightInHouseMultiplier": 0.20000000298023225,
-    "SoundInHouseMultiplier": 0.6000000238418579,
-    "SaveConfigAfterInit": 1,
-    "NavMeshChernarusFixes": [],
-    "NavMeshEnochFixes": []
+    "SoundInHouseMultiplier": 0.5,
+    "SaveConfigAfterInit": 1
 }

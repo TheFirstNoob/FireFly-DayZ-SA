@@ -15,7 +15,26 @@
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"ammobox_12garubberslug_10rnd",
+				"ammobox_12gaslug_10rnd",
+				"AmmoBox_new_12gaBuckshot5",
+				"AmmoBox_new_12gaExpressBuckshot6",
+				"AmmoBox_new_12gaBuckshot7",
+				"AmmoBox_new_12gaMagnumBuckshot8",
+				"AmmoBox_new_12gaRip",
+				"AmmoBox_new_12gaAP20",
+				"AmmoBox_new_12ga2Sabot",
+				"AmmoBox_new_12gaFtxCustomLIte",
+				"AmmoBox_new_12gaGrizzly40",
+				"AmmoBox_new_12gaPoleva3",
+				"AmmoBox_new_12gaPoleva6",
+				"AmmoBox_new_12ga50Bmg",
+				"AmmoBox_new_12gaLead",
+				"AmmoBox_new_12gaFlchetteS",
+				"AmmoBox_new_12gaSuperFormance",
+				"AmmoBox_new_12gaCopperSabotPremier"
+			]
         },
         {
             "ClassName": "ammobox_12gaslug_10rnd",
@@ -48,7 +67,12 @@
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"AmmoBox_new_22Subsonic",
+				"AmmoBox_new_22StandardVelocity",
+				"AmmoBox_new_22HighVelocity",
+				"AmmoBox_new_22HyperVelocity"
+			]
         },
         {
             "ClassName": "ammobox_308win_20rnd",
@@ -60,7 +84,14 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-                "ammobox_308wintracer_20rnd"
+                "ammobox_308wintracer_20rnd",
+				"AmmoBox_new_308WinM61",
+				"AmmoBox_new_308WinM62",
+				"AmmoBox_new_308WinM80",
+				"AmmoBox_new_308WinM993",
+				"AmmoBox_new_308WinUltraNosler",
+				"AmmoBox_new_308WinFMJ",
+				"AmmoBox_new_308WinSP"
             ]
         },
         {
@@ -72,7 +103,15 @@
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"AmmoBox_new_357QuikShokJhp",
+				"AmmoBox_new_357HollowPoint",
+				"AmmoBox_new_357GoldDotJhp",
+				"AmmoBox_new_357ClassicJhp",
+				"AmmoBox_new_357GoldenSaberJhp",
+				"AmmoBox_new_357Semiwadcutter",
+				"AmmoBox_new_357SilvertipJhp"
+			]
         },
         {
             "ClassName": "ammobox_380_35rnd",
@@ -83,7 +122,14 @@
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"AmmoBox_new_380BondedJhp",
+				"AmmoBox_new_380Jhp",
+				"AmmoBox_new_380HydraShokJhp",
+				"AmmoBox_new_380SilvertipJhp",
+				"AmmoBox_new_380Xtp",
+				"AmmoBox_new_380Fmj"
+			]
         },
         {
             "ClassName": "ammobox_45acp_25rnd",
@@ -94,7 +140,13 @@
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"AmmoBox_new_45AcpAP",
+				"AmmoBox_new_45AcpFmj",
+				"AmmoBox_new_45AcpHydrShock",
+				"AmmoBox_new_45AcpLasermatchFmj",
+				"AmmoBox_new_45AcpRip"
+			]
         },
         {
             "ClassName": "ammobox_545x39_20rnd",
@@ -106,7 +158,19 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-                "ammobox_545x39tracer_20rnd"
+                "ammobox_545x39tracer_20rnd",
+				"AmmoBox_new_545x397H39",
+				"AmmoBox_new_545x39Fmj",
+				"AmmoBox_new_545x39Hp",
+				"AmmoBox_new_545x39Sp",
+				"AmmoBox_new_545x39Bp",
+				"AmmoBox_new_545x39Bs",
+				"AmmoBox_new_545x39Bt",
+				"AmmoBox_new_545x39Pp",
+				"AmmoBox_new_545x39Prs",
+				"AmmoBox_new_545x39Ps",
+				"AmmoBox_new_545x39T",
+				"AmmoBox_new_545x39Us"
             ]
         },
         {
@@ -119,7 +183,16 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-                "ammobox_556x45tracer_20rnd"
+                "ammobox_556x45tracer_20rnd",
+				"AmmoBox_new_556x45M855",
+				"AmmoBox_new_556x45M855A1",
+				"AmmoBox_new_556x45M856",
+				"AmmoBox_new_556x45M856A1",
+				"AmmoBox_new_556x45M995",
+				"AmmoBox_new_556x45Mk255",
+				"AmmoBox_new_556x4555Fmj",
+				"AmmoBox_new_556x4555Hp",
+				"AmmoBox_new_556x45Warmage"
             ]
         },
         {
@@ -132,7 +205,12 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-                "ammobox_762x39tracer_20rnd"
+                "ammobox_762x39tracer_20rnd",
+				"AmmoBox_new_762x39Hp",
+				"AmmoBox_new_762x39Bp",
+				"AmmoBox_new_762x39Ps",
+				"AmmoBox_new_762x39T45M",
+				"AmmoBox_new_762x39Us"
             ]
         },
         {
@@ -145,7 +223,13 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-                "ammobox_762x54tracer_20rnd"
+                "ammobox_762x54tracer_20rnd",
+				"AmmoBox_new_762x547Bt1",
+				"AmmoBox_new_762x547H37",
+				"AmmoBox_new_762x54Lps",
+				"AmmoBox_new_762x54Snb",
+				"AmmoBox_new_762x547H1",
+				"AmmoBox_new_762x54T46M"
             ]
         },
         {
@@ -157,7 +241,15 @@
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"AmmoBox_new_9x19Pst",
+				"AmmoBox_new_9x19Pso",
+				"AmmoBox_new_9x19LugerCci",
+				"AmmoBox_new_9x19Rip",
+				"AmmoBox_new_9x19Ap",
+				"AmmoBox_new_9x197H31",
+				"AmmoBox_new_9x19QuakeMaker"
+			]
         },
         {
             "ClassName": "ammobox_9x39_20rnd",
@@ -169,7 +261,11 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-                "ammobox_9x39ap_20rnd"
+                "ammobox_9x39ap_20rnd",
+				"AmmoBox_new_9x39Sp5",
+				"AmmoBox_new_9x39Sp6",
+				"AmmoBox_new_9x397H9",
+				"AmmoBox_new_9x397H12"
             ]
         },
         {

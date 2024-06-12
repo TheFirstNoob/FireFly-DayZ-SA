@@ -1,0 +1,207 @@
+{
+    "m_Version": 12,
+    "DisplayName": "Автомобили - Другие",
+    "Icon": "Car",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "KAVZ685_RF",
+            "MaxPriceThreshold": 50000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 6,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+				"LugWrench",
+				"Wrench",
+				"Screwdriver",
+				"rag_car_jack",
+				"KAVZ685_RF_wheel",
+				"KAVZ685_RF_wheel",
+				"KAVZ685_RF_wheel",
+				"KAVZ685_RF_WheelDouble",
+				"KAVZ685_RF_WheelDouble",
+				"KAVZ685_RF_doors_driver",
+				"KAVZ685_RF_doors_cargo1",
+				"KAVZ685_RF_doors_hood",
+				"KAVZ685_RF_doors_trunk",
+				"carradiator",
+                "sparkplug",
+                "truckbattery",
+                "headlighth7",
+                "headlighth7"
+			],
+            "Variants": [
+				"KAVZ685_RF_beige",
+				"KAVZ685_RF_red",
+				"KAVZ685_RF_green"
+			]
+        },
+		{
+            "ClassName": "KubanG1",
+            "MaxPriceThreshold": 50000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 6,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+				"LugWrench",
+				"Wrench",
+				"Screwdriver",
+				"rag_car_jack",
+				"KubanG1_wheel",
+				"KubanG1_wheel",
+				"KubanG1_wheel",
+				"KubanG1_WheelDouble",
+				"KubanG1_WheelDouble",
+				"KubanG1_doors_driver",
+				"KubanG1_doors_cargo2",
+				"KubanG1_doors_hood",
+				"KubanG1_doors_trunk",
+				"carradiator",
+                "sparkplug",
+                "truckbattery",
+                "headlighth7",
+                "headlighth7"
+			],
+            "Variants": [
+				"KubanG1_green"
+			]
+        },
+		{
+            "ClassName": "LIAZ_677RF",
+            "MaxPriceThreshold": 50000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 6,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+				"LugWrench",
+				"Wrench",
+				"Screwdriver",
+				"rag_car_jack",
+				"LIAZ_677RF_wheel",
+				"LIAZ_677RF_wheel",
+				"LIAZ_677RF_wheel",
+				"LIAZ_677RF_WheelDouble",
+				"LIAZ_677RF_WheelDouble",
+				"LIAZ_677RF_doors_driver",
+				"LIAZ_677RF_doors_cargo1",
+				"LIAZ_677RF_doors_hood",
+				"LIAZ_677RF_doors_trunk",
+				"carradiator",
+                "sparkplug",
+                "truckbattery",
+                "headlighth7",
+                "headlighth7"
+			],
+            "Variants": [
+				"LIAZ_677RF_camo"
+			]
+        },
+		{
+            "ClassName": "PAZ_672",
+            "MaxPriceThreshold": 50000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 6,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+				"LugWrench",
+				"Wrench",
+				"Screwdriver",
+				"rag_car_jack",
+				"PAZ_672_wheel",
+				"PAZ_672_wheel",
+				"PAZ_672_wheel",
+				"PAZ_672_WheelDouble",
+				"PAZ_672_WheelDouble",
+				"PAZ_672_doors_driver",
+				"PAZ_672_doors_codriver",
+				"PAZ_672_doors_hood",
+				"carradiator",
+                "sparkplug",
+                "truckbattery",
+                "headlighth7",
+                "headlighth7"
+			],
+            "Variants": [
+				"PAZ_672_orange"
+			]
+        },
+		{
+            "ClassName": "UAZ_27722_mchs",
+            "MaxPriceThreshold": 50000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 6,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+				"LugWrench",
+				"Wrench",
+				"Screwdriver",
+				"rag_car_jack",
+				"UAZ_27722_mchs_wheel",
+				"UAZ_27722_mchs_wheel",
+				"UAZ_27722_mchs_wheel",
+				"UAZ_27722_mchs_wheel",
+				"UAZ_27722_mchs_wheel",
+				"UAZ_27722_mchs_doors_driver",
+				"UAZ_27722_mchs_doors_codriver",
+				"UAZ_27722_mchs_doors_cargo1",
+				"UAZ_27722_mchs_doors_hood",
+				"UAZ_27722_mchs_doors_trunk",
+				"carradiator",
+                "sparkplug",
+                "truckbattery",
+                "headlighth7",
+                "headlighth7"
+			],
+            "Variants": [
+				"UAZ_27722_ambulancia",
+				"UAZ_27722_ambulancia2"
+			]
+        },
+		{
+            "ClassName": "UAZ_3962",
+            "MaxPriceThreshold": 50000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 6,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+				"LugWrench",
+				"Wrench",
+				"Screwdriver",
+				"rag_car_jack",
+				"UAZ_3962_wheel",
+				"UAZ_3962_wheel",
+				"UAZ_3962_wheel",
+				"UAZ_3962_wheel",
+				"UAZ_3962_wheel",
+				"UAZ_3962_doors_driver",
+				"UAZ_3962_doors_codriver",
+				"UAZ_3962_doors_cargo1",
+				"UAZ_3962_doors_trunk",
+				"carradiator",
+                "sparkplug",
+                "truckbattery",
+                "headlighth7",
+                "headlighth7"
+			],
+            "Variants": [
+				"UAZ_3962_MCHS",
+				"UAZ_3962_VAI",
+				"UAZ_3962_green"
+			]
+        }
+    ]
+}

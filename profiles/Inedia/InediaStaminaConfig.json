@@ -1,11 +1,12 @@
 {
-    "AdminsSteamIds": [],
     "ShowStaminaWidgetInVehicle": 1,
+    "AllowOpenInventoryWhileResting": 1,
     "StaminaGeneralOptions": {
         "IsActive": 0,
         "RespawnValuePercent": 100.0,
-        "WeightOverloadThresholdKg": 25.0,
-        "CostPerSecondRestPercent": 0.5,
+        "WeightOverloadThresholdKg": 28.0,
+        "WeightOverloadMultiplierMax": 10.0,
+        "CostPerSecondRestPercent": 0.6000000238418579,
         "CostPerSecondNoMovementPercent": 0.30000001192092898,
         "CostPerSecondNormalWalkingPercent": 0.30000001192092898,
         "CostPerSecondCrouchWalkingPercent": 0.15000000596046449,
@@ -15,16 +16,16 @@
         "CostPerSecondSprintPercent": -0.5,
         "CostPerRollPercent": -0.5,
         "CostPerJumpPercent": -1.0,
-        "CostPerClimbPercent": -1.0,
-        "CostPerMeleeAttackPercent": -0.5,
+        "CostPerVaultPercent": -1.0,
+        "CostPerClimbPercent": -2.0,
+        "CostPerMeleeAttackPercent": -0.30000001192092898,
         "CostPerPushCarApplyForcePercent": -0.05000000074505806,
         "CostPerMinePercent": -3.0,
         "CostPerMinePlanksFromPileOfWoodenPlanksPercent": -3.0,
         "CostPerMinePlanksFromWoodenLogPercent": -15.0,
         "CostPerBuildPercent": -3.0,
         "WalkingWeightDebuffBorderKg": 50.0,
-        "MovementRestrictionWeightLimitKg": 100.0,
-        "OneDegreeOfSlopeUpMultiplierPercent": 10.0,
+        "OneDegreeOfSlopeUpMultiplierPercent": 5.0,
         "OneDegreeOfSlopeDownMultiplierPercent": 5.0,
         "SurfaceRoadMultiplier": 0.8999999761581421,
         "SurfaceGrassMultiplier": 1.0,
@@ -34,6 +35,7 @@
         "SurfaceSandMultiplier": 1.5,
         "SurfaceWaterMultiplier": 2.0,
         "EpinephrineMultiplier": 0.20000000298023225,
+        "AMSEnergyPillsMultiplier": 0.5,
         "MorphineMultiplier": 1.0,
         "HeatMultiplier": 2.0,
         "ShockPerSecondJogCritical": -1.0,
@@ -43,11 +45,15 @@
         "TremorLevelAtCritical": 1.0,
         "TremorLevelAtLow": 0.30000001192092898,
         "CriticalThresholdPercent": 5.0,
-        "LowThresholdPercent": 20.0
+        "LowThresholdPercent": 20.0,
+        "SyberiaProjectAthleticsImpactFrom": 0.8999999761581421,
+        "SyberiaProjectAthleticsImpactTo": 1.2999999523162842,
+        "SyberiaProjectStrengthImpactFrom": 0.8999999761581421,
+        "SyberiaProjectStrengthImpactTo": 1.2999999523162842
     },
     "StaminaSleepOptions": {
         "IsActive": 1,
-        "RespawnValuePercent": 80.0,
+        "RespawnValuePercent": 100.0,
         "ReductionOfMaximumSleepWhenDaytimePercent": 20.0,
         "ReductionOfMaximumSleepWhenOutdoorsPercent": 20.0,
         "ReductionOfMaximumSleepWhenWetPercent": 20.0,
@@ -66,7 +72,8 @@
         "CostPerSecondSprintPercent": -0.009999999776482582,
         "CostPerRollPercent": -0.009999999776482582,
         "CostPerJumpPercent": -0.009999999776482582,
-        "CostPerClimbPercent": -0.009999999776482582,
+        "CostPerVaultPercent": -0.009999999776482582,
+        "CostPerClimbPercent": -0.019999999552965165,
         "CostPerMeleeAttackPercent": -0.009999999776482582,
         "CostPerPushCarApplyForcePercent": -0.0010000000474974514,
         "CostPerMinePercent": -0.009999999776482582,
@@ -82,7 +89,56 @@
         "MovementSpeedReductionWhenLessLowIsActive": 0,
         "CriticalThresholdPercent": 5.0,
         "LowThresholdPercent": 20.0,
-        "SleepinessThresholdPercent": 40.0
+        "SleepinessThresholdPercent": 50.0
+    },
+    "InediaMovementOptions": {
+        "WeightRestrictionsHandlerIsActive": 1,
+        "WeakSlowdownIfLoadGreaterThanKg": 40.0,
+        "MediumSlowdownIfLoadGreaterThanKg": 50.0,
+        "StrongSlowdownIfLoadGreaterThanKg": 65.0,
+        "ExtremeSlowdownIfLoadGreaterThanKg": 80.0,
+        "ForcedWalkIfLoadGreaterThanKg": 100.0,
+        "MovementRestrictionIfLoadGreaterThanKg": 120.0,
+        "SlopeRestrictionsHandlerIsActive": 1,
+        "WeakSlowdownIfSlopeGreaterThanDegree": 9.0,
+        "MediumSlowdownIfSlopeGreaterThanDegree": 18.0,
+        "StrongSlowdownIfSlopeGreaterThanDegree": 27.0,
+        "ExtremeSlowdownIfSlopeGreaterThanDegree": 36.0,
+        "SurfaceRestrictionsHandlerIsActive": 1,
+        "SurfaceRoadSpeedReduction": 0,
+        "SurfaceGrassSpeedReduction": 1,
+        "SurfaceGrassTallSpeedReduction": 2,
+        "SurfaceForestSpeedReduction": 1,
+        "SurfaceStoneSpeedReduction": 0,
+        "SurfaceSandSpeedReduction": 2,
+        "SurfaceWaterSpeedReduction": 4,
+        "SurfaceFootwearSpeedImpact": {
+            "Barefoot": -4,
+            "NBCBootsGrey": 0,
+            "NBCBootsYellow": 0,
+			"FeetCover_Improvised": -2,
+			"DressShoes_ColorBase": -1,
+			"LeatherShoes_ColorBase": -1,
+			"MedievalBoots": -3,
+			"Ballerinas_ColorBase": -1,
+			"Sneakers_ColorBase": 2,
+			"AthleticShoes_ColorBase": 3,
+			"Wellies_ColorBase": -1,
+			"apokot_wellies_black": -1,
+			"apokot_wellies_green": -1,
+			"JoggingShoes_ColorBase": 4,
+			"HikingBootsLow_ColorBase": 3,
+			"HikingBoots_ColorBase": 1,
+			"WorkingBoots_ColorBase": -2,
+			"CombatBoots_ColorBase": 1,
+			"JungleBoots_ColorBase": 0,
+			"MilitaryBoots_ColorBase": 0
+        },
+        "ForcedWalkIfCharacterIsInBush": 1,
+        "BushClasses": {},
+        "CumulativeSpeedReductionIsActive": 1,
+        "SyberiaProjectStrengthImpactFrom": 0.8999999761581421,
+        "SyberiaProjectStrengthImpactTo": 1.2999999523162842
     },
     "StaminaStimulants": [
         {
@@ -93,7 +149,14 @@
         {
             "ItemClass": "SodaCan_Pipsi",
             "StaminaGeneralIncreasePercent": 20.0,
-            "StaminaSleepIncreasePercent": 5.0
+            "StaminaSleepIncreasePercent": 10.0
+        }
+    ],
+    "StaminaLiquidStimulants": [
+        {
+            "LiquidId": 2048,
+            "StaminaGeneralIncreasePerLiterPercent": 100.0,
+            "StaminaSleepIncreasePerLiterPercent": -50.0
         }
     ],
     "ComfortablePlaces": [

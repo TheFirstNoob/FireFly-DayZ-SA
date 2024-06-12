@@ -675,6 +675,49 @@
             ]
         },
         {
+            "Name": "New Bandits",
+            "Faction": "Raiders",
+            "Formation": "",
+            "FormationLooseness": 5.0,
+            "LoadoutFile": "AI_Bandit_Loadout",
+            "Units": [],
+            "NumberOfAI": -3,
+            "Behaviour": "HALT_OR_ALTERNATE",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "SPRINT",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 0,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": 0.1,
+            "AccuracyMax": 0.3,
+            "ThreatDistanceLimit": 100.0,
+            "NoiseInvestigationDistanceLimit": 200.0,
+            "DamageMultiplier": 0.8,
+            "DamageReceivedMultiplier": -1.0,
+            "MinDistRadius": -2.0,
+            "MaxDistRadius": -2.0,
+            "DespawnRadius": -2.200000047683716,
+            "MinSpreadRadius": 1.0,
+            "MaxSpreadRadius": 100.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": -1.0,
+            "RespawnTime": -2.0,
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    4110.9,
+                    263.257,
+                    10193.9
+                ],
+                [
+                    4348.09,
+                    245.502,
+                    10224.9
+                ]
+            ]
+        },
+        {
             "Name": "",
             "Faction": "West",
             "Formation": "",

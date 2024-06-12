@@ -1,5 +1,5 @@
 {
-    "ConfigVersion": 21,
+    "ConfigVersion": 22,
     "ID": 1104,
     "Type": 1,
     "Title": "[СЮЖЕТ] Проверка на способности",
@@ -33,6 +33,7 @@
     "RandomReward": 0,
     "RandomRewardAmount": -1,
     "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
     "QuestGiverIDs": [],
     "QuestTurnInIDs": [
         1
@@ -40,12 +41,12 @@
     "IsAchievement": 0,
     "Objectives": [
         {
-            "ConfigVersion": 26,
+            "ConfigVersion": 27,
             "ID": 1104,
             "ObjectiveType": 3
         },
         {
-            "ConfigVersion": 26,
+            "ConfigVersion": 27,
             "ID": 1105,
             "ObjectiveType": 2
         }

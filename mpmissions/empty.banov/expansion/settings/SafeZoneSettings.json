@@ -1,7 +1,7 @@
 {
     "m_Version": 10,
     "Enabled": 1,
-    "FrameRateCheckSafeZoneInMs": 0,
+    "FrameRateCheckSafeZoneInMs": 25,
     "CircleZones": [
 		{
 			"Center": [
@@ -34,6 +34,14 @@
 				11322.1
 			],
 			"Radius": 70.0
+		},
+		{
+			"Center": [
+				4360.37,
+                190.028,
+                222.847
+			],
+			"Radius": 75.0
 		}
 	],
     "PolygonZones": [],

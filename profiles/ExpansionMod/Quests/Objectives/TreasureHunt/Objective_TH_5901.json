@@ -1,5 +1,5 @@
 {
-    "ConfigVersion": 26,
+    "ConfigVersion": 27,
     "ID": 5901,
     "ObjectiveType": 6,
     "ObjectiveText": "Найдите и Откапайте Клад",
@@ -62,11 +62,13 @@
             12927.5
         ]
     ],
+    "LootItemsAmount": 7,
+    "MaxDistance": 10.0,
     "Loot": [
         {
             "Name": "Binoculars",
-            "Attachments": [],
             "Chance": 0.33000001311302187,
+            "Attachments": [],
             "QuantityPercent": -1,
             "Max": -1,
             "Min": 0,
@@ -74,10 +76,14 @@
         },
         {
             "Name": "Rangefinder",
-            "Attachments": [
-                "Battery9V"
-            ],
             "Chance": 0.05000000074505806,
+            "Attachments": [
+                {
+                    "Name": "Battery9V",
+                    "Chance": 1.0,
+                    "Attachments": []
+                }
+            ],
             "QuantityPercent": -1,
             "Max": -1,
             "Min": 0,
@@ -85,10 +91,14 @@
         },
         {
             "Name": "Deagle_gold",
-            "Attachments": [
-                "mag_deagle_9rnd"
-            ],
             "Chance": 0.05000000074505806,
+            "Attachments": [
+                {
+                    "Name": "mag_deagle_9rnd",
+                    "Chance": 1.0,
+                    "Attachments": []
+                }
+            ],
             "QuantityPercent": -1,
             "Max": -1,
             "Min": 0,
@@ -96,10 +106,14 @@
         },
         {
             "Name": "Engraved1911",
-            "Attachments": [
-                "mag_1911_7rnd"
-            ],
             "Chance": 0.05000000074505806,
+            "Attachments": [
+                {
+                    "Name": "mag_1911_7rnd",
+                    "Chance": 1.0,
+                    "Attachments": []
+                }
+            ],
             "QuantityPercent": -1,
             "Max": -1,
             "Min": 0,
@@ -107,10 +121,14 @@
         },
         {
             "Name": "Scout",
-            "Attachments": [
-                "mag_scout_5rnd"
-            ],
             "Chance": 0.05000000074505806,
+            "Attachments": [
+                {
+                    "Name": "mag_scout_5rnd",
+                    "Chance": 1.0,
+                    "Attachments": []
+                }
+            ],
             "QuantityPercent": -1,
             "Max": -1,
             "Min": 0,
@@ -118,10 +136,14 @@
         },
         {
             "Name": "ASVAL",
-            "Attachments": [
-                "mag_val_20rnd"
-            ],
             "Chance": 0.05000000074505806,
+            "Attachments": [
+                {
+                    "Name": "mag_val_20rnd",
+                    "Chance": 1.0,
+                    "Attachments": []
+                }
+            ],
             "QuantityPercent": -1,
             "Max": -1,
             "Min": 0,
@@ -129,10 +151,14 @@
         },
         {
             "Name": "Saiga",
-            "Attachments": [
-                "Mag_Saiga_Drum20Rnd"
-            ],
             "Chance": 0.05000000074505806,
+            "Attachments": [
+                {
+                    "Name": "Mag_Saiga_Drum20Rnd",
+                    "Chance": 1.0,
+                    "Attachments": []
+                }
+            ],
             "QuantityPercent": -1,
             "Max": -1,
             "Min": 0,
@@ -140,10 +166,14 @@
         },
         {
             "Name": "VSS",
-            "Attachments": [
-                "mag_vss_10rnd"
-            ],
             "Chance": 0.05000000074505806,
+            "Attachments": [
+                {
+                    "Name": "mag_vss_10rnd",
+                    "Chance": 1.0,
+                    "Attachments": []
+                }
+            ],
             "QuantityPercent": -1,
             "Max": -1,
             "Min": 0,
@@ -151,8 +181,8 @@
         },
         {
             "Name": "WeaponCleaningKit",
-            "Attachments": [],
             "Chance": 0.10000000149011612,
+            "Attachments": [],
             "QuantityPercent": -1,
             "Max": -1,
             "Min": 0,
@@ -160,8 +190,8 @@
         },
         {
             "Name": "BatteryCharger",
-            "Attachments": [],
             "Chance": 0.10000000149011612,
+            "Attachments": [],
             "QuantityPercent": -1,
             "Max": -1,
             "Min": 0,
@@ -169,8 +199,8 @@
         },
         {
             "Name": "VitaminBottle",
-            "Attachments": [],
             "Chance": 0.25,
+            "Attachments": [],
             "QuantityPercent": -1,
             "Max": -1,
             "Min": 0,
@@ -178,8 +208,8 @@
         },
         {
             "Name": "AliceBag_Green",
-            "Attachments": [],
             "Chance": 0.05000000074505806,
+            "Attachments": [],
             "QuantityPercent": -1,
             "Max": -1,
             "Min": 0,
@@ -187,8 +217,8 @@
         },
         {
             "Name": "ExpansionGPS",
-            "Attachments": [],
             "Chance": 0.10000000149011612,
+            "Attachments": [],
             "QuantityPercent": -1,
             "Max": -1,
             "Min": 0,
@@ -196,8 +226,8 @@
         },
         {
             "Name": "NVGoggles",
-            "Attachments": [],
             "Chance": 0.10000000149011612,
+            "Attachments": [],
             "QuantityPercent": -1,
             "Max": -1,
             "Min": 0,
@@ -205,8 +235,8 @@
         },
         {
             "Name": "CarTent",
-            "Attachments": [],
             "Chance": 0.10000000149011612,
+            "Attachments": [],
             "QuantityPercent": -1,
             "Max": -1,
             "Min": 0,
@@ -214,14 +244,12 @@
         },
         {
             "Name": "ExpansionSafeMini",
-            "Attachments": [],
             "Chance": 0.10000000149011612,
+            "Attachments": [],
             "QuantityPercent": -1,
             "Max": -1,
             "Min": 0,
             "Variants": []
         }
-    ],
-    "LootItemsAmount": 7,
-    "MaxDistance": 10.0
+    ]
 }
