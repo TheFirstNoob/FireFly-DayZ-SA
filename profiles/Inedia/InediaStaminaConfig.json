@@ -93,12 +93,12 @@
     },
     "InediaMovementOptions": {
         "WeightRestrictionsHandlerIsActive": 1,
-        "WeakSlowdownIfLoadGreaterThanKg": 40.0,
-        "MediumSlowdownIfLoadGreaterThanKg": 50.0,
-        "StrongSlowdownIfLoadGreaterThanKg": 65.0,
-        "ExtremeSlowdownIfLoadGreaterThanKg": 80.0,
-        "ForcedWalkIfLoadGreaterThanKg": 100.0,
-        "MovementRestrictionIfLoadGreaterThanKg": 120.0,
+        "WeakSlowdownIfLoadGreaterThanKg": 50.0,
+        "MediumSlowdownIfLoadGreaterThanKg": 60.0,
+        "StrongSlowdownIfLoadGreaterThanKg": 75.0,
+        "ExtremeSlowdownIfLoadGreaterThanKg": 90.0,
+        "ForcedWalkIfLoadGreaterThanKg": 115.0,
+        "MovementRestrictionIfLoadGreaterThanKg": 135.0,
         "SlopeRestrictionsHandlerIsActive": 1,
         "WeakSlowdownIfSlopeGreaterThanDegree": 9.0,
         "MediumSlowdownIfSlopeGreaterThanDegree": 18.0,
@@ -111,7 +111,7 @@
         "SurfaceForestSpeedReduction": 1,
         "SurfaceStoneSpeedReduction": 0,
         "SurfaceSandSpeedReduction": 2,
-        "SurfaceWaterSpeedReduction": 4,
+        "SurfaceWaterSpeedReduction": 3,
         "SurfaceFootwearSpeedImpact": {
             "Barefoot": -4,
             "NBCBootsGrey": 0,
@@ -127,6 +127,7 @@
 			"apokot_wellies_black": -1,
 			"apokot_wellies_green": -1,
 			"JoggingShoes_ColorBase": 4,
+			"TLS_Nano2_Boots": 4,
 			"HikingBootsLow_ColorBase": 3,
 			"HikingBoots_ColorBase": 1,
 			"WorkingBoots_ColorBase": -2,
@@ -134,7 +135,7 @@
 			"JungleBoots_ColorBase": 0,
 			"MilitaryBoots_ColorBase": 0
         },
-        "ForcedWalkIfCharacterIsInBush": 1,
+        "ForcedWalkIfCharacterIsInBush": 0,
         "BushClasses": {},
         "CumulativeSpeedReductionIsActive": 1,
         "SyberiaProjectStrengthImpactFrom": 0.8999999761581421,
@@ -178,12 +179,6 @@
             "StaminaSleepMultiplier": 1.0
         }
     ],
-    "HumanPoweredVehicles": [
-        {
-            "ItemClass": "Bicycle_Base",
-            "StaminaGeneralCostPerSecondPercent": -0.10000000149011612,
-            "StaminaGeneralCostPerSecondAccelerationPercent": -0.5
-        }
-    ],
+    "HumanPoweredVehicles": [],
     "Houses": []
 }
