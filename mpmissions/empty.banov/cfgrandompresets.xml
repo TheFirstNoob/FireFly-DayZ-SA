@@ -136,30 +136,146 @@
 				<item name="Flashlight" chance="0.2" />
 		</cargo>
 		<cargo chance="0.15" name="ammoCivil">
-				<item name="Ammo_380" chance="0.22" />
-				<item name="AmmoBox_380_35Rnd" chance="0.08" />
-				<item name="Ammo_9x19" chance="0.15" />
-				<item name="AmmoBox_9x19_25Rnd" chance="0.08" />
-				<item name="Ammo_762x39" chance="0.12" />
-				<item name="AmmoBox_762x39_20Rnd" chance="0.02" />
-				<item name="Ammo_762x54" chance="0.08" />
-				<item name="AmmoBox_762x54_20Rnd" chance="0.02" />
+				<item name="Ammo_new_380BondedJhp" chance="0.10" />
+				<item name="Ammo_new_380Jhp" chance="0.12" />
+				<item name="Ammo_new_380HydraShokJhp" chance="0.16" />
+				<item name="Ammo_new_380SilvertipJhp" chance="0.20" />
+				<item name="Ammo_new_380Xtp" chance="0.18" />
+				<item name="Ammo_new_380Fmj" chance="0.14" />
+				<item name="AmmoBox_new_380BondedJhp" chance="0.03" />
+				<item name="AmmoBox_new_380Jhp" chance="0.04" />
+				<item name="AmmoBox_new_380HydraShokJhp" chance="0.06" />
+				<item name="AmmoBox_new_380SilvertipJhp" chance="0.08" />
+				<item name="AmmoBox_new_380Xtp" chance="0.07" />
+				<item name="AmmoBox_new_380Fmj" chance="0.05" />
+				<item name="Ammo_new_9x19Pst" chance="0.14" />
+				<item name="Ammo_new_9x19Pso" chance="0.15" />
+				<item name="Ammo_new_9x19LugerCci" chance="0.13" />
+				<item name="Ammo_new_9x19Rip" chance="0.09" />
+				<item name="Ammo_new_9x19Ap" chance="0.11" />
+				<item name="Ammo_new_9x197H31" chance="0.10" />
+				<item name="Ammo_new_9x19QuakeMaker" chance="0.12" />
+				<item name="AmmoBox_new_9x19Pst" chance="0.07" />
+				<item name="AmmoBox_new_9x19Pso" chance="0.08" />
+				<item name="AmmoBox_new_9x19LugerCci" chance="0.06" />
+				<item name="AmmoBox_new_9x19Rip" chance="0.03" />
+				<item name="AmmoBox_new_9x19Ap" chance="0.04" />
+				<item name="AmmoBox_new_9x197H31" chance="0.02" />
+				<item name="AmmoBox_new_9x19QuakeMaker" chance="0.05" />
+				<item name="Ammo_new_762x39Hp" chance="0.11" />
+				<item name="Ammo_new_762x39Bp" chance="0.09" />
+				<item name="Ammo_new_762x39Ps" chance="0.10" />
+				<item name="Ammo_new_762x39T45M" chance="0.10" />
+				<item name="Ammo_new_762x39Us" chance="0.12" />
+				<item name="AmmoBox_new_762x39Hp" chance="0.02" />
+				<item name="AmmoBox_new_762x39Bp" chance="0.02" />
+				<item name="AmmoBox_new_762x39Ps" chance="0.02" />
+				<item name="AmmoBox_new_762x39T45M" chance="0.02" />
+				<item name="AmmoBox_new_762x39Us" chance="0.02" />
+				<item name="Ammo_new_762x547Bt1" chance="0.05" />
+				<item name="Ammo_new_762x547H37" chance="0.08" />
+				<item name="Ammo_new_762x54Lps" chance="0.03" />
+				<item name="Ammo_new_762x54Snb" chance="0.04" />
+				<item name="Ammo_new_762x547H1" chance="0.06" />
+				<item name="Ammo_new_762x54T46M" chance="0.07" />
+				<item name="AmmoBox_new_762x547Bt1" chance="0.02" />
+				<item name="AmmoBox_new_762x547H37" chance="0.02" />
+				<item name="AmmoBox_new_762x54Lps" chance="0.02" />
+				<item name="AmmoBox_new_762x54Snb" chance="0.02" />
+				<item name="AmmoBox_new_762x547H1" chance="0.02" />
+				<item name="AmmoBox_new_762x54T46M" chance="0.02" />
 		</cargo>
 		<cargo chance="0.3" name="ammoPolice">
-				<item name="Ammo_9x19" chance="0.25" />
-				<item name="AmmoBox_9x19_25Rnd" chance="0.09" />
-				<item name="Ammo_556x45" chance="0.25" />
-				<item name="AmmoBox_556x45_20Rnd" chance="0.09" />
-				<item name="Ammo_545x39" chance="0.25" />
-				<item name="AmmoBox_545x39_20Rnd" chance="0.07" />
+				<item name="Ammo_new_9x19Pst" chance="0.14" />
+				<item name="Ammo_new_9x19Pso" chance="0.15" />
+				<item name="Ammo_new_9x19LugerCci" chance="0.13" />
+				<item name="Ammo_new_9x19Rip" chance="0.09" />
+				<item name="Ammo_new_9x19Ap" chance="0.11" />
+				<item name="Ammo_new_9x197H31" chance="0.10" />
+				<item name="Ammo_new_9x19QuakeMaker" chance="0.12" />
+				<item name="AmmoBox_new_9x19Pst" chance="0.07" />
+				<item name="AmmoBox_new_9x19Pso" chance="0.08" />
+				<item name="AmmoBox_new_9x19LugerCci" chance="0.06" />
+				<item name="AmmoBox_new_9x19Rip" chance="0.03" />
+				<item name="AmmoBox_new_9x19Ap" chance="0.04" />
+				<item name="AmmoBox_new_9x197H31" chance="0.02" />
+				<item name="AmmoBox_new_9x19QuakeMaker" chance="0.05" />
+				<item name="Ammo_new_556x45M855" chance="0.20" />
+				<item name="Ammo_new_556x45M855A1" chance="0.19" />
+				<item name="Ammo_new_556x45M856" chance="0.21" />
+				<item name="Ammo_new_556x45M856A1" chance="0.18" />
+				<item name="Ammo_new_556x45M995" chance="0.17" />
+				<item name="Ammo_new_556x45Mk255" chance="0.23" />
+				<item name="Ammo_new_556x4555Fmj" chance="0.22" />
+				<item name="Ammo_new_556x4555Hp" chance="0.24" />
+				<item name="Ammo_new_556x45Warmage" chance="0.25" />
+				<item name="AmmoBox_new_556x45M855" chance="0.07" />
+				<item name="AmmoBox_new_556x45M855A1" chance="0.07" />
+				<item name="AmmoBox_new_556x45M856" chance="0.07" />
+				<item name="AmmoBox_new_556x45M856A1" chance="0.07" />
+				<item name="AmmoBox_new_556x45M995" chance="0.06" />
+				<item name="AmmoBox_new_556x45Mk255" chance="0.09" />
+				<item name="AmmoBox_new_556x4555Fmj" chance="0.09" />
+				<item name="AmmoBox_new_556x4555Hp" chance="0.09" />
+				<item name="AmmoBox_new_556x45Warmage" chance="0.09" />
+				<item name="Ammo_new_545x397H39" chance="0.14" />
+				<item name="Ammo_new_545x39Fmj" chance="0.24" />
+				<item name="Ammo_new_545x39Hp" chance="0.22" />
+				<item name="Ammo_new_545x39Sp" chance="0.23" />
+				<item name="Ammo_new_545x39Bp" chance="0.17" />
+				<item name="Ammo_new_545x39Bs" chance="0.15" />
+				<item name="Ammo_new_545x39Bt" chance="0.16" />
+				<item name="Ammo_new_545x39Pp" chance="0.21" />
+				<item name="Ammo_new_545x39Prs" chance="0.25" />
+				<item name="Ammo_new_545x39Ps" chance="0.20" />
+				<item name="Ammo_new_545x39T" chance="0.18" />
+				<item name="Ammo_new_545x39Us" chance="0.19" />
+				<item name="AmmoBox_new_545x397H39" chance="0.07" />
+				<item name="AmmoBox_new_545x39Fmj" chance="0.07" />
+				<item name="AmmoBox_new_545x39Hp" chance="0.07" />
+				<item name="AmmoBox_new_545x39Sp" chance="0.07" />
+				<item name="AmmoBox_new_545x39Bp" chance="0.07" />
+				<item name="AmmoBox_new_545x39Bs" chance="0.07" />
+				<item name="AmmoBox_new_545x39Bt" chance="0.07" />
+				<item name="AmmoBox_new_545x39Pp" chance="0.07" />
+				<item name="AmmoBox_new_545x39Prs" chance="0.07" />
+				<item name="AmmoBox_new_545x39Ps" chance="0.07" />
+				<item name="AmmoBox_new_545x39T" chance="0.07" />
+				<item name="AmmoBox_new_545x39Us" chance="0.07" />
 		</cargo>
 		<cargo chance="0.25" name="ammoArmy">
-				<item name="Ammo_45ACP" chance="0.2" />
-				<item name="AmmoBox_45ACP_25Rnd" chance="0.05" />
-				<item name="Ammo_762x39" chance="0.2" />
-				<item name="AmmoBox_762x39_20Rnd" chance="0.05" />
-				<item name="Ammo_762x54" chance="0.2" />
-				<item name="AmmoBox_762x54_20Rnd" chance="0.05" />
+				<item name="Ammo_new_45AcpAP" chance="0.16" />
+				<item name="Ammo_new_45AcpFmj" chance="0.19" />
+				<item name="Ammo_new_45AcpHydrShock" chance="0.19" />
+				<item name="Ammo_new_45AcpLasermatchFmj" chance="0.18" />
+				<item name="Ammo_new_45AcpRip" chance="0.17" />
+				<item name="AmmoBox_new_45AcpAP" chance="0.05" />
+				<item name="AmmoBox_new_45AcpFmj" chance="0.05" />
+				<item name="AmmoBox_new_45AcpHydrShock" chance="0.05" />
+				<item name="AmmoBox_new_45AcpLasermatchFmj" chance="0.05" />
+				<item name="AmmoBox_new_45AcpRip" chance="0.05" />
+				<item name="Ammo_new_762x39Hp" chance="0.11" />
+				<item name="Ammo_new_762x39Bp" chance="0.09" />
+				<item name="Ammo_new_762x39Ps" chance="0.10" />
+				<item name="Ammo_new_762x39T45M" chance="0.10" />
+				<item name="Ammo_new_762x39Us" chance="0.12" />
+				<item name="AmmoBox_new_762x39Hp" chance="0.02" />
+				<item name="AmmoBox_new_762x39Bp" chance="0.02" />
+				<item name="AmmoBox_new_762x39Ps" chance="0.02" />
+				<item name="AmmoBox_new_762x39T45M" chance="0.02" />
+				<item name="AmmoBox_new_762x39Us" chance="0.02" />
+				<item name="Ammo_new_762x547Bt1" chance="0.05" />
+				<item name="Ammo_new_762x547H37" chance="0.08" />
+				<item name="Ammo_new_762x54Lps" chance="0.03" />
+				<item name="Ammo_new_762x54Snb" chance="0.04" />
+				<item name="Ammo_new_762x547H1" chance="0.06" />
+				<item name="Ammo_new_762x54T46M" chance="0.07" />
+				<item name="AmmoBox_new_762x547Bt1" chance="0.02" />
+				<item name="AmmoBox_new_762x547H37" chance="0.02" />
+				<item name="AmmoBox_new_762x54Lps" chance="0.02" />
+				<item name="AmmoBox_new_762x54Snb" chance="0.02" />
+				<item name="AmmoBox_new_762x547H1" chance="0.02" />
+				<item name="AmmoBox_new_762x54T46M" chance="0.02" />
 		</cargo>
 		<cargo chance="0.1" name="mixVillage">
 				<item name="DuctTape" chance="0.07" />
@@ -171,14 +287,54 @@
 				<item name="KitchenKnife" chance="0.05" />
 				<item name="CanOpener" chance="0.05" />
 				<item name="BandageDressing" chance="0.05" />
-				<item name="Ammo_380" chance="0.22" />
-				<item name="AmmoBox_380_35Rnd" chance="0.08" />
-				<item name="Ammo_9x19" chance="0.15" />
-				<item name="AmmoBox_9x19_25Rnd" chance="0.08" />
-				<item name="Ammo_762x39" chance="0.12" />
-				<item name="AmmoBox_762x39_20Rnd" chance="0.02" />
-				<item name="Ammo_762x54" chance="0.08" />
-				<item name="AmmoBox_762x54_20Rnd" chance="0.02" />
+				<item name="Ammo_new_380BondedJhp" chance="0.10" />
+				<item name="Ammo_new_380Jhp" chance="0.12" />
+				<item name="Ammo_new_380HydraShokJhp" chance="0.16" />
+				<item name="Ammo_new_380SilvertipJhp" chance="0.20" />
+				<item name="Ammo_new_380Xtp" chance="0.18" />
+				<item name="Ammo_new_380Fmj" chance="0.14" />
+				<item name="AmmoBox_new_380BondedJhp" chance="0.03" />
+				<item name="AmmoBox_new_380Jhp" chance="0.04" />
+				<item name="AmmoBox_new_380HydraShokJhp" chance="0.06" />
+				<item name="AmmoBox_new_380SilvertipJhp" chance="0.08" />
+				<item name="AmmoBox_new_380Xtp" chance="0.07" />
+				<item name="AmmoBox_new_380Fmj" chance="0.05" />
+				<item name="Ammo_new_9x19Pst" chance="0.14" />
+				<item name="Ammo_new_9x19Pso" chance="0.15" />
+				<item name="Ammo_new_9x19LugerCci" chance="0.13" />
+				<item name="Ammo_new_9x19Rip" chance="0.09" />
+				<item name="Ammo_new_9x19Ap" chance="0.11" />
+				<item name="Ammo_new_9x197H31" chance="0.10" />
+				<item name="Ammo_new_9x19QuakeMaker" chance="0.12" />
+				<item name="AmmoBox_new_9x19Pst" chance="0.07" />
+				<item name="AmmoBox_new_9x19Pso" chance="0.08" />
+				<item name="AmmoBox_new_9x19LugerCci" chance="0.06" />
+				<item name="AmmoBox_new_9x19Rip" chance="0.03" />
+				<item name="AmmoBox_new_9x19Ap" chance="0.04" />
+				<item name="AmmoBox_new_9x197H31" chance="0.02" />
+				<item name="AmmoBox_new_9x19QuakeMaker" chance="0.05" />
+				<item name="Ammo_new_762x39Hp" chance="0.11" />
+				<item name="Ammo_new_762x39Bp" chance="0.09" />
+				<item name="Ammo_new_762x39Ps" chance="0.10" />
+				<item name="Ammo_new_762x39T45M" chance="0.10" />
+				<item name="Ammo_new_762x39Us" chance="0.12" />
+				<item name="AmmoBox_new_762x39Hp" chance="0.02" />
+				<item name="AmmoBox_new_762x39Bp" chance="0.02" />
+				<item name="AmmoBox_new_762x39Ps" chance="0.02" />
+				<item name="AmmoBox_new_762x39T45M" chance="0.02" />
+				<item name="AmmoBox_new_762x39Us" chance="0.02" />
+				<item name="Ammo_new_762x547Bt1" chance="0.05" />
+				<item name="Ammo_new_762x547H37" chance="0.08" />
+				<item name="Ammo_new_762x54Lps" chance="0.03" />
+				<item name="Ammo_new_762x54Snb" chance="0.04" />
+				<item name="Ammo_new_762x547H1" chance="0.06" />
+				<item name="Ammo_new_762x54T46M" chance="0.07" />
+				<item name="AmmoBox_new_762x547Bt1" chance="0.02" />
+				<item name="AmmoBox_new_762x547H37" chance="0.02" />
+				<item name="AmmoBox_new_762x54Lps" chance="0.02" />
+				<item name="AmmoBox_new_762x54Snb" chance="0.02" />
+				<item name="AmmoBox_new_762x547H1" chance="0.02" />
+				<item name="AmmoBox_new_762x54T46M" chance="0.02" />
 				<item name="SodaCan_Cola" chance="0.09" />
 				<item name="SodaCan_Pipsi" chance="0.09" />
 				<item name="SodaCan_Spite" chance="0.09" />
@@ -196,14 +352,54 @@
 				<item name="HuntingKnife" chance="0.05" />
 				<item name="CanOpener" chance="0.05" />
 				<item name="BandageDressing" chance="0.05" />
-				<item name="Ammo_380" chance="0.22" />
-				<item name="AmmoBox_380_35Rnd" chance="0.08" />
-				<item name="Ammo_9x19" chance="0.15" />
-				<item name="AmmoBox_9x19_25Rnd" chance="0.08" />
-				<item name="Ammo_762x39" chance="0.12" />
-				<item name="AmmoBox_762x39_20Rnd" chance="0.02" />
-				<item name="Ammo_762x54" chance="0.08" />
-				<item name="AmmoBox_762x54_20Rnd" chance="0.02" />
+				<item name="Ammo_new_380BondedJhp" chance="0.10" />
+				<item name="Ammo_new_380Jhp" chance="0.12" />
+				<item name="Ammo_new_380HydraShokJhp" chance="0.16" />
+				<item name="Ammo_new_380SilvertipJhp" chance="0.20" />
+				<item name="Ammo_new_380Xtp" chance="0.18" />
+				<item name="Ammo_new_380Fmj" chance="0.14" />
+				<item name="AmmoBox_new_380BondedJhp" chance="0.03" />
+				<item name="AmmoBox_new_380Jhp" chance="0.04" />
+				<item name="AmmoBox_new_380HydraShokJhp" chance="0.06" />
+				<item name="AmmoBox_new_380SilvertipJhp" chance="0.08" />
+				<item name="AmmoBox_new_380Xtp" chance="0.07" />
+				<item name="AmmoBox_new_380Fmj" chance="0.05" />
+				<item name="Ammo_new_9x19Pst" chance="0.14" />
+				<item name="Ammo_new_9x19Pso" chance="0.15" />
+				<item name="Ammo_new_9x19LugerCci" chance="0.13" />
+				<item name="Ammo_new_9x19Rip" chance="0.09" />
+				<item name="Ammo_new_9x19Ap" chance="0.11" />
+				<item name="Ammo_new_9x197H31" chance="0.10" />
+				<item name="Ammo_new_9x19QuakeMaker" chance="0.12" />
+				<item name="AmmoBox_new_9x19Pst" chance="0.07" />
+				<item name="AmmoBox_new_9x19Pso" chance="0.08" />
+				<item name="AmmoBox_new_9x19LugerCci" chance="0.06" />
+				<item name="AmmoBox_new_9x19Rip" chance="0.03" />
+				<item name="AmmoBox_new_9x19Ap" chance="0.04" />
+				<item name="AmmoBox_new_9x197H31" chance="0.02" />
+				<item name="AmmoBox_new_9x19QuakeMaker" chance="0.05" />
+				<item name="Ammo_new_762x39Hp" chance="0.11" />
+				<item name="Ammo_new_762x39Bp" chance="0.09" />
+				<item name="Ammo_new_762x39Ps" chance="0.10" />
+				<item name="Ammo_new_762x39T45M" chance="0.10" />
+				<item name="Ammo_new_762x39Us" chance="0.12" />
+				<item name="AmmoBox_new_762x39Hp" chance="0.02" />
+				<item name="AmmoBox_new_762x39Bp" chance="0.02" />
+				<item name="AmmoBox_new_762x39Ps" chance="0.02" />
+				<item name="AmmoBox_new_762x39T45M" chance="0.02" />
+				<item name="AmmoBox_new_762x39Us" chance="0.02" />
+				<item name="Ammo_new_762x547Bt1" chance="0.05" />
+				<item name="Ammo_new_762x547H37" chance="0.08" />
+				<item name="Ammo_new_762x54Lps" chance="0.03" />
+				<item name="Ammo_new_762x54Snb" chance="0.04" />
+				<item name="Ammo_new_762x547H1" chance="0.06" />
+				<item name="Ammo_new_762x54T46M" chance="0.07" />
+				<item name="AmmoBox_new_762x547Bt1" chance="0.02" />
+				<item name="AmmoBox_new_762x547H37" chance="0.02" />
+				<item name="AmmoBox_new_762x54Lps" chance="0.02" />
+				<item name="AmmoBox_new_762x54Snb" chance="0.02" />
+				<item name="AmmoBox_new_762x547H1" chance="0.02" />
+				<item name="AmmoBox_new_762x54T46M" chance="0.02" />
 				<item name="SodaCan_Cola" chance="0.09" />
 				<item name="SodaCan_Pipsi" chance="0.09" />
 				<item name="SodaCan_Spite" chance="0.08" />
@@ -217,19 +413,45 @@
 				<item name="SodaCan_Cola" chance="0.05" />
 				<item name="SodaCan_Pipsi" chance="0.05" />
 				<item name="SodaCan_Spite" chance="0.05" />
-				<item name="TunaCan" chance="0.1" />
+				<item name="TunaCan" chance="0.10" />
 				<item name="SardinesCan" chance="0.05" />
 				<item name="PeachesCan" chance="0.05" />
 				<item name="SpaghettiCan" chance="0.05" />
 				<item name="BakedBeansCan" chance="0.05" />
-				<item name="TacticalBaconCan" chance="0.1" />
+				<item name="TacticalBaconCan" chance="0.10" />
 				<item name="Canteen" chance="0.1" />
-				<item name="Ammo_45ACP" chance="0.2" />
-				<item name="AmmoBox_45ACP_25Rnd" chance="0.05" />
-				<item name="Ammo_762x39" chance="0.2" />
-				<item name="AmmoBox_762x39_20Rnd" chance="0.05" />
-				<item name="Ammo_762x54" chance="0.2" />
-				<item name="AmmoBox_762x54_20Rnd" chance="0.05" />
+				<item name="Ammo_new_45AcpAP" chance="0.16" />
+				<item name="Ammo_new_45AcpFmj" chance="0.19" />
+				<item name="Ammo_new_45AcpHydrShock" chance="0.19" />
+				<item name="Ammo_new_45AcpLasermatchFmj" chance="0.18" />
+				<item name="Ammo_new_45AcpRip" chance="0.17" />
+				<item name="AmmoBox_new_45AcpAP" chance="0.05" />
+				<item name="AmmoBox_new_45AcpFmj" chance="0.05" />
+				<item name="AmmoBox_new_45AcpHydrShock" chance="0.05" />
+				<item name="AmmoBox_new_45AcpLasermatchFmj" chance="0.05" />
+				<item name="AmmoBox_new_45AcpRip" chance="0.05" />
+				<item name="Ammo_new_762x39Hp" chance="0.11" />
+				<item name="Ammo_new_762x39Bp" chance="0.09" />
+				<item name="Ammo_new_762x39Ps" chance="0.10" />
+				<item name="Ammo_new_762x39T45M" chance="0.10" />
+				<item name="Ammo_new_762x39Us" chance="0.12" />
+				<item name="AmmoBox_new_762x39Hp" chance="0.02" />
+				<item name="AmmoBox_new_762x39Bp" chance="0.02" />
+				<item name="AmmoBox_new_762x39Ps" chance="0.02" />
+				<item name="AmmoBox_new_762x39T45M" chance="0.02" />
+				<item name="AmmoBox_new_762x39Us" chance="0.02" />
+				<item name="Ammo_new_762x547Bt1" chance="0.05" />
+				<item name="Ammo_new_762x547H37" chance="0.08" />
+				<item name="Ammo_new_762x54Lps" chance="0.03" />
+				<item name="Ammo_new_762x54Snb" chance="0.04" />
+				<item name="Ammo_new_762x547H1" chance="0.06" />
+				<item name="Ammo_new_762x54T46M" chance="0.07" />
+				<item name="AmmoBox_new_762x547Bt1" chance="0.02" />
+				<item name="AmmoBox_new_762x547H37" chance="0.02" />
+				<item name="AmmoBox_new_762x54Lps" chance="0.02" />
+				<item name="AmmoBox_new_762x54Snb" chance="0.02" />
+				<item name="AmmoBox_new_762x547H1" chance="0.02" />
+				<item name="AmmoBox_new_762x54T46M" chance="0.02" />
 		</cargo>
 		<cargo chance="0.04" name="grenades">
 				<item name="RDG2SmokeGrenade_White" chance="0.25" />
@@ -566,7 +788,6 @@
 			<item name="Flaregun" chance="0.10" />
 			<item name="M67Grenade" chance="0.10" />
 			<item name="RGD5Grenade" chance="0.10" />
-			<item name="LandMineTrap" chance="0.10" />
 		</cargo>
 		<cargo chance="1.0" name="Xmas_Ammo_Small">
 			<item name="Ammo_Flare" chance="0.05" />
