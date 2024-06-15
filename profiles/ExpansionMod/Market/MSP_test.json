@@ -1,6 +1,6 @@
 {
     "m_Version": 12,
-    "DisplayName": "msp_",
+    "DisplayName": "MSP TESTING",
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
@@ -131,8 +131,8 @@
         },
         {
             "ClassName": "Msp_WaistPack_Tan",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
+            "MaxPriceThreshold": 7000,
+            "MinPriceThreshold": 2000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 150,
             "MinStockThreshold": 1,
@@ -225,17 +225,6 @@
 				"Msp_FlipFlops_Purple",
 				"Msp_FlipFlops_Yellow"
 			]
-        },
-        {
-            "ClassName": "Msp_PlanterBox",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 150,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         },
         {
             "ClassName": "Msp_EmptyPlanterBox",
@@ -394,20 +383,6 @@
             "SpawnAttachments": [],
             "Variants": [
 				"Msp_Volleyball"
-			]
-        },
-        {
-            "ClassName": "Msp_Trophy_Gold",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 150,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-				"Msp_Trophy_Bronze",
-				"Msp_Trophy_Silver"
 			]
         },
         {
@@ -680,17 +655,6 @@
         },
         {
             "ClassName": "Msp_RifleSafe_Kit",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 150,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Msp_RifleSafe",
             "MaxPriceThreshold": 100,
             "MinPriceThreshold": 100,
             "SellPricePercent": -1.0,
@@ -1135,28 +1099,6 @@
             "Variants": []
         },
         {
-            "ClassName": "Msp_WitchHat",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 150,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "MSP_WitchCauldron",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 150,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "Msp_CoffinBox",
             "MaxPriceThreshold": 100,
             "MinPriceThreshold": 100,
@@ -1222,43 +1164,13 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Msp_PlainBat_Blue",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 150,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Msp_PlainBat_Black",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 150,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"Msp_PlainBat_Blue",
+				"Msp_PlainBat_Black"
+			]
         },
         {
             "ClassName": "Msp_GoodNightBat",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 150,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Msp_VorpalKnife",
             "MaxPriceThreshold": 100,
             "MinPriceThreshold": 100,
             "SellPricePercent": -1.0,
@@ -1299,65 +1211,15 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Msp_BaseballBat_SawBarbedWire",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 150,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Msp_BaseballBat_Chain",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 150,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Msp_BaseballBat_Nailed",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 150,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Msp_BaseballBat_BarbedWire",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 150,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"Msp_BaseballBat_SawBarbedWire",
+				"Msp_BaseballBat_Chain",
+				"Msp_BaseballBat_Nailed",
+				"Msp_BaseballBat_BarbedWire"
+			]
         },
         {
             "ClassName": "Msp_Sawblade",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 150,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Msp_Scissors",
             "MaxPriceThreshold": 100,
             "MinPriceThreshold": 100,
             "SellPricePercent": -1.0,
