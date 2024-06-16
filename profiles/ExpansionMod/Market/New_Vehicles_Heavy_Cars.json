@@ -7,7 +7,7 @@
     "InitStockPercent":75,
     "Items":[
         {
-            "ClassName":"truck_01_covered",
+            "ClassName":"Truck_01_Covered",
             "MaxPriceThreshold":100000,
             "MinPriceThreshold":50000,
             "SellPricePercent":-1,
@@ -35,7 +35,17 @@
                 "headlighth7"
             ],
             "Variants":[
-                
+				"Truck_01_Covered",
+				"Truck_01_Covered_Blue",
+				"Truck_01_Covered_Orange",
+				"Truck_01_Covered_Green",
+				"Truck_01_Covered_Red",
+				"Truck_01_Covered_White",
+				"Truck_01_Covered_Black",
+				"Truck_01_Covered_Wine",
+				"Truck_01_Covered_Lime",
+				"Truck_01_Covered_Yellow",
+				"Truck_01_Covered_YellowBright"
             ]
         },
         {
@@ -70,7 +80,10 @@
                 "headlighth7",
                 "headlighth7"
             ],
-            "Variants":[]
+            "Variants":[
+				"kraz_255B_yellow",
+				"kraz_255B_blue"
+			]
         },
         {
             "ClassName":"kraz_255B_kung",
@@ -104,7 +117,10 @@
                 "headlighth7",
                 "headlighth7"
             ],
-            "Variants":[]
+            "Variants":[
+				"kraz_255B_kung_yellow",
+				"kraz_255B_kung_blue"
+			]
         },
         {
             "ClassName":"AEC_Matador",
@@ -135,7 +151,7 @@
                 "headlighth7"
             ],
             "Variants":[
-                
+                "AEC_Matador_camo"
             ]
         },
         {

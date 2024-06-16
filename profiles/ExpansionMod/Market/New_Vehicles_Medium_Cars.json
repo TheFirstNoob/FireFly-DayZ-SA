@@ -7,7 +7,7 @@
     "InitStockPercent": 75.0,
     "Items": [
         {
-            "ClassName": "offroadhatchback",
+            "ClassName": "OffroadHatchback",
             "MaxPriceThreshold": 28000,
             "MinPriceThreshold": 14000,
             "SellPricePercent": -1.0,
@@ -34,10 +34,18 @@
                 "headlighth7",
                 "headlighth7"
             ],
-            "Variants": []
+            "Variants": [
+				"OffroadHatchback_Blue",
+				"OffroadHatchback_White",
+				"OffroadHatchback_Green",
+				"OffroadHatchback_Police",
+				"OffroadHatchback_GreenRust",
+				"OffroadHatchback_BlueRust",
+				"OffroadHatchback_WhiteRust"
+			]
         },
 		{
-            "ClassName": "offroad_02",
+            "ClassName": "Offroad_02",
             "MaxPriceThreshold": 100000,
             "MinPriceThreshold": 50000,
             "SellPricePercent": -1.0,
@@ -69,7 +77,7 @@
             "Variants": []
         },
 		{
-            "ClassName": "expansionuaz",
+            "ClassName": "ExpansionUaz",
             "MaxPriceThreshold": 60000,
             "MinPriceThreshold": 30000,
             "SellPricePercent": -1.0,
@@ -98,13 +106,25 @@
                 "headlighth7"
             ],
             "Variants": [
-                "expansionuazroofless",
-                "expansionuazcargo",
-                "expansionuazcargoroofless"
+                "ExpansionUAZRoofless",
+				"ExpansionUAZCargoRoofless",
+				"ExpansionUAZCargo",
+				"ExpansionUAZ_Green",
+				"ExpansionUAZCargo_Green",
+				"ExpansionUAZRoofless_Green",
+				"ExpansionUAZCargoRoofless_Green",
+				"ExpansionUAZ_Black",
+				"ExpansionUAZCargo_Black",
+				"ExpansionUAZRoofless_Black",
+				"ExpansionUAZCargoRoofless_Black",
+				"ExpansionUAZ_LightGreen",
+				"ExpansionUAZCargo_LightGreen",
+				"ExpansionUAZRoofless_LightGreen",
+				"ExpansionUAZCargoRoofless_LightGreen"
             ]
         },
 		{
-            "ClassName": "expansion_landrover",
+            "ClassName": "Expansion_Landrover",
             "MaxPriceThreshold": 180000,
             "MinPriceThreshold": 70000,
             "SellPricePercent": -1.0,
@@ -133,7 +153,15 @@
                 "headlighth7",
                 "headlighth7"
             ],
-            "Variants": []
+            "Variants": [
+				"Expansion_Landrover",
+				"Expansion_Landrover_Yellow",
+				"Expansion_Landrover_Green",
+				"Expansion_Landrover_Red",
+				"Expansion_Landrover_Grey",
+				"Expansion_Landrover_Blue",
+				"Expansion_Landrover_Orange"
+			]
         },
 		{
             "ClassName": "F1_Pickup",
@@ -236,41 +264,6 @@
 			]
         },
 		{
-            "ClassName": "ij_2715_RF",
-            "MaxPriceThreshold": 50000,
-            "MinPriceThreshold": 15000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 6,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
-				"LugWrench",
-				"Wrench",
-				"Screwdriver",
-				"rag_car_jack",
-				"ij_2715_RF_wheel",
-				"ij_2715_RF_wheel",
-				"ij_2715_RF_wheel",
-				"ij_2715_RF_wheel",
-				"ij_2715_RF_wheel",
-				"ij_2715_RF_doors_driver",
-				"ij_2715_RF_doors_codriver",
-				"ij_2715_RF_doors_cargo1",
-				"ij_2715_RF_doors_cargo2",
-				"ij_2715_RF_doors_hood",
-				"carbattery",
-                "carradiator",
-                "sparkplug",
-                "headlighth7",
-                "headlighth7"
-			],
-            "Variants": [
-				"ij_2715_RF_blue",
-				"ij_2715_RF_green",
-				"ij_2715_RF_red"
-			]
-        },
-		{
             "ClassName": "Niva2329",
             "MaxPriceThreshold": 50000,
             "MinPriceThreshold": 15000,
@@ -367,7 +360,11 @@
                 "headlighth7",
                 "headlighth7"
 			],
-            "Variants": []
+            "Variants": [
+				"UAZ_31519_Police_rust",
+				"UAZ_31519_Police_MCHS",
+				"UAZ_31519_Police_MCHS_rust"
+			]
         },
 		{
             "ClassName": "UAZ_3163",
@@ -408,10 +405,12 @@
 				"UAZ_3163_white",
 				"UAZ_3163_gamekeeper",
 				"UAZ_3163_Police",
+				"UAZ_3163_MP",
+				"UAZ_3163_MHS",
+				"UAZ_3163_Fire",
+				"UAZ_3163_Desert",
 				"UAZ_3163_Ambulance",
-				"UAZ_3163_MCHS",
-				"UAZ_3163_VP",
-				"UAZ_3163_emergency_service"
+				"UAZ_3163_AGS"
 			]
         },
 		{

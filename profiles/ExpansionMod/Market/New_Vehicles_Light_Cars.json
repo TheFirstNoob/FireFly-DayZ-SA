@@ -7,7 +7,7 @@
 	"InitStockPercent": 100.0,
 	"Items": [
 		{
-			"ClassName": "hatchback_02",
+			"ClassName": "Hatchback_02",
 			"MaxPriceThreshold": 50000,
 			"MinPriceThreshold": 25000,
 			"SellPricePercent": -1.0,
@@ -36,10 +36,18 @@
 				"headlighth7",
 				"headlighth7"
 			],
-			"Variants": []
+			"Variants": [
+				"Hatchback_02_Black",
+				"Hatchback_02_Blue",
+				"Hatchback_02_Red",
+				"Hatchback_02_RedRust",
+				"Hatchback_02_BlackRust",
+				"Hatchback_02_BlueRust",
+				"Hatchback_02_BanditKitty"
+			]
 		},
 		{
-			"ClassName": "sedan_02",
+			"ClassName": "Sedan_02",
 			"MaxPriceThreshold": 50000,
 			"MinPriceThreshold": 25000,
 			"SellPricePercent": -1.0,
@@ -68,10 +76,21 @@
 				"headlighth7",
 				"headlighth7"
 			],
-			"Variants": []
+			"Variants": [
+				"Sedan_02_Red",
+				"Sedan_02_Grey",
+				"Sedan_02_Yellow",
+				"Sedan_02_YellowBright",
+				"Sedan_02_Blue",
+				"Sedan_02_RedRust",
+				"Sedan_02_YellowRust",
+				"Sedan_02_GreyRust",
+				"Sedan_02_YellowBrightRust",
+				"Sedan_02_BlueRust"
+			]
 		},
 		{
-			"ClassName": "civiliansedan",
+			"ClassName": "CivilianSedan",
 			"MaxPriceThreshold": 55000,
 			"MinPriceThreshold": 27500,
 			"SellPricePercent": -1.0,
@@ -100,7 +119,13 @@
 				"headlighth7",
 				"headlighth7"
 			],
-			"Variants": []
+			"Variants": [
+				"CivilianSedan_Wine",
+				"CivilianSedan_Black",
+				"CivilianSedan_White",
+				"CivilianSedan_Police",
+				"CivilianSedan_Lime"
+			]
 		},
 		{
 			"ClassName": "AZLK_2141RF",
@@ -278,7 +303,11 @@
 			"Variants": [
 				"GAZ_13_Chaika_black_rust",
 				"GAZ_13_Chaika_white",
-				"GAZ_13_Chaika_white_rust"
+				"GAZ_13_Chaika_white_rust",
+				"GAZ_13_Chaika_automatic",
+				"GAZ_13_Chaika_black_rust_automatic",
+				"GAZ_13_Chaika_white_automatic",
+				"GAZ_13_Chaika_white_rust_automatic"
 			]
 		},
 		{
@@ -461,6 +490,41 @@
 			],
 			"Variants": []
 		},
+		{
+            "ClassName": "ij_2715_RF",
+            "MaxPriceThreshold": 50000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 6,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+				"LugWrench",
+				"Wrench",
+				"Screwdriver",
+				"rag_car_jack",
+				"ij_2715_RF_wheel",
+				"ij_2715_RF_wheel",
+				"ij_2715_RF_wheel",
+				"ij_2715_RF_wheel",
+				"ij_2715_RF_wheel",
+				"ij_2715_RF_doors_driver",
+				"ij_2715_RF_doors_codriver",
+				"ij_2715_RF_doors_cargo1",
+				"ij_2715_RF_doors_cargo2",
+				"ij_2715_RF_doors_hood",
+				"carbattery",
+                "carradiator",
+                "sparkplug",
+                "headlighth7",
+                "headlighth7"
+			],
+            "Variants": [
+				"ij_2715_RF_blue",
+				"ij_2715_RF_green",
+				"ij_2715_RF_red"
+			]
+        },
 		{
 			"ClassName": "moskvich_407",
 			"MaxPriceThreshold": 53500,
@@ -851,7 +915,8 @@
 				"headlighth7"
 			],
 			"Variants": [
-				"ZAZ_968M_red"
+				"ZAZ_968M_red",
+				"ZAZ_968M_black"
 			]
 		}
 	]
