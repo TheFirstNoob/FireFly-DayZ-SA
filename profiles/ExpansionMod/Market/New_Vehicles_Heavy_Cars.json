@@ -144,6 +144,8 @@
                 "AEC_Matador_doors_driver",
                 "AEC_Matador_doors_codriver",
                 "AEC_Matador_doors_trunk",
+                "AEC_Matador_doors_hood",
+                "AEC_Matador_doors_cargo3",
                 "carradiator",
                 "sparkplug",
                 "truckbattery",
@@ -268,6 +270,8 @@
 				"GAZ_66_wheel",
 				"GAZ_66_doors_driver",
 				"GAZ_66_doors_codriver",
+				"GAZ_66_doors_cargo3",
+				"GAZ_66_doors_cargo4",
 				"carradiator",
                 "sparkplug",
                 "truckbattery",
@@ -405,8 +409,8 @@
 				"opel_blitz_tent",
 				"opel_blitz_doors_driver",
 				"opel_blitz_doors_codriver",
+				"opel_blitz_doors_cargo3",
 				"opel_blitz_doors_hood",
-				"opel_blitz_doors_hood_two",
 				"opel_blitz_doors_trunk",
 				"carradiator",
                 "sparkplug",
@@ -416,40 +420,6 @@
             ],
             "Variants":[
                 "opel_blitz_grey"
-            ]
-        },
-        {
-            "ClassName":"UAZ_33094",
-            "MaxPriceThreshold":50000,
-            "MinPriceThreshold":15000,
-            "SellPricePercent":-1,
-            "MaxStockThreshold":6,
-            "MinStockThreshold":1,
-            "QuantityPercent":-1,
-            "SpawnAttachments":[
-                "LugWrench",
-				"Wrench",
-				"Screwdriver",
-				"rag_car_jack",
-				"UAZ_33094_wheel",
-				"UAZ_33094_wheel",
-				"UAZ_33094_wheel",
-				"UAZ_33094_wheel",
-				"UAZ_33094_wheel",
-				"UAZ_33094_tent",
-				"UAZ_33094_doors_driver",
-				"UAZ_33094_doors_codriver",
-				"UAZ_33094_doors_cargo2",
-				"UAZ_33094_doors_trunk",
-				"carradiator",
-                "sparkplug",
-                "truckbattery",
-                "headlighth7",
-                "headlighth7"
-            ],
-            "Variants":[
-                "UAZ_33094_green",
-                "UAZ_33094_gray"
             ]
         },
         {
