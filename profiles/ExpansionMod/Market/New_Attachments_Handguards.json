@@ -253,7 +253,7 @@
             "Variants": []
         },
 		{
-            "ClassName": "mp5_plastichndgrd",
+            "ClassName": "MP5_PlasticHndgrd",
             "MaxPriceThreshold": 200,
             "MinPriceThreshold": 100,
             "SellPricePercent": -1.0,
@@ -261,10 +261,12 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"MP5_RailHndgrd"
+			]
         },
         {
-            "ClassName": "mp5_railhndgrd",
+            "ClassName": "AK74_Hndgrd",
             "MaxPriceThreshold": 300,
             "MinPriceThreshold": 150,
             "SellPricePercent": -1.0,
@@ -272,18 +274,10 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "ak74_hndgrd",
-            "MaxPriceThreshold": 300,
-            "MinPriceThreshold": 150,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"AK74_Hndgrd_Black",
+				"AK74_Hndgrd_Camo"
+			]
         },
         {
             "ClassName": "ak_woodhndgrd",
@@ -297,7 +291,20 @@
             "Variants": []
         },
         {
-            "ClassName": "ak_railhndgrd",
+            "ClassName": "AK_RailHndgrd",
+            "MaxPriceThreshold": 400,
+            "MinPriceThreshold": 200,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"AK_RailHndgrd_Green"
+			]
+        },
+        {
+            "ClassName": "AK_PlasticHndgrd",
             "MaxPriceThreshold": 400,
             "MinPriceThreshold": 200,
             "SellPricePercent": -1.0,
@@ -308,18 +315,7 @@
             "Variants": []
         },
         {
-            "ClassName": "ak_plastichndgrd",
-            "MaxPriceThreshold": 400,
-            "MinPriceThreshold": 200,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "m4_plastichndgrd",
+            "ClassName": "M4_PlasticHndgrd",
             "MaxPriceThreshold": 300,
             "MinPriceThreshold": 150,
             "SellPricePercent": -1.0,
@@ -327,10 +323,12 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"M4_PlasticHndgrd_Green"
+			]
         },
         {
-            "ClassName": "m4_rishndgrd",
+            "ClassName": "M4_RISHndgrd",
             "MaxPriceThreshold": 400,
             "MinPriceThreshold": 200,
             "SellPricePercent": -1.0,
@@ -338,10 +336,12 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"M4_RISHndgrd_Green"
+			]
         },
         {
-            "ClassName": "m4_mphndgrd",
+            "ClassName": "M4_MPHndgrd",
             "MaxPriceThreshold": 400,
             "MinPriceThreshold": 200,
             "SellPricePercent": -1.0,
@@ -349,7 +349,9 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"M4_MPHndgrd_Green"
+			]
         }
     ]
 }

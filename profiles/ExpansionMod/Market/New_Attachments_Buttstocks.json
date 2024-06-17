@@ -7,17 +7,6 @@
     "InitStockPercent": 75.0,
     "Items": [
         {
-            "ClassName": "TF_AK_AdapterBttstck",
-            "MaxPriceThreshold": 30,
-            "MinPriceThreshold": 24,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 150,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "TF_AK_MVRIBttstck",
             "MaxPriceThreshold": 30,
             "MinPriceThreshold": 24,
@@ -30,17 +19,6 @@
         },
 		{
             "ClassName": "TF_AK_Zenit_PT1Bttstck",
-            "MaxPriceThreshold": 30,
-            "MinPriceThreshold": 24,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 150,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-		{
-            "ClassName": "TF_AN94_AdapterBttstck",
             "MaxPriceThreshold": 30,
             "MinPriceThreshold": 24,
             "SellPricePercent": -1.0,
@@ -120,17 +98,6 @@
             "Variants": [
 				"TF_SCAR_StndBttstck_FDE"
 			]
-        },
-		{
-            "ClassName": "TF_SCAR_VadapterBttstck",
-            "MaxPriceThreshold": 30,
-            "MinPriceThreshold": 24,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 150,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         },
 		{
             "ClassName": "TF_AK_MagpulZhukovBttstck",
@@ -245,7 +212,7 @@
             "Variants": []
         },
         {
-            "ClassName": "fal_oebttstck",
+            "ClassName": "Fal_OeBttstck",
             "MaxPriceThreshold": 200,
             "MinPriceThreshold": 100,
             "SellPricePercent": -1.0,
@@ -253,10 +220,12 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"Fal_FoldingBttstck"
+			]
         },
         {
-            "ClassName": "fal_foldingbttstck",
+            "ClassName": "Saiga_Bttstck",
             "MaxPriceThreshold": 300,
             "MinPriceThreshold": 150,
             "SellPricePercent": -1.0,
@@ -267,7 +236,7 @@
             "Variants": []
         },
         {
-            "ClassName": "saiga_bttstck",
+            "ClassName": "ASK74U_Bttstck",
             "MaxPriceThreshold": 300,
             "MinPriceThreshold": 150,
             "SellPricePercent": -1.0,
@@ -275,10 +244,12 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"ASK74U_Bttstck_Green"
+			]
         },
         {
-            "ClassName": "aks74u_bttstck",
+            "ClassName": "AK74_WoodBttstck",
             "MaxPriceThreshold": 300,
             "MinPriceThreshold": 150,
             "SellPricePercent": -1.0,
@@ -286,21 +257,13 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"AK74_WoodBttstck_Black",
+				"AK74_WoodBttstck_Camo"
+			]
         },
         {
-            "ClassName": "ak74_woodbttstck",
-            "MaxPriceThreshold": 300,
-            "MinPriceThreshold": 150,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "ak_plasticbttstck",
+            "ClassName": "AK_PlasticBttstck",
             "MaxPriceThreshold": 200,
             "MinPriceThreshold": 100,
             "SellPricePercent": -1.0,
@@ -308,10 +271,12 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"AK_PlasticBttstck_Green",
+			]
         },
         {
-            "ClassName": "ak_woodbttstck",
+            "ClassName": "AK_WoodBttstck",
             "MaxPriceThreshold": 300,
             "MinPriceThreshold": 150,
             "SellPricePercent": -1.0,
@@ -319,10 +284,13 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"AK_WoodBttstck_Black",
+				"AK_WoodBttstck_Camo"
+			]
         },
         {
-            "ClassName": "ak_foldingbttstck",
+            "ClassName": "AK_FoldingBttstck",
             "MaxPriceThreshold": 500,
             "MinPriceThreshold": 250,
             "SellPricePercent": -1.0,
@@ -330,10 +298,12 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"AK_FoldingBttstck_Green"
+			]
         },
         {
-            "ClassName": "m4_oebttstck",
+            "ClassName": "M4_OEBttstck",
             "MaxPriceThreshold": 300,
             "MinPriceThreshold": 150,
             "SellPricePercent": -1.0,
@@ -341,10 +311,12 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"M4_OEBttstck_Green"
+			]
         },
         {
-            "ClassName": "m4_mpbttstck",
+            "ClassName": "M4_MPBttstck",
             "MaxPriceThreshold": 300,
             "MinPriceThreshold": 150,
             "SellPricePercent": -1.0,
@@ -352,10 +324,12 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"M4_MPBttstck_Green"
+			]
         },
         {
-            "ClassName": "m4_cqbbttstck",
+            "ClassName": "M4_CQBttstck",
             "MaxPriceThreshold": 300,
             "MinPriceThreshold": 150,
             "SellPricePercent": -1.0,
@@ -363,7 +337,9 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"M4_CQBttstck_Green"
+			]
         },
         {
             "ClassName": "pp19_bttstck",
