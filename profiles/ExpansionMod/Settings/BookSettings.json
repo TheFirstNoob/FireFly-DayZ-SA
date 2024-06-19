@@ -35,7 +35,7 @@
                 },
                 {
                     "RuleParagraph": "1.1.",
-                    "RuleText": "Это PVE сервер, а значит запрещено умышленно убивать других игроков. Если вы случайно убили игрока вы обязаны вернут ему его лут! В противном случае вы будете забанены навсегда!"
+                    "RuleText": "Это PVE сервер, а значит запрещено умышленно убивать других игроков. Если вы случайно убили игрока вы обязаны вернут ему его лут и все что ему принадлежит! В противном случае вы будете забанены навсегда!"
                 },
                 {
                     "RuleParagraph": "1.2.",
@@ -43,7 +43,7 @@
                 },
                 {
                     "RuleParagraph": "1.3.",
-                    "RuleText": "Запрещено Воровство в любом его виде!"
+                    "RuleText": "Запрещено Воровство в любом его виде, включая трупы игроков и их Надгробья, Кресты. Исключение союзники по группе!"
                 },
                 {
                     "RuleParagraph": "1.4.",
@@ -60,11 +60,7 @@
                 {
                     "RuleParagraph": "1.7.",
                     "RuleText": "Уважайте других игроков и их труд. Будьте зайками <3"
-                },
-				{
-					"RuleParagraph": "1.8.",
-					"RuleText": "Администраторы имеют право принимать решения в спорных ситуациях и наказывать игроков за нарушение правил."
-				}
+                }
             ]
         },
 		{
@@ -127,103 +123,7 @@
 		}
     ],
     "DisplayServerSettingsInServerInfoTab": 0,
-    "SettingCategories": [
-        {
-            "CategoryName": "Строительство",
-            "Settings": [
-                {
-                    "SettingTitle": "Expansion.Settings.BaseBuilding.CanCraftVanillaBasebuilding",
-                    "SettingText": "",
-                    "SettingValue": ""
-                },
-                {
-                    "SettingTitle": "Expansion.Settings.BaseBuilding.CanCraftExpansionBasebuilding",
-                    "SettingText": "",
-                    "SettingValue": ""
-                }
-            ]
-        },
-        {
-            "CategoryName": "Рейд",
-            "Settings": [
-                {
-                    "SettingTitle": "Expansion.Settings.Raid.CanRaidSafes",
-                    "SettingText": "",
-                    "SettingValue": ""
-                },
-                {
-                    "SettingTitle": "Expansion.Settings.Raid.SafeExplosionDamageMultiplier",
-                    "SettingText": "",
-                    "SettingValue": ""
-                },
-                {
-                    "SettingTitle": "Expansion.Settings.Raid.SafeProjectileDamageMultiplier",
-                    "SettingText": "",
-                    "SettingValue": ""
-                },
-                {
-                    "SettingTitle": "Expansion.Settings.Raid.ExplosionTime",
-                    "SettingText": "",
-                    "SettingValue": ""
-                },
-                {
-                    "SettingTitle": "Expansion.Settings.Raid.ExplosionDamageMultiplier",
-                    "SettingText": "",
-                    "SettingValue": ""
-                },
-                {
-                    "SettingTitle": "Expansion.Settings.Raid.ProjectileDamageMultiplier",
-                    "SettingText": "",
-                    "SettingValue": ""
-                }
-            ]
-        },
-        {
-            "CategoryName": "Территории Баз",
-            "Settings": [
-                {
-                    "SettingTitle": "Expansion.Settings.Territory.TerritorySize",
-                    "SettingText": "",
-                    "SettingValue": ""
-                },
-                {
-                    "SettingTitle": "Expansion.Settings.Territory.UseWholeMapForInviteList",
-                    "SettingText": "",
-                    "SettingValue": ""
-                }
-            ]
-        },
-        {
-            "CategoryName": "Карта",
-            "Settings": [
-                {
-                    "SettingTitle": "Expansion.Settings.Map.NeedGPSItemForKeyBinding",
-                    "SettingText": "",
-                    "SettingValue": ""
-                },
-                {
-                    "SettingTitle": "Expansion.Settings.Map.NeedMapItemForKeyBinding",
-                    "SettingText": "",
-                    "SettingValue": ""
-                }
-            ]
-        },
-        {
-            "CategoryName": "Группа",
-            "Settings": [
-                {
-                    "SettingTitle": "Expansion.Settings.Party.MaxMembersInParty",
-                    "SettingText": "",
-                    "SettingValue": ""
-                },
-                {
-                    "SettingTitle": "Expansion.Settings.Party.UseWholeMapForInviteList",
-                    "SettingText": "",
-                    "SettingValue": ""
-                }
-            ]
-        }
-    ],
+    "SettingCategories": [],
     "Links": [
         {
             "Name": "Discord",
@@ -246,10 +146,48 @@
     ],
     "Descriptions": [
         {
-            "CategoryName": "!!!СВЕРНИТЕ ВСЕ ОКНА!!!",
+            "CategoryName": "!!!СВЕРНИТЕ ВСЕ РАЗДЕЛЫ ЧТОБЫ ПРОЧЕСТЬ ВСЕ!!!",
             "Descriptions": [
                 {
-                    "DescriptionText": "Я СКАЗАЛ СВЕРНИТЕ ВСЕ ОКНА В ЭТОМ РАЗДЕЛЕ xD"
+                    "DescriptionText": "Я СКАЗАЛ СВЕРНИТЕ ВСЕ РАЗДЕЛЫ. НУ РЕАЛЬНО! xD"
+                }
+            ]
+        },
+		{
+            "CategoryName": "Основные механики",
+            "Descriptions": [
+				{
+                    "DescriptionText": "АВТОРЕСТАРТ КАЖДЫЕ 6 ЧАСОВ ПО МОСКОВСКОМУ ВРЕМЕНИ (UTC +3/GMT +3)."
+                },
+				{
+                    "DescriptionText": "ХОД ВРЕМЕНИ: День х1, Ночь х3."
+                },
+				{
+                    "DescriptionText": "ПОГОДНЫЕ СЕЗОНЫ СО ВРЕМЕНЕМ НАПРЯМУЮ ВЛИЯЮТ НА ИГРОВОЙ ПРОЦЕСС."
+                },
+                {
+                    "DescriptionText": "1. Каждый игрок начинает со случайным стартовым инвентарем."
+                },
+				{
+                    "DescriptionText": "2. Каждому новому игроку в банк выдано 1000 валюты которые вы можете использовать как угодно."
+                },
+				{
+                    "DescriptionText": "3. Вся одежда, вес, состояние, погодные условия, тип дорог, игровые действия напрямую влияют на игрока и его параметры."
+                },
+				{
+                    "DescriptionText": "4. Все детали техники нужно закрутить, даже после покупки у Торговца. Хотя бы колеса! Это можно сделать с помощью Монтировки, Ответки и Гаечного ключа."
+                },
+				{
+                    "DescriptionText": "5. Вы можете ставить 1 3D метку на игрока. Это особенно полезно для групп и коммуникации."
+                },
+				{
+                    "DescriptionText": "6. Любое получение урона будет влиять на вашу болевую систему."
+                },
+				{
+                    "DescriptionText": "7. Если игрок выбрал определенную точку возраждения, то она будет заблокирована для него на 3 часа."
+                },
+				{
+                    "DescriptionText": "8. Труп игрока заменяется на Крест спустя 5 минут. Крест остается на сервере ДО РЕСТАРТА."
                 }
             ]
         },
@@ -263,7 +201,7 @@
                     "DescriptionText": "2. У всей техники, со временем, изнашиваются шины при езде. Напрямую влияет на то по какой дороге выездите."
                 },
 				{
-                    "DescriptionText": "3. Управляемость техникой меняется в зависимости от Типа дороги и Погодных условий. Внедорожники и Грузовики менее подвержены этой механике"
+                    "DescriptionText": "3. Управляемость техникой меняется в зависимости от Типа дороги и Погодных условий. Внедорожники и Грузовики менее подвержены этой механике."
                 },
 				{
                     "DescriptionText": "4. Все детали техники нужно закрутить, даже после покупки у Торговца. Хотя бы колеса! Это можно сделать с помощью Монтировки, Ответки и Гаечного ключа."
@@ -470,7 +408,9 @@
                 "bait",
                 "bonebait",
                 "bonehook",
-                "improvisedfishingrod"
+                "improvisedfishingrod",
+                "FishNetTrap",
+                "SmallFishTrap"
             ]
         },
         {
