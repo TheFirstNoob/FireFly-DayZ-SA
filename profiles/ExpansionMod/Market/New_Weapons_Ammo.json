@@ -7,7 +7,7 @@
     "InitStockPercent": 75.0,
     "Items": [
         {
-            "ClassName": "ammo_12gapellets",
+            "ClassName": "Ammo_new_12gaBuckshot5",
             "MaxPriceThreshold": 30,
             "MinPriceThreshold": 24,
             "SellPricePercent": -1.0,
@@ -16,18 +16,26 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-				"ammo_12gaslug",
-				"ammo_12garubberslug",
-				"Ammo_new_12gaBuckshot5",
 				"Ammo_new_12gaExpressBuckshot6",
 				"Ammo_new_12gaBuckshot7",
-				"Ammo_new_12gaMagnumBuckshot8",
+				"Ammo_new_12gaMagnumBuckshot8"
+			]
+        },
+		{
+            "ClassName": "Ammo_new_12gaPoleva3",
+            "MaxPriceThreshold": 30,
+            "MinPriceThreshold": 24,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1500,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
 				"Ammo_new_12gaRip",
 				"Ammo_new_12gaAP20",
 				"Ammo_new_12ga2Sabot",
 				"Ammo_new_12gaFtxCustomLIte",
 				"Ammo_new_12gaGrizzly40",
-				"Ammo_new_12gaPoleva3",
 				"Ammo_new_12gaPoleva6",
 				"Ammo_new_12ga50Bmg",
 				"Ammo_new_12gaLead",
@@ -37,7 +45,7 @@
 			]
         },
         {
-            "ClassName": "ammo_22",
+            "ClassName": "Ammo_new_22Subsonic",
             "MaxPriceThreshold": 9,
             "MinPriceThreshold": 6,
             "SellPricePercent": -1.0,
@@ -46,14 +54,13 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-				"Ammo_new_22Subsonic",
 				"Ammo_new_22StandardVelocity",
 				"Ammo_new_22HighVelocity",
 				"Ammo_new_22HyperVelocity"
 			]
         },
         {
-            "ClassName": "ammo_308win",
+            "ClassName": "Ammo_new_308WinSP",
             "MaxPriceThreshold": 50,
             "MinPriceThreshold": 35,
             "SellPricePercent": -1.0,
@@ -62,18 +69,16 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-                "ammo_308wintracer",
-				"Ammo_new_308WinM61",
-				"Ammo_new_308WinM62",
-				"Ammo_new_308WinM80",
-				"Ammo_new_308WinM993",
 				"Ammo_new_308WinUltraNosler",
 				"Ammo_new_308WinFMJ",
-				"Ammo_new_308WinSP"
+				"Ammo_new_308WinM80",
+				"Ammo_new_308WinM62",
+				"Ammo_new_308WinM993",
+				"Ammo_new_308WinM61"
             ]
         },
         {
-            "ClassName": "ammo_357",
+            "ClassName": "Ammo_new_357GoldenSaberJhp",
             "MaxPriceThreshold": 12,
             "MinPriceThreshold": 8,
             "SellPricePercent": -1.0,
@@ -83,16 +88,15 @@
             "SpawnAttachments": [],
             "Variants": [
 				"Ammo_new_357QuikShokJhp",
-				"Ammo_new_357HollowPoint",
-				"Ammo_new_357GoldDotJhp",
 				"Ammo_new_357ClassicJhp",
-				"Ammo_new_357GoldenSaberJhp",
+				"Ammo_new_357SilvertipJhp",
 				"Ammo_new_357Semiwadcutter",
-				"Ammo_new_357SilvertipJhp"
+				"Ammo_new_357GoldDotJhp",
+				"Ammo_new_357HollowPoint"
 			]
         },
         {
-            "ClassName": "ammo_380",
+            "ClassName": "Ammo_new_380SilvertipJhp",
             "MaxPriceThreshold": 15,
             "MinPriceThreshold": 9,
             "SellPricePercent": -1.0,
@@ -101,16 +105,15 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-				"Ammo_new_380BondedJhp",
-				"Ammo_new_380Jhp",
-				"Ammo_new_380HydraShokJhp",
-				"Ammo_new_380SilvertipJhp",
 				"Ammo_new_380Xtp",
-				"Ammo_new_380Fmj"
+				"Ammo_new_380HydraShokJhp",
+				"Ammo_new_380Fmj",
+				"Ammo_new_380Jhp",
+				"Ammo_new_380BondedJhp"
 			]
         },
         {
-            "ClassName": "ammo_45acp",
+            "ClassName": "Ammo_new_45AcpFmj",
             "MaxPriceThreshold": 12,
             "MinPriceThreshold": 8,
             "SellPricePercent": -1.0,
@@ -119,15 +122,14 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-				"Ammo_new_45AcpAP",
-				"Ammo_new_45AcpFmj",
-				"Ammo_new_45AcpHydrShock",
 				"Ammo_new_45AcpLasermatchFmj",
-				"Ammo_new_45AcpRip"
+				"Ammo_new_45AcpHydrShock",
+				"Ammo_new_45AcpRip",
+				"Ammo_new_45AcpAP"
 			]
         },
         {
-            "ClassName": "ammo_545x39",
+            "ClassName": "Ammo_new_545x39Prs",
             "MaxPriceThreshold": 35,
             "MinPriceThreshold": 26,
             "SellPricePercent": -1.0,
@@ -136,23 +138,21 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-                "ammo_545x39tracer",
-				"Ammo_new_545x397H39",
 				"Ammo_new_545x39Fmj",
-				"Ammo_new_545x39Hp",
 				"Ammo_new_545x39Sp",
-				"Ammo_new_545x39Bp",
-				"Ammo_new_545x39Bs",
-				"Ammo_new_545x39Bt",
+				"Ammo_new_545x39Hp",
 				"Ammo_new_545x39Pp",
-				"Ammo_new_545x39Prs",
 				"Ammo_new_545x39Ps",
+				"Ammo_new_545x39Us",
 				"Ammo_new_545x39T",
-				"Ammo_new_545x39Us"
+				"Ammo_new_545x39Bp",
+				"Ammo_new_545x39Bt",
+				"Ammo_new_545x39Bs",
+				"Ammo_new_545x397H39"
             ]
         },
         {
-            "ClassName": "ammo_556x45",
+            "ClassName": "Ammo_new_556x45Warmage",
             "MaxPriceThreshold": 40,
             "MinPriceThreshold": 28,
             "SellPricePercent": -1.0,
@@ -161,20 +161,18 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-                "ammo_556x45tracer",
-				"Ammo_new_556x45M855",
-				"Ammo_new_556x45M855A1",
-				"Ammo_new_556x45M856",
-				"Ammo_new_556x45M856A1",
-				"Ammo_new_556x45M995",
+				"Ammo_new_556x4555Hp",
 				"Ammo_new_556x45Mk255",
 				"Ammo_new_556x4555Fmj",
-				"Ammo_new_556x4555Hp",
-				"Ammo_new_556x45Warmage"
+				"Ammo_new_556x45M856",
+				"Ammo_new_556x45M855",
+				"Ammo_new_556x45M855A1",
+				"Ammo_new_556x45M856A1",
+				"Ammo_new_556x45M995"
             ]
         },
         {
-            "ClassName": "ammo_762x39",
+            "ClassName": "Ammo_new_762x39Us",
             "MaxPriceThreshold": 50,
             "MinPriceThreshold": 36,
             "SellPricePercent": -1.0,
@@ -183,16 +181,14 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-                "ammo_762x39tracer",
-				"Ammo_new_762x39Hp",
-				"Ammo_new_762x39Bp",
+                "Ammo_new_762x39Hp",
 				"Ammo_new_762x39Ps",
 				"Ammo_new_762x39T45M",
-				"Ammo_new_762x39Us"
+				"Ammo_new_762x39Bp"
             ]
         },
         {
-            "ClassName": "ammo_762x54",
+            "ClassName": "Ammo_new_762x54Lps",
             "MaxPriceThreshold": 65,
             "MinPriceThreshold": 52,
             "SellPricePercent": -1.0,
@@ -201,17 +197,15 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-                "ammo_762x54tracer",
-				"Ammo_new_762x547Bt1",
-				"Ammo_new_762x547H37",
-				"Ammo_new_762x54Lps",
-				"Ammo_new_762x54Snb",
+                "Ammo_new_762x54T46M",
 				"Ammo_new_762x547H1",
-				"Ammo_new_762x54T46M"
+				"Ammo_new_762x547Bt1",
+				"Ammo_new_762x54Snb",
+				"Ammo_new_762x547H37"
             ]
         },
         {
-            "ClassName": "ammo_9x19",
+            "ClassName": "Ammo_new_9x19Pso",
             "MaxPriceThreshold": 10,
             "MinPriceThreshold": 7,
             "SellPricePercent": -1.0,
@@ -221,16 +215,15 @@
             "SpawnAttachments": [],
             "Variants": [
 				"Ammo_new_9x19Pst",
-				"Ammo_new_9x19Pso",
 				"Ammo_new_9x19LugerCci",
-				"Ammo_new_9x19Rip",
+				"Ammo_new_9x19QuakeMaker",
 				"Ammo_new_9x19Ap",
-				"Ammo_new_9x197H31",
-				"Ammo_new_9x19QuakeMaker"
+				"Ammo_new_9x19Rip",
+				"Ammo_new_9x197H31"
 			]
         },
         {
-            "ClassName": "ammo_9x39",
+            "ClassName": "Ammo_new_9x39Sp5",
             "MaxPriceThreshold": 12,
             "MinPriceThreshold": 4,
             "SellPricePercent": -1.0,
@@ -239,23 +232,10 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-                "ammo_9x39ap",
-				"Ammo_new_9x39Sp5",
 				"Ammo_new_9x39Sp6",
 				"Ammo_new_9x397H9",
 				"Ammo_new_9x397H12"
             ]
-        },
-        {
-            "ClassName": "ammo_9x39ap",
-            "MaxPriceThreshold": 20,
-            "MinPriceThreshold": 16,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 3000,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         },
         {
             "ClassName": "ammo_expansion_46x30",
