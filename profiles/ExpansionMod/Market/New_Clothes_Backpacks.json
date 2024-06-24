@@ -1,8 +1,8 @@
 {
     "m_Version": 12,
-    "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_BACKPACKS",
+    "DisplayName": "Рюкзаки и Сумки",
     "Icon": "Deliver",
-    "Color": "FBFCFEFF",
+    "Color": "Backpack",
     "IsExchange": 0,
     "InitStockPercent": 75.0,
     "Items": [
@@ -19,17 +19,6 @@
                 "childbag_blue",
                 "childbag_green"
             ]
-        },
-        {
-            "ClassName": "childbag_green",
-            "MaxPriceThreshold": 50,
-            "MinPriceThreshold": 25,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         },
         {
             "ClassName": "drybag_orange",
@@ -49,17 +38,6 @@
             ]
         },
         {
-            "ClassName": "drybag_green",
-            "MaxPriceThreshold": 70,
-            "MinPriceThreshold": 35,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "taloonbag_blue",
             "MaxPriceThreshold": 100,
             "MinPriceThreshold": 50,
@@ -73,17 +51,6 @@
                 "taloonbag_violet",
                 "taloonbag_green"
             ]
-        },
-        {
-            "ClassName": "taloonbag_green",
-            "MaxPriceThreshold": 140,
-            "MinPriceThreshold": 70,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         },
         {
             "ClassName": "smershbag",
@@ -109,17 +76,6 @@
                 "assaultbag_green",
                 "assaultbag_ttsko"
             ]
-        },
-        {
-            "ClassName": "assaultbag_ttsko",
-            "MaxPriceThreshold": 260,
-            "MinPriceThreshold": 130,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         },
         {
             "ClassName": "huntingbag",
@@ -187,17 +143,6 @@
                 "alicebag_black",
                 "alicebag_camo"
             ]
-        },
-        {
-            "ClassName": "alicebag_camo",
-            "MaxPriceThreshold": 1000,
-            "MinPriceThreshold": 500,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         },
         {
             "ClassName": "slingbag_black",
@@ -268,6 +213,120 @@
                 "drysackbag_orange",
                 "drysackbag_yellow"
             ]
+        },
+		{
+            "ClassName": "TF_CamelBakBag_Black",
+            "MaxPriceThreshold": 30,
+            "MinPriceThreshold": 24,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 150,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"TF_CamelBakBag_Brown",
+				"TF_CamelBakBag_EMR",
+				"TF_CamelBakBag_OD",
+				"TF_CamelBakBag_Tan"
+			]
+        },
+		{
+            "ClassName": "Msp_MountaineeringBag_Green",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 100,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 150,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "Msp_SportsBag_Black",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 100,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 150,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"Msp_SportsBag_Blue",
+				"Msp_SportsBag_Gray",
+				"Msp_SportsBag_Green",
+				"Msp_SportsBag_Red"
+			]
+        },
+		{
+            "ClassName": "Msp_SlingBackpack_Black",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 100,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 150,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"Msp_SlingBackpack_Green",
+				"Msp_SlingBackpack_Gray",
+				"Msp_SlingBackpack_Tan"
+			]
+        },
+        {
+            "ClassName": "Msp_ParamedicBag_Red",
+            "MaxPriceThreshold": 15000,
+            "MinPriceThreshold": 5000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 150,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"Msp_ParamedicBag_Green",
+				"Msp_ParamedicBag_Blue",
+				"Msp_ParamedicBag_NBC"
+			]
+        },
+		{
+            "ClassName": "Msp_DuffleBag_Green",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 100,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 150,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"Msp_DuffleBag_Black",
+				"Msp_DuffleBag_Blue",
+				"Msp_DuffleBag_Red"
+			]
+        },
+		{
+            "ClassName": "Msp_MedicBag_Red",
+            "MaxPriceThreshold": 20000,
+            "MinPriceThreshold": 6000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 150,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"Msp_MedicBag_Green",
+				"Msp_MedicBag_Blue",
+				"Msp_MedicBag_Black"
+			]
+        },
+        {
+            "ClassName": "Msp_ArmyBag",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 100,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 150,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
         }
     ]
 }

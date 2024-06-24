@@ -1,11 +1,22 @@
 {
     "m_Version": 12,
-    "DisplayName": "Приборы ночного видения",
+    "DisplayName": "ПНВ и Ремешок",
     "Icon": "Binoculars",
     "Color": "81DD4D",
     "IsExchange": 0,
     "InitStockPercent": 75.0,
     "Items": [
+		{
+            "ClassName": "NVGheadstrap",
+            "MaxPriceThreshold": 400,
+            "MinPriceThreshold": 200,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
 		{
             "ClassName": "NVGoggles",
             "MaxPriceThreshold": 800,

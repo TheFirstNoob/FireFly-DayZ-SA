@@ -1,13 +1,70 @@
 {
     "m_Version": 12,
-    "DisplayName": "Мясо",
-    "Icon": "Deliver",
+    "DisplayName": "Шкуры",
+    "Icon": "Cloth",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
     "InitStockPercent": 75.0,
     "Items": [
         {
-            "ClassName": "GoatSteakMeat",
+            "ClassName": "BBJ_Mutant_Wolf_Grey_Pelt",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 100,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"BBJ_Mutant_Wolf_Marsupial_Pelt",
+				"BBJ_Mutant_Wolf_White_Pelt",
+				"BBJ_Mutant_Wolf_Black_Pelt"
+			]
+        },
+        {
+            "ClassName": "BBJ_Scared_Dog_Brown_Pelt",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 100,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"BBJ_Scared_Dog_Marsupial_Pelt",
+				"BBJ_Scared_Dog_Black_Pelt"
+			]
+        },
+        {
+            "ClassName": "BBJ_Scared_Wolf_Brown_Pelt",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 100,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"BBJ_Scared_Wolf_Marsupial_Pelt",
+				"BBJ_Scared_Wolf_White_Pelt",
+				"BBJ_Scared_Wolf_Black_Pelt"
+			]
+        },
+        {
+            "ClassName": "BBJ_Scared_Bear_Red_Pelt",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 100,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"BBJ_Scared_Bear_Black_Pelt"
+			]
+        },
+        {
+            "ClassName": "WildboarPelt",
             "MaxPriceThreshold": 100,
             "MinPriceThreshold": 100,
             "SellPricePercent": -1.0,
@@ -18,7 +75,7 @@
             "Variants": []
         },
         {
-            "ClassName": "BoarSteakMeat",
+            "ClassName": "RabbitPelt",
             "MaxPriceThreshold": 100,
             "MinPriceThreshold": 100,
             "SellPricePercent": -1.0,
@@ -29,7 +86,7 @@
             "Variants": []
         },
         {
-            "ClassName": "PigSteakMeat",
+            "ClassName": "CowPelt",
             "MaxPriceThreshold": 100,
             "MinPriceThreshold": 100,
             "SellPricePercent": -1.0,
@@ -40,7 +97,7 @@
             "Variants": []
         },
         {
-            "ClassName": "DeerSteakMeat",
+            "ClassName": "PigPelt",
             "MaxPriceThreshold": 100,
             "MinPriceThreshold": 100,
             "SellPricePercent": -1.0,
@@ -51,7 +108,7 @@
             "Variants": []
         },
         {
-            "ClassName": "WolfSteakMeat",
+            "ClassName": "DeerPelt",
             "MaxPriceThreshold": 100,
             "MinPriceThreshold": 100,
             "SellPricePercent": -1.0,
@@ -62,7 +119,7 @@
             "Variants": []
         },
         {
-            "ClassName": "BearSteakMeat",
+            "ClassName": "GoatPelt",
             "MaxPriceThreshold": 100,
             "MinPriceThreshold": 100,
             "SellPricePercent": -1.0,
@@ -73,7 +130,7 @@
             "Variants": []
         },
         {
-            "ClassName": "CowSteakMeat",
+            "ClassName": "BearPelt",
             "MaxPriceThreshold": 100,
             "MinPriceThreshold": 100,
             "SellPricePercent": -1.0,
@@ -84,7 +141,7 @@
             "Variants": []
         },
         {
-            "ClassName": "SheepSteakMeat",
+            "ClassName": "WolfPelt",
             "MaxPriceThreshold": 100,
             "MinPriceThreshold": 100,
             "SellPricePercent": -1.0,
@@ -95,7 +152,7 @@
             "Variants": []
         },
         {
-            "ClassName": "ChickenBreastMeat",
+            "ClassName": "SheepPelt",
             "MaxPriceThreshold": 100,
             "MinPriceThreshold": 100,
             "SellPricePercent": -1.0,
@@ -106,51 +163,7 @@
             "Variants": []
         },
         {
-            "ClassName": "RabbitLegMeat",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "OtterSteakMeat",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "BBJ_Dog_Steak",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "SkinnedRat",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "SkinnedSquirrel",
+            "ClassName": "OtterPelt",
             "MaxPriceThreshold": 100,
             "MinPriceThreshold": 100,
             "SellPricePercent": -1.0,

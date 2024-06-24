@@ -1,26 +1,30 @@
 {
     "m_Version": 12,
-    "DisplayName": "Обвесы - Штыки",
-    "Icon": "Gun Bullets",
-    "Color": "81DD4D",
+    "DisplayName": "Аксессуары - Очки",
+    "Icon": "Eye",
+    "Color": "FBFCFEFF",
     "IsExchange": 0,
     "InitStockPercent": 75.0,
     "Items": [
-		{
-            "ClassName": "TF_AK_6kh5Bayonet",
-            "MaxPriceThreshold": 30,
-            "MinPriceThreshold": 24,
+        {
+            "ClassName": "sportglasses_orange",
+            "MaxPriceThreshold": 34,
+            "MinPriceThreshold": 17,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 150,
-            "MinStockThreshold": 0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "sportglasses_blue",
+                "sportglasses_black",
+                "sportglasses_green"
+            ]
         },
-		{
-            "ClassName": "mosin_bayonet",
-            "MaxPriceThreshold": 200,
-            "MinPriceThreshold": 100,
+        {
+            "ClassName": "thinframesglasses",
+            "MaxPriceThreshold": 40,
+            "MinPriceThreshold": 20,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -29,9 +33,9 @@
             "Variants": []
         },
         {
-            "ClassName": "sks_bayonet",
-            "MaxPriceThreshold": 200,
-            "MinPriceThreshold": 100,
+            "ClassName": "thickframesglasses",
+            "MaxPriceThreshold": 46,
+            "MinPriceThreshold": 23,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -40,9 +44,9 @@
             "Variants": []
         },
         {
-            "ClassName": "m9a1_bayonet",
-            "MaxPriceThreshold": 300,
-            "MinPriceThreshold": 150,
+            "ClassName": "designerglasses",
+            "MaxPriceThreshold": 60,
+            "MinPriceThreshold": 30,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -51,9 +55,9 @@
             "Variants": []
         },
         {
-            "ClassName": "ak_bayonet",
-            "MaxPriceThreshold": 300,
-            "MinPriceThreshold": 150,
+            "ClassName": "aviatorglasses",
+            "MaxPriceThreshold": 80,
+            "MinPriceThreshold": 40,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -62,9 +66,9 @@
             "Variants": []
         },
         {
-            "ClassName": "expansion_kar98_bayonet",
-            "MaxPriceThreshold": 200,
-            "MinPriceThreshold": 100,
+            "ClassName": "tacticalgoggles",
+            "MaxPriceThreshold": 120,
+            "MinPriceThreshold": 60,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,

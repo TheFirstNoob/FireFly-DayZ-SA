@@ -7,33 +7,6 @@
     "InitStockPercent": 75.0,
     "Items": [
         {
-            "ClassName": "chemlight_blue",
-            "MaxPriceThreshold": 4,
-            "MinPriceThreshold": 2,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "chemlight_green",
-                "chemlight_red",
-                "chemlight_white",
-                "chemlight_yellow"
-            ]
-        },
-        {
-            "ClassName": "roadflare",
-            "MaxPriceThreshold": 8,
-            "MinPriceThreshold": 4,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "matchbox",
             "MaxPriceThreshold": 12,
             "MinPriceThreshold": 6,

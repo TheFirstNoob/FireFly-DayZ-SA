@@ -1,63 +1,15 @@
 {
     "m_Version": 12,
-    "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_HATS & #STR_EXPANSION_MARKET_CATEGORY_HOODS",
-    "Icon": "Deliver",
+    "DisplayName": "Фрукты и овощи",
+    "Icon": "Apple",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
     "InitStockPercent": 75.0,
     "Items": [
         {
-            "ClassName": "medicalscrubshat_blue",
-            "MaxPriceThreshold": 4,
-            "MinPriceThreshold": 2,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "medicalscrubshat_white",
-                "medicalscrubshat_green"
-            ]
-        },
-        {
-            "ClassName": "cowboyhat_brown",
-            "MaxPriceThreshold": 40,
-            "MinPriceThreshold": 20,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "cowboyhat_black",
-                "cowboyhat_darkbrown",
-                "cowboyhat_green",
-                "expansioncowboyhatgator",
-                "expansioncowboyhatsnake",
-                "expansioncowboyhatrattlesnake"
-            ]
-        },
-        {
-            "ClassName": "militaryberet_chdkz",
-            "MaxPriceThreshold": 52,
-            "MinPriceThreshold": 26,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "militaryberet_red",
-                "militaryberet_un",
-                "militaryberet_cdf",
-                "militaryberet_nz"
-            ]
-        },
-        {
-            "ClassName": "militaryberet_cdf",
-            "MaxPriceThreshold": 54,
-            "MinPriceThreshold": 27,
+            "ClassName": "apple",
+            "MaxPriceThreshold": 9,
+            "MinPriceThreshold": 7,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -66,9 +18,9 @@
             "Variants": []
         },
         {
-            "ClassName": "militaryberet_nz",
-            "MaxPriceThreshold": 54,
-            "MinPriceThreshold": 27,
+            "ClassName": "greenbellpepper",
+            "MaxPriceThreshold": 9,
+            "MinPriceThreshold": 7,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -77,28 +29,9 @@
             "Variants": []
         },
         {
-            "ClassName": "beaniehat_pink",
-            "MaxPriceThreshold": 60,
-            "MinPriceThreshold": 30,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "beaniehat_beige",
-                "beaniehat_blue",
-                "beaniehat_brown",
-                "beaniehat_grey",
-                "beaniehat_red",
-                "beaniehat_black",
-                "beaniehat_green"
-            ]
-        },
-        {
-            "ClassName": "beaniehat_black",
-            "MaxPriceThreshold": 62,
-            "MinPriceThreshold": 31,
+            "ClassName": "zucchini",
+            "MaxPriceThreshold": 12,
+            "MinPriceThreshold": 10,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -107,9 +40,9 @@
             "Variants": []
         },
         {
-            "ClassName": "beaniehat_green",
-            "MaxPriceThreshold": 64,
-            "MinPriceThreshold": 32,
+            "ClassName": "pumpkin",
+            "MaxPriceThreshold": 17,
+            "MinPriceThreshold": 15,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -118,23 +51,9 @@
             "Variants": []
         },
         {
-            "ClassName": "ushanka_black",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 50,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "ushanka_blue",
-                "ushanka_green"
-            ]
-        },
-        {
-            "ClassName": "ushanka_green",
-            "MaxPriceThreshold": 110,
-            "MinPriceThreshold": 55,
+            "ClassName": "slicedpumpkin",
+            "MaxPriceThreshold": 9,
+            "MinPriceThreshold": 7,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -143,30 +62,9 @@
             "Variants": []
         },
         {
-            "ClassName": "booniehat_blue",
-            "MaxPriceThreshold": 32,
-            "MinPriceThreshold": 16,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "booniehat_navyblue",
-                "booniehat_orange",
-                "booniehat_red",
-                "booniehat_black",
-                "booniehat_tan",
-                "booniehat_olive",
-                "booniehat_dpm",
-                "booniehat_dubok",
-                "booniehat_flecktran"
-            ]
-        },
-        {
-            "ClassName": "booniehat_black",
-            "MaxPriceThreshold": 34,
-            "MinPriceThreshold": 17,
+            "ClassName": "potatoseed",
+            "MaxPriceThreshold": 9,
+            "MinPriceThreshold": 7,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -175,9 +73,9 @@
             "Variants": []
         },
         {
-            "ClassName": "booniehat_tan",
-            "MaxPriceThreshold": 36,
-            "MinPriceThreshold": 18,
+            "ClassName": "potato",
+            "MaxPriceThreshold": 9,
+            "MinPriceThreshold": 7,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -186,9 +84,9 @@
             "Variants": []
         },
         {
-            "ClassName": "booniehat_olive",
-            "MaxPriceThreshold": 36,
-            "MinPriceThreshold": 18,
+            "ClassName": "tomato",
+            "MaxPriceThreshold": 9,
+            "MinPriceThreshold": 7,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -197,9 +95,9 @@
             "Variants": []
         },
         {
-            "ClassName": "booniehat_dpm",
-            "MaxPriceThreshold": 40,
-            "MinPriceThreshold": 20,
+            "ClassName": "sambucusberry",
+            "MaxPriceThreshold": 9,
+            "MinPriceThreshold": 7,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -208,9 +106,9 @@
             "Variants": []
         },
         {
-            "ClassName": "booniehat_dubok",
-            "MaxPriceThreshold": 40,
-            "MinPriceThreshold": 20,
+            "ClassName": "caninaberry",
+            "MaxPriceThreshold": 9,
+            "MinPriceThreshold": 7,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -219,9 +117,9 @@
             "Variants": []
         },
         {
-            "ClassName": "booniehat_flecktran",
-            "MaxPriceThreshold": 40,
-            "MinPriceThreshold": 20,
+            "ClassName": "plum",
+            "MaxPriceThreshold": 9,
+            "MinPriceThreshold": 7,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -230,9 +128,97 @@
             "Variants": []
         },
         {
-            "ClassName": "officerhat",
-            "MaxPriceThreshold": 50,
-            "MinPriceThreshold": 25,
+            "ClassName": "pear",
+            "MaxPriceThreshold": 9,
+            "MinPriceThreshold": 7,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "agaricusmushroom",
+            "MaxPriceThreshold": 9,
+            "MinPriceThreshold": 7,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "amanitamushroom",
+            "MaxPriceThreshold": 9,
+            "MinPriceThreshold": 7,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "macrolepiotamushroom",
+            "MaxPriceThreshold": 9,
+            "MinPriceThreshold": 7,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "lactariusmushroom",
+            "MaxPriceThreshold": 9,
+            "MinPriceThreshold": 7,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "psilocybemushroom",
+            "MaxPriceThreshold": 9,
+            "MinPriceThreshold": 7,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "auriculariamushroom",
+            "MaxPriceThreshold": 9,
+            "MinPriceThreshold": 7,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "boletusmushroom",
+            "MaxPriceThreshold": 9,
+            "MinPriceThreshold": 7,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "pleurotusmushroom",
+            "MaxPriceThreshold": 9,
+            "MinPriceThreshold": 7,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,

@@ -1,6 +1,6 @@
 {
     "m_Version": 12,
-    "DisplayName": "TF 4 - Подсумки",
+    "DisplayName": "Аксессуары - Подсумки на разгрузы",
     "Icon": "Gun Bullets",
     "Color": "81DD4D",
     "IsExchange": 0,
@@ -274,6 +274,21 @@
             "Variants": [
 				"TF_PlateCarrierHolster_Coyote"
 			]
+        },
+		{
+            "ClassName": "platecarrierpouches",
+            "MaxPriceThreshold": 200,
+            "MinPriceThreshold": 100,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "platecarrierpouches_green",
+                "platecarrierpouches_black",
+                "platecarrierpouches_camo"
+            ]
         }
     ]
 }
