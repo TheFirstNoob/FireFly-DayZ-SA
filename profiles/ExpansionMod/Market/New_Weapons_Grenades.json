@@ -1,14 +1,25 @@
 {
     "m_Version": 12,
-    "DisplayName": "Прочее",
-    "Icon": "Hammer",
-    "Color": "FBFCFEFF",
+    "DisplayName": "Другое - Гранаты",
+    "Icon": "Grenade",
+    "Color": "80E8E0",
     "IsExchange": 0,
     "InitStockPercent": 75.0,
     "Items": [
-		{
-            "ClassName": "CanisterGasoline",
-            "MaxPriceThreshold": 200,
+        {
+            "ClassName": "RGD5Grenade",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 100,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "M67Grenade",
+            "MaxPriceThreshold": 100,
             "MinPriceThreshold": 100,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
@@ -18,9 +29,9 @@
             "Variants": []
         },
 		{
-            "ClassName": "EngineOil",
-            "MaxPriceThreshold": 120,
-            "MinPriceThreshold": 60,
+            "ClassName": "Grenade_ChemGas",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 100,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -28,51 +39,34 @@
             "SpawnAttachments": [],
             "Variants": []
         },
-		{
-            "ClassName": "rag_car_jack",
-            "MaxPriceThreshold": 120,
-            "MinPriceThreshold": 60,
+        {
+            "ClassName": "M18SmokeGrenade_Red",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 100,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"M18SmokeGrenade_Green",
+				"M18SmokeGrenade_Yellow",
+				"M18SmokeGrenade_Purple",
+				"M18SmokeGrenade_White"
+			]
         },
-		{
-            "ClassName": "ExpansionCarKey",
-            "MaxPriceThreshold": 1800,
-            "MinPriceThreshold": 900,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1000,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-		{
-            "ClassName": "lugwrench",
-            "MaxPriceThreshold": 8,
-            "MinPriceThreshold": 4,
+        {
+            "ClassName": "RDG2SmokeGrenade_Black",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 100,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-		{
-            "ClassName": "blowtorch",
-            "MaxPriceThreshold": 500,
-            "MinPriceThreshold": 250,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "smallgascanister"
-            ],
-            "Variants": []
+            "Variants": [
+				"RDG2SmokeGrenade_White"
+			]
         }
     ]
 }

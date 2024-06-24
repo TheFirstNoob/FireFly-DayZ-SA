@@ -1,0 +1,37 @@
+{
+    "m_Version": 12,
+    "DisplayName": "Другое - Освещение",
+    "Icon": "Lighter",
+    "Color": "80E8E0",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "Chemlight_White",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 100,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"Chemlight_Red",
+				"Chemlight_Green",
+				"Chemlight_Blue",
+				"Chemlight_Yellow"
+			]
+        },
+		{
+            "ClassName": "RoadFlare",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 100,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        }
+    ]
+}

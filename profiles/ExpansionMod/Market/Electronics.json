@@ -33,17 +33,6 @@
             "Variants": []
         },
         {
-            "ClassName": "electronicrepairkit",
-            "MaxPriceThreshold": 70,
-            "MinPriceThreshold": 35,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "cablereel",
             "MaxPriceThreshold": 80,
             "MinPriceThreshold": 40,
@@ -75,32 +64,6 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [
                 "carbattery"
-            ],
-            "Variants": []
-        },
-        {
-            "ClassName": "rangefinder",
-            "MaxPriceThreshold": 120,
-            "MinPriceThreshold": 60,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "battery9v"
-            ],
-            "Variants": []
-        },
-        {
-            "ClassName": "nvgoggles",
-            "MaxPriceThreshold": 800,
-            "MinPriceThreshold": 400,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "battery9v"
             ],
             "Variants": []
         },

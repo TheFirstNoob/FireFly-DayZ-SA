@@ -1,8 +1,8 @@
 {
     "m_Version": 12,
-    "DisplayName": "Защита - Маски",
+    "DisplayName": "Защита - Маски и фильтра",
     "Icon": "Gas Mask",
-    "Color": "FBFCFEFF",
+    "Color": "FF7F50",
     "IsExchange": 0,
     "InitStockPercent": 50.0,
     "Items": [
@@ -71,6 +71,19 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
+        },
+		{
+            "ClassName": "TF_PMK4GasMask",
+            "MaxPriceThreshold": 30,
+            "MinPriceThreshold": 24,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 150,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"TF_PMK4GasMask_OD"
+			]
         }
     ]
 }

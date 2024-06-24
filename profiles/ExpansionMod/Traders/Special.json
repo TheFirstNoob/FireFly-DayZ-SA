@@ -1,6 +1,6 @@
 {
     "m_Version": 12,
-    "DisplayName": "#STR_EXPANSION_MARKET_TRADER_SPECIAL",
+    "DisplayName": "Специальный торговец",
     "MinRequiredReputation": 0,
     "MaxRequiredReputation": 2147483647,
     "RequiredFaction": "",
@@ -12,7 +12,11 @@
     "DisplayCurrencyValue": 1,
     "DisplayCurrencyName": "",
     "Categories": [
-        "Explosives_And_Grenades"
+		"New_Special_Batteries",
+		"New_Special_NVGs",
+		"New_Special_Binoculars",
+		"New_Special_RepairKits",
+		"New_Special_Navigations"
     ],
     "Items": {}
 }

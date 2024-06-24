@@ -1,11 +1,24 @@
 {
     "m_Version": 12,
-    "DisplayName": "TF 5 - ПНВ",
-    "Icon": "Gun Bullets",
+    "DisplayName": "Приборы ночного видения",
+    "Icon": "Binoculars",
     "Color": "81DD4D",
     "IsExchange": 0,
     "InitStockPercent": 75.0,
     "Items": [
+		{
+            "ClassName": "NVGoggles",
+            "MaxPriceThreshold": 800,
+            "MinPriceThreshold": 400,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "battery9v"
+            ],
+            "Variants": []
+        },
         {
             "ClassName": "TF_NVGoggles_PVS14",
             "MaxPriceThreshold": 150,
@@ -14,7 +27,9 @@
             "MaxStockThreshold": 1500,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
+            "SpawnAttachments": [
+				"battery9v"
+			],
             "Variants": []
         },
         {
@@ -25,7 +40,9 @@
             "MaxStockThreshold": 1500,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
+            "SpawnAttachments": [
+				"battery9v"
+			],
             "Variants": []
         },
 		{
@@ -36,7 +53,9 @@
             "MaxStockThreshold": 1500,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
+            "SpawnAttachments": [
+				"battery9v"
+			],
             "Variants": []
         },
 		{
@@ -47,7 +66,9 @@
             "MaxStockThreshold": 1500,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
+            "SpawnAttachments": [
+				"battery9v"
+			],
             "Variants": []
         }
     ]
