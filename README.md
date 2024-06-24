@@ -1,4 +1,4 @@
-**FireFly RU (DayZ SA 1.23)**
+**FireFly RU (DayZ SA 1.25)**
 ================
 
 FireFly - Это российский сервер со своим виденьем баланса, торговли, сложности и так далее.
@@ -20,26 +20,32 @@ Discord: TheFirstNoob (Старое: TheFirstNoob#0538)
 Список модов:
 --------------------------
 
+Собственный мод (Разрешен к Репаку):
+* [FireFly-Main](https://steamcommunity.com/sharedfiles/filedetails/?id=3196510411)
+
+Фреймворки:
 * [Community Framework CF](https://steamcommunity.com/sharedfiles/filedetails/?id=1559212036)
 * [Dabs Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=2545327648)
+* [MuchFramework](https://steamcommunity.com/sharedfiles/filedetails/?id=3171576913)
+
+Сторонние моды:
+* [A-6 Secure Containers](https://steamcommunity.com/sharedfiles/filedetails/?id=3123910249)
+* [Apokot Fishing Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2793326413)
+* [Ambient Animals Pack](https://steamcommunity.com/sharedfiles/filedetails/?id=3114410963)
 * [Banov map](https://steamcommunity.com/sharedfiles/filedetails/?id=2415195639)
+* [BBJ Incredible Creatures](https://steamcommunity.com/sharedfiles/filedetails/?id=3107571942)
 * [Community Online Tools](https://steamcommunity.com/sharedfiles/filedetails/?id=1564026768)
+* [CannabisPlus](https://steamcommunity.com/sharedfiles/filedetails/?id=1932611410)
+* [DayZ Mining System](https://steamcommunity.com/sharedfiles/filedetails/?id=2794626429)
 * [Expansion Licensed](https://steamcommunity.com/sharedfiles/filedetails/?id=2116157322)
 * [Expansion Bundle](https://steamcommunity.com/sharedfiles/filedetails/?id=2572331007)
 * [Expansion Animations](https://steamcommunity.com/sharedfiles/filedetails/?id=2793893086)
 * [Inedia Infected AI](https://steamcommunity.com/sharedfiles/filedetails/?id=3031784065)
 * [Inedia Stamina](https://steamcommunity.com/sharedfiles/filedetails/?id=2990236173)
-* [AmmoStackBullet](https://steamcommunity.com/sharedfiles/filedetails/?id=2832884779)
-* [RaG Immersive Vehicles](https://steamcommunity.com/sharedfiles/filedetails/?id=3105330157)
-* [Tactical Flava](https://steamcommunity.com/sharedfiles/filedetails/?id=2646817942)
-* [RUSForma Vehicles](https://steamcommunity.com/sharedfiles/filedetails/?id=2536888090)
 * [MuchStuffPack](https://steamcommunity.com/sharedfiles/filedetails/?id=1991570984)
-* [Talking Bots & Characters](https://steamcommunity.com/sharedfiles/filedetails/?id=3079786942)
-* [Apokot Fishing Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2793326413)
-* [Ambient Animals Pack](https://steamcommunity.com/sharedfiles/filedetails/?id=3114410963)
-* [A-6 Secure Containers](https://steamcommunity.com/sharedfiles/filedetails/?id=3123910249)
-* [DayZ Mining System with Ores and Gems](https://steamcommunity.com/sharedfiles/filedetails/?id=2794626429)
-* [CannabisPlus](https://steamcommunity.com/sharedfiles/filedetails/?id=1932611410)
+* [RaG Immersive Vehicles](https://steamcommunity.com/sharedfiles/filedetails/?id=3105330157)
+* [RUSForma Vehicles](https://steamcommunity.com/sharedfiles/filedetails/?id=2536888090)
+* [Tactical Flava](https://steamcommunity.com/sharedfiles/filedetails/?id=2646817942)
 
 --------------------------
 Список модов (СЕРВЕРНЫЕ):
@@ -67,7 +73,9 @@ TODO
 * Alibaba
 * Sch1Rm
 * Morgan_Harris
-* Пару ребят чьи ники я пока не могу написать тут :с
+* DenisPovis
+* Fantomow
+* Кого забыл - Пишите :с
 
 Если кого забыл, пожалуйста отпишите мне куда угодно :)
 
