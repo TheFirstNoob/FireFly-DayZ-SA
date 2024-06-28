@@ -15,6 +15,11 @@
 		<file path="env/hare_territories.xml" />
 		<file path="env/zombie_territories.xml" />
 		<file path="env/bear_territories.xml" />
+		
+		<file path="env/otter_territories.xml" />
+		<file path="env/rat_territories.xml" />
+		<file path="env/raven_territories.xml" />
+		<file path="env/squirrel_territories.xml" />
 
 		<territory type="Herd" name="Deer" behavior="DZDeerGroupBeh">
 			<file usable="red_deer_territories" />
@@ -55,6 +60,79 @@
 				<spawn configName="Animal_GallusGallusDomesticusF_Brown" chance="1" />
 				<spawn configName="Animal_GallusGallusDomesticusF_Spotted" chance="10" />
 				<spawn configName="Animal_GallusGallusDomesticusF_White" chance="20" />
+			</agent>
+
+			<item name="globalCountMax" val="50" />
+			<item name="zoneCountMin" val="1" />
+			<item name="zoneCountMax" val="1" />
+			<item name="playerSpawnRadiusNear" val="25" />
+			<item name="playerSpawnRadiusFar" val="75" />
+		</territory>
+		
+		<!-- OTTER -->
+		<territory type="Ambient" name="AmbientOtter" behavior="DZOtterGroupBeh">
+			<file usable="rat_territories" />
+			<!-- different agent types - class has to begin with AgentType:w -->
+			<agent type="Male" chance="1">
+				<spawn configName="Animal_Otter" chance="1" />
+			</agent>
+			<agent type="Female" chance="3">
+				<spawn configName="Animal_Otter" chance="10" />
+			</agent>
+
+			<item name="globalCountMax" val="50" />
+			<item name="zoneCountMin" val="1" />
+			<item name="zoneCountMax" val="1" />
+			<item name="playerSpawnRadiusNear" val="25" />
+			<item name="playerSpawnRadiusFar" val="75" />
+		</territory>
+		
+		<!-- RABBIT -->
+		<territory type="Ambient" name="AmbientRat" behavior="DZRatGroupBeh">
+			<file usable="rat_territories" />
+			<!-- different agent types - class has to begin with AgentType:w -->
+			<agent type="Male" chance="1">
+				<spawn configName="Animal_Rat_Grey" chance="1" />
+			</agent>
+			<agent type="Female" chance="3">
+				<spawn configName="Animal_Rat_White" chance="10" />
+			</agent>
+
+			<item name="globalCountMax" val="50" />
+			<item name="zoneCountMin" val="1" />
+			<item name="zoneCountMax" val="1" />
+			<item name="playerSpawnRadiusNear" val="25" />
+			<item name="playerSpawnRadiusFar" val="75" />
+		</territory>
+		
+		<!-- RAVEN -->
+		<territory type="Ambient" name="AmbientRaven" behavior="DZRavenGroupBeh">
+			<file usable="raven_territories" />
+			<!-- different agent types - class has to begin with AgentType:w -->
+			<agent type="Male" chance="1">
+				<spawn configName="Animal_Raven_Airborne" chance="1" />
+			</agent>
+			<agent type="Female" chance="3">
+			<spawn configName="Animal_Raven" chance="10" />
+				<spawn configName="Animal_Raven2" chance="10" />
+			</agent>
+
+			<item name="globalCountMax" val="50" />
+			<item name="zoneCountMin" val="1" />
+			<item name="zoneCountMax" val="1" />
+			<item name="playerSpawnRadiusNear" val="25" />
+			<item name="playerSpawnRadiusFar" val="75" />
+		</territory>
+		
+		<!-- RABBIT -->
+		<territory type="Ambient" name="AmbientSquirrel" behavior="DZSquirrelGroupBeh">
+			<file usable="squirrel_territories" />
+			<!-- different agent types - class has to begin with AgentType:w -->
+			<agent type="Male" chance="1">
+				<spawn configName="Animal_Squirrel" chance="1" />
+			</agent>
+			<agent type="Female" chance="3">
+				<spawn configName="Animal_Squirrel" chance="10" />
 			</agent>
 
 			<item name="globalCountMax" val="50" />
