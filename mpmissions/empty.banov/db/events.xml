@@ -841,8 +841,8 @@
     </event>
     <event name="StaticContaminatedArea">
         <nominal>0</nominal>
-        <min>2</min>
-        <max>4</max>
+        <min>5</min>
+        <max>10</max>
         <lifetime>2100</lifetime>
         <restock>0</restock>
         <saferadius>0</saferadius>
@@ -853,7 +853,7 @@
         <limit>parent</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="4" min="2" type="ContaminatedArea_Dynamic"/>
+            <child lootmax="20" lootmin="15" max="10" min="5" type="ContaminatedArea_Dynamic"/>
         </children>
     </event>
     <event name="StaticHeliCrash">
