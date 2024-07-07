@@ -16,6 +16,8 @@
         <active>1</active>
         <children>
             <child lootmax="20" lootmin="10" max="1" min="1" type="YRTSK_UFO_Crash"/>
+            <child lootmax="5" lootmin="0" max="3" min="1" type="BBJ_Spectral_v1"/>
+            <child lootmax="5" lootmin="0" max="3" min="1" type="BBJ_Spectral_v2"/>
          </children>
     </event>
 		<event name="StaticAmbulanceCar">
@@ -456,8 +458,7 @@
         <limit>custom</limit>
         <active>1</active>
         <children>
-            <child lootmax="5" lootmin="0" max="0" min="90" type="ZmbM_FirefighterNormal"/>
-            <child lootmax="5" lootmin="0" max="0" min="10" type="ZmbM_NBC_Yellow"/>
+            <child lootmax="5" lootmin="0" max="0" min="100" type="ZmbM_FirefighterNormal"/>
         </children>
     </event>
     <event name="InfectedIndustrial">
