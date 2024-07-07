@@ -379,7 +379,7 @@
 
 	<!-- Все военки сделаны зараженными для Ключей -->
 	<event name="StaticContaminatedArea">
-		<zone smin="0" smax="0" dmin="5" dmax="10" r="75" />
+		<zone smin="0" smax="0" dmin="4" dmax="8" r="50" />
 
 		<!-- Military Obsidian -->
 		<pos x="4256.96" y="258.363" z="14371.4" a="0"/>
