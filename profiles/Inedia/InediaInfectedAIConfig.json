@@ -359,9 +359,30 @@
         "ThrowingProjectiles": {
             "PoliceProjectile": {
                 "ItemClasses": [
+                    "Flaregun",
                     "Glock19",
+                    "FNX45",
+                    "Magnum",
+                    "Longhorn",
+                    "CZ75",
+                    "MKII",
+                    "P1",
+                    "Colt1911",
                     "MakarovIJ70",
+                    "TF_FiveSeven",
+                    "TF_MP443",
                     "Mp133Shotgun",
+                    "SawedoffIzh18",
+                    "SawedoffIzh18Shotgun",
+                    "SawedoffIzh43Shotgun",
+					"CZ61",
+					"PP19",
+					"UMP45",
+					"Expansion_Kedr",
+					"Expansion_VityazSN",
+                    "CombatKnife",
+                    "CombatKnife",
+                    "CombatKnife",
                     "CombatKnife",
                     "CombatKnife"
                 ],
@@ -373,12 +394,27 @@
             },
             "MedicsProjectile": {
                 "ItemClasses": [
-                    "Vodka",
+                    "BloodSyringe",
+                    "BloodBagEmpty",
+                    "BloodBagFull",
+                    "BloodBagIV",
+                    "BloodTestKit",
+                    "BandageDressing",
+                    "Rag",
+                    "HipPack_Medical",
+                    "KitchenKnife",
                     "KitchenKnife",
                     "KitchenKnife",
                     "SteakKnife",
+                    "SteakKnife",
+                    "SteakKnife",
+                    "ChemLight_White",
                     "GasMask_Filter",
                     "IodineTincture",
+                    "PainkillerTablets",
+                    "PurificationTablets",
+                    "CharcoalTablets",
+                    "VitaminBottle",
                     "DisinfectantAlcohol",
                     "DisinfectantSpray"
                 ],
@@ -405,11 +441,24 @@
             "MilitaryProjectile": {
                 "ItemClasses": [
                     "Binoculars",
+                    "Rangefinder",
+                    "ExpansionGPS",
+                    "PersonalRadio",
                     "Ssh68Helmet",
                     "GorkaHelmet",
-                    "BallisticHelmet_Green",
+                    "TankerHelmet",
+                    "BallisticHelmet_Black",
+                    "MilitaryBelt",
+                    "TF_6B47Helmet",
+                    "TF_LSHZHelmet_OD",
+                    "TF_Maska1Helmet",
+                    "TF_Mich2000Helmet_Black",
+                    "Canteen",
+                    "Canteen",
                     "Canteen",
                     "CombatKnife",
+                    "CombatKnife",
+                    "AmmoBox",
                     "AK_Bayonet",
                     "SKS_Bayonet",
                     "M9A1_Bayonet",
@@ -423,12 +472,13 @@
             },
             "CityProjectile": {
                 "ItemClasses": [
-                    "Vodka",
                     "WaterBottle",
                     "BaseballBat",
                     "Pipe",
                     "Flashlight",
                     "CombinationLock",
+                    "MSP_TackleBox",
+                    "MSP_CoolerBox",
                     "KitchenKnife",
                     "KitchenKnife",
                     "SteakKnife"
@@ -456,12 +506,14 @@
                 "Parameters": {
                     "DestroyProjectileAfterSeconds": -1.0,
                     "ThrowConditionAmountOfProjectiles": 1.0,
-                    "ActivateGrenadeAfterSeconds": 0.0
+                    "ActivateGrenadeAfterSeconds": 10.0
                 }
             },
             "VillagersProjectile": {
                 "ItemClasses": [
                     "Vodka",
+                    "Matchbox",
+                    "Nailbox",
                     "FryingPan",
                     "Firewood",
                     "Pot",
@@ -485,7 +537,16 @@
             "GarbageIfPlayerOnObstacle": {
                 "ItemClasses": [
                     "WoodenStick",
-                    "SmallStone"
+                    "SmallStone",
+					"SmallGuts",
+					"UnknownFoodCan",
+					"Apple",
+					"Pear",
+					"Tomato",
+					"Zucchini",
+					"Potato",
+					"DeadRat_Grey",
+					"DeadSqurrel"
                 ],
                 "Parameters": {
                     "ThrowConditionZombieTargetVerticalDistanceMin": 0.4000000059604645,
@@ -500,17 +561,25 @@
             "IndustrialProjectile": {
                 "ItemClasses": [
                     "Vodka",
+                    "Vodka",
+                    "Vodka",
                     "Pipe",
                     "PipeWrench",
                     "Wrench",
                     "LugWrench",
                     "Hammer",
+                    "SledgeHammer",
                     "WeldingMask",
                     "Crowbar",
                     "HandSaw",
                     "Hacksaw",
                     "Screwdriver",
-                    "Pliers"
+                    "Pliers",
+                    "Battery9v",
+                    "CarBattery",
+                    "HeadlightH7",
+                    "HeadlightH7_Box",
+                    "ConstructionHelmet_Yellow"
                 ],
                 "Parameters": {
                     "ThrowConditionAmountOfProjectiles": 2.0,
@@ -521,7 +590,16 @@
             "GarbageIfPlayerNonObstacle": {
                 "ItemClasses": [
                     "WoodenStick",
-                    "SmallStone"
+                    "SmallStone",
+					"SmallGuts",
+					"UnknownFoodCan",
+					"Apple",
+					"Pear",
+					"Tomato",
+					"Zucchini",
+					"Potato",
+					"DeadRat_Grey",
+					"DeadSqurrel"
                 ],
                 "Parameters": {
                     "ThrowConditionAmountOfProjectiles": 2.0,
@@ -536,10 +614,16 @@
             "HuntersProjectile": {
                 "ItemClasses": [
                     "Vodka",
+                    "Vodka",
+                    "Vodka",
+                    "HuntingKnife",
                     "HuntingKnife",
                     "HuntingKnife",
                     "Canteen",
-                    "Binoculars"
+                    "Canteen",
+                    "Binoculars",
+                    "Binoculars",
+					"FishingRod"
                 ],
                 "Parameters": {
                     "ThrowConditionAmountOfProjectiles": 2.0,
@@ -1237,7 +1321,9 @@
             "Solder": 70.0,
             "CivilianOldMan": 30.0,
             "FarmerMan": 30.0,
-            "PoliceSpecForce": 70.0
+            "PoliceSpecForce": 70.0,
+            "AlienScout": 350.0,
+            "AlienQueen": 1000.0
         },
         "InjuryHandlerRestoreInjuredLegAfterSeconds": {
             "Police": 40.0,
@@ -1259,7 +1345,9 @@
             "Solder": 30.0,
             "CivilianOldMan": 0.0,
             "FarmerMan": 0.0,
-            "PoliceSpecForce": 30.0
+            "PoliceSpecForce": 30.0,
+			"AlienScout": 20.0,
+            "AlienQueen": 10.0
         },
         "InjuryHandlerInjuredOneLegSpeedLimit": {
             "all": 2.0
@@ -1961,7 +2049,9 @@
             "all": 0.0
         },
         "DamageToZombieShockToStunLightHeavyAnimationThresholdRange": {
-            "all": 70.0
+            "all": 70.0,
+			"AlienScout": 180.0,
+            "AlienQueen": 500.0
         },
         "DamageToZombieShockToStunThresholdMeleeHeavy": {
             "all": 0.0
