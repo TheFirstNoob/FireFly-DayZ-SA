@@ -71,6 +71,19 @@
             ],
             "Variants": []
         },
+		{
+            "ClassName": "SV98",
+            "MaxPriceThreshold": 2600,
+            "MinPriceThreshold": 2080,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "mag_scout_5rnd"
+            ],
+            "Variants": []
+        },
         {
             "ClassName": "expansion_awm",
             "MaxPriceThreshold": 7500,
