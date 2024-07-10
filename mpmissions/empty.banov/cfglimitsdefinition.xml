@@ -12,31 +12,31 @@
         <category name="explosives"/>
     </categories>
     <tags>
-        <tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian" />
+        <tag name="floor"/> <!-- На полу -->
+        <tag name="shelves"/> <!-- На полках -->
+        <tag name="ground"/> <!-- На земле -->
+		<tag name="civilian" /> <!-- Например, на столах, стульях и т.д. -->
     </tags>
     <usageflags>
-        <usage name="Military"/>
-		<usage name="Alien"/>
-        <usage name="Police"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
-        <usage name="Industrial"/>
-        <usage name="Farm"/>
-        <usage name="Coast"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
-        <usage name="Office"/>
-        <usage name="School"/>
-        <usage name="Prison"/>
-        <usage name="Lunapark"/>
-        <usage name="SeasonalEvent"/>
-        <usage name="ContaminatedArea"/>
-		<usage name="Historical"/>
-		<usage name="Underground"/>
+        <usage name="Military"/> <!-- Военные -->
+		<usage name="Alien"/> <!-- НЛО -->
+        <usage name="Police"/> <!-- Полицайки -->
+        <usage name="Medic"/> <!-- Больнички -->
+        <usage name="Firefighter"/> <!-- Пожарки -->
+        <usage name="Industrial"/> <!-- Индустриальные -->
+        <usage name="Farm"/> <!-- Фермы -->
+        <usage name="Coast"/> <!-- Побережье -->
+        <usage name="Town"/> <!-- Город -->
+        <usage name="Village"/> <!-- Деревни -->
+        <usage name="Hunting"/> <!-- Охотничье (вышки видимо) -->
+        <usage name="Office"/> <!-- Офисы -->
+        <usage name="School"/> <!-- Школы -->
+        <usage name="Prison"/> <!-- Тюрьмы -->
+        <usage name="Lunapark"/> <!-- Лунапарк - БановЛенд -->
+        <usage name="SeasonalEvent"/> <!-- Сезонные ивенты -->
+        <usage name="ContaminatedArea"/> <!-- Зараженные зоны -->
+		<usage name="Historical"/> <!-- Исторические -->
+		<usage name="Underground"/> <!-- Подземки -->
     </usageflags>
     <valueflags>
         <value name="Tier1"/>
