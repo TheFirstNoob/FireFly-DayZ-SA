@@ -77,6 +77,7 @@
 	<type name="ObsoleteFishingRot"></type>
 	<type name="IceAxe"></type>
 	<type name="Paddle"></type>
+	<type name="Ammo_CupidsBolt"></type>
 
 	<type name="Magnum_Cylinder"></type>
 	<type name="Magnum_Ejector"></type>
@@ -138,6 +139,56 @@
 	<type name="Red9Bttstck"></type>
 	<type name="M249_RisHndgrd"></type>
 	<type name="M249_Hndgrd"></type>
+	
+	<!-- Не используйте ванильные патроны т.к. стоит AdditionalAmmo -->
+	<type name="Ammo_HuntingBolt"></type>
+	<type name="Ammo_22"></type>
+	<type name="Ammo_Expansion_338"></type>
+	<type name="Ammo_45ACP"></type>
+	<type name="Ammo_308Win"></type>
+	<type name="Ammo_308WinTracer"></type>
+	<type name="Ammo_9x19"></type>
+	<type name="Ammo_380"></type>
+	<type name="Ammo_556x45"></type>
+	<type name="Ammo_556x45Tracer"></type>
+	<type name="Ammo_762x54"></type>
+	<type name="Ammo_762x54Tracer"></type>
+	<type name="Ammo_762x39"></type>
+	<type name="Ammo_762x39Tracer"></type>
+	<type name="Ammo_9x39"></type>
+	<type name="Ammo_9x39AP"></type>
+	<type name="Ammo_12gaPellets"></type>
+	<type name="Ammo_12gaSlug"></type>
+	<type name="Ammo_12gaRubberSlug"></type>
+	<type name="Ammo_357"></type>
+	<type name="Ammo_545x39"></type>
+	<type name="Ammo_545x39Tracer"></type>
+
+	<type name="AmmoBox_00buck_10rnd"></type>
+	<type name="AmmoBox_12gaRubberSlug_10Rnd"></type>
+	<type name="AmmoBox_12gaSlug_10Rnd"></type>
+	<type name="AmmoBox_22_50Rnd"></type>
+	<type name="AmmoBox_308Win_20Rnd"></type>
+	<type name="AmmoBox_308WinTracer_20Rnd"></type>
+	<type name="AmmoBox_357_20Rnd"></type>
+	<type name="AmmoBox_380_35rnd"></type>
+	<type name="AmmoBox_45ACP_25rnd"></type>
+	<type name="AmmoBox_545x39_20Rnd"></type>
+	<type name="AmmoBox_545x39Tracer_20Rnd"></type>
+	<type name="AmmoBox_556x45_20Rnd"></type>
+	<type name="AmmoBox_556x45Tracer_20Rnd"></type>
+	<type name="AmmoBox_762x39_20Rnd"></type>
+	<type name="AmmoBox_762x39Tracer_20Rnd"></type>
+	<type name="AmmoBox_762x54_20Rnd"></type>
+	<type name="AmmoBox_762x54Tracer_20Rnd"></type>
+	<type name="AmmoBox_9x19_25rnd"></type>
+	<type name="AmmoBox_9x39_20Rnd"></type>
+	<type name="AmmoBox_9x39AP_20Rnd"></type>
+
+	<type name="Crossbow_Black"></type>
+	<type name="Crossbow_Autumn"></type>
+	<type name="Crossbow_Summer"></type>
+	<type name="Crossbow_Wood"></type>
 
 	<type name="AK101"></type>
 	<type name="AK101_Black"></type>
