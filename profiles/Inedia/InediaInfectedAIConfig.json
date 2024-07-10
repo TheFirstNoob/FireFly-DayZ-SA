@@ -934,26 +934,26 @@
             "all": 1
         },
         "UpJumpHeightMax": {
-            "Police": 0.699999988079071,
+            "Police": 2.5,
             "all": 1.7000000476837159,
             "Pop": 0.0,
-            "Santa": 1.0,
+            "Santa": 3.0,
             "CivilianOldWoman": 0.0,
-            "Firefighter": 2.0,
-            "MedicAndPatientMan": 0.5,
+            "Firefighter": 2.5,
+            "MedicAndPatientMan": 1.2,
             "PopClerk": 0.0,
-            "CivilianMan": 0.5,
-            "CivilianWoman": 0.5,
-            "Prisoner": 1.0,
-            "WorkerMan": 0.6000000238418579,
-            "Nbc": 0.4000000059604645,
-            "Mummy": 1.0,
-            "WorkerWoman": 0.6000000238418579,
-            "MedicAndPatientWoman": 0.5,
-            "Solder": 0.699999988079071,
+            "CivilianMan": 1.2,
+            "CivilianWoman": 1.2,
+            "Prisoner": 1.5,
+            "WorkerMan": 1.6,
+            "Nbc": 1.4,
+            "Mummy": 3.0,
+            "WorkerWoman": 1.5,
+            "MedicAndPatientWoman": 1.2,
+            "Solder": 2.5,
             "CivilianOldMan": 0.0,
-            "FarmerMan": 0.20000000298023225,
-            "PoliceSpecForce": 1.2000000476837159
+            "FarmerMan": 0.4,
+            "PoliceSpecForce": 2.5
         },
         "UpJumpImpulseDamageChancePercent": {
             "Police": 35.0,
@@ -1088,29 +1088,10 @@
             "PoliceSpecForce": 0
         },
         "FallHandlerIsActive": {
-            "Police": 0,
             "all": 1,
-            "Pop": 1,
-            "Santa": 0,
-            "CivilianOldWoman": 1,
-            "Firefighter": 0,
-            "MedicAndPatientMan": 1,
-            "PopClerk": 1,
-            "CivilianMan": 1,
-            "CivilianWoman": 1,
-            "Prisoner": 1,
-            "WorkerMan": 1,
-            "Nbc": 1,
-            "Mummy": 0,
-            "WorkerWoman": 1,
-            "MedicAndPatientWoman": 1,
-            "Solder": 0,
-            "CivilianOldMan": 1,
-            "FarmerMan": 1,
-            "PoliceSpecForce": 0
         },
         "FallHandlerLegBreakHeightMin": {
-            "Police": 4.0,
+            "Police": 5.0,
             "all": 3.0,
             "Pop": 3.0,
             "Santa": 10.0,
@@ -1129,7 +1110,7 @@
             "Solder": 5.0,
             "CivilianOldMan": 1.0,
             "FarmerMan": 3.0,
-            "PoliceSpecForce": 5.0
+            "PoliceSpecForce": 8.0
         },
         "FallHandlerLegBreakHeightMax": {
             "Police": 8.0,
@@ -1896,10 +1877,10 @@
             "all": 0.0
         },
         "StunToPlayerChancePercent": {
-            "all": 10.0
+            "all": 15.0
         },
         "StunToPlayerInBlockChancePercent": {
-            "all": 5.0
+            "all": 10.0
         },
         "DiseasesToPlayerHandlerIsActive": {
             "all": 1
@@ -2051,14 +2032,16 @@
         },
         "DamageToZombieShockToStunLightHeavyAnimationThresholdRange": {
             "all": 70.0,
-			"AlienScout": 180.0,
-            "AlienQueen": 500.0
+			"AlienScout": 500.0,
+            "AlienQueen": 1200.0
         },
         "DamageToZombieShockToStunThresholdMeleeHeavy": {
             "all": 0.0
         },
         "DamageToZombieShockToStunThresholdRange": {
-            "all": 0.4000000059604645
+            "all": 50.0
+			"AlienScout": 300.0,
+            "AlienQueen": 600.0
         },
         "DamageToZombieShockToStunFromButtstockHit": {
             "all": 2.0
@@ -2075,7 +2058,7 @@
             "all": 1
         },
         "MeleeAttacksDodgeChance": {
-            "all": 50.0
+            "all": 25.0
         },
         "MeleeAttacksDodgeCooldownSeconds": {
             "all": 10.0
@@ -2109,10 +2092,10 @@
             "all": 5.0
         },
         "BloodLossRateMaxMl": {
-            "all": 50.0
+            "all": 100.0
         },
         "BloodLossRateRegenMl": {
-            "all": 0.20000000298023225
+            "all": 0.3
         },
         "BloodOnExplosiveDamageChancePercent": {
             "all": 50.0
@@ -2124,7 +2107,9 @@
             "all": 0,
             "Santa": 1,
             "Nbc": 1,
-            "Mummy": 1
+            "Mummy": 1,
+            "AlienScout": 1,
+            "AlienQueen": 1
         },
         "AllowCrawling": {
             "all": 1
