@@ -1,55 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
-	<!-- ПАТРОНЫ -->
-	<type name="Ammo_12gaPellets">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>0</quantmin>
-        <quantmax>0</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <tag name="shelves"/>
-        <usage name="Police"/>
-        <usage name="Farm"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
-    </type>
-    <type name="Ammo_12gaRubberSlug">
-        <nominal>120</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>100</min>
-        <quantmin>10</quantmin>
-        <quantmax>30</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <tag name="shelves"/>
-        <usage name="Police"/>
-        <usage name="Farm"/>
-    </type>
-    <type name="Ammo_12gaSlug">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>0</quantmin>
-        <quantmax>0</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <tag name="shelves"/>
-        <usage name="Police"/>
-        <usage name="Farm"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
-    </type>
-	
 	<!-- FireFly Main Additional Ammo -->
 	<type name="Ammo_new_12gaBuckshot5">
         <nominal>100</nominal>
@@ -324,21 +274,6 @@
         <usage name="Hunting"/>
     </type>
 	
-    <type name="Ammo_22">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>0</quantmin>
-        <quantmax>0</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <tag name="shelves"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-    </type>
-	
 	<!-- FireFly Main Additional Ammo -->
 	<type name="Ammo_new_22Subsonic">
         <nominal>120</nominal>
@@ -395,37 +330,6 @@
         <tag name="shelves"/>
         <usage name="Town"/>
         <usage name="Village"/>
-    </type>
-
-    <type name="Ammo_308Win">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>180</restock>
-        <min>0</min>
-        <quantmin>0</quantmin>
-        <quantmax>0</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <tag name="shelves"/>
-        <usage name="Farm"/>
-        <usage name="Hunting"/>
-    </type>
-    <type name="Ammo_308WinTracer">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
-        <quantmin>0</quantmin>
-        <quantmax>0</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <tag name="shelves"/>
-        <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
 	
 	<!-- FireFly Main Additional Ammo -->
@@ -555,21 +459,6 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-
-    <type name="Ammo_357">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>0</quantmin>
-        <quantmax>0</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <tag name="shelves"/>
-        <usage name="Farm"/>
-        <usage name="Village"/>
-    </type>
 	
 	<!-- FireFly Main Additional Ammo -->
 	<type name="Ammo_new_357QuikShokJhp">
@@ -670,21 +559,6 @@
         <usage name="Farm"/>
         <usage name="Village"/>
     </type>
-
-    <type name="Ammo_380">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>0</quantmin>
-        <quantmax>0</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <tag name="shelves"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-    </type>
 	
 	<!-- FireFly Main Additional Ammo -->
 	<type name="Ammo_new_380BondedJhp">
@@ -771,21 +645,7 @@
         <usage name="Town"/>
         <usage name="Village"/>
     </type>
-	
-    <type name="Ammo_45ACP">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>180</restock>
-        <min>0</min>
-        <quantmin>0</quantmin>
-        <quantmax>0</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <tag name="shelves"/>
-        <usage name="Military"/>
-    </type>
-	
+
 	<!-- FireFly Main Additional Ammo -->
 	<type name="Ammo_new_45AcpAP">
         <nominal>120</nominal>
@@ -852,34 +712,7 @@
         <tag name="shelves"/>
         <usage name="Military"/>
     </type>
-	
-    <type name="Ammo_545x39">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>0</quantmin>
-        <quantmax>0</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <tag name="shelves"/>
-        <usage name="Military"/>
-    </type>
-    <type name="Ammo_545x39Tracer">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>180</restock>
-        <min>0</min>
-        <quantmin>0</quantmin>
-        <quantmax>0</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <tag name="shelves"/>
-        <usage name="Military"/>
-    </type>
-	
+
 	<!-- FireFly Main Additional Ammo -->
 	<type name="Ammo_new_545x397H39">
         <nominal>70</nominal>
@@ -1037,39 +870,6 @@
         <tag name="shelves"/>
         <usage name="Military"/>
     </type>
-
-    <type name="Ammo_556x45">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>0</quantmin>
-        <quantmax>0</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <tag name="shelves"/>
-        <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-    <type name="Ammo_556x45Tracer">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>180</restock>
-        <min>0</min>
-        <quantmin>0</quantmin>
-        <quantmax>0</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <tag name="shelves"/>
-        <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
 	
 	<!-- FireFly Main Additional Ammo -->
 	<type name="Ammo_new_556x45M855">
@@ -1216,41 +1016,6 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-
-    <type name="Ammo_762x39">
-        <nominal>110</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>75</min>
-        <quantmin>0</quantmin>
-        <quantmax>0</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <tag name="shelves"/>
-        <usage name="Farm"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-    </type>
-    <type name="Ammo_762x39Tracer">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>0</quantmin>
-        <quantmax>0</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <tag name="shelves"/>
-        <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
 	
 	<!-- FireFly Main Additional Ammo -->
 	<type name="Ammo_new_762x39Hp">
@@ -1342,42 +1107,6 @@
         <value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
-    </type>
-
-    <type name="Ammo_762x54">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>0</quantmin>
-        <quantmax>0</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <tag name="shelves"/>
-        <usage name="Farm"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-    <type name="Ammo_762x54Tracer">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>0</quantmin>
-        <quantmax>0</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <tag name="shelves"/>
-        <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
 	
 	<!-- FireFly Main Additional Ammo -->
@@ -1495,21 +1224,6 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-
-    <type name="Ammo_9x19">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>0</quantmin>
-        <quantmax>0</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <tag name="shelves"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-    </type>
 	
 	<!-- FireFly Main Additional Ammo -->
 	<type name="Ammo_new_9x19Pst">
@@ -1609,35 +1323,6 @@
         <tag name="shelves"/>
         <usage name="Town"/>
         <usage name="Village"/>
-    </type>
-
-    <type name="Ammo_9x39">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>25</quantmin>
-        <quantmax>60</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <tag name="shelves"/>
-        <usage name="Military"/>
-    </type>
-    <type name="Ammo_9x39AP">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>0</quantmin>
-        <quantmax>0</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <tag name="shelves"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
 	
 	<!-- FireFly Main Additional Ammo -->
@@ -1836,53 +1521,6 @@
         <category name="weapons"/>
         <usage name="Military"/>
     </type>
-	
-	<!-- СТРЕЛЫ -->
-    <type name="Ammo_HuntingBolt">
-        <nominal>80</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>60</min>
-        <quantmin>40</quantmin>
-        <quantmax>80</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Hunting"/>
-    </type>
-    <type name="Ammo_ImprovisedBolt_1">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <category name="weapons"/>
-    </type>
-    <type name="Ammo_ImprovisedBolt_2">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <category name="weapons"/>
-    </type>
-	<type name="Ammo_CupidsBolt">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <category name="weapons"/>
-    </type>
 
 	<!-- КОРОБКИ ПАТРОНЫ -->
 	<type name="AmmoBox">
@@ -1896,50 +1534,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="containers"/>
         <usage name="Military"/>
-    </type>
-    <type name="AmmoBox_00buck_10rnd">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Police"/>
-        <usage name="Hunting"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-    <type name="AmmoBox_12gaRubberSlug_10Rnd">
-        <nominal>20</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>15</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Police"/>
-    </type>
-    <type name="AmmoBox_12gaSlug_10Rnd">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Police"/>
-        <usage name="Hunting"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
 	
 	<!-- FireFly Main Additional Ammo -->
@@ -2199,21 +1793,7 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-	
-    <type name="AmmoBox_22_50Rnd">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-    </type>
-	
+
 	<!-- FireFly Main Additional Ammo -->
 	<type name="AmmoBox_new_22Subsonic">
         <nominal>20</nominal>
@@ -2267,40 +1847,7 @@
         <usage name="Town"/>
         <usage name="Village"/>
     </type>
-	
-    <type name="AmmoBox_308WinTracer_20Rnd">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Hunting"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-    <type name="AmmoBox_308Win_20Rnd">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Hunting"/>
-        <value name="Tier1"/>
-		<value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-	
+
 	<!-- FireFly Main Additional Ammo -->
 	<type name="AmmoBox_new_308WinM61">
         <nominal>15</nominal>
@@ -2414,20 +1961,7 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-	
-    <type name="AmmoBox_357_20Rnd">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Town"/>
-    </type>
-	
+
 	<!-- FireFly Main Additional Ammo -->
 	<type name="AmmoBox_new_357QuikShokJhp">
         <nominal>20</nominal>
@@ -2514,19 +2048,6 @@
         <usage name="Town"/>
     </type>
 
-    <type name="AmmoBox_380_35rnd">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Police"/>
-    </type>
-	
 	<!-- FireFly Main Additional Ammo -->
 	<type name="AmmoBox_new_380BondedJhp">
         <nominal>20</nominal>
@@ -2601,19 +2122,6 @@
         <usage name="Police"/>
     </type>
 	
-    <type name="AmmoBox_45ACP_25rnd">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-    </type>
-	
 	<!-- FireFly Main Additional Ammo -->
 	<type name="AmmoBox_new_45AcpAP">
         <nominal>20</nominal>
@@ -2674,35 +2182,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-    </type>
-	
-    <type name="AmmoBox_545x39Tracer_20Rnd">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-    <type name="AmmoBox_545x39_20Rnd">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
 	
 	<!-- FireFly Main Additional Ammo -->
@@ -2875,36 +2354,6 @@
         <value name="Tier4"/>
     </type>
 	
-	
-    <type name="AmmoBox_556x45Tracer_20Rnd">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-    <type name="AmmoBox_556x45_20Rnd">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-	
 	<!-- FireFly Main Additional Ammo -->
 	<type name="AmmoBox_new_556x45M855">
         <nominal>20</nominal>
@@ -3032,37 +2481,7 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-	
-    <type name="AmmoBox_762x39Tracer_20Rnd">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-    <type name="AmmoBox_762x39_20Rnd">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <usage name="Hunting"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-	
+
 	<!-- FireFly Main Additional Ammo -->
 	<type name="AmmoBox_new_762x39Hp">
         <nominal>20</nominal>
@@ -3139,38 +2558,7 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-	
-    <type name="AmmoBox_762x54Tracer_20Rnd">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-    <type name="AmmoBox_762x54_20Rnd">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <usage name="Hunting"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-	
+
 	<!-- FireFly Main Additional Ammo -->
 	<type name="AmmoBox_new_762x547Bt1">
         <nominal>20</nominal>
@@ -3269,20 +2657,6 @@
         <value name="Tier4"/>
     </type>
 	
-    <type name="AmmoBox_9x19_25rnd">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <usage name="Police"/>
-    </type>
-	
 	<!-- FireFly Main Additional Ammo -->
 	<type name="AmmoBox_new_9x19Pst">
         <nominal>20</nominal>
@@ -3375,33 +2749,7 @@
         <usage name="Military"/>
         <usage name="Police"/>
     </type>
-	
-    <type name="AmmoBox_9x39AP_20Rnd">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier4"/>
-    </type>
-    <type name="AmmoBox_9x39_20Rnd">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-    </type>
-	
+
 	<!-- FireFly Main Additional Ammo -->
 	<type name="AmmoBox_new_9x39Sp5">
         <nominal>10</nominal>
