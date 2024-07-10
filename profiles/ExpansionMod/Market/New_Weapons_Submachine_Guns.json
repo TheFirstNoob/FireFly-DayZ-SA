@@ -8,10 +8,10 @@
     "Items": [
         {
             "ClassName": "CZ61",
-            "MaxPriceThreshold": 390,
-            "MinPriceThreshold": 312,
+            "MaxPriceThreshold": 3850,
+            "MinPriceThreshold": 770,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 16,
+            "MaxStockThreshold": 450,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
@@ -19,10 +19,10 @@
         },
         {
             "ClassName": "UMP45",
-            "MaxPriceThreshold": 565,
-            "MinPriceThreshold": 452,
+            "MaxPriceThreshold": 4900,
+            "MinPriceThreshold": 980,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 9,
+            "MaxStockThreshold": 375,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
@@ -30,37 +30,32 @@
         },
         {
             "ClassName": "MP5K",
-            "MaxPriceThreshold": 460,
-            "MinPriceThreshold": 368,
+            "MaxPriceThreshold": 4075,
+            "MinPriceThreshold": 815,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 12,
+            "MaxStockThreshold": 400,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "mp5k_stockbttstck",
-                "mp5_plastichndgrd"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
             "ClassName": "PP19",
-            "MaxPriceThreshold": 570,
-            "MinPriceThreshold": 456,
+            "MaxPriceThreshold": 5400,
+            "MinPriceThreshold": 1080,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 10,
+            "MaxStockThreshold": 400,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-				"pp19_bttstck"
-			],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
             "ClassName": "expansion_kedr",
-            "MaxPriceThreshold": 410,
-            "MinPriceThreshold": 328,
+            "MaxPriceThreshold": 3700,
+            "MinPriceThreshold": 740,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 15,
+            "MaxStockThreshold": 450,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
@@ -68,10 +63,10 @@
         },
         {
             "ClassName": "expansion_mpx",
-            "MaxPriceThreshold": 715,
-            "MinPriceThreshold": 567,
+            "MaxPriceThreshold": 6250,
+            "MinPriceThreshold": 1250,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 7,
+            "MaxStockThreshold": 300,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
@@ -79,10 +74,10 @@
         },
         {
             "ClassName": "expansion_mp7",
-            "MaxPriceThreshold": 525,
-            "MinPriceThreshold": 420,
+            "MaxPriceThreshold": 8000,
+            "MinPriceThreshold": 1600,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 10,
+            "MaxStockThreshold": 250,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
@@ -90,16 +85,13 @@
         },
         {
             "ClassName": "expansion_vityazsn",
-            "MaxPriceThreshold": 850,
-            "MinPriceThreshold": 580,
+            "MaxPriceThreshold": 7000,
+            "MinPriceThreshold": 1400,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 6,
+            "MaxStockThreshold": 350,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "ak_plasticbttstck",
-                "ak_plastichndgrd"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         }
     ]
