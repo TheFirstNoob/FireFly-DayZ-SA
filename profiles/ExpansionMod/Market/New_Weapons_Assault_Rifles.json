@@ -15,8 +15,7 @@
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [
-				"fal_oebttstck",
-				"mag_fal_20rnd"
+				"fal_oebttstck"
 			],
             "Variants": []
         },
@@ -28,9 +27,7 @@
             "MaxStockThreshold": 5,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "mag_famas_25rnd"
-            ],
+            "SpawnAttachments": [],
             "Variants": [
 				"SawedoffFAMAS"
 			]
@@ -43,9 +40,7 @@
             "MaxStockThreshold": 5,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "mag_aug_30rnd"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -56,9 +51,7 @@
             "MaxStockThreshold": 7,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "mag_aug_30rnd"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -69,9 +62,7 @@
             "MaxStockThreshold": 8,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "mag_expansion_g36_30rnd"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
 		{
@@ -366,6 +357,17 @@
             "MinPriceThreshold": 100,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 150,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+		{
+            "ClassName": "ASVAL",
+            "MaxPriceThreshold": 1885,
+            "MinPriceThreshold": 1508,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 8,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
