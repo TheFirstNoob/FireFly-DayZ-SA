@@ -11,20 +11,7 @@
             "MaxPriceThreshold": 3500,
             "MinPriceThreshold": 2800,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 4,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
-				"Mag_CLIP762x39_10Rnd"
-			],
-            "Variants": []
-        },
-		{
-            "ClassName": "SawedoffB95",
-            "MaxPriceThreshold": 1150,
-            "MinPriceThreshold": 920,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 8,
+            "MaxStockThreshold": 250,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
@@ -35,18 +22,20 @@
             "MaxPriceThreshold": 1675,
             "MinPriceThreshold": 1340,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 6,
+            "MaxStockThreshold": 500,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+				"SawedoffIzh18"
+			]
         },
 		{
             "ClassName": "SawedoffIzh18",
             "MaxPriceThreshold": 1175,
             "MinPriceThreshold": 940,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 8,
+            "MaxStockThreshold": 550,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
@@ -54,10 +43,10 @@
         },
         {
             "ClassName": "Ruger1022",
-            "MaxPriceThreshold": 800,
-            "MinPriceThreshold": 560,
+            "MaxPriceThreshold": 5000,
+            "MinPriceThreshold": 1000,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 10,
+            "MaxStockThreshold": 500,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
@@ -65,10 +54,10 @@
         },
         {
             "ClassName": "Repeater",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 960,
+            "MaxPriceThreshold": 9000,
+            "MinPriceThreshold": 1800,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 8,
+            "MaxStockThreshold": 400,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
@@ -76,36 +65,34 @@
         },
         {
             "ClassName": "Mosin9130",
-            "MaxPriceThreshold": 2470,
-            "MinPriceThreshold": 1976,
+            "MaxPriceThreshold": 21000,
+            "MinPriceThreshold": 4200,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 6,
+            "MaxStockThreshold": 350,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-				"Mag_CLIP762x54_5Rnd"
-			],
-            "Variants": []
+            "SpawnAttachments": [],
+            "Variants": [
+				"SawedoffMosin9130"
+			]
         },
 		{
             "ClassName": "SawedoffMosin9130",
-            "MaxPriceThreshold": 1725,
-            "MinPriceThreshold": 1380,
+            "MaxPriceThreshold": 19250,
+            "MinPriceThreshold": 3850,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 8,
+            "MaxStockThreshold": 375,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-				"Mag_CLIP762x54_5Rnd"
-			],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
             "ClassName": "CZ527",
-            "MaxPriceThreshold": 1915,
-            "MinPriceThreshold": 1532,
+            "MaxPriceThreshold": 23750,
+            "MinPriceThreshold": 4750,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 6,
+            "MaxStockThreshold": 325,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
@@ -113,10 +100,10 @@
         },
         {
             "ClassName": "CZ550",
-            "MaxPriceThreshold": 1850,
-            "MinPriceThreshold": 1480,
+            "MaxPriceThreshold": 26000,
+            "MinPriceThreshold": 5200,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 5,
+            "MaxStockThreshold": 300,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
@@ -124,10 +111,10 @@
         },
         {
             "ClassName": "Winchester70",
-            "MaxPriceThreshold": 2465,
-            "MinPriceThreshold": 1987,
+            "MaxPriceThreshold": 32500,
+            "MinPriceThreshold": 6500,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 5,
+            "MaxStockThreshold": 250,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
@@ -135,10 +122,10 @@
         },
         {
             "ClassName": "Expansion_Kar98",
-            "MaxPriceThreshold": 1725,
-            "MinPriceThreshold": 1380,
+            "MaxPriceThreshold": 23250,
+            "MinPriceThreshold": 4650,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 5,
+            "MaxStockThreshold": 350,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
@@ -146,10 +133,10 @@
         },
 		{
             "ClassName": "TF_VPO190",
-            "MaxPriceThreshold": 150,
-            "MinPriceThreshold": 100,
+            "MaxPriceThreshold": 12500,
+            "MinPriceThreshold": 2500,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 150,
+            "MaxStockThreshold": 400,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
@@ -157,10 +144,10 @@
         },
 		{
             "ClassName": "TF_M14_DMR",
-            "MaxPriceThreshold": 150,
-            "MinPriceThreshold": 100,
+            "MaxPriceThreshold": 55000,
+            "MinPriceThreshold": 11000,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 150,
+            "MaxStockThreshold": 180,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
@@ -168,10 +155,10 @@
         },
         {
             "ClassName": "TF_M14_EBR",
-            "MaxPriceThreshold": 150,
-            "MinPriceThreshold": 100,
+            "MaxPriceThreshold": 68750,
+            "MinPriceThreshold": 13750,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 150,
+            "MaxStockThreshold": 135,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
@@ -179,14 +166,28 @@
         },
 		{
             "ClassName": "TF_M14_STD",
-            "MaxPriceThreshold": 150,
-            "MinPriceThreshold": 100,
+            "MaxPriceThreshold": 42500,
+            "MinPriceThreshold": 8500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 150,
-            "MinStockThreshold": 0,
+            "MinStockThreshold": 220,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
+        },
+		{
+            "ClassName": "TF_SCAR_20_FDE",
+            "MaxPriceThreshold": 87500,
+            "MinPriceThreshold": 17500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"TF_SCAR_20_Black",
+				"TF_SCAR_20_Shd"
+			]
         }
     ]
 }
