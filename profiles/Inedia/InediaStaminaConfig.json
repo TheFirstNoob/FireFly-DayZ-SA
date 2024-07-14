@@ -143,15 +143,40 @@
         "SyberiaProjectStrengthImpactTo": 1.2999999523162842
     },
     "StaminaStimulants": [
+		{
+            "ItemClass": "SR_Food_Fizzo",
+            "StaminaGeneralIncreasePercent": 1.0,
+            "StaminaSleepIncreasePercent": 20.0
+        },
+		{
+            "ItemClass": "SR_Food_Fizzo_Orange",
+            "StaminaGeneralIncreasePercent": 1.0,
+            "StaminaSleepIncreasePercent": 20.0
+        },
+		{
+            "ItemClass": "SR_Food_Fizzo_Apple",
+            "StaminaGeneralIncreasePercent": 1.0,
+            "StaminaSleepIncreasePercent": 20.0
+        },
+		{
+            "ItemClass": "SR_Food_Fizzo_Blueberry",
+            "StaminaGeneralIncreasePercent": 1.0,
+            "StaminaSleepIncreasePercent": 20.0
+        },
+		{
+            "ItemClass": "SR_Food_Fizzo_Lemon",
+            "StaminaGeneralIncreasePercent": 1.0,
+            "StaminaSleepIncreasePercent": 20.0
+        },
         {
             "ItemClass": "SodaCan_Cola",
             "StaminaGeneralIncreasePercent": 1.0,
-            "StaminaSleepIncreasePercent": 10.0
+            "StaminaSleepIncreasePercent": 8.0
         },
         {
             "ItemClass": "SodaCan_Pipsi",
             "StaminaGeneralIncreasePercent": 1.0,
-            "StaminaSleepIncreasePercent": 10.0
+            "StaminaSleepIncreasePercent": 8.0
         },
         {
             "ItemClass": "SodaCan_Kvass",
@@ -171,7 +196,7 @@
         {
             "ItemClass": "Vodka",
             "StaminaGeneralIncreasePercent": 1.0,
-            "StaminaSleepIncreasePercent": -15.0
+            "StaminaSleepIncreasePercent": -10.0
         }
     ],
     "StaminaLiquidStimulants": [
