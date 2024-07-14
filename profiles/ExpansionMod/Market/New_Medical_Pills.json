@@ -1,6 +1,6 @@
 {
     "m_Version": 12,
-    "DisplayName": "Медицина - Таблетки и мазь",
+    "DisplayName": "Медицина - Таблетки| Мазь | Аптечки (TFN: Заменить)",
     "Icon": "Pills",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
@@ -63,6 +63,50 @@
         },
 		{
             "ClassName": "CP_Relief_Balm",
+            "MaxPriceThreshold": 20,
+            "MinPriceThreshold": 10,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+		{
+            "ClassName": "SR_Med_Analgin",
+            "MaxPriceThreshold": 20,
+            "MinPriceThreshold": 10,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+		{
+            "ClassName": "SR_Ai2",
+            "MaxPriceThreshold": 20,
+            "MinPriceThreshold": 10,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+		{
+            "ClassName": "SR_Ai2_Army",
+            "MaxPriceThreshold": 20,
+            "MinPriceThreshold": 10,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+		{
+            "ClassName": "SR_Ai2_Nauk",
             "MaxPriceThreshold": 20,
             "MinPriceThreshold": 10,
             "SellPricePercent": -1.0,
