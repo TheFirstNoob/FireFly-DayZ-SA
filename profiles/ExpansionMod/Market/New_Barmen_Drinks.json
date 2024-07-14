@@ -7,9 +7,25 @@
     "InitStockPercent": 75.0,
     "Items": [
         {
+            "ClassName": "SR_Food_Fizzo",
+            "MaxPriceThreshold": 800,
+            "MinPriceThreshold": 250,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"SR_Food_Fizzo_Orange",
+				"SR_Food_Fizzo_Apple",
+				"SR_Food_Fizzo_Blueberry",
+				"SR_Food_Fizzo_Lemon"
+			]
+        },
+		{
             "ClassName": "sodacan_pipsi",
-            "MaxPriceThreshold": 20,
-            "MinPriceThreshold": 10,
+            "MaxPriceThreshold": 650,
+            "MinPriceThreshold": 175,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -19,8 +35,8 @@
         },
         {
             "ClassName": "sodacan_cola",
-            "MaxPriceThreshold": 20,
-            "MinPriceThreshold": 10,
+            "MaxPriceThreshold": 650,
+            "MinPriceThreshold": 175,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -96,6 +112,17 @@
         },
         {
             "ClassName": "expansionmilkbottle",
+            "MaxPriceThreshold": 30,
+            "MinPriceThreshold": 15,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SR_Food_WaterMilk",
             "MaxPriceThreshold": 30,
             "MinPriceThreshold": 15,
             "SellPricePercent": -1.0,
