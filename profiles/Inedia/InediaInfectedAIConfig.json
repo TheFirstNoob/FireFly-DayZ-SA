@@ -375,11 +375,11 @@
                     "SawedoffIzh18",
                     "SawedoffIzh18Shotgun",
                     "SawedoffIzh43Shotgun",
-					"CZ61",
-					"PP19",
-					"UMP45",
-					"Expansion_Kedr",
-					"Expansion_VityazSN",
+                    "CZ61",
+                    "PP19",
+                    "UMP45",
+                    "Expansion_Kedr",
+                    "Expansion_VityazSN",
                     "CombatKnife",
                     "CombatKnife",
                     "CombatKnife",
@@ -538,15 +538,15 @@
                 "ItemClasses": [
                     "WoodenStick",
                     "SmallStone",
-					"SmallGuts",
-					"UnknownFoodCan",
-					"Apple",
-					"Pear",
-					"Tomato",
-					"Zucchini",
-					"Potato",
-					"DeadRat_Grey",
-					"DeadSqurrel"
+                    "SmallGuts",
+                    "UnknownFoodCan",
+                    "Apple",
+                    "Pear",
+                    "Tomato",
+                    "Zucchini",
+                    "Potato",
+                    "DeadRat_Grey",
+                    "DeadSqurrel"
                 ],
                 "Parameters": {
                     "ThrowConditionZombieTargetVerticalDistanceMin": 0.4000000059604645,
@@ -592,15 +592,15 @@
                 "ItemClasses": [
                     "WoodenStick",
                     "SmallStone",
-					"SmallGuts",
-					"UnknownFoodCan",
-					"Apple",
-					"Pear",
-					"Tomato",
-					"Zucchini",
-					"Potato",
-					"DeadRat_Grey",
-					"DeadSqurrel"
+                    "SmallGuts",
+                    "UnknownFoodCan",
+                    "Apple",
+                    "Pear",
+                    "Tomato",
+                    "Zucchini",
+                    "Potato",
+                    "DeadRat_Grey",
+                    "DeadSqurrel"
                 ],
                 "Parameters": {
                     "ThrowConditionAmountOfProjectiles": 2.0,
@@ -624,7 +624,7 @@
                     "Canteen",
                     "Binoculars",
                     "Binoculars",
-					"FishingRod"
+                    "FishingRod"
                 ],
                 "Parameters": {
                     "ThrowConditionAmountOfProjectiles": 2.0,
@@ -763,14 +763,6 @@
             "PoliceSpecForce": 1
         },
         "AttackAnimalsHandlerIsActive": {
-            "all": 0,
-            "FarmerMan": 1
-        },
-        "AttackAnimalsWolfs": {
-            "all": 0,
-            "FarmerMan": 1
-        },
-        "AttackAnimalsBears": {
             "all": 0,
             "FarmerMan": 1
         },
@@ -940,19 +932,19 @@
             "Santa": 3.0,
             "CivilianOldWoman": 0.0,
             "Firefighter": 2.5,
-            "MedicAndPatientMan": 1.2,
+            "MedicAndPatientMan": 1.2000000476837159,
             "PopClerk": 0.0,
-            "CivilianMan": 1.2,
-            "CivilianWoman": 1.2,
+            "CivilianMan": 1.2000000476837159,
+            "CivilianWoman": 1.2000000476837159,
             "Prisoner": 1.5,
-            "WorkerMan": 1.6,
-            "Nbc": 1.4,
+            "WorkerMan": 1.600000023841858,
+            "Nbc": 1.399999976158142,
             "Mummy": 3.0,
             "WorkerWoman": 1.5,
-            "MedicAndPatientWoman": 1.2,
+            "MedicAndPatientWoman": 1.2000000476837159,
             "Solder": 2.5,
             "CivilianOldMan": 0.0,
-            "FarmerMan": 0.4,
+            "FarmerMan": 0.4000000059604645,
             "PoliceSpecForce": 2.5
         },
         "UpJumpImpulseDamageChancePercent": {
@@ -1297,14 +1289,14 @@
             "Prisoner": 50.0,
             "WorkerMan": 100.0,
             "Nbc": 50.0,
-            "Mummy": 1000.0,
             "WorkerWoman": 80.0,
+            "Mummy": 1000.0,
+            "AlienScout": 600.0,
             "MedicAndPatientWoman": 6.0,
             "Solder": 70.0,
             "CivilianOldMan": 30.0,
             "FarmerMan": 30.0,
             "PoliceSpecForce": 70.0,
-            "AlienScout": 600.0,
             "AlienQueen": 1200.0
         },
         "InjuryHandlerRestoreInjuredLegAfterSeconds": {
@@ -1321,14 +1313,14 @@
             "Prisoner": 90.0,
             "WorkerMan": 20.0,
             "Nbc": 0.0,
-            "Mummy": 20.0,
             "WorkerWoman": 30.0,
+            "Mummy": 20.0,
+            "AlienScout": 10.0,
             "MedicAndPatientWoman": 60.0,
             "Solder": 30.0,
             "CivilianOldMan": 0.0,
             "FarmerMan": 0.0,
             "PoliceSpecForce": 30.0,
-			"AlienScout": 10.0,
             "AlienQueen": 5.0
         },
         "InjuryHandlerInjuredOneLegSpeedLimit": {
@@ -2032,7 +2024,7 @@
         },
         "DamageToZombieShockToStunLightHeavyAnimationThresholdRange": {
             "all": 70.0,
-			"AlienScout": 500.0,
+            "AlienScout": 500.0,
             "AlienQueen": 1200.0
         },
         "DamageToZombieShockToStunThresholdMeleeHeavy": {
@@ -2040,7 +2032,7 @@
         },
         "DamageToZombieShockToStunThresholdRange": {
             "all": 50.0,
-			"AlienScout": 300.0,
+            "AlienScout": 300.0,
             "AlienQueen": 600.0
         },
         "DamageToZombieShockToStunFromButtstockHit": {
@@ -2095,7 +2087,7 @@
             "all": 100.0
         },
         "BloodLossRateRegenMl": {
-            "all": 0.3
+            "all": 0.30000001192092898
         },
         "BloodOnExplosiveDamageChancePercent": {
             "all": 50.0
@@ -2259,7 +2251,7 @@
             "all": 1
         },
         "SizeFromMultiplier": {
-            "all": 0.850000011920929
+            "all": 0.8500000238418579
         },
         "SizeToMultiplier": {
             "all": 1.2000000476837159
