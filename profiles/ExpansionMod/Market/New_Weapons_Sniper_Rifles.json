@@ -8,88 +8,76 @@
     "Items": [
 		{
             "ClassName": "SSG82",
-            "MaxPriceThreshold": 1725,
-            "MinPriceThreshold": 1380,
+            "MaxPriceThreshold": 21250,
+            "MinPriceThreshold": 4250,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 5,
+            "MaxStockThreshold": 100,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-				"MAG_SSG82_5rnd"
-			],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
             "ClassName": "VSS",
-            "MaxPriceThreshold": 2350,
-            "MinPriceThreshold": 1880,
+            "MaxPriceThreshold": 17500,
+            "MinPriceThreshold": 3500,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 6,
+            "MaxStockThreshold": 75,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "mag_vss_10rnd"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
             "ClassName": "SVD",
-            "MaxPriceThreshold": 4125,
-            "MinPriceThreshold": 3300,
+            "MaxPriceThreshold": 43750,
+            "MinPriceThreshold": 8750,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 3,
+            "MaxStockThreshold": 65,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "mag_svd_10rnd"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
             "ClassName": "Scout",
-            "MaxPriceThreshold": 2600,
-            "MinPriceThreshold": 2080,
+            "MaxPriceThreshold": 25000,
+            "MinPriceThreshold": 5000,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 5,
+            "MaxStockThreshold": 100,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "mag_scout_5rnd"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
 		{
             "ClassName": "SV98",
-            "MaxPriceThreshold": 2600,
-            "MinPriceThreshold": 2080,
+            "MaxPriceThreshold": 61250,
+            "MinPriceThreshold": 12250,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 5,
+            "MaxStockThreshold": 40,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "mag_scout_5rnd"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
             "ClassName": "expansion_awm",
-            "MaxPriceThreshold": 7500,
-            "MinPriceThreshold": 5000,
+            "MaxPriceThreshold": 125000,
+            "MinPriceThreshold": 25000,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 3,
+            "MaxStockThreshold": 15,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "mag_expansion_awm_5rnd"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
 		{
             "ClassName": "TF_MAR10",
-            "MaxPriceThreshold": 150,
-            "MinPriceThreshold": 100,
+            "MaxPriceThreshold": 225000,
+            "MinPriceThreshold": 45000,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 150,
+            "MaxStockThreshold": 10,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
@@ -97,10 +85,10 @@
         },
 		{
             "ClassName": "TF_SR25",
-            "MaxPriceThreshold": 150,
-            "MinPriceThreshold": 100,
+            "MaxPriceThreshold": 71250,
+            "MinPriceThreshold": 14250,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 150,
+            "MaxStockThreshold": 35,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
@@ -108,10 +96,10 @@
         },
 		{
             "ClassName": "TF_SVCh308",
-            "MaxPriceThreshold": 150,
-            "MinPriceThreshold": 100,
+            "MaxPriceThreshold": 67500,
+            "MinPriceThreshold": 13500,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 150,
+            "MaxStockThreshold": 35,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
@@ -119,10 +107,10 @@
         },
 		{
             "ClassName": "TF_SVCh",
-            "MaxPriceThreshold": 150,
-            "MinPriceThreshold": 100,
+            "MaxPriceThreshold": 50000,
+            "MinPriceThreshold": 10000,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 150,
+            "MaxStockThreshold": 50,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
@@ -130,10 +118,10 @@
         },
 		{
             "ClassName": "TF_Anzio20",
-            "MaxPriceThreshold": 150,
-            "MinPriceThreshold": 100,
+            "MaxPriceThreshold": 9999999,
+            "MinPriceThreshold": 9999999,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 150,
+            "MaxStockThreshold": 1,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
