@@ -188,6 +188,39 @@
 				"TF_SCAR_20_Black",
 				"TF_SCAR_20_Shd"
 			]
+        },
+		{
+            "ClassName": "PNC_W_Beowulf50",
+            "MaxPriceThreshold": 125000,
+            "MinPriceThreshold": 25000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 25,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+		{
+            "ClassName": "PNC_W_SuperSniper",
+            "MaxPriceThreshold": 75000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 40,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+		{
+            "ClassName": "PNC_W_M110",
+            "MaxPriceThreshold": 92500,
+            "MinPriceThreshold": 18500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 40,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
         }
     ]
 }
