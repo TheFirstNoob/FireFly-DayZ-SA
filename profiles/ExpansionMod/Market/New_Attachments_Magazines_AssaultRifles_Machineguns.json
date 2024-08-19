@@ -237,7 +237,8 @@
 				"TF_Mag_AK74_Plum30Rnd",
 				"TF_Mag_AK74_Plastic30Rnd",
 				"TF_Mag_AK74_45Rnd",
-				"TF_Mag_AK74_60Rnd"
+				"TF_Mag_AK74_60Rnd",
+				"PNC_RPK16_Drum"
 			]
         },
 		{
@@ -285,6 +286,17 @@
             "Variants": []
         },
 		{
+            "ClassName": "PNC_RPK16_Drum",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 100,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+		{
             "ClassName": "TF_Mag_M240_50Rnd",
             "MaxPriceThreshold": 30,
             "MinPriceThreshold": 24,
@@ -312,6 +324,28 @@
             "MinPriceThreshold": 24,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 150,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+		{
+            "ClassName": "PNC_M60_Mag",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 100,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+		{
+            "ClassName": "PNC_Mag_PKP_200Rnd",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 100,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
             "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
@@ -349,11 +383,23 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-				"mag_stanag_60rnd"
+				"mag_stanag_60rnd",
+				"mag_cmag_100rnd"
 			]
         },
         {
             "ClassName": "mag_stanag_60rnd",
+            "MaxPriceThreshold": 960,
+            "MinPriceThreshold": 480,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+		{
+            "ClassName": "mag_cmag_100rnd",
             "MaxPriceThreshold": 960,
             "MinPriceThreshold": 480,
             "SellPricePercent": -1.0,
@@ -392,6 +438,30 @@
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+		{
+            "ClassName": "PNC_Mag_HoneyBadger_30Rnd",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 100,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"PNC_Mag_HoneyBadger_60Rnd"
+			]
+        },
+        {
+            "ClassName": "PNC_Mag_HoneyBadger_60Rnd",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 100,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 0,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
