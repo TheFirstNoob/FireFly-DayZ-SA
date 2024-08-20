@@ -1105,6 +1105,120 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
+        },
+		{
+            "ClassName": "Ammo_50Beowolf",
+            "MaxPriceThreshold": 1200,
+            "MinPriceThreshold": 240,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 3000,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "Ammo_12_7_55",
+            "MaxPriceThreshold": 2250,
+            "MinPriceThreshold": 450,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "Ammo_300AAC",
+            "MaxPriceThreshold": 300,
+            "MinPriceThreshold": 60,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 8000,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"Ammo_300AAC_AP"
+			]
+        },
+        {
+            "ClassName": "Ammo_300AAC_AP",
+            "MaxPriceThreshold": 390,
+            "MinPriceThreshold": 78,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 7500,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "Ammo_408CheyTac",
+            "MaxPriceThreshold": 1875,
+            "MinPriceThreshold": 375,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1800,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "Ammo_50BMG",
+            "MaxPriceThreshold": 3000,
+            "MinPriceThreshold": 600,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"Ammo_50BMG_AP"
+			]
+        },
+        {
+            "ClassName": "Ammo_50BMG_AP",
+            "MaxPriceThreshold": 3750,
+            "MinPriceThreshold": 750,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 850,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "Ammo_65Creedmore",
+            "MaxPriceThreshold": 840,
+            "MinPriceThreshold": 168,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 6000,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+		{
+            "ClassName": "TF_Ammo_20mm",
+            "MaxPriceThreshold": 15000,
+            "MinPriceThreshold": 3000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 450,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "TF_Ammo_20mm_HE",
+            "MaxPriceThreshold": 22500,
+            "MinPriceThreshold": 4500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 300,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
         }
     ]
 }

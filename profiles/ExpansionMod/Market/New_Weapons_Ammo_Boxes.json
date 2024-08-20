@@ -1083,6 +1083,109 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
+        },
+        {
+            "ClassName": "AmmoBox_338_30Rnd",
+            "MaxPriceThreshold": 35250,
+            "MinPriceThreshold": 7050,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 200,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+		{
+            "ClassName": "AmmoBox_50Beowolf_40Rnd",
+            "MaxPriceThreshold": 48000,
+            "MinPriceThreshold": 9600,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 300,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "AmmoBox_12_7_55_40Rnd",
+            "MaxPriceThreshold": 90000,
+            "MinPriceThreshold": 18000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "AmmoBox_300AAC_60Rnd",
+            "MaxPriceThreshold": 18000,
+            "MinPriceThreshold": 3600,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 600,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"AmmoBox_300AAC_AP_60Rnd"
+			]
+        },
+        {
+            "ClassName": "AmmoBox_300AAC_AP_60Rnd",
+            "MaxPriceThreshold": 23400,
+            "MinPriceThreshold": 4680,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 500,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "AmmoBox_408CheyTac_25Rnd",
+            "MaxPriceThreshold": 46875,
+            "MinPriceThreshold": 9375,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 180,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "AmmoBox_50BMG_30Rnd",
+            "MaxPriceThreshold": 90000,
+            "MinPriceThreshold": 18000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 80,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"AmmoBox_50BMG_AP_30Rnd"
+			]
+        },
+        {
+            "ClassName": "AmmoBox_50BMG_AP_30Rnd",
+            "MaxPriceThreshold": 112500,
+            "MinPriceThreshold": 22500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 60,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "AmmoBox_65Creedmore_50Rnd",
+            "MaxPriceThreshold": 42000,
+            "MinPriceThreshold": 8400,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 600,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
         }
     ]
 }
