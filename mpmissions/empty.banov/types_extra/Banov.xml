@@ -153,7 +153,7 @@
 	<!-- AREA 01 -->
 	<type name="Blue_Key">
         <nominal>10</nominal>
-        <lifetime>1800</lifetime>
+        <lifetime>3600</lifetime>
         <restock>0</restock>
         <min>5</min>
         <quantmin>-1</quantmin>
@@ -165,8 +165,8 @@
     </type>
 	<!-- AREA 02 -->
 	<type name="Red_Key">
-        <nominal>10</nominal>
-        <lifetime>21800</lifetime>
+        <nominal>7</nominal>
+        <lifetime>3600</lifetime>
         <restock>0</restock>
         <min>5</min>
         <quantmin>-1</quantmin>
@@ -174,20 +174,21 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
         <category name="Warlords"/>
-        <usage name="ContaminatedArea"/>
+        <usage name="Police"/>
     </type>
 	<!-- AREA 03 -->
 	<type name="Yellow_Key">
-        <nominal>10</nominal>
-        <lifetime>1800</lifetime>
+        <nominal>5</nominal>
+        <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
         <category name="Warlords"/>
-        <usage name="Historical"/>
+        <usage name="Underground"/>
+        <value name="Tier3"/>
     </type>
 	<type name="Key_Nano">	//Don't edit! 
         <nominal>0</nominal>
