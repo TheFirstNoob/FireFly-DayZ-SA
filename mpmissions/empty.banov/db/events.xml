@@ -16,8 +16,6 @@
         <active>1</active>
         <children>
             <child lootmax="20" lootmin="10" max="1" min="1" type="YRTSK_UFO_Crash"/>
-            <child lootmax="5" lootmin="0" max="3" min="1" type="BBJ_Spectral_v1"/>
-            <child lootmax="5" lootmin="0" max="3" min="1" type="BBJ_Spectral_v2"/>
          </children>
     </event>
 	<event name="StaticAmbulanceCar">
@@ -292,7 +290,7 @@
 		<children>
 			<child lootmax="0" lootmin="0" max="2" min="1" type="Animal_Raven"/>
 			<child lootmax="0" lootmin="0" max="4" min="1" type="Animal_Raven2"/>
-		<child lootmax="0" lootmin="0" max="2" min="1" type="Animal_Raven_Airborne"/>
+			<child lootmax="0" lootmin="0" max="2" min="1" type="Animal_Raven_Airborne"/>
 		</children>
 	</event>
 	<event name="AmbientSquirrel">
