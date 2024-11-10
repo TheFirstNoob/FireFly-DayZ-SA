@@ -1,16 +1,17 @@
 {
-    "version": 1.0,
+    "version": 1.100000023841858,
     "m_Settings": {
         "VirtualStorage": {
             "EnableVirtualStorage": 0,
             "EnableAutoStoreOnClose": 0,
             "EnableAutoStoreTimer": 0,
             "AutoStoreTimerInSeconds": 600,
-            "ItemsBlacklist": []
+            "ItemsBlacklist": [],
+            "ContainerBlacklist": []
         },
         "Openables": {
             "EnableAutoClose": 1,
-            "AutoCloseTimerInSeconds": 300
+            "AutoCloseTimerInSeconds": 600
         },
         "Fridge_Settings": {
             "EnableFridgePreservation": 0,
