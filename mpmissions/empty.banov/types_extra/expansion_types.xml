@@ -818,42 +818,6 @@
 		<tag name="shelves"/>
 		<usage name="Industrial"/>
 	</type>
-	<type name="ExpansionHelicopterBattery">
-		<nominal>3</nominal>
-		<lifetime>43200</lifetime>
-		<restock>0</restock>
-		<min>3</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<usage name="Underground"/>
-		<value name="Tier5"/>
-	</type>
-	<type name="ExpansionIgniterPlug">
-		<nominal>3</nominal>
-		<lifetime>43200</lifetime>
-		<restock>0</restock>
-		<min>3</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<usage name="Underground"/>
-		<value name="Tier5"/>
-	</type>
-	<type name="ExpansionHydraulicHoses">
-		<nominal>3</nominal>
-		<lifetime>43200</lifetime>
-		<restock>0</restock>
-		<min>3</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<usage name="Underground"/>
-		<value name="Tier5"/>
-	</type>
 	<!-- VEHICLE PARTS -->
 	<type name="ExpansionUAZWheel">
 		<nominal>25</nominal>
@@ -1148,35 +1112,6 @@
 		<value name="Tier2"/>
 		<value name="Tier3"/>
 	</type>
-	<!-- LAUNCHERS -->
-	<type name="Expansion_M79">
-		<nominal>0</nominal>
-		<lifetime>10800</lifetime>
-		<restock>1800</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<usage name="Military"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
-	</type>
-	<type name="ExpansionFlaregun">
-		<nominal>0</nominal>
-		<lifetime>10800</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<usage name="Military"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
-	</type>
 	<!-- PISTOLS -->
 	<type name="Expansion_M9">
 		<nominal>20</nominal>
@@ -1191,21 +1126,6 @@
 		<usage name="Military"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
-	</type>
-	<type name="Expansion_Longhorn">
-		<nominal>0</nominal>
-		<lifetime>10800</lifetime>
-		<restock>1800</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<usage name="Hunting"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
 	</type>
 	<!-- SUBMACHINE GUNS -->
 	<type name="Expansion_G36">
@@ -2022,7 +1942,7 @@
 	</type>
 	<type name="ExpansionCarKey">
 		<nominal>0</nominal>
-		<lifetime>7200</lifetime>
+		<lifetime>28800</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
