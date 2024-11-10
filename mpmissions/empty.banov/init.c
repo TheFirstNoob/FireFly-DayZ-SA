@@ -2,6 +2,29 @@
 
 void main()
 {
+	Weather weather = g_Game.GetWeather();
+ 
+    weather.MissionWeather(false);
+ 
+    weather.GetRain().SetLimits( 0.0 , 0.0 );
+    weather.GetOvercast().SetLimits( 0.0 , 0.0 );
+    weather.GetFog().SetLimits( 0.0 , 0.01 );
+ 
+    weather.GetOvercast().SetForecastChangeLimits( 0.0, 0.1 );
+    weather.GetRain().SetForecastChangeLimits( 0.0, 0.06 );
+    weather.GetFog().SetForecastChangeLimits( 0.0, 0.3 );
+ 
+    weather.GetOvercast().SetForecastTimeLimits( 1800 , 1800 );
+    weather.GetRain().SetForecastTimeLimits( 1 , 100 );
+    weather.GetFog().SetForecastTimeLimits( 1800 , 1800 );
+ 
+    weather.GetOvercast().Set( Math.RandomFloatInclusive(0.3, 0.4), 0, 0);
+    weather.GetRain().Set( Math.RandomFloatInclusive(0.0, 0.1), 0, 0);
+    weather.GetFog().Set( Math.RandomFloatInclusive(0.0, 0.1), 0, 0);
+ 
+    weather.SetWindMaximumSpeed(25);
+    weather.SetWindFunctionParams(0.1, 1.0, 50);
+	
 	//INIT ECONOMY--------------------------------------
 	Hive ce = CreateHive();
 	if ( ce )
@@ -9,7 +32,7 @@ void main()
 
 	//DATE RESET AFTER ECONOMY INIT-------------------------
 	int year, month, day, hour, minute;
-	int reset_month = 7, reset_day = 3;
+	int reset_month = 10, reset_day = 16;
 	GetGame().GetWorld().GetDate(year, month, day, hour, minute);
 
 	if ((month == reset_month) && (day < reset_day))
