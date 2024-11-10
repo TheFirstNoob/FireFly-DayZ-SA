@@ -17,7 +17,7 @@
 	<type name="BandageDressing">
         <nominal>40</nominal>
         <lifetime>14400</lifetime>
-        <restock>0</restock>
+        <restock>7200</restock>
         <min>30</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -30,7 +30,7 @@
 	<type name="BloodBagEmpty">
         <nominal>20</nominal>
         <lifetime>14400</lifetime>
-        <restock>0</restock>
+        <restock>7200</restock>
         <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -43,7 +43,7 @@
     <type name="BloodBagFull">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
-        <restock>0</restock>
+        <restock>7200</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -54,7 +54,7 @@
     <type name="BloodBagIV">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
-        <restock>0</restock>
+        <restock>7200</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -63,10 +63,10 @@
         <category name="tools"/>
     </type>
     <type name="BloodTestKit">
-        <nominal>10</nominal>
+        <nominal>100</nominal>
         <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>5</min>
+        <restock>7200</restock>
+        <min>70</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -78,7 +78,7 @@
 	<type name="SalineBag">
         <nominal>25</nominal>
         <lifetime>14400</lifetime>
-        <restock>0</restock>
+        <restock>7200</restock>
         <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -91,7 +91,7 @@
 	<type name="StartKitIV">
         <nominal>30</nominal>
         <lifetime>28800</lifetime>
-        <restock>0</restock>
+        <restock>7200</restock>
         <min>20</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -104,7 +104,7 @@
     <type name="SalineBagIV">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
-        <restock>0</restock>
+        <restock>7200</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -115,8 +115,8 @@
 	<type name="CharcoalTablets">
         <nominal>20</nominal>
         <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>12</min>
+        <restock>7200</restock>
+        <min>18</min>
         <quantmin>10</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -128,7 +128,7 @@
 	<type name="DisinfectantAlcohol">
         <nominal>80</nominal>
         <lifetime>14400</lifetime>
-        <restock>0</restock>
+        <restock>7200</restock>
         <min>60</min>
         <quantmin>10</quantmin>
         <quantmax>50</quantmax>
@@ -142,7 +142,7 @@
     <type name="DisinfectantSpray">
         <nominal>30</nominal>
         <lifetime>14400</lifetime>
-        <restock>0</restock>
+        <restock>7200</restock>
         <min>20</min>
         <quantmin>10</quantmin>
         <quantmax>50</quantmax>
@@ -157,7 +157,7 @@
 	<type name="Epinephrine">
         <nominal>30</nominal>
         <lifetime>28800</lifetime>
-        <restock>0</restock>
+        <restock>7200</restock>
         <min>20</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -168,10 +168,10 @@
         <usage name="Medic"/>
     </type>
 	<type name="Heatpack">
-        <nominal>50</nominal>
+        <nominal>150</nominal>
         <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>30</min>
+        <restock>14400</restock>
+        <min>120</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -179,11 +179,14 @@
         <category name="tools"/>
         <tag name="shelves"/>
         <usage name="Hunting"/>
+		<usage name="Medic"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
     </type>
 	<type name="IodineTincture">
         <nominal>40</nominal>
         <lifetime>28800</lifetime>
-        <restock>0</restock>
+        <restock>7200</restock>
         <min>30</min>
         <quantmin>10</quantmin>
         <quantmax>50</quantmax>
@@ -198,7 +201,7 @@
 	<type name="Morphine">
         <nominal>15</nominal>
         <lifetime>28800</lifetime>
-        <restock>0</restock>
+        <restock>7200</restock>
         <min>8</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -211,7 +214,7 @@
 	<type name="PainkillerTablets">
         <nominal>20</nominal>
         <lifetime>28800</lifetime>
-        <restock>0</restock>
+        <restock>7200</restock>
         <min>12</min>
         <quantmin>10</quantmin>
         <quantmax>50</quantmax>
@@ -225,7 +228,7 @@
         <nominal>50</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>30</min>
+        <min>40</min>
         <quantmin>10</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -238,8 +241,8 @@
 	<type name="TetracyclineAntibiotics">
         <nominal>20</nominal>
         <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>12</min>
+        <restock>7200</restock>
+        <min>18</min>
         <quantmin>10</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -251,8 +254,8 @@
 	<type name="VitaminBottle">
         <nominal>40</nominal>
         <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>20</min>
+        <restock>7200</restock>
+        <min>30</min>
         <quantmin>5</quantmin>
         <quantmax>20</quantmax>
         <cost>100</cost>
@@ -263,10 +266,10 @@
         <usage name="Village"/>
     </type>
     <type name="Thermometer">
-        <nominal>40</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>30</min>
+        <restock>7200</restock>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -280,7 +283,7 @@
 	<type name="Splint">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
-        <restock>0</restock>
+        <restock>7200</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -291,7 +294,7 @@
     <type name="Splint_Applied">
         <nominal>0</nominal>
         <lifetime>3</lifetime>
-        <restock>0</restock>
+        <restock>7200</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -303,7 +306,7 @@
 	<type name="FirstAidKit">
         <nominal>15</nominal>
         <lifetime>14400</lifetime>
-        <restock>0</restock>
+        <restock>7200</restock>
         <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
