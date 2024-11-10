@@ -460,7 +460,21 @@
             ]
         }
     ],
-    "InventoryCargo": [],
+    "InventoryCargo": [
+	{
+            "ClassName": "Heatpack",
+            "Chance": 1.0,
+            "Quantity": {
+                "Min": 0.6,
+                "Max": 1.0
+            },
+            "Health": [],
+            "InventoryAttachments": [],
+            "InventoryCargo": [],
+            "ConstructionPartsBuilt": [],
+            "Sets": []
+        }
+	],
     "ConstructionPartsBuilt": [],
     "Sets": []
 }

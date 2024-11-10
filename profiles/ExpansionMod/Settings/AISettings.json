@@ -1,12 +1,14 @@
 {
-    "m_Version": 10,
-    "AccuracyMin": 0.3499999940395355,
-    "AccuracyMax": 0.949999988079071,
-    "ThreatDistanceLimit": 800.0,
+    "m_Version": 11,
+    "AccuracyMin": 0.1499999940395355,
+    "AccuracyMax": 0.649999988079071,
+    "ThreatDistanceLimit": 700.0,
     "NoiseInvestigationDistanceLimit": 500.0,
     "DamageMultiplier": 1.0,
     "DamageReceivedMultiplier": 1.0,
-    "Admins": ["76561198072428132"],
+    "Admins": [
+        "76561198072428132"
+    ],
     "MaximumDynamicPatrols": -1,
     "Vaulting": 1,
     "SniperProneDistanceThreshold": 0.0,
@@ -15,6 +17,8 @@
     "CanRecruitFriendly": 0,
     "CanRecruitGuards": 0,
     "PreventClimb": [],
+    "ExcludedRoamingLocations": [],
+    "ExcludedRoamingBuildings": [],
     "PlayerFactions": [],
     "LogAIHitBy": 0,
     "LogAIKilled": 0

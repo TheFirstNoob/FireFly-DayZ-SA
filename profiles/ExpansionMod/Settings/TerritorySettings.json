@@ -1,5 +1,5 @@
 {
-    "m_Version": 4,
+    "m_Version": 5,
     "EnableTerritories": 1,
     "UseWholeMapForInviteList": 0,
     "TerritorySize": 40.0,
@@ -8,5 +8,6 @@
     "MaxTerritoryPerPlayer": 1,
     "TerritoryInviteAcceptRadius": 100.0,
     "AuthenticateCodeLockIfTerritoryMember": 0,
-    "InviteCooldown": 0
+    "InviteCooldown": 0,
+    "OnlyInviteGroupMember": 0
 }

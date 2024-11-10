@@ -1,7 +1,8 @@
 {
-    "m_Version": 14,
+    "m_Version": 15,
     "DisableShootToUnlock": 1,
     "EnableGravecross": 1,
+    "EnableAIGravecross": 0,
     "GravecrossDeleteBody": 0,
     "GravecrossTimeThreshold": 1800.0,
     "GravecrossSpawnTimeDelay": 180.0,
@@ -42,7 +43,7 @@
     "EnableAutoRun": 1,
     "UseDeathScreen": 0,
     "UseDeathScreenStatistics": 0,
-    "UseExpansionMainMenuLogo": 0,
+    "UseExpansionMainMenuLogo": 1,
     "UseExpansionMainMenuIcons": 0,
     "UseExpansionMainMenuIntroScene": 0,
     "UseNewsFeedInGameMenu": 0,
