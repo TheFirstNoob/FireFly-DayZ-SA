@@ -648,6 +648,16 @@
                 "ClassName": "Apple",
                 "Quantity": -1,
                 "Attachments": []
+            },
+            {
+                "ClassName": "Heatpack",
+                "Quantity": -1,
+                "Attachments": []
+            },
+            {
+                "ClassName": "Heatpack",
+                "Quantity": -1,
+                "Attachments": []
             }
         ],
         "PantsGear": [],
@@ -670,8 +680,8 @@
         }
     ],
     "SpawnHealthValue": 100.0,
-    "SpawnEnergyValue": 1500.0,
-    "SpawnWaterValue": 1200.0,
+    "SpawnEnergyValue": 2000.0,
+    "SpawnWaterValue": 2000.0,
     "EnableRespawnCooldowns": 1,
     "RespawnCooldown": 10800,
     "TerritoryRespawnCooldown": 240,
