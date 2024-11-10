@@ -46,7 +46,17 @@
 	<type name="Refrigerator"></type>
 	<type name="Radio"></type>
 	<type name="BearTrap"></type>
-	<type name="LandMineTrap"></type>
+
+	<type name="CigarettePack_Chernamorka"></type>
+	<type name="CigarettePack_Merkur"></type>
+	<type name="CigarettePack_Partyzanka"></type>
+	<type name="EasterEgg"></type>
+
+	<type name="A6_SecureContainer_Alpha"></type>
+	<type name="A6_SecureContainer_Beta"></type>
+	<type name="A6_SecureContainer_Epsilon"></type>
+	<type name="A6_SecureContainer_Gamma"></type>
+	<type name="A6_SecureContainer_Kappa"></type>
 	
 	<type name="Chernarus_Map"></type>
 	<type name="Chernarus_Map_Open"></type>
@@ -78,7 +88,6 @@
 	<type name="IceAxe"></type>
 	<type name="Paddle"></type>
 	<type name="Ammo_CupidsBolt"></type>
-	<type name="Headtorch_Black"></type>
 
 	<type name="Magnum_Cylinder"></type>
 	<type name="Magnum_Ejector"></type>
@@ -128,7 +137,6 @@
 	<type name="mag_cmag_20rnd"></type>
 	<type name="mag_cmag_30rnd"></type>
 	<type name="mag_cmag_40rnd"></type>
-	<type name="Mag_STANAGCoupled_30Rnd"></type>
 	<type name="mag_ak101_30rnd"></type>
 	<type name="mag_ak74_30rnd"></type>
 	<type name="mag_ak74_45rnd"></type>
@@ -280,10 +288,10 @@
 	<type name="Expansion_Taser_Yellow"></type>
 	<type name="Expansion_Taser_Black"></type>
 	<type name="Mag_Expansion_Taser"></type>
-	<type name="Ammo_Expansion_Taser"></type>
 	<type name="Expansion_LobotomyDartGun"></type>
 	<type name="Mag_Expansion_LobotomyDart"></type>
 	<type name="Ammo_Expansion_LobotomyDart"></type>
+	<type name="Ammo_Expansion_Taser"></type>
 	<type name="Mag_Expansion_M14_10Rnd"></type>
 	<type name="Mag_Expansion_M14_20Rnd"></type>
 
@@ -302,43 +310,13 @@
 	<type name="TF_PKM_Bipod"></type>
 	<type name="TF_PKP_Bipod"></type>
 
-	<type name="TF_EMPGrenade"></type>
-	<type name="TF_PhosphorusGrenade"></type>
-	<type name="TF_TeargasGrenade"></type>
-	<type name="TF_ChemicalGrenade"></type>
+	<type name="TF_AR10_LancerHndgrd_MLOCK"></type>
+	<type name="TF_AR10_NoveskeHndgrd_Short_RIS"></type>
+	<type name="TF_AR10_NoveskeHndgrd_Long_RIS"></type>
+	<type name="TF_AR10_URXHndgrd_MLOCK"></type>
 
 	<type name="ExpansionGyrocopter"></type>
 	<type name="ExpansionBigGyrocopter"></type>
-	<type name="ExpansionMerlin"></type>
-	<type name="ExpansionMerlin_Green"></type>
-	<type name="ExpansionMerlin_Dahoman"></type>
-	<type name="ExpansionMerlin_Ion"></type>
-	<type name="ExpansionMerlin_President"></type>
-	<type name="ExpansionMerlin_Vrana"></type>
-	<type name="ExpansionMerlin_Wave"></type>
-	<type name="ExpansionMh6"></type>
-	<type name="ExpansionMh6_Green"></type>
-	<type name="ExpansionMh6_Blueline"></type>
-	<type name="ExpansionMh6_Digital"></type>
-	<type name="ExpansionMh6_Elliptical"></type>
-	<type name="ExpansionMh6_Furious"></type>
-	<type name="ExpansionMh6_GrayWatcher"></type>
-	<type name="ExpansionMh6_Jeans"></type>
-	<type name="ExpansionMh6_Resistance"></type>
-	<type name="ExpansionMh6_Shadow"></type>
-	<type name="ExpansionMh6_Sheriff"></type>
-	<type name="ExpansionMh6_Speedy"></type>
-	<type name="ExpansionMh6_Sunset"></type>
-	<type name="ExpansionMh6_Vrana"></type>
-	<type name="ExpansionMh6_Wasp"></type>
-	<type name="ExpansionMh6_Wave"></type>
-	<type name="ExpansionMh6_Black"></type>
-	<type name="ExpansionUh1h"></type>
-	<type name="ExpansionUh1h_Green"></type>
-	<type name="ExpansionUh1h_Civilian"></type>
-	<type name="ExpansionUh1h_Medical"></type>
-	<type name="ExpansionUh1h_Uber"></type>
-	<type name="ExpansionUh1h_Resistance"></type>
 	<type name="ExpansionBus"></type>
 	<type name="ExpansionBus_Blue"></type>
 	<type name="ExpansionBus_Weeb"></type>
@@ -358,7 +336,6 @@
 	<type name="ExpansionZodiacBoat_Orange"></type>
 	<type name="ExpansionZodiacBoat_Black"></type>
 	<type name="ExpansionZodiacBoat_Green"></type>
-
 	<type name="artillery_tractor"></type>
 	<type name="artillery_tractor_camo"></type>
 	<type name="artillery_tractor_kung"></type>
@@ -374,6 +351,7 @@
 	<type name="BTR_80_P_camo"></type>
 	<type name="BTR_80_P_camo2"></type>
 	<type name="BTR_80_P_rust"></type>
+
 	<type name="M3A1_Scout_Car"></type>
 	<type name="m4_tractor"></type>
 	<type name="m4_tractor_usa"></type>
@@ -387,9 +365,9 @@
 	<type name="T_34_76_camo2"></type>
 	<type name="Willys_MB"></type>
 	<type name="ZIS5_Benzovoz"></type>
+	
 	<type name="UAZ_469_milicia_wheel_Ruined"></type>
 	<type name="ExpansionAircraftBattery"></type>
-
 	<type name="headlighth7_box"></type>
 
 	<type name="Expansion_ANPEQ15_Red"></type>
@@ -442,13 +420,23 @@
 	<type name="Expansion_Ammo_FlareSupplyRed"></type>
 	<type name="Expansion_Ammo_FlareSupplyGreen"></type>
 	<type name="Expansion_Ammo_FlareSupplyBlue"></type>
-
+	
+	<type name="Ammo_40mm_Chemgas"></type>
+	<type name="Ammo_40mm_Explosive"></type>
+	<type name="Ammo_40mm_Smoke_Black"></type>
+	<type name="Ammo_40mm_Smoke_Green"></type>
+	<type name="Ammo_40mm_Smoke_Red"></type>
+	<type name="Ammo_40mm_Smoke_White"></type>
+	<type name="M18SmokeGrenade_Green"></type>
+	<type name="M18SmokeGrenade_Purple"></type>
+	<type name="M18SmokeGrenade_Red"></type>
+	<type name="M18SmokeGrenade_White"></type>
+	<type name="M18SmokeGrenade_Yellow"></type>
 	<type name="ClaymoreMine"></type>
 	<type name="ImprovisedExplosive"></type>
 	<type name="ExpansionSatchel"></type>
 	<type name="Plastic_Explosive"></type>
 	<type name="LandMineTrap"></type>
-	<type name="ClaymoreMine"></type>
 	<type name="RemoteDetonator"></type>
 	<type name="RemoteDetonatorReciver"></type>
 	<type name="RemoteDetonatorTrigger"></type>
