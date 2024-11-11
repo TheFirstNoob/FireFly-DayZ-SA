@@ -14,20 +14,6 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-	<type name="Mag_M14_10Rnd">
-        <nominal>20</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>14</min>
-        <quantmin>30</quantmin>
-        <quantmax>90</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
 	<type name="Mag_1911_7Rnd">
         <nominal>30</nominal>
         <lifetime>14400</lifetime>
