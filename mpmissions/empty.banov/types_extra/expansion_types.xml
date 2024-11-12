@@ -1973,10 +1973,10 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="ExpansionBoltCutters">
-		<nominal>0</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>0</restock>
-		<min>0</min>
+		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -1985,10 +1985,10 @@
 		<usage name="Industrial"/>
 	</type>
 	<type name="ExpansionPropaneTorch">
-		<nominal>0</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>0</restock>
-		<min>0</min>
+		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -1997,10 +1997,10 @@
 		<usage name="Industrial"/>
 	</type>
 	<type name="ExpansionToolBox">
-		<nominal>0</nominal>
+		<nominal>10</nominal>
 		<lifetime>7200</lifetime>
 		<restock>0</restock>
-		<min>0</min>
+		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
