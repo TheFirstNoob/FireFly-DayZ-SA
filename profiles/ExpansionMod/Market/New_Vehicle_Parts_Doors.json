@@ -35,32 +35,6 @@
 			]
         },
 		{
-            "ClassName": "AEC_Matador_doors_driver",
-            "MaxPriceThreshold": 1800,
-            "MinPriceThreshold": 700,
-            "SellPricePercent": -1,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-				"AEC_Matador_doors_driver_camo"
-			]
-        },
-        {
-            "ClassName": "AEC_Matador_doors_codriver",
-            "MaxPriceThreshold": 1800,
-            "MinPriceThreshold": 700,
-            "SellPricePercent": -1,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-				"AEC_Matador_doors_codriver_camo"
-			]
-        },
-		{
             "ClassName": "AZLK_2141RF_doors_driver",
             "MaxPriceThreshold": 1800,
             "MinPriceThreshold": 700,
@@ -1082,32 +1056,6 @@
                 "moskvich_407_doors_cargo2_double_blue",
                 "moskvich_407_doors_cargo2_double_red",
                 "moskvich_407_doors_cargo2_grey"
-            ]
-        },
-		{
-            "ClassName": "opel_blitz_doors_driver",
-            "MaxPriceThreshold": 1800,
-            "MinPriceThreshold": 700,
-            "SellPricePercent": -1,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "opel_blitz_doors_driver_grey"
-            ]
-        },
-        {
-            "ClassName": "opel_blitz_doors_codriver",
-            "MaxPriceThreshold": 1800,
-            "MinPriceThreshold": 700,
-            "SellPricePercent": -1,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "opel_blitz_doors_codriver_grey"
             ]
         },
 		{
@@ -2381,58 +2329,6 @@
             ]
         },
 		{
-            "ClassName": "ZIL133_double_doors_driver",
-            "MaxPriceThreshold": 1800,
-            "MinPriceThreshold": 700,
-            "SellPricePercent": -1,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "ZIL133_double_doors_driver_green"
-            ]
-        },
-        {
-            "ClassName": "ZIL133_double_doors_codriver",
-            "MaxPriceThreshold": 1800,
-            "MinPriceThreshold": 700,
-            "SellPricePercent": -1,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "ZIL133_double_doors_codriver_green"
-            ]
-        },
-        {
-            "ClassName": "ZIL133_double_doors_cargo1",
-            "MaxPriceThreshold": 1800,
-            "MinPriceThreshold": 700,
-            "SellPricePercent": -1,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "ZIL133_double_doors_cargo1_green"
-            ]
-        },
-        {
-            "ClassName": "ZIL133_double_doors_cargo2",
-            "MaxPriceThreshold": 1800,
-            "MinPriceThreshold": 700,
-            "SellPricePercent": -1,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "ZIL133_double_doors_cargo2_green"
-            ]
-        },
-		{
             "ClassName": "ZIL_130_doors_driver",
             "MaxPriceThreshold": 1800,
             "MinPriceThreshold": 700,
@@ -2509,28 +2405,6 @@
                 "ZIL_157_rus_doors_codriver_gray",
                 "ZIL_157_rus_doors_codriver_yellow"
             ]
-        },
-		{
-            "ClassName": "ZiS5_Benzovoz_doors_driver",
-            "MaxPriceThreshold": 1800,
-            "MinPriceThreshold": 700,
-            "SellPricePercent": -1,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "ZiS5_Benzovoz_doors_codriver",
-            "MaxPriceThreshold": 1800,
-            "MinPriceThreshold": 700,
-            "SellPricePercent": -1,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         },
 		{
             "ClassName": "IJ_2140_SL_doors_driver",
