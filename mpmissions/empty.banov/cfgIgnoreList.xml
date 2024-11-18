@@ -17,7 +17,6 @@
 	<type name="BandanaHead_PolkaPattern"></type>
 	<type name="BandanaHead_RedPattern"></type>
 	<type name="CattleProd"></type>
-	<type name="StunBaton"></type>
 	<type name="DallasMask"></type>
 	<type name="HoxtonMask"></type>
 	<type name="WolfMask"></type>
@@ -46,17 +45,7 @@
 	<type name="Refrigerator"></type>
 	<type name="Radio"></type>
 	<type name="BearTrap"></type>
-
-	<type name="CigarettePack_Chernamorka"></type>
-	<type name="CigarettePack_Merkur"></type>
-	<type name="CigarettePack_Partyzanka"></type>
 	<type name="EasterEgg"></type>
-
-	<type name="A6_SecureContainer_Alpha"></type>
-	<type name="A6_SecureContainer_Beta"></type>
-	<type name="A6_SecureContainer_Epsilon"></type>
-	<type name="A6_SecureContainer_Gamma"></type>
-	<type name="A6_SecureContainer_Kappa"></type>
 	
 	<type name="Chernarus_Map"></type>
 	<type name="Chernarus_Map_Open"></type>
@@ -85,9 +74,7 @@
 	<type name="Cassette"></type>
 	<type name="HayHook"></type>
 	<type name="ObsoleteFishingRot"></type>
-	<type name="IceAxe"></type>
 	<type name="Paddle"></type>
-	<type name="Ammo_CupidsBolt"></type>
 
 	<type name="Magnum_Cylinder"></type>
 	<type name="Magnum_Ejector"></type>
@@ -193,6 +180,10 @@
 	<type name="AmmoBox_9x19_25rnd"></type>
 	<type name="AmmoBox_9x39_20Rnd"></type>
 	<type name="AmmoBox_9x39AP_20Rnd"></type>
+
+	<type name="Ammo_Flare"></type>
+	<type name="Ammo_FlareBlue"></type>
+	<type name="Ammo_FlareGreen"></type>
 
 	<type name="Crossbow_Black"></type>
 	<type name="Crossbow_Autumn"></type>
@@ -415,14 +406,8 @@
 	<type name="ExpansionSilverNugget"></type>
 	<type name="ExpansionBanknoteUSD"></type>
 	<type name="ExpansionBanknoteEuro"></type>
-
-	<type name="Expansion_Ammo_FlareSupplyBase"></type>
-	<type name="Expansion_Ammo_FlareSupplyRed"></type>
-	<type name="Expansion_Ammo_FlareSupplyGreen"></type>
-	<type name="Expansion_Ammo_FlareSupplyBlue"></type>
 	
 	<type name="Ammo_40mm_Chemgas"></type>
-	<type name="Ammo_40mm_Explosive"></type>
 	<type name="Ammo_40mm_Smoke_Black"></type>
 	<type name="Ammo_40mm_Smoke_Green"></type>
 	<type name="Ammo_40mm_Smoke_Red"></type>
@@ -530,6 +515,8 @@
 	<type name="MSP_WaterBarrel_Valve"></type>
 	<type name="MSP_WaterBarrel_Valve_Darkwood"></type>
 	<type name="MSP_WaterBarrel_Valve_Faucet"></type>
+	<type name="Msp_Water_Gun"></type>
+	<type name="Msp_Water_Gun_Mag"></type>
 	<type name="MSP_Sawblade"></type>
 	<type name="MSP_BaseballCap_Beige"></type>
 	<type name="MSP_BaseballCap_Black"></type>
@@ -540,6 +527,17 @@
 	<type name="MSP_BaseballCap_Red"></type>
 	<type name="MSP_BaseballCap_CMMG_Black"></type>
 	<type name="MSP_BaseballCap_CMMG_Pink"></type>
+	
+	<type name="msp_baseballbat"></type>
+	<type name="msp_baseballbat_barbedwire"></type>
+	<type name="msp_baseballbat_chain"></type>
+	<type name="msp_baseballbat_nailed"></type>
+	<type name="msp_baseballbat_sawbarbedwire"></type>
+	<type name="msp_plainbat"></type>
+	<type name="msp_plainbat_black"></type>
+	<type name="msp_plainbat_blue"></type>
+	<type name="msp_goodnightbat"></type>
+	<type name="msp_blunderbat"></type>
 
 	<type name="FreezeGem_Base"></type>
 	<type name="FreezeBar_base"></type>
