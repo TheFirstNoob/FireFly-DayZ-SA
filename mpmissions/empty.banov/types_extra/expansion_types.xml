@@ -1294,23 +1294,6 @@
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 	</type>
-	<!-- AMMO -->
-	<type name="Expansion_Ammo_8mm">
-		<nominal>40</nominal>
-		<lifetime>7200</lifetime>
-		<restock>800</restock>
-		<min>30</min>
-		<quantmin>10</quantmin>
-		<quantmax>80</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<usage name="Town"/>
-		<usage name="Village"/>
-		<usage name="Hunting"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-	</type>
 	<type name="Ammo_Expansion_M203_Smoke_White">
 		<nominal>10</nominal>
 		<lifetime>7200</lifetime>
@@ -1474,18 +1457,6 @@
 		<min>5</min>
 		<quantmin>100</quantmin>
 		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<usage name="Military"/>
-	</type>
-	<type name="Ammo_Expansion_46x30">
-		<nominal>20</nominal>
-		<lifetime>10800</lifetime>
-		<restock>0</restock>
-		<min>12</min>
-		<quantmin>25</quantmin>
-		<quantmax>80</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
