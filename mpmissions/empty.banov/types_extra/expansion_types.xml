@@ -1263,37 +1263,6 @@
 		<value name="Tier3"/>
 	</type>
 	<!-- AMMOBOXES -->
-	<type name="AmmoBox_Expansion_46x30_25rnd">
-		<nominal>10</nominal>
-		<lifetime>10800</lifetime>
-		<restock>0</restock>
-		<min>5</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<tag name="shelves"/>
-		<usage name="Military"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
-	</type>
-	<type name="Expansion_AmmoBox_8mm_15rnd">
-		<nominal>30</nominal>
-		<lifetime>7200</lifetime>
-		<restock>800</restock>
-		<min>20</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<usage name="Town"/>
-		<usage name="Village"/>
-		<usage name="Hunting"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-	</type>
 	<type name="Ammo_Expansion_M203_Smoke_White">
 		<nominal>10</nominal>
 		<lifetime>7200</lifetime>
