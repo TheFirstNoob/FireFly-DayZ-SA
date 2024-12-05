@@ -1,7 +1,7 @@
 /*
 	Автор: 123new aka Sania(ZoS) 
 	Создано для проекта: Zone of Survival (ZoS)
-	Версия: 1.04 (21.10.2020) - TFN: Работает на 1.25
+	Версия: 1.04 (21.10.2020) - TFN: Работает на 1.21
 	Взято: https://s-platoon.ru/files/file/16-restart-system-with-autokick-sistema-restartov-s-avtokikom-igrokov/
 	P.S. С новой политикой автора скрипт стал бесплатным и свободно распространяется, но больше не дорабатывается.
 	Спрашивайте разрешение у автора на изменение кода (Перевод можете сделать сами если требуется).
@@ -11,7 +11,7 @@
 	ВНИМАНИЕ TFN: Скрипт посылает shutdown на сервер и ваш DayZ_Server64.exe будет закрыт. Автозапуска НЕ БУДЕТ! Делайте это через планировщик или bat файлом через тот же loop.
 
 	Инструкция: Добавить первой строчкой в init.c
-	#include "$CurrentDir:mpmissions\dayzOffline или empty.mapname\Restart_System.c"
+	#include "$CurrentDir:mpmissions\dayzOffline.chernarusplus\Restart_System.c"
 */
 #define RestartServer_System
 class RestartServer_System

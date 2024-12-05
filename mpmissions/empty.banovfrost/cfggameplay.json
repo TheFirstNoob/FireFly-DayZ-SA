@@ -1,0 +1,100 @@
+{
+	"version": 122,
+	"GeneralData":
+	{
+		"disableBaseDamage": false,
+		"disableContainerDamage": false,
+		"disableRespawnDialog": false
+	},
+    "PlayerData":
+	{
+		"disablePersonalLight": true,
+		"StaminaData":
+		{
+			"sprintStaminaModifierErc": 0.8,
+			"sprintStaminaModifierCro": 1.0,
+			"staminaWeightLimitThreshold": 6000.0,
+			"staminaMax": 100.0,
+			"staminaKgToStaminaPercentPenalty": 1.25,
+			"staminaMinCap": 10.0,
+			"sprintSwimmingStaminaModifier": 1.2,
+			"sprintLadderStaminaModifier": 1.2,
+			"meleeStaminaModifier": 0.8,
+			"obstacleTraversalStaminaModifier": 1.1,
+			"holdBreathStaminaModifier": 0.5
+		},
+		"ShockHandlingData":
+		{
+			"shockRefillSpeedConscious": 5.0,
+			"shockRefillSpeedUnconscious": 2.0,
+			"allowRefillSpeedModifier": true
+		},
+		"MovementData":
+		{
+			"timeToStrafeJog": 0.2,
+			"rotationSpeedJog": 0.4,
+			"timeToSprint": 0.65,
+			"timeToStrafeSprint": 0.4,
+			"rotationSpeedSprint": 0.25,
+			"allowStaminaAffectInertia": true
+		},
+		"DrowningData":
+		{
+			"staminaDepletionSpeed": 10.0,
+			"healthDepletionSpeed": 10.0,
+			"shockDepletionSpeed": 10.0
+		}
+	},
+	"WorldsData":
+	{
+		"lightingConfig": 1,
+		"objectSpawnersArr": [],
+		"environmentMinTemps": [-10.0, -7.0, -2.0, 1.0, 5.0, 11.0, 16.0, 10.0, 6.0, 2.0, 0.0, -5.0],
+		"environmentMaxTemps": [5.0, 8.0, 12.0, 18.0, 23.0, 26.0, 28.0, 24.0, 19.0, 16.0, 12.0, 8.0],
+		"wetnessWeightModifiers": [1.0, 1.1, 1.33, 1.66, 2.0]
+	},
+	"BaseBuildingData":
+	{
+		"HologramData":
+		{
+			"disableIsCollidingBBoxCheck": false,
+			"disableIsCollidingPlayerCheck": false,
+			"disableIsClippingRoofCheck": false,
+			"disableIsBaseViableCheck": false,
+			"disableIsCollidingGPlotCheck": false,
+			"disableIsCollidingAngleCheck": false,
+			"disableIsPlacementPermittedCheck": false,
+			"disableHeightPlacementCheck": false,
+			"disableIsUnderwaterCheck": false,
+			"disableIsInTerrainCheck": false
+		},
+		"ConstructionData":
+		{
+			"disablePerformRoofCheck": false,
+			"disableIsCollidingCheck": false,
+			"disableDistanceCheck": false
+		}
+	},
+	"UIData":
+	{
+		"use3DMap": false,
+		"HitIndicationData":
+		{
+			"hitDirectionOverrideEnabled": false,
+			"hitDirectionBehaviour": 1,
+			"hitDirectionStyle": 0,
+			"hitDirectionIndicatorColorStr": "0xffbb0a1e",
+			"hitDirectionMaxDuration": 2.0,
+			"hitDirectionBreakPointRelative": 0.2,
+			"hitDirectionScatter": 10.0,
+			"hitIndicationPostProcessEnabled": true
+		}
+	},
+	"MapData":
+	{
+		"ignoreMapOwnership": false,
+		"ignoreNavItemsOwnership": false,
+		"displayPlayerPosition": false,
+		"displayNavInfo": true
+	}
+}

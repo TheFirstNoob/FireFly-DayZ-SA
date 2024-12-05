@@ -898,10 +898,9 @@
         <category name="clothes"/>
         <usage name="Town"/>
     </type>
-	
-	
-	  <type name="SnowstormUshanka_Brown">
-          <nominal>20</nominal>
+
+	<type name="SnowstormUshanka_Brown">
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>14</min>
@@ -960,10 +959,8 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-	
-	
-	
-	 <type name="TortillaBag_Winter">
+
+	<type name="TortillaBag_Winter">
          <nominal>6</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
@@ -975,7 +972,7 @@
         <category name="containers"/>
         <usage name="Military"/>
     </type>
-	
+
 	<type name="UKAssVest_Winter">
          <nominal>5</nominal>
         <lifetime>14400</lifetime>
@@ -988,9 +985,8 @@
         <category name="clothes"/>
         <usage name="Military"/>
     </type>
-	
-	
-	  <type name="WalleyePollock">
+
+	<type name="WalleyePollock">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
@@ -1010,9 +1006,8 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
     </type>
-	
-	
-	   <type name="WitchHoodCoif_Black"> <!-- NAME CHANGE - PREVIOUSLY WitchHood_Chainmail_Black -->
+
+	<type name="WitchHoodCoif_Black"> <!-- NAME CHANGE - PREVIOUSLY WitchHood_Chainmail_Black -->
         <nominal>0</nominal>
         <lifetime>1800</lifetime>
         <restock>0</restock>

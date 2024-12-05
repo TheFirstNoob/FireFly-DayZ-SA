@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<types>
+	<type name="AK74_WoodBttstck">
+        <nominal>5</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+	<type name="AKS74U_Bttstck">
+        <nominal>5</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+	<type name="AK_FoldingBttstck">
+        <nominal>5</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="AK_FoldingBttstck_Black">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+        <category name="weapons"/>
+    </type>
+    <type name="AK_FoldingBttstck_Green">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+        <category name="weapons"/>
+    </type>
+    <type name="AK_PlasticBttstck">
+        <nominal>5</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="AK_PlasticBttstck_Black">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+        <category name="weapons"/>
+    </type>
+    <type name="AK_PlasticBttstck_Green">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+        <category name="weapons"/>
+    </type>
+	<type name="AK_WoodBttstck">
+        <nominal>5</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="AK_WoodBttstck_Black">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+        <category name="weapons"/>
+    </type>
+    <type name="AK_WoodBttstck_Camo">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+        <category name="weapons"/>
+    </type>
+	<type name="Fal_FoldingBttstck">
+        <nominal>5</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
+    </type>
+	<type name="Fal_OeBttstck">
+        <nominal>5</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
+    </type>
+	<type name="M4_CQBBttstck">
+        <nominal>5</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M4_MPBttstck">
+        <nominal>5</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+	<type name="M4_OEBttstck">
+        <nominal>5</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+	<type name="MP5k_StockBttstck">
+        <nominal>4</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+	<type name="PP19_Bttstck">
+        <nominal>4</nominal>
+        <lifetime>14400</lifetime>
+        <restock>3600</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+	<type name="Saiga_Bttstck">
+        <nominal>5</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+	
+	<!-- Tactical Flava Mod -->
+	<type name="TF_SCAR_Mk20Bttstck_FDE">
+		<nominal>3</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<usage name="Military"/>
+	</type>
+	<type name="TF_SCAR_Mk20Bttstck_Black">
+		<nominal>3</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<usage name="Military"/>
+	</type>
+	<type name="TF_SCAR_Mk20Bttstck_Shd">
+		<!-- Undetachable on SCAR SSR SHD -->
+		<nominal>0</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<usage name="Military"/>
+	</type>
+	<type name="TF_SCAR_StndBttstck_FDE">
+		<!-- 100% chance of spawning in spawnabletypes.xml -->
+		<nominal>0</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<usage name="Military"/>
+	</type>
+	<type name="TF_SCAR_StndBttstck_Black">
+		<!-- 100% chance of spawning in spawnabletypes.xml -->
+		<nominal>0</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<usage name="Military"/>
+	</type>
+	<type name="TF_SCAR_VadapterBttstck">
+		<nominal>5</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<usage name="Military"/>
+	</type>
+	<type name="TF_AK_AdapterBttstck">
+		<!-- Does not work with vanilla AK-->
+		<nominal>5</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<usage name="Military"/>
+	</type>
+	<type name="TF_AN94_AdapterBttstck">
+		<nominal>5</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<usage name="Military"/>
+	</type>
+	<type name="TF_AK_MVRIBttstck">
+		<nominal>3</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<usage name="Military"/>
+	</type>
+	<type name="TF_AK_Zenit_PT1Bttstck">
+		<nominal>3</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<usage name="Military"/>
+	</type>
+	<type name="TF_AK_MagpulZhukovBttstck">
+		<nominal>3</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<usage name="Military"/>
+	</type>
+	<type name="TF_AN94_PlasticBttstck">
+		<nominal>3</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<usage name="Military"/>
+	</type>
+	<type name="TF_M4_ADARBttstck">
+		<!-- Does not work with vanilla M4-->
+		<!-- 100% chance of spawning in spawnabletypes.xml -->
+		<nominal>0</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<usage name="Military"/>
+	</type>
+	<type name="TF_M4_CMMG_RIPBttstck">
+		<nominal>3</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<usage name="Military"/>
+	</type>
+	<type name="TF_M4CraneBttstck">
+		<nominal>5</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<usage name="Military"/>
+	</type>
+	<type name="TF_M4_B5PrecisionBttstck">
+		<nominal>3</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<usage name="Military"/>
+	</type>
+	<type name="TF_M4_FABDGLCoreBttstck">
+		<nominal>3</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<usage name="Military"/>
+	</type>
+	<type name="TF_M4_MagpulPRSGen3Bttstck_Black">
+		<nominal>3</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<usage name="Military"/>
+	</type>
+	<type name="TF_M4_MagpulPRSGen3Bttstck_Grey">
+		<nominal>3</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<usage name="Military"/>
+	</type>
+	<type name="TF_M16_Bttstck">
+		<!-- 100% chance of spawning in spawnabletypes.xml -->
+		<nominal>0</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<usage name="Military"/>
+	</type>
+	<type name="TF_PKM_CNCC39Bttstck">
+		<nominal>3</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<usage name="Military"/>
+	</type>
+	<type name="TF_PKM_ZenitPT2Bttstck">
+		<nominal>3</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<usage name="Military"/>
+	</type>
+	<type name="TF_PKM_WoodBttstck">
+		<!-- 100% chance of spawning in spawnabletypes.xml -->
+		<nominal>0</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<usage name="Military"/>
+	</type>
+	<type name="TF_PKP_PlasticBttstck">
+		<!-- 100% chance of spawning in spawnabletypes.xml -->
+		<nominal>0</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<usage name="Military"/>
+	</type>
+</types>
