@@ -39,7 +39,6 @@
 	<type name="CannabisSeeds"></type>
 	<type name="CannabisSeedsPack"></type>
 	<type name="MouflonSteakMeat"></type>
-	<type name="FoxSteakMeat"></type>
 
 	<type name="CamoNetShelter"></type>
 	<type name="Refrigerator"></type>
@@ -138,27 +137,7 @@
 	
 	<!-- Не используйте ванильные патроны т.к. стоит AdditionalAmmo -->
 	<type name="Ammo_HuntingBolt"></type>
-	<type name="Ammo_22"></type>
 	<type name="Ammo_Expansion_338"></type>
-	<type name="Ammo_45ACP"></type>
-	<type name="Ammo_308Win"></type>
-	<type name="Ammo_308WinTracer"></type>
-	<type name="Ammo_9x19"></type>
-	<type name="Ammo_380"></type>
-	<type name="Ammo_556x45"></type>
-	<type name="Ammo_556x45Tracer"></type>
-	<type name="Ammo_762x54"></type>
-	<type name="Ammo_762x54Tracer"></type>
-	<type name="Ammo_762x39"></type>
-	<type name="Ammo_762x39Tracer"></type>
-	<type name="Ammo_9x39"></type>
-	<type name="Ammo_9x39AP"></type>
-	<type name="Ammo_12gaPellets"></type>
-	<type name="Ammo_12gaSlug"></type>
-	<type name="Ammo_12gaRubberSlug"></type>
-	<type name="Ammo_357"></type>
-	<type name="Ammo_545x39"></type>
-	<type name="Ammo_545x39Tracer"></type>
 
 	<type name="AmmoBox_00buck_10rnd"></type>
 	<type name="AmmoBox_12gaRubberSlug_10Rnd"></type>
@@ -306,6 +285,7 @@
 	<type name="TF_AR10_NoveskeHndgrd_Long_RIS"></type>
 	<type name="TF_AR10_URXHndgrd_MLOCK"></type>
 
+	<!-- Expansion Vehicles -->
 	<type name="ExpansionGyrocopter"></type>
 	<type name="ExpansionBigGyrocopter"></type>
 	<type name="ExpansionBus"></type>
@@ -327,6 +307,38 @@
 	<type name="ExpansionZodiacBoat_Orange"></type>
 	<type name="ExpansionZodiacBoat_Black"></type>
 	<type name="ExpansionZodiacBoat_Green"></type>
+	<type name="ExpansionMerlin"></type>
+	<type name="ExpansionMerlin_Green"></type>
+	<type name="ExpansionMerlin_Dahoman"></type>
+	<type name="ExpansionMerlin_Ion"></type>
+	<type name="ExpansionMerlin_President"></type>
+	<type name="ExpansionMerlin_Vrana"></type>
+	<type name="ExpansionMerlin_Wave"></type>
+	<type name="ExpansionMh6"></type>
+	<type name="ExpansionMh6_Green"></type>
+	<type name="ExpansionMh6_Blueline"></type>
+	<type name="ExpansionMh6_Digital"></type>
+	<type name="ExpansionMh6_Elliptical"></type>
+	<type name="ExpansionMh6_Furious"></type>
+	<type name="ExpansionMh6_GrayWatcher"></type>
+	<type name="ExpansionMh6_Jeans"></type>
+	<type name="ExpansionMh6_Resistance"></type>
+	<type name="ExpansionMh6_Shadow"></type>
+	<type name="ExpansionMh6_Sheriff"></type>
+	<type name="ExpansionMh6_Speedy"></type>
+	<type name="ExpansionMh6_Sunset"></type>
+	<type name="ExpansionMh6_Vrana"></type>
+	<type name="ExpansionMh6_Wasp"></type>
+	<type name="ExpansionMh6_Wave"></type>
+	<type name="ExpansionMh6_Black"></type>
+	<type name="ExpansionUh1h"></type>
+	<type name="ExpansionUh1h_Green"></type>
+	<type name="ExpansionUh1h_Civilian"></type>
+	<type name="ExpansionUh1h_Medical"></type>
+	<type name="ExpansionUh1h_Uber"></type>
+	<type name="ExpansionUh1h_Resistance"></type>
+
+	<!-- RusForma Vehicles -->
 	<type name="artillery_tractor"></type>
 	<type name="artillery_tractor_camo"></type>
 	<type name="artillery_tractor_kung"></type>
@@ -342,7 +354,6 @@
 	<type name="BTR_80_P_camo"></type>
 	<type name="BTR_80_P_camo2"></type>
 	<type name="BTR_80_P_rust"></type>
-
 	<type name="M3A1_Scout_Car"></type>
 	<type name="m4_tractor"></type>
 	<type name="m4_tractor_usa"></type>
@@ -357,7 +368,111 @@
 	<type name="Willys_MB"></type>
 	<type name="ZIS5_Benzovoz"></type>
 	
-	<type name="UAZ_469_milicia_wheel_Ruined"></type>
+	<!-- RusForma Number Plates -->
+	<type name="number_gos_706"></type>
+	<type name="number_euro_1735"></type>
+	<type name="number_gos_MILICIA"></type>
+	<type name="number_gos_ARMY"></type>
+	<type name="number_gos_6832"></type>
+	<type name="number_gos_ARIADA"></type>
+	<type name="number_gos_Black_Squad"></type>
+	<type name="number_gos_POLIS"></type>
+	<type name="number_gos_nasha_rasha"></type>
+	<type name="RF_Number_Long"></type>
+	<type name="RF_Number_Short"></type>
+	<type name="RF_Number_Arctic_Long"></type>
+	<type name="RF_Number_Arctic_Short"></type>
+
+	<!-- Ruined/Destroyed Wheels -->
+	<type name="HatchbackWheel_Ruined"></type>
+	<type name="CivSedanWheel_Ruined"></type>
+	<type name="Hatchback_02_Wheel_Ruined"></type>
+	<type name="Sedan_02_Wheel_Ruined"></type>
+	<type name="Truck_01_Wheel_Ruined"></type>
+	<type name="Truck_01_WheelDouble_Ruined"></type>
+	<type name="Offroad_02_Wheel_Ruined"></type>
+	<type name="ExpansionBusWheel_Ruined"></type>
+	<type name="ExpansionBusWheelDouble_Ruined"></type>
+	<type name="Expansion_Landrover_Wheel_Ruined"></type>
+	<type name="ExpansionTractorFrontWheel_Ruined"></type>
+	<type name="ExpansionTractorBackWheel_Ruined"></type>
+	<type name="ExpansionUAZWheel_Ruined"></type>
+	<type name="bronco_wheel_Destroyed"></type>
+	<type name="Wheel_Main_Destroyed"></type>
+	<type name="Tahoe_wheel_Destroyed"></type>
+	<type name="MotorHome_Wheel_Destroyed"></type>
+	<type name="Runner_Wheel_Destroyed"></type>
+	<type name="DodgeRam_Wheel_Destroyed"></type>
+	<type name="AZLK_2141RF_wheel_destroyed"></type>
+	<type name="azlk_400_wheel_destroyed"></type>
+	<type name="BRDM2_RF_wheel_destroyed"></type>
+	<type name="BTR_80_wheel_destroyed"></type>
+	<type name="Chevrolet_NapalmNova_Wheel_Destroyed"></type>
+	<type name="F1_Pickup_wheel_destroyed"></type>
+	<type name="GAZ21_Volga_wheel_destroyed"></type>
+	<type name="GAZ_12_wheel_destroyed"></type>
+	<type name="GAZ_13_Chaika_wheel_destroyed"></type>
+	<type name="Gaz_233002_Tiger_wheel_destroyed"></type>
+	<type name="GAZ_3110_volga_wheel_destroyed"></type>
+	<type name="GAZ_33081_wheel_destroyed"></type>
+	<type name="gaz_51_wheel_destroyed"></type>
+	<type name="gaz_51_WheelDouble_destroyed"></type>
+	<type name="gaz_51_wheel_grunt_destroyed"></type>
+	<type name="Gaz_53RF_wheel_destroyed"></type>
+	<type name="Gaz_53RF_WheelDouble_destroyed"></type>
+	<type name="GAZ_66_wheel_destroyed"></type>
+	<type name="GAZ_69_rus_wheel_destroyed"></type>
+	<type name="GAZ_M20_wheel_destroyed"></type>
+	<type name="IJ_2125_Kombi_wheel_destroyed"></type>
+	<type name="ij_2715_RF_wheel_destroyed"></type>
+	<type name="kamaz_4310RUS_wheel_destroyed"></type>
+	<type name="KAVZ685_RF_wheel_destroyed"></type>
+	<type name="KAVZ685_RF_WheelDouble_destroyed"></type>
+	<type name="kraz_255B_wheel_destroyed"></type>
+	<type name="KubanG1_wheel_destroyed"></type>
+	<type name="KubanG1_WheelDouble_destroyed"></type>
+	<type name="Niva2329_wheel_destroyed"></type>
+	<type name="LIAZ_677RF_wheel_destroyed"></type>
+	<type name="LIAZ_677RF_WheelDouble_destroyed"></type>
+	<type name="LUAZ_969_wheel_destroyed"></type>
+	<type name="moskvich_407_wheel_destroyed"></type>
+	<type name="PAZ_672_wheel_destroyed"></type>
+	<type name="PAZ_672_WheelDouble_destroyed"></type>
+	<type name="tractor_UMZ_RUS_wheel_destroyed"></type>
+	<type name="tractor_UMZ_RUS_WheelDouble_destroyed"></type>
+	<type name="TyphoonK_Wheel_Destroyed"></type>
+	<type name="UAZ_27722_mchs_wheel_destroyed"></type>
+	<type name="UAZ_31519_Police_wheel_destroyed"></type>
+	<type name="UAZ_3163_wheel_destroyed"></type>
+	<type name="UAZ_3172_wheel_destroyed"></type>
+	<type name="UAZ_33094_wheel_destroyed"></type>
+	<type name="UAZ_3962_wheel_destroyed"></type>
+	<type name="UAZ_469_army_wheel_destroyed"></type>
+	<type name="UAZ_469_Hunter_wheel_destroyed"></type>
+	<type name="UAZ_469_milicia_wheel_destroyed"></type>
+	<type name="UAZ_Patrot_Pikap_wheel_destroyed"></type>
+	<type name="URAL_375_1964_wheel_destroyed"></type>
+	<type name="VAZ_2104RF_wheel_destroyed"></type>
+	<type name="VAZ_2105_RUS_wheel_destroyed"></type>
+	<type name="vaz_2106_RF_wheel_destroyed"></type>
+	<type name="VAZ_2107RF_wheel_destroyed"></type>
+	<type name="VAZ_21099R_wheel_destroyed"></type>
+	<type name="VAZ_2109_RF_wheel_destroyed"></type>
+	<type name="VBL_wheel_destroyed"></type>
+	<type name="Volkswagen_Golf_RUS_wheel_destroyed"></type>
+	<type name="ZAZ_965_wheel_destroyed"></type>
+	<type name="ZAZ_968_wheel_destroyed"></type>
+	<type name="ZAZ_968M_wheel_destroyed"></type>
+	<type name="ZIL_130_wheel_destroyed"></type>
+	<type name="ZIL_130_WheelDouble_destroyed"></type>
+	<type name="ZIL_130_ac40_wheel_destroyed"></type>
+	<type name="ZIL_130_ac40_WheelDouble_destroyed"></type>
+	<type name="ZIL_131_wheel_destroyed"></type>
+	<type name="ZIL_157_rus_wheel_destroyed"></type>
+	<type name="ZIL_157_rus_GR_wheel_destroyed"></type>
+	<type name="IJ_2140_SL_wheel_destroyed"></type>
+
+
 	<type name="ExpansionAircraftBattery"></type>
 	<type name="headlighth7_box"></type>
 
@@ -400,13 +515,15 @@
 	<type name="ExpansionAirCondBig"></type>
 	<type name="ExpansionAirCondSmall"></type>
 
+	<!-- Expansion Bars Unused -->
 	<type name="ExpansionGoldBar"></type>
 	<type name="ExpansionSilverBar"></type>
 	<type name="ExpansionGoldNugget"></type>
 	<type name="ExpansionSilverNugget"></type>
 	<type name="ExpansionBanknoteUSD"></type>
 	<type name="ExpansionBanknoteEuro"></type>
-	
+
+	<!-- Unused items -->
 	<type name="Ammo_40mm_Chemgas"></type>
 	<type name="Ammo_40mm_Smoke_Black"></type>
 	<type name="Ammo_40mm_Smoke_Green"></type>
@@ -425,7 +542,8 @@
 	<type name="RemoteDetonator"></type>
 	<type name="RemoteDetonatorReciver"></type>
 	<type name="RemoteDetonatorTrigger"></type>
-	
+
+	<!-- Expansion Unused Vehicles Items -->
 	<type name="ExpansionUh1hDoor_1_1"></type>
 	<type name="ExpansionUh1hDoor_1_2"></type>
 	<type name="ExpansionUh1hDoor_2_1"></type>
@@ -505,10 +623,12 @@
 	<type name="Expansion_Mh6_Door_1_2_Wave"></type>
 	<type name="Expansion_Mh6_Door_2_1_Wave"></type>
 	<type name="Expansion_Mh6_Door_2_2_Wave"></type>
-	
+
+	<!-- CP Unused Items -->
 	<type name="CP_SmallBox"></type>
 	<type name="CP_MediumBox"></type>
 
+	<!-- MSP Unused Items -->
 	<type name="MSP_MedivealChest"></type>
 	<type name="MSP_TreasureChest"></type>
 	<type name="MSP_Safe"></type>
@@ -527,7 +647,6 @@
 	<type name="MSP_BaseballCap_Red"></type>
 	<type name="MSP_BaseballCap_CMMG_Black"></type>
 	<type name="MSP_BaseballCap_CMMG_Pink"></type>
-	
 	<type name="msp_baseballbat"></type>
 	<type name="msp_baseballbat_barbedwire"></type>
 	<type name="msp_baseballbat_chain"></type>
@@ -539,10 +658,9 @@
 	<type name="msp_goodnightbat"></type>
 	<type name="msp_blunderbat"></type>
 
+	<!-- Mining Base classes need remove -->
 	<type name="FreezeGem_Base"></type>
 	<type name="FreezeBar_base"></type>
 	<type name="Freezestone_base"></type>
 	<type name="FreezeNugget_base"></type>
-
-	<type name="AntiViperInjector"></type>
 </ignore>
