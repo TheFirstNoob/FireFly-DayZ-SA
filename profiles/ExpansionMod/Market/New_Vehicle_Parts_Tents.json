@@ -1,6 +1,6 @@
 {
     "m_Version": 12,
-    "DisplayName": "TFN TEST - Тенты",
+    "DisplayName": "Детали для машин - Тенты",
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
@@ -151,6 +151,17 @@
         },
         {
             "ClassName": "ZIL_157_rus_tent",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 100,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "camonetjeep",
             "MaxPriceThreshold": 100,
             "MinPriceThreshold": 100,
             "SellPricePercent": -1.0,

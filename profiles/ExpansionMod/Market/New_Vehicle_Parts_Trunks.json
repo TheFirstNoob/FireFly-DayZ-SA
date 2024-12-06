@@ -1,6 +1,6 @@
 {
     "m_Version": 12,
-    "DisplayName": "TFN TEST - Багажники",
+    "DisplayName": "Детали для машин - Багажники",
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
@@ -672,6 +672,134 @@
                 "IJ_2140_SL_doors_trunk_GAI",
                 "IJ_2140_SL_doors_trunk_green",
                 "IJ_2140_SL_doors_trunk_red"
+            ]
+        },
+		{
+            "ClassName": "Tahoe_trunk",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"Tahoe_trunk_LightBlue",
+				"Tahoe_trunk_Black",
+				"Tahoe_trunk_Blue",
+				"Tahoe_trunk_Brown",
+				"Tahoe_trunk_DarkBlue",
+				"Tahoe_trunk_Green",
+				"Tahoe_trunk_Pink",
+				"Tahoe_trunk_Red"
+            ]
+        },
+		{
+            "ClassName": "Bronco_Trunk",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"Bronco_Trunk_Rust",
+				"Bronco_Trunk_Black",
+				"Bronco_Trunk_Hunter"
+            ]
+        },
+		{
+            "ClassName": "Jeep_GladiatorF9_Trunk",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"Jeep_GladiatorF9_Trunk_Black",
+				"Jeep_GladiatorF9_Trunk_Brown",
+				"Jeep_GladiatorF9_Trunk_DarkRed",
+				"Jeep_GladiatorF9_Trunk_DarkBlue",
+				"Jeep_GladiatorF9_Trunk_camo_green",
+				"Jeep_GladiatorF9_Trunk_camo_red",
+				"Jeep_GladiatorF9_Trunk_camo_blue",
+				"Jeep_GladiatorF9_Trunk_camo_black",
+				"Jeep_GladiatorF9_Trunk_Gold"
+            ]
+        },
+		{
+            "ClassName": "Runner_Trunk",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Runner_Trunk_camowhite",
+				"Runner_Trunk_camogreen",
+				"Runner_Trunk_camoblack",
+				"Runner_Trunk_red",
+				"Runner_Trunk_white",
+				"Runner_Trunk_blue",
+				"Runner_Trunk_yellow",
+				"Runner_Trunk_camored",
+				"Runner_Trunk_camopink",
+				"Runner_Trunk_pink",
+				"Runner_Trunk_camoblue",
+				"Runner_Trunk_camopurple"
+            ]
+        },
+		{
+            "ClassName": "DodgeRam_Trunk",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "DodgeRam_Trunk_Black",
+				"DodgeRam_Trunk_White",
+				"DodgeRam_Trunk_Blue",
+				"DodgeRam_Trunk_Teal",
+				"DodgeRam_Trunk_Green",
+				"DodgeRam_Trunk_CamoBlue",
+				"DodgeRam_Trunk_CamoBlack",
+				"DodgeRam_Trunk_CamoWhite",
+				"DodgeRam_Trunk_CamoRed",
+				"DodgeRam_Trunk_CamoGreen",
+				"DodgeRam_Trunk_CamoNuke",
+				"DodgeRam_Trunk_Yellow",
+				"DodgeRam_Trunk_CamoBlack2",
+				"DodgeRam_Trunk_CamoOrange",
+				"DodgeRam_Trunk_CamoCrazy",
+				"DodgeRam_Trunk_CamoFace"
+            ]
+        },
+		{
+            "ClassName": "Chevrolet_NapalmNova_Trunk",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Chevrolet_NapalmNova_Trunk_White",
+				"Chevrolet_NapalmNova_Trunk_Red",
+				"Chevrolet_NapalmNova_Trunk_Blue",
+				"Chevrolet_NapalmNova_Trunk_Green",
+				"Chevrolet_NapalmNova_Trunk_Yellow",
+				"Chevrolet_NapalmNova_Trunk_Pink",
+				"Chevrolet_NapalmNova_Trunk_Purple",
+				"Chevrolet_NapalmNova_Trunk_Orange"
             ]
         }
     ]

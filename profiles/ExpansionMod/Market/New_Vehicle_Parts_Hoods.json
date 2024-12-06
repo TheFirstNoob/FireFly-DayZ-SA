@@ -1,6 +1,6 @@
 {
     "m_Version": 12,
-    "DisplayName": "TFN TEST - Капоты",
+    "DisplayName": "Детали для машин - Капоты",
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
@@ -692,6 +692,164 @@
                 "IJ_2140_SL_doors_hood_GAI",
                 "IJ_2140_SL_doors_hood_green",
                 "IJ_2140_SL_doors_hood_red"
+            ]
+        },
+		{
+            "ClassName": "Tahoe_hood",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"Tahoe_hood_LightBlue",
+				"Tahoe_hood_Black",
+				"Tahoe_hood_Blue",
+				"Tahoe_hood_Brown",
+				"Tahoe_hood_DarkBlue",
+				"Tahoe_hood_Green",
+				"Tahoe_hood_Pink",
+				"Tahoe_hood_Red"
+            ]
+        },
+		{
+            "ClassName": "Bronco_Hood",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"Bronco_Hood_Rust",
+				"Bronco_Hood_Black",
+				"Bronco_Hood_Hunter"
+            ]
+        },
+		{
+            "ClassName": "Jeep_GladiatorF9_Hood",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"Jeep_GladiatorF9_Hood_Black",
+				"Jeep_GladiatorF9_Hood_Brown",
+				"Jeep_GladiatorF9_Hood_DarkRed",
+				"Jeep_GladiatorF9_Hood_DarkBlue",
+				"Jeep_GladiatorF9_Hood_camo_green",
+				"Jeep_GladiatorF9_Hood_camo_red",
+				"Jeep_GladiatorF9_Hood_camo_blue",
+				"Jeep_GladiatorF9_Hood_camo_black",
+				"Jeep_GladiatorF9_Hood_Gold"
+            ]
+        },
+		{
+            "ClassName": "MotorHome_Hood",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"MotorHome_HoodApo",
+				"MotorHome_HoodRust",
+				"MotorHome_HoodGreenCamo"
+            ]
+        },
+		{
+            "ClassName": "MotorHome_Hood2",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"MotorHome_Hood2Apo",
+				"MotorHome_Hood2Rust",
+				"MotorHome_Hood2GreenCamo"
+            ]
+        },
+		{
+            "ClassName": "Runner_Hood",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Runner_Hood_camowhite",
+				"Runner_Hood_camogreen",
+				"Runner_Hood_camoblack",
+				"Runner_Hood_red",
+				"Runner_Hood_white",
+				"Runner_Hood_blue",
+				"Runner_Hood_yellow",
+				"Runner_Hood_camored",
+				"Runner_Hood_camopink",
+				"Runner_Hood_pink",
+				"Runner_Hood_camoblue",
+				"Runner_Hood_camopurple"
+            ]
+        },
+		{
+            "ClassName": "DodgeRam_Hood",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "DodgeRam_Hood_Black",
+				"DodgeRam_Hood_White",
+				"DodgeRam_Hood_Blue",
+				"DodgeRam_Hood_Teal",
+				"DodgeRam_Hood_Green",
+				"DodgeRam_Hood_CamoBlue",
+				"DodgeRam_Hood_CamoBlack",
+				"DodgeRam_Hood_CamoWhite",
+				"DodgeRam_Hood_CamoRed",
+				"DodgeRam_Hood_CamoGreen",
+				"DodgeRam_Hood_CamoNuke",
+				"DodgeRam_Hood_Yellow",
+				"DodgeRam_Hood_CamoBlack2",
+				"DodgeRam_Hood_CamoOrange",
+				"DodgeRam_Hood_CamoCrazy",
+				"DodgeRam_Hood_CamoFace"
+            ]
+        },
+		{
+            "ClassName": "Chevrolet_NapalmNova_Hood",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Chevrolet_NapalmNova_Hood_White",
+				"Chevrolet_NapalmNova_Hood_Red",
+				"Chevrolet_NapalmNova_Hood_Blue",
+				"Chevrolet_NapalmNova_Hood_Green",
+				"Chevrolet_NapalmNova_Hood_Yellow",
+				"Chevrolet_NapalmNova_Hood_Pink",
+				"Chevrolet_NapalmNova_Hood_Purple",
+				"Chevrolet_NapalmNova_Hood_Orange"
             ]
         }
     ]

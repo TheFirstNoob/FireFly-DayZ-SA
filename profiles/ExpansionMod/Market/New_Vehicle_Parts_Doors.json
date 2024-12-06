@@ -1,6 +1,6 @@
 {
     "m_Version": 12,
-    "DisplayName": "TFN TEST - Двери",
+    "DisplayName": "Детали для машин - Двери",
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
@@ -2468,6 +2468,515 @@
                 "IJ_2140_SL_doors_cargo2_GAI",
                 "IJ_2140_SL_doors_cargo2_green",
                 "IJ_2140_SL_doors_cargo2_red"
+            ]
+        },
+		{
+            "ClassName": "Tahoe_driverdoor",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Tahoe_driverdoor_LightBlue",
+				"Tahoe_driverdoor_Black",
+				"Tahoe_driverdoor_Blue",
+				"Tahoe_driverdoor_Brown",
+				"Tahoe_driverdoor_DarkBlue",
+				"Tahoe_driverdoor_Green",
+				"Tahoe_driverdoor_Pink",
+				"Tahoe_driverdoor_Red"
+            ]
+        },
+		{
+            "ClassName": "Tahoe_codriver",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Tahoe_codriver_LightBlue",
+				"Tahoe_codriver_Black",
+				"Tahoe_codriver_Blue",
+				"Tahoe_codriver_Brown",
+				"Tahoe_codriver_DarkBlue",
+				"Tahoe_codriver_Green",
+				"Tahoe_codriver_Pink",
+				"Tahoe_codriver_Red"
+            ]
+        },
+		{
+            "ClassName": "Tahoe_cargo1",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Tahoe_cargo1_LightBlue",
+				"Tahoe_cargo1_Black",
+				"Tahoe_cargo1_Blue",
+				"Tahoe_cargo1_Brown",
+				"Tahoe_cargo1_DarkBlue",
+				"Tahoe_cargo1_Green",
+				"Tahoe_cargo1_Pink",
+				"Tahoe_cargo1_Red"
+            ]
+        },
+		{
+            "ClassName": "Tahoe_cargo2",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Tahoe_cargo2_LightBlue",
+				"Tahoe_cargo2_Black",
+				"Tahoe_cargo2_Blue",
+				"Tahoe_cargo2_Brown",
+				"Tahoe_cargo2_DarkBlue",
+				"Tahoe_cargo2_Green",
+				"Tahoe_cargo2_Pink",
+				"Tahoe_cargo2_Red"
+            ]
+        },
+		{
+            "ClassName": "Bronco_Driverdoor",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Bronco_Driverdoor_Rust",
+				"Bronco_Driverdoor_Black",
+				"Bronco_Driverdoor_Hunter"
+            ]
+        },
+		{
+            "ClassName": "Bronco_Codriverdoor",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Bronco_Codriverdoor_Rust",
+				"Bronco_Codriverdoor_Black",
+				"Bronco_Codriverdoor_Hunter"
+            ]
+        },
+		{
+            "ClassName": "Jeep_GladiatorF9_Driver_Door",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Jeep_GladiatorF9_Driver_Door_Black",
+				"Jeep_GladiatorF9_Driver_Door_Brown",
+				"Jeep_GladiatorF9_Driver_Door_DarkRed",
+				"Jeep_GladiatorF9_Driver_Door_DarkBlue",
+				"Jeep_GladiatorF9_Driver_Door_camo_green",
+				"Jeep_GladiatorF9_Driver_Door_camo_red",
+				"Jeep_GladiatorF9_Driver_Door_camo_blue",
+				"Jeep_GladiatorF9_Driver_Door_camo_black",
+				"Jeep_GladiatorF9_Driver_Door_Gold"
+            ]
+        },
+		{
+            "ClassName": "Jeep_GladiatorF9_Codriver_Door",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Jeep_GladiatorF9_Codriver_Door_Black",
+				"Jeep_GladiatorF9_Codriver_Door_Brown",
+				"Jeep_GladiatorF9_Codriver_Door_DarkRed",
+				"Jeep_GladiatorF9_Codriver_Door_DarkBlue",
+				"Jeep_GladiatorF9_Codriver_Door_camo_green",
+				"Jeep_GladiatorF9_Codriver_Door_camo_red",
+				"Jeep_GladiatorF9_Codriver_Door_camo_blue",
+				"Jeep_GladiatorF9_Codriver_Door_camo_black",
+				"Jeep_GladiatorF9_Codriver_Door_Gold"
+            ]
+        },
+		{
+            "ClassName": "Jeep_GladiatorF9_Cargo_Door1",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Jeep_GladiatorF9_Cargo_Door1_Black",
+				"Jeep_GladiatorF9_Cargo_Door1_Brown",
+				"Jeep_GladiatorF9_Cargo_Door1_DarkRed",
+				"Jeep_GladiatorF9_Cargo_Door1_DarkBlue",
+				"Jeep_GladiatorF9_Cargo_Door1_camo_green",
+				"Jeep_GladiatorF9_Cargo_Door1_camo_red",
+				"Jeep_GladiatorF9_Cargo_Door1_camo_blue",
+				"Jeep_GladiatorF9_Cargo_Door1_camo_black",
+				"Jeep_GladiatorF9_Cargo_Door1_Gold",
+            ]
+        },
+		{
+            "ClassName": "Jeep_GladiatorF9_Cargo_Door2",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Jeep_GladiatorF9_Cargo_Door2_Black",
+				"Jeep_GladiatorF9_Cargo_Door2_Brown",
+				"Jeep_GladiatorF9_Cargo_Door2_DarkRed",
+				"Jeep_GladiatorF9_Cargo_Door2_DarkBlue",
+				"Jeep_GladiatorF9_Cargo_Door2_camo_green",
+				"Jeep_GladiatorF9_Cargo_Door2_camo_red",
+				"Jeep_GladiatorF9_Cargo_Door2_camo_blue",
+				"Jeep_GladiatorF9_Cargo_Door2_camo_black",
+				"Jeep_GladiatorF9_Cargo_Door2_Gold",
+            ]
+        },
+		{
+            "ClassName": "MotorHome_DriverDoor2",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MotorHome_DriverDoor",
+				"MotorHome_DriverDoorGreenCamo",
+				"MotorHome_DriverRust"
+            ]
+        },
+		{
+            "ClassName": "Runner_DriverDoor",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Runner_DriverDoor_camowhite",
+				"Runner_DriverDoor_camogreen",
+				"Runner_DriverDoor_camoblack",
+				"Runner_DriverDoor_red",
+				"Runner_DriverDoor_white",
+				"Runner_DriverDoor_blue",
+				"Runner_DriverDoor_yellow",
+				"Runner_DriverDoor_camored",
+				"Runner_DriverDoor_camopink",
+				"Runner_DriverDoor_pink",
+				"Runner_DriverDoor_camoblue",
+				"Runner_DriverDoor_camopurple"
+            ]
+        },
+		{
+            "ClassName": "Runner_CoDriver_Door",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Runner_CoDriver_Door_camowhite",
+				"Runner_CoDriver_Door_camogreen",
+				"Runner_CoDriver_Door_camoblack",
+				"Runner_CoDriver_Door_red",
+				"Runner_CoDriver_Door_white",
+				"Runner_CoDriver_Door_blue",
+				"Runner_CoDriver_Door_yellow",
+				"Runner_CoDriver_Door_camored",
+				"Runner_CoDriver_Door_camopink",
+				"Runner_CoDriver_Door_pink",
+				"Runner_CoDriver_Door_camoblue",
+				"Runner_CoDriver_Door_camopurple"
+            ]
+        },
+		{
+            "ClassName": "Runner_Cargo1",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Runner_Cargo1_camowhite",
+				"Runner_Cargo1_camogreen",
+				"Runner_Cargo1_camoblack",
+				"Runner_Cargo1_red",
+				"Runner_Cargo1_white",
+				"Runner_Cargo1_blue",
+				"Runner_Cargo1_yellow",
+				"Runner_Cargo1_camored",
+				"Runner_Cargo1_camopink",
+				"Runner_Cargo1_pink",
+				"Runner_Cargo1_camoblue",
+				"Runner_Cargo1_camopurple"
+            ]
+        },
+		{
+            "ClassName": "Runner_Cargo2",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Runner_Cargo2_camowhite",
+				"Runner_Cargo2_camogreen",
+				"Runner_Cargo2_camoblack",
+				"Runner_Cargo2_red",
+				"Runner_Cargo2_white",
+				"Runner_Cargo2_blue",
+				"Runner_Cargo2_yellow",
+				"Runner_Cargo2_camored",
+				"Runner_Cargo2_camopink",
+				"Runner_Cargo2_pink",
+				"Runner_Cargo2_camoblue",
+				"Runner_Cargo2_camopurple"
+            ]
+        },
+		{
+            "ClassName": "DodgeRam_Driver_Door",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "DodgeRam_Driver_Door_Black",
+				"DodgeRam_Driver_Door_White",
+				"DodgeRam_Driver_Door_Blue",
+				"DodgeRam_Driver_Door_Teal",
+				"DodgeRam_Driver_Door_Green",
+				"DodgeRam_Driver_Door_CamoBlue",
+				"DodgeRam_Driver_Door_CamoBlack",
+				"DodgeRam_Driver_Door_CamoWhite",
+				"DodgeRam_Driver_Door_CamoRed",
+				"DodgeRam_Driver_Door_CamoGreen",
+				"DodgeRam_Driver_Door_CamoNuke",
+				"DodgeRam_Driver_Door_Yellow",
+				"DodgeRam_Driver_Door_CamoBlack2",
+				"DodgeRam_Driver_Door_CamoOrange",
+				"DodgeRam_Driver_Door_CamoCrazy",
+				"DodgeRam_Driver_Door_CamoFace"
+            ]
+        },
+		{
+            "ClassName": "DodgeRam_CoDriver_Door",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "DodgeRam_CoDriver_Door_Black",
+				"DodgeRam_CoDriver_Door_White",
+				"DodgeRam_CoDriver_Door_Blue",
+				"DodgeRam_CoDriver_Door_Teal",
+				"DodgeRam_CoDriver_Door_Green",
+				"DodgeRam_CoDriver_Door_CamoBlue",
+				"DodgeRam_CoDriver_Door_CamoBlack",
+				"DodgeRam_CoDriver_Door_CamoWhite",
+				"DodgeRam_CoDriver_Door_CamoRed",
+				"DodgeRam_CoDriver_Door_CamoGreen",
+				"DodgeRam_CoDriver_Door_CamoNuke",
+				"DodgeRam_CoDriver_Door_Yellow",
+				"DodgeRam_CoDriver_Door_CamoBlack2",
+				"DodgeRam_CoDriver_Door_CamoOrange",
+				"DodgeRam_CoDriver_Door_CamoCrazy",
+				"DodgeRam_CoDriver_Door_CamoFace"
+            ]
+        },
+		{
+            "ClassName": "DodgeRam_Cargo1",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "DodgeRam_Cargo1_Black",
+				"DodgeRam_Cargo1_White",
+				"DodgeRam_Cargo1_Blue",
+				"DodgeRam_Cargo1_Teal",
+				"DodgeRam_Cargo1_Green",
+				"DodgeRam_Cargo1_CamoBlue",
+				"DodgeRam_Cargo1_CamoBlack",
+				"DodgeRam_Cargo1_CamoWhite",
+				"DodgeRam_Cargo1_CamoRed",
+				"DodgeRam_Cargo1_CamoGreen",
+				"DodgeRam_Cargo1_CamoNuke",
+				"DodgeRam_Cargo1_Yellow",
+				"DodgeRam_Cargo1_CamoBlack2",
+				"DodgeRam_Cargo1_CamoOrange",
+				"DodgeRam_Cargo1_CamoCrazy",
+				"DodgeRam_Cargo1_CamoFace"
+            ]
+        },
+		{
+            "ClassName": "DodgeRam_Cargo2",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "DodgeRam_Cargo2_Black",
+				"DodgeRam_Cargo2_White",
+				"DodgeRam_Cargo2_Blue",
+				"DodgeRam_Cargo2_Teal",
+				"DodgeRam_Cargo2_Green",
+				"DodgeRam_Cargo2_CamoBlue",
+				"DodgeRam_Cargo2_CamoBlack",
+				"DodgeRam_Cargo2_CamoWhite",
+				"DodgeRam_Cargo2_CamoRed",
+				"DodgeRam_Cargo2_CamoGreen",
+				"DodgeRam_Cargo2_CamoNuke",
+				"DodgeRam_Cargo2_Yellow",
+				"DodgeRam_Cargo2_CamoBlack2",
+				"DodgeRam_Cargo2_CamoOrange",
+				"DodgeRam_Cargo2_CamoCrazy",
+				"DodgeRam_Cargo2_CamoFace"
+            ]
+        },
+		{
+            "ClassName": "Chevrolet_NapalmNova_Driverdoor",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Chevrolet_NapalmNova_Driverdoor_White",
+				"Chevrolet_NapalmNova_Driverdoor_Red",
+				"Chevrolet_NapalmNova_Driverdoor_Blue",
+				"Chevrolet_NapalmNova_Driverdoor_Green",
+				"Chevrolet_NapalmNova_Driverdoor_Yellow",
+				"Chevrolet_NapalmNova_Driverdoor_Pink",
+				"Chevrolet_NapalmNova_Driverdoor_Purple",
+				"Chevrolet_NapalmNova_Driverdoor_Orange"
+            ]
+        },
+		{
+            "ClassName": "Chevrolet_NapalmNova_CoDriver",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Chevrolet_NapalmNova_CoDriver_White",
+				"Chevrolet_NapalmNova_CoDriver_Red",
+				"Chevrolet_NapalmNova_CoDriver_Blue",
+				"Chevrolet_NapalmNova_CoDriver_Green",
+				"Chevrolet_NapalmNova_CoDriver_Yellow",
+				"Chevrolet_NapalmNova_CoDriver_Pink",
+				"Chevrolet_NapalmNova_CoDriver_Purple",
+				"Chevrolet_NapalmNova_CoDriver_Orange"
+            ]
+        },
+		{
+            "ClassName": "TyphoonK_DriverDoor",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "TyphoonK_DriverDoor_CamoGreen"
+            ]
+        },
+		{
+            "ClassName": "TyphoonK_Codriverdoor",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "TyphoonK_Codriverdoor_CamoGreen"
+            ]
+        },
+		{
+            "ClassName": "TyphoonK_Cargodoor1",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "TyphoonK_Cargodoor1_CamoGreen"
+            ]
+        },
+		{
+            "ClassName": "TyphoonK_Cargodoor2",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "TyphoonK_Cargodoor2_CamoGreen"
             ]
         }
     ]
