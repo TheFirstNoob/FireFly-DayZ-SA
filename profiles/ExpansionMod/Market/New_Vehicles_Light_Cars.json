@@ -166,40 +166,6 @@
 			]
 		},
 		{
-			"ClassName": "azlk_400",
-			"MaxPriceThreshold": 60000,
-			"MinPriceThreshold": 30000,
-			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 20,
-			"MinStockThreshold": 1,
-			"QuantityPercent": -1,
-			"SpawnAttachments": [
-				"LugWrench",
-				"Wrench",
-				"Screwdriver",
-				"rag_car_jack",
-				"azlk_400_wheel",
-				"azlk_400_wheel",
-				"azlk_400_wheel",
-				"azlk_400_wheel",
-				"azlk_400_wheel",
-				"azlk_400_doors_driver",
-				"azlk_400_doors_codriver",
-				"azlk_400_doors_cargo1",
-				"azlk_400_doors_cargo2",
-				"azlk_400_doors_hood",
-				"carbattery",
-				"carradiator",
-				"sparkplug",
-				"headlighth7",
-				"headlighth7"
-			],
-			"Variants": [
-				"azlk_400_green",
-				"azlk_400_beige"
-			]
-		},
-		{
 			"ClassName": "GAZ21_Volga",
 			"MaxPriceThreshold": 65000,
 			"MinPriceThreshold": 32500,
@@ -236,81 +202,6 @@
 			]
 		},
 		{
-			"ClassName": "GAZ_12",
-			"MaxPriceThreshold": 67500,
-			"MinPriceThreshold": 33750,
-			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 18,
-			"MinStockThreshold": 1,
-			"QuantityPercent": -1,
-			"SpawnAttachments": [
-				"LugWrench",
-				"Wrench",
-				"Screwdriver",
-				"rag_car_jack",
-				"GAZ_12_wheel",
-				"GAZ_12_wheel",
-				"GAZ_12_wheel",
-				"GAZ_12_wheel",
-				"GAZ_12_wheel",
-				"GAZ_12_doors_driver",
-				"GAZ_12_doors_codriver",
-				"GAZ_12_doors_cargo1",
-				"GAZ_12_doors_cargo2",
-				"GAZ_12_doors_hood",
-				"GAZ_12_doors_trunk",
-				"carbattery",
-				"carradiator",
-				"sparkplug",
-				"headlighth7",
-				"headlighth7"
-			],
-			"Variants": [
-				"GAZ_12_white",
-				"GAZ_12_kombi"
-			]
-		},
-		{
-			"ClassName": "GAZ_13_Chaika",
-			"MaxPriceThreshold": 72500,
-			"MinPriceThreshold": 37250,
-			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 15,
-			"MinStockThreshold": 1,
-			"QuantityPercent": -1,
-			"SpawnAttachments": [
-				"LugWrench",
-				"Wrench",
-				"Screwdriver",
-				"rag_car_jack",
-				"GAZ_13_Chaika_wheel",
-				"GAZ_13_Chaika_wheel",
-				"GAZ_13_Chaika_wheel",
-				"GAZ_13_Chaika_wheel",
-				"GAZ_13_Chaika_wheel",
-				"GAZ_13_Chaika_doors_driver",
-				"GAZ_13_Chaika_doors_codriver",
-				"GAZ_13_Chaika_doors_cargo1",
-				"GAZ_13_Chaika_doors_cargo2",
-				"GAZ_13_Chaika_doors_hood",
-				"GAZ_13_Chaika_doors_trunk",
-				"carbattery",
-				"carradiator",
-				"sparkplug",
-				"headlighth7",
-				"headlighth7"
-			],
-			"Variants": [
-				"GAZ_13_Chaika_black_rust",
-				"GAZ_13_Chaika_white",
-				"GAZ_13_Chaika_white_rust",
-				"GAZ_13_Chaika_automatic",
-				"GAZ_13_Chaika_black_rust_automatic",
-				"GAZ_13_Chaika_white_automatic",
-				"GAZ_13_Chaika_white_rust_automatic"
-			]
-		},
-		{
 			"ClassName": "GAZ_3110_volga",
 			"MaxPriceThreshold": 65000,
 			"MinPriceThreshold": 32500,
@@ -344,81 +235,6 @@
 				"GAZ_3110_volga_taxi",
 				"GAZ_3110_volga_white",
 				"GAZ_3110_volga_black"
-			]
-		},
-		{
-			"ClassName": "GAZ_M20",
-			"MaxPriceThreshold": 65000,
-			"MinPriceThreshold": 32500,
-			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 16,
-			"MinStockThreshold": 1,
-			"QuantityPercent": -1,
-			"SpawnAttachments": [
-				"LugWrench",
-				"Wrench",
-				"Screwdriver",
-				"rag_car_jack",
-				"GAZ_M20_wheel",
-				"GAZ_M20_wheel",
-				"GAZ_M20_wheel",
-				"GAZ_M20_wheel",
-				"GAZ_M20_wheel",
-				"GAZ_M20_doors_driver",
-				"GAZ_M20_doors_codriver",
-				"GAZ_M20_doors_cargo1",
-				"GAZ_M20_doors_cargo2",
-				"GAZ_M20_doors_hood",
-				"GAZ_M20_doors_trunk",
-				"carbattery",
-				"carradiator",
-				"sparkplug",
-				"headlighth7",
-				"headlighth7"
-			],
-			"Variants": [
-				"GAZ_M20_white",
-				"GAZ_M20_green",
-				"GAZ_M20_black",
-				"GAZ_M20_red",
-				"GAZ_M20_blue"
-			]
-		},
-		{
-			"ClassName": "IJ_2125_Kombi",
-			"MaxPriceThreshold": 52500,
-			"MinPriceThreshold": 26250,
-			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 18,
-			"MinStockThreshold": 1,
-			"QuantityPercent": -1,
-			"SpawnAttachments": [
-				"LugWrench",
-				"Wrench",
-				"Screwdriver",
-				"rag_car_jack",
-				"IJ_2125_Kombi_wheel",
-				"IJ_2125_Kombi_wheel",
-				"IJ_2125_Kombi_wheel",
-				"IJ_2125_Kombi_wheel",
-				"IJ_2125_Kombi_wheel",
-				"IJ_2125_Kombi_doors_driver",
-				"IJ_2125_Kombi_doors_codriver",
-				"IJ_2125_Kombi_doors_cargo1",
-				"IJ_2125_Kombi_doors_cargo2",
-				"IJ_2125_Kombi_doors_hood",
-				"IJ_2125_Kombi_doors_trunk",
-				"carbattery",
-				"carradiator",
-				"sparkplug",
-				"headlighth7",
-				"headlighth7"
-			],
-			"Variants": [
-				"IJ_2125_Kombi_beg",
-				"IJ_2125_Kombi_green",
-				"IJ_2125_Kombi_orange",
-				"IJ_2125_Kombi_red"
 			]
 		},
 		{
@@ -523,42 +339,6 @@
 				"ij_2715_RF_blue",
 				"ij_2715_RF_green",
 				"ij_2715_RF_red"
-			]
-		},
-		{
-			"ClassName": "moskvich_407",
-			"MaxPriceThreshold": 53500,
-			"MinPriceThreshold": 26750,
-			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 18,
-			"MinStockThreshold": 1,
-			"QuantityPercent": -1,
-			"SpawnAttachments": [
-				"LugWrench",
-				"Wrench",
-				"Screwdriver",
-				"rag_car_jack",
-				"moskvich_407_wheel",
-				"moskvich_407_wheel",
-				"moskvich_407_wheel",
-				"moskvich_407_wheel",
-				"moskvich_407_wheel",
-				"moskvich_407_doors_driver",
-				"moskvich_407_doors_codriver",
-				"moskvich_407_doors_cargo1",
-				"moskvich_407_doors_cargo2",
-				"moskvich_407_doors_hood",
-				"moskvich_407_doors_trunk",
-				"carbattery",
-				"carradiator",
-				"sparkplug",
-				"headlighth7",
-				"headlighth7"
-			],
-			"Variants": [
-				"moskvich_407_double_red",
-				"moskvich_407_double_blue",
-				"moskvich_407_grey"
 			]
 		},
 		{
@@ -852,39 +632,6 @@
 				"ZAZ_965_red",
 				"ZAZ_965_green",
 				"ZAZ_965_bk"
-			]
-		},
-		{
-			"ClassName": "ZAZ_968",
-			"MaxPriceThreshold": 53500,
-			"MinPriceThreshold": 26750,
-			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 17,
-			"MinStockThreshold": 1,
-			"QuantityPercent": -1,
-			"SpawnAttachments": [
-				"LugWrench",
-				"Wrench",
-				"Screwdriver",
-				"rag_car_jack",
-				"ZAZ_968_wheel",
-				"ZAZ_968_wheel",
-				"ZAZ_968_wheel",
-				"ZAZ_968_wheel",
-				"ZAZ_968_wheel",
-				"ZAZ_968_doors_driver",
-				"ZAZ_968_doors_codriver",
-				"ZAZ_968_doors_hood",
-				"ZAZ_968_doors_trunk",
-				"carbattery",
-				"sparkplug",
-				"headlighth7",
-				"headlighth7"
-			],
-			"Variants": [
-				"ZAZ_968_green",
-				"ZAZ_968_yellow",
-				"ZAZ_968_milicia"
 			]
 		},
 		{

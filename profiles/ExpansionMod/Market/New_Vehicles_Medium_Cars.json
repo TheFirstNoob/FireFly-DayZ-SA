@@ -77,53 +77,6 @@
 			"Variants": []
 		},
 		{
-			"ClassName": "ExpansionUaz",
-			"MaxPriceThreshold": 60000,
-			"MinPriceThreshold": 30000,
-			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 3,
-			"MinStockThreshold": 1,
-			"QuantityPercent": -1,
-			"SpawnAttachments": [
-				"LugWrench",
-				"Wrench",
-				"Screwdriver",
-				"rag_car_jack",
-				"expansionuazwheel",
-				"expansionuazwheel",
-				"expansionuazwheel",
-				"expansionuazwheel",
-				"expansionuazwheel",
-				"expansionuazdoorhood",
-				"expansionuazdoordriver",
-				"expansionuazdoorcodriver",
-				"expansionuazdoorcargo1",
-				"expansionuazdoorcargo2",
-				"carbattery",
-				"carradiator",
-				"sparkplug",
-				"headlighth7",
-				"headlighth7"
-			],
-			"Variants": [
-				"ExpansionUAZRoofless",
-				"ExpansionUAZCargoRoofless",
-				"ExpansionUAZCargo",
-				"ExpansionUAZ_Green",
-				"ExpansionUAZCargo_Green",
-				"ExpansionUAZRoofless_Green",
-				"ExpansionUAZCargoRoofless_Green",
-				"ExpansionUAZ_Black",
-				"ExpansionUAZCargo_Black",
-				"ExpansionUAZRoofless_Black",
-				"ExpansionUAZCargoRoofless_Black",
-				"ExpansionUAZ_LightGreen",
-				"ExpansionUAZCargo_LightGreen",
-				"ExpansionUAZRoofless_LightGreen",
-				"ExpansionUAZCargoRoofless_LightGreen"
-			]
-		},
-		{
 			"ClassName": "Expansion_Landrover",
 			"MaxPriceThreshold": 180000,
 			"MinPriceThreshold": 70000,
@@ -225,42 +178,6 @@
 			],
 			"Variants": [
 				"Gaz_233002_Tiger_camo"
-			]
-		},
-		{
-			"ClassName": "GAZ_69_rus",
-			"MaxPriceThreshold": 50000,
-			"MinPriceThreshold": 15000,
-			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 6,
-			"MinStockThreshold": 1,
-			"QuantityPercent": -1,
-			"SpawnAttachments": [
-				"LugWrench",
-				"Wrench",
-				"Screwdriver",
-				"rag_car_jack",
-				"GAZ_69_rus_wheel",
-				"GAZ_69_rus_wheel",
-				"GAZ_69_rus_wheel",
-				"GAZ_69_rus_wheel",
-				"GAZ_69_rus_wheel",
-				"GAZ_69_rus_tent",
-				"GAZ_69_rus_doors_hood",
-				"GAZ_69_rus_doors_trunk",
-				"GAZ_69_rus_tent_doors_driver",
-				"GAZ_69_rus_tent_doors_codriver",
-				"GAZ_69_rus_tent_doors_cargo1",
-				"GAZ_69_rus_tent_doors_cargo2",
-				"carbattery",
-				"carradiator",
-				"sparkplug",
-				"headlighth7",
-				"headlighth7"
-			],
-			"Variants": [
-				"GAZ_69_rus_yellow",
-				"GAZ_69_rus_green"
 			]
 		},
 		{
