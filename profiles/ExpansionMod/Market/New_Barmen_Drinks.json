@@ -1,136 +1,136 @@
 {
-    "m_Version": 12,
-    "DisplayName": "Напитки",
-    "Icon": "Bottle",
-    "Color": "FBFCFEFF",
-    "IsExchange": 0,
-    "InitStockPercent": 75.0,
-    "Items": [
-        {
-            "ClassName": "SR_Food_Fizzo",
-            "MaxPriceThreshold": 800,
-            "MinPriceThreshold": 250,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
+	"m_Version": 12,
+	"DisplayName": "Напитки",
+	"Icon": "Bottle",
+	"Color": "FBFCFEFF",
+	"IsExchange": 0,
+	"InitStockPercent": 75.0,
+	"Items": [
+		{
+			"ClassName": "SR_Food_Fizzo",
+			"MaxPriceThreshold": 800,
+			"MinPriceThreshold": 250,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
 				"SR_Food_Fizzo_Orange",
 				"SR_Food_Fizzo_Apple",
 				"SR_Food_Fizzo_Blueberry",
 				"SR_Food_Fizzo_Lemon"
 			]
-        },
+		},
 		{
-            "ClassName": "sodacan_pipsi",
-            "MaxPriceThreshold": 650,
-            "MinPriceThreshold": 175,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "sodacan_cola",
-            "MaxPriceThreshold": 650,
-            "MinPriceThreshold": 175,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "sodacan_spite",
-            "MaxPriceThreshold": 20,
-            "MinPriceThreshold": 10,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "sodacan_kvass",
-            "MaxPriceThreshold": 20,
-            "MinPriceThreshold": 10,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "sodacan_fronta",
-            "MaxPriceThreshold": 20,
-            "MinPriceThreshold": 10,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "waterbottle",
-            "MaxPriceThreshold": 30,
-            "MinPriceThreshold": 15,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "canteen",
-            "MaxPriceThreshold": 36,
-            "MinPriceThreshold": 18,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "GlassBottle",
-            "MaxPriceThreshold": 44,
-            "MinPriceThreshold": 22,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "expansionmilkbottle",
-            "MaxPriceThreshold": 30,
-            "MinPriceThreshold": 15,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "SR_Food_WaterMilk",
-            "MaxPriceThreshold": 30,
-            "MinPriceThreshold": 15,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        }
-    ]
+			"ClassName": "sodacan_pipsi",
+			"MaxPriceThreshold": 650,
+			"MinPriceThreshold": 175,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "sodacan_cola",
+			"MaxPriceThreshold": 650,
+			"MinPriceThreshold": 175,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "sodacan_spite",
+			"MaxPriceThreshold": 20,
+			"MinPriceThreshold": 10,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "sodacan_kvass",
+			"MaxPriceThreshold": 20,
+			"MinPriceThreshold": 10,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "sodacan_fronta",
+			"MaxPriceThreshold": 20,
+			"MinPriceThreshold": 10,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "waterbottle",
+			"MaxPriceThreshold": 30,
+			"MinPriceThreshold": 15,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "canteen",
+			"MaxPriceThreshold": 36,
+			"MinPriceThreshold": 18,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "GlassBottle",
+			"MaxPriceThreshold": 44,
+			"MinPriceThreshold": 22,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "expansionmilkbottle",
+			"MaxPriceThreshold": 30,
+			"MinPriceThreshold": 15,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "SR_Food_WaterMilk",
+			"MaxPriceThreshold": 30,
+			"MinPriceThreshold": 15,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		}
+	]
 }

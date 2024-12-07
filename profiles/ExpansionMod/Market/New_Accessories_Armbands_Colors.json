@@ -1,21 +1,21 @@
 {
-    "m_Version": 12,
-    "DisplayName": "Аксессуары - Нарукавные повязки (Цветные)",
-    "Icon": "Rope",
-    "Color": "FBFCFEFF",
-    "IsExchange": 0,
-    "InitStockPercent": 75.0,
-    "Items": [
-        {
-            "ClassName": "armband_white",
-            "MaxPriceThreshold": 30,
-            "MinPriceThreshold": 15,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 250,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
+	"m_Version": 12,
+	"DisplayName": "Аксессуары - Нарукавные повязки (Цветные)",
+	"Icon": "Rope",
+	"Color": "FBFCFEFF",
+	"IsExchange": 0,
+	"InitStockPercent": 75.0,
+	"Items": [
+		{
+			"ClassName": "armband_white",
+			"MaxPriceThreshold": 30,
+			"MinPriceThreshold": 15,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 250,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
 				"armband_yellow",
 				"armband_orange",
 				"armband_red",
@@ -24,17 +24,17 @@
 				"armband_blue",
 				"armband_black"
 			]
-        },
-        {
-            "ClassName": "Armband_Expansion_Rainbow",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        }
-    ]
+		},
+		{
+			"ClassName": "Armband_Expansion_Rainbow",
+			"MaxPriceThreshold": 100,
+			"MinPriceThreshold": 100,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 1,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		}
+	]
 }

@@ -1,34 +1,34 @@
 {
-    "m_Version": 12,
-    "DisplayName": "Бинокль и Дальнометр",
-    "Icon": "Binoculars",
-    "Color": "81DD4D",
-    "IsExchange": 0,
-    "InitStockPercent": 75.0,
-    "Items": [
+	"m_Version": 12,
+	"DisplayName": "Бинокль и Дальнометр",
+	"Icon": "Binoculars",
+	"Color": "81DD4D",
+	"IsExchange": 0,
+	"InitStockPercent": 75.0,
+	"Items": [
 		{
-            "ClassName": "Rangefinder",
-            "MaxPriceThreshold": 120,
-            "MinPriceThreshold": 60,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "battery9v"
-            ],
-            "Variants": []
-        },
+			"ClassName": "Rangefinder",
+			"MaxPriceThreshold": 120,
+			"MinPriceThreshold": 60,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [
+				"battery9v"
+			],
+			"Variants": []
+		},
 		{
-            "ClassName": "Binoculars",
-            "MaxPriceThreshold": 120,
-            "MinPriceThreshold": 60,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        }
-    ]
+			"ClassName": "Binoculars",
+			"MaxPriceThreshold": 120,
+			"MinPriceThreshold": 60,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		}
+	]
 }

@@ -1,98 +1,98 @@
 {
-    "m_Version": 12,
-    "DisplayName": "Оружие - Пистолеты Пулеметы",
-    "Icon": "Gun",
-    "Color": "FBFCFEFF",
-    "IsExchange": 0,
-    "InitStockPercent": 75.0,
-    "Items": [
-        {
-            "ClassName": "CZ61",
-            "MaxPriceThreshold": 3850,
-            "MinPriceThreshold": 770,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 150,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "UMP45",
-            "MaxPriceThreshold": 4900,
-            "MinPriceThreshold": 980,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 125,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "MP5K",
-            "MaxPriceThreshold": 4075,
-            "MinPriceThreshold": 815,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 135,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "PP19",
-            "MaxPriceThreshold": 5400,
-            "MinPriceThreshold": 1080,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 135,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "expansion_kedr",
-            "MaxPriceThreshold": 3700,
-            "MinPriceThreshold": 740,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 150,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "expansion_mpx",
-            "MaxPriceThreshold": 6250,
-            "MinPriceThreshold": 1250,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "expansion_mp7",
-            "MaxPriceThreshold": 8000,
-            "MinPriceThreshold": 1600,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 85,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "expansion_vityazsn",
-            "MaxPriceThreshold": 7000,
-            "MinPriceThreshold": 1400,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 115,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        }
-    ]
+	"m_Version": 12,
+	"DisplayName": "Оружие - Пистолеты Пулеметы",
+	"Icon": "Gun",
+	"Color": "FBFCFEFF",
+	"IsExchange": 0,
+	"InitStockPercent": 75.0,
+	"Items": [
+		{
+			"ClassName": "CZ61",
+			"MaxPriceThreshold": 3850,
+			"MinPriceThreshold": 770,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 150,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "UMP45",
+			"MaxPriceThreshold": 4900,
+			"MinPriceThreshold": 980,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 125,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "MP5K",
+			"MaxPriceThreshold": 4075,
+			"MinPriceThreshold": 815,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 135,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "PP19",
+			"MaxPriceThreshold": 5400,
+			"MinPriceThreshold": 1080,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 135,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "expansion_kedr",
+			"MaxPriceThreshold": 3700,
+			"MinPriceThreshold": 740,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 150,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "expansion_mpx",
+			"MaxPriceThreshold": 6250,
+			"MinPriceThreshold": 1250,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "expansion_mp7",
+			"MaxPriceThreshold": 8000,
+			"MinPriceThreshold": 1600,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 85,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "expansion_vityazsn",
+			"MaxPriceThreshold": 7000,
+			"MinPriceThreshold": 1400,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 115,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		}
+	]
 }

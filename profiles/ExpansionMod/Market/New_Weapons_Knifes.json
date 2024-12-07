@@ -1,98 +1,98 @@
 {
-    "m_Version": 12,
-    "DisplayName": "Холодное оружие - Ножи",
-    "Icon": "Knife",
-    "Color": "3FCBFF",
-    "IsExchange": 0,
-    "InitStockPercent": 75.0,
-    "Items": [
-        {
-            "ClassName": "kitchenknife",
-            "MaxPriceThreshold": 120,
-            "MinPriceThreshold": 94,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 12,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "steakknife",
-            "MaxPriceThreshold": 90,
-            "MinPriceThreshold": 70,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 16,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "huntingknife",
-            "MaxPriceThreshold": 170,
-            "MinPriceThreshold": 142,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 9,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "combatknife",
-            "MaxPriceThreshold": 150,
-            "MinPriceThreshold": 114,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 9,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "kukriknife",
-            "MaxPriceThreshold": 285,
-            "MinPriceThreshold": 222,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 6,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "machete",
-            "MaxPriceThreshold": 270,
-            "MinPriceThreshold": 210,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 6,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "crudemachete",
-            "MaxPriceThreshold": 228,
-            "MinPriceThreshold": 170,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 8,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "cleaver",
-            "MaxPriceThreshold": 365,
-            "MinPriceThreshold": 290,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 6,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        }
-    ]
+	"m_Version": 12,
+	"DisplayName": "Холодное оружие - Ножи",
+	"Icon": "Knife",
+	"Color": "3FCBFF",
+	"IsExchange": 0,
+	"InitStockPercent": 75.0,
+	"Items": [
+		{
+			"ClassName": "kitchenknife",
+			"MaxPriceThreshold": 120,
+			"MinPriceThreshold": 94,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 12,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "steakknife",
+			"MaxPriceThreshold": 90,
+			"MinPriceThreshold": 70,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 16,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "huntingknife",
+			"MaxPriceThreshold": 170,
+			"MinPriceThreshold": 142,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 9,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "combatknife",
+			"MaxPriceThreshold": 150,
+			"MinPriceThreshold": 114,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 9,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "kukriknife",
+			"MaxPriceThreshold": 285,
+			"MinPriceThreshold": 222,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 6,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "machete",
+			"MaxPriceThreshold": 270,
+			"MinPriceThreshold": 210,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 6,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "crudemachete",
+			"MaxPriceThreshold": 228,
+			"MinPriceThreshold": 170,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 8,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "cleaver",
+			"MaxPriceThreshold": 365,
+			"MinPriceThreshold": 290,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 6,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		}
+	]
 }

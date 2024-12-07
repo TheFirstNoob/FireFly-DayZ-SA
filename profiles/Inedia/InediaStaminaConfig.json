@@ -1,121 +1,121 @@
 {
-    "ShowStaminaWidgetInVehicle": 1,
-    "AllowOpenInventoryWhileResting": 1,
-    "StaminaGeneralOptions": {
-        "IsActive": 0,
-        "RespawnValuePercent": 100.0,
-        "WeightOverloadThresholdKg": 28.0,
-        "WeightOverloadMultiplierMax": 10.0,
-        "CostPerSecondRestPercent": 0.6000000238418579,
-        "CostPerSecondNoMovementPercent": 0.30000001192092898,
-        "CostPerSecondNormalWalkingPercent": 0.30000001192092898,
-        "CostPerSecondCrouchWalkingPercent": 0.15000000596046449,
-        "CostPerSecondProneWalkingPercent": 0.15000000596046449,
-        "CostPerSecondJogPercent": -0.05000000074505806,
-        "CostPerSecondCrouchSprintPercent": -0.15000000596046449,
-        "CostPerSecondSprintPercent": -0.5,
-        "CostPerRollPercent": -0.5,
-        "CostPerJumpPercent": -1.0,
-        "CostPerVaultPercent": -1.0,
-        "CostPerClimbPercent": -2.0,
-        "CostPerMeleeAttackPercent": -0.30000001192092898,
-        "CostPerPushCarApplyForcePercent": -0.05000000074505806,
-        "CostPerMinePercent": -3.0,
-        "CostPerMinePlanksFromPileOfWoodenPlanksPercent": -3.0,
-        "CostPerMinePlanksFromWoodenLogPercent": -15.0,
-        "CostPerBuildPercent": -3.0,
-        "WalkingWeightDebuffBorderKg": 50.0,
-        "OneDegreeOfSlopeUpMultiplierPercent": 5.0,
-        "OneDegreeOfSlopeDownMultiplierPercent": 5.0,
-        "SurfaceRoadMultiplier": 0.8999999761581421,
-        "SurfaceGrassMultiplier": 1.0,
-        "SurfaceGrassTallMultiplier": 1.100000023841858,
-        "SurfaceForestMultiplier": 1.100000023841858,
-        "SurfaceStoneMultiplier": 1.0,
-        "SurfaceSandMultiplier": 1.5,
-        "SurfaceWaterMultiplier": 2.0,
-        "EpinephrineMultiplier": 0.20000000298023225,
-        "AMSEnergyPillsMultiplier": 0.5,
-        "MorphineMultiplier": 1.0,
-        "HeatMultiplier": 2.0,
-        "ShockPerSecondJogCritical": -1.0,
-        "ShockPerSecondSprintCritical": -4.0,
-        "ShockPerSecondJogLow": 0.0,
-        "ShockPerSecondSprintLow": -2.0,
-        "TremorLevelAtCritical": 1.0,
-        "TremorLevelAtLow": 0.30000001192092898,
-        "CriticalThresholdPercent": 5.0,
-        "LowThresholdPercent": 20.0,
-        "SyberiaProjectAthleticsImpactFrom": 0.8999999761581421,
-        "SyberiaProjectAthleticsImpactTo": 1.2999999523162842,
-        "SyberiaProjectStrengthImpactFrom": 0.8999999761581421,
-        "SyberiaProjectStrengthImpactTo": 1.2999999523162842
-    },
-    "StaminaSleepOptions": {
-        "IsActive": 1,
-        "RespawnValuePercent": 100.0,
-        "ReductionOfMaximumSleepWhenDaytimePercent": 20.0,
-        "ReductionOfMaximumSleepWhenOutdoorsPercent": 20.0,
-        "ReductionOfMaximumSleepWhenWetPercent": 50.0,
-        "ReductionOfMaximumSleepWhenColdPercent": 25.0,
-        "ReductionOfMaximumSleepWhenHotPercent": 15.0,
-        "DelayBeforeSleepSeconds": 10.0,
-        "DelayBeforeNextSleepTryInLyingDownSeconds": 600.0,
-        "CostPerSecondSleepPercent": 0.30000000298023225,
-        "CostPerSecondRestPercent": -0.003000000026077032,
-        "CostPerSecondNoMovementPercent": -0.003000000026077032,
-        "CostPerSecondNormalWalkingPercent": -0.004000000189989805,
-        "CostPerSecondCrouchWalkingPercent": -0.005000000189989805,
-        "CostPerSecondProneWalkingPercent": -0.005000000189989805,
-        "CostPerSecondJogPercent": -0.004999999888241291,
-        "CostPerSecondCrouchSprintPercent": -0.006000000052154064,
-        "CostPerSecondSprintPercent": -0.009999999776482582,
-        "CostPerRollPercent": -0.009999999776482582,
-        "CostPerJumpPercent": -0.009999999776482582,
-        "CostPerVaultPercent": -0.009999999776482582,
-        "CostPerClimbPercent": -0.019999999552965165,
-        "CostPerMeleeAttackPercent": -0.009999999776482582,
-        "CostPerPushCarApplyForcePercent": -0.0070000000474974514,
-        "CostPerMinePercent": -0.009999999776482582,
-        "CostPerMinePlanksFromPileOfWoodenPlanksPercent": -0.009999999776482582,
-        "CostPerMinePlanksFromWoodenLogPercent": -0.05000000074505806,
-        "CostPerBuildPercent": -0.009999999776482582,
-        "EpinephrineMultiplier": 0.20000000298023225,
-        "MorphineMultiplier": 50.0,
-        "TremorLevelAtCritical": 0.3,
-        "TremorLevelAtLow": 0.1,
-        "SleepyAlertsWhenLessCriticalIsActive": 1,
-        "LossOfConsciousnessWhenLessCriticalIsActive": 1,
-        "MovementSpeedReductionWhenLessLowIsActive": 1,
-        "CriticalThresholdPercent": 10.0,
-        "LowThresholdPercent": 25.0,
-        "SleepinessThresholdPercent": 35.0
-    },
-    "InediaMovementOptions": {
-        "WeightRestrictionsHandlerIsActive": 1,
-        "WeakSlowdownIfLoadGreaterThanKg": 50.0,
-        "MediumSlowdownIfLoadGreaterThanKg": 60.0,
-        "StrongSlowdownIfLoadGreaterThanKg": 75.0,
-        "ExtremeSlowdownIfLoadGreaterThanKg": 90.0,
-        "ForcedWalkIfLoadGreaterThanKg": 115.0,
-        "MovementRestrictionIfLoadGreaterThanKg": 135.0,
-        "SlopeRestrictionsHandlerIsActive": 1,
-        "WeakSlowdownIfSlopeGreaterThanDegree": 9.0,
-        "MediumSlowdownIfSlopeGreaterThanDegree": 18.0,
-        "StrongSlowdownIfSlopeGreaterThanDegree": 27.0,
-        "ExtremeSlowdownIfSlopeGreaterThanDegree": 36.0,
-        "SurfaceRestrictionsHandlerIsActive": 1,
-        "SurfaceRoadSpeedReduction": 0,
-        "SurfaceGrassSpeedReduction": 1,
-        "SurfaceGrassTallSpeedReduction": 2,
-        "SurfaceForestSpeedReduction": 1,
-        "SurfaceStoneSpeedReduction": 0,
-        "SurfaceSandSpeedReduction": 2,
-        "SurfaceWaterSpeedReduction": 3,
-        "SurfaceFootwearSpeedImpact": {
-            "Barefoot": -4,
-            "NBCBootsGrey": 0,
-            "NBCBootsYellow": 0,
+	"ShowStaminaWidgetInVehicle": 1,
+	"AllowOpenInventoryWhileResting": 1,
+	"StaminaGeneralOptions": {
+		"IsActive": 0,
+		"RespawnValuePercent": 100.0,
+		"WeightOverloadThresholdKg": 28.0,
+		"WeightOverloadMultiplierMax": 10.0,
+		"CostPerSecondRestPercent": 0.6000000238418579,
+		"CostPerSecondNoMovementPercent": 0.30000001192092898,
+		"CostPerSecondNormalWalkingPercent": 0.30000001192092898,
+		"CostPerSecondCrouchWalkingPercent": 0.15000000596046449,
+		"CostPerSecondProneWalkingPercent": 0.15000000596046449,
+		"CostPerSecondJogPercent": -0.05000000074505806,
+		"CostPerSecondCrouchSprintPercent": -0.15000000596046449,
+		"CostPerSecondSprintPercent": -0.5,
+		"CostPerRollPercent": -0.5,
+		"CostPerJumpPercent": -1.0,
+		"CostPerVaultPercent": -1.0,
+		"CostPerClimbPercent": -2.0,
+		"CostPerMeleeAttackPercent": -0.30000001192092898,
+		"CostPerPushCarApplyForcePercent": -0.05000000074505806,
+		"CostPerMinePercent": -3.0,
+		"CostPerMinePlanksFromPileOfWoodenPlanksPercent": -3.0,
+		"CostPerMinePlanksFromWoodenLogPercent": -15.0,
+		"CostPerBuildPercent": -3.0,
+		"WalkingWeightDebuffBorderKg": 50.0,
+		"OneDegreeOfSlopeUpMultiplierPercent": 5.0,
+		"OneDegreeOfSlopeDownMultiplierPercent": 5.0,
+		"SurfaceRoadMultiplier": 0.8999999761581421,
+		"SurfaceGrassMultiplier": 1.0,
+		"SurfaceGrassTallMultiplier": 1.100000023841858,
+		"SurfaceForestMultiplier": 1.100000023841858,
+		"SurfaceStoneMultiplier": 1.0,
+		"SurfaceSandMultiplier": 1.5,
+		"SurfaceWaterMultiplier": 2.0,
+		"EpinephrineMultiplier": 0.20000000298023225,
+		"AMSEnergyPillsMultiplier": 0.5,
+		"MorphineMultiplier": 1.0,
+		"HeatMultiplier": 2.0,
+		"ShockPerSecondJogCritical": -1.0,
+		"ShockPerSecondSprintCritical": -4.0,
+		"ShockPerSecondJogLow": 0.0,
+		"ShockPerSecondSprintLow": -2.0,
+		"TremorLevelAtCritical": 1.0,
+		"TremorLevelAtLow": 0.30000001192092898,
+		"CriticalThresholdPercent": 5.0,
+		"LowThresholdPercent": 20.0,
+		"SyberiaProjectAthleticsImpactFrom": 0.8999999761581421,
+		"SyberiaProjectAthleticsImpactTo": 1.2999999523162842,
+		"SyberiaProjectStrengthImpactFrom": 0.8999999761581421,
+		"SyberiaProjectStrengthImpactTo": 1.2999999523162842
+	},
+	"StaminaSleepOptions": {
+		"IsActive": 1,
+		"RespawnValuePercent": 100.0,
+		"ReductionOfMaximumSleepWhenDaytimePercent": 20.0,
+		"ReductionOfMaximumSleepWhenOutdoorsPercent": 20.0,
+		"ReductionOfMaximumSleepWhenWetPercent": 50.0,
+		"ReductionOfMaximumSleepWhenColdPercent": 25.0,
+		"ReductionOfMaximumSleepWhenHotPercent": 15.0,
+		"DelayBeforeSleepSeconds": 10.0,
+		"DelayBeforeNextSleepTryInLyingDownSeconds": 600.0,
+		"CostPerSecondSleepPercent": 0.30000000298023225,
+		"CostPerSecondRestPercent": -0.003000000026077032,
+		"CostPerSecondNoMovementPercent": -0.003000000026077032,
+		"CostPerSecondNormalWalkingPercent": -0.004000000189989805,
+		"CostPerSecondCrouchWalkingPercent": -0.005000000189989805,
+		"CostPerSecondProneWalkingPercent": -0.005000000189989805,
+		"CostPerSecondJogPercent": -0.004999999888241291,
+		"CostPerSecondCrouchSprintPercent": -0.006000000052154064,
+		"CostPerSecondSprintPercent": -0.009999999776482582,
+		"CostPerRollPercent": -0.009999999776482582,
+		"CostPerJumpPercent": -0.009999999776482582,
+		"CostPerVaultPercent": -0.009999999776482582,
+		"CostPerClimbPercent": -0.019999999552965165,
+		"CostPerMeleeAttackPercent": -0.009999999776482582,
+		"CostPerPushCarApplyForcePercent": -0.0070000000474974514,
+		"CostPerMinePercent": -0.009999999776482582,
+		"CostPerMinePlanksFromPileOfWoodenPlanksPercent": -0.009999999776482582,
+		"CostPerMinePlanksFromWoodenLogPercent": -0.05000000074505806,
+		"CostPerBuildPercent": -0.009999999776482582,
+		"EpinephrineMultiplier": 0.20000000298023225,
+		"MorphineMultiplier": 50.0,
+		"TremorLevelAtCritical": 0.3,
+		"TremorLevelAtLow": 0.1,
+		"SleepyAlertsWhenLessCriticalIsActive": 1,
+		"LossOfConsciousnessWhenLessCriticalIsActive": 1,
+		"MovementSpeedReductionWhenLessLowIsActive": 1,
+		"CriticalThresholdPercent": 10.0,
+		"LowThresholdPercent": 25.0,
+		"SleepinessThresholdPercent": 35.0
+	},
+	"InediaMovementOptions": {
+		"WeightRestrictionsHandlerIsActive": 1,
+		"WeakSlowdownIfLoadGreaterThanKg": 50.0,
+		"MediumSlowdownIfLoadGreaterThanKg": 60.0,
+		"StrongSlowdownIfLoadGreaterThanKg": 75.0,
+		"ExtremeSlowdownIfLoadGreaterThanKg": 90.0,
+		"ForcedWalkIfLoadGreaterThanKg": 115.0,
+		"MovementRestrictionIfLoadGreaterThanKg": 135.0,
+		"SlopeRestrictionsHandlerIsActive": 1,
+		"WeakSlowdownIfSlopeGreaterThanDegree": 9.0,
+		"MediumSlowdownIfSlopeGreaterThanDegree": 18.0,
+		"StrongSlowdownIfSlopeGreaterThanDegree": 27.0,
+		"ExtremeSlowdownIfSlopeGreaterThanDegree": 36.0,
+		"SurfaceRestrictionsHandlerIsActive": 1,
+		"SurfaceRoadSpeedReduction": 0,
+		"SurfaceGrassSpeedReduction": 1,
+		"SurfaceGrassTallSpeedReduction": 2,
+		"SurfaceForestSpeedReduction": 1,
+		"SurfaceStoneSpeedReduction": 0,
+		"SurfaceSandSpeedReduction": 2,
+		"SurfaceWaterSpeedReduction": 3,
+		"SurfaceFootwearSpeedImpact": {
+			"Barefoot": -4,
+			"NBCBootsGrey": 0,
+			"NBCBootsYellow": 0,
 			"FeetCover_Improvised": -2,
 			"DressShoes_ColorBase": -1,
 			"LeatherShoes_ColorBase": -1,
@@ -135,145 +135,145 @@
 			"CombatBoots_ColorBase": 1,
 			"JungleBoots_ColorBase": 0,
 			"MilitaryBoots_ColorBase": 0
-        },
-        "ForcedWalkIfCharacterIsInBush": 0,
-        "BushClasses": {},
-        "CumulativeSpeedReductionIsActive": 1,
-        "SyberiaProjectStrengthImpactFrom": 0.8999999761581421,
-        "SyberiaProjectStrengthImpactTo": 1.2999999523162842
-    },
-    "StaminaStimulants": [
+		},
+		"ForcedWalkIfCharacterIsInBush": 0,
+		"BushClasses": {},
+		"CumulativeSpeedReductionIsActive": 1,
+		"SyberiaProjectStrengthImpactFrom": 0.8999999761581421,
+		"SyberiaProjectStrengthImpactTo": 1.2999999523162842
+	},
+	"StaminaStimulants": [
 		{
-            "ItemClass": "SR_Food_Fizzo",
-            "StaminaGeneralIncreasePercent": 1.0,
-            "StaminaSleepIncreasePercent": 20.0
-        },
+			"ItemClass": "SR_Food_Fizzo",
+			"StaminaGeneralIncreasePercent": 1.0,
+			"StaminaSleepIncreasePercent": 20.0
+		},
 		{
-            "ItemClass": "SR_Food_Fizzo_Orange",
-            "StaminaGeneralIncreasePercent": 1.0,
-            "StaminaSleepIncreasePercent": 20.0
-        },
+			"ItemClass": "SR_Food_Fizzo_Orange",
+			"StaminaGeneralIncreasePercent": 1.0,
+			"StaminaSleepIncreasePercent": 20.0
+		},
 		{
-            "ItemClass": "SR_Food_Fizzo_Apple",
-            "StaminaGeneralIncreasePercent": 1.0,
-            "StaminaSleepIncreasePercent": 20.0
-        },
+			"ItemClass": "SR_Food_Fizzo_Apple",
+			"StaminaGeneralIncreasePercent": 1.0,
+			"StaminaSleepIncreasePercent": 20.0
+		},
 		{
-            "ItemClass": "SR_Food_Fizzo_Blueberry",
-            "StaminaGeneralIncreasePercent": 1.0,
-            "StaminaSleepIncreasePercent": 20.0
-        },
+			"ItemClass": "SR_Food_Fizzo_Blueberry",
+			"StaminaGeneralIncreasePercent": 1.0,
+			"StaminaSleepIncreasePercent": 20.0
+		},
 		{
-            "ItemClass": "SR_Food_Fizzo_Lemon",
-            "StaminaGeneralIncreasePercent": 1.0,
-            "StaminaSleepIncreasePercent": 20.0
-        },
-        {
-            "ItemClass": "SodaCan_Cola",
-            "StaminaGeneralIncreasePercent": 1.0,
-            "StaminaSleepIncreasePercent": 8.0
-        },
-        {
-            "ItemClass": "SodaCan_Pipsi",
-            "StaminaGeneralIncreasePercent": 1.0,
-            "StaminaSleepIncreasePercent": 8.0
-        },
-        {
-            "ItemClass": "SodaCan_Kvass",
-            "StaminaGeneralIncreasePercent": 1.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "SodaCan_Spite",
-            "StaminaGeneralIncreasePercent": 1.0,
-            "StaminaSleepIncreasePercent": 3.0
-        },
-        {
-            "ItemClass": "SodaCan_Fronta",
-            "StaminaGeneralIncreasePercent": 1.0,
-            "StaminaSleepIncreasePercent": 3.0
-        }
-    ],
-    "StaminaLiquidStimulants": [
-        {
-            "LiquidId": 2048,
-            "StaminaGeneralIncreasePerLiterPercent": 100.0,
-            "StaminaSleepIncreasePerLiterPercent": -50.0
-        }
-    ],
-    "ComfortablePlaces": [
-        {
-            "ItemClass": "Msp_Mattress_Blue",
-            "StaminaGeneralMultiplier": 1.0,
-            "StaminaSleepMultiplier": 1.5
-        },
-        {
-            "ItemClass": "Msp_Mattress_Green",
-            "StaminaGeneralMultiplier": 1.0,
-            "StaminaSleepMultiplier": 1.5
-        },
-        {
-            "ItemClass": "Msp_Mattress_Pink",
-            "StaminaGeneralMultiplier": 1.0,
-            "StaminaSleepMultiplier": 1.5
-        },
-        {
-            "ItemClass": "Msp_Mattress_Yellow",
-            "StaminaGeneralMultiplier": 1.0,
-            "StaminaSleepMultiplier": 1.5
-        },
-        {
-            "ItemClass": "Msp_SleepingBag_Green",
-            "StaminaGeneralMultiplier": 1.0,
-            "StaminaSleepMultiplier": 2.5
-        },
-        {
-            "ItemClass": "Msp_SleepingBag_Blue",
-            "StaminaGeneralMultiplier": 1.0,
-            "StaminaSleepMultiplier": 2.5
-        },
-        {
-            "ItemClass": "Msp_SleepingBag_LimeGreen",
-            "StaminaGeneralMultiplier": 1.0,
-            "StaminaSleepMultiplier": 2.5
-        },
-        {
-            "ItemClass": "Msp_SleepingBag_Orange",
-            "StaminaGeneralMultiplier": 1.0,
-            "StaminaSleepMultiplier": 2.5
-        },
-        {
-            "ItemClass": "Msp_SleepingBag_Purple",
-            "StaminaGeneralMultiplier": 1.0,
-            "StaminaSleepMultiplier": 2.5
-        },
-        {
-            "ItemClass": "Msp_SleepingBag_Red",
-            "StaminaGeneralMultiplier": 1.0,
-            "StaminaSleepMultiplier": 2.5
-        },
-        {
-            "ItemClass": "ShelterFabric",
-            "StaminaGeneralMultiplier": 1.0,
-            "StaminaSleepMultiplier": 2.0
-        },
-        {
-            "ItemClass": "ShelterLeather",
-            "StaminaGeneralMultiplier": 1.0,
-            "StaminaSleepMultiplier": 2.0
-        },
-        {
-            "ItemClass": "ShelterStick",
-            "StaminaGeneralMultiplier": 1.0,
-            "StaminaSleepMultiplier": 2.0
-        },
-        {
-            "ItemClass": "MSP_Gazebo",
-            "StaminaGeneralMultiplier": 1.0,
-            "StaminaSleepMultiplier": 2.5
-        }
-    ],
-    "Clothes": [],
-    "HumanPoweredVehicles": [],
-    "Houses": []
+			"ItemClass": "SR_Food_Fizzo_Lemon",
+			"StaminaGeneralIncreasePercent": 1.0,
+			"StaminaSleepIncreasePercent": 20.0
+		},
+		{
+			"ItemClass": "SodaCan_Cola",
+			"StaminaGeneralIncreasePercent": 1.0,
+			"StaminaSleepIncreasePercent": 8.0
+		},
+		{
+			"ItemClass": "SodaCan_Pipsi",
+			"StaminaGeneralIncreasePercent": 1.0,
+			"StaminaSleepIncreasePercent": 8.0
+		},
+		{
+			"ItemClass": "SodaCan_Kvass",
+			"StaminaGeneralIncreasePercent": 1.0,
+			"StaminaSleepIncreasePercent": 5.0
+		},
+		{
+			"ItemClass": "SodaCan_Spite",
+			"StaminaGeneralIncreasePercent": 1.0,
+			"StaminaSleepIncreasePercent": 3.0
+		},
+		{
+			"ItemClass": "SodaCan_Fronta",
+			"StaminaGeneralIncreasePercent": 1.0,
+			"StaminaSleepIncreasePercent": 3.0
+		}
+	],
+	"StaminaLiquidStimulants": [
+		{
+			"LiquidId": 2048,
+			"StaminaGeneralIncreasePerLiterPercent": 100.0,
+			"StaminaSleepIncreasePerLiterPercent": -50.0
+		}
+	],
+	"ComfortablePlaces": [
+		{
+			"ItemClass": "Msp_Mattress_Blue",
+			"StaminaGeneralMultiplier": 1.0,
+			"StaminaSleepMultiplier": 1.5
+		},
+		{
+			"ItemClass": "Msp_Mattress_Green",
+			"StaminaGeneralMultiplier": 1.0,
+			"StaminaSleepMultiplier": 1.5
+		},
+		{
+			"ItemClass": "Msp_Mattress_Pink",
+			"StaminaGeneralMultiplier": 1.0,
+			"StaminaSleepMultiplier": 1.5
+		},
+		{
+			"ItemClass": "Msp_Mattress_Yellow",
+			"StaminaGeneralMultiplier": 1.0,
+			"StaminaSleepMultiplier": 1.5
+		},
+		{
+			"ItemClass": "Msp_SleepingBag_Green",
+			"StaminaGeneralMultiplier": 1.0,
+			"StaminaSleepMultiplier": 2.5
+		},
+		{
+			"ItemClass": "Msp_SleepingBag_Blue",
+			"StaminaGeneralMultiplier": 1.0,
+			"StaminaSleepMultiplier": 2.5
+		},
+		{
+			"ItemClass": "Msp_SleepingBag_LimeGreen",
+			"StaminaGeneralMultiplier": 1.0,
+			"StaminaSleepMultiplier": 2.5
+		},
+		{
+			"ItemClass": "Msp_SleepingBag_Orange",
+			"StaminaGeneralMultiplier": 1.0,
+			"StaminaSleepMultiplier": 2.5
+		},
+		{
+			"ItemClass": "Msp_SleepingBag_Purple",
+			"StaminaGeneralMultiplier": 1.0,
+			"StaminaSleepMultiplier": 2.5
+		},
+		{
+			"ItemClass": "Msp_SleepingBag_Red",
+			"StaminaGeneralMultiplier": 1.0,
+			"StaminaSleepMultiplier": 2.5
+		},
+		{
+			"ItemClass": "ShelterFabric",
+			"StaminaGeneralMultiplier": 1.0,
+			"StaminaSleepMultiplier": 2.0
+		},
+		{
+			"ItemClass": "ShelterLeather",
+			"StaminaGeneralMultiplier": 1.0,
+			"StaminaSleepMultiplier": 2.0
+		},
+		{
+			"ItemClass": "ShelterStick",
+			"StaminaGeneralMultiplier": 1.0,
+			"StaminaSleepMultiplier": 2.0
+		},
+		{
+			"ItemClass": "MSP_Gazebo",
+			"StaminaGeneralMultiplier": 1.0,
+			"StaminaSleepMultiplier": 2.5
+		}
+	],
+	"Clothes": [],
+	"HumanPoweredVehicles": [],
+	"Houses": []
 }

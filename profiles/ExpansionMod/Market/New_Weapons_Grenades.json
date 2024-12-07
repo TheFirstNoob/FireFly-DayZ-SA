@@ -1,72 +1,72 @@
 {
-    "m_Version": 12,
-    "DisplayName": "Другое - Гранаты",
-    "Icon": "Grenade",
-    "Color": "80E8E0",
-    "IsExchange": 0,
-    "InitStockPercent": 75.0,
-    "Items": [
-        {
-            "ClassName": "RGD5Grenade",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "M67Grenade",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
+	"m_Version": 12,
+	"DisplayName": "Другое - Гранаты",
+	"Icon": "Grenade",
+	"Color": "80E8E0",
+	"IsExchange": 0,
+	"InitStockPercent": 75.0,
+	"Items": [
 		{
-            "ClassName": "Grenade_ChemGas",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "M18SmokeGrenade_Red",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
+			"ClassName": "RGD5Grenade",
+			"MaxPriceThreshold": 100,
+			"MinPriceThreshold": 100,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "M67Grenade",
+			"MaxPriceThreshold": 100,
+			"MinPriceThreshold": 100,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "Grenade_ChemGas",
+			"MaxPriceThreshold": 100,
+			"MinPriceThreshold": 100,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "M18SmokeGrenade_Red",
+			"MaxPriceThreshold": 100,
+			"MinPriceThreshold": 100,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
 				"M18SmokeGrenade_Green",
 				"M18SmokeGrenade_Yellow",
 				"M18SmokeGrenade_Purple",
 				"M18SmokeGrenade_White"
 			]
-        },
-        {
-            "ClassName": "RDG2SmokeGrenade_Black",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
+		},
+		{
+			"ClassName": "RDG2SmokeGrenade_Black",
+			"MaxPriceThreshold": 100,
+			"MinPriceThreshold": 100,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
 				"RDG2SmokeGrenade_White"
 			]
-        }
-    ]
+		}
+	]
 }

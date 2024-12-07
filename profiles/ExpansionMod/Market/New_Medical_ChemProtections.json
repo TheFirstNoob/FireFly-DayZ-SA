@@ -1,75 +1,75 @@
 {
-    "m_Version": 12,
-    "DisplayName": "Защита - Костюмы",
-    "Icon": "Radiation",
-    "Color": "FF7F50",
-    "IsExchange": 0,
-    "InitStockPercent": 50.0,
-    "Items": [
+	"m_Version": 12,
+	"DisplayName": "Защита - Костюмы",
+	"Icon": "Radiation",
+	"Color": "FF7F50",
+	"IsExchange": 0,
+	"InitStockPercent": 50.0,
+	"Items": [
 		{
-            "ClassName": "NBCGlovesYellow",
-            "MaxPriceThreshold": 200,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
+			"ClassName": "NBCGlovesYellow",
+			"MaxPriceThreshold": 200,
+			"MinPriceThreshold": 100,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
 				"NBCGlovesGray"
 			]
-        },
+		},
 		{
-            "ClassName": "NBCHoodYellow",
-            "MaxPriceThreshold": 200,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
+			"ClassName": "NBCHoodYellow",
+			"MaxPriceThreshold": 200,
+			"MinPriceThreshold": 100,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
 				"NBCHoodGray"
 			]
-        },
+		},
 		{
-            "ClassName": "NBCPantsYellow",
-            "MaxPriceThreshold": 200,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
+			"ClassName": "NBCPantsYellow",
+			"MaxPriceThreshold": 200,
+			"MinPriceThreshold": 100,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
 				"NBCPantsGray"
 			]
-        },
+		},
 		{
-            "ClassName": "NBCJacketYellow",
-            "MaxPriceThreshold": 200,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
+			"ClassName": "NBCJacketYellow",
+			"MaxPriceThreshold": 200,
+			"MinPriceThreshold": 100,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
 				"NBCJacketGray"
 			]
-        },
+		},
 		{
-            "ClassName": "NBCBootsYellow",
-            "MaxPriceThreshold": 200,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
+			"ClassName": "NBCBootsYellow",
+			"MaxPriceThreshold": 200,
+			"MinPriceThreshold": 100,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
 				"NBCBootsGray"
 			]
-        }
-    ]
+		}
+	]
 }

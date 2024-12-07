@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
-    <type name="FreezePowder_Sulphur">
+	<type name="FreezePowder_Sulphur">
 		<nominal>10</nominal>
 		<lifetime>14400</lifetime>
 		<restock>6000</restock>
@@ -10,8 +10,8 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-    </type>
-    <type name="FreezeRef_Sulphur">
+	</type>
+	<type name="FreezeRef_Sulphur">
 		<nominal>10</nominal>
 		<lifetime>14400</lifetime>
 		<restock>6000</restock>
@@ -21,8 +21,8 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-    </type>
-    <type name="FreezeNode_sulphur">
+	</type>
+	<type name="FreezeNode_sulphur">
 		<nominal>0</nominal>
 		<lifetime>7200</lifetime>
 		<restock>0</restock>
@@ -32,8 +32,8 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="tools"/>
-    </type>
-    <type name="Freezestone_sulphur">
+	</type>
+	<type name="Freezestone_sulphur">
 		<nominal>10</nominal>
 		<lifetime>10800</lifetime>
 		<restock>6000</restock>
@@ -43,8 +43,8 @@
 		<cost>50</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="tools"/>
-    </type>
-    <type name="FreezeBar_tin">
+	</type>
+	<type name="FreezeBar_tin">
 		<nominal>10</nominal>
 		<lifetime>14400</lifetime>
 		<restock>6000</restock>
@@ -180,7 +180,7 @@
 		<usage name="Industrial"/>
 		<usage name="Village"/>
 	</type>
-    <type name="FreezeFurnace_Static">
+	<type name="FreezeFurnace_Static">
 		<nominal>0</nominal>
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
@@ -210,7 +210,7 @@
 		<usage name="Industrial"/>
 		<usage name="Village"/>
 	</type>
-    <type name="FreezeAnvil_Static">
+	<type name="FreezeAnvil_Static">
 		<nominal>0</nominal>
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
@@ -537,7 +537,7 @@
 		<usage name="Industrial"/>
 		<usage name="Village"/>
 	</type>
-    <type name="FreezeGrindingStone_Static">
+	<type name="FreezeGrindingStone_Static">
 		<nominal>0</nominal>
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>

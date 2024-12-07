@@ -1,486 +1,486 @@
 {
-    "m_Version": 5,
-    "EnableStatusTab": 1,
-    "EnablePartyTab": 1,
-    "EnableServerInfoTab": 1,
-    "EnableServerRulesTab": 1,
-    "EnableTerritoryTab": 1,
-    "EnableBookMenu": 1,
-    "CreateBookmarks": 1,
-    "ShowHaBStats": 0,
-    "ShowPlayerFaction": 1,
-    "RuleCategories": [
-        {
-            "CategoryName": "Основные правила",
-            "Rules": [
-                {
-                    "RuleParagraph": "",
-                    "RuleText": "НЕ ЗНАНИЕ ПРАВИЛ НЕ ОСВОБОЖДАЕТ ОТ ОТВЕТСТВЕННОСТИ!"
-                },
-                {
-                    "RuleParagraph": "",
-                    "RuleText": "ПРАВИЛА МОГУТ МЕНЯТЬСЯ В ЛЮБОЙ МОМЕНТ!"
-                },
-				{
-                    "RuleParagraph": "",
-                    "RuleText": "Администраторы имеют право принимать решения в спорных ситуациях и наказывать игроков за нарушение правил."
-                },
-				{
-                    "RuleParagraph": "",
-                    "RuleText": "Не используйте Survivor, символьные или пустые символы в НикНейме на сервере. Это неудобно и могут быть проблемы, путаницы и т.п. НикНейм можно установить в Лаунчере игры!"
-                },
-				{
-                    "RuleParagraph": "",
-                    "RuleText": "Запрещено использовать Префиксы ADMIN или Использовать имена Администраторов проекта!"
-                },
-                {
-                    "RuleParagraph": "1.1.",
-                    "RuleText": "Это PVE сервер, а значит запрещено умышленно убивать других игроков. Если вы случайно убили игрока вы обязаны вернут ему его лут и все что ему принадлежит! В противном случае вы будете забанены навсегда!"
-                },
-                {
-                    "RuleParagraph": "1.2.",
-                    "RuleText": "Запрещены действия нагружающие и нарушающие работу сервера!"
-                },
-                {
-                    "RuleParagraph": "1.3.",
-                    "RuleText": "Запрещено Воровство в любом его виде, включая трупы игроков и их Надгробья, Кресты. Исключение союзники по группе!"
-                },
-                {
-                    "RuleParagraph": "1.4.",
-                    "RuleText": "Запрещено Гриферство в любом виде! Например ломать базы, технику, укрытия игроков и т.д."
-                },
-				{
-                    "RuleParagraph": "1.5.",
-                    "RuleText": "Запрещено использовать Читы, уязвимости игры и недоработки сервера в любом их виде!"
-                },
-				{
-                    "RuleParagraph": "1.6.",
-                    "RuleText": "Запрещено блокировать игровой процесс другим игрокам. Связывать руки, наручники, поджигать, отравлять и т.п."
-                },
-                {
-                    "RuleParagraph": "1.7.",
-                    "RuleText": "Уважайте других игроков и их труд. Будьте зайками <3"
-                }
-            ]
-        },
+	"m_Version": 5,
+	"EnableStatusTab": 1,
+	"EnablePartyTab": 1,
+	"EnableServerInfoTab": 1,
+	"EnableServerRulesTab": 1,
+	"EnableTerritoryTab": 1,
+	"EnableBookMenu": 1,
+	"CreateBookmarks": 1,
+	"ShowHaBStats": 0,
+	"ShowPlayerFaction": 1,
+	"RuleCategories": [
 		{
-            "CategoryName": "Чат и Голосовой чат",
-            "Rules": [
-                {
-                    "RuleParagraph": "2.1",
-                    "RuleText": "Разрешен умеренный мат в чате, но не наглейте и без прямых оскорблений."
-                },
-                {
-                    "RuleParagraph": "2.2.",
-                    "RuleText": "Разрешено использовать только Ближний голосовой чат для общения с другими игроками."
-                },
-                {
-                    "RuleParagraph": "2.3.",
-                    "RuleText": "Запрещено использовать ОБЩИЙ голосовой чат."
-                },
-                {
-                    "RuleParagraph": "2.4.",
-                    "RuleText": "Запрещено использовать SoundBoard, SoundPad и другие подобные ПО в Безопасных зонах. Не мешайте другим! В остальном можно."
-                },
-                {
-                    "RuleParagraph": "2.5.",
-                    "RuleText": "Запрещен Флуд, Провокация, CapsLock, Политические разногласия, Спорные моменты, Религиозные оскорбления в любых их видах."
-                },
-                {
-                    "RuleParagraph": "2.6.",
-                    "RuleText": "Запрещена Реклама чего-либо. Мы не конкурируем и никому не мешаем, следовательно не нужно мешать нам! Спасибо!"
-                },
-                {
-                    "RuleParagraph": "2.7.",
-                    "RuleText": "Помните! Ни в коем случае не переходите по сомнительным ссылкам которые могут быть отправлены в чат! Это небезопасно!"
-                }
-            ]
-        },
+			"CategoryName": "Основные правила",
+			"Rules": [
+				{
+					"RuleParagraph": "",
+					"RuleText": "НЕ ЗНАНИЕ ПРАВИЛ НЕ ОСВОБОЖДАЕТ ОТ ОТВЕТСТВЕННОСТИ!"
+				},
+				{
+					"RuleParagraph": "",
+					"RuleText": "ПРАВИЛА МОГУТ МЕНЯТЬСЯ В ЛЮБОЙ МОМЕНТ!"
+				},
+				{
+					"RuleParagraph": "",
+					"RuleText": "Администраторы имеют право принимать решения в спорных ситуациях и наказывать игроков за нарушение правил."
+				},
+				{
+					"RuleParagraph": "",
+					"RuleText": "Не используйте Survivor, символьные или пустые символы в НикНейме на сервере. Это неудобно и могут быть проблемы, путаницы и т.п. НикНейм можно установить в Лаунчере игры!"
+				},
+				{
+					"RuleParagraph": "",
+					"RuleText": "Запрещено использовать Префиксы ADMIN или Использовать имена Администраторов проекта!"
+				},
+				{
+					"RuleParagraph": "1.1.",
+					"RuleText": "Это PVE сервер, а значит запрещено умышленно убивать других игроков. Если вы случайно убили игрока вы обязаны вернут ему его лут и все что ему принадлежит! В противном случае вы будете забанены навсегда!"
+				},
+				{
+					"RuleParagraph": "1.2.",
+					"RuleText": "Запрещены действия нагружающие и нарушающие работу сервера!"
+				},
+				{
+					"RuleParagraph": "1.3.",
+					"RuleText": "Запрещено Воровство в любом его виде, включая трупы игроков и их Надгробья, Кресты. Исключение союзники по группе!"
+				},
+				{
+					"RuleParagraph": "1.4.",
+					"RuleText": "Запрещено Гриферство в любом виде! Например ломать базы, технику, укрытия игроков и т.д."
+				},
+				{
+					"RuleParagraph": "1.5.",
+					"RuleText": "Запрещено использовать Читы, уязвимости игры и недоработки сервера в любом их виде!"
+				},
+				{
+					"RuleParagraph": "1.6.",
+					"RuleText": "Запрещено блокировать игровой процесс другим игрокам. Связывать руки, наручники, поджигать, отравлять и т.п."
+				},
+				{
+					"RuleParagraph": "1.7.",
+					"RuleText": "Уважайте других игроков и их труд. Будьте зайками <3"
+				}
+			]
+		},
 		{
-            "CategoryName": "Безопасные зоны",
-            "Rules": [
-                {
-                    "RuleParagraph": "3.1",
-                    "RuleText": "Запрещено мешать другим игрокам в Безопасных зонах."
-                },
-                {
-                    "RuleParagraph": "3.2.",
-                    "RuleText": "Запрещено Откручивать колеса или Детали техники которые не принадлежат вам."
-                },
-                {
-                    "RuleParagraph": "3.3.",
-                    "RuleText": "Запрещено Толкать технику которая не принадлежит вам."
-                },
-                {
-                    "RuleParagraph": "3.4.",
-                    "RuleText": "Запрещено Воровать из Костров, Бочек и подобных объектах чужые предметы."
-                },
-                {
-                    "RuleParagraph": "3.5.",
-                    "RuleText": "Запрещено устанавливать ловушки, заторы и т.п. рядом с Безопасной зоной."
-                }
-            ]
+			"CategoryName": "Чат и Голосовой чат",
+			"Rules": [
+				{
+					"RuleParagraph": "2.1",
+					"RuleText": "Разрешен умеренный мат в чате, но не наглейте и без прямых оскорблений."
+				},
+				{
+					"RuleParagraph": "2.2.",
+					"RuleText": "Разрешено использовать только Ближний голосовой чат для общения с другими игроками."
+				},
+				{
+					"RuleParagraph": "2.3.",
+					"RuleText": "Запрещено использовать ОБЩИЙ голосовой чат."
+				},
+				{
+					"RuleParagraph": "2.4.",
+					"RuleText": "Запрещено использовать SoundBoard, SoundPad и другие подобные ПО в Безопасных зонах. Не мешайте другим! В остальном можно."
+				},
+				{
+					"RuleParagraph": "2.5.",
+					"RuleText": "Запрещен Флуд, Провокация, CapsLock, Политические разногласия, Спорные моменты, Религиозные оскорбления в любых их видах."
+				},
+				{
+					"RuleParagraph": "2.6.",
+					"RuleText": "Запрещена Реклама чего-либо. Мы не конкурируем и никому не мешаем, следовательно не нужно мешать нам! Спасибо!"
+				},
+				{
+					"RuleParagraph": "2.7.",
+					"RuleText": "Помните! Ни в коем случае не переходите по сомнительным ссылкам которые могут быть отправлены в чат! Это небезопасно!"
+				}
+			]
+		},
+		{
+			"CategoryName": "Безопасные зоны",
+			"Rules": [
+				{
+					"RuleParagraph": "3.1",
+					"RuleText": "Запрещено мешать другим игрокам в Безопасных зонах."
+				},
+				{
+					"RuleParagraph": "3.2.",
+					"RuleText": "Запрещено Откручивать колеса или Детали техники которые не принадлежат вам."
+				},
+				{
+					"RuleParagraph": "3.3.",
+					"RuleText": "Запрещено Толкать технику которая не принадлежит вам."
+				},
+				{
+					"RuleParagraph": "3.4.",
+					"RuleText": "Запрещено Воровать из Костров, Бочек и подобных объектах чужые предметы."
+				},
+				{
+					"RuleParagraph": "3.5.",
+					"RuleText": "Запрещено устанавливать ловушки, заторы и т.п. рядом с Безопасной зоной."
+				}
+			]
 		}
-    ],
-    "DisplayServerSettingsInServerInfoTab": 0,
-    "SettingCategories": [],
-    "Links": [
-        {
-            "Name": "Discord",
-            "URL": "https://discord.com/invite/8nHMeCH",
-            "IconName": "Discord",
-            "IconColor": -9270822
-        },
-        {
-            "Name": "GitHub",
-            "URL": "https://github.com/TheFirstNoob/FireFly-DayZ-SA",
-            "IconName": "GitHub",
-            "IconColor": -16777216
-        },
-        {
-            "Name": "Поддержать сервер",
-            "URL": "https://boosty.to/thefirstnoob",
-            "IconName": "PayPal",
-            "IconColor": -16777216
-        }
-    ],
-    "Descriptions": [
-        {
-            "CategoryName": "!!!СВЕРНИТЕ ВСЕ РАЗДЕЛЫ ЧТОБЫ ПРОЧЕСТЬ ВСЕ!!!",
-            "Descriptions": [
-                {
-                    "DescriptionText": "Я СКАЗАЛ СВЕРНИТЕ ВСЕ РАЗДЕЛЫ. НУ РЕАЛЬНО! xD"
-                }
-            ]
-        },
+	],
+	"DisplayServerSettingsInServerInfoTab": 0,
+	"SettingCategories": [],
+	"Links": [
 		{
-            "CategoryName": "Основные механики",
-            "Descriptions": [
-				{
-                    "DescriptionText": "АВТОРЕСТАРТ КАЖДЫЕ 6 ЧАСОВ ПО МОСКОВСКОМУ ВРЕМЕНИ (UTC +3/GMT +3)."
-                },
-				{
-                    "DescriptionText": "ХОД ВРЕМЕНИ: День х1, Ночь х3."
-                },
-				{
-                    "DescriptionText": "ПОГОДНЫЕ СЕЗОНЫ СО ВРЕМЕНЕМ НАПРЯМУЮ ВЛИЯЮТ НА ИГРОВОЙ ПРОЦЕСС."
-                },
-                {
-                    "DescriptionText": "1. Каждый игрок начинает со случайным стартовым инвентарем."
-                },
-				{
-                    "DescriptionText": "2. Каждому новому игроку в банк выдано 1000 валюты которые вы можете использовать как угодно."
-                },
-				{
-                    "DescriptionText": "3. Вся одежда, вес, состояние, погодные условия, тип дорог, игровые действия напрямую влияют на игрока и его параметры."
-                },
-				{
-                    "DescriptionText": "4. Все детали техники нужно закрутить, даже после покупки у Торговца. Хотя бы колеса! Это можно сделать с помощью Монтировки, Ответки и Гаечного ключа."
-                },
-				{
-                    "DescriptionText": "5. Вы можете ставить 1 3D метку на игрока. Это особенно полезно для групп и коммуникации."
-                },
-				{
-                    "DescriptionText": "6. Любое получение урона будет влиять на вашу болевую систему."
-                },
-				{
-                    "DescriptionText": "7. Если игрок выбрал определенную точку возраждения, то она будет заблокирована для него на 3 часа."
-                },
-				{
-                    "DescriptionText": "8. Труп игрока заменяется на Крест спустя 5 минут. Крест остается на сервере ДО РЕСТАРТА."
-                }
-            ]
-        },
+			"Name": "Discord",
+			"URL": "https://discord.com/invite/8nHMeCH",
+			"IconName": "Discord",
+			"IconColor": -9270822
+		},
 		{
-            "CategoryName": "Техника и их механика",
-            "Descriptions": [
-                {
-                    "DescriptionText": "1. Любую найденную на карте технику можно привязать Ключом. Продается у Торговца техникой."
-                },
-				{
-                    "DescriptionText": "2. У всей техники, со временем, изнашиваются шины при езде. Напрямую влияет на то по какой дороге выездите."
-                },
-				{
-                    "DescriptionText": "3. Управляемость техникой меняется в зависимости от Типа дороги и Погодных условий. Внедорожники и Грузовики менее подвержены этой механике."
-                },
-				{
-                    "DescriptionText": "4. Все детали техники нужно закрутить, даже после покупки у Торговца. Хотя бы колеса! Это можно сделать с помощью Монтировки, Ответки и Гаечного ключа."
-                },
-				{
-                    "DescriptionText": "5. Чтобы Снять колесо вам потребуется Домкрат."
-                },
-				{
-                    "DescriptionText": "6. Чтобы Починить колесо вам нужно Обязательно снять его с машины."
-                },
-				{
-                    "DescriptionText": "7. Ближний и Дальний свет, а так же подсветка салона ночью (Клавиша L - Нажать/Удержать)."
-                },
-				{
-                    "DescriptionText": "8. Обогрев водителя и пассажира. Только для передних сидений. Не греет если отсутствует хотя бы одна дверь или стекло."
-                },
-				{
-                    "DescriptionText": "9. Радиатор - заливать Водой. Двигатель - заливать Моторным маслом. Аккумулятор - заряжать Зарядным устройством."
-                }
-            ]
-        },
-        {
-            "CategoryName": "Стройка и Разборка",
-            "Descriptions": [
-                {
-                    "DescriptionText": "1. Чтобы начать любую постройку баз крайне важно создать и установить Набор для Флагштока."
-                },
-				{
-                    "DescriptionText": "2. Привязка объектов Включается/Выключается на клавишу Англ. кнопка X (по умолчанию)."
-                },
-				{
-                    "DescriptionText": "3. Чтобы разобрать построенное у вас должно быть: Топор (любой), Отвертка и Молоток."
-                }
-            ]
-        },
-        {
-            "CategoryName": "Горнорудная система (тестируется)",
-            "Descriptions": [
-                {
-                    "DescriptionText": "Горнорудная система отличный способ заработка на сервере. Рудные и Драгоценные жилы можно найти у каменных биомов и специальных зонах добычи."
-                },
-				{
-                    "DescriptionText": "Чтобы начать заниматься Горнорудной добычей вам потребуется Кирка, а так же 3 Кузнечные постройки: Наковальня, Точильный станок и Плавильня. Рецепты можно найти в книжке."
-                },
-				{
-                    "DescriptionText": "=== РУДЫ ==="
-                },
-				{
-                    "DescriptionText": "1. Начните добывать рудную жилу Киркой. Помните что не со 100% шансом выпадают руды и могут падать другие виды руд и обычный камень."
-                },
-				{
-                    "DescriptionText": "2. Добытую руду вы кидаете в Плавильню. Обязательно заполнить все 4 слота нужной вам руды после чего у вас появится кнопка (Включить). Переплавленная руда переделается в Самородок."
-                },
-				{
-                    "DescriptionText": "3. Вы берете в руки 10 Самородков и несете к Наковальне. У вас получается слиток который можно будет продать или использовать для создания более дорогих слитков."
-                },
-				{
-                    "DescriptionText": "=== ДРАГОЦЕННЫЕ КАМНИ ==="
-                },
-				{
-                    "DescriptionText": "1. Драгоценные руды добываются в отдельных жилах и внешне у них торчат сами камни."
-                },
-				{
-                    "DescriptionText": "2. Добытый драгоценный камень обрабатываете на Точильном станке."
-                },
-				{
-                    "DescriptionText": "=== ДРАГОЦЕННЫЕ СЛИТКИ ==="
-                },
-				{
-                    "DescriptionText": "После всех действий вы открываете рецепты крафта и смотрите как создавать драгоценные слитки. Слитки стоят очень дорого. Их нельзя купить и можно только продать у Нелегала."
-                },
-				{
-                    "DescriptionText": "Максимальную прибыль вы получите продав слиток Иридиума, но не думайте что это будет так просто!"
-                }
-            ]
-        },
+			"Name": "GitHub",
+			"URL": "https://github.com/TheFirstNoob/FireFly-DayZ-SA",
+			"IconName": "GitHub",
+			"IconColor": -16777216
+		},
 		{
-            "CategoryName": "Гровеская система (тестируется)",
-            "Descriptions": [
-                {
-                    "DescriptionText": "Горнорудная система еще один способ заработка на сервере. Семена и Детали можно найти только в определенных зонах или наградах."
-                },
-				{
-                    "DescriptionText": "Чтобы начать заниматься Гровеством вам потребуется подготовленная Мотыга или Кирка, Земля для посадки, специальноя Осушивающее бревно, Садовая известь, а так же Специальный верстак и два приспособления к нему. Рецепты можно найти в книжке, а приспособления найти на карте."
-                },
-				{
-                    "DescriptionText": "=== ВЗРАЩИВАНИЕ ==="
-                },
-				{
-                    "DescriptionText": "=== САМОКРУТКИ ==="
-                },
-				{
-                    "DescriptionText": "=== БРИКЕТЫ ==="
-                }
-            ]
-        }
-    ],
-    "CraftingCategories": [
-        {
-            "CategoryName": "Для себя Ткань",
-            "Results": [
-                "Rag",
-                "EyePatch_Improvised",
-                "HandsCover_Improvised",
-                "HeadCover_Improvised",
-                "FaceCover_Improvised",
-                "LegsCover_Improvised",
-                "FeetCover_Improvised",
-                "TorsoCover_Improvised"
-            ]
-        },
+			"Name": "Поддержать сервер",
+			"URL": "https://boosty.to/thefirstnoob",
+			"IconName": "PayPal",
+			"IconColor": -16777216
+		}
+	],
+	"Descriptions": [
 		{
-            "CategoryName": "Для себя Кожа",
-            "Results": [
-                "TannedLeather",
-                "LeatherGloves_Brown",
-                "LeatherHat_Brown",
-                "LeatherPants_Brown",
-                "LeatherShoes_Brown",
-                "LeatherJacket_Brown",
-                "LeatherShirt_Brown",
-                "LeatherStorageVest_Brown"
-            ]
-        },
-        {
-            "CategoryName": "Для себя Рюкзаки",
-            "Results": [
-                "courierbag",
-                "furcourierbag",
-                "furimprovisedbag",
-                "improvisedbag",
-                "LeatherSack_Brown"
-            ]
-        },
-        {
-            "CategoryName": "Стройка Базовое",
-            "Results": [
-                "fencekit",
-                "expansionfloorkit",
-                "expansionrampkit",
-                "expansionstairkit",
-                "territoryflagkit",
-                "expansionwallkit",
-                "watchtowerkit"
-            ]
-        },
+			"CategoryName": "!!!СВЕРНИТЕ ВСЕ РАЗДЕЛЫ ЧТОБЫ ПРОЧЕСТЬ ВСЕ!!!",
+			"Descriptions": [
+				{
+					"DescriptionText": "Я СКАЗАЛ СВЕРНИТЕ ВСЕ РАЗДЕЛЫ. НУ РЕАЛЬНО! xD"
+				}
+			]
+		},
 		{
-            "CategoryName": "Стройка Дополнительное",
-            "Results": [
-                "expansionbarbedwirekit",
-                "expansionhescokit",
+			"CategoryName": "Основные механики",
+			"Descriptions": [
+				{
+					"DescriptionText": "АВТОРЕСТАРТ КАЖДЫЕ 6 ЧАСОВ ПО МОСКОВСКОМУ ВРЕМЕНИ (UTC +3/GMT +3)."
+				},
+				{
+					"DescriptionText": "ХОД ВРЕМЕНИ: День х1, Ночь х3."
+				},
+				{
+					"DescriptionText": "ПОГОДНЫЕ СЕЗОНЫ СО ВРЕМЕНЕМ НАПРЯМУЮ ВЛИЯЮТ НА ИГРОВОЙ ПРОЦЕСС."
+				},
+				{
+					"DescriptionText": "1. Каждый игрок начинает со случайным стартовым инвентарем."
+				},
+				{
+					"DescriptionText": "2. Каждому новому игроку в банк выдано 1000 валюты которые вы можете использовать как угодно."
+				},
+				{
+					"DescriptionText": "3. Вся одежда, вес, состояние, погодные условия, тип дорог, игровые действия напрямую влияют на игрока и его параметры."
+				},
+				{
+					"DescriptionText": "4. Все детали техники нужно закрутить, даже после покупки у Торговца. Хотя бы колеса! Это можно сделать с помощью Монтировки, Ответки и Гаечного ключа."
+				},
+				{
+					"DescriptionText": "5. Вы можете ставить 1 3D метку на игрока. Это особенно полезно для групп и коммуникации."
+				},
+				{
+					"DescriptionText": "6. Любое получение урона будет влиять на вашу болевую систему."
+				},
+				{
+					"DescriptionText": "7. Если игрок выбрал определенную точку возраждения, то она будет заблокирована для него на 3 часа."
+				},
+				{
+					"DescriptionText": "8. Труп игрока заменяется на Крест спустя 5 минут. Крест остается на сервере ДО РЕСТАРТА."
+				}
+			]
+		},
+		{
+			"CategoryName": "Техника и их механика",
+			"Descriptions": [
+				{
+					"DescriptionText": "1. Любую найденную на карте технику можно привязать Ключом. Продается у Торговца техникой."
+				},
+				{
+					"DescriptionText": "2. У всей техники, со временем, изнашиваются шины при езде. Напрямую влияет на то по какой дороге выездите."
+				},
+				{
+					"DescriptionText": "3. Управляемость техникой меняется в зависимости от Типа дороги и Погодных условий. Внедорожники и Грузовики менее подвержены этой механике."
+				},
+				{
+					"DescriptionText": "4. Все детали техники нужно закрутить, даже после покупки у Торговца. Хотя бы колеса! Это можно сделать с помощью Монтировки, Ответки и Гаечного ключа."
+				},
+				{
+					"DescriptionText": "5. Чтобы Снять колесо вам потребуется Домкрат."
+				},
+				{
+					"DescriptionText": "6. Чтобы Починить колесо вам нужно Обязательно снять его с машины."
+				},
+				{
+					"DescriptionText": "7. Ближний и Дальний свет, а так же подсветка салона ночью (Клавиша L - Нажать/Удержать)."
+				},
+				{
+					"DescriptionText": "8. Обогрев водителя и пассажира. Только для передних сидений. Не греет если отсутствует хотя бы одна дверь или стекло."
+				},
+				{
+					"DescriptionText": "9. Радиатор - заливать Водой. Двигатель - заливать Моторным маслом. Аккумулятор - заряжать Зарядным устройством."
+				}
+			]
+		},
+		{
+			"CategoryName": "Стройка и Разборка",
+			"Descriptions": [
+				{
+					"DescriptionText": "1. Чтобы начать любую постройку баз крайне важно создать и установить Набор для Флагштока."
+				},
+				{
+					"DescriptionText": "2. Привязка объектов Включается/Выключается на клавишу Англ. кнопка X (по умолчанию)."
+				},
+				{
+					"DescriptionText": "3. Чтобы разобрать построенное у вас должно быть: Топор (любой), Отвертка и Молоток."
+				}
+			]
+		},
+		{
+			"CategoryName": "Горнорудная система (тестируется)",
+			"Descriptions": [
+				{
+					"DescriptionText": "Горнорудная система отличный способ заработка на сервере. Рудные и Драгоценные жилы можно найти у каменных биомов и специальных зонах добычи."
+				},
+				{
+					"DescriptionText": "Чтобы начать заниматься Горнорудной добычей вам потребуется Кирка, а так же 3 Кузнечные постройки: Наковальня, Точильный станок и Плавильня. Рецепты можно найти в книжке."
+				},
+				{
+					"DescriptionText": "=== РУДЫ ==="
+				},
+				{
+					"DescriptionText": "1. Начните добывать рудную жилу Киркой. Помните что не со 100% шансом выпадают руды и могут падать другие виды руд и обычный камень."
+				},
+				{
+					"DescriptionText": "2. Добытую руду вы кидаете в Плавильню. Обязательно заполнить все 4 слота нужной вам руды после чего у вас появится кнопка (Включить). Переплавленная руда переделается в Самородок."
+				},
+				{
+					"DescriptionText": "3. Вы берете в руки 10 Самородков и несете к Наковальне. У вас получается слиток который можно будет продать или использовать для создания более дорогих слитков."
+				},
+				{
+					"DescriptionText": "=== ДРАГОЦЕННЫЕ КАМНИ ==="
+				},
+				{
+					"DescriptionText": "1. Драгоценные руды добываются в отдельных жилах и внешне у них торчат сами камни."
+				},
+				{
+					"DescriptionText": "2. Добытый драгоценный камень обрабатываете на Точильном станке."
+				},
+				{
+					"DescriptionText": "=== ДРАГОЦЕННЫЕ СЛИТКИ ==="
+				},
+				{
+					"DescriptionText": "После всех действий вы открываете рецепты крафта и смотрите как создавать драгоценные слитки. Слитки стоят очень дорого. Их нельзя купить и можно только продать у Нелегала."
+				},
+				{
+					"DescriptionText": "Максимальную прибыль вы получите продав слиток Иридиума, но не думайте что это будет так просто!"
+				}
+			]
+		},
+		{
+			"CategoryName": "Гровеская система (тестируется)",
+			"Descriptions": [
+				{
+					"DescriptionText": "Горнорудная система еще один способ заработка на сервере. Семена и Детали можно найти только в определенных зонах или наградах."
+				},
+				{
+					"DescriptionText": "Чтобы начать заниматься Гровеством вам потребуется подготовленная Мотыга или Кирка, Земля для посадки, специальноя Осушивающее бревно, Садовая известь, а так же Специальный верстак и два приспособления к нему. Рецепты можно найти в книжке, а приспособления найти на карте."
+				},
+				{
+					"DescriptionText": "=== ВЗРАЩИВАНИЕ ==="
+				},
+				{
+					"DescriptionText": "=== САМОКРУТКИ ==="
+				},
+				{
+					"DescriptionText": "=== БРИКЕТЫ ==="
+				}
+			]
+		}
+	],
+	"CraftingCategories": [
+		{
+			"CategoryName": "Для себя Ткань",
+			"Results": [
+				"Rag",
+				"EyePatch_Improvised",
+				"HandsCover_Improvised",
+				"HeadCover_Improvised",
+				"FaceCover_Improvised",
+				"LegsCover_Improvised",
+				"FeetCover_Improvised",
+				"TorsoCover_Improvised"
+			]
+		},
+		{
+			"CategoryName": "Для себя Кожа",
+			"Results": [
+				"TannedLeather",
+				"LeatherGloves_Brown",
+				"LeatherHat_Brown",
+				"LeatherPants_Brown",
+				"LeatherShoes_Brown",
+				"LeatherJacket_Brown",
+				"LeatherShirt_Brown",
+				"LeatherStorageVest_Brown"
+			]
+		},
+		{
+			"CategoryName": "Для себя Рюкзаки",
+			"Results": [
+				"courierbag",
+				"furcourierbag",
+				"furimprovisedbag",
+				"improvisedbag",
+				"LeatherSack_Brown"
+			]
+		},
+		{
+			"CategoryName": "Стройка Базовое",
+			"Results": [
+				"fencekit",
+				"expansionfloorkit",
+				"expansionrampkit",
+				"expansionstairkit",
+				"territoryflagkit",
+				"expansionwallkit",
+				"watchtowerkit"
+			]
+		},
+		{
+			"CategoryName": "Стройка Дополнительное",
+			"Results": [
+				"expansionbarbedwirekit",
+				"expansionhescokit",
 				"woodencrate",
-                "watchtowerkit",
+				"watchtowerkit",
 				"CP_DryPost_Kit",
 				"Zen_TireRack",
 				"Zen_CarWorkbench",
 				"Zen_CarWorkbench_Kit"
-            ]
-        },
+			]
+		},
 		{
-            "CategoryName": "Горнорудное",
-            "Results": [
-                "FreezeBar_Enchanted",
-                "FreezeBar_Adamantite",
+			"CategoryName": "Горнорудное",
+			"Results": [
+				"FreezeBar_Enchanted",
+				"FreezeBar_Adamantite",
 				"FreezeBar_Cobalt",
-                "FreezeBar_Crimant",
+				"FreezeBar_Crimant",
 				"FreezeBar_Eridium",
 				"FreezeFurnace_Kit",
 				"FreezeAnvil_Kit",
 				"FreezeGrindingStone_Kit"
-            ]
-        },
-        {
-            "CategoryName": "Камуфляжи",
-            "Results": [
-                "camonet",
-                "ghillieatt_tan",
-                "ghillieatt_mossy",
-                "ghillieatt_woodland",
-                "ghilliebushrag_tan",
-                "ghilliebushrag_mossy",
-                "ghilliebushrag_woodland",
-                "ghilliehood_tan",
-                "ghilliehood_mossy",
-                "ghilliehood_woodland",
-                "ghilliesuit_tan",
-                "ghilliesuit_mossy",
-                "ghilliesuit_woodland",
-                "ghillietop_tan",
-                "ghillietop_mossy",
-                "ghillietop_woodland"
-            ]
-        },
-        {
-            "CategoryName": "Готовка и Укрытия",
-            "Results": [
-                "handdrillkit",
-                "shelterkit"
-            ]
-        },
-        {
-            "CategoryName": "Рыбалка",
-            "Results": [
-                "bait",
-                "bonebait",
-                "bonehook",
-                "improvisedfishingrod",
-                "FishNetTrap",
-                "SmallFishTrap"
-            ]
-        },
-        {
-            "CategoryName": "Еда",
-            "Results": [
-                "carpfilletmeat",
-                "mackerelfilletmeat",
-                "expansionmilkbottle",
-                "potato",
-                "slicedpumpkin"
-            ]
-        },
-        {
-            "CategoryName": "Садоводство",
-            "Results": [
-                "pepperseeds",
-                "pumpkinseeds",
-                "tomatoseeds",
-                "zucchiniseeds"
-            ]
-        },
-        {
-            "CategoryName": "Освещение",
-            "Results": [
-                "longtorch",
-                "torch"
-            ]
-        },
-        {
-            "CategoryName": "Медицина",
-            "Results": [
-                "bloodbagiv",
-                "salinebagiv",
-                "splint",
-                "GasMask_Filter_Improvised"
-            ]
-        },
-        {
-            "CategoryName": "Боевое",
-            "Results": [
-                "Ammo_ImprovisedBolt_1",
-                "Ammo_ImprovisedBolt_2",
-                "nailedbaseballbat",
-                "stoneknife"
-            ]
-        },
-        {
-            "CategoryName": "Припасы",
-            "Results": [
-                "longwoodenstick",
-                "expansionlumber1",
-                "expansionlumber1_5",
-                "expansionlumber3",
-                "nails",
-                "rope",
-                "woodenplank"
-            ]
-        },
-        {
-            "CategoryName": "Обвесы оружия",
-            "Results": [
-                "improvisedsuppressor"
-            ]
-        },
-        {
-            "CategoryName": "Тестовое",
-            "Results": [
-                "improvisedsuppressor"
-            ]
-        }
-    ],
-    "EnableCraftingRecipesTab": 1
+			]
+		},
+		{
+			"CategoryName": "Камуфляжи",
+			"Results": [
+				"camonet",
+				"ghillieatt_tan",
+				"ghillieatt_mossy",
+				"ghillieatt_woodland",
+				"ghilliebushrag_tan",
+				"ghilliebushrag_mossy",
+				"ghilliebushrag_woodland",
+				"ghilliehood_tan",
+				"ghilliehood_mossy",
+				"ghilliehood_woodland",
+				"ghilliesuit_tan",
+				"ghilliesuit_mossy",
+				"ghilliesuit_woodland",
+				"ghillietop_tan",
+				"ghillietop_mossy",
+				"ghillietop_woodland"
+			]
+		},
+		{
+			"CategoryName": "Готовка и Укрытия",
+			"Results": [
+				"handdrillkit",
+				"shelterkit"
+			]
+		},
+		{
+			"CategoryName": "Рыбалка",
+			"Results": [
+				"bait",
+				"bonebait",
+				"bonehook",
+				"improvisedfishingrod",
+				"FishNetTrap",
+				"SmallFishTrap"
+			]
+		},
+		{
+			"CategoryName": "Еда",
+			"Results": [
+				"carpfilletmeat",
+				"mackerelfilletmeat",
+				"expansionmilkbottle",
+				"potato",
+				"slicedpumpkin"
+			]
+		},
+		{
+			"CategoryName": "Садоводство",
+			"Results": [
+				"pepperseeds",
+				"pumpkinseeds",
+				"tomatoseeds",
+				"zucchiniseeds"
+			]
+		},
+		{
+			"CategoryName": "Освещение",
+			"Results": [
+				"longtorch",
+				"torch"
+			]
+		},
+		{
+			"CategoryName": "Медицина",
+			"Results": [
+				"bloodbagiv",
+				"salinebagiv",
+				"splint",
+				"GasMask_Filter_Improvised"
+			]
+		},
+		{
+			"CategoryName": "Боевое",
+			"Results": [
+				"Ammo_ImprovisedBolt_1",
+				"Ammo_ImprovisedBolt_2",
+				"nailedbaseballbat",
+				"stoneknife"
+			]
+		},
+		{
+			"CategoryName": "Припасы",
+			"Results": [
+				"longwoodenstick",
+				"expansionlumber1",
+				"expansionlumber1_5",
+				"expansionlumber3",
+				"nails",
+				"rope",
+				"woodenplank"
+			]
+		},
+		{
+			"CategoryName": "Обвесы оружия",
+			"Results": [
+				"improvisedsuppressor"
+			]
+		},
+		{
+			"CategoryName": "Тестовое",
+			"Results": [
+				"improvisedsuppressor"
+			]
+		}
+	],
+	"EnableCraftingRecipesTab": 1
 }

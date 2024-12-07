@@ -1,96 +1,96 @@
 {
-    "m_Version": 12,
-    "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_ELECTRONICS",
-    "Icon": "Deliver",
-    "Color": "FBFCFEFF",
-    "IsExchange": 0,
-    "InitStockPercent": 75.0,
-    "Items": [
-        {
-            "ClassName": "personalradio",
-            "MaxPriceThreshold": 20,
-            "MinPriceThreshold": 10,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "battery9v"
-            ],
-            "Variants": []
-        },
-        {
-            "ClassName": "megaphone",
-            "MaxPriceThreshold": 60,
-            "MinPriceThreshold": 30,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "battery9v"
-            ],
-            "Variants": []
-        },
-        {
-            "ClassName": "cablereel",
-            "MaxPriceThreshold": 80,
-            "MinPriceThreshold": 40,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "batterycharger",
-            "MaxPriceThreshold": 80,
-            "MinPriceThreshold": 40,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "baseradio",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 50,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "carbattery"
-            ],
-            "Variants": []
-        },
-        {
-            "ClassName": "alarmclock_blue",
-            "MaxPriceThreshold": 80,
-            "MinPriceThreshold": 30,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "alarmclock_green",
-                "alarmclock_red"
-            ]
-        },
-        {
-            "ClassName": "kitchentimer",
-            "MaxPriceThreshold": 80,
-            "MinPriceThreshold": 30,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        }
-    ]
+	"m_Version": 12,
+	"DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_ELECTRONICS",
+	"Icon": "Deliver",
+	"Color": "FBFCFEFF",
+	"IsExchange": 0,
+	"InitStockPercent": 75.0,
+	"Items": [
+		{
+			"ClassName": "personalradio",
+			"MaxPriceThreshold": 20,
+			"MinPriceThreshold": 10,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [
+				"battery9v"
+			],
+			"Variants": []
+		},
+		{
+			"ClassName": "megaphone",
+			"MaxPriceThreshold": 60,
+			"MinPriceThreshold": 30,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [
+				"battery9v"
+			],
+			"Variants": []
+		},
+		{
+			"ClassName": "cablereel",
+			"MaxPriceThreshold": 80,
+			"MinPriceThreshold": 40,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "batterycharger",
+			"MaxPriceThreshold": 80,
+			"MinPriceThreshold": 40,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "baseradio",
+			"MaxPriceThreshold": 100,
+			"MinPriceThreshold": 50,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [
+				"carbattery"
+			],
+			"Variants": []
+		},
+		{
+			"ClassName": "alarmclock_blue",
+			"MaxPriceThreshold": 80,
+			"MinPriceThreshold": 30,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"alarmclock_green",
+				"alarmclock_red"
+			]
+		},
+		{
+			"ClassName": "kitchentimer",
+			"MaxPriceThreshold": 80,
+			"MinPriceThreshold": 30,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		}
+	]
 }

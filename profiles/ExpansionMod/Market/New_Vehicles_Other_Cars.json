@@ -1,20 +1,20 @@
 {
-    "m_Version": 12,
-    "DisplayName": "Автомобили - Другие",
-    "Icon": "Car",
-    "Color": "FBFCFEFF",
-    "IsExchange": 0,
-    "InitStockPercent": 75.0,
-    "Items": [
-        {
-            "ClassName": "KAVZ685_RF",
-            "MaxPriceThreshold": 50000,
-            "MinPriceThreshold": 15000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 6,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
+	"m_Version": 12,
+	"DisplayName": "Автомобили - Другие",
+	"Icon": "Car",
+	"Color": "FBFCFEFF",
+	"IsExchange": 0,
+	"InitStockPercent": 75.0,
+	"Items": [
+		{
+			"ClassName": "KAVZ685_RF",
+			"MaxPriceThreshold": 50000,
+			"MinPriceThreshold": 15000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 6,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [
 				"LugWrench",
 				"Wrench",
 				"Screwdriver",
@@ -29,26 +29,26 @@
 				"KAVZ685_RF_doors_hood",
 				"KAVZ685_RF_doors_trunk",
 				"carradiator",
-                "sparkplug",
-                "truckbattery",
-                "headlighth7",
-                "headlighth7"
+				"sparkplug",
+				"truckbattery",
+				"headlighth7",
+				"headlighth7"
 			],
-            "Variants": [
+			"Variants": [
 				"KAVZ685_RF_beige",
 				"KAVZ685_RF_red",
 				"KAVZ685_RF_green"
 			]
-        },
+		},
 		{
-            "ClassName": "KubanG1",
-            "MaxPriceThreshold": 50000,
-            "MinPriceThreshold": 15000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 6,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
+			"ClassName": "KubanG1",
+			"MaxPriceThreshold": 50000,
+			"MinPriceThreshold": 15000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 6,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [
 				"LugWrench",
 				"Wrench",
 				"Screwdriver",
@@ -64,24 +64,24 @@
 				"KubanG1_doors_trunk",
 				"KubanG1_doors_trunk1",
 				"carradiator",
-                "sparkplug",
-                "truckbattery",
-                "headlighth7",
-                "headlighth7"
+				"sparkplug",
+				"truckbattery",
+				"headlighth7",
+				"headlighth7"
 			],
-            "Variants": [
+			"Variants": [
 				"KubanG1_green"
 			]
-        },
+		},
 		{
-            "ClassName": "LIAZ_677RF",
-            "MaxPriceThreshold": 50000,
-            "MinPriceThreshold": 15000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 6,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
+			"ClassName": "LIAZ_677RF",
+			"MaxPriceThreshold": 50000,
+			"MinPriceThreshold": 15000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 6,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [
 				"LugWrench",
 				"Wrench",
 				"Screwdriver",
@@ -96,26 +96,26 @@
 				"LIAZ_677RF_doors_hood",
 				"LIAZ_677RF_doors_trunk",
 				"carradiator",
-                "sparkplug",
-                "truckbattery",
-                "headlighth7",
-                "headlighth7"
+				"sparkplug",
+				"truckbattery",
+				"headlighth7",
+				"headlighth7"
 			],
-            "Variants": [
+			"Variants": [
 				"LIAZ_677RF_camo",
 				"LIAZ_677RF_Auto",
 				"LIAZ_677RF_camo_Auto"
 			]
-        },
+		},
 		{
-            "ClassName": "PAZ_672",
-            "MaxPriceThreshold": 50000,
-            "MinPriceThreshold": 15000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 6,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
+			"ClassName": "PAZ_672",
+			"MaxPriceThreshold": 50000,
+			"MinPriceThreshold": 15000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 6,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [
 				"LugWrench",
 				"Wrench",
 				"Screwdriver",
@@ -129,24 +129,24 @@
 				"PAZ_672_doors_codriver",
 				"PAZ_672_doors_hood",
 				"carradiator",
-                "sparkplug",
-                "truckbattery",
-                "headlighth7",
-                "headlighth7"
+				"sparkplug",
+				"truckbattery",
+				"headlighth7",
+				"headlighth7"
 			],
-            "Variants": [
+			"Variants": [
 				"PAZ_672_orange"
 			]
-        },
+		},
 		{
-            "ClassName": "UAZ_27722_mchs",
-            "MaxPriceThreshold": 50000,
-            "MinPriceThreshold": 15000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 6,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
+			"ClassName": "UAZ_27722_mchs",
+			"MaxPriceThreshold": 50000,
+			"MinPriceThreshold": 15000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 6,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [
 				"LugWrench",
 				"Wrench",
 				"Screwdriver",
@@ -163,12 +163,12 @@
 				"UAZ_27722_mchs_doors_hood",
 				"UAZ_27722_mchs_doors_trunk",
 				"carradiator",
-                "sparkplug",
-                "truckbattery",
-                "headlighth7",
-                "headlighth7"
+				"sparkplug",
+				"truckbattery",
+				"headlighth7",
+				"headlighth7"
 			],
-            "Variants": [
+			"Variants": [
 				"UAZ_27722_ambulancia",
 				"UAZ_27722_ambulancia2",
 				"UAZ_27722_red",
@@ -176,17 +176,17 @@
 				"UAZ_27722_brown",
 				"UAZ_27722_blue"
 			]
-        },
+		},
 		{
-            "ClassName":"UAZ_33094",
-            "MaxPriceThreshold":50000,
-            "MinPriceThreshold":15000,
-            "SellPricePercent":-1,
-            "MaxStockThreshold":6,
-            "MinStockThreshold":1,
-            "QuantityPercent":-1,
-            "SpawnAttachments":[
-                "LugWrench",
+			"ClassName":"UAZ_33094",
+			"MaxPriceThreshold":50000,
+			"MinPriceThreshold":15000,
+			"SellPricePercent":-1,
+			"MaxStockThreshold":6,
+			"MinStockThreshold":1,
+			"QuantityPercent":-1,
+			"SpawnAttachments":[
+				"LugWrench",
 				"Wrench",
 				"Screwdriver",
 				"rag_car_jack",
@@ -202,25 +202,25 @@
 				"UAZ_33094_doors_trunk",
 				"UAZ_33094_doors_hood",
 				"carradiator",
-                "sparkplug",
-                "truckbattery",
-                "headlighth7",
-                "headlighth7"
-            ],
-            "Variants":[
-                "UAZ_33094_green",
-                "UAZ_33094_gray"
-            ]
-        },
+				"sparkplug",
+				"truckbattery",
+				"headlighth7",
+				"headlighth7"
+			],
+			"Variants":[
+				"UAZ_33094_green",
+				"UAZ_33094_gray"
+			]
+		},
 		{
-            "ClassName": "UAZ_3962",
-            "MaxPriceThreshold": 50000,
-            "MinPriceThreshold": 15000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 6,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
+			"ClassName": "UAZ_3962",
+			"MaxPriceThreshold": 50000,
+			"MinPriceThreshold": 15000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 6,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [
 				"LugWrench",
 				"Wrench",
 				"Screwdriver",
@@ -237,27 +237,27 @@
 				"UAZ_3962_doors_trunk",
 				"UAZ_3962_doors_hood",
 				"carradiator",
-                "sparkplug",
-                "carbattery",
-                "headlighth7",
-                "headlighth7"
+				"sparkplug",
+				"carbattery",
+				"headlighth7",
+				"headlighth7"
 			],
-            "Variants": [
+			"Variants": [
 				"UAZ_3962_MCHS",
 				"UAZ_3962_VAI",
 				"UAZ_3962_milicia",
 				"UAZ_3962_green"
 			]
-        },
+		},
 		{
-            "ClassName": "MotorHome_White",
-            "MaxPriceThreshold": 50000,
-            "MinPriceThreshold": 15000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 6,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
+			"ClassName": "MotorHome_White",
+			"MaxPriceThreshold": 50000,
+			"MinPriceThreshold": 15000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 6,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [
 				"LugWrench",
 				"Wrench",
 				"Screwdriver",
@@ -271,26 +271,26 @@
 				"MotorHome_Hood",
 				"MotorHome_Hood2",
 				"carradiator",
-                "sparkplug",
-                "carbattery",
-                "headlighth7",
-                "headlighth7"
+				"sparkplug",
+				"carbattery",
+				"headlighth7",
+				"headlighth7"
 			],
-            "Variants": [
+			"Variants": [
 				"MotorHome_Apo",
 				"MotorHome_Rust",
 				"MotorHome_GreenCamo"
 			]
-        },
+		},
 		{
-            "ClassName": "TyphoonK_Police",
-            "MaxPriceThreshold": 50000,
-            "MinPriceThreshold": 15000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 6,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
+			"ClassName": "TyphoonK_Police",
+			"MaxPriceThreshold": 50000,
+			"MinPriceThreshold": 15000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 6,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [
 				"LugWrench",
 				"Wrench",
 				"Screwdriver",
@@ -307,14 +307,14 @@
 				"TyphoonK_CargoDoor2",
 				"TyphoonK_Trunk",
 				"carradiator",
-                "sparkplug",
-                "carbattery",
-                "headlighth7",
-                "headlighth7"
+				"sparkplug",
+				"carbattery",
+				"headlighth7",
+				"headlighth7"
 			],
-            "Variants": [
+			"Variants": [
 				"TyphoonK_CamoGreen"
 			]
-        }
-    ]
+		}
+	]
 }

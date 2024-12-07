@@ -1,78 +1,78 @@
 {
-    "m_Version": 12,
-    "DisplayName": "Прочее",
-    "Icon": "Hammer",
-    "Color": "FBFCFEFF",
-    "IsExchange": 0,
-    "InitStockPercent": 75.0,
-    "Items": [
+	"m_Version": 12,
+	"DisplayName": "Прочее",
+	"Icon": "Hammer",
+	"Color": "FBFCFEFF",
+	"IsExchange": 0,
+	"InitStockPercent": 75.0,
+	"Items": [
 		{
-            "ClassName": "CanisterGasoline",
-            "MaxPriceThreshold": 200,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
+			"ClassName": "CanisterGasoline",
+			"MaxPriceThreshold": 200,
+			"MinPriceThreshold": 100,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
 		{
-            "ClassName": "EngineOil",
-            "MaxPriceThreshold": 120,
-            "MinPriceThreshold": 60,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
+			"ClassName": "EngineOil",
+			"MaxPriceThreshold": 120,
+			"MinPriceThreshold": 60,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
 		{
-            "ClassName": "rag_car_jack",
-            "MaxPriceThreshold": 120,
-            "MinPriceThreshold": 60,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
+			"ClassName": "rag_car_jack",
+			"MaxPriceThreshold": 120,
+			"MinPriceThreshold": 60,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
 		{
-            "ClassName": "ExpansionCarKey",
-            "MaxPriceThreshold": 1800,
-            "MinPriceThreshold": 900,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1000,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
+			"ClassName": "ExpansionCarKey",
+			"MaxPriceThreshold": 1800,
+			"MinPriceThreshold": 900,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 1000,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
 		{
-            "ClassName": "lugwrench",
-            "MaxPriceThreshold": 8,
-            "MinPriceThreshold": 4,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
+			"ClassName": "lugwrench",
+			"MaxPriceThreshold": 8,
+			"MinPriceThreshold": 4,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
 		{
-            "ClassName": "blowtorch",
-            "MaxPriceThreshold": 500,
-            "MinPriceThreshold": 250,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "smallgascanister"
-            ],
-            "Variants": []
-        }
-    ]
+			"ClassName": "blowtorch",
+			"MaxPriceThreshold": 500,
+			"MinPriceThreshold": 250,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [
+				"smallgascanister"
+			],
+			"Variants": []
+		}
+	]
 }

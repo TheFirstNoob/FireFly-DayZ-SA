@@ -1,66 +1,66 @@
 {
-    "ConfigVersion": 22,
-    "ID": 1106,
-    "Type": 1,
-    "Title": "[СЮЖЕТ] Легендарный толчок",
-    "Descriptions": [
-        "Слушай... тут такое дело. Есть мой друганя - Вовчиком зовут, так вот... у него Диарея. Нужно очень быстро довести его до Легендарного толчка чтобы он не обосрался! Спасай!",
-        "Хули ты тут делаешь все еще? Беги Форест, беги!",
-        "Мне уже отзвонился Валерка. Он не обосрался!"
-    ],
-    "ObjectiveText": "Вовчик не должен обосраться!",
-    "FollowUpQuest": -1,
-    "Repeatable": 0,
-    "IsDailyQuest": 0,
-    "IsWeeklyQuest": 0,
-    "CancelQuestOnPlayerDeath": 1,
-    "Autocomplete": 1,
-    "IsGroupQuest": 0,
-    "ObjectSetFileName": "",
-    "QuestItems": [],
-    "Rewards": [
-        {
-            "ClassName": "ExpansionPersonalStorageUpgrade_Level2",
-            "Amount": 1,
-            "Attachments": [],
-            "DamagePercent": 0,
-            "HealthPercent": 0,
-            "QuestID": -1,
-            "Chance": 1.0
-        }
-    ],
-    "NeedToSelectReward": 0,
-    "RandomReward": 0,
-    "RandomRewardAmount": -1,
-    "RewardsForGroupOwnerOnly": 0,
-    "RewardBehavior": 0,
-    "QuestGiverIDs": [
-        1
-    ],
-    "QuestTurnInIDs": [
-        2
-    ],
-    "IsAchievement": 0,
-    "Objectives": [
-        {
-            "ConfigVersion": 28,
-            "ID": 1106,
-            "ObjectiveType": 9
-        }
-    ],
-    "QuestColor": -930200403,
-    "ReputationReward": 0,
-    "ReputationRequirement": -1,
-    "PreQuestIDs": [
-        1104
-    ],
-    "RequiredFaction": "",
-    "FactionReward": "",
-    "PlayerNeedQuestItems": 1,
-    "DeleteQuestItems": 1,
-    "SequentialObjectives": 1,
-    "FactionReputationRequirements": {},
-    "FactionReputationRewards": {},
-    "SuppressQuestLogOnCompetion": 0,
-    "Active": 1
+	"ConfigVersion": 22,
+	"ID": 1106,
+	"Type": 1,
+	"Title": "[СЮЖЕТ] Легендарный толчок",
+	"Descriptions": [
+		"Слушай... тут такое дело. Есть мой друганя - Вовчиком зовут, так вот... у него Диарея. Нужно очень быстро довести его до Легендарного толчка чтобы он не обосрался! Спасай!",
+		"Хули ты тут делаешь все еще? Беги Форест, беги!",
+		"Мне уже отзвонился Валерка. Он не обосрался!"
+	],
+	"ObjectiveText": "Вовчик не должен обосраться!",
+	"FollowUpQuest": -1,
+	"Repeatable": 0,
+	"IsDailyQuest": 0,
+	"IsWeeklyQuest": 0,
+	"CancelQuestOnPlayerDeath": 1,
+	"Autocomplete": 1,
+	"IsGroupQuest": 0,
+	"ObjectSetFileName": "",
+	"QuestItems": [],
+	"Rewards": [
+		{
+			"ClassName": "ExpansionPersonalStorageUpgrade_Level2",
+			"Amount": 1,
+			"Attachments": [],
+			"DamagePercent": 0,
+			"HealthPercent": 0,
+			"QuestID": -1,
+			"Chance": 1.0
+		}
+	],
+	"NeedToSelectReward": 0,
+	"RandomReward": 0,
+	"RandomRewardAmount": -1,
+	"RewardsForGroupOwnerOnly": 0,
+	"RewardBehavior": 0,
+	"QuestGiverIDs": [
+		1
+	],
+	"QuestTurnInIDs": [
+		2
+	],
+	"IsAchievement": 0,
+	"Objectives": [
+		{
+			"ConfigVersion": 28,
+			"ID": 1106,
+			"ObjectiveType": 9
+		}
+	],
+	"QuestColor": -930200403,
+	"ReputationReward": 0,
+	"ReputationRequirement": -1,
+	"PreQuestIDs": [
+		1104
+	],
+	"RequiredFaction": "",
+	"FactionReward": "",
+	"PlayerNeedQuestItems": 1,
+	"DeleteQuestItems": 1,
+	"SequentialObjectives": 1,
+	"FactionReputationRequirements": {},
+	"FactionReputationRewards": {},
+	"SuppressQuestLogOnCompetion": 0,
+	"Active": 1
 }

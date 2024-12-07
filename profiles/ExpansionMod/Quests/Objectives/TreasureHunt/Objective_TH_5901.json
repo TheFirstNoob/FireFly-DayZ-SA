@@ -1,255 +1,255 @@
 {
-    "ConfigVersion": 28,
-    "ID": 5901,
-    "ObjectiveType": 6,
-    "ObjectiveText": "Найдите и Откапайте Клад",
-    "TimeLimit": -1,
-    "Active": 1,
-    "ShowDistance": 0,
-    "ContainerName": "ExpansionQuestSeaChest",
-    "DigInStash": 1,
-    "MarkerName": "Клад",
-    "MarkerVisibility": 4,
-    "Positions": [
-        [
-            6672.06005859375,
-            288.8169860839844,
-            7726.740234375
-        ],
-        [
-            8857.4404296875,
-            247.0189971923828,
-            6298.22998046875
-        ],
-        [
-            5923.68994140625,
-            246.3699951171875,
-            9313.2099609375
-        ],
-        [
-            4427.47021484375,
-            208.5500030517578,
-            7412.72021484375
-        ],
-        [
-            6930.14013671875,
-            233.6020050048828,
-            3553.080078125
-        ],
-        [
-            3224.800048828125,
-            225.17300415039063,
-            4461.43994140625
-        ],
-        [
-            11169.099609375,
-            365.35198974609377,
-            8536.080078125
-        ],
-        [
-            7535.89990234375,
-            471.4150085449219,
-            10838.900390625
-        ],
-        [
-            9577.9404296875,
-            271.95001220703127,
-            5981.9599609375
-        ],
-        [
-            5467.35986328125,
-            355.8380126953125,
-            12927.5
-        ]
-    ],
-    "LootItemsAmount": 7,
-    "MaxDistance": 10.0,
-    "Loot": [
-        {
-            "Name": "Binoculars",
-            "Chance": 0.33000001311302187,
-            "Attachments": [],
-            "QuantityPercent": -1,
-            "Max": -1,
-            "Min": 0,
-            "Variants": []
-        },
-        {
-            "Name": "Rangefinder",
-            "Chance": 0.05000000074505806,
-            "Attachments": [
-                {
-                    "Name": "Battery9V",
-                    "Chance": 1.0,
-                    "Attachments": []
-                }
-            ],
-            "QuantityPercent": -1,
-            "Max": -1,
-            "Min": 0,
-            "Variants": []
-        },
-        {
-            "Name": "Deagle_gold",
-            "Chance": 0.05000000074505806,
-            "Attachments": [
-                {
-                    "Name": "mag_deagle_9rnd",
-                    "Chance": 1.0,
-                    "Attachments": []
-                }
-            ],
-            "QuantityPercent": -1,
-            "Max": -1,
-            "Min": 0,
-            "Variants": []
-        },
-        {
-            "Name": "Engraved1911",
-            "Chance": 0.05000000074505806,
-            "Attachments": [
-                {
-                    "Name": "mag_1911_7rnd",
-                    "Chance": 1.0,
-                    "Attachments": []
-                }
-            ],
-            "QuantityPercent": -1,
-            "Max": -1,
-            "Min": 0,
-            "Variants": []
-        },
-        {
-            "Name": "Scout",
-            "Chance": 0.05000000074505806,
-            "Attachments": [
-                {
-                    "Name": "mag_scout_5rnd",
-                    "Chance": 1.0,
-                    "Attachments": []
-                }
-            ],
-            "QuantityPercent": -1,
-            "Max": -1,
-            "Min": 0,
-            "Variants": []
-        },
-        {
-            "Name": "ASVAL",
-            "Chance": 0.05000000074505806,
-            "Attachments": [
-                {
-                    "Name": "mag_val_20rnd",
-                    "Chance": 1.0,
-                    "Attachments": []
-                }
-            ],
-            "QuantityPercent": -1,
-            "Max": -1,
-            "Min": 0,
-            "Variants": []
-        },
-        {
-            "Name": "Saiga",
-            "Chance": 0.05000000074505806,
-            "Attachments": [
-                {
-                    "Name": "Mag_Saiga_Drum20Rnd",
-                    "Chance": 1.0,
-                    "Attachments": []
-                }
-            ],
-            "QuantityPercent": -1,
-            "Max": -1,
-            "Min": 0,
-            "Variants": []
-        },
-        {
-            "Name": "VSS",
-            "Chance": 0.05000000074505806,
-            "Attachments": [
-                {
-                    "Name": "mag_vss_10rnd",
-                    "Chance": 1.0,
-                    "Attachments": []
-                }
-            ],
-            "QuantityPercent": -1,
-            "Max": -1,
-            "Min": 0,
-            "Variants": []
-        },
-        {
-            "Name": "WeaponCleaningKit",
-            "Chance": 0.10000000149011612,
-            "Attachments": [],
-            "QuantityPercent": -1,
-            "Max": -1,
-            "Min": 0,
-            "Variants": []
-        },
-        {
-            "Name": "BatteryCharger",
-            "Chance": 0.10000000149011612,
-            "Attachments": [],
-            "QuantityPercent": -1,
-            "Max": -1,
-            "Min": 0,
-            "Variants": []
-        },
-        {
-            "Name": "VitaminBottle",
-            "Chance": 0.25,
-            "Attachments": [],
-            "QuantityPercent": -1,
-            "Max": -1,
-            "Min": 0,
-            "Variants": []
-        },
-        {
-            "Name": "AliceBag_Green",
-            "Chance": 0.05000000074505806,
-            "Attachments": [],
-            "QuantityPercent": -1,
-            "Max": -1,
-            "Min": 0,
-            "Variants": []
-        },
-        {
-            "Name": "ExpansionGPS",
-            "Chance": 0.10000000149011612,
-            "Attachments": [],
-            "QuantityPercent": -1,
-            "Max": -1,
-            "Min": 0,
-            "Variants": []
-        },
-        {
-            "Name": "NVGoggles",
-            "Chance": 0.10000000149011612,
-            "Attachments": [],
-            "QuantityPercent": -1,
-            "Max": -1,
-            "Min": 0,
-            "Variants": []
-        },
-        {
-            "Name": "CarTent",
-            "Chance": 0.10000000149011612,
-            "Attachments": [],
-            "QuantityPercent": -1,
-            "Max": -1,
-            "Min": 0,
-            "Variants": []
-        },
-        {
-            "Name": "ExpansionSafeMini",
-            "Chance": 0.10000000149011612,
-            "Attachments": [],
-            "QuantityPercent": -1,
-            "Max": -1,
-            "Min": 0,
-            "Variants": []
-        }
-    ]
+	"ConfigVersion": 28,
+	"ID": 5901,
+	"ObjectiveType": 6,
+	"ObjectiveText": "Найдите и Откапайте Клад",
+	"TimeLimit": -1,
+	"Active": 1,
+	"ShowDistance": 0,
+	"ContainerName": "ExpansionQuestSeaChest",
+	"DigInStash": 1,
+	"MarkerName": "Клад",
+	"MarkerVisibility": 4,
+	"Positions": [
+		[
+			6672.06005859375,
+			288.8169860839844,
+			7726.740234375
+		],
+		[
+			8857.4404296875,
+			247.0189971923828,
+			6298.22998046875
+		],
+		[
+			5923.68994140625,
+			246.3699951171875,
+			9313.2099609375
+		],
+		[
+			4427.47021484375,
+			208.5500030517578,
+			7412.72021484375
+		],
+		[
+			6930.14013671875,
+			233.6020050048828,
+			3553.080078125
+		],
+		[
+			3224.800048828125,
+			225.17300415039063,
+			4461.43994140625
+		],
+		[
+			11169.099609375,
+			365.35198974609377,
+			8536.080078125
+		],
+		[
+			7535.89990234375,
+			471.4150085449219,
+			10838.900390625
+		],
+		[
+			9577.9404296875,
+			271.95001220703127,
+			5981.9599609375
+		],
+		[
+			5467.35986328125,
+			355.8380126953125,
+			12927.5
+		]
+	],
+	"LootItemsAmount": 7,
+	"MaxDistance": 10.0,
+	"Loot": [
+		{
+			"Name": "Binoculars",
+			"Chance": 0.33000001311302187,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "Rangefinder",
+			"Chance": 0.05000000074505806,
+			"Attachments": [
+				{
+					"Name": "Battery9V",
+					"Chance": 1.0,
+					"Attachments": []
+				}
+			],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "Deagle_gold",
+			"Chance": 0.05000000074505806,
+			"Attachments": [
+				{
+					"Name": "mag_deagle_9rnd",
+					"Chance": 1.0,
+					"Attachments": []
+				}
+			],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "Engraved1911",
+			"Chance": 0.05000000074505806,
+			"Attachments": [
+				{
+					"Name": "mag_1911_7rnd",
+					"Chance": 1.0,
+					"Attachments": []
+				}
+			],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "Scout",
+			"Chance": 0.05000000074505806,
+			"Attachments": [
+				{
+					"Name": "mag_scout_5rnd",
+					"Chance": 1.0,
+					"Attachments": []
+				}
+			],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "ASVAL",
+			"Chance": 0.05000000074505806,
+			"Attachments": [
+				{
+					"Name": "mag_val_20rnd",
+					"Chance": 1.0,
+					"Attachments": []
+				}
+			],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "Saiga",
+			"Chance": 0.05000000074505806,
+			"Attachments": [
+				{
+					"Name": "Mag_Saiga_Drum20Rnd",
+					"Chance": 1.0,
+					"Attachments": []
+				}
+			],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "VSS",
+			"Chance": 0.05000000074505806,
+			"Attachments": [
+				{
+					"Name": "mag_vss_10rnd",
+					"Chance": 1.0,
+					"Attachments": []
+				}
+			],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "WeaponCleaningKit",
+			"Chance": 0.10000000149011612,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "BatteryCharger",
+			"Chance": 0.10000000149011612,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "VitaminBottle",
+			"Chance": 0.25,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "AliceBag_Green",
+			"Chance": 0.05000000074505806,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "ExpansionGPS",
+			"Chance": 0.10000000149011612,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "NVGoggles",
+			"Chance": 0.10000000149011612,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "CarTent",
+			"Chance": 0.10000000149011612,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "ExpansionSafeMini",
+			"Chance": 0.10000000149011612,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		}
+	]
 }

@@ -1,20 +1,20 @@
 {
-    "ConfigVersion": 28,
-    "ID": 1103,
-    "ObjectiveType": 5,
-    "ObjectiveText": "Доставьте пакет Петровичу",
-    "TimeLimit": -1,
-    "Active": 1,
-    "Collections": [
-        {
-            "Amount": 1,
-            "ClassName": "ExpansionQuestItemPackage",
-            "QuantityPercent": -1,
-            "MinQuantityPercent": -1
-        }
-    ],
-    "ShowDistance": 1,
-    "AddItemsToNearbyMarketZone": 0,
-    "MaxDistance": 10.0,
-    "MarkerName": "Deliver Items"
+	"ConfigVersion": 28,
+	"ID": 1103,
+	"ObjectiveType": 5,
+	"ObjectiveText": "Доставьте пакет Петровичу",
+	"TimeLimit": -1,
+	"Active": 1,
+	"Collections": [
+		{
+			"Amount": 1,
+			"ClassName": "ExpansionQuestItemPackage",
+			"QuantityPercent": -1,
+			"MinQuantityPercent": -1
+		}
+	],
+	"ShowDistance": 1,
+	"AddItemsToNearbyMarketZone": 0,
+	"MaxDistance": 10.0,
+	"MarkerName": "Deliver Items"
 }

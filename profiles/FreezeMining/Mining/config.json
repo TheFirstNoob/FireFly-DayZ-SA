@@ -1,197 +1,197 @@
 {
-    "MRFRMINE": [
-        {
-            "actionText": "Добыть медную руду",
-            "max_mine": -1,
-            "enabledTypes": ["FreezeNode_copper"],
-            "itemsProbabilities": [
-                {"item": "Freezestone_copper", "probability": 55},
-                {"item": "Stone", "probability": 40},
-                {"item": "Freezestone_tin", "probability": 3},
-                {"item": "FreezeGem_Turquoise", "probability": 2}
-            ]
-        },
-        {
-            "actionText": "Добыть серу",
-            "max_mine": -1,
-            "enabledTypes": ["FreezeNode_sulphur"],
-            "itemsProbabilities": [
-                {"item": "Freezestone_sulphur", "probability": 50},
-                {"item": "Stone", "probability": 45},
-                {"item": "FreezeGem_Amber", "probability": 3},
-                {"item": "Freezestone_copper", "probability": 2}
-            ]
-        },
-        {
-            "actionText": "Добыть золотую руду",
-            "max_mine": -1,
-            "enabledTypes": ["FreezeNode_gold"],
-            "itemsProbabilities": [
-                {"item": "Freezestone_gold", "probability": 40},
-                {"item": "Stone", "probability": 45},
-                {"item": "Freezestone_silver", "probability": 8},
-                {"item": "FreezeGem_Ruby", "probability": 4},
-                {"item": "FreezeGem_FancyColourDiamond", "probability": 3}
-            ]
-        },
-        {
-            "actionText": "Добыть серебряную руду",
-            "max_mine": -1,
-            "enabledTypes": ["FreezeNode_silver"],
-            "itemsProbabilities": [
-                {"item": "Freezestone_silver", "probability": 45},
-                {"item": "Stone", "probability": 45},
-                {"item": "FreezeGem_Aquamarine", "probability": 5},
-                {"item": "FreezeGem_Iolite", "probability": 5}
-            ]
-        },
-        {
-            "actionText": "Добыть оловянную руду",
-            "max_mine": -1,
-            "enabledTypes": ["FreezeNode_tin"],
-            "itemsProbabilities": [
-                {"item": "Freezestone_tin", "probability": 55},
-                {"item": "Stone", "probability": 40},
-                {"item": "Freezestone_copper", "probability": 3},
-                {"item": "FreezeGem_Amethyst", "probability": 2}
-            ]
-        },
-        {
-            "actionText": "Добыть камень",
-            "max_mine": -1,
-            "enabledTypes": ["FreezeNode_stone"],
-            "itemsProbabilities": [
-                {"item": "Stone", "probability": 65},
-                {"item": "Freezestone_copper", "probability": 5},
-                {"item": "Freezestone_silver", "probability": 5},
-                {"item": "Freezestone_tin", "probability": 5},
-                {"item": "Freezestone_iron", "probability": 5},
-                {"item": "Freezestone_uranium", "probability": 5},
-                {"item": "FreezeGem_Amber", "probability": 2},
-                {"item": "FreezeGem_Amethyst", "probability": 2},
-                {"item": "FreezeGem_Aquamarine", "probability": 2},
-                {"item": "FreezeGem_FancyColourDiamond", "probability": 1},
-                {"item": "FreezeGem_Iolite", "probability": 1},
-                {"item": "FreezeGem_Jade", "probability": 1},
-                {"item": "FreezeGem_Ruby", "probability": 1},
-                {"item": "FreezeGem_Turquoise", "probability": 1}
-            ]
-        },
-        {
-            "actionText": "Добыть урановую руду",
-            "max_mine": -1,
-            "enabledTypes": ["FreezeNode_uranium"],
-            "itemsProbabilities": [
-                {"item": "Freezestone_uranium", "probability": 50},
-                {"item": "Stone", "probability": 40},
-                {"item": "FreezeGem_FancyColourDiamond", "probability": 5},
-                {"item": "Freezestone_gold", "probability": 3},
-                {"item": "FreezeGem_Ruby", "probability": 2}
-            ]
-        },
-        {
-            "actionText": "Добыть необработанный янтарь",
-            "max_mine": -1,
-            "enabledTypes": ["FreezeNode_AmberGemNode"],
-            "itemsProbabilities": [
-                {"item": "FreezeGem_Amber", "probability": 45},
-                {"item": "Stone", "probability": 50},
-                {"item": "FreezeGem_Turquoise", "probability": 5}
-            ]
-        },
-        {
-            "actionText": "Добыть необработанный аметист",
-            "max_mine": -1,
-            "enabledTypes": ["FreezeNode_AmethystGemNode"],
-            "itemsProbabilities": [
-                {"item": "FreezeGem_Amethyst", "probability": 40},
-                {"item": "Stone", "probability": 60}
-            ]
-        },
-        {
-            "actionText": "Добыть необработанный аквамарин",
-            "max_mine": -1,
-            "enabledTypes": ["FreezeNode_AquamarineGemNode"],
-            "itemsProbabilities": [
-                {"item": "FreezeGem_Aquamarine", "probability": 40},
-                {"item": "Stone", "probability": 60}
-            ]
-        },
-        {
-            "actionText": "Добыть необработанный цветной алмаз",
-            "max_mine": -1,
-            "enabledTypes": ["FreezeNode_FancyColourDiamondGemNode"],
-            "itemsProbabilities": [
-                {"item": "FreezeGem_FancyColourDiamond", "probability": 35},
-                {"item": "Stone", "probability": 55},
-                {"item": "FreezeGem_Ruby", "probability": 6},
-                {"item": "FreezeGem_Iolite", "probability": 4}
-            ]
-        },
-        {
-            "actionText": "Добыть необработанный иолит",
-            "max_mine": -1,
-            "enabledTypes": ["FreezeNode_IoliteGemNode"],
-            "itemsProbabilities": [
-                {"item": "FreezeGem_Iolite", "probability": 35},
-                {"item": "Stone", "probability": 65}
-            ]
-        },
-        {
-            "actionText": "Добыть необработанный нефрит",
-            "max_mine": -1,
-            "enabledTypes": ["FreezeNode_JadeGemNode"],
-            "itemsProbabilities": [
-                {"item": "FreezeGem_Jade", "probability": 45},
-                {"item": "Stone", "probability": 55}
-            ]
-        },
-        {
-            "actionText": "Добыть необработанный рубин",
-            "max_mine": -1,
-            "enabledTypes": ["FreezeNode_RubyGemNode"],
-            "itemsProbabilities": [
-                {"item": "FreezeGem_Ruby", "probability": 35},
-                {"item": "Stone", "probability": 65}
-            ]
-        },
-        {
-            "actionText": "Добыть необработанную бирюзу",
-            "max_mine": -1,
-            "enabledTypes": ["FreezeNode_TurquoiseGemNode"],
-            "itemsProbabilities": [
-                {"item": "FreezeGem_Turquoise", "probability": 45},
-                {"item": "Stone", "probability": 55}
-            ]
-        },
-        {
-            "actionText": "Добыть железную руду",
-            "max_mine": -1,
-            "enabledTypes": ["FreezeNode_iron"],
-            "itemsProbabilities": [
-                {"item": "Freezestone_iron", "probability": 60},
-                {"item": "Stone", "probability": 35},
-                {"item": "Freezestone_copper", "probability": 3},
-                {"item": "FreezeGem_Jade", "probability": 2}
-            ]
-        }
-    ],
-    "minedItemsProbabilities": {
-        "Stone": 200,
-        "SmallStone": 100,
-        "Freezestone_iron": 10,
-        "Freezestone_tin": 10,
-        "Freezestone_silver": 10,
-        "Freezestone_gold": 15,
-        "Freezestone_copper": 20,
-        "Freezestone_uranium": 15,
-        "FreezeGem_Amber": 15,
-        "FreezeGem_Amethyst": 15,
-        "FreezeGem_Aquamarine": 15,
-        "FreezeGem_FancyColourDiamond": 15,
-        "FreezeGem_Iolite": 15,
-        "FreezeGem_Jade": 15,
-        "FreezeGem_Ruby": 15,
-        "FreezeGem_Turquoise": 15
-    }
+	"MRFRMINE": [
+		{
+			"actionText": "Добыть медную руду",
+			"max_mine": -1,
+			"enabledTypes": ["FreezeNode_copper"],
+			"itemsProbabilities": [
+				{"item": "Freezestone_copper", "probability": 55},
+				{"item": "Stone", "probability": 40},
+				{"item": "Freezestone_tin", "probability": 3},
+				{"item": "FreezeGem_Turquoise", "probability": 2}
+			]
+		},
+		{
+			"actionText": "Добыть серу",
+			"max_mine": -1,
+			"enabledTypes": ["FreezeNode_sulphur"],
+			"itemsProbabilities": [
+				{"item": "Freezestone_sulphur", "probability": 50},
+				{"item": "Stone", "probability": 45},
+				{"item": "FreezeGem_Amber", "probability": 3},
+				{"item": "Freezestone_copper", "probability": 2}
+			]
+		},
+		{
+			"actionText": "Добыть золотую руду",
+			"max_mine": -1,
+			"enabledTypes": ["FreezeNode_gold"],
+			"itemsProbabilities": [
+				{"item": "Freezestone_gold", "probability": 40},
+				{"item": "Stone", "probability": 45},
+				{"item": "Freezestone_silver", "probability": 8},
+				{"item": "FreezeGem_Ruby", "probability": 4},
+				{"item": "FreezeGem_FancyColourDiamond", "probability": 3}
+			]
+		},
+		{
+			"actionText": "Добыть серебряную руду",
+			"max_mine": -1,
+			"enabledTypes": ["FreezeNode_silver"],
+			"itemsProbabilities": [
+				{"item": "Freezestone_silver", "probability": 45},
+				{"item": "Stone", "probability": 45},
+				{"item": "FreezeGem_Aquamarine", "probability": 5},
+				{"item": "FreezeGem_Iolite", "probability": 5}
+			]
+		},
+		{
+			"actionText": "Добыть оловянную руду",
+			"max_mine": -1,
+			"enabledTypes": ["FreezeNode_tin"],
+			"itemsProbabilities": [
+				{"item": "Freezestone_tin", "probability": 55},
+				{"item": "Stone", "probability": 40},
+				{"item": "Freezestone_copper", "probability": 3},
+				{"item": "FreezeGem_Amethyst", "probability": 2}
+			]
+		},
+		{
+			"actionText": "Добыть камень",
+			"max_mine": -1,
+			"enabledTypes": ["FreezeNode_stone"],
+			"itemsProbabilities": [
+				{"item": "Stone", "probability": 65},
+				{"item": "Freezestone_copper", "probability": 5},
+				{"item": "Freezestone_silver", "probability": 5},
+				{"item": "Freezestone_tin", "probability": 5},
+				{"item": "Freezestone_iron", "probability": 5},
+				{"item": "Freezestone_uranium", "probability": 5},
+				{"item": "FreezeGem_Amber", "probability": 2},
+				{"item": "FreezeGem_Amethyst", "probability": 2},
+				{"item": "FreezeGem_Aquamarine", "probability": 2},
+				{"item": "FreezeGem_FancyColourDiamond", "probability": 1},
+				{"item": "FreezeGem_Iolite", "probability": 1},
+				{"item": "FreezeGem_Jade", "probability": 1},
+				{"item": "FreezeGem_Ruby", "probability": 1},
+				{"item": "FreezeGem_Turquoise", "probability": 1}
+			]
+		},
+		{
+			"actionText": "Добыть урановую руду",
+			"max_mine": -1,
+			"enabledTypes": ["FreezeNode_uranium"],
+			"itemsProbabilities": [
+				{"item": "Freezestone_uranium", "probability": 50},
+				{"item": "Stone", "probability": 40},
+				{"item": "FreezeGem_FancyColourDiamond", "probability": 5},
+				{"item": "Freezestone_gold", "probability": 3},
+				{"item": "FreezeGem_Ruby", "probability": 2}
+			]
+		},
+		{
+			"actionText": "Добыть необработанный янтарь",
+			"max_mine": -1,
+			"enabledTypes": ["FreezeNode_AmberGemNode"],
+			"itemsProbabilities": [
+				{"item": "FreezeGem_Amber", "probability": 45},
+				{"item": "Stone", "probability": 50},
+				{"item": "FreezeGem_Turquoise", "probability": 5}
+			]
+		},
+		{
+			"actionText": "Добыть необработанный аметист",
+			"max_mine": -1,
+			"enabledTypes": ["FreezeNode_AmethystGemNode"],
+			"itemsProbabilities": [
+				{"item": "FreezeGem_Amethyst", "probability": 40},
+				{"item": "Stone", "probability": 60}
+			]
+		},
+		{
+			"actionText": "Добыть необработанный аквамарин",
+			"max_mine": -1,
+			"enabledTypes": ["FreezeNode_AquamarineGemNode"],
+			"itemsProbabilities": [
+				{"item": "FreezeGem_Aquamarine", "probability": 40},
+				{"item": "Stone", "probability": 60}
+			]
+		},
+		{
+			"actionText": "Добыть необработанный цветной алмаз",
+			"max_mine": -1,
+			"enabledTypes": ["FreezeNode_FancyColourDiamondGemNode"],
+			"itemsProbabilities": [
+				{"item": "FreezeGem_FancyColourDiamond", "probability": 35},
+				{"item": "Stone", "probability": 55},
+				{"item": "FreezeGem_Ruby", "probability": 6},
+				{"item": "FreezeGem_Iolite", "probability": 4}
+			]
+		},
+		{
+			"actionText": "Добыть необработанный иолит",
+			"max_mine": -1,
+			"enabledTypes": ["FreezeNode_IoliteGemNode"],
+			"itemsProbabilities": [
+				{"item": "FreezeGem_Iolite", "probability": 35},
+				{"item": "Stone", "probability": 65}
+			]
+		},
+		{
+			"actionText": "Добыть необработанный нефрит",
+			"max_mine": -1,
+			"enabledTypes": ["FreezeNode_JadeGemNode"],
+			"itemsProbabilities": [
+				{"item": "FreezeGem_Jade", "probability": 45},
+				{"item": "Stone", "probability": 55}
+			]
+		},
+		{
+			"actionText": "Добыть необработанный рубин",
+			"max_mine": -1,
+			"enabledTypes": ["FreezeNode_RubyGemNode"],
+			"itemsProbabilities": [
+				{"item": "FreezeGem_Ruby", "probability": 35},
+				{"item": "Stone", "probability": 65}
+			]
+		},
+		{
+			"actionText": "Добыть необработанную бирюзу",
+			"max_mine": -1,
+			"enabledTypes": ["FreezeNode_TurquoiseGemNode"],
+			"itemsProbabilities": [
+				{"item": "FreezeGem_Turquoise", "probability": 45},
+				{"item": "Stone", "probability": 55}
+			]
+		},
+		{
+			"actionText": "Добыть железную руду",
+			"max_mine": -1,
+			"enabledTypes": ["FreezeNode_iron"],
+			"itemsProbabilities": [
+				{"item": "Freezestone_iron", "probability": 60},
+				{"item": "Stone", "probability": 35},
+				{"item": "Freezestone_copper", "probability": 3},
+				{"item": "FreezeGem_Jade", "probability": 2}
+			]
+		}
+	],
+	"minedItemsProbabilities": {
+		"Stone": 200,
+		"SmallStone": 100,
+		"Freezestone_iron": 10,
+		"Freezestone_tin": 10,
+		"Freezestone_silver": 10,
+		"Freezestone_gold": 15,
+		"Freezestone_copper": 20,
+		"Freezestone_uranium": 15,
+		"FreezeGem_Amber": 15,
+		"FreezeGem_Amethyst": 15,
+		"FreezeGem_Aquamarine": 15,
+		"FreezeGem_FancyColourDiamond": 15,
+		"FreezeGem_Iolite": 15,
+		"FreezeGem_Jade": 15,
+		"FreezeGem_Ruby": 15,
+		"FreezeGem_Turquoise": 15
+	}
 }

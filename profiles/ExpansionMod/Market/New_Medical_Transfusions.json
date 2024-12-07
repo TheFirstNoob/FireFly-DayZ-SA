@@ -1,67 +1,67 @@
 {
-    "m_Version": 12,
-    "DisplayName": "Медицина - Переливание крови",
-    "Icon": "Medic Box",
-    "Color": "FBFCFEFF",
-    "IsExchange": 0,
-    "InitStockPercent": 50.0,
-    "Items": [
-        {
-            "ClassName": "BloodTestKit",
-            "MaxPriceThreshold": 10,
-            "MinPriceThreshold": 5,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "StartKitIV",
-            "MaxPriceThreshold": 20,
-            "MinPriceThreshold": 10,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
+	"m_Version": 12,
+	"DisplayName": "Медицина - Переливание крови",
+	"Icon": "Medic Box",
+	"Color": "FBFCFEFF",
+	"IsExchange": 0,
+	"InitStockPercent": 50.0,
+	"Items": [
 		{
-            "ClassName": "SalineBag",
-            "MaxPriceThreshold": 30,
-            "MinPriceThreshold": 15,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
+			"ClassName": "BloodTestKit",
+			"MaxPriceThreshold": 10,
+			"MinPriceThreshold": 5,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "StartKitIV",
+			"MaxPriceThreshold": 20,
+			"MinPriceThreshold": 10,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "SalineBag",
+			"MaxPriceThreshold": 30,
+			"MinPriceThreshold": 15,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
 				"SalineBagIV"
 			]
-        },
+		},
 		{
-            "ClassName": "SalineBagIV",
-            "MaxPriceThreshold": 30,
-            "MinPriceThreshold": 15,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "BloodbagEmpty",
-            "MaxPriceThreshold": 36,
-            "MinPriceThreshold": 18,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        }
-    ]
+			"ClassName": "SalineBagIV",
+			"MaxPriceThreshold": 30,
+			"MinPriceThreshold": 15,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "BloodbagEmpty",
+			"MaxPriceThreshold": 36,
+			"MinPriceThreshold": 18,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		}
+	]
 }

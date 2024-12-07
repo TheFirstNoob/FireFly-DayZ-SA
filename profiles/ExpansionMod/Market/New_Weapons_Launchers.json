@@ -1,21 +1,21 @@
 {
-    "m_Version": 12,
-    "DisplayName": "Оружие - Гранатометы",
-    "Icon": "Gun",
-    "Color": "FBFCFEFF",
-    "IsExchange": 0,
-    "InitStockPercent": 75.0,
-    "Items": [
-        {
-            "ClassName": "M79",
-            "MaxPriceThreshold": 75000,
-            "MinPriceThreshold": 15000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 15,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        }
-    ]
+	"m_Version": 12,
+	"DisplayName": "Оружие - Гранатометы",
+	"Icon": "Gun",
+	"Color": "FBFCFEFF",
+	"IsExchange": 0,
+	"InitStockPercent": 75.0,
+	"Items": [
+		{
+			"ClassName": "M79",
+			"MaxPriceThreshold": 75000,
+			"MinPriceThreshold": 15000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 15,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		}
+	]
 }

@@ -1,89 +1,89 @@
 {
-    "m_Version": 12,
-    "DisplayName": "Защита - Маски и фильтра",
-    "Icon": "Gas Mask",
-    "Color": "FF7F50",
-    "IsExchange": 0,
-    "InitStockPercent": 50.0,
-    "Items": [
-        {
-            "ClassName": "GasMask_Filter",
-            "MaxPriceThreshold": 6,
-            "MinPriceThreshold": 3,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
+	"m_Version": 12,
+	"DisplayName": "Защита - Маски и фильтра",
+	"Icon": "Gas Mask",
+	"Color": "FF7F50",
+	"IsExchange": 0,
+	"InitStockPercent": 50.0,
+	"Items": [
 		{
-            "ClassName": "GasMask",
-            "MaxPriceThreshold": 16,
-            "MinPriceThreshold": 8,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
+			"ClassName": "GasMask_Filter",
+			"MaxPriceThreshold": 6,
+			"MinPriceThreshold": 3,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
 		{
-            "ClassName": "NioshFaceMask",
-            "MaxPriceThreshold": 8,
-            "MinPriceThreshold": 4,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
+			"ClassName": "GasMask",
+			"MaxPriceThreshold": 16,
+			"MinPriceThreshold": 8,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
 		{
-            "ClassName": "SurgicalMask",
-            "MaxPriceThreshold": 8,
-            "MinPriceThreshold": 4,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
+			"ClassName": "NioshFaceMask",
+			"MaxPriceThreshold": 8,
+			"MinPriceThreshold": 4,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
 		{
-            "ClassName": "GP5GasMask",
-            "MaxPriceThreshold": 60,
-            "MinPriceThreshold": 30,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
+			"ClassName": "SurgicalMask",
+			"MaxPriceThreshold": 8,
+			"MinPriceThreshold": 4,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
 		{
-            "ClassName": "AirborneMask",
-            "MaxPriceThreshold": 60,
-            "MinPriceThreshold": 30,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
+			"ClassName": "GP5GasMask",
+			"MaxPriceThreshold": 60,
+			"MinPriceThreshold": 30,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
 		{
-            "ClassName": "TF_PMK4GasMask",
-            "MaxPriceThreshold": 30,
-            "MinPriceThreshold": 24,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 150,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
+			"ClassName": "AirborneMask",
+			"MaxPriceThreshold": 60,
+			"MinPriceThreshold": 30,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "TF_PMK4GasMask",
+			"MaxPriceThreshold": 30,
+			"MinPriceThreshold": 24,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 150,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
 				"TF_PMK4GasMask_OD"
 			]
-        }
-    ]
+		}
+	]
 }

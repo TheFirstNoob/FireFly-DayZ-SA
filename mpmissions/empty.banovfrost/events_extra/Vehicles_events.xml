@@ -1,187 +1,187 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <events>
 	<event name="Vehicle_VillagersTowns">
-        <nominal>35</nominal>
-        <min>20</min>
-        <max>50</max>
-        <lifetime>300</lifetime>
-        <restock>259200</restock>
-        <saferadius>500</saferadius>
-        <distanceradius>500</distanceradius>
-        <cleanupradius>200</cleanupradius>
-        <flags deletable="0" init_random="0" remove_damaged="1"/>
-        <position>fixed</position>
-        <limit>mixed</limit>
-        <active>1</active>
-        <children>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="OffroadHatchback"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="CivilianSedan"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="Hatchback_02"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="Sedan_02"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="AZLK_2141RF"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="azlk_400"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="GAZ21_Volga"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="GAZ_12"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="GAZ_13_Chaika"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="GAZ_13_Chaika_automatic"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="GAZ_233002_Tiger"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="GAZ_3110_volga"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="GAZ_69"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="GAZ_M20"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="IJ_2725_Kombi"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="IJ_2715_RF"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="IJ_2140_SL"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="Niva2329"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="LUAZ_969"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="Moskvich_407"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="VAZ_2104RF"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="VAZ_2105_RUS"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="vaz_2106_RF"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="VAZ_2107RF"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="VAZ_21099R"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="VAZ_2109_RF"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="ZAZ_965"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="ZAZ_968"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="ZAZ_968M"/>
-        </children>
+		<nominal>35</nominal>
+		<min>20</min>
+		<max>50</max>
+		<lifetime>300</lifetime>
+		<restock>259200</restock>
+		<saferadius>500</saferadius>
+		<distanceradius>500</distanceradius>
+		<cleanupradius>200</cleanupradius>
+		<flags deletable="0" init_random="0" remove_damaged="1"/>
+		<position>fixed</position>
+		<limit>mixed</limit>
+		<active>1</active>
+		<children>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="OffroadHatchback"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="CivilianSedan"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="Hatchback_02"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="Sedan_02"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="AZLK_2141RF"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="azlk_400"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="GAZ21_Volga"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="GAZ_12"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="GAZ_13_Chaika"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="GAZ_13_Chaika_automatic"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="GAZ_233002_Tiger"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="GAZ_3110_volga"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="GAZ_69"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="GAZ_M20"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="IJ_2725_Kombi"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="IJ_2715_RF"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="IJ_2140_SL"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="Niva2329"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="LUAZ_969"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="Moskvich_407"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="VAZ_2104RF"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="VAZ_2105_RUS"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="vaz_2106_RF"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="VAZ_2107RF"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="VAZ_21099R"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="VAZ_2109_RF"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="ZAZ_965"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="ZAZ_968"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="ZAZ_968M"/>
+		</children>
     </event>
 	<event name="Vehicle_Polices">
-        <nominal>12</nominal>
-        <min>6</min>
-        <max>18</max>
-        <lifetime>300</lifetime>
-        <restock>259200</restock>
-        <saferadius>500</saferadius>
-        <distanceradius>500</distanceradius>
-        <cleanupradius>200</cleanupradius>
-        <flags deletable="0" init_random="0" remove_damaged="1"/>
-        <position>fixed</position>
-        <limit>mixed</limit>
-        <active>1</active>
-        <children>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="KAVZ685_RF"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="UAZ_31519_Police"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="UAZ_469_Milicia"/>
-        </children>
+		<nominal>12</nominal>
+		<min>6</min>
+		<max>18</max>
+		<lifetime>300</lifetime>
+		<restock>259200</restock>
+		<saferadius>500</saferadius>
+		<distanceradius>500</distanceradius>
+		<cleanupradius>200</cleanupradius>
+		<flags deletable="0" init_random="0" remove_damaged="1"/>
+		<position>fixed</position>
+		<limit>mixed</limit>
+		<active>1</active>
+		<children>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="KAVZ685_RF"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="UAZ_31519_Police"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="UAZ_469_Milicia"/>
+		</children>
     </event>
 	<event name="Vehicle_Medics">
-        <nominal>10</nominal>
-        <min>5</min>
-        <max>15</max>
-        <lifetime>300</lifetime>
-        <restock>259200</restock>
-        <saferadius>500</saferadius>
-        <distanceradius>500</distanceradius>
-        <cleanupradius>200</cleanupradius>
-        <flags deletable="0" init_random="0" remove_damaged="1"/>
-        <position>fixed</position>
-        <limit>mixed</limit>
-        <active>1</active>
-        <children>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="UAZ_27722_mchs"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="UAZ_3962"/>
-        </children>
+		<nominal>10</nominal>
+		<min>5</min>
+		<max>15</max>
+		<lifetime>300</lifetime>
+		<restock>259200</restock>
+		<saferadius>500</saferadius>
+		<distanceradius>500</distanceradius>
+		<cleanupradius>200</cleanupradius>
+		<flags deletable="0" init_random="0" remove_damaged="1"/>
+		<position>fixed</position>
+		<limit>mixed</limit>
+		<active>1</active>
+		<children>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="UAZ_27722_mchs"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="UAZ_3962"/>
+		</children>
     </event>
 	<event name="Vehicle_Schools">
-        <nominal>10</nominal>
-        <min>5</min>
-        <max>15</max>
-        <lifetime>300</lifetime>
-        <restock>259200</restock>
-        <saferadius>500</saferadius>
-        <distanceradius>500</distanceradius>
-        <cleanupradius>200</cleanupradius>
-        <flags deletable="0" init_random="0" remove_damaged="1"/>
-        <position>fixed</position>
-        <limit>mixed</limit>
-        <active>1</active>
-        <children>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="KubanG1"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="LIAZ_677RF"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="LIAZ_677RF_Auto"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="PAZ_672"/>
-        </children>
+		<nominal>10</nominal>
+		<min>5</min>
+		<max>15</max>
+		<lifetime>300</lifetime>
+		<restock>259200</restock>
+		<saferadius>500</saferadius>
+		<distanceradius>500</distanceradius>
+		<cleanupradius>200</cleanupradius>
+		<flags deletable="0" init_random="0" remove_damaged="1"/>
+		<position>fixed</position>
+		<limit>mixed</limit>
+		<active>1</active>
+		<children>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="KubanG1"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="LIAZ_677RF"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="LIAZ_677RF_Auto"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="PAZ_672"/>
+		</children>
     </event>
 	<event name="Vehicle_Workers">
-        <nominal>10</nominal>
-        <min>5</min>
-        <max>15</max>
-        <lifetime>300</lifetime>
-        <restock>259200</restock>
-        <saferadius>500</saferadius>
-        <distanceradius>500</distanceradius>
-        <cleanupradius>200</cleanupradius>
-        <flags deletable="0" init_random="0" remove_damaged="1"/>
-        <position>fixed</position>
-        <limit>mixed</limit>
-        <active>1</active>
-        <children>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="Truck_01_Covered"/>
+		<nominal>10</nominal>
+		<min>5</min>
+		<max>15</max>
+		<lifetime>300</lifetime>
+		<restock>259200</restock>
+		<saferadius>500</saferadius>
+		<distanceradius>500</distanceradius>
+		<cleanupradius>200</cleanupradius>
+		<flags deletable="0" init_random="0" remove_damaged="1"/>
+		<position>fixed</position>
+		<limit>mixed</limit>
+		<active>1</active>
+		<children>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="Truck_01_Covered"/>
 			<child lootmax="0" lootmin="0" max="5" min="3" type="GAZ_51"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="GAZ_66_kuzov"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="kamaz_4310RUS"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="kraz_255B"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="opel_blitz"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="UAZ_33094"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="GAZ_66_kuzov"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="kamaz_4310RUS"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="kraz_255B"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="opel_blitz"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="UAZ_33094"/>
 			<child lootmax="0" lootmin="0" max="5" min="3" type="Ural_375_1964"/>
 			<child lootmax="0" lootmin="0" max="5" min="3" type="ZiL_133_Double"/>
 			<child lootmax="0" lootmin="0" max="5" min="3" type="ZiL_130"/>
 			<child lootmax="0" lootmin="0" max="5" min="3" type="ZiL_131_tent"/>
 			<child lootmax="0" lootmin="0" max="5" min="3" type="ZiL_157_rus"/>
-        </children>
+		</children>
     </event>
 	<event name="Vehicle_MilitatyLow">
-        <nominal>10</nominal>
-        <min>5</min>
-        <max>15</max>
-        <lifetime>300</lifetime>
-        <restock>259200</restock>
-        <saferadius>500</saferadius>
-        <distanceradius>500</distanceradius>
-        <cleanupradius>200</cleanupradius>
-        <flags deletable="0" init_random="0" remove_damaged="1"/>
-        <position>fixed</position>
-        <limit>mixed</limit>
-        <active>1</active>
-        <children>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="Offroad_02"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="Expansion_Landrover"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="Expansion_UAZ"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="Expansion_UAZRoofles"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="Expansion_UAZCargo"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="Expansion_UAZCargoRoofles"/>
+		<nominal>10</nominal>
+		<min>5</min>
+		<max>15</max>
+		<lifetime>300</lifetime>
+		<restock>259200</restock>
+		<saferadius>500</saferadius>
+		<distanceradius>500</distanceradius>
+		<cleanupradius>200</cleanupradius>
+		<flags deletable="0" init_random="0" remove_damaged="1"/>
+		<position>fixed</position>
+		<limit>mixed</limit>
+		<active>1</active>
+		<children>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="Offroad_02"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="Expansion_Landrover"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="Expansion_UAZ"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="Expansion_UAZRoofles"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="Expansion_UAZCargo"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="Expansion_UAZCargoRoofles"/>
 			<child lootmax="0" lootmin="0" max="5" min="3" type="UAZ_3163"/>
 			<child lootmax="0" lootmin="0" max="5" min="3" type="UAZ_3172"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="UAZ_Patrot_Pikap"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="UAZ_469_army"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="UAZ_469_hunter"/>
-        </children>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="UAZ_Patrot_Pikap"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="UAZ_469_army"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="UAZ_469_hunter"/>
+		</children>
     </event>
 	<event name="Vehicle_MilitatyHigh">
-        <nominal>10</nominal>
-        <min>5</min>
-        <max>15</max>
-        <lifetime>300</lifetime>
-        <restock>259200</restock>
-        <saferadius>500</saferadius>
-        <distanceradius>500</distanceradius>
-        <cleanupradius>200</cleanupradius>
-        <flags deletable="0" init_random="0" remove_damaged="1"/>
-        <position>fixed</position>
-        <limit>mixed</limit>
-        <active>1</active>
-        <children>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="AEC_Matador"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="GAZ_33081"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="GAZ_66"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="kamaz_4310RUS_kung"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="kraz_255B"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="kraz_255B_kung"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="VBL"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="ZiL_130_kung"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="ZiL_131"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="ZiL_157_kung_rus"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="ZiS5_kung"/>
-        </children>
+		<nominal>10</nominal>
+		<min>5</min>
+		<max>15</max>
+		<lifetime>300</lifetime>
+		<restock>259200</restock>
+		<saferadius>500</saferadius>
+		<distanceradius>500</distanceradius>
+		<cleanupradius>200</cleanupradius>
+		<flags deletable="0" init_random="0" remove_damaged="1"/>
+		<position>fixed</position>
+		<limit>mixed</limit>
+		<active>1</active>
+		<children>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="AEC_Matador"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="GAZ_33081"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="GAZ_66"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="kamaz_4310RUS_kung"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="kraz_255B"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="kraz_255B_kung"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="VBL"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="ZiL_130_kung"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="ZiL_131"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="ZiL_157_kung_rus"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="ZiS5_kung"/>
+		</children>
     </event>
 </events>

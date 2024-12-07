@@ -1,72 +1,72 @@
 {
-    "m_Version": 12,
-    "DisplayName": "Обвесы - Кобуры & Ножны & Оружейный ремень",
-    "Icon": "Deliver",
-    "Color": "FBFCFEFF",
-    "IsExchange": 0,
-    "InitStockPercent": 75.0,
-    "Items": [
-        {
-            "ClassName": "chestholster",
-            "MaxPriceThreshold": 120,
-            "MinPriceThreshold": 60,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "platecarrierholster",
-            "MaxPriceThreshold": 120,
-            "MinPriceThreshold": 60,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "platecarrierholster_green",
-                "platecarrierholster_black",
-                "platecarrierholster_camo"
-            ]
-        },
-        {
-            "ClassName": "nylonknifesheath",
-            "MaxPriceThreshold": 60,
-            "MinPriceThreshold": 30,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
+	"m_Version": 12,
+	"DisplayName": "Обвесы - Кобуры & Ножны & Оружейный ремень",
+	"Icon": "Deliver",
+	"Color": "FBFCFEFF",
+	"IsExchange": 0,
+	"InitStockPercent": 75.0,
+	"Items": [
 		{
-            "ClassName": "TF_6kh5KnifeSheath",
-            "MaxPriceThreshold": 30,
-            "MinPriceThreshold": 24,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 150,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
+			"ClassName": "chestholster",
+			"MaxPriceThreshold": 120,
+			"MinPriceThreshold": 60,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
 		{
-            "ClassName": "TF_RifleSling_Black",
-            "MaxPriceThreshold": 60,
-            "MinPriceThreshold": 40,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 150,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
+			"ClassName": "platecarrierholster",
+			"MaxPriceThreshold": 120,
+			"MinPriceThreshold": 60,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"platecarrierholster_green",
+				"platecarrierholster_black",
+				"platecarrierholster_camo"
+			]
+		},
+		{
+			"ClassName": "nylonknifesheath",
+			"MaxPriceThreshold": 60,
+			"MinPriceThreshold": 30,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "TF_6kh5KnifeSheath",
+			"MaxPriceThreshold": 30,
+			"MinPriceThreshold": 24,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 150,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "TF_RifleSling_Black",
+			"MaxPriceThreshold": 60,
+			"MinPriceThreshold": 40,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 150,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
 				"TF_RifleSling_Brown",
 				"TF_RifleSling_OD"
 			]
-        }
-    ]
+		}
+	]
 }

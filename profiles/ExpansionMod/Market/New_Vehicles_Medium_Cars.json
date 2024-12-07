@@ -1,40 +1,40 @@
 {
-    "m_Version": 12,
-    "DisplayName": "Автомобили - Внедорожники",
-    "Icon": "Car",
-    "Color": "FBFCFEFF",
-    "IsExchange": 0,
-    "InitStockPercent": 75.0,
-    "Items": [
-        {
-            "ClassName": "OffroadHatchback",
-            "MaxPriceThreshold": 28000,
-            "MinPriceThreshold": 14000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 4,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
+	"m_Version": 12,
+	"DisplayName": "Автомобили - Внедорожники",
+	"Icon": "Car",
+	"Color": "FBFCFEFF",
+	"IsExchange": 0,
+	"InitStockPercent": 75.0,
+	"Items": [
+		{
+			"ClassName": "OffroadHatchback",
+			"MaxPriceThreshold": 28000,
+			"MinPriceThreshold": 14000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 4,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [
 				"LugWrench",
 				"Wrench",
 				"Screwdriver",
 				"rag_car_jack",
-                "hatchbackwheel",
-                "hatchbackwheel",
-                "hatchbackwheel",
-                "hatchbackwheel",
-                "hatchbackwheel",
-                "hatchbackhood",
-                "hatchbacktrunk",
-                "hatchbackdoors_driver",
-                "hatchbackdoors_codriver",
+				"hatchbackwheel",
+				"hatchbackwheel",
+				"hatchbackwheel",
+				"hatchbackwheel",
+				"hatchbackwheel",
+				"hatchbackhood",
+				"hatchbacktrunk",
+				"hatchbackdoors_driver",
+				"hatchbackdoors_codriver",
 				"carbattery",
-                "carradiator",
-                "sparkplug",
-                "headlighth7",
-                "headlighth7"
-            ],
-            "Variants": [
+				"carradiator",
+				"sparkplug",
+				"headlighth7",
+				"headlighth7"
+			],
+			"Variants": [
 				"OffroadHatchback_Blue",
 				"OffroadHatchback_White",
 				"OffroadHatchback_Green",
@@ -43,70 +43,70 @@
 				"OffroadHatchback_BlueRust",
 				"OffroadHatchback_WhiteRust"
 			]
-        },
+		},
 		{
-            "ClassName": "Offroad_02",
-            "MaxPriceThreshold": 100000,
-            "MinPriceThreshold": 50000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 4,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
+			"ClassName": "Offroad_02",
+			"MaxPriceThreshold": 100000,
+			"MinPriceThreshold": 50000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 4,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [
 				"LugWrench",
 				"Wrench",
 				"Screwdriver",
 				"rag_car_jack",
-                "offroad_02_wheel",
-                "offroad_02_wheel",
-                "offroad_02_wheel",
-                "offroad_02_wheel",
-                "offroad_02_wheel",
-                "offroad_02_wheel",
-                "offroad_02_door_1_1",
-                "offroad_02_door_2_1",
-                "offroad_02_door_1_2",
-                "offroad_02_door_2_2",
-                "offroad_02_hood",
-                "offroad_02_trunk",
-                "carbattery",
-                "glowplug",
-                "headlighth7",
-                "headlighth7"
-            ],
-            "Variants": []
-        },
-		{
-            "ClassName": "ExpansionUaz",
-            "MaxPriceThreshold": 60000,
-            "MinPriceThreshold": 30000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 3,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
-				"LugWrench",
-				"Wrench",
-				"Screwdriver",
-				"rag_car_jack",
-                "expansionuazwheel",
-                "expansionuazwheel",
-                "expansionuazwheel",
-                "expansionuazwheel",
-                "expansionuazwheel",
-                "expansionuazdoorhood",
-                "expansionuazdoordriver",
-                "expansionuazdoorcodriver",
-                "expansionuazdoorcargo1",
-                "expansionuazdoorcargo2",
+				"offroad_02_wheel",
+				"offroad_02_wheel",
+				"offroad_02_wheel",
+				"offroad_02_wheel",
+				"offroad_02_wheel",
+				"offroad_02_wheel",
+				"offroad_02_door_1_1",
+				"offroad_02_door_2_1",
+				"offroad_02_door_1_2",
+				"offroad_02_door_2_2",
+				"offroad_02_hood",
+				"offroad_02_trunk",
 				"carbattery",
-                "carradiator",
-                "sparkplug",
-                "headlighth7",
-                "headlighth7"
-            ],
-            "Variants": [
-                "ExpansionUAZRoofless",
+				"glowplug",
+				"headlighth7",
+				"headlighth7"
+			],
+			"Variants": []
+		},
+		{
+			"ClassName": "ExpansionUaz",
+			"MaxPriceThreshold": 60000,
+			"MinPriceThreshold": 30000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 3,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [
+				"LugWrench",
+				"Wrench",
+				"Screwdriver",
+				"rag_car_jack",
+				"expansionuazwheel",
+				"expansionuazwheel",
+				"expansionuazwheel",
+				"expansionuazwheel",
+				"expansionuazwheel",
+				"expansionuazdoorhood",
+				"expansionuazdoordriver",
+				"expansionuazdoorcodriver",
+				"expansionuazdoorcargo1",
+				"expansionuazdoorcargo2",
+				"carbattery",
+				"carradiator",
+				"sparkplug",
+				"headlighth7",
+				"headlighth7"
+			],
+			"Variants": [
+				"ExpansionUAZRoofless",
 				"ExpansionUAZCargoRoofless",
 				"ExpansionUAZCargo",
 				"ExpansionUAZ_Green",
@@ -121,39 +121,39 @@
 				"ExpansionUAZCargo_LightGreen",
 				"ExpansionUAZRoofless_LightGreen",
 				"ExpansionUAZCargoRoofless_LightGreen"
-            ]
-        },
+			]
+		},
 		{
-            "ClassName": "Expansion_Landrover",
-            "MaxPriceThreshold": 180000,
-            "MinPriceThreshold": 70000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 3,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
+			"ClassName": "Expansion_Landrover",
+			"MaxPriceThreshold": 180000,
+			"MinPriceThreshold": 70000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 3,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [
 				"LugWrench",
 				"Wrench",
 				"Screwdriver",
 				"rag_car_jack",
-                "expansion_landrover_hood",
-                "expansion_landrover_driverdoor",
-                "expansion_landrover_codriverdoor",
-                "expansion_landrover_left",
-                "expansion_landrover_right",
-                "expansion_landrover_trunk",
-                "expansion_landrover_wheel",
-                "expansion_landrover_wheel",
-                "expansion_landrover_wheel",
-                "expansion_landrover_wheel",
-                "expansion_landrover_wheel",
+				"expansion_landrover_hood",
+				"expansion_landrover_driverdoor",
+				"expansion_landrover_codriverdoor",
+				"expansion_landrover_left",
+				"expansion_landrover_right",
+				"expansion_landrover_trunk",
+				"expansion_landrover_wheel",
+				"expansion_landrover_wheel",
+				"expansion_landrover_wheel",
+				"expansion_landrover_wheel",
+				"expansion_landrover_wheel",
 				"carbattery",
-                "carradiator",
-                "sparkplug",
-                "headlighth7",
-                "headlighth7"
-            ],
-            "Variants": [
+				"carradiator",
+				"sparkplug",
+				"headlighth7",
+				"headlighth7"
+			],
+			"Variants": [
 				"Expansion_Landrover",
 				"Expansion_Landrover_Yellow",
 				"Expansion_Landrover_Green",
@@ -162,16 +162,16 @@
 				"Expansion_Landrover_Blue",
 				"Expansion_Landrover_Orange"
 			]
-        },
+		},
 		{
-            "ClassName": "F1_Pickup",
-            "MaxPriceThreshold": 50000,
-            "MinPriceThreshold": 15000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 6,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
+			"ClassName": "F1_Pickup",
+			"MaxPriceThreshold": 50000,
+			"MinPriceThreshold": 15000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 6,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [
 				"LugWrench",
 				"Wrench",
 				"Screwdriver",
@@ -185,25 +185,25 @@
 				"F1_Pickup_doors_hood",
 				"F1_Pickup_doors_trunk",
 				"carbattery",
-                "carradiator",
-                "sparkplug",
-                "headlighth7",
-                "headlighth7"
+				"carradiator",
+				"sparkplug",
+				"headlighth7",
+				"headlighth7"
 			],
-            "Variants": [
+			"Variants": [
 				"F1_Pickup_green",
 				"F1_Pickup_black"
 			]
-        },
+		},
 		{
-            "ClassName": "Gaz_233002_Tiger",
-            "MaxPriceThreshold": 50000,
-            "MinPriceThreshold": 15000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 6,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
+			"ClassName": "Gaz_233002_Tiger",
+			"MaxPriceThreshold": 50000,
+			"MinPriceThreshold": 15000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 6,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [
 				"LugWrench",
 				"Wrench",
 				"Screwdriver",
@@ -218,24 +218,24 @@
 				"Gaz_233002_Tiger_doors_hood",
 				"Gaz_233002_Tiger_doors_trunk",
 				"carbattery",
-                "carradiator",
-                "sparkplug",
-                "headlighth7",
-                "headlighth7"
+				"carradiator",
+				"sparkplug",
+				"headlighth7",
+				"headlighth7"
 			],
-            "Variants": [
+			"Variants": [
 				"Gaz_233002_Tiger_camo"
 			]
-        },
+		},
 		{
-            "ClassName": "GAZ_69_rus",
-            "MaxPriceThreshold": 50000,
-            "MinPriceThreshold": 15000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 6,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
+			"ClassName": "GAZ_69_rus",
+			"MaxPriceThreshold": 50000,
+			"MinPriceThreshold": 15000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 6,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [
 				"LugWrench",
 				"Wrench",
 				"Screwdriver",
@@ -253,25 +253,25 @@
 				"GAZ_69_rus_tent_doors_cargo1",
 				"GAZ_69_rus_tent_doors_cargo2",
 				"carbattery",
-                "carradiator",
-                "sparkplug",
-                "headlighth7",
-                "headlighth7"
+				"carradiator",
+				"sparkplug",
+				"headlighth7",
+				"headlighth7"
 			],
-            "Variants": [
+			"Variants": [
 				"GAZ_69_rus_yellow",
 				"GAZ_69_rus_green"
 			]
-        },
+		},
 		{
-            "ClassName": "Niva2329",
-            "MaxPriceThreshold": 50000,
-            "MinPriceThreshold": 15000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 6,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
+			"ClassName": "Niva2329",
+			"MaxPriceThreshold": 50000,
+			"MinPriceThreshold": 15000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 6,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [
 				"LugWrench",
 				"Wrench",
 				"Screwdriver",
@@ -286,24 +286,24 @@
 				"Niva2329_doors_hood",
 				"Niva2329_doors_trunk",
 				"carbattery",
-                "carradiator",
-                "sparkplug",
-                "headlighth7",
-                "headlighth7"
+				"carradiator",
+				"sparkplug",
+				"headlighth7",
+				"headlighth7"
 			],
-            "Variants": [
+			"Variants": [
 				"Niva2329_camo"
 			]
-        },
+		},
 		{
-            "ClassName": "LUAZ_969",
-            "MaxPriceThreshold": 50000,
-            "MinPriceThreshold": 15000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 6,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
+			"ClassName": "LUAZ_969",
+			"MaxPriceThreshold": 50000,
+			"MinPriceThreshold": 15000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 6,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [
 				"LugWrench",
 				"Wrench",
 				"Screwdriver",
@@ -319,26 +319,26 @@
 				"LUAZ_969_doors_hood",
 				"LUAZ_969_doors_trunk",
 				"carbattery",
-                "carradiator",
-                "sparkplug",
-                "headlighth7",
-                "headlighth7"
+				"carradiator",
+				"sparkplug",
+				"headlighth7",
+				"headlighth7"
 			],
-            "Variants": [
+			"Variants": [
 				"LUAZ_969_green",
 				"LUAZ_969_blue",
 				"LUAZ_969_orang"
 			]
-        },
+		},
 		{
-            "ClassName": "UAZ_31519_Police",
-            "MaxPriceThreshold": 50000,
-            "MinPriceThreshold": 15000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 6,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
+			"ClassName": "UAZ_31519_Police",
+			"MaxPriceThreshold": 50000,
+			"MinPriceThreshold": 15000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 6,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [
 				"LugWrench",
 				"Wrench",
 				"Screwdriver",
@@ -355,26 +355,26 @@
 				"UAZ_31519_Police_doors_trunk",
 				"UAZ_31519_Police_doors_hood",
 				"carbattery",
-                "carradiator",
-                "sparkplug",
-                "headlighth7",
-                "headlighth7"
+				"carradiator",
+				"sparkplug",
+				"headlighth7",
+				"headlighth7"
 			],
-            "Variants": [
+			"Variants": [
 				"UAZ_31519_Police_rust",
 				"UAZ_31519_Police_MCHS",
 				"UAZ_31519_Police_MCHS_rust"
 			]
-        },
+		},
 		{
-            "ClassName": "UAZ_3163",
-            "MaxPriceThreshold": 50000,
-            "MinPriceThreshold": 15000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 6,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
+			"ClassName": "UAZ_3163",
+			"MaxPriceThreshold": 50000,
+			"MinPriceThreshold": 15000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 6,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [
 				"LugWrench",
 				"Wrench",
 				"Screwdriver",
@@ -392,12 +392,12 @@
 				"UAZ_3163_doors_hood",
 				"UAZ_3163_doors_trunk",
 				"carbattery",
-                "carradiator",
-                "sparkplug",
-                "headlighth7",
-                "headlighth7"
+				"carradiator",
+				"sparkplug",
+				"headlighth7",
+				"headlighth7"
 			],
-            "Variants": [
+			"Variants": [
 				"UAZ_3163_black",
 				"UAZ_3163_Red",
 				"UAZ_3163_blue",
@@ -412,16 +412,16 @@
 				"UAZ_3163_Ambulance",
 				"UAZ_3163_AGS"
 			]
-        },
+		},
 		{
-            "ClassName": "UAZ_3172",
-            "MaxPriceThreshold": 50000,
-            "MinPriceThreshold": 15000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 6,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
+			"ClassName": "UAZ_3172",
+			"MaxPriceThreshold": 50000,
+			"MinPriceThreshold": 15000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 6,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [
 				"LugWrench",
 				"Wrench",
 				"Screwdriver",
@@ -438,27 +438,27 @@
 				"UAZ_3172_doors_hood",
 				"UAZ_3172_doors_trunk",
 				"carbattery",
-                "carradiator",
-                "sparkplug",
-                "headlighth7",
-                "headlighth7"
+				"carradiator",
+				"sparkplug",
+				"headlighth7",
+				"headlighth7"
 			],
-            "Variants": [
+			"Variants": [
 				"UAZ_3172_green",
 				"UAZ_3172_camo_flora",
 				"UAZ_3172_camo_Winter",
 				"UAZ_3172_camo_Desert"
 			]
-        },
+		},
 		{
-            "ClassName": "UAZ_469_army",
-            "MaxPriceThreshold": 50000,
-            "MinPriceThreshold": 15000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 6,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
+			"ClassName": "UAZ_469_army",
+			"MaxPriceThreshold": 50000,
+			"MinPriceThreshold": 15000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 6,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [
 				"LugWrench",
 				"Wrench",
 				"Screwdriver",
@@ -476,12 +476,12 @@
 				"UAZ_469_army_doors_hood",
 				"UAZ_469_army_doors_trunk",
 				"carbattery",
-                "carradiator",
-                "sparkplug",
-                "headlighth7",
-                "headlighth7"
+				"carradiator",
+				"sparkplug",
+				"headlighth7",
+				"headlighth7"
 			],
-            "Variants": [
+			"Variants": [
 				"UAZ_469_army_yellow",
 				"UAZ_469_army_camo",
 				"UAZ_469_army_CDF",
@@ -489,16 +489,16 @@
 				"UAZ_469_Hunter",
 				"UAZ_469_milicia"
 			]
-        },
+		},
 		{
-            "ClassName": "UAZ_469_Hunter",
-            "MaxPriceThreshold": 50000,
-            "MinPriceThreshold": 15000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 6,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
+			"ClassName": "UAZ_469_Hunter",
+			"MaxPriceThreshold": 50000,
+			"MinPriceThreshold": 15000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 6,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [
 				"LugWrench",
 				"Wrench",
 				"Screwdriver",
@@ -515,22 +515,22 @@
 				"UAZ_469_Hunter_doors_hood",
 				"UAZ_469_Hunter_doors_trunk",
 				"carbattery",
-                "carradiator",
-                "sparkplug",
-                "headlighth7",
-                "headlighth7"
+				"carradiator",
+				"sparkplug",
+				"headlighth7",
+				"headlighth7"
 			],
-            "Variants": []
-        },
+			"Variants": []
+		},
 		{
-            "ClassName": "UAZ_469_milicia",
-            "MaxPriceThreshold": 50000,
-            "MinPriceThreshold": 15000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 6,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
+			"ClassName": "UAZ_469_milicia",
+			"MaxPriceThreshold": 50000,
+			"MinPriceThreshold": 15000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 6,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [
 				"LugWrench",
 				"Wrench",
 				"Screwdriver",
@@ -547,22 +547,22 @@
 				"UAZ_469_milicia_doors_hood",
 				"UAZ_469_milicia_doors_trunk",
 				"carbattery",
-                "carradiator",
-                "sparkplug",
-                "headlighth7",
-                "headlighth7"
+				"carradiator",
+				"sparkplug",
+				"headlighth7",
+				"headlighth7"
 			],
-            "Variants": []
-        },
+			"Variants": []
+		},
 		{
-            "ClassName": "UAZ_Patrot_Pikap",
-            "MaxPriceThreshold": 50000,
-            "MinPriceThreshold": 15000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 6,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
+			"ClassName": "UAZ_Patrot_Pikap",
+			"MaxPriceThreshold": 50000,
+			"MinPriceThreshold": 15000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 6,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [
 				"LugWrench",
 				"Wrench",
 				"Screwdriver",
@@ -579,28 +579,28 @@
 				"UAZ_Patrot_Pikap_doors_hood",
 				"UAZ_Patrot_Pikap_doors_trunk",
 				"carbattery",
-                "carradiator",
-                "sparkplug",
-                "headlighth7",
-                "headlighth7"
+				"carradiator",
+				"sparkplug",
+				"headlighth7",
+				"headlighth7"
 			],
-            "Variants": [
+			"Variants": [
 				"UAZ_Patrot_Pikap_Red",
 				"UAZ_Patrot_Pikap_blue",
 				"UAZ_Patrot_Pikap_green",
 				"UAZ_Patrot_Pikap_white",
 				"UAZ_Patrot_Pikap_camo_green"
 			]
-        },
+		},
 		{
-            "ClassName": "VBL",
-            "MaxPriceThreshold": 50000,
-            "MinPriceThreshold": 15000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 6,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
+			"ClassName": "VBL",
+			"MaxPriceThreshold": 50000,
+			"MinPriceThreshold": 15000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 6,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [
 				"LugWrench",
 				"Wrench",
 				"Screwdriver",
@@ -617,22 +617,22 @@
 				"VBL_doors_cargo4",
 				"VBL_doors_trunk",
 				"carbattery",
-                "carradiator",
-                "sparkplug",
-                "headlighth7",
-                "headlighth7"
+				"carradiator",
+				"sparkplug",
+				"headlighth7",
+				"headlighth7"
 			],
-            "Variants": []
-        },
+			"Variants": []
+		},
 		{
-            "ClassName": "Tahoe_White",
-            "MaxPriceThreshold": 50000,
-            "MinPriceThreshold": 15000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 6,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
+			"ClassName": "Tahoe_White",
+			"MaxPriceThreshold": 50000,
+			"MinPriceThreshold": 15000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 6,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [
 				"LugWrench",
 				"Wrench",
 				"Screwdriver",
@@ -648,12 +648,12 @@
 				"Tahoe_trunk",
 				"Tahoe_hood",
 				"carbattery",
-                "carradiator",
-                "sparkplug",
-                "headlighth7",
-                "headlighth7"
+				"carradiator",
+				"sparkplug",
+				"headlighth7",
+				"headlighth7"
 			],
-            "Variants": [
+			"Variants": [
 				"Tahoe_LightBlue",
 				"Tahoe_Black",
 				"Tahoe_Blue",
@@ -663,16 +663,16 @@
 				"Tahoe_Pink",
 				"Tahoe_Red"
 			]
-        },
+		},
 		{
-            "ClassName": "Ford_Bronco_White",
-            "MaxPriceThreshold": 50000,
-            "MinPriceThreshold": 15000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 6,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
+			"ClassName": "Ford_Bronco_White",
+			"MaxPriceThreshold": 50000,
+			"MinPriceThreshold": 15000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 6,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [
 				"LugWrench",
 				"Wrench",
 				"Screwdriver",
@@ -687,26 +687,26 @@
 				"Bronco_Trunk",
 				"Bronco_Hood",
 				"carbattery",
-                "carradiator",
-                "sparkplug",
-                "headlighth7",
-                "headlighth7"
+				"carradiator",
+				"sparkplug",
+				"headlighth7",
+				"headlighth7"
 			],
-            "Variants": [
+			"Variants": [
 				"Ford_Bronco_Rust",
 				"Ford_Bronco_Black",
 				"Ford_Bronco_Hunter"
 			]
-        },
+		},
 		{
-            "ClassName": "Jeep_GladiatorF9_BOSS_White",
-            "MaxPriceThreshold": 50000,
-            "MinPriceThreshold": 15000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 6,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
+			"ClassName": "Jeep_GladiatorF9_BOSS_White",
+			"MaxPriceThreshold": 50000,
+			"MinPriceThreshold": 15000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 6,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [
 				"LugWrench",
 				"Wrench",
 				"Screwdriver",
@@ -723,12 +723,12 @@
 				"Jeep_GladiatorF9_Trunk",
 				"Jeep_GladiatorF9_Hood",
 				"carbattery",
-                "carradiator",
-                "sparkplug",
-                "headlighth7",
-                "headlighth7"
+				"carradiator",
+				"sparkplug",
+				"headlighth7",
+				"headlighth7"
 			],
-            "Variants": [
+			"Variants": [
 				"Jeep_GladiatorF9_BOSS_Black",
 				"Jeep_GladiatorF9_BOSS_Gold",
 				"Jeep_GladiatorF9_BOSS_Brown",
@@ -739,16 +739,16 @@
 				"Jeep_GladiatorF9_BOSS_camo_blue",
 				"Jeep_GladiatorF9_BOSS_camo_black"
 			]
-        },
+		},
 		{
-            "ClassName": "ToyotaRunner_Black",
-            "MaxPriceThreshold": 50000,
-            "MinPriceThreshold": 15000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 6,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
+			"ClassName": "ToyotaRunner_Black",
+			"MaxPriceThreshold": 50000,
+			"MinPriceThreshold": 15000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 6,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [
 				"LugWrench",
 				"Wrench",
 				"Screwdriver",
@@ -765,12 +765,12 @@
 				"Runner_Trunk",
 				"Runner_Hood",
 				"carbattery",
-                "carradiator",
-                "sparkplug",
-                "headlighth7",
-                "headlighth7"
+				"carradiator",
+				"sparkplug",
+				"headlighth7",
+				"headlighth7"
 			],
-            "Variants": [
+			"Variants": [
 				"ToyotaRunner_camoblack",
 				"ToyotaRunner_camopurple",
 				"ToyotaRunner_camogreen",
@@ -784,16 +784,16 @@
 				"ToyotaRunner_camopink",
 				"ToyotaRunner_camoblue"
 			]
-        },
+		},
 		{
-            "ClassName": "DodgeRam_BOSS_Red",
-            "MaxPriceThreshold": 50000,
-            "MinPriceThreshold": 15000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 6,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
+			"ClassName": "DodgeRam_BOSS_Red",
+			"MaxPriceThreshold": 50000,
+			"MinPriceThreshold": 15000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 6,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [
 				"LugWrench",
 				"Wrench",
 				"Screwdriver",
@@ -811,12 +811,12 @@
 				"DodgeRam_Trunk",
 				"DodgeRam_Hood",
 				"carbattery",
-                "carradiator",
-                "sparkplug",
-                "headlighth7",
-                "headlighth7"
+				"carradiator",
+				"sparkplug",
+				"headlighth7",
+				"headlighth7"
 			],
-            "Variants": [
+			"Variants": [
 				"DodgeRam_BOSS_White",
 				"DodgeRam_BOSS_Green",
 				"DodgeRam_BOSS_Blue",
@@ -830,6 +830,6 @@
 				"DodgeRam_BOSS_camonuke",
 				"DodgeRam_BOSS_Yellow"
 			]
-        }
-    ]
+		}
+	]
 }

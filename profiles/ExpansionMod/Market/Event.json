@@ -1,57 +1,57 @@
 {
-    "m_Version": 12,
-    "DisplayName": "Ивентовые вещи",
-    "Icon": "Bonfire",
-    "Color": "FBFCFEFF",
-    "IsExchange": 0,
-    "InitStockPercent": 75.0,
-    "Items": [
-        {
-            "ClassName": "crookednose",
-            "MaxPriceThreshold": 15,
-            "MinPriceThreshold": 1,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 250,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "cauldron",
-            "MaxPriceThreshold": 15,
-            "MinPriceThreshold": 1,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 250,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "witchhat",
-            "MaxPriceThreshold": 15,
-            "MinPriceThreshold": 1,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 250,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "witchhood_black",
-            "MaxPriceThreshold": 15,
-            "MinPriceThreshold": 1,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 250,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "witchhood_brown",
-                "witchhood_red"
-            ]
-        }
-    ]
+	"m_Version": 12,
+	"DisplayName": "Ивентовые вещи",
+	"Icon": "Bonfire",
+	"Color": "FBFCFEFF",
+	"IsExchange": 0,
+	"InitStockPercent": 75.0,
+	"Items": [
+		{
+			"ClassName": "crookednose",
+			"MaxPriceThreshold": 15,
+			"MinPriceThreshold": 1,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 250,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "cauldron",
+			"MaxPriceThreshold": 15,
+			"MinPriceThreshold": 1,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 250,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "witchhat",
+			"MaxPriceThreshold": 15,
+			"MinPriceThreshold": 1,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 250,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "witchhood_black",
+			"MaxPriceThreshold": 15,
+			"MinPriceThreshold": 1,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 250,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"witchhood_brown",
+				"witchhood_red"
+			]
+		}
+	]
 }

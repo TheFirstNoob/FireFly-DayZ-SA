@@ -1,54 +1,54 @@
 {
-    "m_Version": 12,
-    "DisplayName": "Медицина - Шприцы",
-    "Icon": "Eye",
-    "Color": "FBFCFEFF",
-    "IsExchange": 0,
-    "InitStockPercent": 50.0,
-    "Items": [
-        {
-            "ClassName": "Epinephrine",
-            "MaxPriceThreshold": 40,
-            "MinPriceThreshold": 20,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
+	"m_Version": 12,
+	"DisplayName": "Медицина - Шприцы",
+	"Icon": "Eye",
+	"Color": "FBFCFEFF",
+	"IsExchange": 0,
+	"InitStockPercent": 50.0,
+	"Items": [
 		{
-            "ClassName": "SR_Med_Adrenaline",
-            "MaxPriceThreshold": 40,
-            "MinPriceThreshold": 20,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Morphine",
-            "MaxPriceThreshold": 50,
-            "MinPriceThreshold": 25,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
+			"ClassName": "Epinephrine",
+			"MaxPriceThreshold": 40,
+			"MinPriceThreshold": 20,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
 		{
-            "ClassName": "AntiChemInjector",
-            "MaxPriceThreshold": 200,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        }
-    ]
+			"ClassName": "SR_Med_Adrenaline",
+			"MaxPriceThreshold": 40,
+			"MinPriceThreshold": 20,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "Morphine",
+			"MaxPriceThreshold": 50,
+			"MinPriceThreshold": 25,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "AntiChemInjector",
+			"MaxPriceThreshold": 200,
+			"MinPriceThreshold": 100,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		}
+	]
 }

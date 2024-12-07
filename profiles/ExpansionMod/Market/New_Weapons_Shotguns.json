@@ -1,113 +1,113 @@
 {
-    "m_Version": 12,
-    "DisplayName": "Оружие - Дробовики",
-    "Icon": "Gun",
-    "Color": "FBFCFEFF",
-    "IsExchange": 0,
-    "InitStockPercent": 75.0,
-    "Items": [
-        {
-            "ClassName": "Mp133Shotgun",
-            "MaxPriceThreshold": 5500,
-            "MinPriceThreshold": 1100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 135,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
+	"m_Version": 12,
+	"DisplayName": "Оружие - Дробовики",
+	"Icon": "Gun",
+	"Color": "FBFCFEFF",
+	"IsExchange": 0,
+	"InitStockPercent": 75.0,
+	"Items": [
 		{
-            "ClassName": "Izh43Shotgun",
-            "MaxPriceThreshold": 4450,
-            "MinPriceThreshold": 890,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 135,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
+			"ClassName": "Mp133Shotgun",
+			"MaxPriceThreshold": 5500,
+			"MinPriceThreshold": 1100,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 135,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "Izh43Shotgun",
+			"MaxPriceThreshold": 4450,
+			"MinPriceThreshold": 890,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 135,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
 				"SawedoffIzh43Shotgun"
 			]
-        },
+		},
 		{
-            "ClassName": "SawedoffIzh43Shotgun",
-            "MaxPriceThreshold": 3750,
-            "MinPriceThreshold": 750,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 150,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
+			"ClassName": "SawedoffIzh43Shotgun",
+			"MaxPriceThreshold": 3750,
+			"MinPriceThreshold": 750,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 150,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
 		{
-            "ClassName": "izh18shotgun",
-            "MaxPriceThreshold": 3350,
-            "MinPriceThreshold": 670,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 165,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
+			"ClassName": "izh18shotgun",
+			"MaxPriceThreshold": 3350,
+			"MinPriceThreshold": 670,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 165,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
 				"SawedoffIzh18shotgun"
 			]
-        },
-        {
-            "ClassName": "SawedoffIzh18shotgun",
-            "MaxPriceThreshold": 2750,
-            "MinPriceThreshold": 550,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 165,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Saiga",
-            "MaxPriceThreshold": 23750,
-            "MinPriceThreshold": 4750,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 65,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Expansion_BenelliM4",
-            "MaxPriceThreshold": 15000,
-            "MinPriceThreshold": 3000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
+		},
 		{
-            "ClassName": "PNC_W_VR80",
-            "MaxPriceThreshold": 32500,
-            "MinPriceThreshold": 6500,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 40,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
+			"ClassName": "SawedoffIzh18shotgun",
+			"MaxPriceThreshold": 2750,
+			"MinPriceThreshold": 550,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 165,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
 		{
-            "ClassName": "PNC_W_Origin_12ga",
-            "MaxPriceThreshold": 35000,
-            "MinPriceThreshold": 7000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 35,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        }
-    ]
+			"ClassName": "Saiga",
+			"MaxPriceThreshold": 23750,
+			"MinPriceThreshold": 4750,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 65,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "Expansion_BenelliM4",
+			"MaxPriceThreshold": 15000,
+			"MinPriceThreshold": 3000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "PNC_W_VR80",
+			"MaxPriceThreshold": 32500,
+			"MinPriceThreshold": 6500,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 40,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "PNC_W_Origin_12ga",
+			"MaxPriceThreshold": 35000,
+			"MinPriceThreshold": 7000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 35,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		}
+	]
 }

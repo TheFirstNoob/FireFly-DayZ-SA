@@ -1,56 +1,56 @@
 {
-    "ConfigVersion": 22,
-    "ID": 1102,
-    "Type": 1,
-    "Title": "[СЮЖЕТ] Знакомство поближе",
-    "Descriptions": [
-        "Что ж, значит тебя зовут %1? Меня зовут Петрович. Местный командир этого лагеря. Рад знакомству! ** (Смотря на вас с улыбкой!) ** С чего бы начать...? Есть одна просьба. Мне нужны определенные ресурсы, но заставлять тебя их добывать я не буду. Лучше будет так: Доставь этот список моему другу Бубылде. Он должен будет передать тебе коробочку с моими вещами, а ты принесешь ее ко мне. Хорошо? Во-о-от спасибо!",
-        "Есть какие-то вопросы? Я отвечу тебе на них когда ты выполнишь мою просьбу.",
-        "Ты кто такой? Новенький? Что тебе нужно от меня? Я не доверяю тебе! Вали отсюда! ** (Вы протягиваете конверт с пометкой Петровича) ** Дай сюда! Мгм... ага... хорошо..."
-    ],
-    "ObjectiveText": "Доставьте Список запросов Бубылде.",
-    "FollowUpQuest": -1,
-    "Repeatable": 0,
-    "IsDailyQuest": 0,
-    "IsWeeklyQuest": 0,
-    "CancelQuestOnPlayerDeath": 0,
-    "Autocomplete": 0,
-    "IsGroupQuest": 0,
-    "ObjectSetFileName": "",
-    "QuestItems": [],
-    "Rewards": [],
-    "NeedToSelectReward": 0,
-    "RandomReward": 0,
-    "RandomRewardAmount": -1,
-    "RewardsForGroupOwnerOnly": 1,
-    "RewardBehavior": 0,
-    "QuestGiverIDs": [
-        1
-    ],
-    "QuestTurnInIDs": [
-        2
-    ],
-    "IsAchievement": 0,
-    "Objectives": [
-        {
-            "ConfigVersion": 28,
-            "ID": 1102,
-            "ObjectiveType": 5
-        }
-    ],
-    "QuestColor": 0,
-    "ReputationReward": 25,
-    "ReputationRequirement": -1,
-    "PreQuestIDs": [
-        1101
-    ],
-    "RequiredFaction": "",
-    "FactionReward": "",
-    "PlayerNeedQuestItems": 1,
-    "DeleteQuestItems": 1,
-    "SequentialObjectives": 1,
-    "FactionReputationRequirements": {},
-    "FactionReputationRewards": {},
-    "SuppressQuestLogOnCompetion": 0,
-    "Active": 1
+	"ConfigVersion": 22,
+	"ID": 1102,
+	"Type": 1,
+	"Title": "[СЮЖЕТ] Знакомство поближе",
+	"Descriptions": [
+		"Что ж, значит тебя зовут %1? Меня зовут Петрович. Местный командир этого лагеря. Рад знакомству! ** (Смотря на вас с улыбкой!) ** С чего бы начать...? Есть одна просьба. Мне нужны определенные ресурсы, но заставлять тебя их добывать я не буду. Лучше будет так: Доставь этот список моему другу Бубылде. Он должен будет передать тебе коробочку с моими вещами, а ты принесешь ее ко мне. Хорошо? Во-о-от спасибо!",
+		"Есть какие-то вопросы? Я отвечу тебе на них когда ты выполнишь мою просьбу.",
+		"Ты кто такой? Новенький? Что тебе нужно от меня? Я не доверяю тебе! Вали отсюда! ** (Вы протягиваете конверт с пометкой Петровича) ** Дай сюда! Мгм... ага... хорошо..."
+	],
+	"ObjectiveText": "Доставьте Список запросов Бубылде.",
+	"FollowUpQuest": -1,
+	"Repeatable": 0,
+	"IsDailyQuest": 0,
+	"IsWeeklyQuest": 0,
+	"CancelQuestOnPlayerDeath": 0,
+	"Autocomplete": 0,
+	"IsGroupQuest": 0,
+	"ObjectSetFileName": "",
+	"QuestItems": [],
+	"Rewards": [],
+	"NeedToSelectReward": 0,
+	"RandomReward": 0,
+	"RandomRewardAmount": -1,
+	"RewardsForGroupOwnerOnly": 1,
+	"RewardBehavior": 0,
+	"QuestGiverIDs": [
+		1
+	],
+	"QuestTurnInIDs": [
+		2
+	],
+	"IsAchievement": 0,
+	"Objectives": [
+		{
+			"ConfigVersion": 28,
+			"ID": 1102,
+			"ObjectiveType": 5
+		}
+	],
+	"QuestColor": 0,
+	"ReputationReward": 25,
+	"ReputationRequirement": -1,
+	"PreQuestIDs": [
+		1101
+	],
+	"RequiredFaction": "",
+	"FactionReward": "",
+	"PlayerNeedQuestItems": 1,
+	"DeleteQuestItems": 1,
+	"SequentialObjectives": 1,
+	"FactionReputationRequirements": {},
+	"FactionReputationRewards": {},
+	"SuppressQuestLogOnCompetion": 0,
+	"Active": 1
 }
