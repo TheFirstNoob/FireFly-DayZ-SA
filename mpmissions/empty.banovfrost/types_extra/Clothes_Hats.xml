@@ -370,6 +370,33 @@
 		<usage name="Town"/>
 		<usage name="Village"/>
 	</type>
+	<type name="BoonieHat_Winter">
+		<nominal>20</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>14</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+	</type>
+	<type name="BudenovkaHat_Gray">
+		<nominal>10</nominal>
+		<lifetime>14400</lifetime>
+		<restock>1800</restock>
+		<min>6</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+	</type>
 	<type name="CowboyHat_Brown">
 		<nominal>20</nominal>
 		<lifetime>14400</lifetime>
@@ -788,6 +815,153 @@
 		<usage name="Town"/>
 		<usage name="Village"/>
 	</type>
+
+	<type name="SherpaHat_Black">
+		<nominal>10</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>7</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="SherpaHat_Blue">
+		<nominal>10</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>7</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="SherpaHat_Red">
+		<nominal>10</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>7</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+
+	<type name="Shemag_Brown">
+		<nominal>30</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>24</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+	</type>
+	<type name="Shemag_Green">
+		<nominal>30</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>24</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+	</type>
+	<type name="Shemag_Red">
+		<nominal>30</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>24</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+	</type>
+	<type name="Shemag_White">
+		<nominal>30</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>24</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+	</type>
+
+	<type name="SnowstormUshanka_Brown">
+		<nominal>20</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>14</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Village"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+	<type name="SnowstormUshanka_Navy">
+		 <nominal>20</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>14</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Village"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+	<type name="SnowstormUshanka_Olive">
+		 <nominal>20</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>14</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Village"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+	<type name="SnowstormUshanka_White">
+		<nominal>20</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>14</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Village"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+
 	<type name="Ushanka_Black">
 		<nominal>25</nominal>
 		<lifetime>14400</lifetime>
@@ -903,5 +1077,17 @@
 		<usage name="Farm"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
+	</type>
+
+	<type name="Headdress_Wolf">
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+		<category name="clothes"/>
 	</type>
 </types>

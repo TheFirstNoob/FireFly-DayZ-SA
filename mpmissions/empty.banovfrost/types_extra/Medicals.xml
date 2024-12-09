@@ -125,6 +125,19 @@
 		<tag name="shelves"/>
 		<usage name="Medic"/>
 	</type>
+	<type name="ChelatingTablets"> <!--cures heavy metals poisoning from cntaminated water and snow -->
+		<nominal>30</nominal>
+		<lifetime>28800</lifetime>
+		<restock>0</restock>
+		<min>24</min>
+		<quantmin>10</quantmin>
+		<quantmax>50</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="tools"/>
+		<tag name="shelves"/>
+		<usage name="Medic"/>
+	</type>
 	<type name="DisinfectantAlcohol">
 		<nominal>80</nominal>
 		<lifetime>14400</lifetime>

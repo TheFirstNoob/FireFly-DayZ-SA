@@ -67,6 +67,16 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="food"/>
 	</type>
+	<type name="CraterellusMushroom">
+		<nominal>0</nominal>
+		<lifetime>900</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+	</type>
 	
 	<!-- ФРУКТЫ И ОВОЩИ -->
 	<type name="Apple">
@@ -434,6 +444,26 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="food"/>
 	</type>
+	<type name="WalleyePollock">
+		<nominal>0</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+	</type>
+	<type name="RedCaviar">
+		<nominal>0</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+	</type>
 	
 	<!-- БАНОЧКИ -->
 	<type name="BakedBeansCan">
@@ -454,6 +484,33 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="BakedBeansCan_Opened">
+		<nominal>0</nominal>
+		<lifetime>9000</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+		<category name="food"/>
+	</type>
+	<type name="CrabCan">
+		<nominal>20</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>15</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+	</type>
+	<type name="CrabCan_Opened">
 		<nominal>0</nominal>
 		<lifetime>9000</lifetime>
 		<restock>0</restock>
@@ -1167,6 +1224,26 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="food"/>
 	</type>
+	<type name="ReindeerSteakMeat">
+		<nominal>0</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+	</type>
+	<type name="WalleyePollockFilletMeat">
+		<nominal>0</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+	</type>
 	
 	<!-- ВОДА/НАПИТКИ -->
 	<type name="Canteen">
@@ -1187,6 +1264,29 @@
 		<lifetime>14400</lifetime>
 		<restock>0</restock>
 		<min>100</min>
+		<quantmin>20</quantmin>
+		<quantmax>70</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+	<type name="FilteringBottle">
+		<nominal>30</nominal>
+		<lifetime>14400</lifetime>
+		<restock>7200</restock>
+		<min>20</min>
+		<quantmin>10</quantmin>
+		<quantmax>90</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<usage name="Military"/>
+		<usage name="Hunting"/>
+	</type>
+	<type name="GlassBottle">
+		<nominal>40</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>20</min>
 		<quantmin>20</quantmin>
 		<quantmax>70</quantmax>
 		<cost>100</cost>
@@ -1266,7 +1366,7 @@
 	<!-- МЕРТВЫЕ ЖИВОТНЫЕ -->
 	<type name="DeadChicken_Brown">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>1800</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -1277,7 +1377,7 @@
 	</type>
 	<type name="DeadChicken_Spotted">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>1800</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -1288,7 +1388,7 @@
 	</type>
 	<type name="DeadChicken_White">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>1800</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -1297,9 +1397,19 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="food"/>
 	</type>
+	<type name="DeadFox">
+		<nominal>0</nominal>
+		<lifetime>1800</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+	</type>
 	<type name="DeadRabbit">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>1800</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -1310,7 +1420,7 @@
 	</type>
 	<type name="DeadRooster">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>1800</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>

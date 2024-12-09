@@ -39,6 +39,18 @@
 		<category name="clothes"/>
 		<usage name="Hunting"/>
 	</type>
+	<type name="HuntingVest_Winter">
+		<nominal>10</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>6</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Hunting"/>
+	</type>
 	
 	<type name="PlateCarrierHolster">
 		<nominal>10</nominal>
@@ -89,6 +101,20 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 	</type>
+	<type name="PlateCarrierHolster_Winter">
+		<nominal>10</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>5</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<tag name="shelves"/>
+		<usage name="Military"/>
+	</type>
+	
 	<type name="PlateCarrierPouches">
 		<nominal>10</nominal>
 		<lifetime>14400</lifetime>
@@ -137,6 +163,19 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
+	</type>
+	<type name="PlateCarrierPouches_Winter">
+		<nominal>10</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>5</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<tag name="shelves"/>
+		<usage name="Military"/>
 	</type>
 	<type name="PlateCarrierVest">
 		<nominal>0</nominal>
@@ -187,6 +226,20 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
+	</type>
+	<type name="PlateCarrierVest_Winter">
+		<nominal>3</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	
 	<type name="PoliceVest">
@@ -303,6 +356,18 @@
 		<lifetime>14400</lifetime>
 		<restock>1800</restock>
 		<min>4</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+	</type>
+	<type name="UKAssVest_Winter">
+		 <nominal>5</nominal>
+		<lifetime>14400</lifetime>
+		<restock>1800</restock>
+		<min>3</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>

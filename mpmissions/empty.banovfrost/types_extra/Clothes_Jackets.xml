@@ -12,6 +12,21 @@
 		<category name="clothes"/>
 		<usage name="Military"/>
 	</type>
+
+	<type name="BushlatPoliceJacket_Blue">
+		<nominal>4</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Police"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
 	
 	<type name="Blouse_Blue">
 		<nominal>0</nominal>
@@ -180,7 +195,68 @@
 		<usage name="Town"/>
 		<usage name="Village"/>
 	</type>
-	
+
+	<type name="DownJacket_Blue">
+		<nominal>10</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>7</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="DownJacket_Green">
+		<nominal>10</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>7</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="DownJacket_Orange">
+		<nominal>10</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>7</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="DownJacket_Red">
+		<nominal>10</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>7</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+
 	<type name="FirefighterJacket_Beige">
 		<nominal>5</nominal>
 		<lifetime>14400</lifetime>
@@ -254,6 +330,32 @@
 		<category name="clothes"/>
 		<usage name="Military"/>
 	</type>
+	<type name="GorkaEJacket_Winter">
+		<nominal>4</nominal>
+		<lifetime>14400</lifetime>
+		<restock>600</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+	</type>
+
+	<type name="NavyUniformJacket">
+		<nominal>4</nominal>
+		<lifetime>14400</lifetime>
+		<restock>600</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+	</type>
+	
 	<type name="HikingJacket_Black">
 		<nominal>15</nominal>
 		<lifetime>14400</lifetime>
@@ -533,6 +635,20 @@
 		<usage name="Industrial"/>
 		<usage name="Coast"/>
 	</type>
+
+	<type name="OMKJacket_Navy">
+		<nominal>4</nominal>
+		<lifetime>14400</lifetime>
+		<restock>600</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+	</type>
+
 	<type name="LabCoat">
 		<nominal>15</nominal>
 		<lifetime>14400</lifetime>

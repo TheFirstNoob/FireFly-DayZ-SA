@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
 	<type name="GhillieAtt_Mossy">
-		<nominal>5</nominal>
-		<lifetime>28800</lifetime>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
-		<min>2</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
 		<category name="clothes"/>
-		<usage name="Military"/>
 	</type>
 	<type name="GhillieAtt_Tan">
 		<nominal>0</nominal>
-		<lifetime>28800</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -25,7 +24,7 @@
 	</type>
 	<type name="GhillieAtt_Woodland">
 		<nominal>0</nominal>
-		<lifetime>28800</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -35,20 +34,19 @@
 		<category name="clothes"/>
 	</type>
 	<type name="GhillieBushrag_Mossy">
-		<nominal>5</nominal>
-		<lifetime>28800</lifetime>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
-		<min>2</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
 		<category name="clothes"/>
-		<usage name="Military"/>
 	</type>
 	<type name="GhillieBushrag_Tan">
 		<nominal>0</nominal>
-		<lifetime>28800</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -59,7 +57,7 @@
 	</type>
 	<type name="GhillieBushrag_Woodland">
 		<nominal>0</nominal>
-		<lifetime>28800</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -69,8 +67,8 @@
 		<category name="clothes"/>
 	</type>
 	<type name="GhillieHood_Mossy">
-		<nominal>5</nominal>
-		<lifetime>28800</lifetime>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>2</min>
 		<quantmin>-1</quantmin>
@@ -78,11 +76,10 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
 		<category name="clothes"/>
-		<usage name="Military"/>
 	</type>
 	<type name="GhillieHood_Tan">
 		<nominal>0</nominal>
-		<lifetime>28800</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -93,7 +90,7 @@
 	</type>
 	<type name="GhillieHood_Woodland">
 		<nominal>0</nominal>
-		<lifetime>28800</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -103,20 +100,19 @@
 		<category name="clothes"/>
 	</type>
 	<type name="GhillieSuit_Mossy">
-		<nominal>5</nominal>
-		<lifetime>28800</lifetime>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
-		<min>2</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
 		<category name="clothes"/>
-		<usage name="Military"/>
 	</type>
 	<type name="GhillieSuit_Tan">
 		<nominal>0</nominal>
-		<lifetime>28800</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -127,7 +123,7 @@
 	</type>
 	<type name="GhillieSuit_Woodland">
 		<nominal>0</nominal>
-		<lifetime>28800</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -137,20 +133,19 @@
 		<category name="clothes"/>
 	</type>
 	<type name="GhillieTop_Mossy">
-		<nominal>5</nominal>
-		<lifetime>28800</lifetime>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
-		<min>2</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
 		<category name="clothes"/>
-		<usage name="Military"/>
 	</type>
 	<type name="GhillieTop_Tan">
 		<nominal>0</nominal>
-		<lifetime>28800</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -161,13 +156,57 @@
 	</type>
 	<type name="GhillieTop_Woodland">
 		<nominal>0</nominal>
-		<lifetime>28800</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+		<category name="clothes"/>
+	</type>
+	<type name="GhillieBushrag_Winter">
+		<nominal>0</nominal>
+		<lifetime>28800</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
+		<category name="clothes"/>
+	</type>
+	<type name="GhillieHood_Winter">
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
+		<category name="clothes"/>
+	</type>
+	<type name="GhillieSuit_Winter">
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
+		<category name="clothes"/>
+	</type>
+	<type name="GhillieTop_Winter">
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
 		<category name="clothes"/>
 	</type>
 </types>
