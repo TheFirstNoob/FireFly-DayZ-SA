@@ -1364,10 +1364,10 @@
 
 	<!-- КОРОБКИ ПАТРОНЫ -->
 	<type name="AmmoBox">
-		<nominal>15</nominal>
+		<nominal>20</nominal>
 		<lifetime>3888000</lifetime>
 		<restock>3600</restock>
-		<min>10</min>
+		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -1487,21 +1487,6 @@
 		<min>10</min>
 		<quantmin>3</quantmin>
 		<quantmax>10</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<tag name="shelves"/>
-		<usage name="Military"/>
-		<usage name="Coast"/>
-		<value name="Tier4"/>
-	</type>
-	<type name="Ammo_50Beowolf">
-		<nominal>17</nominal>
-		<lifetime>7200</lifetime>
-		<restock>3600</restock>
-		<min>17</min>
-		<quantmin>10</quantmin>
-		<quantmax>40</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
