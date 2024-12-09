@@ -64,7 +64,8 @@
 			"Variants": [
 				"ukassvest_khaki",
 				"ukassvest_olive",
-				"ukassvest_camo"
+				"ukassvest_camo",
+				"ukassvest_winter"
 			]
 		},
 		{
@@ -125,7 +126,8 @@
 			"Variants": [
 				"platecarriervest_green",
 				"platecarriervest_black",
-				"platecarriervest_camo"
+				"platecarriervest_camo",
+				"platecarriervest_winter"
 			]
 		},
 		{
@@ -148,7 +150,9 @@
 			"MinStockThreshold": 1,
 			"QuantityPercent": -1,
 			"SpawnAttachments": [],
-			"Variants": []
+			"Variants": [
+				"HuntingVest_Winter"
+			]
 		},
 		{
 			"ClassName": "chestplate",

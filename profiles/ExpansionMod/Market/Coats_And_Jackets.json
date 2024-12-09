@@ -18,6 +18,17 @@
 			"Variants": []
 		},
 		{
+			"ClassName": "BushlatPoliceJacket_Blue",
+			"MaxPriceThreshold": 20,
+			"MinPriceThreshold": 10,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
 			"ClassName": "tracksuitjacket_black",
 			"MaxPriceThreshold": 30,
 			"MinPriceThreshold": 15,
@@ -399,7 +410,8 @@
 			"Variants": [
 				"gorkaejacket_flat",
 				"gorkaejacket_autumn",
-				"gorkaejacket_pautrev"
+				"gorkaejacket_pautrev",
+				"gorkaejacket_winter"
 			]
 		},
 		{
@@ -414,6 +426,28 @@
 			"Variants": [
 				"usmcjacket_woodland"
 			]
+		},
+		{
+			"ClassName": "NavyUniformJacket",
+			"MaxPriceThreshold": 310,
+			"MinPriceThreshold": 155,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "OMKJacket_Navy",
+			"MaxPriceThreshold": 310,
+			"MinPriceThreshold": 155,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
 		},
 		{
 			"ClassName": "usmcjacket_woodland",
@@ -436,6 +470,21 @@
 			"QuantityPercent": -1,
 			"SpawnAttachments": [],
 			"Variants": []
-		}
+		},
+        {
+            "ClassName": "DownJacket_Blue",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 100,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"DownJacket_Red",
+				"DownJacket_Orange",
+				"DownJacket_Green"
+			]
+        }
 	]
 }

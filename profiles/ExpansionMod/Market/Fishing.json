@@ -18,7 +18,29 @@
 			"Variants": []
 		},
 		{
+			"ClassName": "Jig",
+			"MaxPriceThreshold": 4,
+			"MinPriceThreshold": 2,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
 			"ClassName": "bonehook",
+			"MaxPriceThreshold": 10,
+			"MinPriceThreshold": 5,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "woodenhook",
 			"MaxPriceThreshold": 10,
 			"MinPriceThreshold": 5,
 			"SellPricePercent": -1.0,

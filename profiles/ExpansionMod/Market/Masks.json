@@ -32,7 +32,10 @@
 				"balaclavamask_white",
 				"balaclavamask_blackskull",
 				"balaclavamask_black",
-				"balaclavamask_green"
+				"balaclavamask_green",
+				"balaclavamask_bdu",
+				"balaclavamask_chain",
+				"balaclavamask_pig"
 			]
 		},
 		{
@@ -80,7 +83,8 @@
 			"Variants": [
 				"balaclava3holes_blue",
 				"balaclava3holes_black",
-				"balaclava3holes_green"
+				"balaclava3holes_green",
+				"balaclava3holes_white"
 			]
 		},
 		{
@@ -127,6 +131,21 @@
 			"SpawnAttachments": [],
 			"Variants": [
 				"mimemask_male"
+			]
+		},
+		{
+			"ClassName": "PaydayMask_Chains",
+			"MaxPriceThreshold": 160,
+			"MinPriceThreshold": 60,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"PaydayMask_Dallas",
+				"PaydayMask_Hoxton",
+				"PaydayMask_Wolf"
 			]
 		}
 	]

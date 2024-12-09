@@ -27,6 +27,50 @@
 			]
 		},
 		{
+			"ClassName": "Shemag_Brown",
+			"MaxPriceThreshold": 24,
+			"MinPriceThreshold": 12,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"Shemag_Green",
+				"Shemag_Red",
+				"Shemag_White"
+			]
+		},
+		{
+			"ClassName": "SherpaHat_Red",
+			"MaxPriceThreshold": 24,
+			"MinPriceThreshold": 12,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"SherpaHat_Black",
+				"SherpaHat_Blue"
+			]
+		},
+		{
+			"ClassName": "SnowstormUshanka_Brown",
+			"MaxPriceThreshold": 24,
+			"MinPriceThreshold": 12,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"SnowstormUshanka_Navy",
+				"SnowstormUshanka_Olive",
+				"SnowstormUshanka_White"
+			]
+		},
+		{
 			"ClassName": "prisonercap",
 			"MaxPriceThreshold": 32,
 			"MinPriceThreshold": 16,
@@ -209,11 +253,23 @@
 				"booniehat_olive",
 				"booniehat_dpm",
 				"booniehat_dubok",
-				"booniehat_flecktran"
+				"booniehat_flecktran",
+				"booniehat_winter"
 			]
 		},
 		{
 			"ClassName": "officerhat",
+			"MaxPriceThreshold": 50,
+			"MinPriceThreshold": 25,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "BudenovkaHat_Gray",
 			"MaxPriceThreshold": 50,
 			"MinPriceThreshold": 25,
 			"SellPricePercent": -1.0,

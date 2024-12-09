@@ -505,13 +505,36 @@
 			"Variants": [
 				"gorkapants_autumn",
 				"gorkapants_flat",
-				"gorkapants_pautrev"
+				"gorkapants_pautrev",
+				"gorkapants_winter"
 			]
 		},
 		{
 			"ClassName": "chainmail_leggings",
 			"MaxPriceThreshold": 600,
 			"MinPriceThreshold": 350,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "NavyUniformPants",
+			"MaxPriceThreshold": 260,
+			"MinPriceThreshold": 130,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "OMKPants_Navy",
+			"MaxPriceThreshold": 260,
+			"MinPriceThreshold": 130,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 100,
 			"MinStockThreshold": 1,
