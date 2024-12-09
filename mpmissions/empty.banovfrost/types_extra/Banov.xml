@@ -152,7 +152,7 @@
 	</type>
 	<!-- AREA 01 -->
 	<type name="Blue_Key">
-		<nominal>10</nominal>
+		<nominal>5</nominal>
 		<lifetime>3600</lifetime>
 		<restock>0</restock>
 		<min>5</min>
@@ -165,30 +165,29 @@
 	</type>
 	<!-- AREA 02 -->
 	<type name="Red_Key">
-		<nominal>10</nominal>
+		<nominal>4</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>7</min>
+		<min>4</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
 		<category name="Warlords"/>
-		<usage name="Police"/>
+		<usage name="Alien"/>
 	</type>
 	<!-- AREA 03 -->
 	<type name="Yellow_Key">
-		<nominal>7</nominal>
+		<nominal>3</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>5</min>
+		<min>3</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
 		<category name="Warlords"/>
-		<usage name="Military"/>
-		<value name="Tier4"/>
+		<usage name="Alien"/>
 	</type>
 	<type name="Key_Nano">	//Don't edit! 
 		<nominal>0</nominal>
