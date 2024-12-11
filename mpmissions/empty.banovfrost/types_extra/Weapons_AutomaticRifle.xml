@@ -13,7 +13,6 @@
 		<usage name="ContaminatedArea"/>
 		<usage name="Military"/>
 	</type>
-	
 	<type name="Aug">
 		<nominal>5</nominal>
 		<lifetime>28800</lifetime>
@@ -39,7 +38,6 @@
 		<category name="weapons"/>
 		<usage name="Military"/>
 	</type>
-
 	<type name="FAL">
 		<nominal>5</nominal>
 		<lifetime>28800</lifetime>
@@ -54,7 +52,6 @@
 		<usage name="Underground"/>
 		<value name="Tier5"/>
 	</type>
-
 	<type name="FAMAS">
 		<nominal>5</nominal>
 		<lifetime>28800</lifetime>
@@ -80,7 +77,23 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="weapons"/>
 	</type>
-	
+
+	<!-- Expansion Mod -->
+	<type name="Expansion_G36">
+		<nominal>15</nominal>
+		<lifetime>10800</lifetime>
+		<restock>3600</restock>
+		<min>7</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<usage name="Military"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+
 	<!-- Tactical Flava Mod -->
 	<type name="TF_AN94">
 		<nominal>5</nominal>
@@ -448,5 +461,59 @@
 		<category name="weapons"/>
 		<usage name="Military"/>
 		<value name="Tier4"/>
+	</type>
+
+	<!-- Panacea Weapons -->
+	<type name="PNC_W_HoneyBadger">
+		<nominal>0</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+	<type name="PNC_W_RemingtonR5">
+		<nominal>0</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+	<type name="PNC_W_AEK971">
+		<nominal>0</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+	<type name="PNC_W_G36">
+		<nominal>0</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+
+	<!-- Panacea Weapons -->
+	<type name="AK9">
+		<nominal>0</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 	</type>
 </types>
