@@ -1,40 +1,46 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
 	<type name="Izh18Shotgun">
-		<nominal>65</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>45</min>
-		<quantmin>-1</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<usage name="Farm"/>
-		<usage name="Town"/>
-		<usage name="Village"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-	</type>
-	<type name="Izh43Shotgun">
-		<nominal>50</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>40</min>
+		<nominal>100</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>100</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<usage name="Farm"/>
+		<usage name="Town"/>
 		<usage name="Village"/>
+		<usage name="Coast"/>
+		<usage name="Hunting"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="Izh43Shotgun">
+		<nominal>100</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>100</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<usage name="Farm"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+        <usage name="Coast"/>
+		<usage name="Hunting"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="SawedoffIzh18Shotgun">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -45,7 +51,7 @@
 	</type>
 	<type name="SawedoffIzh43Shotgun">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -55,70 +61,92 @@
 		<category name="weapons"/>
 	</type>
 	<type name="Saiga">
-		<nominal>8</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
-		<min>5</min>
+		<nominal>15</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<usage name="Military"/>
+		<usage name="Coast"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
 		<value name="Tier3"/>
-		<value name="Tier4"/>
 	</type>
 
 	<!-- Expansion Mod -->
 	<type name="Expansion_DT11">
-		<nominal>15</nominal>
+		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
-		<restock>1200</restock>
-		<min>5</min>
+		<restock>3600</restock>
+		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<usage name="Hunting"/>
+		<usage name="Prison"/>
+		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
 		<value name="Tier4"/>
 	</type>
 	<type name="Expansion_BenelliM4">
-		<nominal>10</nominal>
-		<lifetime>10800</lifetime>
+		<nominal>25</nominal>
+		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>3</min>
+		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<usage name="Military"/>
+		<usage name="Police"/>
+		<usage name="Coast"/>
+		<usage name="Prison"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
 		<value name="Tier3"/>
-		<value name="Tier4"/>
 	</type>
 
 	<!-- Panacea Weapons -->
 	<type name="PNC_W_VR80">
-		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>0</min>
+		<nominal>4</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>4</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<usage name="Military"/>
+		<usage name="Police"/>
+		<usage name="Coast"/>
+		<usage name="Industrial"/>
+		<value name="Tier4"/>
+		<value name="Tier5"/>
 	</type>
 	<type name="PNC_W_Origin_12ga">
-		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>0</min>
+		<nominal>4</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>4</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<usage name="Military"/>
+		<usage name="Police"/>
+		<usage name="Coast"/>
+		<usage name="Industrial"/>
+		<value name="Tier4"/>
+		<value name="Tier5"/>
 	</type>
 </types>

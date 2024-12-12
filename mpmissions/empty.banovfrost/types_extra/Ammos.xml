@@ -1548,4 +1548,44 @@
 		<usage name="Coast"/>
 		<value name="Tier4"/>
 	</type>
+
+	<!-- Я ебанутый mode -->
+	<type name="TF_Ammo_20mm">
+		<nominal>1</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>1</min>
+		<quantmin>1</quantmin>
+		<quantmax>3</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<usage name="Underground"/>
+		<usage name="Medic"/>
+		<usage name="Military"/>
+		<usage name="Police"/>
+		<usage name="Industrial"/>
+		<usage name="Village"/>
+		<usage name="ContaminatedArea"/>
+		<value name="Tier5"/>
+	</type>
+	<type name="TF_Ammo_20mm_HE">
+		<nominal>1</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>1</min>
+		<quantmin>1</quantmin>
+		<quantmax>3</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<usage name="Underground"/>
+		<usage name="Medic"/>
+		<usage name="Military"/>
+		<usage name="Police"/>
+		<usage name="Industrial"/>
+		<usage name="Village"/>
+		<usage name="ContaminatedArea"/>
+		<value name="Tier5"/>
+	</type>
 </types>

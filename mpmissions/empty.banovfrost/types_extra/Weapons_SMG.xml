@@ -1,138 +1,186 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
 	<type name="CZ61">
-		<nominal>20</nominal>
+		<nominal>30</nominal>
 		<lifetime>7200</lifetime>
-		<restock>0</restock>
-		<min>10</min>
+		<restock>3600</restock>
+		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<usage name="Police"/>
+		<usage name="Prison"/>
+		<usage name="Coast"/>
+		<usage name="Town"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="MP5K">
-		<nominal>12</nominal>
-		<lifetime>28800</lifetime>
-		<restock>1800</restock>
-		<min>8</min>
+		<nominal>25</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<usage name="Military"/>
+		<usage name="Police"/>
+		<usage name="Prison"/>
+		<usage name="Coast"/>
+		<usage name="Town"/>
 		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="PP19">
-		<nominal>8</nominal>
-		<lifetime>28800</lifetime>
+		<nominal>25</nominal>
+		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>5</min>
+		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<usage name="Military"/>
+		<usage name="Police"/>
+		<usage name="Prison"/>
+		<usage name="Coast"/>
+		<usage name="Town"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="UMP45">
-		<nominal>10</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
-		<min>7</min>
+		<nominal>30</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>30</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<usage name="Police"/>
+		<usage name="Military"/>
+		<usage name="Prison"/>
+		<usage name="Coast"/>
+		<usage name="Town"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+	</type>
+	<type name="Vikhr">
+		<nominal>20</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<usage name="Military"/>
-	</type>
-	<type name="Vikhr">
-		<nominal>7</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
-		<min>4</min>
-		<quantmin>30</quantmin>
-		<quantmax>80</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<usage name="Military"/>
-		<value name="Tier3"/>
+		<usage name="Prison"/>
+		<usage name="Coast"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 
 	<!-- Expansion Mod -->
 	<type name="Expansion_MPX">
 		<nominal>20</nominal>
-		<lifetime>10800</lifetime>
-		<restock>1800</restock>
-		<min>15</min>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<usage name="Military"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
+		<usage name="Police"/>
+		<usage name="Prison"/>
+		<usage name="Coast"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="Expansion_MP7">
 		<nominal>20</nominal>
-		<lifetime>10800</lifetime>
-		<restock>1800</restock>
-		<min>10</min>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
+		<usage name="Police"/>
 		<usage name="Military"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
+		<usage name="Prison"/>
+		<usage name="Coast"/>
+		<usage name="Town"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="Expansion_Kedr">
-		<nominal>20</nominal>
-		<lifetime>10800</lifetime>
-		<restock>900</restock>
-		<min>15</min>
+		<nominal>30</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<usage name="Military"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
+		<usage name="Police"/>
+		<usage name="Prison"/>
+		<usage name="Coast"/>
+		<usage name="Town"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="Expansion_VityazSN">
-		<nominal>20</nominal>
-		<lifetime>10800</lifetime>
-		<restock>1200</restock>
-		<min>15</min>
+		<nominal>25</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<usage name="Military"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
+		<usage name="Police"/>
+		<usage name="Prison"/>
+		<usage name="Coast"/>
+		<usage name="Town"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 
 	<!-- Panacea Weapons -->
 	<type name="PNC_VSK94">
-		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>0</min>
+		<nominal>20</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<usage name="Military"/>
+		<usage name="Prison"/>
+		<usage name="Coast"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 </types>

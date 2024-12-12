@@ -1,33 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
 	<type name="Flaregun">
-		<nominal>25</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<nominal>10</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>10</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<usage name="Military"/>
-		<usage name="Police"/>
 		<usage name="Medic"/>
 		<usage name="Firefighter"/>
+		<usage name="School"/>
 		<usage name="Coast"/>
+		<usage name="Village"/>
+		<usage name="Farm"/>
+		<usage name="Industrial"/>
+		<usage name="Medic"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	
 	<type name="M79">
-		<nominal>3</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>1</min>
+		<nominal>5</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<usage name="Underground"/>
+		<usage name="Military"/>
+		<value name="Tier4"/>
 		<value name="Tier5"/>
 	</type>
 </types>

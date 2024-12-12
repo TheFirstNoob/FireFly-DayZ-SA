@@ -1,196 +1,178 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
-	<type name="FlashGrenade">
-		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>5</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="explosives"/>
-		<usage name="Military"/>
-	</type>
-	<type name="Grenade_ChemGas">
-		<nominal>0</nominal>
-		<lifetime>900</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="explosives"/>
-	</type>
 	<type name="M67Grenade">
-		<nominal>30</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>5</min>
+		<nominal>50</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="explosives"/>
 		<usage name="Military"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
 	</type>
 	<type name="RGD5Grenade">
-		<nominal>30</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>5</min>
+		<nominal>50</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="explosives"/>
 		<usage name="Military"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
+		<value name="Tier5"/>
 	</type>
 	
 	<type name="M18SmokeGrenade_Green">
-		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>5</min>
+		<nominal>15</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="explosives"/>
-		<usage name="Military"/>
+		<usage name="Medic"/>
+        <usage name="Firefighter"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Office"/>
+        <usage name="Prison"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="M18SmokeGrenade_Purple">
-		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>5</min>
+		<nominal>15</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="explosives"/>
-		<usage name="Military"/>
+		<usage name="Medic"/>
+        <usage name="Firefighter"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Office"/>
+        <usage name="Prison"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="M18SmokeGrenade_Red">
-		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>5</min>
+		<nominal>15</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="explosives"/>
-		<usage name="Military"/>
+		<usage name="Medic"/>
+        <usage name="Firefighter"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Office"/>
+        <usage name="Prison"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="M18SmokeGrenade_White">
-		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>5</min>
+		<nominal>15</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="explosives"/>
-		<usage name="Military"/>
+		<usage name="Medic"/>
+        <usage name="Firefighter"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Office"/>
+        <usage name="Prison"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="M18SmokeGrenade_Yellow">
-		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>5</min>
+		<nominal>15</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="explosives"/>
-		<usage name="Military"/>
+		<usage name="Medic"/>
+        <usage name="Firefighter"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Office"/>
+        <usage name="Prison"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	
 	<type name="RDG2SmokeGrenade_Black">
-		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>5</min>
+		<nominal>15</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="explosives"/>
-		<usage name="Military"/>
-		<usage name="Police"/>
+		<usage name="Medic"/>
+        <usage name="Firefighter"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Office"/>
+        <usage name="Prison"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="RDG2SmokeGrenade_White">
-		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>5</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="explosives"/>
-		<usage name="Military"/>
-		<usage name="Police"/>
-	</type>
-	
-	<!-- Tactical Flava Mod -->
-	<type name="TF_EMPGrenade">
-		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>10</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="explosives"/>
-		<usage name="Military"/>
-	</type>
-	<type name="TF_PhosphorusGrenade">
 		<nominal>15</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>5</min>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="explosives"/>
-		<usage name="Military"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
-	</type>
-	<type name="TF_TeargasGrenade">
-		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>10</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="explosives"/>
-		<usage name="Police"/>
-	</type>
-	<type name="TF_ChemicalGrenade">
-		<nominal>15</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>5</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="explosives"/>
-		<usage name="Military"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
+		<usage name="Medic"/>
+        <usage name="Firefighter"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Office"/>
+        <usage name="Prison"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 </types>
