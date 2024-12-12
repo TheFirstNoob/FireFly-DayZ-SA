@@ -2516,6 +2516,36 @@
 			"Variants": [
 				"TyphoonK_Cargodoor2_CamoGreen"
 			]
+		},
+		{
+			"ClassName": "GMC_driverdoor",
+			"MaxPriceThreshold": 1800,
+			"MinPriceThreshold": 700,
+			"SellPricePercent": -1,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"GMC_driverdoor_Black",
+				"GMC_driverdoor_White",
+				"GMC_driverdoor_Blue"
+			]
+		},
+		{
+			"ClassName": "GMC_Codrvier",
+			"MaxPriceThreshold": 1800,
+			"MinPriceThreshold": 700,
+			"SellPricePercent": -1,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"GMC_Codrvier_Black",
+				"GMC_Codrvier_White",
+				"GMC_Codrvier_Blue"
+			]
 		}
 	]
 }

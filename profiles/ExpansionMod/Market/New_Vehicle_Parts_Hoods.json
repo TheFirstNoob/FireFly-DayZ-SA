@@ -745,6 +745,21 @@
 				"Chevrolet_NapalmNova_Hood_Purple",
 				"Chevrolet_NapalmNova_Hood_Orange"
 			]
+		},
+		{
+			"ClassName": "GMC_Hood",
+			"MaxPriceThreshold": 1800,
+			"MinPriceThreshold": 700,
+			"SellPricePercent": -1,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"GMC_Hood_Black",
+				"GMC_Hood_White",
+				"GMC_Hood_Blue"
+			]
 		}
 	]
 }

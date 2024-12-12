@@ -747,6 +747,43 @@
 				"DodgeRam_BOSS_camonuke",
 				"DodgeRam_BOSS_Yellow"
 			]
+		},
+		{
+			"ClassName": "GMC_BOSS_Red",
+			"MaxPriceThreshold": 50000,
+			"MinPriceThreshold": 15000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 6,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [
+				"LugWrench",
+				"Wrench",
+				"Screwdriver",
+				"rag_car_jack",
+				"GMC_Wheel",
+				"GMC_Wheel",
+				"GMC_Wheel",
+				"GMC_Wheel",
+				"GMC_Wheel",
+				"GMC_driverdoor",
+				"GMC_Codrvier",
+				"GMC_Cargo1",
+				"GMC_Cargo2",
+				"DodgeRam_Trunk",
+				"GMC_Trunk_1",
+				"GMC_Trunk_2",
+				"carbattery",
+				"carradiator",
+				"sparkplug",
+				"headlighth7",
+				"headlighth7"
+			],
+			"Variants": [
+				"GMC_BOSS_Black",
+				"GMC_BOSS_White",
+				"GMC_BOSS_Blue"
+			]
 		}
 	]
 }
