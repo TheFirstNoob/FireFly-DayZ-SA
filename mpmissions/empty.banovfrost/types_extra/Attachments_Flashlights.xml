@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
 	<type name="TLRLight">
-		<nominal>40</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>30</min>
+		<nominal>50</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -13,15 +13,16 @@
 		<tag name="shelves"/>
 		<usage name="Military"/>
 		<usage name="Police"/>
+		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
 		<value name="Tier4"/>
 	</type>
 	<type name="UniversalLight">
-		<nominal>30</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
-		<min>20</min>
+		<nominal>45</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>45</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -29,7 +30,18 @@
 		<category name="weapons"/>
 		<tag name="shelves"/>
 		<usage name="Military"/>
-		<usage name="Police"/>
+        <usage name="Police"/>
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Prison"/>
+		<usage name="Historical"/>
+		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
 		<value name="Tier4"/>

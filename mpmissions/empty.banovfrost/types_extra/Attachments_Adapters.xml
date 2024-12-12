@@ -2,88 +2,73 @@
 <types>
 	<!-- Tactical Flava Mod -->
 	<type name="TF_M14_Adapter">
-		<nominal>10</nominal>
-		<lifetime>28800</lifetime>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
-		<min>5</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<usage name="Military"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
 	</type>
 	<type name="TF_RifleSling_Black">
-		<nominal>30</nominal>
-		<lifetime>28800</lifetime>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
-		<min>15</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<tag name="shelves"/>
-		<usage name="Military"/>
-		<usage name="Police"/>
-		<usage name="Hunting"/>
 	</type>
 	<type name="TF_RifleSling_Brown">
-		<nominal>30</nominal>
-		<lifetime>28800</lifetime>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
-		<min>15</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<tag name="shelves"/>
-		<usage name="Military"/>
-		<usage name="Police"/>
-		<usage name="Hunting"/>
 	</type>
 	<type name="TF_RifleSling_OD">
-		<nominal>30</nominal>
-		<lifetime>28800</lifetime>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
-		<min>15</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<tag name="shelves"/>
-		<usage name="Military"/>
-		<usage name="Police"/>
-		<usage name="Hunting"/>
 	</type>
 	<type name="TF_AK_Tactica_Tula10000Receiver">
 		<!-- Does not work with vanilla AK-->
-		<nominal>3</nominal>
-		<lifetime>28800</lifetime>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<usage name="Military"/>
 	</type>
 	<type name="TF_AK_B33Receiver">
-		<!-- Does not work with vanilla AK-->
-		<nominal>5</nominal>
-		<lifetime>28800</lifetime>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
-		<min>3</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<usage name="Military"/>
 	</type>
 </types>
