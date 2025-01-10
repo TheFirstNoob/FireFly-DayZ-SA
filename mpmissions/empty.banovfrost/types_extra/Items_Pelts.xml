@@ -2,7 +2,7 @@
 <types>
 	<type name="BearPelt">
 		<nominal>0</nominal>
-		<lifetime>28800</lifetime>
+		<lifetime>14400</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -13,7 +13,7 @@
 	</type>
 	<type name="CowPelt">
 		<nominal>0</nominal>
-		<lifetime>28800</lifetime>
+		<lifetime>14400</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -24,7 +24,7 @@
 	</type>
 	 <type name="DeerPelt">
 		<nominal>0</nominal>
-		<lifetime>28800</lifetime>
+		<lifetime>14400</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -35,7 +35,7 @@
 	</type>
 	<type name="GoatPelt">
 		<nominal>0</nominal>
-		<lifetime>28800</lifetime>
+		<lifetime>14400</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -46,7 +46,7 @@
 	</type>
 	<type name="PigPelt">
 		<nominal>0</nominal>
-		<lifetime>28800</lifetime>
+		<lifetime>14400</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -68,7 +68,7 @@
 	</type>
 	<type name="WildboarPelt">
 		<nominal>0</nominal>
-		<lifetime>28800</lifetime>
+		<lifetime>14400</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -79,7 +79,7 @@
 	</type>
 	<type name="WolfPelt">
 		<nominal>0</nominal>
-		<lifetime>28800</lifetime>
+		<lifetime>14400</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -98,10 +98,9 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 	</type>
-	
 	<type name="TannedLeather">
 		<nominal>0</nominal>
-		<lifetime>28800</lifetime>
+		<lifetime>14400</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
