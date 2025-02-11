@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
 	<type name="CZ61">
-		<nominal>50</nominal>
+		<nominal>60</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>50</min>
+		<min>60</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -147,10 +147,10 @@
         <value name="Tier3"/>
 	</type>
 	<type name="Expansion_VityazSN">
-		<nominal>45</nominal>
+		<nominal>50</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>45</min>
+		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -167,10 +167,10 @@
 
 	<!-- Panacea Weapons -->
 	<type name="PNC_VSK94">
-		<nominal>25</nominal>
+		<nominal>30</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>25</min>
+		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>

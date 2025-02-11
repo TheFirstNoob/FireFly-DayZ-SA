@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
 	<type name="CZ75">
-		<nominal>100</nominal>
+		<nominal>70</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>100</min>
+		<min>70</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -21,10 +21,10 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Colt1911">
-		<nominal>80</nominal>
+		<nominal>50</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>80</min>
+		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -41,10 +41,10 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Deagle">
-		<nominal>30</nominal>
+		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>30</min>
+		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -68,7 +68,7 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<usage name="Police"/>
 		<usage name="Coast"/>
@@ -79,10 +79,10 @@
         <value name="Tier5"/>
 	</type>
 	<type name="Derringer_Black">
-		<nominal>30</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>30</min>
+		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -98,10 +98,10 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Derringer_Grey">
-		<nominal>30</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>30</min>
+		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -117,10 +117,10 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Derringer_Pink">
-		<nominal>30</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>30</min>
+		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -155,10 +155,10 @@
         <value name="Tier5"/>
 	</type>
 	<type name="FNX45">
-		<nominal>80</nominal>
+		<nominal>60</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>80</min>
+		<min>60</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -175,10 +175,10 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Glock19">
-		<nominal>75</nominal>
+		<nominal>50</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>75</min>
+		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -214,10 +214,10 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="MKII">
-		<nominal>100</nominal>
+		<nominal>80</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>100</min>
+		<min>80</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -233,10 +233,10 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Magnum">
-		<nominal>70</nominal>
+		<nominal>50</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>70</min>
+		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -265,10 +265,10 @@
 		<category name="weapons"/>
 	</type>
 	<type name="MakarovIJ70">
-		<nominal>100</nominal>
+		<nominal>75</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>100</min>
+		<min>75</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -285,10 +285,10 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="P1">
-		<nominal>100</nominal>
+		<nominal>80</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>100</min>
+		<min>80</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -307,10 +307,10 @@
 
 	<!-- Expansion Mod -->
 	<type name="Expansion_M9">
-		<nominal>100</nominal>
+		<nominal>65</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>100</min>
+		<min>65</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -329,10 +329,10 @@
 	
 	<!-- Tactical Flava Mod -->
 	<type name="TF_FiveSeven">
-		<nominal>60</nominal>
+		<nominal>40</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>60</min>
+		<min>40</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -348,10 +348,10 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="TF_MakarovPB">
-		<nominal>100</nominal>
+		<nominal>80</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>100</min>
+		<min>80</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -368,10 +368,10 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="TF_MP443">
-		<nominal>100</nominal>
+		<nominal>70</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>100</min>
+		<min>70</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -390,10 +390,10 @@
 
 	<!-- FireFly Mod -->
 	<type name="Deagle50">
-		<nominal>15</nominal>
+		<nominal>12</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>15</min>
+		<min>12</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -407,10 +407,10 @@
         <value name="Tier5"/>
 	</type>
 	<type name="Deagle338">
-		<nominal>15</nominal>
+		<nominal>12</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>15</min>
+		<min>12</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>

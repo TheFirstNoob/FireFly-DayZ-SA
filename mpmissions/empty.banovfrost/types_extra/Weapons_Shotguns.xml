@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
 	<type name="Izh18Shotgun">
-		<nominal>100</nominal>
+		<nominal>150</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>100</min>
+		<min>150</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -20,10 +20,10 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Izh43Shotgun">
-		<nominal>100</nominal>
+		<nominal>150</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>100</min>
+		<min>150</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -61,10 +61,10 @@
 		<category name="weapons"/>
 	</type>
 	<type name="Saiga">
-		<nominal>8</nominal>
+		<nominal>5</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>8</min>
+		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -96,10 +96,10 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="Expansion_BenelliM4">
-		<nominal>30</nominal>
+		<nominal>40</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>30</min>
+		<min>40</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -116,10 +116,10 @@
 
 	<!-- Panacea Weapons -->
 	<type name="PNC_W_VR80">
-		<nominal>4</nominal>
+		<nominal>2</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>4</min>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -133,10 +133,10 @@
 		<value name="Tier5"/>
 	</type>
 	<type name="PNC_W_Origin_12ga">
-		<nominal>4</nominal>
+		<nominal>2</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>4</min>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
