@@ -2,16 +2,18 @@
 <types>
 	<!-- FireFly Main Additional Ammo -->
 	<type name="Ammo_new_12gaMagnumBuckshot8">
-		<nominal>60</nominal>
+		<nominal>80</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>60</min>
+		<min>80</min>
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Police"/>
 		<usage name="Town"/>
 		<usage name="Hunting"/>
@@ -21,30 +23,34 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_12gaRip">
-		<nominal>25</nominal>
+		<nominal>40</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>25</min>
+		<min>40</min>
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<value name="Tier4"/>
 	</type>
 	<type name="Ammo_new_12gaAP20">
-		<nominal>30</nominal>
+		<nominal>55</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>30</min>
+		<min>55</min>
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Police"/>
 		<usage name="Prison"/>
 		<value name="Tier1"/>
@@ -52,16 +58,18 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_12ga2Sabot">
-		<nominal>45</nominal>
+		<nominal>70</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>45</min>
+		<min>70</min>
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Farm"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
@@ -71,16 +79,18 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_12gaFtxCustomLIte">
-		<nominal>35</nominal>
+		<nominal>52</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>35</min>
+		<min>52</min>
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Police"/>
 		<usage name="Prison"/>
 		<usage name="Town"/>
@@ -92,16 +102,18 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="Ammo_new_12gaGrizzly40">
-		<nominal>40</nominal>
+		<nominal>65</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>40</min>
+		<min>65</min>
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Police"/>
 		<usage name="Farm"/>
 		<usage name="Town"/>
@@ -112,30 +124,34 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_12ga50Bmg">
-		<nominal>25</nominal>
+		<nominal>50</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>25</min>
+		<min>50</min>
 		<quantmin>10</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<value name="Tier4"/>
 	</type>
 	<type name="Ammo_new_12gaLead">
-		<nominal>50</nominal>
+		<nominal>65</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>50</min>
+		<min>65</min>
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Police"/>
 		<usage name="Town"/>
 		<usage name="Hunting"/>
@@ -145,16 +161,18 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_12gaFlchetteS">
-		<nominal>45</nominal>
+		<nominal>60</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>45</min>
+		<min>60</min>
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Coast"/>
 		<usage name="Hunting"/>
@@ -164,16 +182,18 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="Ammo_new_12gaSuperFormance">
-		<nominal>50</nominal>
+		<nominal>65</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>50</min>
+		<min>65</min>
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Police"/>
 		<usage name="Prison"/>
 		<usage name="Military"/>
@@ -183,16 +203,18 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="Ammo_new_12gaCopperSabotPremier">
-		<nominal>40</nominal>
+		<nominal>60</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>40</min>
+		<min>60</min>
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Hunting"/>
 		<usage name="Coast"/>
 		<usage name="Prison"/>
@@ -205,16 +227,18 @@
 	
 	<!-- FireFly Main Additional Ammo -->
 	<type name="Ammo_new_22HighVelocity">
-		<nominal>60</nominal>
+		<nominal>100</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>60</min>
+		<min>100</min>
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Farm"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
@@ -224,16 +248,18 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_22HyperVelocity">
-		<nominal>50</nominal>
+		<nominal>80</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>50</min>
+		<min>80</min>
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="Police"/>
@@ -245,40 +271,6 @@
 	
 	<!-- FireFly Main Additional Ammo -->
 	<type name="Ammo_new_308WinM61">
-		<nominal>22</nominal>
-		<lifetime>7200</lifetime>
-		<restock>3600</restock>
-		<min>22</min>
-		<quantmin>20</quantmin>
-		<quantmax>60</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<tag name="shelves"/>
-		<usage name="Military"/>
-		<usage name="Coast"/>
-		<value name="Tier4"/>
-	</type>
-	<type name="Ammo_new_308WinM62">
-		<nominal>27</nominal>
-		<lifetime>7200</lifetime>
-		<restock>3600</restock>
-		<min>27</min>
-		<quantmin>20</quantmin>
-		<quantmax>60</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<tag name="shelves"/>
-		<usage name="Military"/>
-		<usage name="Prison"/>
-		<usage name="Coast"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
-	</type>
-	<type name="Ammo_new_308WinM80">
 		<nominal>30</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
@@ -289,72 +281,13 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
-		<usage name="Military"/>
-		<usage name="Prison"/>
-		<usage name="Coast"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
-	</type>
-	<type name="Ammo_new_308WinM993">
-		<nominal>24</nominal>
-		<lifetime>7200</lifetime>
-		<restock>3600</restock>
-		<min>24</min>
-		<quantmin>20</quantmin>
-		<quantmax>60</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Coast"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
 		<value name="Tier4"/>
 	</type>
-	<type name="Ammo_new_308WinUltraNosler">
-		<nominal>32</nominal>
-		<lifetime>7200</lifetime>
-		<restock>3600</restock>
-		<min>32</min>
-		<quantmin>20</quantmin>
-		<quantmax>60</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<tag name="shelves"/>
-		<usage name="Village"/>
-		<usage name="Hunting"/>
-		<usage name="Coast"/>
-		<usage name="Police"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-	</type>
-	<type name="Ammo_new_308WinFMJ">
-		<nominal>28</nominal>
-		<lifetime>7200</lifetime>
-		<restock>3600</restock>
-		<min>28</min>
-		<quantmin>20</quantmin>
-		<quantmax>60</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<tag name="shelves"/>
-		<usage name="Hunting"/>
-		<usage name="Coast"/>
-		<usage name="Police"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-	</type>
-	
-	<!-- FireFly Main Additional Ammo -->
-	<type name="Ammo_new_357QuikShokJhp">
+	<type name="Ammo_new_308WinM62">
 		<nominal>35</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
@@ -365,34 +298,17 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
-		<usage name="Coast"/>
-		<usage name="Police"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
+		<usage name="Military"/>
 		<usage name="Prison"/>
-		<usage name="Hunting"/>
+		<usage name="Coast"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
-	<type name="Ammo_new_357HollowPoint">
-		<nominal>32</nominal>
-		<lifetime>7200</lifetime>
-		<restock>3600</restock>
-		<min>32</min>
-		<quantmin>20</quantmin>
-		<quantmax>60</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<tag name="shelves"/>
-		<usage name="Coast"/>
-		<usage name="Police"/>
-		<usage name="Prison"/>
-		<usage name="Hunting"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-	</type>
-	<type name="Ammo_new_357GoldDotJhp">
+	<type name="Ammo_new_308WinM80">
 		<nominal>40</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
@@ -403,15 +319,37 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
-		<usage name="Coast"/>
-		<usage name="Police"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
+		<usage name="Military"/>
 		<usage name="Prison"/>
-		<usage name="Hunting"/>
+		<usage name="Coast"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
-	<type name="Ammo_new_357Semiwadcutter">
+	<type name="Ammo_new_308WinM993">
+		<nominal>32</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>32</min>
+		<quantmin>20</quantmin>
+		<quantmax>60</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
+		<usage name="Military"/>
+		<usage name="Coast"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+	<type name="Ammo_new_308WinUltraNosler">
 		<nominal>45</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
@@ -422,15 +360,39 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
+		<usage name="Village"/>
+		<usage name="Hunting"/>
 		<usage name="Coast"/>
 		<usage name="Police"/>
-		<usage name="Prison"/>
-		<usage name="Hunting"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
 	</type>
-	<type name="Ammo_new_357SilvertipJhp">
+	<type name="Ammo_new_308WinFMJ">
+		<nominal>35</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>35</min>
+		<quantmin>20</quantmin>
+		<quantmax>60</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
+		<usage name="Hunting"/>
+		<usage name="Coast"/>
+		<usage name="Police"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	
+	<!-- FireFly Main Additional Ammo -->
+	<type name="Ammo_new_357QuikShokJhp">
 		<nominal>50</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
@@ -441,6 +403,92 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
+		<usage name="Coast"/>
+		<usage name="Police"/>
+		<usage name="Prison"/>
+		<usage name="Hunting"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="Ammo_new_357HollowPoint">
+		<nominal>55</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>55</min>
+		<quantmin>20</quantmin>
+		<quantmax>60</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
+		<usage name="Coast"/>
+		<usage name="Police"/>
+		<usage name="Prison"/>
+		<usage name="Hunting"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="Ammo_new_357GoldDotJhp">
+		<nominal>60</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>60</min>
+		<quantmin>20</quantmin>
+		<quantmax>60</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
+		<usage name="Coast"/>
+		<usage name="Police"/>
+		<usage name="Prison"/>
+		<usage name="Hunting"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="Ammo_new_357Semiwadcutter">
+		<nominal>65</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>65</min>
+		<quantmin>20</quantmin>
+		<quantmax>60</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
+		<usage name="Coast"/>
+		<usage name="Police"/>
+		<usage name="Prison"/>
+		<usage name="Hunting"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="Ammo_new_357SilvertipJhp">
+		<nominal>70</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>70</min>
+		<quantmin>20</quantmin>
+		<quantmax>60</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Coast"/>
 		<usage name="Village"/>
 		<usage name="Town"/>
@@ -452,63 +500,6 @@
 	
 	<!-- FireFly Main Additional Ammo -->
 	<type name="Ammo_new_380BondedJhp">
-		<nominal>40</nominal>
-		<lifetime>7200</lifetime>
-		<restock>3600</restock>
-		<min>40</min>
-		<quantmin>20</quantmin>
-		<quantmax>60</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<tag name="shelves"/>
-		<usage name="Town"/>
-		<usage name="Prison"/>
-		<usage name="Police"/>
-		<usage name="Coast"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-	</type>
-	<type name="Ammo_new_380Jhp">
-		<nominal>46</nominal>
-		<lifetime>7200</lifetime>
-		<restock>3600</restock>
-		<min>46</min>
-		<quantmin>20</quantmin>
-		<quantmax>60</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<tag name="shelves"/>
-		<usage name="Town"/>
-		<usage name="Farm"/>
-		<usage name="Village"/>
-		<usage name="Coast"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-	</type>
-	<type name="Ammo_new_380HydraShokJhp">
-		<nominal>49</nominal>
-		<lifetime>7200</lifetime>
-		<restock>3600</restock>
-		<min>49</min>
-		<quantmin>20</quantmin>
-		<quantmax>60</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<tag name="shelves"/>
-		<usage name="Town"/>
-		<usage name="Prison"/>
-		<usage name="Police"/>
-		<usage name="Coast"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-	</type>
-	<type name="Ammo_new_380Fmj">
 		<nominal>55</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
@@ -519,6 +510,71 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
+		<usage name="Town"/>
+		<usage name="Prison"/>
+		<usage name="Police"/>
+		<usage name="Coast"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="Ammo_new_380Jhp">
+		<nominal>65</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>65</min>
+		<quantmin>20</quantmin>
+		<quantmax>60</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
+		<usage name="Town"/>
+		<usage name="Farm"/>
+		<usage name="Village"/>
+		<usage name="Coast"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="Ammo_new_380HydraShokJhp">
+		<nominal>65</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>65</min>
+		<quantmin>20</quantmin>
+		<quantmax>60</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
+		<usage name="Town"/>
+		<usage name="Prison"/>
+		<usage name="Police"/>
+		<usage name="Coast"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="Ammo_new_380Fmj">
+		<nominal>70</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>70</min>
+		<quantmin>20</quantmin>
+		<quantmax>60</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Farm"/>
 		<usage name="Village"/>
@@ -530,16 +586,18 @@
 
 	<!-- FireFly Main Additional Ammo -->
 	<type name="Ammo_new_45AcpAP">
-		<nominal>35</nominal>
+		<nominal>48</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>35</min>
+		<min>48</min>
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Prison"/>
 		<usage name="Police"/>
@@ -559,6 +617,8 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Farm"/>
 		<usage name="Village"/>
@@ -568,16 +628,18 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_45AcpHydrShock">
-		<nominal>50</nominal>
+		<nominal>65</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>50</min>
+		<min>65</min>
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Prison"/>
 		<usage name="Police"/>
@@ -587,16 +649,18 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_45AcpLasermatchFmj">
-		<nominal>55</nominal>
+		<nominal>70</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>55</min>
+		<min>70</min>
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Farm"/>
 		<usage name="Village"/>
@@ -606,16 +670,18 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_45AcpRip">
-		<nominal>40</nominal>
+		<nominal>60</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>40</min>
+		<min>60</min>
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Prison"/>
 		<usage name="Police"/>
@@ -627,31 +693,35 @@
 
 	<!-- FireFly Main Additional Ammo -->
 	<type name="Ammo_new_545x397H39">
-		<nominal>25</nominal>
+		<nominal>35</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>25</min>
+		<min>35</min>
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Coast"/>
 		<value name="Tier4"/>
 	</type>
 	<type name="Ammo_new_545x39Hp">
-		<nominal>60</nominal>
+		<nominal>75</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>60</min>
+		<min>75</min>
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Coast"/>
 		<usage name="Prison"/>
@@ -665,16 +735,18 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_545x39Bp">
-		<nominal>40</nominal>
+		<nominal>52</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>40</min>
+		<min>52</min>
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Prison"/>
 		<usage name="Coast"/>
@@ -684,31 +756,35 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="Ammo_new_545x39Bs">
-		<nominal>30</nominal>
+		<nominal>40</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>30</min>
+		<min>40</min>
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Coast"/>
 		<value name="Tier4"/>
 	</type>
 	<type name="Ammo_new_545x39Bt">
-		<nominal>35</nominal>
+		<nominal>50</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>35</min>
+		<min>50</min>
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Coast"/>
 		<usage name="Prison"/>
@@ -718,16 +794,18 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="Ammo_new_545x39Pp">
-		<nominal>46</nominal>
+		<nominal>65</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>46</min>
+		<min>65</min>
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Coast"/>
 		<usage name="Prison"/>
 		<usage name="Police"/>
@@ -736,16 +814,18 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_545x39Ps">
-		<nominal>43</nominal>
+		<nominal>60</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>43</min>
+		<min>60</min>
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Coast"/>
 		<usage name="Prison"/>
 		<usage name="Police"/>
@@ -754,16 +834,18 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_545x39Us">
-		<nominal>40</nominal>
+		<nominal>60</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>40</min>
+		<min>60</min>
 		<quantmin>10</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Coast"/>
 		<usage name="Prison"/>
@@ -775,16 +857,18 @@
 	
 	<!-- FireFly Main Additional Ammo -->
 	<type name="Ammo_new_556x45M855">
-		<nominal>38</nominal>
+		<nominal>45</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>38</min>
+		<min>45</min>
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Coast"/>
 		<value name="Tier1"/>
@@ -792,16 +876,18 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_556x45M855A1">
-		<nominal>35</nominal>
+		<nominal>45</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>35</min>
+		<min>45</min>
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Coast"/>
 		<value name="Tier1"/>
@@ -810,16 +896,18 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="Ammo_new_556x45M856">
-		<nominal>42</nominal>
+		<nominal>50</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>42</min>
+		<min>50</min>
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Coast"/>
 		<value name="Tier1"/>
@@ -827,31 +915,35 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_556x45M995">
-		<nominal>30</nominal>
+		<nominal>40</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>30</min>
+		<min>40</min>
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Coast"/>
 		<value name="Tier4"/>
 	</type>
 	<type name="Ammo_new_556x4555Fmj">
-		<nominal>55</nominal>
+		<nominal>80</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>55</min>
+		<min>80</min>
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Police"/>
 		<usage name="Prison"/>
 		<usage name="Farm"/>
@@ -865,38 +957,6 @@
 	
 	<!-- FireFly Main Additional Ammo -->
 	<type name="Ammo_new_762x39Hp">
-		<nominal>35</nominal>
-		<lifetime>7200</lifetime>
-		<restock>3600</restock>
-		<min>35</min>
-		<quantmin>20</quantmin>
-		<quantmax>60</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<tag name="shelves"/>
-		<usage name="Military"/>
-		<usage name="Coast"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-	</type>
-	<type name="Ammo_new_762x39Bp">
-		<nominal>30</nominal>
-		<lifetime>7200</lifetime>
-		<restock>3600</restock>
-		<min>30</min>
-		<quantmin>20</quantmin>
-		<quantmax>60</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<tag name="shelves"/>
-		<usage name="Military"/>
-		<usage name="Coast"/>
-		<value name="Tier4"/>
-	</type>
-	<type name="Ammo_new_762x39Ps">
 		<nominal>45</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
@@ -907,6 +967,44 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
+		<usage name="Military"/>
+		<usage name="Coast"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="Ammo_new_762x39Bp">
+		<nominal>40</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>40</min>
+		<quantmin>20</quantmin>
+		<quantmax>60</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
+		<usage name="Military"/>
+		<usage name="Coast"/>
+		<value name="Tier4"/>
+	</type>
+	<type name="Ammo_new_762x39Ps">
+		<nominal>55</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>55</min>
+		<quantmin>20</quantmin>
+		<quantmax>60</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Hunting"/>
 		<usage name="Prison"/>
 		<usage name="Police"/>
@@ -915,24 +1013,6 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_762x39T45M">
-		<nominal>50</nominal>
-		<lifetime>7200</lifetime>
-		<restock>3600</restock>
-		<min>50</min>
-		<quantmin>20</quantmin>
-		<quantmax>60</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<tag name="shelves"/>
-		<usage name="Hunting"/>
-		<usage name="Prison"/>
-		<usage name="Police"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-	</type>
-	<type name="Ammo_new_762x39Us">
 		<nominal>60</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
@@ -943,6 +1023,28 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
+		<usage name="Hunting"/>
+		<usage name="Prison"/>
+		<usage name="Police"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="Ammo_new_762x39Us">
+		<nominal>70</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>70</min>
+		<quantmin>20</quantmin>
+		<quantmax>60</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Farm"/>
 		<usage name="Village"/>
 		<usage name="Hunting"/>
@@ -965,6 +1067,8 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Coast"/>
 		<value name="Tier1"/>
@@ -982,6 +1086,8 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Coast"/>
 		<usage name="Military"/>
 		<value name="Tier4"/>
@@ -997,6 +1103,8 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Coast"/>
 		<value name="Tier1"/>
@@ -1014,6 +1122,8 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Police"/>
 		<usage name="Prison"/>
 		<usage name="Coast"/>
@@ -1033,6 +1143,8 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Police"/>
 		<usage name="Prison"/>
 		<usage name="Coast"/>
@@ -1044,16 +1156,18 @@
 	
 	<!-- FireFly Main Additional Ammo -->
 	<type name="Ammo_new_9x19Pst">
-		<nominal>55</nominal>
+		<nominal>80</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>55</min>
+		<min>80</min>
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Coast"/>
 		<usage name="Village"/>
 		<usage name="Town"/>
@@ -1063,6 +1177,47 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_9x19LugerCci">
+		<nominal>70</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>70</min>
+		<quantmin>20</quantmin>
+		<quantmax>60</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
+		<usage name="Coast"/>
+		<usage name="Village"/>
+		<usage name="Town"/>
+		<usage name="Farm"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="Ammo_new_9x19Rip">
+		<nominal>60</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>60</min>
+		<quantmin>20</quantmin>
+		<quantmax>60</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
+		<usage name="Police"/>
+		<usage name="Prison"/>
+		<usage name="Coast"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="Ammo_new_9x19Ap">
 		<nominal>50</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
@@ -1073,43 +1228,8 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
-		<usage name="Coast"/>
-		<usage name="Village"/>
-		<usage name="Town"/>
-		<usage name="Farm"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-	</type>
-	<type name="Ammo_new_9x19Rip">
-		<nominal>35</nominal>
-		<lifetime>7200</lifetime>
-		<restock>3600</restock>
-		<min>35</min>
-		<quantmin>20</quantmin>
-		<quantmax>60</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<tag name="shelves"/>
-		<usage name="Police"/>
-		<usage name="Prison"/>
-		<usage name="Coast"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-	</type>
-	<type name="Ammo_new_9x19Ap">
-		<nominal>40</nominal>
-		<lifetime>7200</lifetime>
-		<restock>3600</restock>
-		<min>40</min>
-		<quantmin>20</quantmin>
-		<quantmax>60</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Police"/>
 		<usage name="Prison"/>
 		<usage name="Coast"/>
@@ -1128,6 +1248,8 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Police"/>
 		<usage name="Prison"/>
 		<usage name="Coast"/>
@@ -1148,6 +1270,8 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Coast"/>
 		<usage name="Police"/>
@@ -1167,6 +1291,8 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Coast"/>
 		<usage name="Police"/>
@@ -1186,6 +1312,8 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Coast"/>
 		<value name="Tier1"/>
@@ -1203,6 +1331,8 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Coast"/>
 		<value name="Tier4"/>
@@ -1210,16 +1340,18 @@
 	
 	<!-- AMMO EXPANSION -->
 	<type name="Expansion_Ammo_8mm">
-		<nominal>30</nominal>
+		<nominal>55</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>30</min>
+		<min>55</min>
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Farm"/>
 		<usage name="Village"/>
 		<usage name="Coast"/>
@@ -1228,16 +1360,18 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_Expansion_46x30">
-		<nominal>30</nominal>
+		<nominal>40</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>30</min>
+		<min>40</min>
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Coast"/>
 		<value name="Tier1"/>
@@ -1364,10 +1498,10 @@
 
 	<!-- КОРОБКИ ПАТРОНЫ -->
 	<type name="AmmoBox">
-		<nominal>15</nominal>
+		<nominal>20</nominal>
 		<lifetime>3888000</lifetime>
 		<restock>3600</restock>
-		<min>15</min>
+		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -1378,16 +1512,18 @@
 	
 	<!-- Tactical Flava Mod -->
 	<type name="TF_Ammo_57">
-		<nominal>35</nominal>
+		<nominal>50</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>35</min>
+		<min>50</min>
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Police"/>
 		<usage name="Coast"/>
@@ -1406,21 +1542,25 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<value name="Tier4"/>
 	</type>
 
 	<type name="Ammo_50Beowolf">
-		<nominal>25</nominal>
+		<nominal>30</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>25</min>
+		<min>30</min>
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Coast"/>
 		<value name="Tier1"/>
@@ -1429,16 +1569,18 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="Ammo_12_7_55">
-		<nominal>10</nominal>
+		<nominal>12</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>10</min>
+		<min>12</min>
 		<quantmin>20</quantmin>
 		<quantmax>40</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Underground"/>
 		<usage name="Medic"/>
 		<usage name="Military"/>
@@ -1449,16 +1591,18 @@
 		<value name="Tier5"/>
 	</type>
 	<type name="Ammo_300AAC">
-		<nominal>35</nominal>
+		<nominal>40</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>35</min>
+		<min>40</min>
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Coast"/>
 		<usage name="Police"/>
@@ -1478,6 +1622,8 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Coast"/>
 		<value name="Tier4"/>
@@ -1493,31 +1639,13 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Coast"/>
 		<value name="Tier4"/>
 	</type>
 	<type name="Ammo_50BMG">
-		<nominal>10</nominal>
-		<lifetime>7200</lifetime>
-		<restock>3600</restock>
-		<min>10</min>
-		<quantmin>20</quantmin>
-		<quantmax>40</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<tag name="shelves"/>
-		<usage name="Underground"/>
-		<usage name="Medic"/>
-		<usage name="Military"/>
-		<usage name="Police"/>
-		<usage name="Industrial"/>
-		<usage name="Village"/>
-		<usage name="ContaminatedArea"/>
-		<value name="Tier5"/>
-	</type>
-	<type name="Ammo_50BMG_AP">
 		<nominal>5</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
@@ -1528,6 +1656,30 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
+		<usage name="Underground"/>
+		<usage name="Medic"/>
+		<usage name="Military"/>
+		<usage name="Police"/>
+		<usage name="Industrial"/>
+		<usage name="Village"/>
+		<usage name="ContaminatedArea"/>
+		<value name="Tier5"/>
+	</type>
+	<type name="Ammo_50BMG_AP">
+		<nominal>3</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>3</min>
+		<quantmin>20</quantmin>
+		<quantmax>40</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Underground"/>
 		<usage name="Medic"/>
 		<usage name="Military"/>
@@ -1538,16 +1690,18 @@
 		<value name="Tier5"/>
 	</type>
 	<type name="Ammo_65Creedmore">
-		<nominal>10</nominal>
+		<nominal>15</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>10</min>
+		<min>15</min>
 		<quantmin>20</quantmin>
 		<quantmax>50</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Coast"/>
 		<value name="Tier4"/>
@@ -1565,6 +1719,8 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Underground"/>
 		<usage name="Medic"/>
 		<usage name="Military"/>
@@ -1585,6 +1741,8 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
 		<usage name="Underground"/>
 		<usage name="Medic"/>
 		<usage name="Military"/>
