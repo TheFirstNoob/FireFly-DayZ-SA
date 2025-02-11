@@ -2,10 +2,10 @@
 <types>
 	<!-- Tactical Flava Mod -->
 	<type name="TF_AEK999">
-		<nominal>4</nominal>
+		<nominal>2</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>4</min>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -17,10 +17,10 @@
 		<value name="Tier5"/>
 	</type>
 	<type name="TF_M240">
-		<nominal>6</nominal>
+		<nominal>3</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>6</min>
+		<min>3</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -48,10 +48,10 @@
         <value name="Tier3"/>
 	</type>
 	<type name="TF_PKM">
-		<nominal>6</nominal>
+		<nominal>4</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>6</min>
+		<min>4</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -62,10 +62,10 @@
 		<value name="Tier5"/>
 	</type>
 	<type name="TF_PKP">
-		<nominal>6</nominal>
+		<nominal>4</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>6</min>
+		<min>4</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -78,10 +78,10 @@
 
 	<!-- Panacea Weapons -->
 	<type name="PNC_W_PKP">
-		<nominal>4</nominal>
+		<nominal>3</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>4</min>
+		<min>3</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -92,10 +92,10 @@
 		<value name="Tier5"/>
 	</type>
 	<type name="PNC_W_M60">
-		<nominal>6</nominal>
+		<nominal>3</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>6</min>
+		<min>3</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -107,10 +107,10 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="PNC_W_RPK16_Black">
-		<nominal>25</nominal>
+		<nominal>50</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>25</min>
+		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
