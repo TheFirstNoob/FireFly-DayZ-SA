@@ -2,18 +2,22 @@
 <types>
 	<!-- Tactical Flava Mod -->
 	<type name="TF_AEK999">
-		<nominal>2</nominal>
+		<nominal>1</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>2</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
 		<category name="weapons"/>
 		<usage name="Underground"/>
+		<usage name="Medic"/>
 		<usage name="Military"/>
+		<usage name="Police"/>
 		<usage name="Industrial"/>
+		<usage name="Village"/>
+		<usage name="ContaminatedArea"/>
 		<value name="Tier5"/>
 	</type>
 	<type name="TF_M240">
@@ -27,6 +31,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<usage name="Military"/>
+		<usage name="Coast"/>
 		<value name="Tier4"/>
 		<value name="Tier5"/>
 	</type>
@@ -58,6 +63,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
 		<category name="weapons"/>
 		<usage name="Military"/>
+		<usage name="Coast"/>
 		<value name="Tier4"/>
 		<value name="Tier5"/>
 	</type>
@@ -72,23 +78,29 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
 		<category name="weapons"/>
 		<usage name="Military"/>
+		<usage name="Coast"/>
 		<value name="Tier4"/>
 		<value name="Tier5"/>
 	</type>
 
 	<!-- Panacea Weapons -->
 	<type name="PNC_W_PKP">
-		<nominal>3</nominal>
+		<nominal>1</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>3</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/><usage name="Military"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
 		<usage name="Underground"/>
+		<usage name="Medic"/>
 		<usage name="Military"/>
+		<usage name="Police"/>
 		<usage name="Industrial"/>
+		<usage name="Village"/>
+		<usage name="ContaminatedArea"/>
 		<value name="Tier5"/>
 	</type>
 	<type name="PNC_W_M60">
@@ -101,6 +113,7 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<usage name="Military"/>
+		<usage name="Coast"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
