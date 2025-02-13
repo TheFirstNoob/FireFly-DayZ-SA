@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<types>
+	<type name="TerjeBookAthletic1">
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="books"/>
+	</type>
+	<type name="TerjeBookAthletic2">
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="books"/>
+	</type>
+	<type name="TerjeBookAthletic3">
+		<nominal>5</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>3</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Village"/>
+		<usage name="Firefighter"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="TerjeBookAthletic4">
+		<nominal>3</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Village"/>
+		<usage name="Firefighter"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+	<type name="TerjeBookAthletic5">
+		<nominal>2</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="books"/>
+		<usage name="Underground"/>
+		<usage name="Medic"/>
+		<usage name="Military"/>
+		<usage name="Police"/>
+		<usage name="Industrial"/>
+		<usage name="Village"/>
+		<usage name="ContaminatedArea"/>
+		<value name="Tier5"/>
+	</type>
+	<type name="TerjeBookFishing1">
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="books"/>
+	</type>
+	<type name="TerjeBookFishing2">
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="books"/>
+	</type>
+	<type name="TerjeBookFishing3">
+		<nominal>5</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>3</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="books"/>
+		<usage name="Hunting"/>
+		<usage name="Coast"/>
+		<usage name="Farm"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="TerjeBookFishing4">
+		<nominal>3</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="books"/>
+		<usage name="Hunting"/>
+		<usage name="Coast"/>
+		<usage name="Farm"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+	<type name="TerjeBookFishing5">
+		<nominal>2</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="books"/>
+		<usage name="Underground"/>
+		<usage name="Medic"/>
+		<usage name="Military"/>
+		<usage name="Police"/>
+		<usage name="Industrial"/>
+		<usage name="Village"/>
+		<usage name="ContaminatedArea"/>
+		<value name="Tier5"/>
+	</type>
+	<type name="TerjeBookHunting1">
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="books"/>
+	</type>
+	<type name="TerjeBookHunting2">
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="books"/>
+	</type>
+	<type name="TerjeBookHunting3">
+		<nominal>5</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>3</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="books"/>
+		<usage name="Hunting"/>
+		<usage name="Coast"/>
+		<usage name="Farm"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="TerjeBookHunting4">
+		<nominal>3</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="books"/>
+		<usage name="Hunting"/>
+		<usage name="Coast"/>
+		<usage name="Farm"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+	<type name="TerjeBookHunting5">
+		<nominal>2</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="books"/>
+		<usage name="Underground"/>
+		<usage name="Medic"/>
+		<usage name="Military"/>
+		<usage name="Police"/>
+		<usage name="Industrial"/>
+		<usage name="Village"/>
+		<usage name="ContaminatedArea"/>
+		<value name="Tier5"/>
+	</type>
+	<type name="TerjeBookMetabolism1">
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="books"/>
+	</type>
+	<type name="TerjeBookMetabolism2">
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="books"/>
+	</type>
+	<type name="TerjeBookMetabolism3">
+		<nominal>5</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>3</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="books"/>
+		<usage name="Medic"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+		<usage name="Coast"/>
+		<usage name="Farm"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+	<type name="TerjeBookMetabolism4">
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="books"/>
+	</type>
+	<type name="TerjeBookMetabolism5">
+		<nominal>2</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="books"/>
+		<usage name="Underground"/>
+		<usage name="Medic"/>
+		<usage name="Military"/>
+		<usage name="Police"/>
+		<usage name="Industrial"/>
+		<usage name="Village"/>
+		<usage name="ContaminatedArea"/>
+		<value name="Tier5"/>
+	</type>
+	<type name="TerjeBookStealth1">
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="books"/>
+	</type>
+	<type name="TerjeBookStealth2">
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="books"/>
+	</type>
+	<type name="TerjeBookStealth3">
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="books"/>
+	</type>
+	<type name="TerjeBookStealth4">
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="books"/>
+	</type>
+	<type name="TerjeBookStealth5">
+		<nominal>2</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="books"/>
+		<usage name="Underground"/>
+		<usage name="Medic"/>
+		<usage name="Military"/>
+		<usage name="Police"/>
+		<usage name="Industrial"/>
+		<usage name="Village"/>
+		<usage name="ContaminatedArea"/>
+		<value name="Tier5"/>
+	</type>
+	<type name="TerjeBookStrength1">
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="books"/>
+	</type>
+	<type name="TerjeBookStrength2">
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="books"/>
+	</type>
+	<type name="TerjeBookStrength3">
+		<nominal>5</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>3</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="books"/>
+		<usage name="Military"/>
+		<usage name="Police"/>
+		<usage name="Historical"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="TerjeBookStrength4">
+		<nominal>3</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="books"/>
+		<usage name="Military"/>
+		<usage name="Police"/>
+		<usage name="Historical"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+	<type name="TerjeBookStrength5">
+		<nominal>2</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="books"/>
+		<usage name="Underground"/>
+		<usage name="Medic"/>
+		<usage name="Military"/>
+		<usage name="Police"/>
+		<usage name="Industrial"/>
+		<usage name="Village"/>
+		<usage name="ContaminatedArea"/>
+		<value name="Tier5"/>
+	</type>
+	<type name="TerjeBookSurvival1">
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="books"/>
+	</type>
+	<type name="TerjeBookSurvival2">
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="books"/>
+	</type>
+	<type name="TerjeBookSurvival3">
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="books"/>
+		<usage name="Industrial"/>
+		<usage name="Military"/>
+		<usage name="Police"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="TerjeBookSurvival4">
+		<nominal>3</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="books"/>
+		<usage name="Industrial"/>
+		<usage name="Military"/>
+		<usage name="Police"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+	<type name="TerjeBookSurvival5">
+		<nominal>2</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="books"/>
+		<usage name="Underground"/>
+		<usage name="Medic"/>
+		<usage name="Military"/>
+		<usage name="Police"/>
+		<usage name="Industrial"/>
+		<usage name="Village"/>
+		<usage name="ContaminatedArea"/>
+		<value name="Tier5"/>
+	</type>
+</types>
