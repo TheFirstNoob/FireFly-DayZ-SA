@@ -11,16 +11,16 @@
 		"disablePersonalLight": true,
 		"StaminaData":
 		{
-			"sprintStaminaModifierErc": 0.8,
-			"sprintStaminaModifierCro": 1.0,
+			"sprintStaminaModifierErc": 1.0,
+			"sprintStaminaModifierCro": 1.2,
 			"staminaWeightLimitThreshold": 6000.0,
 			"staminaMax": 100.0,
-			"staminaKgToStaminaPercentPenalty": 1.25,
+			"staminaKgToStaminaPercentPenalty": 1.50,
 			"staminaMinCap": 10.0,
-			"sprintSwimmingStaminaModifier": 1.2,
-			"sprintLadderStaminaModifier": 1.2,
-			"meleeStaminaModifier": 0.8,
-			"obstacleTraversalStaminaModifier": 1.1,
+			"sprintSwimmingStaminaModifier": 1.3,
+			"sprintLadderStaminaModifier": 1.3,
+			"meleeStaminaModifier": 1.0,
+			"obstacleTraversalStaminaModifier": 1.2,
 			"holdBreathStaminaModifier": 0.5
 		},
 		"ShockHandlingData":
