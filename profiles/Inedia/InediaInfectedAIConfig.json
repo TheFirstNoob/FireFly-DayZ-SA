@@ -448,9 +448,7 @@
                     "Pear",
                     "Tomato",
                     "Zucchini",
-                    "Potato",
-                    "DeadRat_Grey",
-                    "DeadSqurrel"
+                    "Potato"
                 ],
                 "Parameters": {
                     "ThrowConditionZombieTargetVerticalDistanceMin": 0.4000000059604645,
@@ -502,9 +500,7 @@
                     "Pear",
                     "Tomato",
                     "Zucchini",
-                    "Potato",
-                    "DeadRat_Grey",
-                    "DeadSqurrel"
+                    "Potato"
                 ],
                 "Parameters": {
                     "ThrowConditionAmountOfProjectiles": 2.0,
@@ -657,7 +653,7 @@
             "all": 5.0
         },
         "AttackPlayersUnconsciousHandlerIsActive": {
-            "all": 1
+            "all": 0
         },
         "AttackPlayersUnconsciousHitsLimit": {
             "all": 5.0
@@ -1179,7 +1175,7 @@
             "Police": 50.0,
             "all": 30.0,
             "Nbc": 50.0,
-            "Santa": 500.0,
+            "Santa": 750.0,
             "CivilianOldWoman": 25.0,
             "Firefighter": 60.0,
             "Prisoner": 50.0,
@@ -1190,15 +1186,15 @@
             "Mummy": 1000.0,
             "Solder": 70.0,
             "WorkerMan": 100.0,
-            "AlienCapitan": 900.0,
+            "AlienCapitan": 1200.0,
             "PoliceSpecForce": 70.0,
             "WorkerWoman": 80.0,
-            "AlienScout": 600.0,
+            "AlienScout": 800.0,
             "PopClerk": 180.0,
             "CivilianMan": 50.0,
             "MedicAndPatientWoman": 6.0,
             "CivilianOldMan": 30.0,
-            "AlienQueen": 1200.0
+            "AlienQueen": 1500.0
         },
         "InjuryHandlerRestoreInjuredLegAfterSeconds": {
             "Police": 40.0,
@@ -1215,15 +1211,15 @@
             "Mummy": 20.0,
             "Solder": 30.0,
             "WorkerMan": 20.0,
-            "AlienCapitan": 7.5,
+            "AlienCapitan": 6.5,
             "PoliceSpecForce": 30.0,
             "WorkerWoman": 30.0,
-            "AlienScout": 10.0,
+            "AlienScout": 8.0,
             "PopClerk": 15.0,
             "CivilianMan": 0.0,
             "MedicAndPatientWoman": 60.0,
             "CivilianOldMan": 0.0,
-            "AlienQueen": 5.0
+            "AlienQueen": 4.0
         },
         "InjuryHandlerInjuredOneLegSpeedLimit": {
             "all": 2.0
@@ -1414,10 +1410,10 @@
             "all": 0.20000000298023225
         },
         "ReactBehindNoiseMultiplier": {
-            "all": 0.6000000238418579
+            "all": 0.4
         },
         "ReactFireplaceVisual": {
-            "all": 1.0
+            "all": 1.5
         },
         "ReactFireplaceDayVisual": {
             "all": 1.0
@@ -1429,85 +1425,85 @@
             "all": 1.0
         },
         "ReactRoadflareVisual": {
-            "all": 1.0
+            "all": 1.5
         },
         "ReactRoadflareNoise": {
-            "all": 1.0
+            "all": 1.5
         },
         "ReactChemlightVisual": {
-            "all": 1.0
+            "all": 0.2
         },
         "ReactChemlightRedVisual": {
-            "all": 1.0
+            "all": 0.2
         },
         "ReactPortableGasLampVisual": {
             "all": 1.0
         },
         "ReactFlammablesVisual": {
-            "all": 1.0
+            "all": 1.5
         },
         "ReactSpotlightVisual": {
-            "all": 1.0
+            "all": 2.0
         },
         "ReactCarLightVisual": {
-            "all": 1.0
+            "all": 2.0
         },
         "ReactPowerGeneratorNoise": {
-            "all": 1.0
+            "all": 3.0
         },
         "ReactCarHornNoise": {
-            "all": 1.0
+            "all": 5.0
         },
         "ReactAlarmClockNoise": {
-            "all": 1.0
+            "all": 5.0
         },
         "ReactKitchenTimerNoise": {
-            "all": 1.0
+            "all": 5.0
         },
         "ReactFuelStationNoise": {
-            "all": 1.0
+            "all": 5.0
         },
         "ReactFireworksNoise": {
-            "all": 1.0
+            "all": 5.0
         },
         "ReactExplosiveItemNoise": {
-            "all": 1.0
+            "all": 5.0
         },
         "ReactCarEngineNoise": {
-            "all": 1.0
+            "all": 2.0
         },
         "ReactSmokeGrenadeVisual": {
             "all": 1.0
         },
         "ReactScreamNoise": {
-            "all": 1.0
+            "all": 2.0
         },
         "ReactWeaponShotNoise": {
-            "all": 1.0
+            "all": 2.0
         },
         "ReactFootstepsJogDayNoise": {
             "all": 1.0
         },
         "ReactFootstepsJogNightNoise": {
-            "all": 1.0
+            "all": 1.2
         },
         "ReactFootstepsCrouchSprintDayNoise": {
-            "all": 0.699999988079071
+            "all": 0.7
         },
         "ReactFootstepsCrouchSprintNightNoise": {
-            "all": 0.699999988079071
+            "all": 0.9
         },
         "ReactFootstepsSprintDayNoise": {
             "all": 1.0
         },
         "ReactFootstepsSprintNightNoise": {
-            "all": 1.0
+            "all": 1.5
         },
         "ReactDoorsDayNoise": {
             "all": 1.0
         },
         "ReactDoorsNightNoise": {
-            "all": 1.0
+            "all": 1.5
         },
         "ReactPlayerFallDayNoise": {
             "all": 1.0
@@ -1531,7 +1527,7 @@
             "all": 1.0
         },
         "ReactSymptomsNightNoise": {
-            "all": 1.0
+            "all": 1.5
         },
         "ReactVoiceWhisperDayNoise": {
             "all": 1.0
@@ -1644,7 +1640,7 @@
             "Police": 1.0,
             "all": 0.800000011920929,
             "Pop": 0.699999988079071,
-            "Santa": 3.0,
+            "Santa": 4.0,
             "CivilianOldWoman": 0.6000000238418579,
             "Firefighter": 1.100000023841858,
             "Prisoner": 1.0,
@@ -1659,7 +1655,7 @@
             "PopClerk": 0.699999988079071,
             "Nbc": 1.0,
             "WorkerMan": 1.0499999523162842,
-            "Mummy": 3.0,
+            "Mummy": 4.0,
             "PoliceSpecForce": 1.100000023841858
         },
         "DamageToPlayerShockMultiplier": {
@@ -1950,19 +1946,19 @@
             "all": 0.0
         },
         "DamageToZombieShockToStunLightHeavyAnimationThresholdRange": {
-            "all": 70.0,
-            "AlienCapitan": 900.0,
-            "AlienQueen": 1200.0,
-            "AlienScout": 500.0
+            "all": 100.0,
+            "AlienCapitan": 2000.0,
+            "AlienQueen": 3000.0,
+            "AlienScout": 1000.0
         },
         "DamageToZombieShockToStunThresholdMeleeHeavy": {
             "all": 0.0
         },
         "DamageToZombieShockToStunThresholdRange": {
             "all": 50.0,
-            "AlienCapitan": 450.0,
-            "AlienQueen": 600.0,
-            "AlienScout": 300.0
+            "AlienCapitan": 1000.0,
+            "AlienQueen": 2500.0,
+            "AlienScout": 600.0
         },
         "DamageToZombieShockToStunFromButtstockHit": {
             "all": 2.0
@@ -2190,10 +2186,10 @@
             "all": 1
         },
         "VisionRangeMultiplierDay": {
-            "all": 2.0
+            "all": 2.5
         },
         "VisionRangeMultiplierNight": {
-            "all": 0.800000011920929
+            "all": 1.0
         },
         "SizeHandlerIsActive": {
             "all": 1
@@ -2293,7 +2289,7 @@
     },
     "Players": {
         "SmellsHandlerIsActive": 1,
-        "SmellLifetimeSeconds": 90.0,
+        "SmellLifetimeSeconds": 60.0,
         "SmellsCountOnMapLimit": 500,
         "FootstepsNoiseHandlerIsActive": 1,
         "SearchBodyToViewCargo": 1,
@@ -2377,10 +2373,10 @@
         "InternalBleedingSystemIsActive": 0,
         "InternalBleedingBloodLossRateMl": 2.0,
         "DestroyedDoorNotificationType": 2.0,
-        "NoiseMultiplierDay": 1.2000000476837159,
+        "NoiseMultiplierDay": 1.5,
         "NoiseMultiplierNight": 2.0,
-        "NoiseMultiplierCrouchDay": 1.0,
-        "NoiseMultiplierCrouchNight": 1.0,
+        "NoiseMultiplierCrouchDay": 1.2,
+        "NoiseMultiplierCrouchNight": 1.65,
         "NoiseMultiplierLadderDay": 0.20000000298023225,
         "NoiseMultiplierLadderNight": 0.20000000298023225,
         "CamoClothingVisibilityMultipliers": {
