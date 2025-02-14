@@ -170,8 +170,8 @@
                 "ZmbM_HandymanNormal_Grey",
                 "ZmbM_HandymanNormal_White"
             ],
-            "AlienCapitan": [
-                "Capitan_Alien"
+            "AlienCaptain": [
+                "Captain_Alien"
             ],
             "PoliceSpecForce": [
                 "ZmbM_PolicemanSpecForce",
@@ -616,7 +616,8 @@
             "Nbc": 0.0,
             "WorkerMan": 40.0,
             "Mummy": 100.0,
-            "PoliceSpecForce": 100.0
+            "PoliceSpecForce": 100.0,
+			"AlienScout": 100.0
         },
         "BreakingDoorsOpenChancePercent": {
             "Police": 50.0,
@@ -638,7 +639,8 @@
             "Nbc": 0.0,
             "WorkerMan": 40.0,
             "Mummy": 100.0,
-            "PoliceSpecForce": 100.0
+            "PoliceSpecForce": 100.0,
+			"AlienScout": 10.0
         },
         "BreakingDoorsOpenLockPickChancePercent": {
             "all": 15.0
@@ -650,7 +652,7 @@
             "all": 10.0
         },
         "BreakingDoorsCrawlersChanceMultiplier": {
-            "all": 5.0
+            "all": 0.5
         },
         "AttackPlayersUnconsciousHandlerIsActive": {
             "all": 0
@@ -720,35 +722,35 @@
             "all": 1
         },
         "SpeedMinimumInCalmMode": {
-            "all": 0.0
+            "all": 1.0
         },
         "SpeedLimitInCalmMode": {
-            "all": 3.0
+            "all": 2.1
         },
         "SpeedMultiplierInCalmMode": {
             "all": 1.0
         },
         "SpeedMinimumInSearchMode": {
-            "Police": 2.0,
+            "Police": 2.1,
             "all": 0.0,
-            "Pop": 2.0,
+            "Pop": 2.1,
             "Santa": 3.0,
             "CivilianOldWoman": 1.0,
-            "Firefighter": 2.0,
-            "Prisoner": 2.0,
+            "Firefighter": 2.1,
+            "Prisoner": 2.1,
             "MedicAndPatientWoman": 3.0,
-            "CivilianMan": 2.0,
-            "Solder": 2.0,
-            "CivilianWoman": 2.0,
+            "CivilianMan": 2.1,
+            "Solder": 2.1,
+            "CivilianWoman": 2.1,
             "MedicAndPatientMan": 3.0,
             "CivilianOldMan": 1.0,
-            "FarmerMan": 2.0,
-            "WorkerWoman": 2.0,
-            "PopClerk": 2.0,
-            "Nbc": 2.0,
-            "WorkerMan": 2.0,
+            "FarmerMan": 2.1,
+            "WorkerWoman": 2.1,
+            "PopClerk": 2.1,
+            "Nbc": 2.1,
+            "WorkerMan": 2.1,
             "Mummy": 3.0,
-            "PoliceSpecForce": 2.0
+            "PoliceSpecForce": 2.1
         },
         "SpeedLimitInSearchMode": {
             "all": 3.0
@@ -762,7 +764,7 @@
         "SpeedLimitInChaseMode": {
             "Police": 3.0,
             "all": 3.0,
-            "Pop": 2.0,
+            "Pop": 2.1,
             "Santa": 3.0,
             "CivilianOldWoman": 1.0,
             "Firefighter": 3.0,
@@ -775,7 +777,7 @@
             "CivilianOldMan": 1.0,
             "FarmerMan": 3.0,
             "WorkerWoman": 3.0,
-            "PopClerk": 2.0,
+            "PopClerk": 2.1,
             "Nbc": 3.0,
             "WorkerMan": 3.0,
             "Mummy": 3.0,
@@ -819,7 +821,9 @@
             "PoliceSpecForce": 10.0
         },
         "UpJumpHandlerIsActive": {
-            "all": 1
+            "all": 1,
+			"AlienQueen": 0,
+			"AlienScout": 0
         },
         "UpJumpHeightMax": {
             "Police": 2.5,
@@ -929,7 +933,9 @@
             "Nbc": 0,
             "WorkerMan": 1,
             "Mummy": 1,
-            "PoliceSpecForce": 1
+            "PoliceSpecForce": 1,
+			"AlienQueen": 0,
+			"AlienScout": 0
         },
         "DownJumpHeightMax": {
             "Police": 4.0,
@@ -973,7 +979,9 @@
             "Nbc": 1,
             "WorkerMan": 1,
             "Mummy": 0,
-            "PoliceSpecForce": 0
+            "PoliceSpecForce": 0,
+			"AlienQueen": 0,
+			"AlienScout": 0
         },
         "FallHandlerIsActive": {
             "all": 1
@@ -998,7 +1006,9 @@
             "Nbc": 3.0,
             "WorkerMan": 3.5,
             "Mummy": 10.0,
-            "PoliceSpecForce": 8.0
+            "PoliceSpecForce": 8.0,
+			"AlienQueen": 0,
+			"AlienScout": 0
         },
         "FallHandlerLegBreakHeightMax": {
             "Police": 8.0,
@@ -1111,11 +1121,14 @@
             "Nbc": 50.0,
             "WorkerMan": 100.0,
             "Mummy": 100.0,
-            "PoliceSpecForce": 70.0
+            "PoliceSpecForce": 70.0,
+            "Captain_Alien": 120.0,
+			"AlienQueen": 350,
+			"AlienScout": 200
         },
         "InjuryHandlerRestoreInjuredArmAfterSeconds": {
             "Police": 30.0,
-            "all": 0.0,
+            "all": 60.0,
             "Pop": 15.0,
             "Santa": 20.0,
             "CivilianOldWoman": 0.0,
@@ -1186,15 +1199,15 @@
             "Mummy": 1000.0,
             "Solder": 70.0,
             "WorkerMan": 100.0,
-            "AlienCapitan": 1200.0,
             "PoliceSpecForce": 70.0,
             "WorkerWoman": 80.0,
-            "AlienScout": 800.0,
             "PopClerk": 180.0,
             "CivilianMan": 50.0,
             "MedicAndPatientWoman": 6.0,
             "CivilianOldMan": 30.0,
-            "AlienQueen": 1500.0
+            "Captain_Alien": 200.0,
+			"AlienQueen": 1200.0,
+			"AlienScout": 800.0
         },
         "InjuryHandlerRestoreInjuredLegAfterSeconds": {
             "Police": 40.0,
@@ -1211,7 +1224,7 @@
             "Mummy": 20.0,
             "Solder": 30.0,
             "WorkerMan": 20.0,
-            "AlienCapitan": 6.5,
+            "AlienCaptain": 6.5,
             "PoliceSpecForce": 30.0,
             "WorkerWoman": 30.0,
             "AlienScout": 8.0,
@@ -1222,7 +1235,7 @@
             "AlienQueen": 4.0
         },
         "InjuryHandlerInjuredOneLegSpeedLimit": {
-            "all": 2.0
+            "all": 2.1
         },
         "InjuryHandlerInjuredBothLegsSpeedLimit": {
             "all": 1.0
@@ -1413,13 +1426,13 @@
             "all": 0.4
         },
         "ReactFireplaceVisual": {
-            "all": 1.5
+            "all": 2.0
         },
         "ReactFireplaceDayVisual": {
             "all": 1.0
         },
         "ReactFlashlightsVisual": {
-            "all": 1.0
+            "all": 1.5
         },
         "ReactHeadtorchRedVisual": {
             "all": 1.0
@@ -1449,7 +1462,7 @@
             "all": 2.0
         },
         "ReactPowerGeneratorNoise": {
-            "all": 3.0
+            "all": 0.5
         },
         "ReactCarHornNoise": {
             "all": 5.0
@@ -1470,7 +1483,7 @@
             "all": 5.0
         },
         "ReactCarEngineNoise": {
-            "all": 2.0
+            "all": 1.0
         },
         "ReactSmokeGrenadeVisual": {
             "all": 1.0
@@ -1551,25 +1564,25 @@
             "all": 1.0
         },
         "ReactMiningLightNightNoise": {
-            "all": 1.0
+            "all": 2.0
         },
         "ReactMiningHardDayNoise": {
             "all": 1.0
         },
         "ReactMiningHardNightNoise": {
-            "all": 1.0
+            "all": 2.0
         },
         "ReactBuildingDayNoise": {
             "all": 1.0
         },
         "ReactBuildingNightNoise": {
-            "all": 1.0
+            "all": 1.5
         },
         "ReactSawPlanksDayNoise": {
             "all": 1.0
         },
         "ReactSawPlanksNightNoise": {
-            "all": 1.0
+            "all": 1.5
         },
         "ReactVanillaMindstateChange": {
             "all": 1.0
@@ -1625,10 +1638,10 @@
             "all": 0.10000000149011612
         },
         "ReactAndDestroyAlarmClockNoise": {
-            "all": 1.0
+            "all": 3.0
         },
         "ReactAndDestroyKitchenTimerNoise": {
-            "all": 1.0
+            "all": 3.0
         },
         "ReactAndDestroySmokeGrenadeVisual": {
             "all": 0.5
@@ -1657,6 +1670,9 @@
             "WorkerMan": 1.0499999523162842,
             "Mummy": 4.0,
             "PoliceSpecForce": 1.100000023841858
+			"Captain_Alien": 1.0,
+			"AlienQueen": 0.8,
+			"AlienScout": 0.6
         },
         "DamageToPlayerShockMultiplier": {
             "Police": 1.100000023841858,
@@ -1679,6 +1695,9 @@
             "WorkerMan": 1.0,
             "Mummy": 3.0,
             "PoliceSpecForce": 1.2000000476837159
+			"Captain_Alien": 1.0,
+			"AlienQueen": 1.0,
+			"AlienScout": 0.5
         },
         "DamageToPlayerStaminaPercent": {
             "Police": 1.2999999523162842,
@@ -1768,7 +1787,7 @@
             "all": 15.0
         },
         "StunToPlayerInBlockChancePercent": {
-            "all": 10.0
+            "all": 3.0
         },
         "DisarmToPlayerChancePercent": {
             "all": 0.0
@@ -1777,10 +1796,16 @@
             "all": 0.0
         },
         "FastAttackToPlayerChancePercent": {
-            "all": 100.0
+            "all": 30.0
+			"Captain_Alien": 50.0,
+			"AlienQueen": 25.0,
+			"AlienScout": 10.0
         },
         "DiseasesToPlayerHandlerIsActive": {
-            "all": 1
+            "all": 1,
+			"Captain_Alien": 0,
+			"AlienQueen": 0,
+			"AlienScout": 0
         },
         "DiseasesToPlayerAgents": {
             "all": []
@@ -1798,28 +1823,28 @@
             "all": 0.30000001192092898
         },
         "PainToPlayerArmsMultiplier": {
-            "all": 1.2000000476837159
+            "all": 1.0
         },
         "PainToPlayerArmsInBlockMultiplier": {
-            "all": 0.4000000059604645
+            "all": 0.6
         },
         "PainToPlayerArmsDisarmMultiplier": {
-            "all": 0.30000001192092898
+            "all": 0.2
         },
         "PainToPlayerArmsInBlockDisarmMultiplier": {
-            "all": 0.15000000596046449
+            "all": 0.0
         },
         "PainToPlayerLegsMultiplier": {
-            "all": 1.2000000476837159
+            "all": 0.9
         },
         "PainToPlayerLegsInBlockMultiplier": {
-            "all": 0.4000000059604645
+            "all": 0.4
         },
         "PainToPlayerTorsoMultiplier": {
-            "all": 1.2000000476837159
+            "all": 1.0
         },
         "PainToPlayerTorsoInBlockMultiplier": {
-            "all": 0.4000000059604645
+            "all": 0.6
         },
         "PainToPlayerLimbsBreakChancesMultiplier": {
             "all": 1.0
@@ -1946,19 +1971,19 @@
             "all": 0.0
         },
         "DamageToZombieShockToStunLightHeavyAnimationThresholdRange": {
-            "all": 100.0,
-            "AlienCapitan": 2000.0,
+            "all": 50.0,
+            "AlienCaptain": 450.0,
             "AlienQueen": 3000.0,
-            "AlienScout": 1000.0
+            "AlienScout": 300.0
         },
         "DamageToZombieShockToStunThresholdMeleeHeavy": {
             "all": 0.0
         },
         "DamageToZombieShockToStunThresholdRange": {
-            "all": 50.0,
-            "AlienCapitan": 1000.0,
+            "all": 100.0,
+            "AlienCaptain": 600.0,
             "AlienQueen": 2500.0,
-            "AlienScout": 600.0
+            "AlienScout": 550.0
         },
         "DamageToZombieShockToStunFromButtstockHit": {
             "all": 2.0
@@ -2024,7 +2049,7 @@
             "all": 0.30000001192092898
         },
         "BloodOnExplosiveDamageChancePercent": {
-            "all": 50.0
+            "all": 100.0
         },
         "BloodSplatParticlesIsActive": {
             "all": 1
@@ -2044,7 +2069,7 @@
             "AlienScout": 1,
             "Mummy": 1,
             "Nbc": 1,
-            "AlienCapitan": 1,
+            "AlienCaptain": 1,
             "AlienQueen": 1
         },
         "AllowCrawling": {
@@ -2180,16 +2205,22 @@
             ]
         },
         "CanBeBackstabbedHandlerIsActive": {
-            "all": 0
+            "all": 1,
+			"Captain_Alien": 0,
+			"AlienQueen": 0,
+			"AlienScout": 0
         },
         "CanBeBackstabbed": {
-            "all": 1
+            "all": 1,
+			"Captain_Alien": 0,
+			"AlienQueen": 0,
+			"AlienScout": 0
         },
         "VisionRangeMultiplierDay": {
             "all": 2.5
         },
         "VisionRangeMultiplierNight": {
-            "all": 1.0
+            "all": 0.8
         },
         "SizeHandlerIsActive": {
             "all": 1
@@ -2404,8 +2435,8 @@
         }
     },
     "LossInterestToIrritantAfterSeconds": 60.0,
-    "LightInHouseMultiplier": 0.20000000298023225,
-    "SoundInHouseMultiplier": 0.5,
+    "LightInHouseMultiplier": 0.3,
+    "SoundInHouseMultiplier": 0.3,
     "BloodParticlesLimit": 1000.0,
     "BloodParticleDurationSeconds": 600.0,
     "SaveConfigAfterInit": 1
