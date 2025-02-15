@@ -1206,8 +1206,8 @@
             "MedicAndPatientWoman": 6.0,
             "CivilianOldMan": 30.0,
             "Captain_Alien": 200.0,
-			"AlienQueen": 1200.0,
-			"AlienScout": 800.0
+			"AlienQueen": 1000.0,
+			"AlienScout": 600.0
         },
         "InjuryHandlerRestoreInjuredLegAfterSeconds": {
             "Police": 40.0,
@@ -1390,22 +1390,22 @@
             "all": 10.0
         },
         "AttackCarRadiatorDamagePercent": {
-            "all": 10.0
+            "all": 8.0
         },
         "AttackCarCarBatteryDamagePercent": {
-            "all": 10.0
+            "all": 8.0
         },
         "AttackCarPlugDamagePercent": {
-            "all": 25.0
+            "all": 15.0
         },
         "AttackCarEngineDamagePercent": {
-            "all": 10.0
+            "all": 5.0
         },
         "AttackCarLightsDamagePercent": {
-            "all": 50.0
+            "all": 25.0
         },
         "AttackCarFenderDamagePercent": {
-            "all": 10.0
+            "all": 8.0
         },
         "AttackCarBumperDamagePercent": {
             "all": 10.0
@@ -1459,7 +1459,7 @@
             "all": 2.0
         },
         "ReactCarLightVisual": {
-            "all": 2.0
+            "all": 1.0
         },
         "ReactPowerGeneratorNoise": {
             "all": 0.5
@@ -1489,16 +1489,16 @@
             "all": 1.0
         },
         "ReactScreamNoise": {
-            "all": 2.0
+            "all": 1.0
         },
         "ReactWeaponShotNoise": {
-            "all": 2.0
+            "all": 1.5
         },
         "ReactFootstepsJogDayNoise": {
             "all": 1.0
         },
         "ReactFootstepsJogNightNoise": {
-            "all": 1.2
+            "all": 1.1
         },
         "ReactFootstepsCrouchSprintDayNoise": {
             "all": 0.7
@@ -1510,13 +1510,13 @@
             "all": 1.0
         },
         "ReactFootstepsSprintNightNoise": {
-            "all": 1.5
+            "all": 1.2
         },
         "ReactDoorsDayNoise": {
             "all": 1.0
         },
         "ReactDoorsNightNoise": {
-            "all": 1.5
+            "all": 1.2
         },
         "ReactPlayerFallDayNoise": {
             "all": 1.0
@@ -1540,7 +1540,7 @@
             "all": 1.0
         },
         "ReactSymptomsNightNoise": {
-            "all": 1.5
+            "all": 1.1
         },
         "ReactVoiceWhisperDayNoise": {
             "all": 1.0
@@ -1564,25 +1564,25 @@
             "all": 1.0
         },
         "ReactMiningLightNightNoise": {
-            "all": 2.0
+            "all": 1.3
         },
         "ReactMiningHardDayNoise": {
             "all": 1.0
         },
         "ReactMiningHardNightNoise": {
-            "all": 2.0
+            "all": 1.5
         },
         "ReactBuildingDayNoise": {
             "all": 1.0
         },
         "ReactBuildingNightNoise": {
-            "all": 1.5
+            "all": 1.3
         },
         "ReactSawPlanksDayNoise": {
             "all": 1.0
         },
         "ReactSawPlanksNightNoise": {
-            "all": 1.5
+            "all": 1.3
         },
         "ReactVanillaMindstateChange": {
             "all": 1.0
@@ -2107,7 +2107,7 @@
             "all": 15.0
         },
         "ScreamCooldownSeconds": {
-            "all": 60.0
+            "all": 45.0
         },
         "ScreamNearbyInfectedSilenceSeconds": {
             "all": 60.0
@@ -2217,7 +2217,9 @@
 			"AlienScout": 0
         },
         "VisionRangeMultiplierDay": {
-            "all": 2.5
+            "all": 1.2
+			"AlienQueen": 1,
+			"AlienScout": 1
         },
         "VisionRangeMultiplierNight": {
             "all": 0.8
@@ -2363,7 +2365,7 @@
         "VehicleCollisionsPainMultiplier": 1.0,
         "FallPainMultiplier": 1.0,
         "ExplosionsPainMultiplier": 1.0,
-        "UnconsciousWhenOverPainedHeadReceivingHits": 1,
+        "UnconsciousWhenOverPainedHeadReceivingHits": 0,
         "CrouchWhenOverPainedTorsoReceivingHits": 1,
         "ArmsLowerWhenAimingWithPainedArms": 1,
         "ArmsLowerWhenOverPainedArmsReceivingHits": 1,
@@ -2390,7 +2392,7 @@
         "TorsoBreakDurationSeconds": 900.0,
         "LimbsBreakFromFalls": 1,
         "LegsBreakFromTraps": 1,
-        "UnconsciousWhenHeadBreak": 1,
+        "UnconsciousWhenHeadBreak": 0,
         "LimbsDeepWoundSystemIsActive": 0,
         "HeadDeepWoundDurationSeconds": 1800.0,
         "ArmsDeepWoundDurationSeconds": 1800.0,
@@ -2404,10 +2406,10 @@
         "InternalBleedingSystemIsActive": 0,
         "InternalBleedingBloodLossRateMl": 2.0,
         "DestroyedDoorNotificationType": 2.0,
-        "NoiseMultiplierDay": 1.5,
-        "NoiseMultiplierNight": 2.0,
-        "NoiseMultiplierCrouchDay": 1.2,
-        "NoiseMultiplierCrouchNight": 1.65,
+        "NoiseMultiplierDay": 0.9,
+        "NoiseMultiplierNight": 1.2,
+        "NoiseMultiplierCrouchDay": 0.8,
+        "NoiseMultiplierCrouchNight": 1.1,
         "NoiseMultiplierLadderDay": 0.20000000298023225,
         "NoiseMultiplierLadderNight": 0.20000000298023225,
         "CamoClothingVisibilityMultipliers": {
@@ -2437,7 +2439,7 @@
     "LossInterestToIrritantAfterSeconds": 60.0,
     "LightInHouseMultiplier": 0.3,
     "SoundInHouseMultiplier": 0.3,
-    "BloodParticlesLimit": 1000.0,
-    "BloodParticleDurationSeconds": 600.0,
+    "BloodParticlesLimit": 250.0,
+    "BloodParticleDurationSeconds": 180.0,
     "SaveConfigAfterInit": 1
 }
