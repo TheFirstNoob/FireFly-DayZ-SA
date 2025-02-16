@@ -664,34 +664,4 @@
         <value name="Tier2"/>
         <value name="Tier3"/>
 	</type>
-
-	<!-- FireFly -->
-	<type name="AK9">
-		<nominal>26</nominal>
-		<lifetime>7200</lifetime>
-		<restock>3600</restock>
-		<min>26</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<usage name="Military"/>
-		<usage name="Prison"/>
-		<usage name="Coast"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-	</type>
-	<type name="AR54R">
-		<nominal>0</nominal>
-		<lifetime>7200</lifetime>
-		<restock>3600</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-	</type>
 </types>
