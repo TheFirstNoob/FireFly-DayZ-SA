@@ -1,14 +1,20 @@
 {
 	"ConfigVersion": 28,
-	"ID": 1,
+	"ID": 3500,
 	"ObjectiveType": 4,
-	"ObjectiveText": "Collect 5 apples",
+	"ObjectiveText": "Соберите Обычный и Тактический Рюкзак Wolf для обмена",
 	"TimeLimit": -1,
 	"Active": 1,
 	"Collections": [
 		{
-			"Amount": 5,
-			"ClassName": "Apple",
+			"Amount": 1,
+			"ClassName": "CoyoteBag_Brown",
+			"QuantityPercent": -1,
+			"MinQuantityPercent": -1
+		},
+		{
+			"Amount": 1,
+			"ClassName": "TFN_CoyoteBagUmbrella",
 			"QuantityPercent": -1,
 			"MinQuantityPercent": -1
 		}

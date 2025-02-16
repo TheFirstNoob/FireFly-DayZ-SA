@@ -1,0 +1,156 @@
+{
+	"ConfigVersion": 22,
+	"ID": 3500,
+	"Type": 1,
+	"Title": "[Обмен повторяемый] тест - Новый рюкзак",
+	"Descriptions": [
+		"Первый рюкзак можно достать у военных ботов или купить на тз, второй у Wolf ботов! Возможно привязка к цвету, но я хз :с",
+		"Первый рюкзак можно достать у военных ботов или купить на тз, второй у Wolf ботов! Возможно привязка к цвету, но я хз :с",
+		"Произведите обмен"
+	],
+	"ObjectiveText": "Обменяйте указанные рюкзаки на новый.",
+	"FollowUpQuest": -1,
+	"Repeatable": 1,
+	"IsDailyQuest": 0,
+	"IsWeeklyQuest": 0,
+	"CancelQuestOnPlayerDeath": 0,
+	"Autocomplete": 0,
+	"IsGroupQuest": 0,
+	"ObjectSetFileName": "",
+	"QuestItems": [],
+	"Rewards": [
+		{
+			"ClassName": "Nomadbackpack_v3_BaseColor",
+			"Amount": 1,
+			"Attachments": [],
+			"DamagePercent": 0,
+			"HealthPercent": 0,
+			"QuestID": -1,
+			"Chance": 1.0
+		},
+		{
+			"ClassName": "Nomadbackpack_v3_AoR2",
+			"Amount": 1,
+			"Attachments": [],
+			"DamagePercent": 0,
+			"HealthPercent": 0,
+			"QuestID": -1,
+			"Chance": 1.0
+		},
+		{
+			"ClassName": "Nomadbackpack_v3_Woodland",
+			"Amount": 1,
+			"Attachments": [],
+			"DamagePercent": 0,
+			"HealthPercent": 0,
+			"QuestID": -1,
+			"Chance": 1.0
+		},
+		{
+			"ClassName": "Nomadbackpack_v3_Winter",
+			"Amount": 1,
+			"Attachments": [],
+			"DamagePercent": 0,
+			"HealthPercent": 0,
+			"QuestID": -1,
+			"Chance": 1.0
+		},
+		{
+			"ClassName": "Nomadbackpack_v3_Blue",
+			"Amount": 1,
+			"Attachments": [],
+			"DamagePercent": 0,
+			"HealthPercent": 0,
+			"QuestID": -1,
+			"Chance": 1.0
+		},
+		{
+			"ClassName": "Nomadbackpack_v3_Teal",
+			"Amount": 1,
+			"Attachments": [],
+			"DamagePercent": 0,
+			"HealthPercent": 0,
+			"QuestID": -1,
+			"Chance": 1.0
+		},
+		{
+			"ClassName": "Nomadbackpack_v3_Grey",
+			"Amount": 1,
+			"Attachments": [],
+			"DamagePercent": 0,
+			"HealthPercent": 0,
+			"QuestID": -1,
+			"Chance": 1.0
+		},
+		{
+			"ClassName": "Nomadbackpack_v3_Green",
+			"Amount": 1,
+			"Attachments": [],
+			"DamagePercent": 0,
+			"HealthPercent": 0,
+			"QuestID": -1,
+			"Chance": 1.0
+		},
+		{
+			"ClassName": "Nomadbackpack_v3_Red",
+			"Amount": 1,
+			"Attachments": [],
+			"DamagePercent": 0,
+			"HealthPercent": 0,
+			"QuestID": -1,
+			"Chance": 1.0
+		},
+		{
+			"ClassName": "Nomadbackpack_v3_Yellow",
+			"Amount": 1,
+			"Attachments": [],
+			"DamagePercent": 0,
+			"HealthPercent": 0,
+			"QuestID": -1,
+			"Chance": 1.0
+		},
+		{
+			"ClassName": "Nomadbackpack_v3_Black",
+			"Amount": 1,
+			"Attachments": [],
+			"DamagePercent": 0,
+			"HealthPercent": 0,
+			"QuestID": -1,
+			"Chance": 1.0
+		}
+	],
+	"NeedToSelectReward": 1,
+	"RandomReward": 0,
+	"RandomRewardAmount": -1,
+	"RewardsForGroupOwnerOnly": 1,
+	"RewardBehavior": 0,
+	"QuestGiverIDs": [
+		2
+	],
+	"QuestTurnInIDs": [
+		2
+	],
+	"IsAchievement": 0,
+	"Objectives": [
+		{
+			"ConfigVersion": 28,
+			"ID": 3500,
+			"ObjectiveType": 4
+		}
+	],
+	"QuestColor": 0,
+	"ReputationReward": 0,
+	"ReputationRequirement": -1,
+	"PreQuestIDs": [
+		3114
+	],
+	"RequiredFaction": "",
+	"FactionReward": "",
+	"PlayerNeedQuestItems": 1,
+	"DeleteQuestItems": 1,
+	"SequentialObjectives": 1,
+	"FactionReputationRequirements": {},
+	"FactionReputationRewards": {},
+	"SuppressQuestLogOnCompetion": 0,
+	"Active": 1
+}

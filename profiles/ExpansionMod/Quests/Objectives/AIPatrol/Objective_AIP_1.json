@@ -1,8 +1,8 @@
 {
 	"ConfigVersion": 28,
-	"ID": 1,
+	"ID": 3114,
 	"ObjectiveType": 7,
-	"ObjectiveText": "Kill all 4 units of the bandit patrol at the marked location",
+	"ObjectiveText": "Защитите заправку от штурма Wolf",
 	"TimeLimit": -1,
 	"Active": 1,
 	"MaxDistance": -1.0,
@@ -12,10 +12,10 @@
 	"AISpawn": {
 		"Name": "Quest Target",
 		"Persist": 0,
-		"Faction": "West",
-		"Formation": "RANDOM",
+		"Faction": "Shamans",
+		"Formation": "Wall",
 		"FormationLooseness": 0.0,
-		"Loadout": "BanditLoadout",
+		"Loadout": "AI_Wolf_Guard_Loadout",
 		"Units": [
 			"eAI_SurvivorF_Eva",
 			"eAI_SurvivorF_Frida",
@@ -49,29 +49,40 @@
 			"eAI_SurvivorM_Seth",
 			"eAI_SurvivorM_Taiki"
 		],
-		"NumberOfAI": 4,
+		"NumberOfAI": 10,
 		"Behaviour": "HALT",
-		"Speed": "WALK",
+		"Speed": "SPRINT",
 		"UnderThreatSpeed": "SPRINT",
 		"CanBeLooted": 1,
 		"UnlimitedReload": 1,
 		"SniperProneDistanceThreshold": 300.0,
-		"AccuracyMin": 0.0,
-		"AccuracyMax": 0.0,
+		"AccuracyMin": 0.5,
+		"AccuracyMax": 0.9,
 		"ThreatDistanceLimit": 1000.0,
 		"NoiseInvestigationDistanceLimit": -1.0,
 		"DamageMultiplier": 1.0,
-		"DamageReceivedMultiplier": 1.0,
+		"DamageReceivedMultiplier": 0.6,
 		"MinDistRadius": 50.0,
 		"MaxDistRadius": 150.0,
-		"DespawnRadius": 880.0,
+		"DespawnRadius": 1500.0,
 		"MinSpreadRadius": 0.0,
 		"MaxSpreadRadius": 0.0,
 		"Chance": 1.0,
 		"WaypointInterpolation": "",
 		"DespawnTime": 1.0,
 		"RespawnTime": 1.0,
-		"UseRandomWaypointAsStartPoint": 1,
-		"Waypoints": []
+		"UseRandomWaypointAsStartPoint": 0,
+		"Waypoints": [
+			[
+				7128.94,
+				221.221,
+				4951.59
+			],
+			[
+				7428.85,
+				234.944,
+				4994.44
+			]
+		]
 	}
 }
