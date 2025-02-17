@@ -245,7 +245,6 @@
 			"QuantityPercent": -1,
 			"SpawnAttachments": [],
 			"Variants": [
-				"Ammo_new_357QuikShokJhp",
 				"Ammo_new_357SilvertipJhp",
 				"Ammo_new_357Semiwadcutter",
 				"Ammo_new_357GoldDotJhp",
@@ -269,6 +268,17 @@
 			"MinPriceThreshold": 30,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 8500,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "Ammo_new_357GoldDotJhp",
+			"MaxPriceThreshold": 165,
+			"MinPriceThreshold": 33,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 8250,
 			"MinStockThreshold": 0,
 			"QuantityPercent": -1,
 			"SpawnAttachments": [],
