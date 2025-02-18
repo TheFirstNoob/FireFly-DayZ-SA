@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
 	<type name="AntiPestsSpray">
-		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>0</min>
+		<nominal>30</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
 	</type>
 	<type name="GardenLime">
 		<nominal>50</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -25,7 +25,7 @@
 	</type>
 	<type name="PepperSeeds">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -36,8 +36,8 @@
 	</type>
 	<type name="PepperSeedsPack">
 		<nominal>30</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -48,7 +48,7 @@
 	</type>
 	<type name="PlantMaterial">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -59,7 +59,7 @@
 	</type>
 	<type name="Plant_Pepper">
 		<nominal>0</nominal>
-		<lifetime>28800</lifetime>
+		<lifetime>43200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -70,7 +70,7 @@
 	</type>
 	<type name="Plant_Potato">
 		<nominal>0</nominal>
-		<lifetime>28800</lifetime>
+		<lifetime>43200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -81,7 +81,7 @@
 	</type>
 	<type name="Plant_Pumpkin">
 		<nominal>0</nominal>
-		<lifetime>28800</lifetime>
+		<lifetime>43200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -92,7 +92,7 @@
 	</type>
 	<type name="Plant_Tomato">
 		<nominal>0</nominal>
-		<lifetime>28800</lifetime>
+		<lifetime>43200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -103,7 +103,7 @@
 	</type>
 	<type name="Plant_Zucchini">
 		<nominal>0</nominal>
-		<lifetime>28800</lifetime>
+		<lifetime>43200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -114,8 +114,8 @@
 	</type>
 	<type name="PotatoSeed">
 		<nominal>32</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>28</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -131,7 +131,7 @@
 	</type>
 	<type name="PumpkinSeeds">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -142,8 +142,8 @@
 	</type>
 	<type name="PumpkinSeedsPack">
 		<nominal>30</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -154,7 +154,7 @@
 	</type>
 	<type name="TomatoSeeds">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -165,8 +165,8 @@
 	</type>
 	<type name="TomatoSeedsPack">
 		<nominal>30</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -177,7 +177,7 @@
 	</type>
 	<type name="ZucchiniSeeds">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -188,8 +188,8 @@
 	</type>
 	<type name="ZucchiniSeedsPack">
 		<nominal>30</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>

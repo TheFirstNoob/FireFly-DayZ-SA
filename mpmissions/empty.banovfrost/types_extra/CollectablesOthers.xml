@@ -2,8 +2,8 @@
 <types>
 	<type name="Expansion_Guitar">
 		<nominal>3</nominal>
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -15,8 +15,8 @@
 	</type>
 	<type name="Expansion_Guitar_old">
 		<nominal>3</nominal>
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -26,4 +26,6 @@
 		<value name="Tier2"/>
 		<value name="Tier3"/>
 	</type>
+	
+	<!-- Where eggs? -->
 </types>

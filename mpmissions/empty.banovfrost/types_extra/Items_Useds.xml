@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
 	<type name="AlarmClock_Blue">
-		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>15</min>
+		<nominal>10</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>10</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -16,10 +16,10 @@
 		<usage name="School"/>
 	</type>
 	<type name="AlarmClock_Green">
-		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>15</min>
+		<nominal>10</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>10</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -31,10 +31,10 @@
 		<usage name="School"/>
 	</type>
 	<type name="AlarmClock_Red">
-		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>15</min>
+		<nominal>10</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>10</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -46,10 +46,10 @@
 		<usage name="School"/>
 	</type>
 	<type name="KitchenTimer">
-		<nominal>25</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>15</min>
+		<nominal>10</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>10</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -62,7 +62,7 @@
 	
 	<type name="Bait">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>3600</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -73,7 +73,7 @@
 	</type>
 	<type name="Bone">
 		<nominal>0</nominal>
-		<lifetime>7200</lifetime>
+		<lifetime>3600</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -84,7 +84,7 @@
 	</type>
 	<type name="BoneBait">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>3600</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -95,9 +95,9 @@
 	</type>
 	<type name="Hook">
 		<nominal>50</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>40</min>
+		<lifetime>3600</lifetime>
+		<restock>3600</restock>
+		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -108,7 +108,7 @@
 	</type>
 	<type name="BoneHook">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>3600</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -119,7 +119,7 @@
 	</type>
 	<type name="WoodenHook">
 		<nominal>0</nominal>
-		<lifetime>7200</lifetime>
+		<lifetime>3600</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -131,7 +131,7 @@
 
 	<type name="Bark_Birch">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>3600</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -142,7 +142,7 @@
 	</type>
 	<type name="Bark_Oak">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>3600</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -153,7 +153,7 @@
 	</type>
 	<type name="LongWoodenStick">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>3600</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -164,10 +164,10 @@
 	</type>
 	
 	<type name="BurlapSack">
-		<nominal>100</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>80</min>
+		<nominal>50</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -178,7 +178,7 @@
 	</type>
 	<type name="BurlapSackCover">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>3600</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -189,7 +189,7 @@
 	</type>
 	<type name="BurlapStrip">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>3600</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -201,7 +201,7 @@
 	
 	<type name="ChickenFeather">
 		<nominal>0</nominal>
-		<lifetime>7200</lifetime>
+		<lifetime>3600</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -212,7 +212,7 @@
 	</type>
 	<type name="Paper">
 		<nominal>0</nominal>
-		<lifetime>7200</lifetime>
+		<lifetime>1800</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -224,8 +224,8 @@
 	
 	<type name="Pen_Black">
 		<nominal>0</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
+		<lifetime>4000</lifetime>
+		<restock>3600</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -240,8 +240,8 @@
 	</type>
 	<type name="Pen_Blue">
 		<nominal>0</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
+		<lifetime>4000</lifetime>
+		<restock>3600</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -256,8 +256,8 @@
 	</type>
 	<type name="Pen_Green">
 		<nominal>0</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
+		<lifetime>4000</lifetime>
+		<restock>3600</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -272,8 +272,8 @@
 	</type>
 	<type name="Pen_Red">
 		<nominal>0</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
+		<lifetime>4000</lifetime>
+		<restock>3600</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -289,8 +289,8 @@
 	
 	<type name="Compass">
 		<nominal>70</nominal>
-		<lifetime>14400</lifetime>
-		<restock>1800</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -303,8 +303,8 @@
 	</type>
 	<type name="OrienteeringCompass">
 		<nominal>50</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -319,7 +319,7 @@
 
 	<type name="HandDrillKit">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>3600</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -331,8 +331,8 @@
 
 	<type name="HandcuffKeys">
 		<nominal>10</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>4000</lifetime>
+		<restock>3600</restock>
 		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -345,8 +345,8 @@
 	</type>
 	<type name="Handcuffs">
 		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>4000</lifetime>
+		<restock>3600</restock>
 		<min>10</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -359,7 +359,7 @@
 	</type>
 	<type name="HandcuffsLocked">
 		<nominal>0</nominal>
-		<lifetime>900</lifetime>
+		<lifetime>600</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -370,10 +370,10 @@
 	</type>
 	
 	<type name="BaseRadio">
-		<nominal>2</nominal>
-		<lifetime>14400</lifetime>
-		<restock>1800</restock>
-		<min>1</min>
+		<nominal>0</nominal>
+		<lifetime>180</lifetime>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -384,10 +384,10 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="PersonalRadio">
-		<nominal>40</nominal>
-		<lifetime>28800</lifetime>
+		<nominal>0</nominal>
+		<lifetime>180</lifetime>
 		<restock>0</restock>
-		<min>20</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -402,7 +402,7 @@
 	
 	<type name="Rag">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>3600</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -413,7 +413,7 @@
 	</type>
 	<type name="MouthRag">
 		<nominal>0</nominal>
-		<lifetime>7200</lifetime>
+		<lifetime>3600</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -425,9 +425,9 @@
 	
 	<type name="Roadflare">
 		<nominal>40</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>26</min>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>40</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -442,8 +442,8 @@
 
 	<type name="Rope">
 		<nominal>100</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>80</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -456,7 +456,7 @@
 	
 	<type name="Guts">
 		<nominal>0</nominal>
-		<lifetime>7200</lifetime>
+		<lifetime>3600</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -467,7 +467,7 @@
 	</type>
 	<type name="SmallGuts">
 		<nominal>0</nominal>
-		<lifetime>7200</lifetime>
+		<lifetime>3600</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -479,7 +479,7 @@
 	
 	<type name="WoodenStick">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>3600</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -491,7 +491,7 @@
 	
 	<type name="SmallStone">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>3600</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>15</quantmin>
@@ -502,7 +502,7 @@
 	</type>
 	<type name="Stone">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>3600</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -514,8 +514,8 @@
 	
 	<type name="Chemlight_Blue">
 		<nominal>35</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -528,8 +528,8 @@
 	</type>
 	<type name="Chemlight_Green">
 		<nominal>35</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -542,8 +542,8 @@
 	</type>
 	<type name="Chemlight_Red">
 		<nominal>35</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -556,8 +556,8 @@
 	</type>
 	<type name="Chemlight_White">
 		<nominal>35</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -570,8 +570,8 @@
 	</type>
 	<type name="Chemlight_Yellow">
 		<nominal>35</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -585,7 +585,7 @@
 	
 	<type name="Nail">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>1800</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -596,8 +596,8 @@
 	</type>
 	<type name="NailBox">
 		<nominal>90</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>70</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -610,8 +610,8 @@
 	</type>
 	<type name="Netting">
 		<nominal>50</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -624,8 +624,8 @@
 	
 	<type name="Pot">
 		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>10</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>

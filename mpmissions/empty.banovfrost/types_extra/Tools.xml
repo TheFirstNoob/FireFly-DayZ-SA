@@ -2,8 +2,8 @@
 <types>
 	<type name="DuctTape">
 		<nominal>90</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>70</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -17,8 +17,8 @@
 	</type>
 	<type name="EpoxyPutty">
 		<nominal>50</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -31,8 +31,8 @@
 	
 	<type name="Flashlight">
 		<nominal>90</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>70</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -43,8 +43,8 @@
 	</type>
 	<type name="Matchbox">
 		<nominal>60</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>40</min>
 		<quantmin>10</quantmin>
 		<quantmax>90</quantmax>
@@ -58,8 +58,8 @@
 	</type>
 	<type name="PetrolLighter">
 		<nominal>50</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>30</min>
 		<quantmin>20</quantmin>
 		<quantmax>100</quantmax>
@@ -71,8 +71,8 @@
 	</type>
 	<type name="PortableGasLamp">
 		<nominal>40</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
+		<lifetime>14400</lifetime>
+		<restock>3600</restock>
 		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -85,8 +85,8 @@
 	</type>
 	<type name="PortableGasStove">
 		<nominal>40</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
+		<lifetime>14400</lifetime>
+		<restock>3600</restock>
 		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -98,8 +98,8 @@
 	</type>
 	<type name="SmallGasCanister">
 		<nominal>40</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -111,8 +111,8 @@
 	</type>
 	<type name="MediumGasCanister">
 		<nominal>40</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -124,8 +124,8 @@
 	</type>
 	<type name="LargeGasCanister">
 		<nominal>40</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -138,8 +138,8 @@
 
 	<type name="Jig">
 		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -151,8 +151,8 @@
 
 	<type name="Lockpick">
 		<nominal>50</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>35</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -163,8 +163,8 @@
 	
 	<type name="Battery9V">
 		<nominal>100</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>80</min>
 		<quantmin>50</quantmin>
 		<quantmax>100</quantmax>
@@ -178,7 +178,7 @@
 	<type name="BatteryCharger">
 		<nominal>30</nominal>
 		<lifetime>604800</lifetime>
-		<restock>360</restock>
+		<restock>3600</restock>
 		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -190,7 +190,7 @@
 	<type name="BatteryCharger9V">
 		<nominal>30</nominal>
 		<lifetime>604800</lifetime>
-		<restock>360</restock>
+		<restock>3600</restock>
 		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -227,7 +227,7 @@
 	<type name="CarRadiator">
 		<nominal>60</nominal>
 		<lifetime>28800</lifetime>
-		<restock>0</restock>
+		<restock>3600</restock>
 		<min>40</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -240,7 +240,7 @@
 	<type name="EngineOil">
 		<nominal>75</nominal>
 		<lifetime>28800</lifetime>
-		<restock>0</restock>
+		<restock>3600</restock>
 		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -252,8 +252,8 @@
 	</type>
 	<type name="rag_car_jack">
 		<nominal>75</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -265,8 +265,8 @@
 	</type>
 	<type name="SparkPlug">
 		<nominal>60</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>40</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -278,8 +278,8 @@
 	</type>
 	<type name="GlowPlug">
 		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>12</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -290,7 +290,7 @@
 	</type>
 	<type name="HeadlightH7">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>3600</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -301,8 +301,8 @@
 	</type>
 	<type name="HeadlightH7_Box">
 		<nominal>60</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>40</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -315,8 +315,8 @@
 	
 	<type name="ElectronicRepairKit">
 		<nominal>50</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -328,8 +328,8 @@
 	</type>
 	<type name="SewingKit">
 		<nominal>100</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>80</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -342,8 +342,8 @@
 	</type>
 	<type name="TireRepairKit">
 		<nominal>50</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -355,8 +355,8 @@
 	</type>
 	<type name="WeaponCleaningKit">
 		<nominal>60</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -369,8 +369,8 @@
 	</type>
 	<type name="LeatherSewingKit">
 		<nominal>80</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>60</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -383,8 +383,8 @@
 	</type>
 	<type name="Whetstone">
 		<nominal>80</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>65</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -397,8 +397,8 @@
 	
 	<type name="Binoculars">
 		<nominal>50</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -412,8 +412,8 @@
 	</type>
 	<type name="Rangefinder">
 		<nominal>60</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>40</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -429,8 +429,8 @@
 	
 	<type name="Headtorch_Black">
 		<nominal>120</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>90</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -448,8 +448,8 @@
 	</type>
 	<type name="Headtorch_Grey">
 		<nominal>120</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>90</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -467,8 +467,8 @@
 	</type>
 	<type name="NVGHeadstrap">
 		<nominal>10</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -481,8 +481,8 @@
 	</type>
 	<type name="NVGoggles">
 		<nominal>5</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>3</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -496,8 +496,8 @@
 	
 	<type name="CanOpener">
 		<nominal>70</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -510,8 +510,8 @@
 	</type>
 	<type name="CanisterGasoline">
 		<nominal>50</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -524,8 +524,8 @@
 	
 	<type name="Blowtorch">
 		<nominal>30</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -538,7 +538,7 @@
 	<type name="GPSReceiver">
 		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
-		<restock>0</restock>
+		<restock>3600</restock>
 		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -550,8 +550,8 @@
 	
 	<type name="Pliers">
 		<nominal>70</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -565,51 +565,47 @@
 	
 	<!-- Tactical Flava Mod -->
 	<type name="TF_NVGoggles_AVS9">
-		<nominal>5</nominal>
-		<lifetime>28800</lifetime>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>3</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<usage name="Military"/>
 	</type>
 	<type name="TF_NVGoggles_PVS14">
-		<nominal>5</nominal>
-		<lifetime>28800</lifetime>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
-		<min>3</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<usage name="Military"/>
 	</type>
 	<type name="TF_NVGoggles_PVS15">
-		<nominal>5</nominal>
-		<lifetime>28800</lifetime>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
-		<min>3</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<usage name="Military"/>
 	</type>
 	<type name="TF_NVGoggles_PNV10T">
-		<nominal>5</nominal>
-		<lifetime>28800</lifetime>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
-		<min>3</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<usage name="Military"/>
 	</type>
 </types>

@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
-<!-- CannabisPlus -->
-
-<!-- V2.0 - 10 July 2020 -->
  	<type name="CP_Plant_CannabisSkunk">
 		<lifetime>3888000</lifetime>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
@@ -874,11 +871,10 @@
 		<value name="Tier2"/>
 	</type>
 
-<!-- V2.5 - 23 Nov 2020 -->
 	<type name="CP_Relief_Balm">
 		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
-		<restock>1800</restock>
+		<restock>3600</restock>
 		<min>10</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -886,11 +882,11 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<usage name="Medic"/>
 		<tag name="shelves"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
 		<value name="Tier3"/>
 		<value name="Tier4"/>
 	</type>
-
-<!-- V3.0 - 2022 -->
 	<type name="CP_Pouch">
 		<nominal>10</nominal>
 		<lifetime>3600</lifetime>
@@ -911,17 +907,12 @@
 	<type name="CP_DryPost_Kit">
 		<nominal>0</nominal>
 		<lifetime>7200</lifetime>
-		<restock>1800</restock>
+		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-		<usage name="Industrial"/>
-		<usage name="Farm"/>
-		<usage name="Office"/>
-		<usage name="School"/>
-		<usage name="Prison"/>
 	</type>
 	<type name="CP_DryPost">
 		<lifetime>3888000</lifetime>

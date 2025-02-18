@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
 	<type name="FreezePowder_Sulphur">
-		<nominal>10</nominal>
-		<lifetime>14400</lifetime>
-		<restock>6000</restock>
-		<min>9</min>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -12,10 +12,10 @@
 		<category name="tools"/>
 	</type>
 	<type name="FreezeRef_Sulphur">
-		<nominal>10</nominal>
-		<lifetime>14400</lifetime>
-		<restock>6000</restock>
-		<min>9</min>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -34,21 +34,21 @@
 		<category name="tools"/>
 	</type>
 	<type name="Freezestone_sulphur">
-		<nominal>10</nominal>
-		<lifetime>10800</lifetime>
-		<restock>6000</restock>
-		<min>9</min>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
-		<cost>50</cost>
+		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="tools"/>
 	</type>
 	<type name="FreezeBar_tin">
-		<nominal>10</nominal>
-		<lifetime>14400</lifetime>
-		<restock>6000</restock>
-		<min>9</min>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -56,52 +56,52 @@
 		<category name="tools"/>
 	</type>
 	<type name="FreezeBar_gold">
-		<nominal>10</nominal>
-		<lifetime>14400</lifetime>
-		<restock>6000</restock>
-		<min>9</min>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
-		<cost>50</cost>
+		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
 	</type>
 	<type name="FreezeBar_iron">
-		<nominal>10</nominal>
-		<lifetime>14400</lifetime>
-		<restock>6000</restock>
-		<min>9</min>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
-		<cost>50</cost>
+		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
 	</type>
 	<type name="FreezeBar_silver">
-		<nominal>10</nominal>
-		<lifetime>14400</lifetime>
-		<restock>6000</restock>
-		<min>9</min>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
-		<cost>50</cost>
+		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
 	</type>
 	<type name="FreezeBar_copper">
-		<nominal>10</nominal>
-		<lifetime>14400</lifetime>
-		<restock>6000</restock>
-		<min>9</min>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
-		<cost>50</cost>
+		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
 	</type>
 	<type name="FreezeBar_uranium">
 		<nominal>0</nominal>
-		<lifetime>3888000</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -112,7 +112,7 @@
 	</type>
 	<type name="FreezeBar_Enchanted">
 		<nominal>0</nominal>
-		<lifetime>3888000</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -123,7 +123,7 @@
 	</type>
 	<type name="FreezeBar_Adamantite">
 		<nominal>0</nominal>
-		<lifetime>3888000</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -134,7 +134,7 @@
 	</type>
 	<type name="FreezeBar_Cobalt">
 		<nominal>0</nominal>
-		<lifetime>3888000</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -145,7 +145,7 @@
 	</type>
 	<type name="FreezeBar_Crimant">
 		<nominal>0</nominal>
-		<lifetime>3888000</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -156,7 +156,7 @@
 	</type>
 	<type name="FreezeBar_Eridium">
 		<nominal>0</nominal>
-		<lifetime>3888000</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -167,18 +167,14 @@
 	</type>
 	<type name="FreezeFurnace"> 
 		<nominal>0</nominal>
-		<lifetime>3888000</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<tag name="floor"/>
 		<category name="tools"/>
-		<usage name="Farm"/>
-		<usage name="Industrial"/>
-		<usage name="Village"/>
 	</type>
 	<type name="FreezeFurnace_Static">
 		<nominal>0</nominal>
@@ -189,11 +185,7 @@
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<tag name="floor"/>
 		<category name="tools"/>
-		<usage name="Farm"/>
-		<usage name="Industrial"/>
-		<usage name="Village"/>
 	</type>
 	<type name="FreezeAnvil"> 
 		<nominal>0</nominal>
@@ -204,11 +196,7 @@
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<tag name="floor"/>
 		<category name="tools"/>
-		<usage name="Farm"/>
-		<usage name="Industrial"/>
-		<usage name="Village"/>
 	</type>
 	<type name="FreezeAnvil_Static">
 		<nominal>0</nominal>
@@ -219,130 +207,126 @@
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<tag name="floor"/>
 		<category name="tools"/>
-		<usage name="Farm"/>
-		<usage name="Industrial"/>
-		<usage name="Village"/>
 	</type>
 	<type name="FreezeNugget_uranium">
-		<nominal>10</nominal>
-		<lifetime>10800</lifetime>
-		<restock>6000</restock>
-		<min>9</min>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
-		<cost>50</cost>
+		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="tools"/>
 	</type>
 	<type name="FreezeNugget_tin">
-		<nominal>10</nominal>
-		<lifetime>10800</lifetime>
-		<restock>6000</restock>
-		<min>9</min>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
-		<cost>50</cost>
+		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="tools"/>
 	</type>
 	<type name="FreezeNugget_silver">
-		<nominal>10</nominal>
-		<lifetime>10800</lifetime>
-		<restock>6000</restock>
-		<min>9</min>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
-		<cost>50</cost>
+		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="tools"/>
 	</type>
 	<type name="FreezeNugget_iron">
-		<nominal>10</nominal>
-		<lifetime>10800</lifetime>
-		<restock>6000</restock>
-		<min>9</min>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
-		<cost>50</cost>
+		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="tools"/>
 	</type>
 	<type name="FreezeNugget_gold">
-		<nominal>10</nominal>
-		<lifetime>10800</lifetime>
-		<restock>6000</restock>
-		<min>9</min>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
-		<cost>50</cost>
+		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="tools"/>
 	</type>
 	<type name="FreezeNugget_copper">
-		<nominal>10</nominal>
-		<lifetime>10800</lifetime>
-		<restock>6000</restock>
-		<min>9</min>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
-		<cost>50</cost>
+		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="tools"/>
 	</type>
 	<type name="Freezestone_uranium">
-		<nominal>10</nominal>
-		<lifetime>10800</lifetime>
-		<restock>6000</restock>
-		<min>9</min>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
-		<cost>50</cost>
+		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="tools"/>
 	</type>
 	<type name="Freezestone_tin">
-		<nominal>10</nominal>
-		<lifetime>10800</lifetime>
-		<restock>6000</restock>
-		<min>9</min>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
-		<cost>50</cost>
+		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="tools"/>
 	</type>
 	<type name="Freezestone_silver">
-		<nominal>10</nominal>
-		<lifetime>10800</lifetime>
-		<restock>6000</restock>
-		<min>9</min>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
-		<cost>50</cost>
+		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="tools"/>
 	</type>
 	<type name="Freezestone_iron">
-		<nominal>10</nominal>
-		<lifetime>10800</lifetime>
-		<restock>6000</restock>
-		<min>9</min>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
-		<cost>50</cost>
+		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="tools"/>
 	</type>
 	<type name="Freezestone_gold">
-		<nominal>10</nominal>
-		<lifetime>10800</lifetime>
-		<restock>6000</restock>
-		<min>9</min>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
-		<cost>50</cost>
+		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="tools"/>
 	</type>
@@ -358,153 +342,153 @@
 		<category name="tools"/>
 	</type>
 	<type name="FreezeGem_Amethyst_Cut">
-		<nominal>10</nominal>
-		<lifetime>10800</lifetime>
-		<restock>6000</restock>
-		<min>9</min>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
-		<cost>50</cost>
+		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="tools"/>
 	</type>
 	<type name="FreezeGem_Jade_Cut">
-		<nominal>10</nominal>
-		<lifetime>10800</lifetime>
-		<restock>6000</restock>
-		<min>9</min>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
-		<cost>50</cost>
+		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="tools"/>
 	</type>
 	<type name="FreezeGem_Turquoise_Cut">
-		<nominal>10</nominal>
-		<lifetime>10800</lifetime>
-		<restock>6000</restock>
-		<min>9</min>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
-		<cost>50</cost>
+		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="tools"/>
 	</type>
 	<type name="FreezeGem_Ruby_Cut">
-		<nominal>10</nominal>
-		<lifetime>10800</lifetime>
-		<restock>6000</restock>
-		<min>9</min>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
-		<cost>50</cost>
+		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="tools"/>
 	</type>
 	<type name="FreezeGem_Iolite_Cut">
-		<nominal>10</nominal>
-		<lifetime>10800</lifetime>
-		<restock>6000</restock>
-		<min>9</min>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
-		<cost>50</cost>
+		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="tools"/>
 	</type>
 	<type name="FreezeGem_FancyColourDiamond_Cut">
-		<nominal>10</nominal>
-		<lifetime>10800</lifetime>
-		<restock>6000</restock>
-		<min>9</min>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
-		<cost>50</cost>
+		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="tools"/>
 	</type>
 	<type name="FreezeGem_Aquamarine_Cut">
-		<nominal>10</nominal>
-		<lifetime>10800</lifetime>
-		<restock>6000</restock>
-		<min>9</min>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
-		<cost>50</cost>
+		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="tools"/>
 	</type>
 	<type name="FreezeGem_Amber_Cut">
-		<nominal>10</nominal>
-		<lifetime>10800</lifetime>
-		<restock>6000</restock>
-		<min>9</min>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
-		<cost>50</cost>
+		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="tools"/>
 	</type>
 	<type name="FreezeGem_Amethyst">
-		<nominal>10</nominal>
-		<lifetime>10800</lifetime>
-		<restock>6000</restock>
-		<min>9</min>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
-		<cost>50</cost>
+		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="tools"/>
 	</type>
 	<type name="FreezeGem_Jade">
-		<nominal>10</nominal>
-		<lifetime>10800</lifetime>
-		<restock>6000</restock>
-		<min>9</min>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
-		<cost>50</cost>
+		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="tools"/>
 	</type>
 	<type name="FreezeGem_Turquoise">
-		<nominal>10</nominal>
-		<lifetime>10800</lifetime>
-		<restock>6000</restock>
-		<min>9</min>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
-		<cost>50</cost>
+		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="tools"/>
 	</type>
 	<type name="FreezeGem_Ruby">
-		<nominal>10</nominal>
-		<lifetime>10800</lifetime>
-		<restock>6000</restock>
-		<min>9</min>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
-		<cost>50</cost>
+		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="tools"/>
 	</type>
 	<type name="FreezeGem_Iolite">
-		<nominal>10</nominal>
-		<lifetime>10800</lifetime>
-		<restock>6000</restock>
-		<min>9</min>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
-		<cost>50</cost>
+		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="tools"/>
 	</type>
 	<type name="FreezeGem_Aquamarine">
-		<nominal>10</nominal>
-		<lifetime>10800</lifetime>
-		<restock>6000</restock>
-		<min>9</min>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -524,7 +508,7 @@
 	</type>
 	<type name="FreezeGrindingStone"> 
 		<nominal>0</nominal>
-		<lifetime>3888000</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>

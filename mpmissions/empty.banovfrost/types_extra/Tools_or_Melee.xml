@@ -2,7 +2,7 @@
 <types>
 	<type name="BarbedBaseballBat">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -13,8 +13,8 @@
 	</type>
 	<type name="BarbedWire">
 		<nominal>60</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -26,8 +26,8 @@
 	</type>
 	<type name="BaseballBat">
 		<nominal>80</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -40,7 +40,7 @@
 	</type>
 	<type name="BoneKnife">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>3600</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -51,8 +51,8 @@
 	</type>
 	<type name="BrassKnuckles_Dull">
 		<nominal>40</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -65,8 +65,8 @@
 	</type>
 	<type name="BrassKnuckles_Shiny">
 		<nominal>30</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -80,10 +80,10 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="Broom">
-		<nominal>100</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>80</min>
+		<nominal>50</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -94,20 +94,20 @@
 		<usage name="Village"/>
 	</type>
 	<type name="Broom_Birch">
-		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>0</min>
+		<nominal>50</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-		<usage name="SeasonalEvent"/>
+		<category name="tools"/>
 	</type>
 	<type name="Cleaver">
 		<nominal>55</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>45</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -119,8 +119,8 @@
 	</type>
 	<type name="CombatKnife">
 		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>10</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -132,8 +132,8 @@
 	</type>
 	<type name="Crowbar">
 		<nominal>70</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -144,8 +144,8 @@
 	</type>
 	<type name="CrudeMachete">
 		<nominal>25</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -159,8 +159,8 @@
 	</type>
 	<type name="FangeKnife">
 		<nominal>5</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -172,8 +172,8 @@
 	</type>
 	<type name="FarmingHoe">
 		<nominal>70</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -185,8 +185,8 @@
 	</type>
 	<type name="FirefighterAxe">
 		<nominal>10</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -198,7 +198,7 @@
 	</type>
 	<type name="FirefighterAxe_Black">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -209,7 +209,7 @@
 	</type>
 	<type name="FirefighterAxe_Green">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -220,8 +220,8 @@
 	</type>
 	<type name="FishingRod">
 		<nominal>35</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -232,7 +232,7 @@
 	</type>
 	<type name="ImprovisedFishingRod">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -243,8 +243,8 @@
 	</type>
 	<type name="FryingPan">
 		<nominal>40</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -256,8 +256,8 @@
 	</type>
 	<type name="Iceaxe">
 		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>13</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -272,8 +272,8 @@
 	</type>
 	<type name="Hacksaw">
 		<nominal>70</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -285,8 +285,8 @@
 	</type>
 	<type name="Hammer">
 		<nominal>45</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>40</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -298,8 +298,8 @@
 	</type>
 	<type name="HandSaw">
 		<nominal>70</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -311,8 +311,8 @@
 	</type>
 	<type name="Hatchet">
 		<nominal>80</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>60</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -325,8 +325,8 @@
 	</type>
 	<type name="HuntingKnife">
 		<nominal>60</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -338,8 +338,8 @@
 	</type>
 	<type name="KitchenKnife">
 		<nominal>60</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -351,8 +351,8 @@
 	</type>
 	<type name="KukriKnife">
 		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>10</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -364,8 +364,8 @@
 	</type>
 	<type name="LugWrench">
 		<nominal>60</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>40</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -376,8 +376,8 @@
 	</type>
 	<type name="Mace">
 		<nominal>2</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -388,8 +388,8 @@
 	</type>
 	<type name="Machete">
 		<nominal>25</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -403,8 +403,8 @@
 	</type>
 	<type name="MeatTenderizer">
 		<nominal>70</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>60</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -416,7 +416,7 @@
 	</type>
 	<type name="NailedBaseballBat">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -428,7 +428,7 @@
 	<type name="NylonKnifeSheath">
 		<nominal>30</nominal>
 		<lifetime>28800</lifetime>
-		<restock>0</restock>
+		<restock>3600</restock>
 		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -440,8 +440,8 @@
 	</type>
 	<type name="OrientalMachete">
 		<nominal>3</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -454,8 +454,8 @@
 	</type>
 	<type name="Pickaxe">
 		<nominal>50</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>40</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -470,8 +470,8 @@
 	</type>
 	<type name="Pipe">
 		<nominal>80</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>60</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -483,7 +483,7 @@
 	<type name="PipeWrench">
 		<nominal>70</nominal>
 		<lifetime>28800</lifetime>
-		<restock>0</restock>
+		<restock>3600</restock>
 		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -497,8 +497,8 @@
 	</type>
 	<type name="Pitchfork">
 		<nominal>55</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>45</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -509,8 +509,8 @@
 	</type>
 	<type name="Screwdriver">
 		<nominal>50</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -523,8 +523,8 @@
 	</type>
 	<type name="SharpWoodenStick">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -534,8 +534,8 @@
 	</type>
 	<type name="FieldShovel">
 		<nominal>35</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>28</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -546,8 +546,8 @@
 	</type>
 	<type name="Sickle">
 		<nominal>50</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>35</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -560,8 +560,8 @@
 	</type>
 	<type name="Shovel">
 		<nominal>50</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>35</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -577,8 +577,8 @@
 	</type>
 	<type name="SledgeHammer">
 		<nominal>70</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -590,7 +590,7 @@
 	</type>
 	<type name="SpearBone">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>3600</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -601,7 +601,7 @@
 	</type>
 	<type name="SpearStone">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>3600</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -612,8 +612,8 @@
 	</type>
 	<type name="SteakKnife">
 		<nominal>70</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>60</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -626,7 +626,7 @@
 	</type>
 	<type name="StoneKnife">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -637,8 +637,8 @@
 	</type>
 	<type name="WoodAxe">
 		<nominal>50</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>35</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -654,8 +654,8 @@
 	</type>
 	<type name="Wrench">
 		<nominal>70</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>

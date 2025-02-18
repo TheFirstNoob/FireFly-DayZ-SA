@@ -104,8 +104,8 @@
 	</type>
 	<type name="GreenBellPepper">
 		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -155,7 +155,7 @@
 	</type>
 	<type name="Potato">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -166,7 +166,7 @@
 	</type>
 	<type name="Pumpkin">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -177,7 +177,7 @@
 	</type>
 	<type name="SlicedPumpkin">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -188,8 +188,8 @@
 	</type>
 	<type name="Tomato">
 		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -205,8 +205,8 @@
 	</type>
 	<type name="Zucchini">
 		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -225,7 +225,7 @@
 	<!-- РЫБА -->
 	<type name="Bitterlings">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -236,7 +236,7 @@
 	</type>
 	<type name="Carp">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -247,7 +247,7 @@
 	</type>
 	<type name="Mackerel">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -269,7 +269,7 @@
 	</type>
 	<type name="WalleyePollock">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -279,7 +279,7 @@
 	</type>
 	<type name="RedCaviar">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -291,8 +291,8 @@
 	<!-- БАНОЧКИ -->
 	<type name="BakedBeansCan">
 		<nominal>15</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>12</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -308,7 +308,7 @@
 	</type>
 	<type name="BakedBeansCan_Opened">
 		<nominal>0</nominal>
-		<lifetime>9000</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -319,8 +319,8 @@
 	</type>
 	<type name="CrabCan">
 		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -335,7 +335,7 @@
 	</type>
 	<type name="CrabCan_Opened">
 		<nominal>0</nominal>
-		<lifetime>9000</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -346,8 +346,8 @@
 	</type>
 	<type name="BrisketSpread">
 		<nominal>23</nominal>
-		<lifetime>9000</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>18</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -362,7 +362,7 @@
 	</type>
 	<type name="BrisketSpread_Opened">
 		<nominal>0</nominal>
-		<lifetime>5400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -373,8 +373,8 @@
 	</type>
 	<type name="CatFoodCan">
 		<nominal>15</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>12</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -391,7 +391,7 @@
 	</type>
 	<type name="CatFoodCan_Opened">
 		<nominal>0</nominal>
-		<lifetime>9000</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -402,8 +402,8 @@
 	</type>
 	<type name="DogFoodCan">
 		<nominal>15</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>12</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -421,7 +421,7 @@
 	</type>
 	<type name="DogFoodCan_Opened">
 		<nominal>0</nominal>
-		<lifetime>9000</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -432,8 +432,8 @@
 	</type>
 	<type name="Lunchmeat">
 		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -449,7 +449,7 @@
 	</type>
 	<type name="Lunchmeat_Opened">
 		<nominal>0</nominal>
-		<lifetime>9000</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -460,8 +460,8 @@
 	</type>
 	<type name="Pajka">
 		<nominal>23</nominal>
-		<lifetime>9000</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>18</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -477,7 +477,7 @@
 	</type>
 	<type name="Pajka_Opened">
 		<nominal>0</nominal>
-		<lifetime>5400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -488,8 +488,8 @@
 	</type>
 	<type name="Pate">
 		<nominal>23</nominal>
-		<lifetime>9000</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>18</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -505,7 +505,7 @@
 	</type>
 	<type name="Pate_Opened">
 		<nominal>0</nominal>
-		<lifetime>5400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -516,8 +516,8 @@
 	</type>
 	<type name="PeachesCan">
 		<nominal>15</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>12</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -534,7 +534,7 @@
 	</type>
 	<type name="PeachesCan_Opened">
 		<nominal>0</nominal>
-		<lifetime>9000</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -545,8 +545,8 @@
 	</type>
 	<type name="PorkCan">
 		<nominal>15</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>12</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -564,7 +564,7 @@
 	</type>
 	<type name="PorkCan_Opened">
 		<nominal>0</nominal>
-		<lifetime>9000</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -575,8 +575,8 @@
 	</type>
 	<type name="SardinesCan">
 		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -591,7 +591,7 @@
 	</type>
 	<type name="SardinesCan_Opened">
 		<nominal>0</nominal>
-		<lifetime>9000</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -602,8 +602,8 @@
 	</type>
 	<type name="SpaghettiCan">
 		<nominal>15</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>12</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -620,7 +620,7 @@
 	</type>
 	<type name="SpaghettiCan_Opened">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -631,8 +631,8 @@
 	</type>
 	<type name="TacticalBaconCan">
 		<nominal>10</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -644,7 +644,7 @@
 	</type>
 	<type name="TacticalBaconCan_Opened">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -655,8 +655,8 @@
 	</type>
 	<type name="TunaCan">
 		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -671,7 +671,7 @@
 	</type>
 	<type name="TunaCan_Opened">
 		<nominal>0</nominal>
-		<lifetime>9000</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -682,8 +682,8 @@
 	</type>
 	<type name="UnknownFoodCan">
 		<nominal>43</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>37</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -698,7 +698,7 @@
 	</type>
 	<type name="UnknownFoodCan_Opened">
 		<nominal>0</nominal>
-		<lifetime>9000</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -711,8 +711,8 @@
 	<!-- ПРОЧАЯ ЕДА -->
 	<type name="BoxCerealCrunchin">
 		<nominal>23</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>18</min>
 		<quantmin>10</quantmin>
 		<quantmax>100</quantmax>
@@ -727,7 +727,7 @@
 	<type name="Chips">
 		<nominal>23</nominal>
 		<lifetime>7200</lifetime>
-		<restock>0</restock>
+		<restock>3600</restock>
 		<min>18</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -743,7 +743,7 @@
 	<type name="Crackers">
 		<nominal>23</nominal>
 		<lifetime>7200</lifetime>
-		<restock>0</restock>
+		<restock>3600</restock>
 		<min>18</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -759,8 +759,8 @@
 	</type>
 	<type name="Honey">
 		<nominal>15</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>12</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -779,7 +779,7 @@
 	</type>
 	<type name="Lard">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -790,8 +790,8 @@
 	</type>
 	<type name="Marmalade">
 		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -806,8 +806,8 @@
 	</type>
 	<type name="PowderedMilk">
 		<nominal>15</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>12</min>
 		<quantmin>10</quantmin>
 		<quantmax>100</quantmax>
@@ -823,8 +823,8 @@
 	</type>
 	<type name="Rice">
 		<nominal>20</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>15</min>
 		<quantmin>10</quantmin>
 		<quantmax>100</quantmax>
@@ -839,7 +839,7 @@
 	<type name="SaltySticks">
 		<nominal>23</nominal>
 		<lifetime>7200</lifetime>
-		<restock>0</restock>
+		<restock>3600</restock>
 		<min>18</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -855,8 +855,8 @@
 	</type>
 	<type name="Zagorky">
 		<nominal>15</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>12</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -875,8 +875,8 @@
 	</type>
 	<type name="ZagorkyChocolate">
 		<nominal>15</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>12</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -888,8 +888,8 @@
 	</type>
 	<type name="ZagorkyPeanuts">
 		<nominal>15</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>12</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -906,7 +906,7 @@
 	<!-- МЯСО -->
 	<type name="BoarSteakMeat">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -917,7 +917,7 @@
 	</type>
 	<type name="BearSteakMeat">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -928,7 +928,7 @@
 	</type>
 	<type name="CarpFilletMeat">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -939,7 +939,7 @@
 	</type>
 	<type name="ChickenBreastMeat">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -950,7 +950,7 @@
 	</type>
 	<type name="CowSteakMeat">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -961,7 +961,7 @@
 	</type>
 	<type name="DeerSteakMeat">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -972,7 +972,7 @@
 	</type>
 	<type name="GoatSteakMeat">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -983,7 +983,7 @@
 	</type>
 	<type name="HumanSteakMeat">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>1800</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -994,7 +994,7 @@
 	</type>
 	<type name="MackerelFilletMeat">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -1005,7 +1005,7 @@
 	</type>
 	<type name="PigSteakMeat">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -1016,7 +1016,7 @@
 	</type>
 	<type name="RabbitLegMeat">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -1027,7 +1027,7 @@
 	</type>
 	<type name="SheepSteakMeat">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -1038,7 +1038,7 @@
 	</type>
 	<type name="WolfSteakMeat">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -1049,7 +1049,7 @@
 	</type>
 	<type name="ReindeerSteakMeat">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -1059,7 +1059,7 @@
 	</type>
 	<type name="WalleyePollockFilletMeat">
 		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -1071,8 +1071,8 @@
 	<!-- ВОДА/НАПИТКИ -->
 	<type name="Canteen">
 		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>10</min>
 		<quantmin>10</quantmin>
 		<quantmax>90</quantmax>
@@ -1084,8 +1084,8 @@
 	</type>
 	<type name="WaterBottle">
 		<nominal>130</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>100</min>
 		<quantmin>20</quantmin>
 		<quantmax>70</quantmax>
@@ -1094,8 +1094,8 @@
 	</type>
 	<type name="FilteringBottle">
 		<nominal>30</nominal>
-		<lifetime>14400</lifetime>
-		<restock>7200</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>20</min>
 		<quantmin>10</quantmin>
 		<quantmax>90</quantmax>
@@ -1107,8 +1107,8 @@
 	</type>
 	<type name="GlassBottle">
 		<nominal>40</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>20</min>
 		<quantmin>20</quantmin>
 		<quantmax>70</quantmax>
@@ -1117,8 +1117,8 @@
 	</type>
 	<type name="SodaCan_Cola">
 		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>16</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -1131,8 +1131,8 @@
 	</type>
 	<type name="SodaCan_Fronta">
 		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>16</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -1145,8 +1145,8 @@
 	</type>
 	<type name="SodaCan_Kvass">
 		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>16</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -1159,8 +1159,8 @@
 	</type>
 	<type name="SodaCan_Pipsi">
 		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>16</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -1173,8 +1173,8 @@
 	</type>
 	<type name="SodaCan_Spite">
 		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>16</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
