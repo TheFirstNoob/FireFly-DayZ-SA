@@ -1,65 +1,64 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
-	<type name="AirborneMask">
-		<nominal>10</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
-		<min>8</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="clothes"/>
-		<usage name="Medic"/>
-		<usage name="Firefighter"/>
-	</type>
 	<type name="GP5GasMask">
 		<nominal>10</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>8</min>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>10</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<usage name="Military"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
 		<value name="Tier3"/>
 		<value name="Tier4"/>
 	</type>
+
 	<type name="GasMask">
-		<nominal>10</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>8</min>
+		<nominal>20</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>20</min>
 		<quantmin>20</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<usage name="Military"/>
+		<usage name="Firefighter"/>
+		<usage name="Prison"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
 	</type>
 
 	<type name="GasMask_Filter">
-		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>15</min>
+		<nominal>30</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>30</min>
 		<quantmin>20</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<tag name="shelves"/>
-		<usage name="Medic"/>
+		<tag name="civilian"/>
+		<usage name="Military"/>
 		<usage name="Firefighter"/>
+		<usage name="Prison"/>
+		<usage name="Medic"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="GasMask_Filter_Improvised">
 		<nominal>0</nominal>
-		<lifetime>28800</lifetime>
+		<lifetime>3600</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -70,122 +69,156 @@
 	</type>
 
 	<type name="Balaclava3Holes_Beige">
-		<nominal>10</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>5</min>
+		<nominal>2</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<usage name="Town"/>
-		<usage name="Village"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
+		<usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="Balaclava3Holes_Black">
-		<nominal>5</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<nominal>2</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<usage name="Military"/>
-		<usage name="Police"/>
-		<usage name="Town"/>
-		<usage name="Village"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
+		<usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="Balaclava3Holes_Blue">
-		<nominal>10</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>5</min>
+		<nominal>2</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<usage name="Town"/>
-		<usage name="Village"/>
+		<usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
 		<value name="Tier1"/>
-		<value name="Tier2"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="Balaclava3Holes_Green">
-		<nominal>7</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>3</min>
+		<nominal>2</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<usage name="Town"/>
-		<usage name="Village"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
+		<usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="Balaclava3Holes_White">
-		<nominal>3</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>1</min>
+		<nominal>2</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<usage name="Town"/>
-		<usage name="Village"/>
+		<usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
 		<value name="Tier1"/>
-		<value name="Tier2"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="BalaclavaMask_Beige">
-		<nominal>7</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
-		<min>3</min>
+		<nominal>2</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<tag name="shelves"/>
-		<usage name="Industrial"/>
-		<usage name="Town"/>
-		<usage name="Village"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
+		<usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="BalaclavaMask_Black">
-		<nominal>5</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
+		<nominal>2</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<tag name="shelves"/>
-		<usage name="Police"/>
-		<usage name="Industrial"/>
-		<usage name="Town"/>
-		<usage name="Village"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
+		<usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="BalaclavaMask_Blackskull">
-		<nominal>5</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
+		<nominal>2</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -193,218 +226,308 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<tag name="shelves"/>
-		<usage name="Military"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
+		<usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="BalaclavaMask_Blue">
-		<nominal>10</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
-		<min>5</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="clothes"/>
-		<tag name="shelves"/>
-		<usage name="Industrial"/>
-		<usage name="Town"/>
-		<usage name="Village"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-	</type>
-	<type name="BalaclavaMask_Green">
-		<nominal>10</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
-		<min>5</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="clothes"/>
-		<tag name="shelves"/>
-		<usage name="Military"/>
-		<usage name="Industrial"/>
-		<usage name="Town"/>
-		<usage name="Village"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
-	</type>
-	<type name="BalaclavaMask_Pink">
-		<nominal>10</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
-		<min>5</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="clothes"/>
-		<tag name="shelves"/>
-		<usage name="Industrial"/>
-		<usage name="Town"/>
-		<usage name="Village"/>
-		<value name="Tier1"/>
-	</type>
-	<type name="BalaclavaMask_White">
-		<nominal>15</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
-		<min>10</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="clothes"/>
-		<tag name="shelves"/>
-		<usage name="Industrial"/>
-		<usage name="Town"/>
-		<usage name="Village"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-	</type>
-	<type name="BalaclavaMask_BDU">
-		<nominal>5</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
+		<nominal>2</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<usage name="Military"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
+		<usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+	</type>
+	<type name="BalaclavaMask_Green">
+		<nominal>2</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+	</type>
+	<type name="BalaclavaMask_Pink">
+		<nominal>2</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+	</type>
+	<type name="BalaclavaMask_White">
+		<nominal>2</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+	</type>
+	<type name="BalaclavaMask_BDU">
+		<nominal>2</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="BalaclavaMask_Chain">
 		<nominal>2</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
-		<min>1</min>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
+		<usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="BalaclavaMask_Pig">
 		<nominal>2</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
-		<min>1</min>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
+		<usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="Bandana_Blackpattern">
-		<nominal>12</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>8</min>
+		<nominal>2</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<usage name="Town"/>
-		<usage name="Village"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
+		<usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="Bandana_Camopattern">
-		<nominal>12</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>8</min>
+		<nominal>2</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<usage name="Town"/>
-		<usage name="Village"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
+		<usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="Bandana_Greenpattern">
-		<nominal>12</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>8</min>
+		<nominal>2</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<usage name="Town"/>
-		<usage name="Village"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
+		<usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="Bandana_Polkapattern">
-		<nominal>12</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>8</min>
+		<nominal>2</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<usage name="Town"/>
-		<usage name="Village"/>
+		<usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="Bandana_Redpattern">
-		<nominal>12</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>8</min>
+		<nominal>2</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<usage name="Town"/>
-		<usage name="Village"/>
+		<usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
+
 	<type name="OKZKCap_Green">
-		<nominal>8</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>5</min>
+		<nominal>4</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>4</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<usage name="Military"/>
+		<usage name="Hunting"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="OKZKCap_Beige">
-		<nominal>8</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>5</min>
+		<nominal>4</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>4</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<usage name="Military"/>
+		<usage name="Hunting"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
+
 	<type name="NioshFaceMask">
-		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>15</min>
+		<nominal>30</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -412,59 +535,97 @@
 		<category name="clothes"/>
 		<usage name="Medic"/>
 		<usage name="Industrial"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
+
 	<type name="SurgicalMask">
 		<nominal>15</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>8</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="clothes"/>
-		<usage name="Medic"/>
-	</type>
-	<type name="WeldingMask">
-		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
+		<usage name="Medic"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+	</type>
+
+	<type name="WeldingMask">
+		<nominal>2</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
 		<usage name="Industrial"/>
+		<usage name="Farm"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="TF_WeldingMask_Tagilla">
+		<nominal>2</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Industrial"/>
+		<usage name="Farm"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="TF_WeldingMask">
+		<nominal>2</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Industrial"/>
+		<usage name="Farm"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	
 	<!-- Tactical Flava Mod -->
 	<type name="TF_PMK4GasMask">
-		<nominal>5</nominal>
-		<lifetime>14400</lifetime>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
-		<min>3</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<usage name="Military"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
 	</type>
 	<type name="TF_PMK4GasMask_OD">
-		<nominal>5</nominal>
-		<lifetime>14400</lifetime>
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
-		<min>3</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<usage name="Military"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
 	</type>
 </types>

@@ -2,9 +2,9 @@
 <types>
 	<type name="ChestHolster">
 		<nominal>40</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>30</min>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>40</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -12,8 +12,11 @@
 		<category name="clothes"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
+		<usage name="Hunting"/>
+		<usage name="Police"/>
+		<usage name="Prison"/>
+		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
-		<value name="Tier4"/>
 	</type>
 </types>

@@ -1,161 +1,84 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
 	<type name="AK_Bayonet">
-		<nominal>15</nominal>
+		<nominal>0</nominal>
 		<lifetime>7200</lifetime>
-		<restock>3600</restock>
-		<min>15</min>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<usage name="Farm"/>
-		<usage name="Historical"/>
-		<usage name="Prison"/>
-		<usage name="Coast"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-		<usage name="Office"/>
-        <usage name="School"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
 	</type>
 	<type name="M9A1_Bayonet">
-		<nominal>15</nominal>
+		<nominal>0</nominal>
 		<lifetime>7200</lifetime>
-		<restock>3600</restock>
-		<min>15</min>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<usage name="Farm"/>
-		<usage name="Historical"/>
-		<usage name="Prison"/>
-		<usage name="Coast"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-		<usage name="Office"/>
-        <usage name="School"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
 	</type>
 	<type name="Mosin_Bayonet">
-		<nominal>15</nominal>
+		<nominal>0</nominal>
 		<lifetime>7200</lifetime>
-		<restock>3600</restock>
-		<min>15</min>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<usage name="Farm"/>
-		<usage name="Historical"/>
-		<usage name="Prison"/>
-		<usage name="Coast"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-		<usage name="Office"/>
-        <usage name="School"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
 	</type>
 	<type name="SKS_Bayonet">
-		<nominal>15</nominal>
+		<nominal>0</nominal>
 		<lifetime>7200</lifetime>
-		<restock>3600</restock>
-		<min>15</min>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<usage name="Farm"/>
-		<usage name="Historical"/>
-		<usage name="Prison"/>
-		<usage name="Coast"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-		<usage name="Office"/>
-        <usage name="School"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
 	</type>
 	
 	<!-- Tactical Flava Mod -->
 	<type name="TF_AK_6kh5Bayonet">
-		<nominal>15</nominal>
+		<nominal>0</nominal>
 		<lifetime>7200</lifetime>
-		<restock>3600</restock>
-		<min>15</min>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<usage name="Farm"/>
-		<usage name="Historical"/>
-		<usage name="Prison"/>
-		<usage name="Coast"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-		<usage name="Office"/>
-        <usage name="School"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
 	</type>
 	<type name="TF_6kh5KnifeSheath">
-		<nominal>15</nominal>
+		<nominal>0</nominal>
 		<lifetime>7200</lifetime>
-		<restock>3600</restock>
-		<min>15</min>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<usage name="Farm"/>
-		<usage name="Historical"/>
-		<usage name="Prison"/>
-		<usage name="Coast"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-		<usage name="Office"/>
-        <usage name="School"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
 	</type>
 
 	<!-- Expansion Mod -->
 	<type name="Expansion_Kar98_Bayonet">
-		<nominal>15</nominal>
+		<nominal>0</nominal>
 		<lifetime>7200</lifetime>
-		<restock>3600</restock>
-		<min>15</min>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<usage name="Farm"/>
-		<usage name="Historical"/>
-		<usage name="Prison"/>
-		<usage name="Coast"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-		<usage name="Office"/>
-        <usage name="School"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
 	</type>
 </types>

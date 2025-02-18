@@ -2,9 +2,9 @@
 <types>
 	<type name="AviatorGlasses">
 		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>10</min>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -14,11 +14,15 @@
 		<usage name="Military"/>
 		<usage name="Police"/>
 		<usage name="Town"/>
+		<usage name="Farm"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="DesignerGlasses">
-		<nominal>30</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<nominal>20</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -26,12 +30,15 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<usage name="Town"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="SportGlasses_Black">
-		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>10</min>
+		<nominal>5</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -43,12 +50,15 @@
 		<usage name="Village"/>
 		<usage name="Office"/>
 		<usage name="School"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="SportGlasses_Blue">
-		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>10</min>
+		<nominal>5</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -60,12 +70,15 @@
 		<usage name="Village"/>
 		<usage name="Office"/>
 		<usage name="School"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="SportGlasses_Green">
-		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>10</min>
+		<nominal>5</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -77,12 +90,15 @@
 		<usage name="Village"/>
 		<usage name="Office"/>
 		<usage name="School"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="SportGlasses_Orange">
-		<nominal>20</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>10</min>
+		<nominal>5</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -94,11 +110,14 @@
 		<usage name="Village"/>
 		<usage name="Office"/>
 		<usage name="School"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="TacticalGoggles">
 		<nominal>8</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>3</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -106,14 +125,15 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<usage name="Military"/>
+		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
 		<value name="Tier4"/>
 	</type>
 	<type name="ThickFramesGlasses">
-		<nominal>30</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<nominal>20</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -122,11 +142,14 @@
 		<category name="clothes"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="ThinFramesGlasses">
 		<nominal>30</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -135,41 +158,53 @@
 		<category name="clothes"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="SkiGoggles_BlackYellow">
-		<nominal>10</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>7</min>
+		<nominal>3</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>3</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<usage name="Town"/>
+		<usage name="Lunapark"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="SkiGoggles_WhiteClear">
-		  <nominal>10</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>7</min>
+		<nominal>3</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>3</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<usage name="Town"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="SkiGoggles_WhiteDark">
-		 <nominal>10</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>7</min>
+		<nominal>3</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>3</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<usage name="Town"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 </types>

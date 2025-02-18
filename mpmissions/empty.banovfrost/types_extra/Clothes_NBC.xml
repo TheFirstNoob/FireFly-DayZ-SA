@@ -1,132 +1,140 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
-	<type name="NBCBootsGray">
-		<nominal>2</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>1</min>
+	<type name="AirborneMask">
+		<nominal>5</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<tag name="floor"/>
-		<usage name="Military"/>
+		<usage name="Medic"/>
+		<value name="Tier4"/>
+	</type>
+	<type name="NBCBootsGray">
+		<nominal>2</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Medic"/>
 		<value name="Tier4"/>
 	</type>
 	<type name="NBCBootsYellow">
-		<nominal>6</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<nominal>2</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Medic"/>
+		<value name="Tier4"/>
+	</type>
+	<type name="NBCGlovesGray">
+		<nominal>4</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>4</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<tag name="floor"/>
 		<usage name="Medic"/>
-		<usage name="Firefighter"/>
-	</type>
-	<type name="NBCGlovesGray">
-		<nominal>2</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>1</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="clothes"/>
-		<usage name="Military"/>
 		<value name="Tier4"/>
 	</type>
 	<type name="NBCGlovesYellow">
-		<nominal>6</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
+		<nominal>4</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>4</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<tag name="floor"/>
 		<usage name="Medic"/>
-		<usage name="Firefighter"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="NBCHoodGray">
 		<nominal>2</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>1</min>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<usage name="Military"/>
+		<usage name="Medic"/>
 		<value name="Tier4"/>
 	</type>
 	<type name="NBCHoodYellow">
-		<nominal>6</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>4</min>
+		<nominal>2</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<tag name="floor"/>
 		<usage name="Medic"/>
-		<usage name="Firefighter"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="NBCJacketGray">
 		<nominal>2</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>1</min>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<usage name="Military"/>
+		<usage name="Medic"/>
 		<value name="Tier4"/>
 	</type>
 	<type name="NBCJacketYellow">
-		<nominal>6</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>4</min>
+		<nominal>2</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<tag name="floor"/>
 		<usage name="Medic"/>
-		<usage name="Firefighter"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="NBCPantsGray">
 		<nominal>2</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>1</min>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<usage name="Military"/>
+		<usage name="Medic"/>
 		<value name="Tier4"/>
 	</type>
 	<type name="NBCPantsYellow">
-		<nominal>6</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>4</min>
+		<nominal>2</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -134,59 +142,58 @@
 		<category name="clothes"/>
 		<tag name="floor"/>
 		<usage name="Medic"/>
-		<usage name="Firefighter"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="NBCBootsWhite">
 		<nominal>2</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>1</min>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<tag name="floor"/>
-		<usage name="Military"/>
+		<usage name="Medic"/>
 		<value name="Tier4"/>
 	</type>
 	<type name="NBCHoodWhite">
 		<nominal>2</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>1</min>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<usage name="Military"/>
+		<usage name="Medic"/>
 		<value name="Tier4"/>
 	</type>
 	<type name="NBCJacketWhite">
 		<nominal>2</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>1</min>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<usage name="Military"/>
+		<usage name="Medic"/>
 		<value name="Tier4"/>
 	</type>
 	<type name="NBCPantsWhite">
 		<nominal>2</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>1</min>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<usage name="Military"/>
+		<usage name="Medic"/>
 		<value name="Tier4"/>
 	</type>
 </types>

@@ -12,6 +12,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 	</type>
+
 	<type name="TF_RifleSling_Black">
 		<nominal>0</nominal>
 		<lifetime>7200</lifetime>
@@ -22,7 +23,6 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<tag name="shelves"/>
 	</type>
 	<type name="TF_RifleSling_Brown">
 		<nominal>0</nominal>
@@ -34,7 +34,6 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<tag name="shelves"/>
 	</type>
 	<type name="TF_RifleSling_OD">
 		<nominal>0</nominal>
@@ -48,6 +47,7 @@
 		<category name="clothes"/>
 		<tag name="shelves"/>
 	</type>
+
 	<type name="TF_AK_Tactica_Tula10000Receiver">
 		<!-- Does not work with vanilla AK-->
 		<nominal>0</nominal>

@@ -69,10 +69,10 @@
 		<category name="weapons"/>
 	</type>
 	<type name="TF_AK_ZenitRK3PistolGrip">
-		<nominal>3</nominal>
+		<nominal>0</nominal>
 		<lifetime>7200</lifetime>
 		<restock>0</restock>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -126,7 +126,6 @@
 
 	<!-- GRIPS -->
 	<type name="TF_SAW_RIS_Grip_FDE">
-		<!-- You can return this to the spawn -->
 		<nominal>0</nominal>
 		<lifetime>7200</lifetime>
 		<restock>0</restock>
@@ -138,7 +137,6 @@
 		<category name="weapons"/>
 	</type>
 	<type name="TF_SAW_RIS_Grip_Black">
-		<!-- You can return this to the spawn -->
 		<nominal>0</nominal>
 		<lifetime>7200</lifetime>
 		<restock>0</restock>
@@ -194,7 +192,6 @@
 		<category name="weapons"/>
 	</type>
 	<type name="TF_BCM_MLOCK_Grip_FDE">
-		<!-- You can return this to the spawn -->
 		<nominal>0</nominal>
 		<lifetime>7200</lifetime>
 		<restock>0</restock>
@@ -206,7 +203,6 @@
 		<category name="weapons"/>
 	</type>
 	<type name="TF_BCM_MLOCK_Grip_Black">
-		<!-- You can return this to the spawn -->
 		<nominal>0</nominal>
 		<lifetime>7200</lifetime>
 		<restock>0</restock>
@@ -218,7 +214,6 @@
 		<category name="weapons"/>
 	</type>
 	<type name="TF_RVG_RIS_Grip_FDE">
-		<!-- You can return this to the spawn -->
 		<nominal>0</nominal>
 		<lifetime>7200</lifetime>
 		<restock>0</restock>
@@ -230,7 +225,6 @@
 		<category name="weapons"/>
 	</type>
 	<type name="TF_RVG_RIS_Grip_Black">
-		<!-- You can return this to the spawn -->
 		<nominal>0</nominal>
 		<lifetime>7200</lifetime>
 		<restock>0</restock>
@@ -242,7 +236,6 @@
 		<category name="weapons"/>
 	</type>
 	<type name="TF_ZenitRK1B25U_RIS_Grip">
-		<!-- You can return this to the spawn -->
 		<nominal>0</nominal>
 		<lifetime>7200</lifetime>
 		<restock>0</restock>

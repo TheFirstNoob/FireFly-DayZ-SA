@@ -12,19 +12,6 @@
 		<lifetime>120</lifetime>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 	</type>
-	<type name="GlowPlug">
-		<nominal>50</nominal>
-		<lifetime>7200</lifetime>
-		<restock>3600</restock>
-		<min>25</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="shelves"/>
-		<usage name="Industrial"/>
-	</type>
 
 	<!-- AMMOBOXES -->
 	<type name="Ammo_Expansion_M203_Smoke_White">
@@ -333,20 +320,6 @@
 		<usage name="Hunting"/>
 	</type>
 	<type name="ExpansionBarrierGateKit">
-		<nominal>10</nominal>
-		<lifetime>7200</lifetime>
-		<restock>0</restock>
-		<min>5</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<usage name="Town"/>
-		<usage name="Village"/>
-		<usage name="Hunting"/>
-	</type>
-	<type name="ExpansionCamoTentKit">
 		<nominal>10</nominal>
 		<lifetime>7200</lifetime>
 		<restock>0</restock>
