@@ -106,7 +106,7 @@
 		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>15</min>
+		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -190,7 +190,7 @@
 		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>15</min>
+		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -207,7 +207,7 @@
 		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>15</min>
+		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -293,7 +293,7 @@
 		<nominal>15</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>12</min>
+		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -321,7 +321,7 @@
 		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>15</min>
+		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -332,6 +332,7 @@
 		<usage name="Office"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="CrabCan_Opened">
 		<nominal>0</nominal>
@@ -348,7 +349,7 @@
 		<nominal>23</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>18</min>
+		<min>23</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -359,6 +360,8 @@
 		<usage name="Office"/>
 		<usage name="School"/>
 		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="BrisketSpread_Opened">
 		<nominal>0</nominal>
@@ -375,7 +378,7 @@
 		<nominal>15</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>12</min>
+		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -404,7 +407,7 @@
 		<nominal>15</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>12</min>
+		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -434,7 +437,7 @@
 		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>15</min>
+		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -446,6 +449,7 @@
 		<usage name="School"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="Lunchmeat_Opened">
 		<nominal>0</nominal>
@@ -462,7 +466,7 @@
 		<nominal>23</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>18</min>
+		<min>23</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -474,6 +478,8 @@
 		<usage name="Office"/>
 		<usage name="School"/>
 		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="Pajka_Opened">
 		<nominal>0</nominal>
@@ -490,7 +496,7 @@
 		<nominal>23</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>18</min>
+		<min>23</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -502,6 +508,8 @@
 		<usage name="Office"/>
 		<usage name="School"/>
 		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="Pate_Opened">
 		<nominal>0</nominal>
@@ -518,7 +526,7 @@
 		<nominal>15</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>12</min>
+		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -547,7 +555,7 @@
 		<nominal>15</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>12</min>
+		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -577,7 +585,7 @@
 		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>15</min>
+		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -588,6 +596,7 @@
 		<usage name="Village"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="SardinesCan_Opened">
 		<nominal>0</nominal>
@@ -604,7 +613,7 @@
 		<nominal>15</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>12</min>
+		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -633,7 +642,7 @@
 		<nominal>10</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>5</min>
+		<min>10</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -641,6 +650,9 @@
 		<category name="food"/>
 		<tag name="shelves"/>
 		<usage name="Military"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="TacticalBaconCan_Opened">
 		<nominal>0</nominal>
@@ -657,7 +669,7 @@
 		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>15</min>
+		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -668,6 +680,7 @@
 		<usage name="Office"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="TunaCan_Opened">
 		<nominal>0</nominal>
@@ -684,7 +697,7 @@
 		<nominal>43</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>37</min>
+		<min>43</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -695,6 +708,9 @@
 		<usage name="Village"/>
 		<usage name="Office"/>
 		<usage name="Prison"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="UnknownFoodCan_Opened">
 		<nominal>0</nominal>
@@ -713,7 +729,7 @@
 		<nominal>23</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>18</min>
+		<min>23</min>
 		<quantmin>10</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
@@ -723,12 +739,14 @@
 		<usage name="Town"/>
 		<usage name="School"/>
 		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="Chips">
 		<nominal>23</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>18</min>
+		<min>23</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -739,12 +757,14 @@
 		<usage name="School"/>
 		<usage name="Lunapark"/>
 		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="Crackers">
 		<nominal>23</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>18</min>
+		<min>23</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -756,12 +776,14 @@
 		<usage name="School"/>
 		<usage name="Lunapark"/>
 		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="Honey">
 		<nominal>15</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>12</min>
+		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -792,7 +814,7 @@
 		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>15</min>
+		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -803,12 +825,13 @@
 		<usage name="School"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="PowderedMilk">
 		<nominal>15</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>12</min>
+		<min>15</min>
 		<quantmin>10</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
@@ -825,7 +848,7 @@
 		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>15</min>
+		<min>20</min>
 		<quantmin>10</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
@@ -835,12 +858,13 @@
 		<usage name="Village"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="SaltySticks">
 		<nominal>23</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>18</min>
+		<min>23</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -852,12 +876,14 @@
 		<usage name="School"/>
 		<usage name="Lunapark"/>
 		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="Zagorky">
 		<nominal>15</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>12</min>
+		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -877,7 +903,7 @@
 		<nominal>15</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>12</min>
+		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -885,12 +911,15 @@
 		<category name="food"/>
 		<tag name="shelves"/>
 		<usage name="Hunting"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="ZagorkyPeanuts">
 		<nominal>15</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>12</min>
+		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -901,6 +930,9 @@
 		<usage name="Office"/>
 		<usage name="School"/>
 		<usage name="Lunapark"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	
 	<!-- МЯСО -->
@@ -1073,7 +1105,7 @@
 		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>10</min>
+		<min>20</min>
 		<quantmin>10</quantmin>
 		<quantmax>90</quantmax>
 		<cost>100</cost>
@@ -1081,9 +1113,13 @@
 		<category name="food"/>
 		<usage name="Military"/>
 		<usage name="Hunting"/>
+		<usage name="Police"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="WaterBottle">
-		<nominal>130</nominal>
+		<nominal>100</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
 		<min>100</min>
@@ -1091,12 +1127,29 @@
 		<quantmax>70</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+        <usage name="Police"/>
+        <usage name="Medic"/>
+        <usage name="Firefighter"/>
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Prison"/>
+        <usage name="Lunapark"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="FilteringBottle">
 		<nominal>30</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>20</min>
+		<min>30</min>
 		<quantmin>10</quantmin>
 		<quantmax>90</quantmax>
 		<cost>100</cost>
@@ -1104,27 +1157,61 @@
 		<category name="food"/>
 		<usage name="Military"/>
 		<usage name="Hunting"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="GlassBottle">
 		<nominal>40</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>20</min>
+		<min>40</min>
 		<quantmin>20</quantmin>
 		<quantmax>70</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<usage name="Police"/>
+        <usage name="Medic"/>
+        <usage name="Firefighter"/>
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Prison"/>
+        <usage name="Lunapark"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="SodaCan_Cola">
 		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>16</min>
+		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
+		<usage name="Police"/>
+        <usage name="Medic"/>
+        <usage name="Firefighter"/>
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Prison"/>
+        <usage name="Lunapark"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
@@ -1133,12 +1220,25 @@
 		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>16</min>
+		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
+		<usage name="Police"/>
+        <usage name="Medic"/>
+        <usage name="Firefighter"/>
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Prison"/>
+        <usage name="Lunapark"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
@@ -1147,12 +1247,25 @@
 		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>16</min>
+		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
+		<usage name="Police"/>
+        <usage name="Medic"/>
+        <usage name="Firefighter"/>
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Prison"/>
+        <usage name="Lunapark"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
@@ -1161,12 +1274,25 @@
 		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>16</min>
+		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
+		<usage name="Police"/>
+        <usage name="Medic"/>
+        <usage name="Firefighter"/>
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Prison"/>
+        <usage name="Lunapark"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
@@ -1175,15 +1301,436 @@
 		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>16</min>
+		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
+		<usage name="Police"/>
+        <usage name="Medic"/>
+        <usage name="Firefighter"/>
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Prison"/>
+        <usage name="Lunapark"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
+	</type>
+	
+	<!-- FireFly Mod -->
+	<type name="SR_Food_Corn">
+		<nominal>20</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>20</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<usage name="Police"/>
+        <usage name="Medic"/>
+        <usage name="Firefighter"/>
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Prison"/>
+        <usage name="Lunapark"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="SR_Food_Corn_Opened">
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+		<category name="food"/>
+	</type>
+	<type name="SR_Food_FreshMarinade">
+		<nominal>15</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>15</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<usage name="Police"/>
+        <usage name="Medic"/>
+        <usage name="Firefighter"/>
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Prison"/>
+        <usage name="Lunapark"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="SR_Food_FreshMarinade_Opened">
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+		<category name="food"/>
+	</type>
+	<type name="SR_Food_TunaMix">
+		<nominal>10</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>10</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<usage name="Police"/>
+        <usage name="Medic"/>
+        <usage name="Firefighter"/>
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Prison"/>
+        <usage name="Lunapark"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="SR_Food_TunaMix_Opened">
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+		<category name="food"/>
+	</type>
+	<type name="SR_Food_Soup">
+		<nominal>5</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>5</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<usage name="Police"/>
+        <usage name="Medic"/>
+        <usage name="Firefighter"/>
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Prison"/>
+        <usage name="Lunapark"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="SR_Food_Soup_Opened">
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+		<category name="food"/>
+	</type>
+	<type name="SR_Food_Jummy">
+		<nominal>9</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>9</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<usage name="Police"/>
+        <usage name="Medic"/>
+        <usage name="Firefighter"/>
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Prison"/>
+        <usage name="Lunapark"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="SR_Food_Chips">
+		<nominal>25</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>25</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<usage name="Police"/>
+        <usage name="Medic"/>
+        <usage name="Firefighter"/>
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Prison"/>
+        <usage name="Lunapark"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="SR_Food_CornFlakes">
+		<nominal>10</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>10</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<usage name="Police"/>
+        <usage name="Medic"/>
+        <usage name="Firefighter"/>
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Prison"/>
+        <usage name="Lunapark"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="SR_Food_WaterMilk">
+		<nominal>15</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>15</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<usage name="Police"/>
+        <usage name="Medic"/>
+        <usage name="Firefighter"/>
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Prison"/>
+        <usage name="Lunapark"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="SR_Food_IRP3">
+		<nominal>4</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>4</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<usage name="Prison"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="SR_Food_IRP18">
+		<nominal>6</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>6</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<usage name="Military"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="SR_Food_IRP22">
+		<nominal>4</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>4</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<usage name="Military"/>
+		<value name="Tier4"/>
+	</type>
+	<type name="SR_Food_IRP30">
+		<nominal>4</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>4</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="civilian"/>
+		<usage name="Underground"/>
+		<usage name="Medic"/>
+		<usage name="Military"/>
+		<usage name="Police"/>
+		<usage name="Industrial"/>
+		<usage name="Village"/>
+		<usage name="ContaminatedArea"/>
+		<value name="Tier5"/>
+	</type>
+	<type name="SR_Food_Fizzo">
+		<nominal>8</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>8</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<usage name="Military"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+	<type name="SR_Food_Fizzo_Orange">
+		<nominal>6</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>6</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<usage name="Firefighter"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+	<type name="SR_Food_Fizzo_Apple">
+		<nominal>9</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>9</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<usage name="Hunting"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+	<type name="SR_Food_Fizzo_Blueberry">
+		<nominal>14</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>14</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<usage name="Police"/>
+		<usage name="Prison"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+	<type name="SR_Food_Fizzo_Lemon">
+		<nominal>10</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>10</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<usage name="Medic"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	
 	<!-- МЕРТВЫЕ ЖИВОТНЫЕ -->

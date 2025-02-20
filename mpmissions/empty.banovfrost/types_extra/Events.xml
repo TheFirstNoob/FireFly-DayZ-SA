@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
 	<type name="EyeMask_Black">
-		<nominal>3</nominal>
+		<nominal>1</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
 		<min>1</min>
@@ -11,9 +11,12 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<usage name="Lunapark"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="EyeMask_Blue">
-		<nominal>3</nominal>
+		<nominal>1</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
 		<min>1</min>
@@ -23,9 +26,12 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<usage name="Lunapark"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="EyeMask_Christmas">
-		<nominal>3</nominal>
+		<nominal>1</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
 		<min>1</min>
@@ -35,9 +41,12 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<usage name="SeasonalEvent"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="EyeMask_Dead">
-		<nominal>3</nominal>
+		<nominal>1</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
 		<min>1</min>
@@ -47,9 +56,12 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<usage name="SeasonalEvent"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="EyeMask_NewYears">
-		<nominal>3</nominal>
+		<nominal>1</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
 		<min>1</min>
@@ -59,9 +71,12 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<usage name="Lunapark"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="EyeMask_Red">
-		<nominal>3</nominal>
+		<nominal>1</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
 		<min>1</min>
@@ -72,9 +87,12 @@
 		<category name="clothes"/>
 		<usage name="Lunapark"/>
 		<usage name="SeasonalEvent"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="EyeMask_Valentines">
-		<nominal>3</nominal>
+		<nominal>1</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
 		<min>1</min>
@@ -84,9 +102,12 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<usage name="Lunapark"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="EyeMask_Yellow">
-		<nominal>3</nominal>
+		<nominal>1</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
 		<min>1</min>
@@ -97,9 +118,12 @@
 		<category name="clothes"/>
 		<usage name="Lunapark"/>
 		<usage name="SeasonalEvent"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="MimeMask_Female">
-		<nominal>3</nominal>
+		<nominal>1</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
 		<min>1</min>
@@ -109,9 +133,12 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<usage name="Lunapark"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="MimeMask_Male">
-		<nominal>3</nominal>
+		<nominal>1</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
 		<min>1</min>
@@ -121,59 +148,74 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<usage name="Lunapark"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	
 	<type name="PaydayMask_Chains">
-		<nominal>4</nominal>
+		<nominal>1</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>2</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<usage name="Lunapark"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="PaydayMask_Dallas">
-		<nominal>4</nominal>
+		<nominal>1</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>2</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<usage name="Lunapark"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="PaydayMask_Hoxton">
-		<nominal>4</nominal>
+		<nominal>1</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>2</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<usage name="Lunapark"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="PaydayMask_Wolf">
-		<nominal>4</nominal>
+		<nominal>1</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>2</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<usage name="Lunapark"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	
 	<type name="CrookedNose">
-		<nominal>3</nominal>
+		<nominal>1</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
 		<min>1</min>
@@ -182,23 +224,29 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<usage name="SeasonalEvent"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	
 	<type name="FireworksLauncher">
-		<nominal>10</nominal>
+		<nominal>2</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>5</min>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
 		<usage name="Lunapark"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	
 	<type name="Megaphone">
-		<nominal>20</nominal>
+		<nominal>10</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
 		<min>10</min>
@@ -211,143 +259,182 @@
 		<usage name="Police"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
+		<usage name="Prison"/>
+		<usage name="Lunapark"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	
 	<type name="GreatHelm">
-		<nominal>4</nominal>
+		<nominal>3</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>2</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="clothes"/>
-		<usage name="Historical"/>	
-	</type>
-	<type name="NorseHelm">
-		<nominal>2</nominal>
-		<lifetime>7200</lifetime>
-		<restock>3600</restock>
-		<min>1</min>
+		<min>3</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<usage name="Historical"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+	</type>
+	<type name="NorseHelm">
+		<nominal>3</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>3</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Historical"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="Chestplate">
 		<nominal>3</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>1</min>
+		<min>3</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<usage name="Historical"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="Chainmail">
-		<nominal>2</nominal>
+		<nominal>3</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>1</min>
+		<min>3</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<usage name="Historical"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="Chainmail_Coif">
-		<nominal>2</nominal>
+		<nominal>3</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>1</min>
+		<min>3</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<usage name="Historical"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="Chainmail_Leggings">
-		<nominal>2</nominal>
+		<nominal>3</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>1</min>
+		<min>3</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<usage name="Historical"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="MedievalBoots">
-		<nominal>2</nominal>
+		<nominal>3</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>1</min>
+		<min>3</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<usage name="Historical"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="Sword">
-		<nominal>2</nominal>
+		<nominal>4</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>1</min>
+		<min>4</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<usage name="Historical"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 
 	<type name="WitchHoodCoif_Black">
-		<nominal>2</nominal>
-		<lifetime>1800</lifetime>
+		<nominal>3</nominal>
+		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>1</min>
+		<min>3</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="clothes"/>
+		<usage name="Lunapark"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="WitchHoodCoif_Brown">
-		<nominal>2</nominal>
-		<lifetime>1800</lifetime>
+		<nominal>3</nominal>
+		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>1</min>
+		<min>3</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="clothes"/>
+		<usage name="Lunapark"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="WitchHoodCoif_Red">
-		<nominal>2</nominal>
-		<lifetime>1800</lifetime>
+		<nominal>3</nominal>
+		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>1</min>
+		<min>3</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="clothes"/>
+		<usage name="Lunapark"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	
 	<type name="PumpkinHelmet">
-		<nominal>2</nominal>
+		<nominal>1</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
 		<min>1</min>
@@ -356,7 +443,8 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<usage name="Farm"/>
+		<usage name="Lunapark"/>
+		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
 	</type>
@@ -365,30 +453,27 @@
 		<nominal>2</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>1</min>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<tag name="shelves"/>
-		<usage name="Town"/>
-		<usage name="Village"/>
 		<usage name="SeasonalEvent"/>
 	</type>
 	<type name="SantasHat">
 		<nominal>2</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>1</min>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<tag name="shelves"/>
-		<usage name="Town"/>
-		<usage name="Village"/>
+		<usage name="SeasonalEvent"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
@@ -398,56 +483,76 @@
 		<nominal>2</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>1</min>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<usage name="SeasonalEvent"/>
+		<usage name="Lunapark"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="WitchHood_Black">
 		<nominal>2</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>1</min>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<usage name="SeasonalEvent"/>
+		<usage name="Lunapark"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="WitchHood_Brown">
 		<nominal>2</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>1</min>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<usage name="SeasonalEvent"/>
+		<usage name="Lunapark"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="WitchHood_Red">
 		<nominal>2</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>1</min>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<usage name="SeasonalEvent"/>
+		<usage name="Lunapark"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="Cauldron">
-		<nominal>10</nominal>
+		<nominal>3</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>10</min>
+		<min>3</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<usage name="SeasonalEvent"/>
+		<usage name="Lunapark"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	
 	<!-- Tactical Flava Mod -->
@@ -461,5 +566,11 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
+		<usage name="Lunapark"/>
+		<usage name="Prison"/>
+		<usage name="School"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 </types>

@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
 	<type name="AntiPestsSpray">
+		<nominal>25</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>25</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="tools"/>
+		<usage name="Village"/>
+		<usage name="Farm"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+	</type>
+	<type name="GardenLime">
 		<nominal>30</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
@@ -10,18 +26,11 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-	</type>
-	<type name="GardenLime">
-		<nominal>50</nominal>
-		<lifetime>7200</lifetime>
-		<restock>3600</restock>
-		<min>30</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
+		<usage name="Village"/>
 		<usage name="Farm"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="PepperSeeds">
 		<nominal>0</nominal>
@@ -35,7 +44,7 @@
 		<category name="tools"/>
 	</type>
 	<type name="PepperSeedsPack">
-		<nominal>30</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
 		<min>25</min>
@@ -45,6 +54,9 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
 		<usage name="Farm"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="PlantMaterial">
 		<nominal>0</nominal>
@@ -113,10 +125,10 @@
 		<category name="tools"/>
 	</type>
 	<type name="PotatoSeed">
-		<nominal>32</nominal>
+		<nominal>40</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>28</min>
+		<min>40</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -141,7 +153,7 @@
 		<category name="tools"/>
 	</type>
 	<type name="PumpkinSeedsPack">
-		<nominal>30</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
 		<min>25</min>
@@ -151,6 +163,9 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
 		<usage name="Farm"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="TomatoSeeds">
 		<nominal>0</nominal>
@@ -167,13 +182,16 @@
 		<nominal>30</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>25</min>
+		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
 		<usage name="Farm"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="ZucchiniSeeds">
 		<nominal>0</nominal>
@@ -190,12 +208,15 @@
 		<nominal>30</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>25</min>
+		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
 		<usage name="Farm"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 </types>

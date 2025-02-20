@@ -2,7 +2,7 @@
 <types>
 	<type name="RemoteDetonator">
 		<nominal>0</nominal>
-		<lifetime>360</lifetime>
+		<lifetime>120</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -13,7 +13,7 @@
 	</type>
 	<type name="RemoteDetonatorReceiver">
 		<nominal>0</nominal>
-		<lifetime>360</lifetime>
+		<lifetime>120</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -24,7 +24,7 @@
 	</type>
 	<type name="RemoteDetonatorTrigger">
 		<nominal>0</nominal>
-		<lifetime>360</lifetime>
+		<lifetime>120</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>

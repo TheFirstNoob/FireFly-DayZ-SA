@@ -8,14 +8,12 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
 		<tag name="shelves"/>
 		<usage name="Medic"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
         <value name="Tier4"/>
+        <value name="Tier5"/>
 	</type>
 	<type name="BandageDressing">
 		<nominal>80</nominal>
@@ -42,7 +40,6 @@
         <usage name="School"/>
         <usage name="Prison"/>
         <usage name="Lunapark"/>
-        <usage name="SeasonalEvent"/>
 		<usage name="Historical"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
@@ -67,10 +64,10 @@
         <value name="Tier4"/>
 	</type>
 	<type name="BloodBagFull">
-		<nominal>10</nominal>
-		<lifetime>7200</lifetime>
-		<restock>3600</restock>
-		<min>10</min>
+		<nominal>0</nominal>
+		<lifetime>3600</lifetime>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -84,7 +81,7 @@
 	</type>
 	<type name="BloodBagIV">
 		<nominal>0</nominal>
-		<lifetime>7200</lifetime>
+		<lifetime>3600</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -117,7 +114,6 @@
         <usage name="School"/>
         <usage name="Prison"/>
         <usage name="Lunapark"/>
-        <usage name="SeasonalEvent"/>
 		<usage name="Historical"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
@@ -125,10 +121,10 @@
         <value name="Tier4"/>
 	</type>
 	<type name="SalineBag">
-		<nominal>25</nominal>
+		<nominal>50</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>25</min>
+		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -142,10 +138,10 @@
         <value name="Tier4"/>
 	</type>
 	<type name="StartKitIV">
-		<nominal>50</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>50</min>
+		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -164,8 +160,8 @@
 	</type>
 	<type name="SalineBagIV">
 		<nominal>0</nominal>
-		<lifetime>7200</lifetime>
-		<restock>7200</restock>
+		<lifetime>3600</lifetime>
+		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -174,17 +170,35 @@
 		<category name="tools"/>
 	</type>
 	<type name="CharcoalTablets">
-		<nominal>40</nominal>
+		<nominal>60</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>40</min>
-		<quantmin>10</quantmin>
-		<quantmax>80</quantmax>
+		<min>60</min>
+		<quantmin>9</quantmin>
+		<quantmax>100</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
 		<tag name="shelves"/>
-		<usage name="Medic"/>
+		<usage name="Military"/>
+        <usage name="Police"/>
+        <usage name="Medic"/>
+        <usage name="Firefighter"/>
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Prison"/>
+        <usage name="Lunapark"/>
+		<usage name="Historical"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
 	</type>
 	<type name="ChelatingTablets">
 		<nominal>30</nominal>
@@ -198,6 +212,10 @@
 		<category name="tools"/>
 		<tag name="shelves"/>
 		<usage name="Medic"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
 	</type>
 	<type name="DisinfectantAlcohol">
 		<nominal>80</nominal>
@@ -210,11 +228,21 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
 		<tag name="shelves"/>
-		<usage name="Medic"/>
 		<usage name="Military"/>
-		<usage name="Police"/>
-		<usage name="Town"/>
-		<usage name="Firefighter"/>
+        <usage name="Police"/>
+        <usage name="Medic"/>
+        <usage name="Firefighter"/>
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Prison"/>
+        <usage name="Lunapark"/>
+		<usage name="Historical"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
@@ -255,6 +283,8 @@
 		<usage name="Medic"/>
 		<usage name="Military"/>
 		<usage name="Firefighter"/>
+		<usage name="Police"/>
+		<usage name="Prison"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
@@ -285,7 +315,6 @@
         <usage name="School"/>
         <usage name="Prison"/>
         <usage name="Lunapark"/>
-        <usage name="SeasonalEvent"/>
 		<usage name="Historical"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
@@ -337,6 +366,7 @@
 		<usage name="Medic"/>
 		<usage name="Military"/>
 		<usage name="Firefighter"/>
+		<usage name="Police"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
@@ -347,18 +377,27 @@
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
 		<min>50</min>
-		<quantmin>10</quantmin>
-		<quantmax>65</quantmax>
+		<quantmin>9</quantmin>
+		<quantmax>100</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
 		<tag name="shelves"/>
-		<usage name="Medic"/>
 		<usage name="Military"/>
-		<usage name="Firefighter"/>
-		<usage name="Industrial"/>
-		<usage name="Town"/>
-		<usage name="Village"/>
+        <usage name="Police"/>
+        <usage name="Medic"/>
+        <usage name="Firefighter"/>
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Prison"/>
+        <usage name="Lunapark"/>
+		<usage name="Historical"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
@@ -366,8 +405,8 @@
 	</type>
 	<type name="PurificationTablets">
 		<nominal>100</nominal>
-		<lifetime>28800</lifetime>
-		<restock>1800</restock>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
 		<min>100</min>
 		<quantmin>10</quantmin>
 		<quantmax>85</quantmax>
@@ -389,7 +428,6 @@
         <usage name="School"/>
         <usage name="Prison"/>
         <usage name="Lunapark"/>
-        <usage name="SeasonalEvent"/>
 		<usage name="Historical"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
@@ -415,12 +453,12 @@
         <value name="Tier4"/>
 	</type>
 	<type name="VitaminBottle">
-		<nominal>80</nominal>
+		<nominal>60</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>80</min>
-		<quantmin>5</quantmin>
-		<quantmax>40</quantmax>
+		<min>60</min>
+		<quantmin>6</quantmin>
+		<quantmax>10</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
@@ -439,7 +477,6 @@
         <usage name="School"/>
         <usage name="Prison"/>
         <usage name="Lunapark"/>
-        <usage name="SeasonalEvent"/>
 		<usage name="Historical"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
@@ -447,26 +484,25 @@
         <value name="Tier4"/>
 	</type>
 	<type name="Thermometer">
-		<nominal>60</nominal>
+		<nominal>30</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>60</min>
+		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
+		<tag name="civilian"/>
+		<tag name="shelves"/>
         <usage name="Medic"/>
         <usage name="Firefighter"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
-        <usage name="Coast"/>
         <usage name="Town"/>
         <usage name="Village"/>
-        <usage name="Hunting"/>
         <usage name="Office"/>
         <usage name="School"/>
-		<usage name="Historical"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
@@ -474,10 +510,10 @@
 	</type>
 
 	<type name="FirstAidKit">
-		<nominal>40</nominal>
+		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>40</min>
+		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -495,7 +531,7 @@
 
 	<type name="Splint">
 		<nominal>0</nominal>
-		<lifetime>7200</lifetime>
+		<lifetime>3600</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -536,18 +572,18 @@
         <value name="Tier4"/>
 	</type>
 	<type name="SR_Med_Analgin">
-		<nominal>25</nominal>
+		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>25</min>
+		<min>20</min>
 		<quantmin>5</quantmin>
 		<quantmax>35</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
+		<tag name="shelves"/>
+		<tag name="civilian"/>
 		<usage name="Medic"/>
-		<usage name="Military"/>
-		<usage name="Firefighter"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
@@ -581,36 +617,47 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<usage name="Medic"/>
-		<usage name="Firefighter"/>
+		<usage name="Military"/>
+        <usage name="Police"/>
+        <usage name="Medic"/>
+        <usage name="Firefighter"/>
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Prison"/>
+        <usage name="Lunapark"/>
+		<usage name="Historical"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
 	</type>
 	<type name="SR_Ai2_Army">
-		<nominal>20</nominal>
+		<nominal>15</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>20</min>
+		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<usage name="Medic"/>
 		<usage name="Military"/>
-		<usage name="Firefighter"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
 	</type>
 	<type name="SR_Ai2_Nauk">
-		<nominal>10</nominal>
+		<nominal>7</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>10</min>
+		<min>7</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
