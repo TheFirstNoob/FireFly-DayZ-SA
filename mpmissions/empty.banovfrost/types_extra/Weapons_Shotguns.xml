@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
 	<type name="Izh18Shotgun">
-		<nominal>150</nominal>
+		<nominal>100</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>150</min>
+		<min>100</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -20,10 +20,10 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Izh43Shotgun">
-		<nominal>150</nominal>
+		<nominal>100</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>150</min>
+		<min>100</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -75,14 +75,15 @@
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 
 	<!-- Expansion Mod -->
 	<type name="Expansion_DT11">
-		<nominal>30</nominal>
+		<nominal>22</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>30</min>
+		<min>22</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -96,10 +97,10 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="Expansion_BenelliM4">
-		<nominal>40</nominal>
+		<nominal>30</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>40</min>
+		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -112,6 +113,7 @@
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 
 	<!-- Panacea Weapons -->

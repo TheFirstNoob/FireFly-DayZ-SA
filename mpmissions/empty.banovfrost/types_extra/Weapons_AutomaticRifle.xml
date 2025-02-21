@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
 	<type name="ASVAL">
-		<nominal>15</nominal>
+		<nominal>12</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>15</min>
+		<min>12</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -16,12 +16,13 @@
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="Aug">
-		<nominal>18</nominal>
+		<nominal>13</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>18</min>
+		<min>13</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -32,12 +33,13 @@
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="AugShort">
-		<nominal>15</nominal>
+		<nominal>13</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>15</min>
+		<min>13</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -52,10 +54,10 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="FAL">
-		<nominal>9</nominal>
+		<nominal>8</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>9</min>
+		<min>8</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -69,10 +71,10 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="FAMAS">
-		<nominal>35</nominal>
+		<nominal>28</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>35</min>
+		<min>28</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -100,10 +102,10 @@
 
 	<!-- Expansion Mod -->
 	<type name="Expansion_G36">
-		<nominal>25</nominal>
+		<nominal>22</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>25</min>
+		<min>22</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -118,22 +120,6 @@
 
 	<!-- Tactical Flava Mod -->
 	<type name="TF_AN94">
-		<nominal>20</nominal>
-		<lifetime>7200</lifetime>
-		<restock>3600</restock>
-		<min>20</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<usage name="Military"/>
-		<usage name="Coast"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-	</type>
-	<type name="TF_AN94M">
 		<nominal>18</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
@@ -149,7 +135,7 @@
 		<value name="Tier2"/>
 		<value name="Tier3"/>
 	</type>
-	<type name="TF_SCAR_L_FDE">
+	<type name="TF_AN94M">
 		<nominal>15</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
@@ -164,12 +150,30 @@
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+	<type name="TF_SCAR_L_FDE">
+		<nominal>12</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>12</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<usage name="Military"/>
+		<usage name="Coast"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="TF_SCAR_L_Black">
-		<nominal>15</nominal>
+		<nominal>12</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>15</min>
+		<min>12</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -180,6 +184,7 @@
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="TF_SCAR_L_CQC_FDE">
 		<nominal>15</nominal>
@@ -200,10 +205,10 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="TF_SCAR_L_CQC_Black">
-		<nominal>20</nominal>
+		<nominal>15</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>20</min>
+		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -284,10 +289,10 @@
 		<value name="Tier5"/>
 	</type>
 	<type name="TF_OTs_12_Tiss">
-		<nominal>60</nominal>
+		<nominal>45</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>60</min>
+		<min>45</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -303,10 +308,10 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="TF_OTs_14_Groza">
-		<nominal>40</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>40</min>
+		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -318,12 +323,13 @@
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="TF_AK101">
-		<nominal>12</nominal>
+		<nominal>10</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>12</min>
+		<min>10</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -337,10 +343,10 @@
         <value name="Tier3"/>
 	</type>
 	<type name="TF_AK102">
-		<nominal>12</nominal>
+		<nominal>10</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>12</min>
+		<min>10</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -354,10 +360,10 @@
         <value name="Tier3"/>
 	</type>
 	<type name="TF_AK103">
-		<nominal>12</nominal>
+		<nominal>10</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>12</min>
+		<min>10</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -370,10 +376,10 @@
         <value name="Tier3"/>
 	</type>
 	<type name="TF_AK104">
-		<nominal>12</nominal>
+		<nominal>10</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>12</min>
+		<min>10</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -387,10 +393,10 @@
         <value name="Tier3"/>
 	</type>
 	<type name="TF_AK105">
-		<nominal>9</nominal>
+		<nominal>8</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>9</min>
+		<min>8</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -401,12 +407,13 @@
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="TF_AK105_Bullpup">
-		<nominal>9</nominal>
+		<nominal>8</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>9</min>
+		<min>8</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -417,12 +424,13 @@
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="TF_AK74M">
-		<nominal>35</nominal>
+		<nominal>28</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>35</min>
+		<min>28</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -434,12 +442,13 @@
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="TF_AKM">
-		<nominal>30</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>30</min>
+		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -451,12 +460,13 @@
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="TF_AKMN">
-		<nominal>30</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>30</min>
+		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -470,10 +480,10 @@
         <value name="Tier3"/>
 	</type>
 	<type name="TF_AKS74U">
-		<nominal>50</nominal>
+		<nominal>35</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>50</min>
+		<min>35</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -489,10 +499,10 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="TF_M4A1">
-		<nominal>40</nominal>
+		<nominal>32</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>40</min>
+		<min>32</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -507,10 +517,10 @@
         <value name="Tier3"/>
 	</type>
 	<type name="TF_ADAR2_15">
-		<nominal>50</nominal>
+		<nominal>38</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>50</min>
+		<min>38</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -526,10 +536,10 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="TF_M4A1_CQBR">
-		<nominal>45</nominal>
+		<nominal>32</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>45</min>
+		<min>32</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -579,10 +589,10 @@
 		<value name="Tier5"/>
 	</type>
 	<type name="TF_M16A4">
-		<nominal>50</nominal>
+		<nominal>35</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>50</min>
+		<min>35</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -600,6 +610,40 @@
 
 	<!-- Panacea Weapons -->
 	<type name="PNC_W_HoneyBadger">
+		<nominal>15</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>15</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<usage name="Military"/>
+		<usage name="Coast"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+	<type name="PNC_W_RemingtonR5">
+		<nominal>15</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>15</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<usage name="Military"/>
+		<usage name="Coast"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+	<type name="PNC_W_AEK971">
 		<nominal>18</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
@@ -612,46 +656,15 @@
 		<usage name="Military"/>
 		<usage name="Coast"/>
 		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-	</type>
-	<type name="PNC_W_RemingtonR5">
-		<nominal>20</nominal>
-		<lifetime>7200</lifetime>
-		<restock>3600</restock>
-		<min>20</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<usage name="Military"/>
-		<usage name="Coast"/>
-		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
-	</type>
-	<type name="PNC_W_AEK971">
-		<nominal>25</nominal>
-		<lifetime>7200</lifetime>
-		<restock>3600</restock>
-		<min>25</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<usage name="Military"/>
-		<usage name="Coast"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="PNC_W_G36">
-		<nominal>40</nominal>
+		<nominal>28</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>40</min>
+		<min>28</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>

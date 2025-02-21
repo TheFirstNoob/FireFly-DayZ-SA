@@ -129,6 +129,19 @@
 	<!-- Не используйте ванильные патроны т.к. стоит AdditionalAmmo -->
 	<type name="Ammo_HuntingBolt"></type>
 	<type name="Ammo_Expansion_338"></type>
+	<type name="Ammo_Expansion_M203_Smoke_White"></type>
+	<type name="Ammo_Expansion_M203_Smoke_Red"></type>
+	<type name="Ammo_Expansion_M203_Smoke_Green"></type>
+	<type name="Ammo_Expansion_M203_Smoke_Yellow"></type>
+	<type name="Ammo_Expansion_M203_Smoke_Purple"></type>
+	<type name="Ammo_Expansion_M203_Smoke_Teargas"></type>
+	<type name="Ammo_Expansion_M203_Sticky_Smoke_White"></type>
+	<type name="Ammo_Expansion_M203_Sticky_Smoke_Red"></type>
+	<type name="Ammo_Expansion_M203_Sticky_Smoke_Green"></type>
+	<type name="Ammo_Expansion_M203_Sticky_Smoke_Yellow"></type>
+	<type name="Ammo_Expansion_M203_Sticky_Smoke_Purple"></type>
+	<type name="Ammo_Expansion_M203_Sticky_Smoke_Teargas"></type>
+	<type name="Ammo_Expansion_M203_HE"></type>
 
 	<type name="AmmoBox_00buck_10rnd"></type>
 	<type name="AmmoBox_12gaRubberSlug_10Rnd"></type>
@@ -257,6 +270,11 @@
 	<type name="Ammo_Expansion_Taser"></type>
 	<type name="Mag_Expansion_M14_10Rnd"></type>
 	<type name="Mag_Expansion_M14_20Rnd"></type>
+	<type name="ExpansionCowboyHatSnake"></type>
+	<type name="ExpansionCowboyRattleSnake"></type>
+	<type name="ExpansionRidersFogEaters"></type>
+	<type name="ExpansionRidersJacketDarkBlue"></type>
+	<type name="ExpansionRidersJacketBrown"></type>
 
 	<type name="TF_M79"></type>
 	<type name="TF_M79_AOR1"></type>
@@ -466,9 +484,7 @@
 	<type name="ZIL_157_rus_GR_wheel_destroyed"></type>
 	<type name="IJ_2140_SL_wheel_destroyed"></type>
 
-
 	<type name="ExpansionAircraftBattery"></type>
-	<type name="headlighth7_box"></type>
 
 	<type name="Expansion_ANPEQ15_Red"></type>
 	<type name="Expansion_ANPEQ15_Greed"></type>
@@ -519,7 +535,6 @@
 	<type name="ExpansionBanknoteEuro"></type>
 
 	<!-- Unused items -->
-	<type name="Ammo_40mm_Chemgas"></type>
 	<type name="Ammo_40mm_Smoke_Black"></type>
 	<type name="Ammo_40mm_Smoke_Green"></type>
 	<type name="Ammo_40mm_Smoke_Red"></type>
@@ -529,6 +544,8 @@
 	<type name="M18SmokeGrenade_Red"></type>
 	<type name="M18SmokeGrenade_White"></type>
 	<type name="M18SmokeGrenade_Yellow"></type>
+	<type name="RDG2SmokeGrenade_Black"></type>
+	<type name="RDG2SmokeGrenade_White"></type>
 	<type name="ClaymoreMine"></type>
 	<type name="ImprovisedExplosive"></type>
 	<type name="ExpansionSatchel"></type>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
 	<type name="B95">
-		<nominal>35</nominal>
+		<nominal>30</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>35</min>
+		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -29,10 +29,10 @@
 		<category name="weapons"/>
 	</type>
 	<type name="SV98">
-		<nominal>20</nominal>
+		<nominal>18</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>20</min>
+		<min>18</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -45,12 +45,13 @@
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="CZ527">
-		<nominal>35</nominal>
+		<nominal>30</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>35</min>
+		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -68,10 +69,10 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="CZ550">
-		<nominal>30</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>30</min>
+		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -85,10 +86,10 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Repeater">
-		<nominal>80</nominal>
+		<nominal>60</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>80</min>
+		<min>60</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -104,10 +105,10 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ruger1022">
-		<nominal>80</nominal>
+		<nominal>60</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>80</min>
+		<min>60</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -123,10 +124,10 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="SKS">
-		<nominal>30</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>30</min>
+		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -141,12 +142,13 @@
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="SSG82">
-		<nominal>25</nominal>
+		<nominal>22</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>25</min>
+		<min>22</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -161,10 +163,10 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="SVD">
-		<nominal>12</nominal>
+		<nominal>11</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>12</min>
+		<min>11</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -175,12 +177,13 @@
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="Mosin9130">
-		<nominal>50</nominal>
+		<nominal>42</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>50</min>
+		<min>42</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -273,10 +276,10 @@
 		<category name="weapons"/>
 	</type>
 	<type name="Scout">
-		<nominal>25</nominal>
+		<nominal>22</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>25</min>
+		<min>22</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -301,10 +304,10 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 	</type>
 	<type name="VSS">
-		<nominal>20</nominal>
+		<nominal>17</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>20</min>
+		<min>17</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -318,12 +321,12 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="Winchester70">
-		<nominal>50</nominal>
+		<nominal>40</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>50</min>
-		<quantmin>0</quantmin>
-		<quantmax>80</quantmax>
+		<min>40</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -336,10 +339,10 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Izh18">
-		<nominal>80</nominal>
+		<nominal>60</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>80</min>
+		<min>60</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -384,10 +387,10 @@
 		<value name="Tier5"/>
 	</type>
 	<type name="Expansion_Kar98">
-		<nominal>25</nominal>
+		<nominal>7</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>25</min>
+		<min>7</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -519,10 +522,10 @@
 		<value name="Tier5"/>
 	</type>
 	<type name="TF_VPO136">
-		<nominal>120</nominal>
+		<nominal>90</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>120</min>
+		<min>90</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -540,10 +543,10 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="TF_VPO190">
-		<nominal>90</nominal>
+		<nominal>70</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>90</min>
+		<min>70</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -575,10 +578,10 @@
 		<value name="Tier5"/>
 	</type>
 	<type name="TF_SVCh">
-		<nominal>10</nominal>
+		<nominal>9</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>10</min>
+		<min>9</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -589,6 +592,7 @@
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="TF_SR25">
 		<nominal>7</nominal>

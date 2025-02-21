@@ -2,12 +2,12 @@
 <types>
 	<!-- FireFly Main Additional Ammo -->
 	<type name="Ammo_new_12gaMagnumBuckshot8">
-		<nominal>80</nominal>
+		<nominal>70</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>80</min>
+		<min>70</min>
 		<quantmin>5</quantmin>
-		<quantmax>35</quantmax>
+		<quantmax>20</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -23,12 +23,12 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_12gaRip">
-		<nominal>40</nominal>
+		<nominal>35</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>40</min>
+		<min>35</min>
 		<quantmin>5</quantmin>
-		<quantmax>35</quantmax>
+		<quantmax>20</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -39,12 +39,12 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="Ammo_new_12gaAP20">
-		<nominal>55</nominal>
+		<nominal>48</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>55</min>
+		<min>48</min>
 		<quantmin>5</quantmin>
-		<quantmax>35</quantmax>
+		<quantmax>20</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -58,12 +58,12 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_12ga2Sabot">
-		<nominal>70</nominal>
+		<nominal>60</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>70</min>
+		<min>60</min>
 		<quantmin>5</quantmin>
-		<quantmax>35</quantmax>
+		<quantmax>20</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -79,12 +79,12 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_12gaFtxCustomLIte">
-		<nominal>52</nominal>
+		<nominal>44</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>52</min>
+		<min>44</min>
 		<quantmin>5</quantmin>
-		<quantmax>35</quantmax>
+		<quantmax>20</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -102,12 +102,12 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="Ammo_new_12gaGrizzly40">
-		<nominal>65</nominal>
+		<nominal>50</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>65</min>
+		<min>50</min>
 		<quantmin>5</quantmin>
-		<quantmax>35</quantmax>
+		<quantmax>20</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -124,12 +124,12 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_12ga50Bmg">
-		<nominal>50</nominal>
+		<nominal>35</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>50</min>
+		<min>35</min>
 		<quantmin>5</quantmin>
-		<quantmax>35</quantmax>
+		<quantmax>20</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -140,12 +140,12 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="Ammo_new_12gaLead">
-		<nominal>65</nominal>
+		<nominal>50</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>65</min>
+		<min>50</min>
 		<quantmin>5</quantmin>
-		<quantmax>35</quantmax>
+		<quantmax>20</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -161,12 +161,12 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_12gaFlchetteS">
-		<nominal>60</nominal>
+		<nominal>48</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>60</min>
+		<min>48</min>
 		<quantmin>5</quantmin>
-		<quantmax>35</quantmax>
+		<quantmax>20</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -182,12 +182,12 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="Ammo_new_12gaSuperFormance">
-		<nominal>65</nominal>
+		<nominal>50</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>65</min>
+		<min>50</min>
 		<quantmin>5</quantmin>
-		<quantmax>35</quantmax>
+		<quantmax>20</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -203,12 +203,12 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="Ammo_new_12gaCopperSabotPremier">
-		<nominal>60</nominal>
+		<nominal>48</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>60</min>
+		<min>48</min>
 		<quantmin>5</quantmin>
-		<quantmax>35</quantmax>
+		<quantmax>20</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -227,12 +227,12 @@
 	
 	<!-- FireFly Main Additional Ammo -->
 	<type name="Ammo_new_22HighVelocity">
-		<nominal>100</nominal>
+		<nominal>80</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>100</min>
+		<min>80</min>
 		<quantmin>10</quantmin>
-		<quantmax>50</quantmax>
+		<quantmax>30</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -248,12 +248,12 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_22HyperVelocity">
-		<nominal>80</nominal>
+		<nominal>60</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>80</min>
+		<min>60</min>
 		<quantmin>10</quantmin>
-		<quantmax>50</quantmax>
+		<quantmax>30</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -271,12 +271,12 @@
 	
 	<!-- FireFly Main Additional Ammo -->
 	<type name="Ammo_new_308WinM61">
-		<nominal>30</nominal>
+		<nominal>27</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>30</min>
+		<min>27</min>
 		<quantmin>5</quantmin>
-		<quantmax>20</quantmax>
+		<quantmax>15</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -288,12 +288,12 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="Ammo_new_308WinM62">
-		<nominal>35</nominal>
+		<nominal>32</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>35</min>
+		<min>32</min>
 		<quantmin>5</quantmin>
-		<quantmax>20</quantmax>
+		<quantmax>15</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -309,12 +309,12 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="Ammo_new_308WinM80">
-		<nominal>40</nominal>
+		<nominal>35</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>40</min>
+		<min>35</min>
 		<quantmin>5</quantmin>
-		<quantmax>20</quantmax>
+		<quantmax>15</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -330,12 +330,12 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="Ammo_new_308WinM993">
-		<nominal>32</nominal>
+		<nominal>28</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>32</min>
+		<min>28</min>
 		<quantmin>5</quantmin>
-		<quantmax>20</quantmax>
+		<quantmax>15</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -350,12 +350,12 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="Ammo_new_308WinUltraNosler">
-		<nominal>45</nominal>
+		<nominal>40</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>45</min>
+		<min>40</min>
 		<quantmin>5</quantmin>
-		<quantmax>20</quantmax>
+		<quantmax>15</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -371,10 +371,10 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_308WinFMJ">
-		<nominal>35</nominal>
+		<nominal>32</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>35</min>
+		<min>32</min>
 		<quantmin>5</quantmin>
 		<quantmax>20</quantmax>
 		<cost>100</cost>
@@ -393,12 +393,12 @@
 	
 	<!-- FireFly Main Additional Ammo -->
 	<type name="Ammo_new_357QuikShokJhp">
-		<nominal>50</nominal>
+		<nominal>45</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>50</min>
-		<quantmin>15</quantmin>
-		<quantmax>40</quantmax>
+		<min>45</min>
+		<quantmin>5</quantmin>
+		<quantmax>30</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -414,12 +414,12 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_357HollowPoint">
-		<nominal>55</nominal>
+		<nominal>48</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>55</min>
-		<quantmin>15</quantmin>
-		<quantmax>40</quantmax>
+		<min>48</min>
+		<quantmin>5</quantmin>
+		<quantmax>30</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -435,12 +435,12 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_357GoldDotJhp">
-		<nominal>60</nominal>
+		<nominal>50</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>60</min>
-		<quantmin>15</quantmin>
-		<quantmax>40</quantmax>
+		<min>50</min>
+		<quantmin>5</quantmin>
+		<quantmax>30</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -456,12 +456,12 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_357Semiwadcutter">
-		<nominal>65</nominal>
+		<nominal>53</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>65</min>
-		<quantmin>15</quantmin>
-		<quantmax>40</quantmax>
+		<min>53</min>
+		<quantmin>5</quantmin>
+		<quantmax>30</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -477,12 +477,12 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_357SilvertipJhp">
-		<nominal>70</nominal>
+		<nominal>55</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>70</min>
-		<quantmin>15</quantmin>
-		<quantmax>40</quantmax>
+		<min>5</min>
+		<quantmin>5</quantmin>
+		<quantmax>30</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -500,12 +500,12 @@
 	
 	<!-- FireFly Main Additional Ammo -->
 	<type name="Ammo_new_380BondedJhp">
-		<nominal>55</nominal>
+		<nominal>48</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>55</min>
-		<quantmin>15</quantmin>
-		<quantmax>50</quantmax>
+		<min>48</min>
+		<quantmin>5</quantmin>
+		<quantmax>30</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -521,12 +521,12 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_380Jhp">
-		<nominal>65</nominal>
+		<nominal>52</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>65</min>
-		<quantmin>15</quantmin>
-		<quantmax>50</quantmax>
+		<min>52</min>
+		<quantmin>5</quantmin>
+		<quantmax>30</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -542,12 +542,12 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_380HydraShokJhp">
-		<nominal>65</nominal>
+		<nominal>52</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>65</min>
-		<quantmin>15</quantmin>
-		<quantmax>50</quantmax>
+		<min>52</min>
+		<quantmin>5</quantmin>
+		<quantmax>30</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -563,12 +563,12 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_380Fmj">
-		<nominal>70</nominal>
+		<nominal>55</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>70</min>
-		<quantmin>15</quantmin>
-		<quantmax>50</quantmax>
+		<min>55</min>
+		<quantmin>5</quantmin>
+		<quantmax>30</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -586,12 +586,12 @@
 
 	<!-- FireFly Main Additional Ammo -->
 	<type name="Ammo_new_45AcpAP">
-		<nominal>48</nominal>
+		<nominal>44</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>48</min>
-		<quantmin>12</quantmin>
-		<quantmax>45</quantmax>
+		<min>44</min>
+		<quantmin>5</quantmin>
+		<quantmax>20</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -607,12 +607,12 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_45AcpFmj">
-		<nominal>60</nominal>
+		<nominal>54</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>60</min>
-		<quantmin>12</quantmin>
-		<quantmax>45</quantmax>
+		<min>54</min>
+		<quantmin>5</quantmin>
+		<quantmax>20</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -628,12 +628,12 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_45AcpHydrShock">
-		<nominal>65</nominal>
+		<nominal>50</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>65</min>
-		<quantmin>12</quantmin>
-		<quantmax>45</quantmax>
+		<min>50</min>
+		<quantmin>5</quantmin>
+		<quantmax>20</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -649,12 +649,12 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_45AcpLasermatchFmj">
-		<nominal>70</nominal>
+		<nominal>56</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>70</min>
-		<quantmin>12</quantmin>
-		<quantmax>45</quantmax>
+		<min>56</min>
+		<quantmin>5</quantmin>
+		<quantmax>20</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -670,12 +670,12 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_45AcpRip">
-		<nominal>60</nominal>
+		<nominal>52</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>60</min>
-		<quantmin>12</quantmin>
-		<quantmax>45</quantmax>
+		<min>52</min>
+		<quantmin>5</quantmin>
+		<quantmax>20</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -693,12 +693,12 @@
 
 	<!-- FireFly Main Additional Ammo -->
 	<type name="Ammo_new_545x397H39">
-		<nominal>35</nominal>
+		<nominal>32</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>35</min>
+		<min>32</min>
 		<quantmin>10</quantmin>
-		<quantmax>40</quantmax>
+		<quantmax>20</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -710,12 +710,12 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="Ammo_new_545x39Hp">
-		<nominal>75</nominal>
+		<nominal>62</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>75</min>
+		<min>62</min>
 		<quantmin>10</quantmin>
-		<quantmax>40</quantmax>
+		<quantmax>20</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -735,12 +735,12 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_545x39Bp">
-		<nominal>52</nominal>
+		<nominal>47</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>52</min>
+		<min>47</min>
 		<quantmin>10</quantmin>
-		<quantmax>40</quantmax>
+		<quantmax>20</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -756,12 +756,12 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="Ammo_new_545x39Bs">
-		<nominal>40</nominal>
+		<nominal>38</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>40</min>
+		<min>38</min>
 		<quantmin>10</quantmin>
-		<quantmax>40</quantmax>
+		<quantmax>20</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -773,12 +773,12 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="Ammo_new_545x39Bt">
-		<nominal>50</nominal>
+		<nominal>46</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>50</min>
+		<min>46</min>
 		<quantmin>10</quantmin>
-		<quantmax>40</quantmax>
+		<quantmax>20</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -794,12 +794,12 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="Ammo_new_545x39Pp">
-		<nominal>65</nominal>
+		<nominal>56</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>65</min>
+		<min>56</min>
 		<quantmin>10</quantmin>
-		<quantmax>40</quantmax>
+		<quantmax>20</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -814,12 +814,12 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_545x39Ps">
-		<nominal>60</nominal>
+		<nominal>52</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>60</min>
+		<min>52</min>
 		<quantmin>10</quantmin>
-		<quantmax>40</quantmax>
+		<quantmax>20</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -834,12 +834,12 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_545x39Us">
-		<nominal>60</nominal>
+		<nominal>52</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>60</min>
+		<min>52</min>
 		<quantmin>10</quantmin>
-		<quantmax>40</quantmax>
+		<quantmax>20</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -857,12 +857,12 @@
 	
 	<!-- FireFly Main Additional Ammo -->
 	<type name="Ammo_new_556x45M855">
-		<nominal>45</nominal>
+		<nominal>42</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>45</min>
+		<min>42</min>
 		<quantmin>10</quantmin>
-		<quantmax>40</quantmax>
+		<quantmax>20</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -876,12 +876,12 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_556x45M855A1">
-		<nominal>45</nominal>
+		<nominal>42</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>45</min>
+		<min>42</min>
 		<quantmin>10</quantmin>
-		<quantmax>40</quantmax>
+		<quantmax>20</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -896,12 +896,12 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="Ammo_new_556x45M856">
-		<nominal>50</nominal>
+		<nominal>46</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>50</min>
+		<min>46</min>
 		<quantmin>10</quantmin>
-		<quantmax>40</quantmax>
+		<quantmax>20</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -915,12 +915,12 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_556x45M995">
-		<nominal>40</nominal>
+		<nominal>38</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>40</min>
+		<min>38</min>
 		<quantmin>10</quantmin>
-		<quantmax>40</quantmax>
+		<quantmax>20</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -932,12 +932,12 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="Ammo_new_556x4555Fmj">
-		<nominal>80</nominal>
+		<nominal>65</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>80</min>
+		<min>65</min>
 		<quantmin>10</quantmin>
-		<quantmax>40</quantmax>
+		<quantmax>20</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -957,12 +957,12 @@
 	
 	<!-- FireFly Main Additional Ammo -->
 	<type name="Ammo_new_762x39Hp">
-		<nominal>45</nominal>
+		<nominal>42</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>45</min>
+		<min>42</min>
 		<quantmin>8</quantmin>
-		<quantmax>35</quantmax>
+		<quantmax>20</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -976,12 +976,12 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_762x39Bp">
-		<nominal>40</nominal>
+		<nominal>38</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>40</min>
+		<min>38</min>
 		<quantmin>8</quantmin>
-		<quantmax>35</quantmax>
+		<quantmax>20</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -993,12 +993,12 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="Ammo_new_762x39Ps">
-		<nominal>55</nominal>
+		<nominal>48</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>55</min>
+		<min>48</min>
 		<quantmin>8</quantmin>
-		<quantmax>35</quantmax>
+		<quantmax>20</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -1013,12 +1013,12 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_762x39T45M">
-		<nominal>60</nominal>
+		<nominal>50</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>60</min>
+		<min>50</min>
 		<quantmin>8</quantmin>
-		<quantmax>35</quantmax>
+		<quantmax>20</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -1033,12 +1033,12 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_762x39Us">
-		<nominal>70</nominal>
+		<nominal>58</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>70</min>
+		<min>58</min>
 		<quantmin>8</quantmin>
-		<quantmax>35</quantmax>
+		<quantmax>20</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -1057,12 +1057,12 @@
 	
 	<!-- FireFly Main Additional Ammo -->
 	<type name="Ammo_new_762x547Bt1">
-		<nominal>35</nominal>
+		<nominal>32</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>35</min>
+		<min>32</min>
 		<quantmin>5</quantmin>
-		<quantmax>25</quantmax>
+		<quantmax>20</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -1076,12 +1076,12 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_762x547H37">
-		<nominal>30</nominal>
+		<nominal>27</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>30</min>
+		<min>27</min>
 		<quantmin>5</quantmin>
-		<quantmax>25</quantmax>
+		<quantmax>20</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -1093,12 +1093,12 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="Ammo_new_762x54Snb">
-		<nominal>35</nominal>
+		<nominal>32</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>35</min>
+		<min>32</min>
 		<quantmin>5</quantmin>
-		<quantmax>25</quantmax>
+		<quantmax>20</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -1112,12 +1112,12 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_762x547H1">
-		<nominal>40</nominal>
+		<nominal>36</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>40</min>
+		<min>36</min>
 		<quantmin>5</quantmin>
-		<quantmax>25</quantmax>
+		<quantmax>20</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -1133,12 +1133,12 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_762x54T46M">
-		<nominal>45</nominal>
+		<nominal>39</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>45</min>
+		<min>39</min>
 		<quantmin>5</quantmin>
-		<quantmax>25</quantmax>
+		<quantmax>20</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -1156,12 +1156,12 @@
 	
 	<!-- FireFly Main Additional Ammo -->
 	<type name="Ammo_new_9x19Pst">
-		<nominal>80</nominal>
+		<nominal>65</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>80</min>
-		<quantmin>15</quantmin>
-		<quantmax>50</quantmax>
+		<min>65</min>
+		<quantmin>5</quantmin>
+		<quantmax>30</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -1177,12 +1177,12 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_9x19LugerCci">
-		<nominal>70</nominal>
+		<nominal>59</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>70</min>
-		<quantmin>15</quantmin>
-		<quantmax>50</quantmax>
+		<min>59</min>
+		<quantmin>5</quantmin>
+		<quantmax>30</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -1198,12 +1198,12 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_9x19Rip">
-		<nominal>60</nominal>
+		<nominal>54</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>60</min>
-		<quantmin>15</quantmin>
-		<quantmax>50</quantmax>
+		<min>54</min>
+		<quantmin>5</quantmin>
+		<quantmax>30</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -1218,12 +1218,12 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_9x19Ap">
-		<nominal>50</nominal>
+		<nominal>44</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>50</min>
-		<quantmin>15</quantmin>
-		<quantmax>50</quantmax>
+		<min>44</min>
+		<quantmin>5</quantmin>
+		<quantmax>30</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -1242,8 +1242,8 @@
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
 		<min>30</min>
-		<quantmin>15</quantmin>
-		<quantmax>50</quantmax>
+		<quantmin>5</quantmin>
+		<quantmax>30</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -1260,12 +1260,12 @@
 	
 	<!-- FireFly Main Additional Ammo -->
 	<type name="Ammo_new_9x39Sp5">
-		<nominal>60</nominal>
+		<nominal>53</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>60</min>
-		<quantmin>10</quantmin>
-		<quantmax>32</quantmax>
+		<min>53</min>
+		<quantmin>5</quantmin>
+		<quantmax>22</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -1281,12 +1281,12 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_9x39Sp6">
-		<nominal>50</nominal>
+		<nominal>44</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>50</min>
-		<quantmin>10</quantmin>
-		<quantmax>32</quantmax>
+		<min>44</min>
+		<quantmin>5</quantmin>
+		<quantmax>22</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -1302,12 +1302,12 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_9x397H9">
-		<nominal>40</nominal>
+		<nominal>37</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>40</min>
-		<quantmin>10</quantmin>
-		<quantmax>32</quantmax>
+		<min>37</min>
+		<quantmin>5</quantmin>
+		<quantmax>22</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -1321,12 +1321,12 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_new_9x397H12">
-		<nominal>30</nominal>
+		<nominal>28</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>30</min>
-		<quantmin>10</quantmin>
-		<quantmax>32</quantmax>
+		<min>28</min>
+		<quantmin>5</quantmin>
+		<quantmax>22</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -1340,12 +1340,12 @@
 	
 	<!-- AMMO EXPANSION -->
 	<type name="Expansion_Ammo_8mm">
-		<nominal>55</nominal>
+		<nominal>45</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>55</min>
-		<quantmin>10</quantmin>
-		<quantmax>35</quantmax>
+		<min>45</min>
+		<quantmin>5</quantmin>
+		<quantmax>20</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -1360,12 +1360,12 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Ammo_Expansion_46x30">
-		<nominal>40</nominal>
+		<nominal>35</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>40</min>
-		<quantmin>10</quantmin>
-		<quantmax>40</quantmax>
+		<min>35</min>
+		<quantmin>5</quantmin>
+		<quantmax>25</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -1381,10 +1381,10 @@
 	
 	<!-- ФЛАЕРА -->
 	<type name="Ammo_FlareRed">
-		<nominal>30</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>15</min>
+		<min>25</min>
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
@@ -1477,22 +1477,6 @@
 		<usage name="Industrial"/>
 		<usage name="Village"/>
 		<usage name="ContaminatedArea"/>
-		<value name="Tier5"/>
-	</type>
-	
-	<!-- 40ММ ГРАНАТЫ -->
-	<type name="Ammo_40mm_Explosive">
-		<nominal>20</nominal>
-		<lifetime>7200</lifetime>
-		<restock>3600</restock>
-		<min>20</min>
-		<quantmin>100</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<usage name="Military"/>
-		<value name="Tier4"/>
 		<value name="Tier5"/>
 	</type>
 
@@ -1591,12 +1575,12 @@
 		<value name="Tier5"/>
 	</type>
 	<type name="Ammo_300AAC">
-		<nominal>40</nominal>
+		<nominal>35</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>40</min>
-		<quantmin>15</quantmin>
-		<quantmax>30</quantmax>
+		<min>35</min>
+		<quantmin>5</quantmin>
+		<quantmax>25</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
@@ -1616,8 +1600,8 @@
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
 		<min>20</min>
-		<quantmin>10</quantmin>
-		<quantmax>30</quantmax>
+		<quantmin>5</quantmin>
+		<quantmax>25</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>

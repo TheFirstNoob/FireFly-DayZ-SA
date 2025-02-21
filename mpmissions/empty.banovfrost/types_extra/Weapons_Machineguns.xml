@@ -36,10 +36,10 @@
 		<value name="Tier5"/>
 	</type>
 	<type name="TF_M249">
-		<nominal>10</nominal>
+		<nominal>8</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>10</min>
+		<min>8</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -51,6 +51,7 @@
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="TF_PKM">
 		<nominal>4</nominal>
@@ -120,10 +121,10 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="PNC_W_RPK16_Black">
-		<nominal>50</nominal>
+		<nominal>35</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>50</min>
+		<min>35</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -135,5 +136,6 @@
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 </types>
