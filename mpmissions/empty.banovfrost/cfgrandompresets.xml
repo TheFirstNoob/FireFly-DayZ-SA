@@ -308,11 +308,6 @@
 				<item name="SlingBag_Gray" chance="0.20" />
 				<item name="SlingBag_Brown" chance="0.20" />
 		</attachments>
-		<attachments chance="0.00" name="glassesVillage"> <!--was chance="0.30"; removed coz of attachment slot is missing -->
-			<item name="ThickFramesGlasses" chance="0.10" />
-			<item name="ThinFramesGlasses" chance="0.20" />
-			<item name="DesignerGlasses" chance="0.20" />
-		</attachments>
 
 	<!--CITY ATTACHMENTS-->
 		<attachments chance="0.20" name="hatsCity">
@@ -342,15 +337,6 @@
 				<item name="NailedBaseballBat" chance="1.0" />
 				<item name="BaseballBat" chance="1.0" />
 				<item name="Machete" chance="1.0" />
-		</attachments>
-		<attachments chance="0.00" name="glassesCity"> <!--was chance="0.20"; removed coz of attachment slot is missing -->
-			<item name="ThickFramesGlasses" chance="0.10" />
-			<item name="ThinFramesGlasses" chance="0.10" />
-			<item name="DesignerGlasses" chance="0.10" />
-			<item name="SportGlasses_Black" chance="0.10" />
-			<item name="SportGlasses_Blue" chance="0.10" />
-			<item name="SportGlasses_Green" chance="0.10" />
-			<item name="SportGlasses_Orange" chance="0.10" />
 		</attachments>
 		<attachments chance="0.15" name="bagsCity">
 			<item name="ArmyPouch_Beige" chance="0.30" />
@@ -397,7 +383,7 @@
 		</attachments>
 		
 		<!--FIREFIGHTER ATTACHMENTS-->
-		<attachments chance="1.00" name="hatsFirefighter">
+		<attachments chance="0.50" name="hatsFirefighter">
 				<item name="FirefightersHelmet_White" chance="0.33" />
 				<item name="FirefightersHelmet_Red" chance="0.66" />
 				<item name="FirefightersHelmet_Yellow" chance="1.00" />
@@ -614,16 +600,15 @@
 			<item name="Flaregun" chance="0.01" />
 			<item name="M67Grenade" chance="0.10" />
 			<item name="RGD5Grenade" chance="0.10" />
-			<item name="LandMineTrap" chance="0.10" />
 			<item name="Grenade_ChemGas" chance="0.02" />
 			<item name="Ammo_40mm_Explosive" chance="0.02" />
 			<item name="Ammo_40mm_ChemGas" chance="0.02" />
 		</cargo>
 		<cargo chance="1.0" name="Xmas_Ammo_Small">
-			<item name="Ammo_Flare" chance="0.01" />
-			<item name="Ammo_FlareRed" chance="0.01" />
-			<item name="Ammo_FlareGreen" chance="0.01" />
-			<item name="Ammo_FlareBlue" chance="0.01" />
+			<item name="Ammo_Flare" chance="0.05" />
+			<item name="Ammo_FlareRed" chance="0.05" />
+			<item name="Ammo_FlareGreen" chance="0.05" />
+			<item name="Ammo_FlareBlue" chance="0.05" />
 		</cargo>
 		<cargo chance="1.0" name="Xmas_AmmoBoxes_Small">
 			<item name="AmmoBox_22_50Rnd" chance="0.05" />
@@ -659,7 +644,6 @@
 			<item name="Derringer_Grey" chance="0.11" />
 			<item name="Derringer_Pink" chance="0.11" />
 			<item name="Nail" chance="0.11" />
-			<item name="GPSReceiver" chance="0.11" />
 		</cargo>
 		<cargo chance="1.0" name="Xmas_Repairs_Small">
 			<item name="DuctTape" chance="0.05" />
@@ -731,6 +715,9 @@
 			<item name="Colt1911" chance="0.083" />
 			<item name="Magnum" chance="0.083" />
 			<item name="Deagle" chance="0.083" />
+			<item name="MP5K" chance="0.10" />
+			<item name="PP19" chance="0.10" />
+			<item name="UMP45" chance="0.10" />
 			<item name="CombatKnife" chance="0.083" />
 			<item name="CrudeMachete" chance="0.083" />
 			<item name="OrientalMachete" chance="0.083" />
@@ -755,8 +742,6 @@
 			<item name="Mag_PP19_64Rnd" chance="0.05" />
 		</cargo>
 		<cargo chance="1.0" name="Xmas_Fillers_Medium">
-			<item name="ClaymoreMine" chance="0.33" />
-			<item name="Plastic_Explosive" chance="0.33" />
 			<item name="XmasLights" chance="0.33" />
 		</cargo>
 		<cargo chance="1.0" name="Xmas_Repairs_Medium">
@@ -769,11 +754,22 @@
 			<item name="CarpFilletMeat" chance="0.10" />
 		</cargo>
 		<cargo chance="0.25" name="Xmas_Weapons_Large">
-			<item name="PlateCarrierVest_Black" chance="0.10" />
-			<item name="MP5K" chance="0.10" />
-			<item name="PP19" chance="0.10" />
-			<item name="UMP45" chance="0.10" />
-			<item name="FishingRod" chance="0.10" />
+			<item name="TF_OTs_12_Tiss" chance="0.20" />
+			<item name="TF_AK101" chance="0.12" />
+			<item name="TF_AK102" chance="0.12" />
+			<item name="TF_AK103" chance="0.12" />
+			<item name="TF_ADAR2_15" chance="0.12" />
+			<item name="TF_M4A1_CQBR" chance="0.12" />
+			<item name="TF_VPO190" chance="0.20" />
+			<item name="TF_VPO136" chance="0.18" />
+			<item name="B95" chance="0.05" />
+			<item name="CZ527" chance="0.10" />
+			<item name="CZ550" chance="0.10" />
+			<item name="SSG82" chance="0.10" />
+			<item name="Mosin9130" chance="0.10" />
+			<item name="Scout" chance="0.12" />
+			<item name="Expansion_Kar98" chance="0.05" />
+			<item name="FishingRod" chance="0.20" />
 		</cargo>
 		<cargo chance="0.25" name="Xmas_Mags_Large">
 			<item name="Mag_Saiga_Drum20Rnd" chance="0.05" />
