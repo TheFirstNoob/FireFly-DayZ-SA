@@ -8,10 +8,10 @@
 	"Items": [
 		{
 			"ClassName": "Thermometer",
-			"MaxPriceThreshold": 10,
-			"MinPriceThreshold": 5,
+			"MaxPriceThreshold": 500,
+			"MinPriceThreshold": 500,
 			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 100,
+			"MaxStockThreshold": 1,
 			"MinStockThreshold": 1,
 			"QuantityPercent": -1,
 			"SpawnAttachments": [],
@@ -19,11 +19,11 @@
 		},
 		{
 			"ClassName": "Heatpack",
-			"MaxPriceThreshold": 20,
-			"MinPriceThreshold": 10,
+			"MaxPriceThreshold": 750,
+			"MinPriceThreshold": 150,
 			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 100,
-			"MinStockThreshold": 1,
+			"MaxStockThreshold": 300,
+			"MinStockThreshold": 0,
 			"QuantityPercent": -1,
 			"SpawnAttachments": [],
 			"Variants": []
