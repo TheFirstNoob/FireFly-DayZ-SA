@@ -8,11 +8,11 @@
 	"Items": [
 		{
 			"ClassName": "Rangefinder",
-			"MaxPriceThreshold": 120,
-			"MinPriceThreshold": 60,
+			"MaxPriceThreshold": 7500,
+			"MinPriceThreshold": 1500,
 			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 100,
-			"MinStockThreshold": 1,
+			"MaxStockThreshold": 65,
+			"MinStockThreshold": 0,
 			"QuantityPercent": -1,
 			"SpawnAttachments": [
 				"battery9v"
@@ -21,11 +21,11 @@
 		},
 		{
 			"ClassName": "Binoculars",
-			"MaxPriceThreshold": 120,
-			"MinPriceThreshold": 60,
+			"MaxPriceThreshold": 1500,
+			"MinPriceThreshold": 300,
 			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 100,
-			"MinStockThreshold": 1,
+			"MaxStockThreshold": 200,
+			"MinStockThreshold": 0,
 			"QuantityPercent": -1,
 			"SpawnAttachments": [],
 			"Variants": []

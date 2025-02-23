@@ -8,8 +8,8 @@
 	"Items": [
 		{
 			"ClassName": "Compass",
-			"MaxPriceThreshold": 20,
-			"MinPriceThreshold": 10,
+			"MaxPriceThreshold": 2500,
+			"MinPriceThreshold": 500,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 100,
 			"MinStockThreshold": 1,
@@ -19,8 +19,8 @@
 		},
 		{
 			"ClassName": "OrienteeringCompass",
-			"MaxPriceThreshold": 20,
-			"MinPriceThreshold": 10,
+			"MaxPriceThreshold": 1500,
+			"MinPriceThreshold": 300,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 100,
 			"MinStockThreshold": 1,
@@ -30,11 +30,11 @@
 		},
 		{
 			"ClassName": "ExpansionGPS",
-			"MaxPriceThreshold": 600,
-			"MinPriceThreshold": 300,
+			"MaxPriceThreshold": 25000,
+			"MinPriceThreshold": 5000,
 			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 100,
-			"MinStockThreshold": 1,
+			"MaxStockThreshold": 50,
+			"MinStockThreshold": 0,
 			"QuantityPercent": -1,
 			"SpawnAttachments": [
 				"battery9v"

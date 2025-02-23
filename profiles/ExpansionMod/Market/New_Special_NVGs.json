@@ -8,10 +8,10 @@
 	"Items": [
 		{
 			"ClassName": "NVGheadstrap",
-			"MaxPriceThreshold": 400,
-			"MinPriceThreshold": 200,
+			"MaxPriceThreshold": 2500,
+			"MinPriceThreshold": 500,
 			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 100,
+			"MaxStockThreshold": 125,
 			"MinStockThreshold": 1,
 			"QuantityPercent": -1,
 			"SpawnAttachments": [],
@@ -19,10 +19,10 @@
 		},
 		{
 			"ClassName": "NVGoggles",
-			"MaxPriceThreshold": 800,
-			"MinPriceThreshold": 400,
+			"MaxPriceThreshold": 18750,
+			"MinPriceThreshold": 3750,
 			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 100,
+			"MaxStockThreshold": 25,
 			"MinStockThreshold": 1,
 			"QuantityPercent": -1,
 			"SpawnAttachments": [
@@ -32,10 +32,10 @@
 		},
 		{
 			"ClassName": "TF_NVGoggles_PVS14",
-			"MaxPriceThreshold": 150,
-			"MinPriceThreshold": 100,
+			"MaxPriceThreshold": 18750,
+			"MinPriceThreshold": 3750,
 			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 1500,
+			"MaxStockThreshold": 25,
 			"MinStockThreshold": 0,
 			"QuantityPercent": -1,
 			"SpawnAttachments": [
@@ -45,10 +45,10 @@
 		},
 		{
 			"ClassName": "TF_NVGoggles_PVS15",
-			"MaxPriceThreshold": 150,
-			"MinPriceThreshold": 100,
+			"MaxPriceThreshold": 18750,
+			"MinPriceThreshold": 3750,
 			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 1500,
+			"MaxStockThreshold": 25,
 			"MinStockThreshold": 0,
 			"QuantityPercent": -1,
 			"SpawnAttachments": [
@@ -58,10 +58,10 @@
 		},
 		{
 			"ClassName": "TF_NVGoggles_AVS9",
-			"MaxPriceThreshold": 150,
-			"MinPriceThreshold": 100,
+			"MaxPriceThreshold": 18750,
+			"MinPriceThreshold": 3750,
 			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 1500,
+			"MaxStockThreshold": 25,
 			"MinStockThreshold": 0,
 			"QuantityPercent": -1,
 			"SpawnAttachments": [
@@ -71,10 +71,10 @@
 		},
 		{
 			"ClassName": "TF_NVGoggles_PNV10T",
-			"MaxPriceThreshold": 150,
-			"MinPriceThreshold": 100,
+			"MaxPriceThreshold": 18750,
+			"MinPriceThreshold": 3750,
 			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 1500,
+			"MaxStockThreshold": 25,
 			"MinStockThreshold": 0,
 			"QuantityPercent": -1,
 			"SpawnAttachments": [
