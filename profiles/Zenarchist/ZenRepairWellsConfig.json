@@ -1,0 +1,40 @@
+{
+    "ConfigVersion": "1",
+    "MessageNotDrink": "This well doesn't seem to work anymore! I need to repair it with a wrench, or find a natural water source...",
+    "MessageRepaired": "It seems this well has already been repaired...",
+    "DisableWellsByDefault": 1,
+    "DamageTool": 50,
+    "TimeToBreak": 1209600,
+    "RepairableWells": [
+        {
+            "Location": [
+                4675.0,
+                209.75555419921876,
+                6936.830078125
+            ],
+            "Invincible": 0,
+            "Repaired": 0,
+            "BreakTime": 0
+        },
+        {
+            "Location": [
+                7527.26220703125,
+                470.3885803222656,
+                10824.6083984375
+            ],
+            "Invincible": 0,
+            "Repaired": 0,
+            "BreakTime": 0
+        },
+        {
+            "Location": [
+                7689.0,
+                435.1055603027344,
+                11022.900390625
+            ],
+            "Invincible": 0,
+            "Repaired": 1,
+            "BreakTime": 1740997433
+        }
+    ]
+}

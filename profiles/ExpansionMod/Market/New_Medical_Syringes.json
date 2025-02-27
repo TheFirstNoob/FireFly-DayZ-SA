@@ -8,8 +8,8 @@
 	"Items": [
 		{
 			"ClassName": "Epinephrine",
-			"MaxPriceThreshold": 2250,
-			"MinPriceThreshold": 450,
+			"MaxPriceThreshold": 2500,
+			"MinPriceThreshold": 500,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 125,
 			"MinStockThreshold": 0,
@@ -30,8 +30,8 @@
 		},
 		{
 			"ClassName": "Morphine",
-			"MaxPriceThreshold": 5000,
-			"MinPriceThreshold": 1000,
+			"MaxPriceThreshold": 6250,
+			"MinPriceThreshold": 1250,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 150,
 			"MinStockThreshold": 0,
@@ -41,11 +41,11 @@
 		},
 		{
 			"ClassName": "AntiChemInjector",
-			"MaxPriceThreshold": 10000,
-			"MinPriceThreshold": 2000,
+			"MaxPriceThreshold": 2500,
+			"MinPriceThreshold": 2500,
 			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 75,
-			"MinStockThreshold": 0,
+			"MaxStockThreshold": 1,
+			"MinStockThreshold": 1,
 			"QuantityPercent": -1,
 			"SpawnAttachments": [],
 			"Variants": []
