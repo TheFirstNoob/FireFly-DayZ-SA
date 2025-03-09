@@ -1,4 +1,4 @@
-**FireFly RU (DayZ SA 1.26)**
+**FireFly RU (DayZ SA 1.27)**
 ================
 
 FireFly - Это российский сервер со своим виденьем баланса, торговли, сложности и так далее.
@@ -30,10 +30,8 @@ Discord: TheFirstNoob (Старое: TheFirstNoob#0538)
 
 Сторонние моды:
 * [A-6 Secure Containers](https://steamcommunity.com/sharedfiles/filedetails/?id=3123910249)
-* [Apokot Fishing Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2793326413)
-* [Ambient Animals Pack](https://steamcommunity.com/sharedfiles/filedetails/?id=3114410963)
 * [Banov map](https://steamcommunity.com/sharedfiles/filedetails/?id=2415195639)
-* [BBJ Incredible Creatures](https://steamcommunity.com/sharedfiles/filedetails/?id=3107571942)
+* [BanovFrost map](https://steamcommunity.com/sharedfiles/filedetails/?id=3375557599)
 * [Community Online Tools](https://steamcommunity.com/sharedfiles/filedetails/?id=1564026768)
 * [CannabisPlus](https://steamcommunity.com/sharedfiles/filedetails/?id=1932611410)
 * [DayZ Mining System](https://steamcommunity.com/sharedfiles/filedetails/?id=2794626429)
@@ -73,8 +71,10 @@ TODO
 * Alibaba
 * Sch1Rm
 * Morgan_Harris
+* Fanaris
 * DenisPovis
 * Fantomow
+* LaffeyChan
 * Кого забыл - Пишите :с
 
 Если кого забыл, пожалуйста отпишите мне куда угодно :)
