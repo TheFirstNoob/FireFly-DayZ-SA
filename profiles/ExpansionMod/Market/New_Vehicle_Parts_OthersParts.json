@@ -66,6 +66,20 @@
 			"QuantityPercent": -1,
 			"SpawnAttachments": [],
 			"Variants": []
+		},
+		{
+			"ClassName": "DodgeRam_3500_FrontBumper",
+			"MaxPriceThreshold": 100,
+			"MinPriceThreshold": 100,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 1,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"DodgeRam_3500_FrontBumper_ModdedRaw",
+				"DodgeRam_3500_FrontBumper_ModdedBlack"
+			]
 		}
 	]
 }
