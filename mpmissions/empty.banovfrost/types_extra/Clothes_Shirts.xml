@@ -10,6 +10,9 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="School"/>
 		<value name="Tier1"/>
@@ -27,6 +30,9 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Medic"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -42,6 +48,9 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Medic"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -57,6 +66,9 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Medic"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -73,6 +85,9 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="School"/>
@@ -92,6 +107,9 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="School"/>
@@ -111,6 +129,9 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="School"/>
@@ -130,6 +151,9 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="School"/>
@@ -149,6 +173,9 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="School"/>
@@ -168,6 +195,9 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="School"/>
@@ -188,6 +218,9 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="School"/>
@@ -207,6 +240,9 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="School"/>
@@ -226,6 +262,9 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="School"/>
@@ -245,7 +284,17 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+		<tag name="civilian"/>
+		<usage name="Town"/>
 		<usage name="Village"/>
+		<usage name="School"/>
+		<usage name="Farm"/>
+		<usage name="Office"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="TShirt_Grey">
 		<nominal>10</nominal>
@@ -257,6 +306,9 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="School"/>
@@ -276,6 +328,9 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Village"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
@@ -296,6 +351,9 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="School"/>
@@ -315,6 +373,9 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="School"/>
@@ -334,6 +395,9 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="School"/>
@@ -354,6 +418,9 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Hunting"/>
 		<value name="Tier1"/>
@@ -370,6 +437,9 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Hunting"/>
 		<value name="Tier1"/>
@@ -386,6 +456,9 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Hunting"/>
 		<value name="Tier1"/>
@@ -402,6 +475,9 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Hunting"/>
 		<value name="Tier1"/>
@@ -419,6 +495,9 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="Coast"/>

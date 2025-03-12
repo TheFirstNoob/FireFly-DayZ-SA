@@ -10,6 +10,9 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+		<tag name="civilian"/>
 		<usage name="Industrial"/>
 		<usage name="Farm"/>
 		<usage name="Town"/>
@@ -30,7 +33,9 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+		<tag name="civilian"/>
 		<usage name="Industrial"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
@@ -47,7 +52,10 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
         <usage name="Police"/>
         <usage name="Medic"/>
@@ -74,7 +82,9 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+		<tag name="civilian"/>
         <usage name="Medic"/>
         <usage name="Firefighter"/>
         <usage name="Industrial"/>
@@ -98,7 +108,9 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
         <usage name="Police"/>
         <usage name="Firefighter"/>
@@ -119,6 +131,10 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Industrial"/>
 		<usage name="Hunting"/>
 		<usage name="Village"/>
@@ -137,6 +153,10 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Farm"/>
 		<usage name="Hunting"/>
 		<usage name="Military"/>
@@ -154,6 +174,10 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Village"/>
 		<usage name="Farm"/>
 		<usage name="Hunting"/>
@@ -174,6 +198,10 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Village"/>
 		<usage name="Industrial"/>
 		<usage name="Hunting"/>
@@ -192,6 +220,9 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
+		<tag name="floor"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Industrial"/>
 		<usage name="Military"/>
 		<value name="Tier1"/>
@@ -209,6 +240,10 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Coast"/>
 		<usage name="Farm"/>
 		<usage name="Village"/>
@@ -239,7 +274,8 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="shelves"/>
+        <tag name="shelves"/>
+		<tag name="civilian"/>
 		<usage name="Industrial"/>
 		<usage name="Village"/>
 		<usage name="Farm"/>
@@ -260,6 +296,9 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
+		<tag name="floor"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Industrial"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
@@ -275,6 +314,9 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
+		<tag name="floor"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Industrial"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
@@ -291,6 +333,8 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
+		<tag name="floor"/>
+        <tag name="ground"/>
 		<usage name="Industrial"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
@@ -306,6 +350,8 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
+		<tag name="floor"/>
+        <tag name="ground"/>
 		<usage name="Industrial"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
@@ -322,6 +368,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
 		<tag name="floor"/>
+        <tag name="ground"/>
 		<usage name="Industrial"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
@@ -338,6 +385,9 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
 		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Industrial"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
@@ -354,6 +404,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
 		<tag name="floor"/>
+        <tag name="ground"/>
 		<usage name="Industrial"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
@@ -369,7 +420,8 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="shelves"/>
+        <tag name="shelves"/>
+		<tag name="civilian"/>
 		<usage name="Industrial"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
@@ -385,7 +437,8 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="shelves"/>
+        <tag name="shelves"/>
+		<tag name="civilian"/>
 		<usage name="Industrial"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -412,7 +465,8 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="shelves"/>
+        <tag name="shelves"/>
+		<tag name="civilian"/>
 		<usage name="Industrial"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
@@ -429,7 +483,10 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Industrial"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
@@ -445,7 +502,10 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="Farm"/>
@@ -464,7 +524,10 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Industrial"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
@@ -480,6 +543,10 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Police"/>
 		<usage name="Hunting"/>
@@ -497,7 +564,10 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Industrial"/>
 		<usage name="Village"/>
 		<usage name="Farm"/>
@@ -517,7 +587,9 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+		<tag name="civilian"/>
 		<usage name="Farm"/>
 		<usage name="Village"/>
 		<usage name="Hunting"/>
@@ -538,7 +610,10 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Police"/>
 		<usage name="Hunting"/>
@@ -556,7 +631,10 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Hunting"/>
 		<value name="Tier1"/>
@@ -575,6 +653,10 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
         <usage name="Police"/>
         <usage name="Medic"/>
@@ -601,6 +683,10 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
         <usage name="Police"/>
         <usage name="Medic"/>
@@ -627,6 +713,10 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -643,6 +733,10 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
 		<category name="weapons"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<value name="Tier4"/>
 		<value name="Tier5"/>
@@ -658,7 +752,9 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="Farm"/>
@@ -678,7 +774,8 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+        <tag name="ground"/>
 		<usage name="Industrial"/>
 		<usage name="Firefighter"/>
 		<usage name="Military"/>
@@ -697,6 +794,9 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+		<tag name="civilian"/>
 		<usage name="Industrial"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -725,6 +825,9 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="Farm"/>

@@ -159,15 +159,21 @@
 		<category name="tools"/>
 	</type>
 	<type name="ExpansionSafeLarge">
-		<nominal>0</nominal>
+		<nominal>5</nominal>
 		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
+		<restock>3600</restock>
+		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+		<usage name="Military"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 	</type>
 	<type name="ExpansionSafeMini">
 		<nominal>15</nominal>
@@ -180,6 +186,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
 		<tag name="floor"/>
+		<tag name="ground"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="Town"/>
@@ -201,6 +208,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
 		<tag name="floor"/>
+		<tag name="ground"/>
 		<usage name="Military"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
@@ -230,15 +238,17 @@
 		<usage name="Military"/>
 	</type>
 	<type name="ExpansionBarbedWireKit">
-		<nominal>7</nominal>
+		<nominal>8</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>7</min>
+		<min>8</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
 		<usage name="Military"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
@@ -364,15 +374,17 @@
 		<category name="tools"/>
 	</type>
 	<type name="ExpansionGPS">
-		<nominal>10</nominal>
+		<nominal>12</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>10</min>
+		<min>12</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
+		<tag name="shelves"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
@@ -380,6 +392,23 @@
         <value name="Tier4"/>
 	</type>
 	<type name="ExpansionBoltCutters">
+		<nominal>20</nominal>
+		<lifetime>7200</lifetime>
+		<restock>3600</restock>
+		<min>20</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="tools"/>
+		<tag name="shelves"/>
+		<tag name="civilian"/>
+		<usage name="Industrial"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+	</type>
+	<type name="ExpansionPropaneTorch">
 		<nominal>15</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
@@ -389,12 +418,14 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
+		<tag name="shelves"/>
+		<tag name="civilian"/>
 		<usage name="Industrial"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
 	</type>
-	<type name="ExpansionPropaneTorch">
+	<type name="ExpansionToolBox">
 		<nominal>10</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
@@ -404,21 +435,8 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<usage name="Industrial"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-	</type>
-	<type name="ExpansionToolBox">
-		<nominal>5</nominal>
-		<lifetime>7200</lifetime>
-		<restock>3600</restock>
-		<min>5</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
 		<usage name="Industrial"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>

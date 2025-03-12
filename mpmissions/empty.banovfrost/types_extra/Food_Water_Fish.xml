@@ -103,16 +103,19 @@
 		<category name="food"/>
 	</type>
 	<type name="GreenBellPepper">
-		<nominal>20</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>20</min>
+		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
 		<tag name="shelves"/>
+		<tag name="civilian"/>
 		<usage name="Farm"/>
 		<usage name="Village"/>
 		<value name="Tier1"/>
@@ -187,16 +190,19 @@
 		<category name="food"/>
 	</type>
 	<type name="Tomato">
-		<nominal>20</nominal>
+		<nominal>30</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>20</min>
+		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
 		<tag name="shelves"/>
+		<tag name="civilian"/>
 		<usage name="Farm"/>
 		<usage name="Village"/>
 		<value name="Tier1"/>
@@ -204,16 +210,19 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Zucchini">
-		<nominal>20</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>20</min>
+		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
 		<tag name="shelves"/>
+		<tag name="civilian"/>
 		<usage name="Farm"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
@@ -290,16 +299,19 @@
 	
 	<!-- БАНОЧКИ -->
 	<type name="BakedBeansCan">
-		<nominal>15</nominal>
+		<nominal>22</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>15</min>
+		<min>22</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<value name="Tier1"/>
@@ -318,16 +330,19 @@
 		<category name="food"/>
 	</type>
 	<type name="CrabCan">
-		<nominal>20</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>20</min>
+		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Office"/>
 		<value name="Tier1"/>
@@ -346,16 +361,19 @@
 		<category name="food"/>
 	</type>
 	<type name="BrisketSpread">
-		<nominal>23</nominal>
+		<nominal>27</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>23</min>
+		<min>27</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Office"/>
 		<usage name="School"/>
@@ -375,16 +393,19 @@
 		<category name="food"/>
 	</type>
 	<type name="CatFoodCan">
-		<nominal>15</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>15</min>
+		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="Lunapark"/>
@@ -404,16 +425,19 @@
 		<category name="food"/>
 	</type>
 	<type name="DogFoodCan">
-		<nominal>15</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>15</min>
+		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="School"/>
@@ -434,16 +458,19 @@
 		<category name="food"/>
 	</type>
 	<type name="Lunchmeat">
-		<nominal>20</nominal>
+		<nominal>30</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>20</min>
+		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Office"/>
 		<usage name="School"/>
@@ -463,16 +490,19 @@
 		<category name="food"/>
 	</type>
 	<type name="Pajka">
-		<nominal>23</nominal>
+		<nominal>35</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>23</min>
+		<min>35</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="Office"/>
@@ -493,16 +523,19 @@
 		<category name="food"/>
 	</type>
 	<type name="Pate">
-		<nominal>23</nominal>
+		<nominal>35</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>23</min>
+		<min>35</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="Office"/>
@@ -523,16 +556,19 @@
 		<category name="food"/>
 	</type>
 	<type name="PeachesCan">
-		<nominal>15</nominal>
+		<nominal>30</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>15</min>
+		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="School"/>
@@ -552,16 +588,19 @@
 		<category name="food"/>
 	</type>
 	<type name="PorkCan">
-		<nominal>15</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>15</min>
+		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="Office"/>
@@ -582,16 +621,19 @@
 		<category name="food"/>
 	</type>
 	<type name="SardinesCan">
-		<nominal>20</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>20</min>
+		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<value name="Tier1"/>
@@ -610,16 +652,19 @@
 		<category name="food"/>
 	</type>
 	<type name="SpaghettiCan">
-		<nominal>15</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>15</min>
+		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="Office"/>
@@ -639,16 +684,19 @@
 		<category name="food"/>
 	</type>
 	<type name="TacticalBaconCan">
-		<nominal>10</nominal>
+		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>10</min>
+		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -666,16 +714,19 @@
 		<category name="food"/>
 	</type>
 	<type name="TunaCan">
-		<nominal>20</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>20</min>
+		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Office"/>
 		<value name="Tier1"/>
@@ -694,16 +745,19 @@
 		<category name="food"/>
 	</type>
 	<type name="UnknownFoodCan">
-		<nominal>43</nominal>
+		<nominal>50</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>43</min>
+		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="Office"/>
@@ -726,16 +780,19 @@
 	
 	<!-- ПРОЧАЯ ЕДА -->
 	<type name="BoxCerealCrunchin">
-		<nominal>23</nominal>
+		<nominal>30</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>23</min>
+		<min>30</min>
 		<quantmin>10</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="School"/>
 		<value name="Tier1"/>
@@ -743,16 +800,19 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Chips">
-		<nominal>23</nominal>
+		<nominal>35</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>23</min>
+		<min>35</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="School"/>
 		<usage name="Lunapark"/>
@@ -761,16 +821,19 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Crackers">
-		<nominal>23</nominal>
+		<nominal>35</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>23</min>
+		<min>35</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="School"/>
@@ -780,16 +843,19 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Honey">
-		<nominal>15</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>15</min>
+		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Farm"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
@@ -811,16 +877,19 @@
 		<category name="food"/>
 	</type>
 	<type name="Marmalade">
-		<nominal>20</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>20</min>
+		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Village"/>
 		<usage name="School"/>
 		<value name="Tier1"/>
@@ -828,16 +897,19 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="PowderedMilk">
-		<nominal>15</nominal>
+		<nominal>30</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>15</min>
+		<min>30</min>
 		<quantmin>10</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="School"/>
 		<value name="Tier1"/>
@@ -854,23 +926,29 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Village"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
 	</type>
 	<type name="SaltySticks">
-		<nominal>23</nominal>
+		<nominal>35</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>23</min>
+		<min>35</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="School"/>
@@ -880,16 +958,19 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Zagorky">
-		<nominal>15</nominal>
+		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>15</min>
+		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Village"/>
 		<usage name="Hunting"/>
 		<usage name="Office"/>
@@ -900,32 +981,38 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="ZagorkyChocolate">
-		<nominal>15</nominal>
+		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>15</min>
+		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Hunting"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
 	</type>
 	<type name="ZagorkyPeanuts">
-		<nominal>15</nominal>
+		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>15</min>
+		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Hunting"/>
 		<usage name="Office"/>
 		<usage name="School"/>
@@ -1102,15 +1189,19 @@
 	
 	<!-- ВОДА/НАПИТКИ -->
 	<type name="Canteen">
-		<nominal>20</nominal>
+		<nominal>30</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>20</min>
+		<min>30</min>
 		<quantmin>10</quantmin>
 		<quantmax>90</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Hunting"/>
 		<usage name="Police"/>
@@ -1128,6 +1219,10 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
         <usage name="Police"/>
         <usage name="Medic"/>
         <usage name="Firefighter"/>
@@ -1155,6 +1250,10 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Hunting"/>
 		<value name="Tier1"/>
@@ -1172,6 +1271,10 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Police"/>
         <usage name="Medic"/>
         <usage name="Firefighter"/>
@@ -1190,15 +1293,19 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="SodaCan_Cola">
-		<nominal>20</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>20</min>
+		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Police"/>
         <usage name="Medic"/>
         <usage name="Firefighter"/>
@@ -1217,15 +1324,19 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="SodaCan_Fronta">
-		<nominal>20</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>20</min>
+		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Police"/>
         <usage name="Medic"/>
         <usage name="Firefighter"/>
@@ -1244,15 +1355,19 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="SodaCan_Kvass">
-		<nominal>20</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>20</min>
+		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Police"/>
         <usage name="Medic"/>
         <usage name="Firefighter"/>
@@ -1271,15 +1386,19 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="SodaCan_Pipsi">
-		<nominal>20</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>20</min>
+		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Police"/>
         <usage name="Medic"/>
         <usage name="Firefighter"/>
@@ -1298,15 +1417,19 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="SodaCan_Spite">
-		<nominal>20</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>20</min>
+		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Police"/>
         <usage name="Medic"/>
         <usage name="Firefighter"/>
@@ -1327,15 +1450,19 @@
 	
 	<!-- FireFly Mod -->
 	<type name="SR_Food_Corn">
-		<nominal>20</nominal>
+		<nominal>30</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>20</min>
+		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Police"/>
         <usage name="Medic"/>
         <usage name="Firefighter"/>
@@ -1365,15 +1492,19 @@
 		<category name="food"/>
 	</type>
 	<type name="SR_Food_FreshMarinade">
-		<nominal>15</nominal>
+		<nominal>30</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>15</min>
+		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Police"/>
         <usage name="Medic"/>
         <usage name="Firefighter"/>
@@ -1403,15 +1534,19 @@
 		<category name="food"/>
 	</type>
 	<type name="SR_Food_TunaMix">
-		<nominal>10</nominal>
+		<nominal>30</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>10</min>
+		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Police"/>
         <usage name="Medic"/>
         <usage name="Firefighter"/>
@@ -1441,15 +1576,19 @@
 		<category name="food"/>
 	</type>
 	<type name="SR_Food_Soup">
-		<nominal>5</nominal>
+		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>5</min>
+		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Police"/>
         <usage name="Medic"/>
         <usage name="Firefighter"/>
@@ -1479,15 +1618,19 @@
 		<category name="food"/>
 	</type>
 	<type name="SR_Food_Jummy">
-		<nominal>9</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>9</min>
+		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Police"/>
         <usage name="Medic"/>
         <usage name="Firefighter"/>
@@ -1506,15 +1649,19 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="SR_Food_Chips">
-		<nominal>25</nominal>
+		<nominal>35</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>25</min>
+		<min>35</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Police"/>
         <usage name="Medic"/>
         <usage name="Firefighter"/>
@@ -1533,15 +1680,19 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="SR_Food_CornFlakes">
-		<nominal>10</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>10</min>
+		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Police"/>
         <usage name="Medic"/>
         <usage name="Firefighter"/>
@@ -1560,15 +1711,19 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="SR_Food_WaterMilk">
-		<nominal>15</nominal>
+		<nominal>30</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>15</min>
+		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Police"/>
         <usage name="Medic"/>
         <usage name="Firefighter"/>
@@ -1596,6 +1751,10 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Prison"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -1611,6 +1770,10 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -1626,6 +1789,10 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<value name="Tier4"/>
 	</type>
@@ -1639,8 +1806,9 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
-		<tag name="shelves"/>
 		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
 		<tag name="civilian"/>
 		<usage name="Underground"/>
 		<usage name="Medic"/>
@@ -1661,6 +1829,10 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -1677,6 +1849,10 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Firefighter"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -1693,6 +1869,10 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Hunting"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -1700,15 +1880,19 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="SR_Food_Fizzo_Blueberry">
-		<nominal>14</nominal>
+		<nominal>8</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>14</min>
+		<min>8</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Police"/>
 		<usage name="Prison"/>
 		<value name="Tier1"/>
@@ -1726,6 +1910,10 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Medic"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>

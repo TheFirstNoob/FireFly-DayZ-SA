@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
 	<type name="M67Grenade">
-		<nominal>50</nominal>
+		<nominal>60</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>50</min>
+		<min>60</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="explosives"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+        <tag name="shelves"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
@@ -17,15 +21,19 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RGD5Grenade">
-		<nominal>50</nominal>
+		<nominal>60</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>50</min>
+		<min>60</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="explosives"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+        <tag name="shelves"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
@@ -43,6 +51,10 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="explosives"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+        <tag name="shelves"/>
+		<tag name="civilian"/>
 		<usage name="Medic"/>
         <usage name="Firefighter"/>
         <usage name="Coast"/>
@@ -63,6 +75,10 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="explosives"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+        <tag name="shelves"/>
+		<tag name="civilian"/>
 		<usage name="Medic"/>
         <usage name="Firefighter"/>
         <usage name="Coast"/>
@@ -83,6 +99,10 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="explosives"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+        <tag name="shelves"/>
+		<tag name="civilian"/>
 		<usage name="Medic"/>
         <usage name="Firefighter"/>
         <usage name="Coast"/>
@@ -103,6 +123,10 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="explosives"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+        <tag name="shelves"/>
+		<tag name="civilian"/>
 		<usage name="Medic"/>
         <usage name="Firefighter"/>
         <usage name="Coast"/>
@@ -123,6 +147,10 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="explosives"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+        <tag name="shelves"/>
+		<tag name="civilian"/>
 		<usage name="Medic"/>
         <usage name="Firefighter"/>
         <usage name="Coast"/>
@@ -144,6 +172,10 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="explosives"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+        <tag name="shelves"/>
+		<tag name="civilian"/>
 		<usage name="Medic"/>
         <usage name="Firefighter"/>
         <usage name="Coast"/>
@@ -164,6 +196,10 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="explosives"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+        <tag name="shelves"/>
+		<tag name="civilian"/>
 		<usage name="Medic"/>
         <usage name="Firefighter"/>
         <usage name="Coast"/>

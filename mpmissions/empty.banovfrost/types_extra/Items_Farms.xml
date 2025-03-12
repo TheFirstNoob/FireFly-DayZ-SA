@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
 	<type name="AntiPestsSpray">
-		<nominal>25</nominal>
+		<nominal>30</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>25</min>
+		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Village"/>
 		<usage name="Farm"/>
 		<value name="Tier1"/>
@@ -26,6 +30,8 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
+		<tag name="floor"/>
+        <tag name="ground"/>
 		<usage name="Village"/>
 		<usage name="Farm"/>
 		<value name="Tier1"/>
@@ -44,15 +50,19 @@
 		<category name="tools"/>
 	</type>
 	<type name="PepperSeedsPack">
-		<nominal>25</nominal>
+		<nominal>30</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>25</min>
+		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Farm"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
@@ -125,16 +135,19 @@
 		<category name="tools"/>
 	</type>
 	<type name="PotatoSeed">
-		<nominal>40</nominal>
+		<nominal>50</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>40</min>
+		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
-		<tag name="shelves"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Farm"/>
 		<usage name="Village"/>
 		<value name="Tier1"/>
@@ -162,6 +175,10 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Farm"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
@@ -179,15 +196,19 @@
 		<category name="tools"/>
 	</type>
 	<type name="TomatoSeedsPack">
-		<nominal>30</nominal>
+		<nominal>40</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>30</min>
+		<min>40</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Farm"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
@@ -214,6 +235,10 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
 		<usage name="Farm"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>

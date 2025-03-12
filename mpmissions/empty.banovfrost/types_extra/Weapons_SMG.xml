@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
 	<type name="CZ61">
-		<nominal>45</nominal>
+		<nominal>60</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>45</min>
+		<min>60</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+        <tag name="shelves"/>
+		<tag name="civilian"/>
 		<usage name="Police"/>
 		<usage name="Prison"/>
 		<usage name="Coast"/>
@@ -19,15 +23,19 @@
         <value name="Tier3"/>
 	</type>
 	<type name="MP5K">
-		<nominal>30</nominal>
+		<nominal>50</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>30</min>
+		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+        <tag name="shelves"/>
+		<tag name="civilian"/>
 		<usage name="Police"/>
 		<usage name="Prison"/>
 		<usage name="Coast"/>
@@ -37,15 +45,19 @@
         <value name="Tier3"/>
 	</type>
 	<type name="PP19">
-		<nominal>30</nominal>
+		<nominal>50</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>30</min>
+		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+        <tag name="shelves"/>
+		<tag name="civilian"/>
 		<usage name="Police"/>
 		<usage name="Prison"/>
 		<usage name="Coast"/>
@@ -55,15 +67,19 @@
         <value name="Tier3"/>
 	</type>
 	<type name="UMP45">
-		<nominal>32</nominal>
+		<nominal>45</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>32</min>
+		<min>45</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+        <tag name="shelves"/>
+		<tag name="civilian"/>
 		<usage name="Police"/>
 		<usage name="Military"/>
 		<usage name="Prison"/>
@@ -74,15 +90,19 @@
         <value name="Tier3"/>
 	</type>
 	<type name="Vikhr">
-		<nominal>28</nominal>
+		<nominal>35</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>28</min>
+		<min>35</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+        <tag name="shelves"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Prison"/>
 		<usage name="Coast"/>
@@ -94,15 +114,19 @@
 
 	<!-- Expansion Mod -->
 	<type name="Expansion_MPX">
-		<nominal>25</nominal>
+		<nominal>30</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>25</min>
+		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+        <tag name="shelves"/>
+		<tag name="civilian"/>
 		<usage name="Police"/>
 		<usage name="Prison"/>
 		<usage name="Coast"/>
@@ -112,15 +136,19 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="Expansion_MP7">
-		<nominal>25</nominal>
+		<nominal>30</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>25</min>
+		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+        <tag name="shelves"/>
+		<tag name="civilian"/>
 		<usage name="Police"/>
 		<usage name="Military"/>
 		<usage name="Prison"/>
@@ -131,15 +159,19 @@
         <value name="Tier3"/>
 	</type>
 	<type name="Expansion_Kedr">
-		<nominal>45</nominal>
+		<nominal>70</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>45</min>
+		<min>70</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+        <tag name="shelves"/>
+		<tag name="civilian"/>
 		<usage name="Police"/>
 		<usage name="Prison"/>
 		<usage name="Coast"/>
@@ -149,15 +181,19 @@
         <value name="Tier3"/>
 	</type>
 	<type name="Expansion_VityazSN">
-		<nominal>40</nominal>
+		<nominal>60</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>40</min>
+		<min>60</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+        <tag name="shelves"/>
+		<tag name="civilian"/>
 		<usage name="Police"/>
 		<usage name="Prison"/>
 		<usage name="Coast"/>
@@ -169,15 +205,19 @@
 
 	<!-- Panacea Weapons -->
 	<type name="PNC_VSK94">
-		<nominal>27</nominal>
+		<nominal>35</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>27</min>
+		<min>35</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+        <tag name="shelves"/>
+		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Prison"/>
 		<usage name="Coast"/>
