@@ -1,8 +1,8 @@
 {
 	"m_Version": 12,
-	"DisplayName": "TFN TEST - Другие детали",
-	"Icon": "Deliver",
-	"Color": "FBFCFEFF",
+	"DisplayName": "Детали для машин - Другие детали",
+	"Icon": "Scrap Metal",
+	"Color": "81DD4D",
 	"IsExchange": 0,
 	"InitStockPercent": 75.0,
 	"Items": [
@@ -69,8 +69,8 @@
 		},
 		{
 			"ClassName": "DodgeRam_3500_FrontBumper",
-			"MaxPriceThreshold": 100,
-			"MinPriceThreshold": 100,
+			"MaxPriceThreshold": 750,
+			"MinPriceThreshold": 750,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 1,
 			"MinStockThreshold": 1,

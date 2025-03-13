@@ -1,8 +1,8 @@
 {
 	"m_Version": 12,
 	"DisplayName": "Детали для машин - Капоты",
-	"Icon": "Deliver",
-	"Color": "FBFCFEFF",
+	"Icon": "Scrap Metal",
+	"Color": "81DD4D",
 	"IsExchange": 0,
 	"InitStockPercent": 75.0,
 	"Items": [
@@ -756,6 +756,140 @@
 				"DodgeRam_3500_Hood_RealTree",
 				"DodgeRam_3500_Hood_RedTiger",
 				"DodgeRam_3500_Hood_ScamTopia"
+			]
+		},
+		{
+			"ClassName": "hatchbackhood",
+			"MaxPriceThreshold": 1000,
+			"MinPriceThreshold": 1000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 1,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"hatchbackhood_blue",
+				"hatchbackhood_white",
+				"hatchbackhood_green",
+				"hatchbackhood_greenrust",
+				"hatchbackhood_bluerust",
+				"hatchbackhood_whiterust",
+				"hatchbackhood_police"
+			]
+		},
+		{
+			"ClassName": "hatchback_02_hood",
+			"MaxPriceThreshold": 1000,
+			"MinPriceThreshold": 1000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 1,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"hatchback_02_hood_black",
+				"hatchback_02_hood_blue",
+				"hatchback_02_hood_red",
+				"hatchback_02_hood_blackrust",
+				"hatchback_02_hood_bluerust",
+				"hatchback_02_hood_redrust",
+				"hatchback_02_hood_banditkitty"
+			]
+		},
+		{
+			"ClassName": "civsedanhood",
+			"MaxPriceThreshold": 1000,
+			"MinPriceThreshold": 1000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 1,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"civsedanhood_wine",
+				"civsedanhood_black",
+				"civsedanhood_white",
+				"civsedanhood_lime",
+				"civsedanhood_police",
+				"civsedanhood_winerust",
+				"civsedanhood_blackrust",
+				"civsedanhood_whiterust"
+			]
+		},
+		{
+			"ClassName": "sedan_02_hood",
+			"MaxPriceThreshold": 600,
+			"MinPriceThreshold": 300,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"sedan_02_hood_red",
+				"sedan_02_hood_grey",
+				"sedan_02_hood_yellow",
+				"sedan_02_hood_yellowbright",
+				"sedan_02_hood_blue",
+				"sedan_02_hood_redrust",
+				"sedan_02_hood_greyrust",
+				"sedan_02_hood_yellowrust",
+				"sedan_02_hood_yellowbrightrust",
+				"sedan_02_hood_bluerust"
+			]
+		},
+		{
+			"ClassName": "truck_01_hood",
+			"MaxPriceThreshold": 2500,
+			"MinPriceThreshold": 2500,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 1,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"truck_01_hood_blue",
+				"truck_01_hood_orange",
+				"truck_01_hood_green",
+				"truck_01_hood_red",
+				"truck_01_hood_white",
+				"truck_01_hood_black",
+				"truck_01_hood_wine",
+				"truck_01_hood_lime",
+				"truck_01_hood_yellow",
+				"truck_01_hood_yellowbright",
+				"truck_01_hood_greenrust",
+				"truck_01_hood_bluerust",
+				"truck_01_hood_orangerust"
+			]
+		},
+		{
+			"ClassName": "offroad_02_hood",
+			"MaxPriceThreshold": 1750,
+			"MinPriceThreshold": 1750,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 1,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "expansion_landrover_hood",
+			"MaxPriceThreshold": 1750,
+			"MinPriceThreshold": 1750,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 1,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"expansion_landrover_hood_yellow",
+				"expansion_landrover_hood_green",
+				"expansion_landrover_hood_red",
+				"expansion_landrover_hood_grey",
+				"expansion_landrover_hood_blue",
+				"expansion_landrover_hood_orange"
 			]
 		}
 	]

@@ -1,8 +1,8 @@
 {
 	"m_Version": 12,
 	"DisplayName": "Детали для машин - Багажники",
-	"Icon": "Deliver",
-	"Color": "FBFCFEFF",
+	"Icon": "Scrap Metal",
+	"Color": "81DD4D",
 	"IsExchange": 0,
 	"InitStockPercent": 75.0,
 	"Items": [
@@ -780,6 +780,117 @@
 				"DodgeRam_3500_Trunk_RealTree",
 				"DodgeRam_3500_Trunk_RedTiger",
 				"DodgeRam_3500_Trunk_ScamTopia"
+			]
+		},
+		{
+			"ClassName": "hatchbacktrunk",
+			"MaxPriceThreshold": 1000,
+			"MinPriceThreshold": 1000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 1,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"hatchbacktrunk_blue",
+				"hatchbacktrunk_white",
+				"hatchbacktrunk_green",
+				"hatchbacktrunk_greenrust",
+				"hatchbacktrunk_bluerust",
+				"hatchbacktrunk_whiterust",
+				"hatchbacktrunk_police"
+			]
+		},
+		{
+			"ClassName": "hatchback_02_trunk",
+			"MaxPriceThreshold": 1000,
+			"MinPriceThreshold": 1000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 1,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"hatchback_02_trunk_black",
+				"hatchback_02_trunk_blue",
+				"hatchback_02_trunk_red",
+				"hatchback_02_trunk_blackrust",
+				"hatchback_02_trunk_bluerust",
+				"hatchback_02_trunk_redrust",
+				"hatchback_02_trunk_banditkitty"
+			]
+		},
+		{
+			"ClassName": "civsedantrunk",
+			"MaxPriceThreshold": 1000,
+			"MinPriceThreshold": 1000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 1,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"civsedantrunk_wine",
+				"civsedantrunk_black",
+				"civsedantrunk_white",
+				"civsedantrunk_lime",
+				"civsedantrunk_police",
+				"civsedantrunk_winerust",
+				"civsedantrunk_blackrust",
+				"civsedantrunk_whiterust"
+			]
+		},
+		{
+			"ClassName": "sedan_02_trunk",
+			"MaxPriceThreshold": 900,
+			"MinPriceThreshold": 450,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"sedan_02_trunk_red",
+				"sedan_02_trunk_grey",
+				"sedan_02_trunk_yellow",
+				"sedan_02_trunk_yellowbright",
+				"sedan_02_trunk_blue",
+				"sedan_02_trunk_redrust",
+				"sedan_02_trunk_greyrust",
+				"sedan_02_trunk_yellowrust",
+				"sedan_02_trunk_yellowbrightrust",
+				"sedan_02_trunk_bluerust"
+			]
+		},
+		{
+			"ClassName": "offroad_02_trunk",
+			"MaxPriceThreshold": 1750,
+			"MinPriceThreshold": 1750,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 1,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"offroad_02_trunk_rust"
+			]
+		},
+		{
+			"ClassName": "expansion_landrover_trunk",
+			"MaxPriceThreshold": 1750,
+			"MinPriceThreshold": 1750,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 1,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"expansion_landrover_trunk_yellow",
+				"expansion_landrover_trunk_green",
+				"expansion_landrover_trunk_red",
+				"expansion_landrover_trunk_grey",
+				"expansion_landrover_trunk_blue",
+				"expansion_landrover_trunk_orange"
 			]
 		}
 	]
