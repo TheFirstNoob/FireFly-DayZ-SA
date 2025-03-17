@@ -3,11 +3,9 @@
 <spawnabletypes>
 	<!--  WEAPONS Pistols -->
 	<type name="MakarovIJ70">
-		<damage min="0.2" max="0.8" />
 		<attachments chance="0.66">
 			<item name="Mag_IJ70_8Rnd" chance="1.00" />
 		</attachments>
-		<!-- MakarovPBSuppressor -->
 	</type>
 	<type name="MKII">
 		<attachments chance="0.66">
@@ -150,14 +148,11 @@
 		</attachments>
 	</type>
 	<type name="Winchester70">
-		<damage min="0.3" max="0.7" />
 		<attachments chance="0.10">
 			<item name="HuntingOptic" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="Mosin9130">
-		<damage min="0.3" max="0.7" />
-		<attachments chance="0.10">
 			<item name="Mosin_Compensator" chance="1.00" />
 		</attachments>
 		<attachments chance="0.05">
@@ -165,13 +160,11 @@
 		</attachments>
 	</type>
 	<type name="SKS">
-		<damage min="0.3" max="0.7" />
 		<attachments chance="0.10">
 			<item name="PUScopeOptic" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="AKM">
-		<damage min="0.0" max="0.3" />
 		<attachments chance="1.00">
 			<item name="AK_FoldingBttstck" chance="40.00" />
 			<item name="AKS74U_Bttstck" chance="30.00" />
@@ -234,14 +227,12 @@
 		</attachments>
 	</type>
 	<type name="SV98">
-		<damage min="0.0" max="0.3" />
 		<attachments chance="0.75">
 			<item name="ACOGOptic" chance="0.75" />
 			<item name="ACOGOptic_6x" chance="0.25" />
 		</attachments>
 	</type>
 	<type name="AK101">
-		<damage min="0.3" max="0.7" />
 		<attachments chance="1.00">
 			<item name="AK_FoldingBttstck" chance="40.00" />
 			<item name="AKS74U_Bttstck" chance="30.00" />
@@ -264,7 +255,6 @@
 		</attachments>
 	</type>
 	<type name="M4A1">
-		<damage min="0.45" max="0.85" />
 		<attachments chance="1.00">
 			<item name="M4_OEBttstck" chance="1.00" />
 		</attachments>
@@ -283,7 +273,6 @@
 		</attachments>
 	</type>
 	<type name="M16A2">
-		<damage min="0.3" max="0.7" />
 		<attachments chance="0.30">
 			<item name="Mag_CMAG_40Rnd" chance="0.15" />
 			<item name="Mag_CMAG_10Rnd" chance="0.50" />
@@ -292,7 +281,6 @@
 		</attachments>
 	</type>
 	<type name="FAMAS">
-		<damage min="0.3" max="0.7" />
 		<attachments chance="0.75">
 			<item name="Mag_FAMAS_25Rnd" chance="1.0" />
 		</attachments>
@@ -312,13 +300,11 @@
 		</attachments>
 	</type>
 	<type name="AugShort">
-		<damage min="0.3" max="0.7" />
 		<attachments chance="0.25">
 			<item name="Mag_Aug_30Rnd" chance="1.0" />
 		</attachments>
 	</type>
 	<type name="FAL">
-		<damage min="0.45" max="0.85" />
 		<attachments chance="1.00">
 			<item name="Fal_FoldingBttstck" chance="0.50" />
 			<item name="Fal_OeBttstck" chance="1.00" />
@@ -335,7 +321,6 @@
 		</attachments>
 	</type>
 	<type name="SVD">
-		<damage min="0.0" max="0.3" />
 		<attachments chance="0.75">
 			<item name="Mag_SVD_10Rnd" chance="1.00" />
 		</attachments>
@@ -361,7 +346,6 @@
 		</attachments>
 	</type>
 	<type name="B95">
-		<damage min="0.3" max="0.7" />
 		<attachments chance="0.10">
 			<item name="HuntingOptic" chance="1.00" />
 		</attachments>
@@ -376,7 +360,6 @@
 		</attachments>
 	</type>
 	<type name="Ruger1022">
-		<damage min="0.0" max="0.32" />
 		<attachments chance="0.10">
 			<item name="HuntingOptic" chance="1.00" />
 		</attachments>
@@ -432,7 +415,6 @@
 		</attachments>
 	</type>
 	<type name="CZ550">
-		<damage min="0.3" max="0.7" />
 		<attachments chance="0.10">
 			<item name="HuntingOptic" chance="1.00" />
 		</attachments>
@@ -475,7 +457,6 @@
 		</attachments>
 	</type>
 	<type name="MP133Shotgun">
-		<damage min="0.0" max="0.32" />
 		<attachments chance="0.30">
 			<item name="FNP45_MRDSOptic" chance="0.30" />
 		</attachments>
