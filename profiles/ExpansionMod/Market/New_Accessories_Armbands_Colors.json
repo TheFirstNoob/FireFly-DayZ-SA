@@ -4,14 +4,14 @@
 	"Icon": "Rope",
 	"Color": "FBFCFEFF",
 	"IsExchange": 0,
-	"InitStockPercent": 25.0,
+	"InitStockPercent": 100.0,
 	"Items": [
 		{
 			"ClassName": "armband_white",
-			"MaxPriceThreshold": 30,
-			"MinPriceThreshold": 15,
+			"MaxPriceThreshold": 100,
+			"MinPriceThreshold": 100,
 			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 250,
+			"MaxStockThreshold": 1,
 			"MinStockThreshold": 1,
 			"QuantityPercent": -1,
 			"SpawnAttachments": [],
