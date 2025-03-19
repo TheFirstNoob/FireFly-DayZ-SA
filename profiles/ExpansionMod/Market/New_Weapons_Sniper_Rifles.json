@@ -33,11 +33,13 @@
 			"MaxPriceThreshold": 43750,
 			"MinPriceThreshold": 8750,
 			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 65,
+			"MaxStockThreshold": 33,
 			"MinStockThreshold": 0,
 			"QuantityPercent": -1,
 			"SpawnAttachments": [],
-			"Variants": []
+			"Variants": [
+				"SVD_Wooden"
+			]
 		},
 		{
 			"ClassName": "Scout",
@@ -253,7 +255,7 @@
 			"MaxPriceThreshold": 240000,
 			"MinPriceThreshold": 48000,
 			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 1,
+			"MaxStockThreshold": 10,
 			"MinStockThreshold": 0,
 			"QuantityPercent": -1,
 			"SpawnAttachments": [],
