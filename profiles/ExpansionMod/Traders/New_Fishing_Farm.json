@@ -1,24 +1,20 @@
 {
 	"m_Version": 12,
-	"DisplayName": "#STR_EXPANSION_MARKET_TRADER_BUILDING_SUPPLIES",
+	"DisplayName": "Торговец природными богатствами",
 	"MinRequiredReputation": 0,
 	"MaxRequiredReputation": 12000,
 	"RequiredFaction": "",
 	"RequiredCompletedQuestID": -1,
-	"TraderIcon": "Nails",
+	"TraderIcon": "Fishing",
 	"Currencies": [
 		"expansionbanknotehryvnia"
 	],
 	"DisplayCurrencyValue": 1,
 	"DisplayCurrencyName": "",
 	"Categories": [
-		"Gardening",
-		"Tools",
-		"Supplies",
-		"Locks",
-		"Containers",
-		"Tents",
-		"Furnishings"
+		"Fishing",
+		"Gardening"
 	],
-	"Items": {}
+	"Items": {
+	}
 }

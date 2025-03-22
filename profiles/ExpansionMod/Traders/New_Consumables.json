@@ -1,24 +1,20 @@
 {
 	"m_Version": 12,
-	"DisplayName": "#STR_EXPANSION_MARKET_TRADER_COMPONENTS",
+	"DisplayName": "Бармен",
 	"MinRequiredReputation": 0,
 	"MaxRequiredReputation": 12000,
 	"RequiredFaction": "",
 	"RequiredCompletedQuestID": -1,
-	"TraderIcon": "Hammer",
+	"TraderIcon": "Can Of Beans Big",
 	"Currencies": [
 		"expansionbanknotehryvnia"
 	],
 	"DisplayCurrencyValue": 1,
 	"DisplayCurrencyName": "",
 	"Categories": [
-		"Tools",
-		"Supplies",
-		"Locks",
-		"Containers",
-		"Tents",
-		"Electronics",
-		"Lights"
+		"New_Barmen_Drinks",
+		"New_Barmen_Foods",
+		"New_Barmen_Fruits_And_Vegetables"
 	],
 	"Items": {}
 }
