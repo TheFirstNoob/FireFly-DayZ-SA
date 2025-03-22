@@ -1,0 +1,43 @@
+{
+	"m_Version": 12,
+	"DisplayName": "Посуда и Открывашка",
+	"Icon": "Frying Pan",
+	"Color": "66CDAA",
+	"IsExchange": 0,
+	"InitStockPercent": 25.0,
+	"Items": [
+		{
+			"ClassName": "FryingPan",
+			"MaxPriceThreshold": 800,
+			"MinPriceThreshold": 250,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "Pot",
+			"MaxPriceThreshold": 650,
+			"MinPriceThreshold": 175,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "canopener",
+			"MaxPriceThreshold": 20,
+			"MinPriceThreshold": 10,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		}
+	]
+}
