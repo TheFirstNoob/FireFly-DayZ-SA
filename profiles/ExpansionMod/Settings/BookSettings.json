@@ -8,7 +8,7 @@
 	"EnableBookMenu": 1,
 	"CreateBookmarks": 1,
 	"ShowHaBStats": 0,
-	"ShowPlayerFaction": 1,
+	"ShowPlayerFaction": 0,
 	"RuleCategories": [
 		{
 			"CategoryName": "Основные правила",
@@ -60,6 +60,14 @@
 				{
 					"RuleParagraph": "1.7.",
 					"RuleText": "Уважайте других игроков и их труд. Будьте зайками <3"
+				},
+				{
+					"RuleParagraph": "1.8.",
+					"RuleText": "Администрация не будет вам никак помогать в восстановлении вашего игрового контента в случае если вы заехали за карту или территорию не предусмотренную самой картой."
+				},
+				{
+					"RuleParagraph": "1.9.",
+					"RuleText": "Запрещено абузить квесты/задания с целью заработка лута или для фарма иных целей. Например репутации.."
 				}
 			]
 		},
@@ -118,12 +126,182 @@
 				{
 					"RuleParagraph": "3.5.",
 					"RuleText": "Запрещено устанавливать ловушки, заторы и т.п. рядом с Безопасной зоной."
+				},
+				{
+					"RuleParagraph": "3.6.",
+					"RuleText": "Запрещено Блокировать точки появления Техники у Продавца техникой и Аукциона. Используйте парковочные зоны."
 				}
 			]
 		}
 	],
-	"DisplayServerSettingsInServerInfoTab": 0,
-	"SettingCategories": [],
+	"DisplayServerSettingsInServerInfoTab": 1,
+	"SettingCategories": [
+	{
+        "CategoryName": "Основные параметры сервера",
+        "Settings": [
+            {
+                "SettingTitle": "Тип сервера:",
+                "SettingText": "PVE",
+                "SettingValue": ""
+            },
+            {
+                "SettingTitle": "Авторестарты:",
+                "SettingText": "Каждые 6 часов",
+                "SettingValue": ""
+            },
+            {
+                "SettingTitle": "Множитель день:",
+                "SettingText": "х1",
+                "SettingValue": ""
+            },
+            {
+                "SettingTitle": "Множитель ночь:",
+                "SettingText": "х3",
+                "SettingValue": ""
+            }
+        ]
+    },
+    {
+        "CategoryName": "Настройки Группы",
+        "Settings": [
+            {
+                "SettingTitle": "Макс. в группе:",
+                "SettingText": "10",
+                "SettingValue": ""
+            },
+            {
+                "SettingTitle": "Приглашение в группу:",
+                "SettingText": "Игроки рядом:",
+                "SettingValue": "Да"
+            },
+            {
+                "SettingTitle": "Быстрый маркер (H):",
+                "SettingText": "Да",
+                "SettingValue": ""
+            }
+        ]
+    },
+    {
+        "CategoryName": "Настройки Территорий",
+        "Settings": [
+            {
+                "SettingTitle": "Требуется флаг:",
+                "SettingText": "Да",
+                "SettingValue": ""
+            },
+            {
+                "SettingTitle": "Радиус территории:",
+                "SettingText": "40 метров",
+                "SettingValue": ""
+            },
+            {
+                "SettingTitle": "Макс. на территорию:",
+                "SettingText": "10",
+                "SettingValue": ""
+            },
+            {
+                "SettingTitle": "Приглашение на территорий:",
+                "SettingText": "Игроки рядом:",
+                "SettingValue": "Да"
+            },
+            {
+                "SettingTitle": "Пришглашение не из группы:",
+                "SettingText": "Да",
+                "SettingValue": ""
+            }
+        ]
+    },
+    {
+        "CategoryName": "Настройки Репутации",
+        "Settings": [
+            {
+                "SettingTitle": "Штраф за смерть:",
+                "SettingText": "-250",
+                "SettingValue": ""
+            },
+            {
+                "SettingTitle": "Штраф за убийство игрока:",
+                "SettingText": "-2000",
+                "SettingValue": ""
+            },
+            {
+                "SettingTitle": "Ур. Обыденный:",
+                "SettingText": "0",
+                "SettingValue": ""
+            },
+            {
+                "SettingTitle": "Ур. Обычный:",
+                "SettingText": "500",
+                "SettingValue": ""
+            },
+            {
+                "SettingTitle": "Ур. Необычный:",
+                "SettingText": "1000",
+                "SettingValue": ""
+            },
+            {
+                "SettingTitle": "Ур. Редкий:",
+                "SettingText": "2000",
+                "SettingValue": ""
+            },
+            {
+                "SettingTitle": "Ур. Эпический:",
+                "SettingText": "3500",
+                "SettingValue": ""
+            },
+            {
+                "SettingTitle": "Ур. Легендарный:",
+                "SettingText": "5500",
+                "SettingValue": ""
+            },
+            {
+                "SettingTitle": "Ур. Мифический:",
+                "SettingText": "8000",
+                "SettingValue": ""
+            },
+            {
+                "SettingTitle": "Ур. Экзотический:",
+                "SettingText": "11000",
+                "SettingValue": ""
+            }
+        ]
+    },
+    {
+        "CategoryName": "Настройки Умений",
+        "Settings": [
+            {
+                "SettingTitle": "Штраф за смерть:",
+                "SettingText": "20% от опыта",
+                "SettingValue": ""
+            },
+            {
+                "SettingTitle": "Штраф за сброс:",
+                "SettingText": "25% от опыта",
+                "SettingValue": ""
+            },
+            {
+                "SettingTitle": "Базовый шанс:",
+                "SettingText": "Костер:",
+                "SettingValue": "20%"
+            },
+            {
+                "SettingTitle": "Базовое время:",
+                "SettingText": "Костер:",
+                "SettingValue": "15 секунд"
+            },
+            {
+                "SettingTitle": "Базовое время:",
+                "SettingText": "Разделывание туш:",
+                "SettingValue": "60 секунд"
+            },
+            {
+                "SettingTitle": "Базовый урон:",
+                "SettingText": "Нож: При разделке туш",
+                "SettingValue": "100 единиц"
+            }
+        ]
+    }
+	],
 	"Links": [
 		{
 			"Name": "Discord",
@@ -145,14 +323,6 @@
 		}
 	],
 	"Descriptions": [
-		{
-			"CategoryName": "!!!СВЕРНИТЕ ВСЕ РАЗДЕЛЫ ЧТОБЫ ПРОЧЕСТЬ ВСЕ!!!",
-			"Descriptions": [
-				{
-					"DescriptionText": "Я СКАЗАЛ СВЕРНИТЕ ВСЕ РАЗДЕЛЫ. НУ РЕАЛЬНО! xD"
-				}
-			]
-		},
 		{
 			"CategoryName": "Основные механики",
 			"Descriptions": [
@@ -207,19 +377,16 @@
 					"DescriptionText": "4. Все детали техники нужно закрутить, даже после покупки у Торговца. Хотя бы колеса! Это можно сделать с помощью Монтировки, Ответки и Гаечного ключа."
 				},
 				{
-					"DescriptionText": "5. Чтобы Снять колесо вам потребуется Домкрат."
+					"DescriptionText": "5. Чтобы Снять/Починить колесо вам потребуется поднять машину Домкратом."
 				},
 				{
-					"DescriptionText": "6. Чтобы Починить колесо вам нужно Обязательно снять его с машины."
+					"DescriptionText": "6. Ближний и Дальний свет, а так же подсветка салона ночью (Клавиша L - Нажать/Удержать)."
 				},
 				{
-					"DescriptionText": "7. Ближний и Дальний свет, а так же подсветка салона ночью (Клавиша L - Нажать/Удержать)."
+					"DescriptionText": "7. Обогрев водителя и пассажира. Только для передних сидений. Не греет если отсутствует хотя бы одна дверь или стекло."
 				},
 				{
-					"DescriptionText": "8. Обогрев водителя и пассажира. Только для передних сидений. Не греет если отсутствует хотя бы одна дверь или стекло."
-				},
-				{
-					"DescriptionText": "9. Радиатор - заливать Водой. Двигатель - заливать Моторным маслом. Аккумулятор - заряжать Зарядным устройством."
+					"DescriptionText": "8. Радиатор - заливать Водой. Двигатель - заливать Моторным маслом. Аккумулятор - заряжать Зарядным устройством."
 				}
 			]
 		},
@@ -238,7 +405,7 @@
 			]
 		},
 		{
-			"CategoryName": "Горнорудная система (тестируется)",
+			"CategoryName": "Горнорудная система (Отключена)",
 			"Descriptions": [
 				{
 					"DescriptionText": "Горнорудная система отличный способ заработка на сервере. Рудные и Драгоценные жилы можно найти у каменных биомов и специальных зонах добычи."
@@ -279,10 +446,10 @@
 			]
 		},
 		{
-			"CategoryName": "Гровеская система (тестируется)",
+			"CategoryName": "Гровеская система (Отключена)",
 			"Descriptions": [
 				{
-					"DescriptionText": "Горнорудная система еще один способ заработка на сервере. Семена и Детали можно найти только в определенных зонах или наградах."
+					"DescriptionText": "Гровеская система еще один способ заработка на сервере. Семена и Детали можно найти только в определенных зонах или наградах."
 				},
 				{
 					"DescriptionText": "Чтобы начать заниматься Гровеством вам потребуется подготовленная Мотыга или Кирка, Земля для посадки, специальноя Осушивающее бревно, Садовая известь, а так же Специальный верстак и два приспособления к нему. Рецепты можно найти в книжке, а приспособления найти на карте."
