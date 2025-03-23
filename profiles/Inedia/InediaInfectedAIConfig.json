@@ -467,8 +467,8 @@
                     "TargetStunChancePercent": 30.0,
                     "ThrowConditionGroundTargetDistanceMin": 0.4000000059604645,
                     "TargetShockDamage": 20.0,
-                    "TargetHealthDamage": 5.0,
-                    "TargetBleedingChancePercent": 10.0,
+                    "TargetHealthDamage": 7.0,
+                    "TargetBleedingChancePercent": 12.0,
                     "ThrowConditionCooldownSeconds": 30.0
                 }
             },
@@ -1811,7 +1811,7 @@
             "all": []
         },
         "CameraShakeToPlayerIntensity": {
-            "all": 10.0
+            "all": 15.0
         },
         "PainToPlayerHandlerIsActive": {
             "all": 1
@@ -2249,7 +2249,7 @@
             "all": 0.8999999761581421
         },
         "ThrowingProjectilesHandlerVehiclesDamageMultiplier": {
-            "all": 1.7999999523162842
+            "all": 1.2
         },
         "ThrowingProjectilesHandlerProjectilesList": {
             "Police": [
@@ -2433,7 +2433,7 @@
             "all": 1.0
         },
         "CollisionsDamageSpeedThresholdKmH": {
-            "all": 10.0
+            "all": 35.0
         }
     },
     "LossInterestToIrritantAfterSeconds": 60.0,
