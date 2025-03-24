@@ -45,10 +45,10 @@
 		<category name="tools"/>
 	</type>
 	<type name="Barrel_Blue">
-		<nominal>10</nominal>
+		<nominal>5</nominal>
 		<lifetime>3888000</lifetime>
 		<restock>3600</restock>
-		<min>10</min>
+		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -61,12 +61,13 @@
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
+        <value name="Tier4"/>
 	</type>
 	<type name="Barrel_Green">
-		<nominal>10</nominal>
+		<nominal>5</nominal>
 		<lifetime>3888000</lifetime>
 		<restock>3600</restock>
-		<min>10</min>
+		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -80,12 +81,13 @@
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
+        <value name="Tier4"/>
 	</type>
 	<type name="Barrel_Red">
-		<nominal>10</nominal>
+		<nominal>5</nominal>
 		<lifetime>3888000</lifetime>
 		<restock>3600</restock>
-		<min>10</min>
+		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -99,12 +101,13 @@
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
+        <value name="Tier4"/>
 	</type>
 	<type name="Barrel_Yellow">
-		<nominal>10</nominal>
+		<nominal>5</nominal>
 		<lifetime>3888000</lifetime>
 		<restock>3600</restock>
-		<min>10</min>
+		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -118,6 +121,7 @@
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
+        <value name="Tier4"/>
 	</type>
 	
 	<type name="CarTent">
@@ -326,6 +330,9 @@
 		<tag name="ground"/>
 		<usage name="Industrial"/>
 		<usage name="Coast"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
 		<value name="Tier4"/>
 	</type>
 	
