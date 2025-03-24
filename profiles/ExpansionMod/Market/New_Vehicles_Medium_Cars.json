@@ -45,38 +45,6 @@
 			]
 		},
 		{
-			"ClassName": "Offroad_02",
-			"MaxPriceThreshold": 100000,
-			"MinPriceThreshold": 50000,
-			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 1,
-			"MinStockThreshold": 1,
-			"QuantityPercent": -1,
-			"SpawnAttachments": [
-				"LugWrench",
-				"Wrench",
-				"Screwdriver",
-				"rag_car_jack",
-				"offroad_02_wheel",
-				"offroad_02_wheel",
-				"offroad_02_wheel",
-				"offroad_02_wheel",
-				"offroad_02_wheel",
-				"offroad_02_wheel",
-				"offroad_02_door_1_1",
-				"offroad_02_door_2_1",
-				"offroad_02_door_1_2",
-				"offroad_02_door_2_2",
-				"offroad_02_hood",
-				"offroad_02_trunk",
-				"carbattery",
-				"glowplug",
-				"headlighth7",
-				"headlighth7"
-			],
-			"Variants": []
-		},
-		{
 			"ClassName": "Expansion_Landrover",
 			"MaxPriceThreshold": 180000,
 			"MinPriceThreshold": 70000,
@@ -107,7 +75,6 @@
 				"headlighth7"
 			],
 			"Variants": [
-				"Expansion_Landrover",
 				"Expansion_Landrover_Yellow",
 				"Expansion_Landrover_Green",
 				"Expansion_Landrover_Red",

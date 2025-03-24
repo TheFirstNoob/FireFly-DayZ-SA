@@ -7,48 +7,6 @@
     "InitStockPercent": 25,
     "Items": [
         {
-            "ClassName": "Truck_01_Covered",
-            "MaxPriceThreshold": 100000,
-            "MinPriceThreshold": 50000,
-            "SellPricePercent": -1,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "LugWrench",
-                "Wrench",
-                "Screwdriver",
-                "rag_car_jack",
-                "truck_01_wheel",
-                "truck_01_wheel",
-                "truck_01_wheel",
-                "truck_01_wheel",
-                "truck_01_wheeldouble",
-                "truck_01_wheeldouble",
-                "truck_01_wheeldouble",
-                "truck_01_wheeldouble",
-                "truck_01_hood",
-                "truck_01_door_1_1",
-                "truck_01_door_2_1",
-                "truckbattery",
-                "headlighth7",
-                "headlighth7"
-            ],
-            "Variants": [
-                "Truck_01_Covered",
-                "Truck_01_Covered_Blue",
-                "Truck_01_Covered_Orange",
-                "Truck_01_Covered_Green",
-                "Truck_01_Covered_Red",
-                "Truck_01_Covered_White",
-                "Truck_01_Covered_Black",
-                "Truck_01_Covered_Wine",
-                "Truck_01_Covered_Lime",
-                "Truck_01_Covered_Yellow",
-                "Truck_01_Covered_YellowBright"
-            ]
-        },
-        {
             "ClassName": "kraz_255B",
             "MaxPriceThreshold": 50000,
             "MinPriceThreshold": 15000,
