@@ -79,10 +79,10 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="FAMAS">
-		<nominal>25</nominal>
+		<nominal>18</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>25</min>
+		<min>18</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -112,10 +112,10 @@
 
 	<!-- Expansion Mod -->
 	<type name="Expansion_G36">
-		<nominal>20</nominal>
+		<nominal>16</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>20</min>
+		<min>16</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -133,10 +133,10 @@
 
 	<!-- Tactical Flava Mod -->
 	<type name="TF_AN94">
-		<nominal>16</nominal>
+		<nominal>12</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>16</min>
+		<min>12</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -151,10 +151,10 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="TF_AN94M">
-		<nominal>13</nominal>
+		<nominal>10</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>13</min>
+		<min>10</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
