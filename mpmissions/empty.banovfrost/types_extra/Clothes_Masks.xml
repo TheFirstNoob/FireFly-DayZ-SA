@@ -57,12 +57,14 @@
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Military"/>
+		<usage name="Industrial"/>
 		<usage name="Firefighter"/>
 		<usage name="Prison"/>
 		<usage name="Medic"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="GasMask_Filter_Improvised">
 		<nominal>0</nominal>
@@ -597,10 +599,10 @@
 	</type>
 
 	<type name="NioshFaceMask">
-		<nominal>30</nominal>
+		<nominal>40</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>30</min>
+		<min>40</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -614,6 +616,7 @@
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
+        <value name="Tier4"/>
 	</type>
 
 	<type name="SurgicalMask">
@@ -653,6 +656,7 @@
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="TF_WeldingMask_Tagilla">
 		<nominal>2</nominal>
@@ -672,6 +676,7 @@
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="TF_WeldingMask">
 		<nominal>2</nominal>
@@ -691,6 +696,7 @@
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	
 	<!-- Tactical Flava Mod -->
