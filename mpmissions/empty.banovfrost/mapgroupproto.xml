@@ -544,12 +544,12 @@
 						<point pos="-15.361328 -4.006134 0.719238" range="0.500000" height="1.500000" />
 				</container>
 		</group>
-		<group name="Land_Underground_Storage_Barracks" lootmax="18">
+		<group name="Land_Underground_Storage_Barracks" lootmax="20">
 				<usage name="Military" />
 				<usage name="Underground" />
 				<value name="Tier4" />
 				<value name="Tier5" />
-				<container name="lootFloor" lootmax="13">
+				<container name="lootFloor" lootmax="15">
 						<category name="containers" />
 						<category name="clothes" />
 						<category name="books" />
@@ -595,11 +595,12 @@
 						<point pos="4.162598 1.215271 5.252929" range="0.409375" height="1.023438" />
 				</container>
 			</group>
-		<group name="Land_Underground_Floor_Comms" lootmax="15">
+		<group name="Land_Underground_Floor_Comms" lootmax="18">
 				<usage name="Military" />
+				<usage name="Underground" />
 				<value name="Tier4" />
 				<value name="Tier5" />
-				<container name="lootFloor" lootmax="15">
+				<container name="lootFloor" lootmax="18">
 						<category name="containers" />
 						<category name="clothes" />
 						<category name="books" />
@@ -630,11 +631,12 @@
 						<point pos="-2.186769 0.993164 -8.246400" range="0.443750" height="1.109375" flags="16" />
 				</container>
 		</group>
-		<group name="Land_Underground_Floor_Crew" lootmax="20">
+		<group name="Land_Underground_Floor_Crew" lootmax="25">
 				<usage name="Military" />
+				<usage name="Underground" />
 				<value name="Tier4" />
 				<value name="Tier5" />
-				<container name="lootFloor" lootmax="20">
+				<container name="lootFloor" lootmax="25">
 						<category name="containers" />
 						<category name="clothes" />
 						<category name="weapons" />
@@ -701,12 +703,13 @@
 						<point pos="1.768126 1.585022 -3.608747" range="0.232227" height="0.294983" />
 				</container>
 		</group>
-		<group name="Land_Underground_Storage_Workshop" lootmax="15">
+		<group name="Land_Underground_Storage_Workshop" lootmax="17">
 				<usage name="Military" />
 				<usage name="Industrial" />
+				<usage name="Underground" />
 				<value name="Tier4" />
 				<value name="Tier5" />
-				<container name="lootTools" lootmax="15">
+				<container name="lootTools" lootmax="17">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -830,12 +833,12 @@
 						<proxy type="Ammo_40mm_Explosive" 	pos="0.781372 0.082756 -0.982544" rpy="90.000000 140.000000 0.000000" dechance="0.166" />
 				</dispatch>
 		</group>
-		<group name="Land_Underground_Storage_Ammo2" lootmax="10">
+		<group name="Land_Underground_Storage_Ammo2" lootmax="12">
 				<usage name="Military" />
 				<usage name="Underground"/>
 				<value name="Tier4" />
 				<value name="Tier5" />
-				<container name="lootWeapons" lootmax="10">
+				<container name="lootWeapons" lootmax="12">
 						<category name="weapons" />
 						<category name="explosives" />
 						<category name="books" />
@@ -895,8 +898,9 @@
 				</dispatch>
 		</group>
 		<group name="Land_Underground_Storage_Hospital" lootmax="15">
-				<usage name="Military" />				
+				<usage name="Military" />
 				<usage name="Medic" />
+				<usage name="Underground" />
 				<value name="Tier4" />
 				<value name="Tier5" />
 				<container name="lootFloor" lootmax="15">
@@ -929,6 +933,7 @@
 		<group name="Land_Underground_Storage_Laboratory" lootmax="10">
 				<usage name="Military" />			
 				<usage name="Medic" />
+				<usage name="Underground" />
 				<value name="Tier4" />
 				<value name="Tier5" />
 				<container name="lootFloor" lootmax="10">
@@ -959,6 +964,7 @@
 		</group>
 		<group name="Land_Underground_WaterMaintenance" lootmax="10">
 				<usage name="Industrial" />
+				<usage name="Underground" />
 				<value name="Tier4" />
 				<value name="Tier5" />
 				<container name="lootFloor" lootmax="10">
@@ -988,8 +994,9 @@
 				</container>
 		</group>
 		<group name="Land_Underground_Storage_Prison" lootmax="10">
-				<usage name="Military" />				
-				<usage name="Prison" />				
+				<usage name="Military" />
+				<usage name="Prison" />
+				<usage name="Underground" />
 				<value name="Tier4" />
 				<value name="Tier5" />
 				<container name="lootFloor" lootmax="10">
