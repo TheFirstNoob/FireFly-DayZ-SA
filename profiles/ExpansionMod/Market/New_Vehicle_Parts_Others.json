@@ -8,10 +8,10 @@
 	"Items": [
 		{
 			"ClassName": "CanisterGasoline",
-			"MaxPriceThreshold": 200,
-			"MinPriceThreshold": 100,
+			"MaxPriceThreshold": 2500,
+			"MinPriceThreshold": 2500,
 			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 100,
+			"MaxStockThreshold": 1,
 			"MinStockThreshold": 1,
 			"QuantityPercent": -1,
 			"SpawnAttachments": [],
@@ -19,19 +19,19 @@
 		},
 		{
 			"ClassName": "EngineOil",
-			"MaxPriceThreshold": 120,
-			"MinPriceThreshold": 60,
+			"MaxPriceThreshold": 5000,
+			"MinPriceThreshold": 1000,
 			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 100,
-			"MinStockThreshold": 1,
+			"MaxStockThreshold": 75,
+			"MinStockThreshold": 0,
 			"QuantityPercent": -1,
 			"SpawnAttachments": [],
 			"Variants": []
 		},
 		{
 			"ClassName": "rag_car_jack",
-			"MaxPriceThreshold": 120,
-			"MinPriceThreshold": 60,
+			"MaxPriceThreshold": 5000,
+			"MinPriceThreshold": 5000,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 1,
 			"MinStockThreshold": 1,
@@ -41,8 +41,8 @@
 		},
 		{
 			"ClassName": "rag_farmjack",
-			"MaxPriceThreshold": 120,
-			"MinPriceThreshold": 60,
+			"MaxPriceThreshold": 5000,
+			"MinPriceThreshold": 5000,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 1,
 			"MinStockThreshold": 1,
@@ -52,8 +52,8 @@
 		},
 		{
 			"ClassName": "rag_oil_dipstick",
-			"MaxPriceThreshold": 120,
-			"MinPriceThreshold": 60,
+			"MaxPriceThreshold": 100,
+			"MinPriceThreshold": 100,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 1,
 			"MinStockThreshold": 1,
@@ -74,26 +74,24 @@
 		},
 		{
 			"ClassName": "lugwrench",
-			"MaxPriceThreshold": 8,
-			"MinPriceThreshold": 4,
+			"MaxPriceThreshold": 5000,
+			"MinPriceThreshold": 1000,
 			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 100,
-			"MinStockThreshold": 1,
+			"MaxStockThreshold": 150,
+			"MinStockThreshold": 0,
 			"QuantityPercent": -1,
 			"SpawnAttachments": [],
 			"Variants": []
 		},
 		{
 			"ClassName": "blowtorch",
-			"MaxPriceThreshold": 500,
-			"MinPriceThreshold": 250,
+			"MaxPriceThreshold": 5000,
+			"MinPriceThreshold": 1000,
 			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 100,
-			"MinStockThreshold": 1,
+			"MaxStockThreshold": 25,
+			"MinStockThreshold": 0,
 			"QuantityPercent": -1,
-			"SpawnAttachments": [
-				"smallgascanister"
-			],
+			"SpawnAttachments": [],
 			"Variants": []
 		}
 	]
