@@ -15,34 +15,16 @@
 			"MinStockThreshold": 1,
 			"QuantityPercent": -1,
 			"SpawnAttachments": [],
-			"Variants": []
+			"Variants": [
+				"sweater_blue",
+				"sweater_red",
+				"sweater_green"
+			]
 		},
 		{
 			"ClassName": "sweater_blue",
 			"MaxPriceThreshold": 40,
 			"MinPriceThreshold": 20,
-			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 100,
-			"MinStockThreshold": 1,
-			"QuantityPercent": -1,
-			"SpawnAttachments": [],
-			"Variants": []
-		},
-		{
-			"ClassName": "sweater_red",
-			"MaxPriceThreshold": 40,
-			"MinPriceThreshold": 20,
-			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 100,
-			"MinStockThreshold": 1,
-			"QuantityPercent": -1,
-			"SpawnAttachments": [],
-			"Variants": []
-		},
-		{
-			"ClassName": "sweater_green",
-			"MaxPriceThreshold": 50,
-			"MinPriceThreshold": 25,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 100,
 			"MinStockThreshold": 1,
@@ -59,62 +41,13 @@
 			"MinStockThreshold": 1,
 			"QuantityPercent": -1,
 			"SpawnAttachments": [],
-			"Variants": []
-		},
-		{
-			"ClassName": "hoodie_black",
-			"MaxPriceThreshold": 60,
-			"MinPriceThreshold": 30,
-			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 100,
-			"MinStockThreshold": 1,
-			"QuantityPercent": -1,
-			"SpawnAttachments": [],
-			"Variants": []
-		},
-		{
-			"ClassName": "hoodie_brown",
-			"MaxPriceThreshold": 60,
-			"MinPriceThreshold": 30,
-			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 100,
-			"MinStockThreshold": 1,
-			"QuantityPercent": -1,
-			"SpawnAttachments": [],
-			"Variants": []
-		},
-		{
-			"ClassName": "hoodie_grey",
-			"MaxPriceThreshold": 60,
-			"MinPriceThreshold": 30,
-			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 100,
-			"MinStockThreshold": 1,
-			"QuantityPercent": -1,
-			"SpawnAttachments": [],
-			"Variants": []
-		},
-		{
-			"ClassName": "hoodie_red",
-			"MaxPriceThreshold": 60,
-			"MinPriceThreshold": 30,
-			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 100,
-			"MinStockThreshold": 1,
-			"QuantityPercent": -1,
-			"SpawnAttachments": [],
-			"Variants": []
-		},
-		{
-			"ClassName": "hoodie_green",
-			"MaxPriceThreshold": 70,
-			"MinPriceThreshold": 35,
-			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 100,
-			"MinStockThreshold": 1,
-			"QuantityPercent": -1,
-			"SpawnAttachments": [],
-			"Variants": []
+			"Variants": [
+				"hoodie_black",
+				"hoodie_brown",
+				"hoodie_grey",
+				"hoodie_red",
+				"hoodie_green"
+			]
 		}
 	]
 }
