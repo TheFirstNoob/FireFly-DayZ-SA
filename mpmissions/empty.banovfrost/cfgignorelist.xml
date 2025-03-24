@@ -4,7 +4,7 @@
 		В этом файле прописаны все предметы которые не нужно сохранять в БД по причине их неисправности
 		или они во все не используются на сервере. Некоторые предметы во все сломаны! 
 		ПОЖАЛУЙСТА: Перед тем как убирать что-то отсюда узнайте и посмотрите сами зачем оно было добавлено сюда!
-		Поверьте моим словам все что тут прописано явно не просто так и лучше не убирать их остюда!
+		Поверьте моим словам все что тут прописано явно не просто так и лучше не убирать их отсюда!
 	-->
 	<type name="BandanaMask_BlackPattern"></type>
 	<type name="BandanaMask_CamoPattern"></type>
@@ -23,7 +23,6 @@
 	<type name="Spear"></type>
 	<type name="HescoBox"></type>
 	<type name="TransitBus"></type>
-
 	<type name="Wreck_Mi8"></type>
 
 	<type name="Ammo_12gaBeanbag"></type>
@@ -39,13 +38,11 @@
 	<type name="CannabisSeeds"></type>
 	<type name="CannabisSeedsPack"></type>
 	<type name="MouflonSteakMeat"></type>
-
 	<type name="CamoNetShelter"></type>
 	<type name="Refrigerator"></type>
 	<type name="Radio"></type>
 	<type name="BearTrap"></type>
 	<type name="EasterEgg"></type>
-	
 	<type name="Chernarus_Map"></type>
 	<type name="Chernarus_Map_Open"></type>
 	<type name="GPSReceiver"></type>
@@ -125,7 +122,78 @@
 	<type name="Red9Bttstck"></type>
 	<type name="M249_RisHndgrd"></type>
 	<type name="M249_Hndgrd"></type>
-	
+
+	<!-- Не используем некоторые ванильные машины -->
+	<type name="Truck_01_Wheel"></type>
+	<type name="Truck_01_WheelDouble"></type>
+	<type name="Truck_01_Door_1_1"></type>
+	<type name="Truck_01_Door_2_1"></type>
+	<type name="Truck_01_Hood"></type>
+	<type name="Truck_01_Covered"></type>
+	<type name="Truck_01_Covered_Blue"></type>
+	<type name="Truck_01_Door_1_1_Blue"></type>
+	<type name="Truck_01_Door_2_1_Blue"></type>
+	<type name="Truck_01_Hood_Blue"></type>
+	<type name="Truck_01_Covered_Orange"></type>
+	<type name="Truck_01_Door_1_1_Orange"></type>
+	<type name="Truck_01_Door_2_1_Orange"></type>
+	<type name="Truck_01_Hood_Orange"></type>
+	<type name="Truck_01_Door_1_1_GreenRust"></type>
+	<type name="Truck_01_Door_2_1_GreenRust"></type>
+	<type name="Truck_01_Hood_GreenRust"></type>
+	<type name="Truck_01_Door_1_1_BlueRust"></type>
+	<type name="Truck_01_Door_2_1_BlueRust"></type>
+	<type name="Truck_01_Hood_BlueRust"></type>
+	<type name="Truck_01_Door_1_1_OrangeRust"></type>
+	<type name="Truck_01_Door_2_1_OrangeRust"></type>
+	<type name="Truck_01_Hood_OrangeRust"></type>
+	<type name="Truck_01_Covered_Green"></type>
+	<type name="Truck_01_Door_1_1_Green"></type>
+	<type name="Truck_01_Door_2_1_Green"></type>
+	<type name="Truck_01_Hood_Green"></type>
+	<type name="Truck_01_Covered_Red"></type>
+	<type name="Truck_01_Door_1_1_Red"></type>
+	<type name="Truck_01_Door_2_1_Red"></type>
+	<type name="Truck_01_Hood_Red"></type>
+	<type name="Truck_01_Covered_White"></type>
+	<type name="Truck_01_Door_1_1_White"></type>
+	<type name="Truck_01_Door_2_1_White"></type>
+	<type name="Truck_01_Hood_White"></type>
+	<type name="Truck_01_Covered_Black"></type>
+	<type name="Truck_01_Door_1_1_Black"></type>
+	<type name="Truck_01_Door_2_1_Black"></type>
+	<type name="Truck_01_Hood_Black"></type>
+	<type name="Truck_01_Covered_Wine"></type>
+	<type name="Truck_01_Door_1_1_Wine"></type>
+	<type name="Truck_01_Door_2_1_Wine"></type>
+	<type name="Truck_01_Hood_Wine"></type>
+	<type name="Truck_01_Covered_Lime"></type>
+	<type name="Truck_01_Door_1_1_Lime"></type>
+	<type name="Truck_01_Door_2_1_Lime"></type>
+	<type name="Truck_01_Hood_Lime"></type>
+	<type name="Truck_01_Covered_Yellow"></type>
+	<type name="Truck_01_Door_1_1_Yellow"></type>
+	<type name="Truck_01_Door_2_1_Yellow"></type>
+	<type name="Truck_01_Hood_Yellow"></type>
+	<type name="Truck_01_Covered_YellowBright"></type>
+	<type name="Truck_01_Door_1_1_YellowBright"></type>
+	<type name="Truck_01_Door_2_1_YellowBright"></type>
+	<type name="Truck_01_Hood_YellowBright"></type>
+	<type name="Offroad_02_Wheel"></type>
+	<type name="Offroad_02_Door_1_1"></type>
+	<type name="Offroad_02_Door_2_1"></type>
+	<type name="Offroad_02_Door_1_2"></type>
+	<type name="Offroad_02_Door_2_2"></type>
+	<type name="Offroad_02_Hood"></type>
+	<type name="Offroad_02_Trunk"></type>
+	<type name="Offroad_02"></type>
+	<type name="Offroad_02_Door_1_1_Rust"></type>
+	<type name="Offroad_02_Door_1_2_Rust"></type>
+	<type name="Offroad_02_Door_2_1_Rust"></type>
+	<type name="Offroad_02_Door_2_2_Rust"></type>
+	<type name="Offroad_02_Trunk_Rust"></type>
+
+
 	<!-- Не используйте ванильные патроны т.к. стоит AdditionalAmmo -->
 	<type name="Ammo_HuntingBolt"></type>
 	<type name="Ammo_Expansion_338"></type>
