@@ -92,6 +92,19 @@
 				"PaydayMask_Hoxton",
 				"PaydayMask_Wolf"
 			]
+		},
+		{
+			"ClassName": "TF_WeldingMask",
+			"MaxPriceThreshold": 30,
+			"MinPriceThreshold": 24,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 150,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"TF_WeldingMask_Tagilla"
+			]
 		}
 	]
 }

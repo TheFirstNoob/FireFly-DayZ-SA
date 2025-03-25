@@ -290,6 +290,32 @@
 				"platecarrierpouches_camo",
 				"platecarrierpouches_winter"
 			]
+		},
+		{
+			"ClassName": "TF_AVSBag_Khaki",
+			"MaxPriceThreshold": 30,
+			"MinPriceThreshold": 24,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 150,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"TF_AVSBag_Coyote"
+			]
+		},
+		{
+			"ClassName": "TF_MAPBag_Khaki",
+			"MaxPriceThreshold": 30,
+			"MinPriceThreshold": 24,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 150,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"TF_MAPBag_Coyote"
+			]
 		}
 	]
 }

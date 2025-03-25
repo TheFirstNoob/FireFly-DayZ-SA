@@ -463,6 +463,22 @@
 				"DownJacket_Orange",
 				"DownJacket_Green"
 			]
-        }
+        },
+		{
+			"ClassName": "TF_6sh122Jacket_Spring",
+			"MaxPriceThreshold": 30,
+			"MinPriceThreshold": 24,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 150,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"TF_6sh122Jacket_Autumn",
+				"TF_6sh122Jacket_Syrian",
+				"TF_6sh122Jacket_Syrian_EMR",
+				"TF_6sh122Jacket_Winter"
+			]
+		}
 	]
 }
