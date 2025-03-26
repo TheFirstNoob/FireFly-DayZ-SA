@@ -52,6 +52,23 @@
 	"EnableForceSZCleanup": 1,
 	"ItemLifetimeInSafeZone": 900.0,
 	"EnableForceSZCleanupVehicles": 0,
-	"VehicleLifetimeInSafeZone": 3600.0,
-	"ForceSZCleanup_ExcludedItems": []
+	"VehicleLifetimeInSafeZone": 7200.0,
+	"ForceSZCleanup_ExcludedItems": [
+		"CarScript",
+		"CarCoverBase",
+		"Expansion_Generic_Vehicle_Cover",
+		"ExpansionGarageVehicle",
+		"CivilianSedan_Cover",
+		"Hatchback_02_Cover",
+		"OffroadHatchback_Cover",
+		"Offroad_02_Cover",
+		"Sedan_02_Cover",
+		"Truck_01_Covered_Cover",
+		"ExpansionBus_Cover",
+		"Expansion_LandRover_Cover",
+		"Truck_01_Covered_Cover",
+		"ExpansionMerlin_Cover",
+		"ExpansionMh6_Cover",
+		"ExpansionUh1h_Cover"
+	]
 }
