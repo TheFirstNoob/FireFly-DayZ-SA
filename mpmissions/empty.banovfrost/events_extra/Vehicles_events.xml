@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <events>
-	<event name="Vehicle_VillagersTowns">
+	<event name="Vehicle_Spawn">
 		<nominal>35</nominal>
 		<min>20</min>
 		<max>35</max>
@@ -17,6 +17,7 @@
 			<child lootmax="0" lootmin="0" max="5" min="3" type="OffroadHatchback"/>
 			<child lootmax="0" lootmin="0" max="5" min="3" type="CivilianSedan"/>
 			<child lootmax="0" lootmin="0" max="5" min="3" type="Sedan_02"/>
+			<child lootmax="0" lootmin="0" max="5" min="3" type="Hatchback_02"/>
 		</children>
     </event>
 </events>
