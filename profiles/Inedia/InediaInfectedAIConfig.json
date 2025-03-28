@@ -573,9 +573,9 @@
         },
         "BreakingDoorsHandlerIsActive": {
             "all": 1,
-			"AlienCaptain": 0,
-			"AlienQueen": 0,
-			"AlienScout": 0
+            "AlienCaptain": 0,
+            "AlienQueen": 0,
+            "AlienScout": 0
         },
         "BreakingDoorsRestrictedDoors": {
             "all": {
@@ -1497,6 +1497,9 @@
         "ReactWeaponShotNoise": {
             "all": 1.5
         },
+        "ReactFriendlyWeaponShotNoise": {
+            "all": 0.0
+        },
         "ReactFootstepsJogDayNoise": {
             "all": 1.0
         },
@@ -1514,6 +1517,12 @@
         },
         "ReactFootstepsSprintNightNoise": {
             "all": 1.2000000476837159
+        },
+        "ReactHorseHoofstepsDayNoise": {
+            "all": 1.0
+        },
+        "ReactHorseHoofstepsNightNoise": {
+            "all": 1.0
         },
         "ReactDoorsDayNoise": {
             "all": 1.0
@@ -1820,7 +1829,7 @@
             "all": 1
         },
         "PainToPlayerHeadMultiplier": {
-            "all": 0.6
+            "all": 0.6000000238418579
         },
         "PainToPlayerHeadInBlockMultiplier": {
             "all": 0.30000001192092898
@@ -1832,16 +1841,16 @@
             "all": 0.6000000238418579
         },
         "PainToPlayerArmsDisarmMultiplier": {
-            "all": 0.2
+            "all": 0.20000000298023225
         },
         "PainToPlayerArmsInBlockDisarmMultiplier": {
             "all": 0.0
         },
         "PainToPlayerLegsMultiplier": {
-            "all": 0.7
+            "all": 0.699999988079071
         },
         "PainToPlayerLegsInBlockMultiplier": {
-            "all": 0.2
+            "all": 0.20000000298023225
         },
         "PainToPlayerTorsoMultiplier": {
             "all": 1.0
@@ -2252,7 +2261,7 @@
             "all": 0.8999999761581421
         },
         "ThrowingProjectilesHandlerVehiclesDamageMultiplier": {
-            "all": 1.2
+            "all": 1.2000000476837159
         },
         "ThrowingProjectilesHandlerProjectilesList": {
             "Police": [
@@ -2363,7 +2372,8 @@
         "ShowPainBlur": 1,
         "ShowMedicationInfo": 1,
         "PainHealingRatePerSecondPercent": 0.5,
-        "HealthDrainWithOverPainedLimbPerSecondPercent": 0.20000000298023225,
+        "HealthDrainWithCriticalPainLimbPerSecondPercent": 0.15000000596046449,
+        "HealthDrainWithRedPainLimbPerSecondPercent": 0.0,
         "VehicleCrashPainMultiplier": 1.0,
         "VehicleCollisionsPainMultiplier": 1.0,
         "FallPainMultiplier": 1.0,
