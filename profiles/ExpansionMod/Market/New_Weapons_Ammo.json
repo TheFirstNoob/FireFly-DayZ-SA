@@ -754,6 +754,22 @@
 			"Variants": []
 		},
 		{
+			"ClassName": "Ammo_new_762x54T46M",
+			"MaxPriceThreshold": 180,
+			"MinPriceThreshold": 36,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 5000,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"Ammo_new_762x547H1",
+				"Ammo_new_762x547Bt1",
+				"Ammo_new_762x54Snb",
+				"Ammo_new_762x547H37"
+			]
+		},
+		{
 			"ClassName": "Ammo_new_762x547H1",
 			"MaxPriceThreshold": 220,
 			"MinPriceThreshold": 44,
