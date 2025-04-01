@@ -98,8 +98,8 @@
 		<pos x="2873.03"  z="4448.56" a="0"/>
 		<pos x="1177.39"  z="5879.39" a="0"/>
   </event>
-      <event name="StaticSantaCrash">
-		<zone smin="1" smax="1" dmin="1" dmax="1" r="45" />
+      <event name="StaticBonfire">	<!-- StaticSantaCrash We temp use this for Bonfire...-->
+		<zone smin="2" smax="3" dmin="3" dmax="5" r="45" />
 		<pos x="4667.17" z="4218.25" a="1.8"/>
 		<pos x="5686.05" z="5086.91" a="1.8"/>
 		<pos x="3505.63" z="6017.52" a="1.8"/>
