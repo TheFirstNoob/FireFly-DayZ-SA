@@ -485,7 +485,7 @@
 						<point pos="3.659179 -1.575470 -10.028565" range="0.500000" height="1.500000" />
 			</container>
 		</group>
-		<group name="Land_BZ_ATC_CIV" lootmax="15">
+		<group name="land_BZ_ATC_CIV" lootmax="15">
 				<usage name="Military" />
 				<category name="explosives" />
 				<category name="weapons" />
@@ -14026,7 +14026,7 @@
 						<point pos="-0.866100 -0.489319 0.377680" range="0.100000" height="0.250000" />
 				</container>
 		</group>
-		<group name="Land_Mil_Guardhouse3" lootmax="11">
+		<group name="Land_Mil_GuardHouse3" lootmax="11">
 				<usage name="Police" />
 				<container name="lootFloor" lootmax="3">
 						<category name="tools" />
@@ -14073,7 +14073,7 @@
 						<point pos="0.469727 -0.901123 0.311523" range="0.134375" height="0.154762" />
 				</container>
 		</group>
-		<group name="Land_Mil_Guardbox_Smooth" lootmax="2">
+		<group name="Land_Mil_GuardBox_Smooth" lootmax="2">
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="2">
 						<category name="tools" />
@@ -14090,7 +14090,7 @@
 						<point pos="-0.217041 -0.833820 -0.532227" range="0.374634" height="0.936577" />
 				</container>
 		</group>
-		<group name="Land_Mil_Guardbox_Green" lootmax="2">
+		<group name="Land_Mil_GuardBox_Green" lootmax="2">
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="2">
 						<category name="tools" />
@@ -14107,7 +14107,7 @@
 						<point pos="-0.534424 -0.834913 -0.203491" range="0.705200" height="1.763000" />
 				</container>
 		</group>
-		<group name="Land_Mil_Guardbox_Brown" lootmax="2">
+		<group name="Land_Mil_GuardBox_Brown" lootmax="2">
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="2">
 						<category name="tools" />
@@ -17473,7 +17473,7 @@
 						<point pos="1.395357 0.000000 2.010839" range="0.849365" height="2.000000" flags="32" />
 				</container>
 		</group>
-		<group name="Land_Wreck_truck01_aban1_blue" lootmax="5">
+		<group name="Land_wreck_truck01_aban1_blue" lootmax="5">
 				<usage name="Industrial" />
 				<usage name="Village" />
 				<container name="loot" lootmax="5">
@@ -17494,7 +17494,7 @@
 						<point pos="1.395357 0.000000 2.010839" range="0.849365" height="2.000000" flags="32" />
 				</container>
 		</group>
-		<group name="Land_Wreck_truck01_aban1_orange" lootmax="5">
+		<group name="Land_wreck_truck01_aban1_orange" lootmax="5">
 				<usage name="Industrial" />
 				<usage name="Village" />
 				<container name="loot" lootmax="5">
@@ -17515,7 +17515,7 @@
 						<point pos="1.395357 0.000000 2.010839" range="0.849365" height="2.000000" flags="32" />
 				</container>
 		</group>
-		<group name="Land_Wreck_truck01_aban2_green" lootmax="5">
+		<group name="Land_wreck_truck01_aban2_green" lootmax="5">
 				<usage name="Industrial" />
 				<usage name="Village" />
 				<container name="loot" lootmax="5">
@@ -17534,7 +17534,7 @@
 						<point pos="-1.549180 0.000000 1.682494" range="0.816895" height="0.144592" flags="32" />
 				</container>
 		</group>
-		<group name="Land_Wreck_truck01_aban2_blue" lootmax="5">
+		<group name="Land_wreck_truck01_aban2_blue" lootmax="5">
 				<usage name="Industrial" />
 				<usage name="Village" />
 				<container name="loot" lootmax="5">
@@ -17553,7 +17553,7 @@
 						<point pos="-1.549180 0.000000 1.682494" range="0.816895" height="0.144592" flags="32" />
 				</container>
 		</group>
-		<group name="Land_Wreck_truck01_aban2_orange" lootmax="5">
+		<group name="Land_wreck_truck01_aban2_orange" lootmax="5">
 				<usage name="Industrial" />
 				<usage name="Village" />
 				<container name="loot" lootmax="5">
@@ -19890,7 +19890,7 @@
 						<point pos="5.146567 7.451286 -9.317387" range="1.199951" height="1.281250" />
 				</container>
 		</group>
-		<group name="Land_WarheadStorage_Powerstation" lootmax="10">
+		<group name="Land_WarheadStorage_PowerStation" lootmax="10">
 				<usage name="Military" />
 				<usage name="Industrial" />
 				<value name="Tier4"/>
@@ -19980,7 +19980,7 @@
 						<point pos="-2.507565 0.457249 13.282472" range="0.658936" height="1.647339" />
 				</container>
 		</group>
-		<group name="Land_Geoplant_Drilltower" lootmax="4">
+		<group name="Land_Geoplant_DrillTower" lootmax="4">
 				<usage name="Industrial" />
 				<container name="lootFloor" lootmax="4">
 						<category name="tools" />
@@ -20654,7 +20654,7 @@
 						<point pos="-0.047607 17.340244 0.221924" range="1.199951" height="2.000000" />
 				</container>
 		</group>
-		<group name="Land_Wreck_sed02_aban1_Police" lootmax="4">
+		<group name="Land_wreck_sed02_aban1_Police" lootmax="4">
 				<usage name="Police" />
 				<container name="lootFloor" lootmax="4">
 						<category name="tools" />
@@ -20677,7 +20677,7 @@
 						<point pos="2.285279 -0.861118 -0.245239" range="1.199951" height="0.409386" flags="32" />
 				</container>
 		</group>
-		<group name="Land_Wreck_sed02_aban1_Police_DE" lootmax="4">
+		<group name="Land_wreck_sed02_aban1_Police_DE" lootmax="4">
 				<usage name="Police" />
 				<container name="lootFloor" lootmax="4">
 						<category name="tools" />
@@ -20700,7 +20700,7 @@
 						<point pos="2.285279 -0.861118 -0.245239" range="1.199951" height="0.409386" flags="32" />
 				</container>
 		</group>
-		<group name="Land_Wreck_sed02_aban2_Police" lootmax="4">
+		<group name="Land_wreck_sed02_aban2_Police" lootmax="4">
 				<usage name="Police" />
 				<container name="lootFloor" lootmax="4">
 						<category name="tools" />
@@ -20721,7 +20721,7 @@
 						<point pos="0.634278 -0.658823 1.915527" range="1.199951" height="2.000000" flags="32" />
 				</container>
 		</group>
-		<group name="Land_Wreck_sed02_aban2_Police_DE" lootmax="4">
+		<group name="Land_wreck_sed02_aban2_Police_DE" lootmax="4">
 				<usage name="Police" />
 				<container name="lootFloor" lootmax="4">
 						<category name="tools" />
