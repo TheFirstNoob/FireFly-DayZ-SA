@@ -664,43 +664,23 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
 	</type>
-	
+
 	<type name="Headtorch_Black">
-		<nominal>50</nominal>
+		<nominal>0</nominal>
 		<lifetime>7200</lifetime>
-		<restock>3600</restock>
-		<min>50</min>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Military"/>
-        <usage name="Police"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
-        <usage name="Industrial"/>
-        <usage name="Farm"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
-        <usage name="School"/>
-        <usage name="Prison"/>
-        <usage name="Lunapark"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
 	</type>
 	<type name="Headtorch_Grey">
-		<nominal>50</nominal>
+		<nominal>100</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>50</min>
+		<min>100</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
