@@ -1,0 +1,32 @@
+{
+	"m_Version": 12,
+	"DisplayName": "Обвесы - Фонари",
+	"Icon": "Gun Bullets",
+	"Color": "81DD4D",
+	"IsExchange": 0,
+	"InitStockPercent": 25.0,
+	"Items": [
+		{
+			"ClassName": "universallight",
+			"MaxPriceThreshold": 240,
+			"MinPriceThreshold": 120,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "tlrlight",
+			"MaxPriceThreshold": 240,
+			"MinPriceThreshold": 120,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		}
+	]
+}

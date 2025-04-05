@@ -1,6 +1,6 @@
 {
 	"m_Version": 12,
-	"DisplayName": "Ремонтные наборы",
+	"DisplayName": "Все для ремонта",
 	"Icon": "Screwdriver",
 	"Color": "9B2D30",
 	"IsExchange": 0,
@@ -68,6 +68,28 @@
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 200,
 			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "epoxyputty",
+			"MaxPriceThreshold": 30,
+			"MinPriceThreshold": 15,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "ducttape",
+			"MaxPriceThreshold": 40,
+			"MinPriceThreshold": 20,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
 			"QuantityPercent": -1,
 			"SpawnAttachments": [],
 			"Variants": []
