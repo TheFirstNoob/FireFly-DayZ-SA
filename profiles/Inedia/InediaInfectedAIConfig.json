@@ -1815,7 +1815,7 @@
         },
         "DiseasesToPlayerHandlerIsActive": {
             "Captain_Alien": 0,
-            "all": 1,
+            "all": 0,
             "AlienQueen": 0,
             "AlienScout": 0
         },
@@ -2424,10 +2424,10 @@
         "InternalBleedingSystemIsActive": 0,
         "InternalBleedingBloodLossRateMl": 2.0,
         "DestroyedDoorNotificationType": 2.0,
-        "NoiseMultiplierDay": 0.8999999761581421,
-        "NoiseMultiplierNight": 1.2000000476837159,
-        "NoiseMultiplierCrouchDay": 0.800000011920929,
-        "NoiseMultiplierCrouchNight": 1.100000023841858,
+        "NoiseMultiplierDay": 1,
+        "NoiseMultiplierNight": 1,
+        "NoiseMultiplierCrouchDay": 1,
+        "NoiseMultiplierCrouchNight": 1,
         "NoiseMultiplierLadderDay": 0.20000000298023225,
         "NoiseMultiplierLadderNight": 0.20000000298023225,
         "CamoClothingVisibilityMultipliers": {
