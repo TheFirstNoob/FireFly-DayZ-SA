@@ -5,21 +5,59 @@
                 "ZmbM_PolicemanFat",
                 "ZmbF_PoliceWomanNormal"
             ],
-            "AnimalCow": [
-                "Animal_BosTaurus_Brown",
-                "Animal_BosTaurus_White",
-                "Animal_BosTaurus_Spotted",
-                "Animal_BosTaurusF_Brown",
-                "Animal_BosTaurusF_White",
-                "Animal_BosTaurusF_Spotted"
+            "AnimalChicken": [
+                "Animal_GallusGallusDomesticus",
+                "Animal_GallusGallusDomesticusF_Brown",
+                "Animal_GallusGallusDomesticusF_Spotted",
+                "Animal_GallusGallusDomesticusF_White"
             ],
-            "MedicAndPatientMan": [
-                "ZmbM_PatientSkinny",
-                "ZmbM_ParamedicNormal_Blue",
-                "ZmbM_ParamedicNormal_Green",
-                "ZmbM_ParamedicNormal_Red",
-                "ZmbM_ParamedicNormal_Black",
-                "ZmbM_DoctorFat"
+            "CivilianMan": [
+                "ZmbM_CitizenASkinny_Blue",
+                "ZmbM_CitizenASkinny_Grey",
+                "ZmbM_CitizenASkinny_Red",
+                "ZmbM_CitizenBFat_Blue",
+                "ZmbM_CitizenBFat_Red",
+                "ZmbM_CitizenBFat_Green",
+                "ZmbM_Jacket_bluechecks",
+                "ZmbM_Jacket_magenta",
+                "ZmbM_FishermanOld_Blue",
+                "ZmbM_FishermanOld_Green",
+                "ZmbM_FishermanOld_Grey",
+                "ZmbM_FishermanOld_Red",
+                "ZmbM_JournalistSkinny",
+                "ZmbM_HikerSkinny_Blue",
+                "ZmbM_HikerSkinny_Green",
+                "ZmbM_HikerSkinny_Yellow",
+                "ZmbM_CommercialPilotOld_Blue",
+                "ZmbM_CommercialPilotOld_Olive",
+                "ZmbM_CommercialPilotOld_Brown",
+                "ZmbM_CommercialPilotOld_Grey",
+                "ZmbM_MotobikerFat_Beige",
+                "ZmbM_MotobikerFat_Black",
+                "ZmbM_MotobikerFat_Blue",
+                "ZmbM_SkaterYoung_Brown",
+                "ZmbM_SkaterYoung_Green",
+                "ZmbM_SkaterYoung_Grey",
+                "ZmbM_SkaterYoung_Blue",
+                "ZmbM_Jacket_beige",
+                "ZmbM_Jacket_black",
+                "ZmbM_Jacket_blue",
+                "ZmbM_Jacket_brown",
+                "ZmbM_Jacket_greenchecks",
+                "ZmbM_Jacket_grey",
+                "ZmbM_Jacket_khaki",
+                "ZmbM_Jacket_stripes",
+                "ZmbM_OffshoreWorker_Green",
+                "ZmbM_OffshoreWorker_Orange",
+                "ZmbM_OffshoreWorker_Red",
+                "ZmbM_OffshoreWorker_Yellow",
+                "ZmbM_JoggerSkinny_Red",
+                "ZmbM_JoggerSkinny_Blue",
+                "ZmbM_JoggerSkinny_Green",
+                "ZmbM_HunterOld_Autumn",
+                "ZmbM_HunterOld_Spring",
+                "ZmbM_HunterOld_Summer",
+                "ZmbM_HunterOld_Winter"
             ],
             "Santa": [
                 "ZmbM_Santa"
@@ -95,8 +133,11 @@
                 "Animal_OvisAries",
                 "Animal_OvisAriesF"
             ],
-            "Mummy": [
-                "ZmbM_Mummy"
+            "FarmerMan": [
+                "ZmbM_FarmerFat_Blue",
+                "ZmbM_FarmerFat_Brown",
+                "ZmbM_FarmerFat_Green",
+                "ZmbM_FarmerFat_Beige"
             ],
             "Solder": [
                 "ZmbM_SoldierNormal",
@@ -126,11 +167,8 @@
                 "ZmbM_HandymanNormal_Grey",
                 "ZmbM_HandymanNormal_White"
             ],
-            "FarmerMan": [
-                "ZmbM_FarmerFat_Blue",
-                "ZmbM_FarmerFat_Brown",
-                "ZmbM_FarmerFat_Green",
-                "ZmbM_FarmerFat_Beige"
+            "Mummy": [
+                "ZmbM_Mummy"
             ],
             "PoliceSpecForce": [
                 "ZmbM_PolicemanSpecForce",
@@ -157,53 +195,13 @@
             "AlienCaptain": [
                 "Captain_Alien"
             ],
-            "CivilianMan": [
-                "ZmbM_CitizenASkinny_Blue",
-                "ZmbM_CitizenASkinny_Grey",
-                "ZmbM_CitizenASkinny_Red",
-                "ZmbM_CitizenBFat_Blue",
-                "ZmbM_CitizenBFat_Red",
-                "ZmbM_CitizenBFat_Green",
-                "ZmbM_Jacket_bluechecks",
-                "ZmbM_Jacket_magenta",
-                "ZmbM_FishermanOld_Blue",
-                "ZmbM_FishermanOld_Green",
-                "ZmbM_FishermanOld_Grey",
-                "ZmbM_FishermanOld_Red",
-                "ZmbM_JournalistSkinny",
-                "ZmbM_HikerSkinny_Blue",
-                "ZmbM_HikerSkinny_Green",
-                "ZmbM_HikerSkinny_Yellow",
-                "ZmbM_CommercialPilotOld_Blue",
-                "ZmbM_CommercialPilotOld_Olive",
-                "ZmbM_CommercialPilotOld_Brown",
-                "ZmbM_CommercialPilotOld_Grey",
-                "ZmbM_MotobikerFat_Beige",
-                "ZmbM_MotobikerFat_Black",
-                "ZmbM_MotobikerFat_Blue",
-                "ZmbM_SkaterYoung_Brown",
-                "ZmbM_SkaterYoung_Green",
-                "ZmbM_SkaterYoung_Grey",
-                "ZmbM_SkaterYoung_Blue",
-                "ZmbM_Jacket_beige",
-                "ZmbM_Jacket_black",
-                "ZmbM_Jacket_blue",
-                "ZmbM_Jacket_brown",
-                "ZmbM_Jacket_greenchecks",
-                "ZmbM_Jacket_grey",
-                "ZmbM_Jacket_khaki",
-                "ZmbM_Jacket_stripes",
-                "ZmbM_OffshoreWorker_Green",
-                "ZmbM_OffshoreWorker_Orange",
-                "ZmbM_OffshoreWorker_Red",
-                "ZmbM_OffshoreWorker_Yellow",
-                "ZmbM_JoggerSkinny_Red",
-                "ZmbM_JoggerSkinny_Blue",
-                "ZmbM_JoggerSkinny_Green",
-                "ZmbM_HunterOld_Autumn",
-                "ZmbM_HunterOld_Spring",
-                "ZmbM_HunterOld_Summer",
-                "ZmbM_HunterOld_Winter"
+            "MedicAndPatientMan": [
+                "ZmbM_PatientSkinny",
+                "ZmbM_ParamedicNormal_Blue",
+                "ZmbM_ParamedicNormal_Green",
+                "ZmbM_ParamedicNormal_Red",
+                "ZmbM_ParamedicNormal_Black",
+                "ZmbM_DoctorFat"
             ],
             "Nbc": [
                 "ZmbM_NBC_Grey",
@@ -213,11 +211,13 @@
                 "Animal_CanisLupus_Grey",
                 "Animal_CanisLupus_White"
             ],
-            "AnimalChicken": [
-                "Animal_GallusGallusDomesticus",
-                "Animal_GallusGallusDomesticusF_Brown",
-                "Animal_GallusGallusDomesticusF_Spotted",
-                "Animal_GallusGallusDomesticusF_White"
+            "AnimalCow": [
+                "Animal_BosTaurus_Brown",
+                "Animal_BosTaurus_White",
+                "Animal_BosTaurus_Spotted",
+                "Animal_BosTaurusF_Brown",
+                "Animal_BosTaurusF_White",
+                "Animal_BosTaurusF_Spotted"
             ],
             "MedicAndPatientWoman": [
                 "ZmbF_PatientOld",
@@ -250,12 +250,12 @@
                 "ZmbF_ClerkFat_BluePattern",
                 "ZmbF_ClerkFat_White"
             ],
-            "AlienQueen": [
-                "Queen_Alien"
-            ],
             "AnimalRoebuck": [
                 "Animal_CapreolusCapreolus",
                 "Animal_CapreolusCapreolusF"
+            ],
+            "AlienQueen": [
+                "Queen_Alien"
             ]
         },
         "CustomIrritants": {
@@ -308,31 +308,19 @@
                     "ThrowConditionCooldownSeconds": 45.0
                 }
             },
-            "MedicsProjectile": {
+            "HuntersProjectile": {
                 "ItemClasses": [
-                    "BloodSyringe",
-                    "BloodBagEmpty",
-                    "BloodBagFull",
-                    "BloodBagIV",
-                    "BloodTestKit",
-                    "BandageDressing",
-                    "Rag",
-                    "HipPack_Medical",
-                    "KitchenKnife",
-                    "KitchenKnife",
-                    "KitchenKnife",
-                    "SteakKnife",
-                    "SteakKnife",
-                    "SteakKnife",
-                    "ChemLight_White",
-                    "GasMask_Filter",
-                    "IodineTincture",
-                    "PainkillerTablets",
-                    "PurificationTablets",
-                    "CharcoalTablets",
-                    "VitaminBottle",
-                    "DisinfectantAlcohol",
-                    "DisinfectantSpray"
+                    "GlassBottle",
+                    "GlassBottle",
+                    "GlassBottle",
+                    "HuntingKnife",
+                    "HuntingKnife",
+                    "HuntingKnife",
+                    "Canteen",
+                    "Canteen",
+                    "Binoculars",
+                    "Binoculars",
+                    "FishingRod"
                 ],
                 "Parameters": {
                     "ThrowConditionAmountOfProjectiles": 2.0,
@@ -516,27 +504,39 @@
                 ],
                 "Parameters": {
                     "ThrowConditionAmountOfProjectiles": 2.0,
-                    "TargetHealthDamage": 5.0,
+                    "TargetBleedingChancePercent": 10.0,
                     "TargetStunChancePercent": 30.0,
                     "TargetShockDamage": 20.0,
-                    "TargetBleedingChancePercent": 10.0,
+                    "TargetHealthDamage": 5.0,
                     "ThrowConditionThrowChancePercent": 20.0,
                     "ThrowConditionCooldownSeconds": 45.0
                 }
             },
-            "HuntersProjectile": {
+            "MedicsProjectile": {
                 "ItemClasses": [
-                    "GlassBottle",
-                    "GlassBottle",
-                    "GlassBottle",
-                    "HuntingKnife",
-                    "HuntingKnife",
-                    "HuntingKnife",
-                    "Canteen",
-                    "Canteen",
-                    "Binoculars",
-                    "Binoculars",
-                    "FishingRod"
+                    "BloodSyringe",
+                    "BloodBagEmpty",
+                    "BloodBagFull",
+                    "BloodBagIV",
+                    "BloodTestKit",
+                    "BandageDressing",
+                    "Rag",
+                    "HipPack_Medical",
+                    "KitchenKnife",
+                    "KitchenKnife",
+                    "KitchenKnife",
+                    "SteakKnife",
+                    "SteakKnife",
+                    "SteakKnife",
+                    "ChemLight_White",
+                    "GasMask_Filter",
+                    "IodineTincture",
+                    "PainkillerTablets",
+                    "PurificationTablets",
+                    "CharcoalTablets",
+                    "VitaminBottle",
+                    "DisinfectantAlcohol",
+                    "DisinfectantSpray"
                 ],
                 "Parameters": {
                     "ThrowConditionAmountOfProjectiles": 2.0,
@@ -574,8 +574,8 @@
         "BreakingDoorsHandlerIsActive": {
             "all": 1,
             "AlienCaptain": 0,
-            "AlienQueen": 0,
-            "AlienScout": 0
+            "AlienScout": 0,
+            "AlienQueen": 0
         },
         "BreakingDoorsRestrictedDoors": {
             "all": {
@@ -602,7 +602,7 @@
         "BreakingDoorsDestroyAfterOpenChancePercent": {
             "Police": 50.0,
             "all": 30.0,
-            "Nbc": 0.0,
+            "CivilianMan": 10.0,
             "Santa": 100.0,
             "CivilianOldWoman": 3.0,
             "Firefighter": 40.0,
@@ -617,15 +617,15 @@
             "PoliceSpecForce": 100.0,
             "WorkerWoman": 35.0,
             "AlienScout": 100.0,
-            "MedicAndPatientWoman": 7.0,
-            "CivilianMan": 10.0,
             "PopClerk": 0.0,
+            "Nbc": 0.0,
+            "MedicAndPatientWoman": 7.0,
             "CivilianOldMan": 5.0
         },
         "BreakingDoorsOpenChancePercent": {
             "Police": 50.0,
             "all": 30.0,
-            "Nbc": 0.0,
+            "CivilianMan": 10.0,
             "Santa": 100.0,
             "CivilianOldWoman": 3.0,
             "Firefighter": 40.0,
@@ -640,9 +640,9 @@
             "PoliceSpecForce": 100.0,
             "WorkerWoman": 35.0,
             "AlienScout": 10.0,
-            "MedicAndPatientWoman": 7.0,
-            "CivilianMan": 10.0,
             "PopClerk": 0.0,
+            "Nbc": 0.0,
+            "MedicAndPatientWoman": 7.0,
             "CivilianOldMan": 5.0
         },
         "BreakingDoorsOpenLockPickChancePercent": {
@@ -736,7 +736,7 @@
         "SpeedMinimumInSearchMode": {
             "Police": 2.0999999046325685,
             "all": 0.0,
-            "Nbc": 2.0999999046325685,
+            "CivilianMan": 2.0999999046325685,
             "Santa": 3.0,
             "CivilianOldWoman": 1.0,
             "Firefighter": 2.0999999046325685,
@@ -750,9 +750,9 @@
             "FarmerMan": 2.0999999046325685,
             "PoliceSpecForce": 2.0999999046325685,
             "WorkerWoman": 2.0999999046325685,
-            "MedicAndPatientWoman": 3.0,
-            "CivilianMan": 2.0999999046325685,
             "PopClerk": 2.0999999046325685,
+            "Nbc": 2.0999999046325685,
+            "MedicAndPatientWoman": 3.0,
             "CivilianOldMan": 1.0
         },
         "SpeedLimitInSearchMode": {
@@ -767,7 +767,7 @@
         "SpeedLimitInChaseMode": {
             "Police": 3.0,
             "all": 3.0,
-            "Nbc": 3.0,
+            "CivilianMan": 3.0,
             "Santa": 3.0,
             "CivilianOldWoman": 1.0,
             "Firefighter": 3.0,
@@ -781,9 +781,9 @@
             "FarmerMan": 3.0,
             "PoliceSpecForce": 3.0,
             "WorkerWoman": 3.0,
-            "MedicAndPatientWoman": 3.0,
-            "CivilianMan": 3.0,
             "PopClerk": 2.0999999046325685,
+            "Nbc": 3.0,
+            "MedicAndPatientWoman": 3.0,
             "CivilianOldMan": 1.0
         },
         "SpeedMultiplierInChaseMode": {
@@ -804,7 +804,7 @@
         "SmellsLossInterestAfterReactionForSeconds": {
             "Police": 20.0,
             "all": 0.0,
-            "Nbc": 1.0,
+            "CivilianMan": 20.0,
             "Santa": 90.0,
             "CivilianOldWoman": 15.0,
             "Firefighter": 60.0,
@@ -818,20 +818,20 @@
             "FarmerMan": 15.0,
             "PoliceSpecForce": 10.0,
             "WorkerWoman": 20.0,
-            "MedicAndPatientWoman": 40.0,
-            "CivilianMan": 20.0,
             "PopClerk": 5.0,
+            "Nbc": 1.0,
+            "MedicAndPatientWoman": 40.0,
             "CivilianOldMan": 10.0
         },
         "UpJumpHandlerIsActive": {
             "all": 1,
-            "AlienScout": 0,
-            "AlienQueen": 0
+            "AlienQueen": 0,
+            "AlienScout": 0
         },
         "UpJumpHeightMax": {
             "Police": 2.5,
             "all": 1.7000000476837159,
-            "Nbc": 1.399999976158142,
+            "CivilianMan": 1.2000000476837159,
             "Santa": 3.0,
             "CivilianOldWoman": 0.0,
             "Firefighter": 2.5,
@@ -845,15 +845,15 @@
             "FarmerMan": 0.4000000059604645,
             "PoliceSpecForce": 2.5,
             "WorkerWoman": 1.5,
-            "MedicAndPatientWoman": 1.2000000476837159,
-            "CivilianMan": 1.2000000476837159,
             "PopClerk": 0.0,
+            "Nbc": 1.399999976158142,
+            "MedicAndPatientWoman": 1.2000000476837159,
             "CivilianOldMan": 0.0
         },
         "UpJumpImpulseDamageChancePercent": {
             "Police": 35.0,
             "all": 50.0,
-            "Nbc": 15.0,
+            "CivilianMan": 10.0,
             "Santa": 100.0,
             "CivilianOldWoman": 3.0,
             "Firefighter": 80.0,
@@ -867,15 +867,15 @@
             "FarmerMan": 7.0,
             "PoliceSpecForce": 35.0,
             "WorkerWoman": 12.0,
-            "MedicAndPatientWoman": 7.0,
-            "CivilianMan": 10.0,
             "PopClerk": 10.0,
+            "Nbc": 15.0,
+            "MedicAndPatientWoman": 7.0,
             "CivilianOldMan": 5.0
         },
         "UpJumpChancePercent": {
             "Police": 35.0,
             "all": 100.0,
-            "Nbc": 15.0,
+            "CivilianMan": 10.0,
             "Santa": 100.0,
             "CivilianOldWoman": 3.0,
             "Firefighter": 80.0,
@@ -889,15 +889,15 @@
             "FarmerMan": 7.0,
             "PoliceSpecForce": 35.0,
             "WorkerWoman": 12.0,
-            "MedicAndPatientWoman": 7.0,
-            "CivilianMan": 10.0,
             "PopClerk": 10.0,
+            "Nbc": 15.0,
+            "MedicAndPatientWoman": 7.0,
             "CivilianOldMan": 5.0
         },
         "UpJumpCooldownSeconds": {
             "Police": 15.0,
             "all": 0.0,
-            "Nbc": 90.0,
+            "CivilianMan": 45.0,
             "Santa": 5.0,
             "CivilianOldWoman": 75.0,
             "Firefighter": 5.0,
@@ -911,15 +911,15 @@
             "FarmerMan": 60.0,
             "PoliceSpecForce": 10.0,
             "WorkerWoman": 45.0,
-            "MedicAndPatientWoman": 50.0,
-            "CivilianMan": 45.0,
             "PopClerk": 120.0,
+            "Nbc": 90.0,
+            "MedicAndPatientWoman": 50.0,
             "CivilianOldMan": 60.0
         },
         "DownJumpHandlerIsActive": {
             "Police": 1,
             "all": 1,
-            "Nbc": 0,
+            "CivilianMan": 1,
             "Santa": 1,
             "CivilianOldWoman": 0,
             "Firefighter": 1,
@@ -934,16 +934,16 @@
             "PoliceSpecForce": 1,
             "WorkerWoman": 0,
             "AlienScout": 0,
-            "MedicAndPatientWoman": 0,
-            "CivilianMan": 1,
             "PopClerk": 0,
+            "Nbc": 0,
+            "MedicAndPatientWoman": 0,
             "CivilianOldMan": 0,
             "AlienQueen": 0
         },
         "DownJumpHeightMax": {
             "Police": 4.0,
             "all": 30.0,
-            "Nbc": 3.0,
+            "CivilianMan": 3.0,
             "Santa": 5.0,
             "CivilianOldWoman": 1.5,
             "Firefighter": 10.0,
@@ -957,15 +957,15 @@
             "FarmerMan": 2.0,
             "PoliceSpecForce": 6.0,
             "WorkerWoman": 3.0,
-            "MedicAndPatientWoman": 2.5,
-            "CivilianMan": 3.0,
             "PopClerk": 2.0,
+            "Nbc": 3.0,
+            "MedicAndPatientWoman": 2.5,
             "CivilianOldMan": 2.0
         },
         "StuckJumpHandlerIsActive": {
             "Police": 0,
             "all": 1,
-            "Nbc": 1,
+            "CivilianMan": 1,
             "Santa": 0,
             "CivilianOldWoman": 1,
             "Firefighter": 0,
@@ -980,9 +980,9 @@
             "PoliceSpecForce": 0,
             "WorkerWoman": 1,
             "AlienScout": 0,
-            "MedicAndPatientWoman": 1,
-            "CivilianMan": 1,
             "PopClerk": 1,
+            "Nbc": 1,
+            "MedicAndPatientWoman": 1,
             "CivilianOldMan": 1,
             "AlienQueen": 0
         },
@@ -992,7 +992,7 @@
         "FallHandlerLegBreakHeightMin": {
             "Police": 5.0,
             "all": 3.0,
-            "Nbc": 3.0,
+            "CivilianMan": 3.0,
             "Santa": 10.0,
             "CivilianOldWoman": 1.0,
             "Firefighter": 8.0,
@@ -1007,16 +1007,16 @@
             "PoliceSpecForce": 8.0,
             "WorkerWoman": 3.0,
             "AlienScout": 0.0,
-            "MedicAndPatientWoman": 2.5,
-            "CivilianMan": 3.0,
             "PopClerk": 3.0,
+            "Nbc": 3.0,
+            "MedicAndPatientWoman": 2.5,
             "CivilianOldMan": 1.0,
             "AlienQueen": 0.0
         },
         "FallHandlerLegBreakHeightMax": {
             "Police": 8.0,
             "all": 15.0,
-            "Nbc": 5.0,
+            "CivilianMan": 7.0,
             "Santa": 20.0,
             "CivilianOldWoman": 2.0,
             "Firefighter": 15.0,
@@ -1030,15 +1030,15 @@
             "FarmerMan": 5.0,
             "PoliceSpecForce": 10.0,
             "WorkerWoman": 6.5,
-            "MedicAndPatientWoman": 6.5,
-            "CivilianMan": 7.0,
             "PopClerk": 6.0,
+            "Nbc": 5.0,
+            "MedicAndPatientWoman": 6.5,
             "CivilianOldMan": 2.0
         },
         "FallHandlerDeathHeightMin": {
             "Police": 8.0,
             "all": 10.0,
-            "Nbc": 5.0,
+            "CivilianMan": 7.0,
             "Santa": 20.0,
             "CivilianOldWoman": 2.0,
             "Firefighter": 15.0,
@@ -1052,15 +1052,15 @@
             "FarmerMan": 5.0,
             "PoliceSpecForce": 10.0,
             "WorkerWoman": 6.5,
-            "MedicAndPatientWoman": 6.5,
-            "CivilianMan": 7.0,
             "PopClerk": 6.0,
+            "Nbc": 5.0,
+            "MedicAndPatientWoman": 6.5,
             "CivilianOldMan": 2.0
         },
         "FallHandlerDeathHeightMax": {
             "Police": 16.0,
             "all": 20.0,
-            "Nbc": 10.0,
+            "CivilianMan": 14.0,
             "Santa": 40.0,
             "CivilianOldWoman": 5.0,
             "Firefighter": 30.0,
@@ -1074,15 +1074,15 @@
             "FarmerMan": 10.0,
             "PoliceSpecForce": 20.0,
             "WorkerWoman": 13.0,
-            "MedicAndPatientWoman": 13.0,
-            "CivilianMan": 14.0,
             "PopClerk": 12.0,
+            "Nbc": 10.0,
+            "MedicAndPatientWoman": 13.0,
             "CivilianOldMan": 5.0
         },
         "InjuryHandlerIsActive": {
             "Police": 1,
             "all": 1,
-            "Nbc": 1,
+            "CivilianMan": 1,
             "Santa": 0,
             "CivilianOldWoman": 1,
             "Firefighter": 1,
@@ -1096,9 +1096,9 @@
             "FarmerMan": 1,
             "PoliceSpecForce": 1,
             "WorkerWoman": 1,
-            "MedicAndPatientWoman": 0,
-            "CivilianMan": 1,
             "PopClerk": 0,
+            "Nbc": 1,
+            "MedicAndPatientWoman": 0,
             "CivilianOldMan": 1
         },
         "InjuryHandlerInjuryOnExplosiveDamageChancePercent": {
@@ -1107,7 +1107,7 @@
         "InjuryHandlerDamageThresholdToInjuryArm": {
             "Police": 50.0,
             "all": 30.0,
-            "Nbc": 50.0,
+            "CivilianMan": 50.0,
             "Santa": 50.0,
             "CivilianOldWoman": 25.0,
             "Firefighter": 60.0,
@@ -1122,9 +1122,9 @@
             "PoliceSpecForce": 70.0,
             "WorkerWoman": 80.0,
             "AlienScout": 200.0,
-            "MedicAndPatientWoman": 6.0,
-            "CivilianMan": 50.0,
             "Captain_Alien": 120.0,
+            "Nbc": 50.0,
+            "MedicAndPatientWoman": 6.0,
             "CivilianOldMan": 30.0,
             "PopClerk": 18.0,
             "AlienQueen": 350.0
@@ -1132,7 +1132,7 @@
         "InjuryHandlerRestoreInjuredArmAfterSeconds": {
             "Police": 30.0,
             "all": 60.0,
-            "Nbc": 0.0,
+            "CivilianMan": 0.0,
             "Santa": 20.0,
             "CivilianOldWoman": 0.0,
             "Firefighter": 30.0,
@@ -1146,9 +1146,9 @@
             "FarmerMan": 0.0,
             "PoliceSpecForce": 30.0,
             "WorkerWoman": 20.0,
-            "MedicAndPatientWoman": 40.0,
-            "CivilianMan": 0.0,
             "PopClerk": 15.0,
+            "Nbc": 0.0,
+            "MedicAndPatientWoman": 40.0,
             "CivilianOldMan": 0.0
         },
         "InjuryHandlerInjuredOneArmAttackMultiplier": {
@@ -1190,7 +1190,7 @@
         "InjuryHandlerDamageThresholdToInjuryLeg": {
             "Police": 50.0,
             "all": 30.0,
-            "CivilianMan": 50.0,
+            "Nbc": 50.0,
             "Santa": 750.0,
             "CivilianOldWoman": 25.0,
             "Firefighter": 60.0,
@@ -1205,9 +1205,9 @@
             "PoliceSpecForce": 70.0,
             "WorkerWoman": 80.0,
             "AlienScout": 600.0,
-            "Captain_Alien": 200.0,
-            "Nbc": 50.0,
             "MedicAndPatientWoman": 6.0,
+            "CivilianMan": 50.0,
+            "Captain_Alien": 200.0,
             "CivilianOldMan": 30.0,
             "PopClerk": 180.0,
             "AlienQueen": 1000.0
@@ -1215,7 +1215,7 @@
         "InjuryHandlerRestoreInjuredLegAfterSeconds": {
             "Police": 40.0,
             "all": 0.0,
-            "CivilianMan": 0.0,
+            "Nbc": 0.0,
             "Santa": 20.0,
             "CivilianOldWoman": 0.0,
             "Firefighter": 45.0,
@@ -1231,7 +1231,7 @@
             "WorkerWoman": 30.0,
             "AlienScout": 8.0,
             "AlienCaptain": 6.5,
-            "Nbc": 0.0,
+            "CivilianMan": 0.0,
             "PopClerk": 15.0,
             "CivilianOldMan": 0.0,
             "MedicAndPatientWoman": 60.0,
@@ -1258,7 +1258,7 @@
         "AttackCarHandlerIsActive": {
             "Police": 1,
             "all": 0,
-            "Nbc": 0,
+            "CivilianMan": 1,
             "Santa": 1,
             "CivilianOldWoman": 0,
             "Firefighter": 1,
@@ -1272,15 +1272,15 @@
             "FarmerMan": 0,
             "PoliceSpecForce": 1,
             "WorkerWoman": 1,
-            "MedicAndPatientWoman": 1,
-            "CivilianMan": 1,
             "PopClerk": 0,
+            "Nbc": 0,
+            "MedicAndPatientWoman": 1,
             "CivilianOldMan": 0
         },
         "AttackCarPlayersIsActive": {
             "Police": 1,
             "all": 1,
-            "Nbc": 0,
+            "CivilianMan": 1,
             "Santa": 1,
             "CivilianOldWoman": 0,
             "Firefighter": 1,
@@ -1294,15 +1294,15 @@
             "FarmerMan": 0,
             "PoliceSpecForce": 1,
             "WorkerWoman": 1,
-            "MedicAndPatientWoman": 1,
-            "CivilianMan": 1,
             "PopClerk": 0,
+            "Nbc": 0,
+            "MedicAndPatientWoman": 1,
             "CivilianOldMan": 0
         },
         "AttackCarPlayersDistanceMeters": {
             "Police": 1.5,
             "all": 2.0,
-            "Nbc": 1.0,
+            "CivilianMan": 1.2000000476837159,
             "Santa": 2.0,
             "CivilianOldWoman": 1.0,
             "Firefighter": 1.7999999523162842,
@@ -1316,9 +1316,9 @@
             "FarmerMan": 1.0,
             "PoliceSpecForce": 1.5,
             "WorkerWoman": 2.0,
-            "MedicAndPatientWoman": 1.2000000476837159,
-            "CivilianMan": 1.2000000476837159,
             "PopClerk": 1.0,
+            "Nbc": 1.0,
+            "MedicAndPatientWoman": 1.2000000476837159,
             "CivilianOldMan": 1.0
         },
         "AttackCarElementsIsActive": {
@@ -1329,7 +1329,7 @@
         "AttackCarElementsDistanceMeters": {
             "Police": 1.5,
             "all": 2.0,
-            "Nbc": 1.0,
+            "CivilianMan": 1.2000000476837159,
             "Santa": 2.0,
             "CivilianOldWoman": 1.0,
             "Firefighter": 1.7999999523162842,
@@ -1343,15 +1343,15 @@
             "FarmerMan": 1.0,
             "PoliceSpecForce": 1.5,
             "WorkerWoman": 2.0,
-            "MedicAndPatientWoman": 1.2000000476837159,
-            "CivilianMan": 1.2000000476837159,
             "PopClerk": 1.0,
+            "Nbc": 1.0,
+            "MedicAndPatientWoman": 1.2000000476837159,
             "CivilianOldMan": 1.0
         },
         "AttackCarElementsGlobalDamageMultiplier": {
             "Police": 1.5,
             "all": 1.0,
-            "CivilianMan": 1.2000000476837159,
+            "Nbc": 1.0,
             "Santa": 2.0,
             "CivilianOldWoman": 1.0,
             "Firefighter": 1.7999999523162842,
@@ -1366,10 +1366,10 @@
             "Mummy": 2.0,
             "PoliceSpecForce": 1.5,
             "WorkerWoman": 2.0,
-            "PopClerk": 1.0,
-            "Nbc": 1.0,
-            "AnimalWolf": 2.0,
             "MedicAndPatientWoman": 1.2000000476837159,
+            "CivilianMan": 1.2000000476837159,
+            "AnimalWolf": 2.0,
+            "PopClerk": 1.0,
             "CivilianOldMan": 1.0
         },
         "AttackCarElementsByCollisionsIsActive": {
@@ -1664,7 +1664,7 @@
         "DamageToPlayerHealthMultiplier": {
             "Police": 1.0,
             "all": 0.800000011920929,
-            "Nbc": 1.0,
+            "CivilianMan": 0.699999988079071,
             "Santa": 4.0,
             "CivilianOldWoman": 0.6000000238418579,
             "Firefighter": 1.100000023841858,
@@ -1679,17 +1679,20 @@
             "PoliceSpecForce": 1.100000023841858,
             "WorkerWoman": 1.0,
             "AlienScout": 0.6000000238418579,
-            "MedicAndPatientWoman": 0.8500000238418579,
-            "CivilianMan": 0.699999988079071,
             "Captain_Alien": 1.0,
+            "Nbc": 1.0,
+            "MedicAndPatientWoman": 0.8500000238418579,
             "CivilianOldMan": 0.699999988079071,
             "PopClerk": 0.699999988079071,
             "AlienQueen": 0.800000011920929
         },
+        "DamageToPlayerInBlockHealthMultiplier": {
+            "all": 0.10000000149011612
+        },
         "DamageToPlayerShockMultiplier": {
             "Police": 1.100000023841858,
             "all": 0.699999988079071,
-            "Nbc": 1.0,
+            "CivilianMan": 0.8999999761581421,
             "Santa": 3.0,
             "CivilianOldWoman": 0.6000000238418579,
             "Firefighter": 1.2999999523162842,
@@ -1704,17 +1707,20 @@
             "PoliceSpecForce": 1.2000000476837159,
             "WorkerWoman": 0.8999999761581421,
             "AlienScout": 0.5,
-            "MedicAndPatientWoman": 0.8899999856948853,
-            "CivilianMan": 0.8999999761581421,
             "Captain_Alien": 1.0,
+            "Nbc": 1.0,
+            "MedicAndPatientWoman": 0.8899999856948853,
             "CivilianOldMan": 0.699999988079071,
             "PopClerk": 1.0,
             "AlienQueen": 1.0
         },
+        "DamageToPlayerInBlockShockMultiplier": {
+            "all": 0.4000000059604645
+        },
         "DamageToPlayerStaminaPercent": {
             "Police": 1.2999999523162842,
             "all": 1.0,
-            "Nbc": 0.800000011920929,
+            "CivilianMan": 0.6000000238418579,
             "Santa": 3.0,
             "CivilianOldWoman": 0.30000001192092898,
             "Firefighter": 1.100000023841858,
@@ -1728,49 +1734,15 @@
             "FarmerMan": 0.4000000059604645,
             "PoliceSpecForce": 1.5,
             "WorkerWoman": 0.800000011920929,
-            "MedicAndPatientWoman": 0.5,
-            "CivilianMan": 0.6000000238418579,
             "PopClerk": 1.0,
+            "Nbc": 0.800000011920929,
+            "MedicAndPatientWoman": 0.5,
             "CivilianOldMan": 0.4000000059604645
-        },
-        "DamageToPlayerBloodPercent": {
-            "all": 0.0
-        },
-        "DamageToPlayerBleedingHandlerIsActive": {
-            "all": 1
-        },
-        "DamageToPlayerBleedingChancePercent": {
-            "Police": 8.0,
-            "all": 10.0,
-            "Nbc": 0.0,
-            "Santa": 30.0,
-            "CivilianOldWoman": 15.0,
-            "Firefighter": 15.0,
-            "Prisoner": 15.0,
-            "Pop": 0.0,
-            "CivilianWoman": 20.0,
-            "MedicAndPatientMan": 25.0,
-            "Mummy": 30.0,
-            "Solder": 10.0,
-            "WorkerMan": 10.0,
-            "FarmerMan": 10.0,
-            "PoliceSpecForce": 10.0,
-            "WorkerWoman": 15.0,
-            "MedicAndPatientWoman": 30.0,
-            "CivilianMan": 10.0,
-            "PopClerk": 0.0,
-            "CivilianOldMan": 10.0
-        },
-        "DamageToPlayerInBlockHealthMultiplier": {
-            "all": 0.10000000149011612
-        },
-        "DamageToPlayerInBlockShockMultiplier": {
-            "all": 0.4000000059604645
         },
         "DamageToPlayerInBlockStaminaPercent": {
             "Police": 7.0,
             "all": 5.0,
-            "Nbc": 1.0,
+            "CivilianMan": 5.0,
             "Santa": 15.0,
             "CivilianOldWoman": 0.5,
             "Firefighter": 7.0,
@@ -1784,13 +1756,41 @@
             "FarmerMan": 3.0,
             "PoliceSpecForce": 10.0,
             "WorkerWoman": 3.5,
-            "MedicAndPatientWoman": 2.5,
-            "CivilianMan": 5.0,
             "PopClerk": 1.0,
+            "Nbc": 1.0,
+            "MedicAndPatientWoman": 2.5,
             "CivilianOldMan": 1.0
+        },
+        "DamageToPlayerBloodPercent": {
+            "all": 0.0
         },
         "DamageToPlayerInBlockBloodPercent": {
             "all": 0.0
+        },
+        "DamageToPlayerBleedingHandlerIsActive": {
+            "all": 1
+        },
+        "DamageToPlayerBleedingChancePercent": {
+            "Police": 8.0,
+            "all": 10.0,
+            "CivilianMan": 10.0,
+            "Santa": 30.0,
+            "CivilianOldWoman": 15.0,
+            "Firefighter": 15.0,
+            "Prisoner": 15.0,
+            "Pop": 0.0,
+            "CivilianWoman": 20.0,
+            "MedicAndPatientMan": 25.0,
+            "Mummy": 30.0,
+            "Solder": 10.0,
+            "WorkerMan": 10.0,
+            "FarmerMan": 10.0,
+            "PoliceSpecForce": 10.0,
+            "WorkerWoman": 15.0,
+            "PopClerk": 0.0,
+            "Nbc": 0.0,
+            "MedicAndPatientWoman": 30.0,
+            "CivilianOldMan": 10.0
         },
         "DamageToPlayerInBlockBleedingChancePercent": {
             "all": 0.0
@@ -1810,14 +1810,14 @@
         "FastAttackToPlayerChancePercent": {
             "Captain_Alien": 50.0,
             "all": 30.0,
-            "AlienScout": 10.0,
-            "AlienQueen": 25.0
+            "AlienQueen": 25.0,
+            "AlienScout": 10.0
         },
         "DiseasesToPlayerHandlerIsActive": {
             "Captain_Alien": 0,
             "all": 1,
-            "AlienScout": 0,
-            "AlienQueen": 0
+            "AlienQueen": 0,
+            "AlienScout": 0
         },
         "DiseasesToPlayerAgents": {
             "all": []
@@ -1876,7 +1876,7 @@
         "DamageToZombieHeadMeleeMultiplier": {
             "Police": 2.5,
             "all": 2.0,
-            "Nbc": 2.5,
+            "CivilianMan": 2.0,
             "Santa": 0.20000000298023225,
             "CivilianOldWoman": 5.0,
             "Firefighter": 2.299999952316284,
@@ -1890,15 +1890,15 @@
             "FarmerMan": 3.0,
             "PoliceSpecForce": 2.0,
             "WorkerWoman": 3.5,
-            "MedicAndPatientWoman": 3.5,
-            "CivilianMan": 2.0,
             "PopClerk": 0.800000011920929,
+            "Nbc": 2.5,
+            "MedicAndPatientWoman": 3.5,
             "CivilianOldMan": 5.0
         },
         "DamageToZombieHeadRangeMultiplier": {
             "Police": 2.0,
             "all": 1.5,
-            "Nbc": 2.0,
+            "CivilianMan": 2.5,
             "Santa": 0.20000000298023225,
             "CivilianOldWoman": 5.0,
             "Firefighter": 1.7999999523162842,
@@ -1912,15 +1912,15 @@
             "FarmerMan": 3.0,
             "PoliceSpecForce": 1.5,
             "WorkerWoman": 2.5,
-            "MedicAndPatientWoman": 2.5,
-            "CivilianMan": 2.5,
             "PopClerk": 0.5,
+            "Nbc": 2.0,
+            "MedicAndPatientWoman": 2.5,
             "CivilianOldMan": 5.0
         },
         "DamageToZombieBodyMeleeMultiplier": {
             "Police": 1.2000000476837159,
             "all": 1.2000000476837159,
-            "Nbc": 1.2999999523162842,
+            "CivilianMan": 1.5,
             "Santa": 0.20000000298023225,
             "CivilianOldWoman": 2.5,
             "Firefighter": 1.5,
@@ -1934,15 +1934,15 @@
             "FarmerMan": 1.5,
             "PoliceSpecForce": 1.0,
             "WorkerWoman": 1.5,
-            "MedicAndPatientWoman": 1.5,
-            "CivilianMan": 1.5,
             "PopClerk": 0.800000011920929,
+            "Nbc": 1.2999999523162842,
+            "MedicAndPatientWoman": 1.5,
             "CivilianOldMan": 2.0
         },
         "DamageToZombieBodyRangeMultiplier": {
             "Police": 1.2000000476837159,
             "all": 1.0,
-            "Nbc": 1.2999999523162842,
+            "CivilianMan": 1.5,
             "Santa": 0.20000000298023225,
             "CivilianOldWoman": 2.5,
             "Firefighter": 1.5,
@@ -1956,9 +1956,9 @@
             "FarmerMan": 1.5,
             "PoliceSpecForce": 1.0,
             "WorkerWoman": 1.5,
-            "MedicAndPatientWoman": 1.5,
-            "CivilianMan": 1.5,
             "PopClerk": 0.800000011920929,
+            "Nbc": 1.2999999523162842,
+            "MedicAndPatientWoman": 1.5,
             "CivilianOldMan": 2.0
         },
         "DamageToZombieFromCarsMultiplier": {
@@ -1985,8 +1985,8 @@
         "DamageToZombieShockToStunLightHeavyAnimationThresholdRange": {
             "all": 50.0,
             "AlienCaptain": 450.0,
-            "AlienScout": 375.0,
-            "AlienQueen": 3000.0
+            "AlienQueen": 3000.0,
+            "AlienScout": 375.0
         },
         "DamageToZombieShockToStunThresholdMeleeHeavy": {
             "all": 0.0
@@ -1994,14 +1994,17 @@
         "DamageToZombieShockToStunThresholdRange": {
             "all": 100.0,
             "AlienCaptain": 600.0,
-            "AlienScout": 650.0,
-            "AlienQueen": 2500.0
+            "AlienQueen": 2500.0,
+            "AlienScout": 650.0
         },
         "DamageToZombieShockToStunFromButtstockHit": {
             "all": 2.0
         },
         "DamageToZombieShockToStunCumulativeDamage": {
             "all": 1
+        },
+        "DamageToZombieShockToStunCumulativeDamageTimeFrameSeconds": {
+            "all": 0.10000000149011612
         },
         "DamageToZombieWeaponsMultipliers": {
             "all": {
@@ -2029,7 +2032,7 @@
         "BloodHandlerIsActive": {
             "Police": 0,
             "all": 1,
-            "Nbc": 0,
+            "CivilianMan": 1,
             "Santa": 0,
             "CivilianOldWoman": 1,
             "Firefighter": 1,
@@ -2043,9 +2046,9 @@
             "FarmerMan": 1,
             "PoliceSpecForce": 0,
             "WorkerWoman": 1,
-            "MedicAndPatientWoman": 0,
-            "CivilianMan": 1,
             "PopClerk": 0,
+            "Nbc": 0,
+            "MedicAndPatientWoman": 0,
             "CivilianOldMan": 1
         },
         "BloodVolumeMl": {
@@ -2093,7 +2096,7 @@
         "ScreamHandlerIsActive": {
             "Police": 0,
             "all": 1,
-            "Nbc": 0,
+            "CivilianMan": 0,
             "Santa": 1,
             "CivilianOldWoman": 1,
             "Firefighter": 0,
@@ -2107,9 +2110,9 @@
             "FarmerMan": 1,
             "PoliceSpecForce": 0,
             "WorkerWoman": 1,
-            "MedicAndPatientWoman": 1,
-            "CivilianMan": 0,
             "PopClerk": 0,
+            "Nbc": 0,
+            "MedicAndPatientWoman": 1,
             "CivilianOldMan": 1
         },
         "ScreamAttractsZombiesInRadius": {
@@ -2219,19 +2222,19 @@
         "CanBeBackstabbedHandlerIsActive": {
             "Captain_Alien": 0,
             "all": 1,
-            "AlienScout": 0,
-            "AlienQueen": 0
+            "AlienQueen": 0,
+            "AlienScout": 0
         },
         "CanBeBackstabbed": {
             "Captain_Alien": 0,
             "all": 1,
-            "AlienScout": 0,
-            "AlienQueen": 0
+            "AlienQueen": 0,
+            "AlienScout": 0
         },
         "VisionRangeMultiplierDay": {
             "all": 1.2000000476837159,
-            "AlienScout": 1.0,
-            "AlienQueen": 1.0
+            "AlienQueen": 1.0,
+            "AlienScout": 1.0
         },
         "VisionRangeMultiplierNight": {
             "all": 0.800000011920929
@@ -2281,9 +2284,9 @@
                 "GarbageIfPlayerOnObstacle",
                 "FirefightersProjectile"
             ],
-            "MedicAndPatientMan": [
+            "Prisoner": [
                 "GarbageIfPlayerOnObstacle",
-                "MedicsProjectile"
+                "GarbageIfPlayerNonObstacle"
             ],
             "Pop": [
                 "GarbageIfPlayerOnObstacle",
@@ -2293,13 +2296,13 @@
                 "GarbageIfPlayerOnObstacle",
                 "VillagersProjectile"
             ],
-            "Prisoner": [
+            "MedicAndPatientMan": [
                 "GarbageIfPlayerOnObstacle",
-                "GarbageIfPlayerNonObstacle"
+                "MedicsProjectile"
             ],
-            "WorkerMan": [
+            "CivilianOldMan": [
                 "GarbageIfPlayerOnObstacle",
-                "IndustrialProjectile"
+                "CityProjectile"
             ],
             "PopClerk": [
                 "GarbageIfPlayerOnObstacle",
@@ -2309,9 +2312,9 @@
                 "GarbageIfPlayerOnObstacle",
                 "MilitaryProjectile"
             ],
-            "CivilianOldMan": [
+            "WorkerMan": [
                 "GarbageIfPlayerOnObstacle",
-                "CityProjectile"
+                "IndustrialProjectile"
             ],
             "FarmerMan": [
                 "GarbageIfPlayerOnObstacle",
@@ -2411,6 +2414,8 @@
         "ArmsDeepWoundDurationSeconds": 1800.0,
         "LegsDeepWoundDurationSeconds": 1800.0,
         "TorsoDeepWoundDurationSeconds": 1800.0,
+        "LimbsDeepWoundConsciousBleedRateMultiplier": 1.0,
+        "LimbsDeepWoundUnconsciousBleedRateMultiplier": 1.0,
         "LimbsDeepWoundVanillaCutBleedRateMultiplier": 0.10000000149011612,
         "LimbsDeepWoundFromFalls": 1,
         "LegsDeepWoundFromTraps": 1,
