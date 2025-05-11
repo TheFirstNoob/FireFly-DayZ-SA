@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
 	<type name="Expansion_Guitar">
-		<nominal>3</nominal>
+		<nominal>8</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>1</min>
+		<min>8</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -14,10 +14,10 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Expansion_Guitar_old">
-		<nominal>3</nominal>
+		<nominal>8</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>1</min>
+		<min>8</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
