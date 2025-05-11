@@ -1,1119 +1,1191 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
-    <type name="CookZ_FriedPotatoesBox">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_FriedPotatoesBox_Opened">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_GoulashCan">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_GoulashCan_Opened">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_StirFryBox">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_StirFryBox_Opened">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_PumpkinSoupCan">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_PumpkinSoupCan_Opened">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_FishSoupCan">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_FishSoupCan_Opened">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_FishAndChipsBox">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_FishAndChipsBox_Opened">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_RicePuddingBox">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_RicePuddingBox_Opened">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_MushroomRisottoBox">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_MushroomRisottoBox_Opened">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_PilafBox">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_PilafBox_Opened">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_StuffedPeppersBox">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_StuffedPeppersBox_Opened">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_GaghBox">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_GaghBox_Opened">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_HaggisBox">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_HaggisBox_Opened">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_PommdoenerBox">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_PommdoenerBox_Opened">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_BangersAndMashBox">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_BangersAndMashBox_Opened">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_CurrywurstBox">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_CurrywurstBox_Opened">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_UkhaCan">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_UkhaCan_Opened">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_LecsoCan">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_LecsoCan_Opened">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_ZucchiniCaviarCan">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_ZucchiniCaviarCan_Opened">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_MysteryMeatCan">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_MysteryMeatCan_Opened">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_CreamyTomatoSoupCan">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_CreamyTomatoSoupCan_Opened">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_BeefStewCan">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_BeefStewCan_Opened">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_MushroomStroganoffCan">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_MushroomStroganoffCan_Opened">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_AppleMarmaladeCan">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_AppleMarmaladeCan_Opened">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_PearMarmaladeCan">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_PearMarmaladeCan_Opened">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_PlumMarmaladeCan">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
-    <type name="CookZ_PlumMarmaladeCan_Opened">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>
     <type name="CookZ_EmptyCan">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
     </type>
     <type name="CookZ_EmptyBox">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
     </type>
     <type name="CookZ_Cookbook_Item">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
     </type>
-    <type name="CookZ_Beef_Sausage">
+    <type name="CookZ_FriedPotatoesBox">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
     </type>
-    <type name="CookZ_Chicken_Sausage">
+    <type name="CookZ_FriedPotatoesBox_Opened">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
     </type>
-    <type name="CookZ_Pig_Sausage">
+    <type name="CookZ_StirFryBox">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
     </type>
-    <type name="CookZ_Goat_Sausage">
+    <type name="CookZ_StirFryBox_Opened">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
     </type>
-    <type name="CookZ_Bear_Sausage">
+    <type name="CookZ_FishAndChipsBox">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
     </type>
-    <type name="CookZ_Sheep_Sausage">
+    <type name="CookZ_FishAndChipsBox_Opened">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
     </type>
-    <type name="CookZ_Boar_Sausage">
+    <type name="CookZ_RicePuddingBox">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
     </type>
-    <type name="CookZ_Deer_Sausage">
+    <type name="CookZ_RicePuddingBox_Opened">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
     </type>
-    <type name="CookZ_Hare_Sausage">
+    <type name="CookZ_MushroomRisottoBox">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
     </type>
-    <type name="CookZ_Wolf_Sausage">
+    <type name="CookZ_MushroomRisottoBox_Opened">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
     </type>
-    <type name="CookZ_Human_Sausage">
+    <type name="CookZ_PilafBox">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
     </type>
-    <type name="CookZ_Fox_Sausage">
+    <type name="CookZ_PilafBox_Opened">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
     </type>
-    <type name="CookZ_Reindeer_Sausage">
+    <type name="CookZ_GaghBox">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
     </type>
-    <type name="CookZ_Cheese">
+    <type name="CookZ_GaghBox_Opened">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_HaggisBox">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_HaggisBox_Opened">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_StuffedPeppersBox">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_StuffedPeppersBox_Opened">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_PommdoenerBox">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_PommdoenerBox_Opened">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_BangersAndMashBox">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_BangersAndMashBox_Opened">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_CurrywurstBox">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_CurrywurstBox_Opened">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
     </type>
     <type name="CookZ_StuffedMushroomsBox">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
     </type>
     <type name="CookZ_StuffedMushroomsBox_Opened">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
     </type>
     <type name="CookZ_RabbitRoastBox">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
     </type>
     <type name="CookZ_RabbitRoastBox_Opened">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
     </type>
     <type name="CookZ_NuggiesAndFriesBox">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
     </type>
     <type name="CookZ_NuggiesAndFriesBox_Opened">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
     </type>
     <type name="CookZ_SchnitzelBox">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
-    </type>    
+    </type>
     <type name="CookZ_SchnitzelBox_Opened">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
     </type>
     <type name="CookZ_BiffALaNelsonBox">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
-    </type>    
+    </type>
     <type name="CookZ_BiffALaNelsonBox_Opened">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
     </type>
     <type name="CookZ_PorkAndAppleBox">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
-    </type>    
+    </type>
     <type name="CookZ_PorkAndAppleBox_Opened">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
     </type>
     <type name="CookZ_ChickenCordonBleuBox">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
-    </type>    
+    </type>
     <type name="CookZ_ChickenCordonBleuBox_Opened">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
     </type>
     <type name="CookZ_RatatouilleBox">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
-    </type>    
+    </type>
     <type name="CookZ_RatatouilleBox_Opened">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
     </type>
     <type name="CookZ_BakedPotatoVegBox">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
-    </type>    
+    </type>
     <type name="CookZ_BakedPotatoVegBox_Opened">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
     </type>
     <type name="CookZ_BakedPotatoMeatBox">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
-    </type>    
+    </type>
     <type name="CookZ_BakedPotatoMeatBox_Opened">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
     </type>
     <type name="CookZ_BakedPotatoFishBox">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
-        <category name="food" />
-    </type>    
-    <type name="CookZ_BakedPotatoFishBox_Opened">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
     </type>
-    <type name="CookZ_BoneBrothCan">
+    <type name="CookZ_BakedPotatoFishBox_Opened">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
-    </type>    
-    <type name="CookZ_BoneBrothCan_Opened">
+    </type>
+    <type name="CookZ_BakedPotatoBeansBox">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_BakedPotatoBeansBox_Opened">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_RiceALaMaltaBox">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_RiceALaMaltaBox_Opened">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
     </type>
     <type name="CookZ_PaprikasKrumpliBox">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
     </type>
     <type name="CookZ_PaprikasKrumpliBox_Opened">
         <nominal>0</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0"
-            crafted="1" deloot="0" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_FishSticksBox">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_FishSticksBox_Opened">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_PaellaBox">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_PaellaBox_Opened">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_GoulashCan">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_GoulashCan_Opened">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_PumpkinSoupCan">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_PumpkinSoupCan_Opened">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_FishSoupCan">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_FishSoupCan_Opened">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_UkhaCan">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_UkhaCan_Opened">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_LecsoCan">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_LecsoCan_Opened">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_MysteryMeatCan">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_MysteryMeatCan_Opened">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_ZucchiniCaviarCan">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_ZucchiniCaviarCan_Opened">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_CreamyTomatoSoupCan">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_CreamyTomatoSoupCan_Opened">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_MushroomStroganoffCan">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_MushroomStroganoffCan_Opened">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_BeefStewCan">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_BeefStewCan_Opened">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_BoneBrothCan">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_BoneBrothCan_Opened">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_ChiliConCarneCan">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_ChiliConCarneCan_Opened">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_SpaghettiWithMeatballsCan">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_SpaghettiWithMeatballsCan_Opened">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_PeachGoetterspeiseCan">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_PeachGoetterspeiseCan_Opened">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_AppleMarmaladeCan">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_AppleMarmaladeCan_Opened">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_PlumMarmaladeCan">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_PlumMarmaladeCan_Opened">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_PearMarmaladeCan">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_PearMarmaladeCan_Opened">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_Cheese">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_Beef_Sausage">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_Chicken_Sausage">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_Pig_Sausage">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_Goat_Sausage">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_Bear_Sausage">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_Sheep_Sausage">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_Boar_Sausage">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_Deer_Sausage">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_Hare_Sausage">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_Wolf_Sausage">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_Human_Sausage">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_Fox_Sausage">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_Reindeer_Sausage">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+        <category name="food" />
+    </type>
+    <type name="CookZ_Blood_Sausage">
+        <nominal>0</nominal>
+        <lifetime>9000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="food" />
     </type>
 </types>
