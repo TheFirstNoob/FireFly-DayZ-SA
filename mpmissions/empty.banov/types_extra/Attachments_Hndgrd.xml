@@ -337,6 +337,42 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 	</type>
+	<type name="TF_AR10_NoveskeHndgrd_Short_RIS">
+		<!-- 100% chance of spawning in spawnabletypes.xml -->
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+	</type>
+	<type name="TF_AR10_URXHndgrd_MLOCK">
+		<!-- 100% chance of spawning in spawnabletypes.xml -->
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+	</type>
+	<type name="TF_AR10_LancerHndgrd_MLOCK">
+		<!-- 100% chance of spawning in spawnabletypes.xml -->
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+	</type>
 	<type name="TF_M4_ADARWoodHndgrd">
 		<!-- 100% chance of spawning in spawnabletypes.xml -->
 		<nominal>0</nominal>
