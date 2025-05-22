@@ -213,46 +213,7 @@
 	</type>
 
 	<!-- TERJE PILLS -->
-	<type name="TerjePillsAnalgin">
-		<nominal>10</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
-		<min>5</min>
-		<quantmin>10</quantmin>
-		<quantmax>80</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="shelves"/>
-		<usage name="Medic"/>
-	</type>
-	<type name="TerjePillsNimesulid">
-		<nominal>10</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
-		<min>5</min>
-		<quantmin>10</quantmin>
-		<quantmax>80</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="shelves"/>
-		<usage name="Medic"/>
-	</type>
 	<type name="TerjePillsParacetamol">
-		<nominal>10</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
-		<min>5</min>
-		<quantmin>10</quantmin>
-		<quantmax>80</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="shelves"/>
-		<usage name="Medic"/>
-	</type>
-	<type name="TerjePillsIbuprofen">
 		<nominal>10</nominal>
 		<lifetime>28800</lifetime>
 		<restock>0</restock>
@@ -278,19 +239,6 @@
 		<tag name="shelves"/>
 		<usage name="Medic"/>
 	</type>
-	<type name="TerjePillsAmoxiclav">
-		<nominal>10</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
-		<min>5</min>
-		<quantmin>10</quantmin>
-		<quantmax>80</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="shelves"/>
-		<usage name="Medic"/>
-	</type>
 	<type name="TerjePillsPiperacylin">
 		<nominal>10</nominal>
 		<lifetime>28800</lifetime>
@@ -304,46 +252,7 @@
 		<tag name="shelves"/>
 		<usage name="Medic"/>
 	</type>
-	<type name="TerjePillsAmibaktam">
-		<nominal>10</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
-		<min>5</min>
-		<quantmin>10</quantmin>
-		<quantmax>80</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="shelves"/>
-		<usage name="Medic"/>
-	</type>
-	<type name="TerjePillsPolisorb">
-		<nominal>10</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
-		<min>5</min>
-		<quantmin>10</quantmin>
-		<quantmax>80</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="shelves"/>
-		<usage name="Medic"/>
-	</type>
 	<type name="TerjePillsMesalazin">
-		<nominal>10</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
-		<min>5</min>
-		<quantmin>10</quantmin>
-		<quantmax>80</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="shelves"/>
-		<usage name="Medic"/>
-	</type>
-	<type name="TerjePillsFtalazol">
 		<nominal>10</nominal>
 		<lifetime>28800</lifetime>
 		<restock>0</restock>
@@ -370,45 +279,6 @@
 		<usage name="Medic"/>
 	</type>
 	<type name="TerjePillsVikasol">
-		<nominal>10</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
-		<min>5</min>
-		<quantmin>10</quantmin>
-		<quantmax>80</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="shelves"/>
-		<usage name="Medic"/>
-	</type>
-	<type name="TerjePillsIrovit">
-		<nominal>10</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
-		<min>5</min>
-		<quantmin>10</quantmin>
-		<quantmax>80</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="shelves"/>
-		<usage name="Medic"/>
-	</type>
-	<type name="TerjePillsAgteminol">
-		<nominal>10</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
-		<min>5</min>
-		<quantmin>10</quantmin>
-		<quantmax>80</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="shelves"/>
-		<usage name="Medic"/>
-	</type>
-	<type name="TerjePillsVenlafaxine">
 		<nominal>10</nominal>
 		<lifetime>28800</lifetime>
 		<restock>0</restock>
@@ -462,46 +332,7 @@
 		<tag name="shelves"/>
 		<usage name="Medic"/>
 	</type>
-	<type name="TerjeAmpouleImipenem">
-		<nominal>5</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
-		<min>3</min>
-		<quantmin>20</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="shelves"/>
-		<usage name="Medic"/>
-	</type>
 	<type name="TerjeAmpouleMorphine">
-		<nominal>5</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
-		<min>3</min>
-		<quantmin>20</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="shelves"/>
-		<usage name="Medic"/>
-	</type>
-	<type name="TerjeAmpouleGexobarbital">
-		<nominal>5</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
-		<min>3</min>
-		<quantmin>20</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="shelves"/>
-		<usage name="Medic"/>
-	</type>
-	<type name="TerjeAmpouleKetamin">
 		<nominal>5</nominal>
 		<lifetime>28800</lifetime>
 		<restock>0</restock>
@@ -594,19 +425,6 @@
 	</type>
 	
 	<!-- TERJE INJECTORS -->
-	<type name="TerjeInjectorPromidol">
-		<nominal>3</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
-		<min>1</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="shelves"/>
-		<usage name="Medic"/>
-	</type>
 	<type name="TerjeInjectorTopoizomeraza">
 		<nominal>3</nominal>
 		<lifetime>28800</lifetime>
