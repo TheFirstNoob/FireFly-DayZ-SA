@@ -7,7 +7,7 @@ void main()
 		ce.InitOffline();
 
 	int year, month, day, hour, minute;
-	int reset_month = 5, reset_day = 4;
+	int reset_month = 5, reset_day = 23;
 	GetGame().GetWorld().GetDate(year, month, day, hour, minute);
 
 	if ((month == reset_month) && (day < reset_day))
