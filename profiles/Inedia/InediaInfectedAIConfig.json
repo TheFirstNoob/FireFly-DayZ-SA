@@ -795,8 +795,14 @@
         "SmellsHandlerIsActive": {
             "all": 1
         },
-        "SmellsSphereRadius": {
-            "all": 2.0
+        "SmellsSphereRadiusInCalmMode": {
+            "all": 1.5
+        },
+        "SmellsSphereRadiusInSearchMode": {
+            "all": 3.0
+        },
+        "SmellsChaseMultiplier": {
+            "all": 0.6000000238418579
         },
         "SmellsAllowStealthKills": {
             "all": 1
@@ -2381,6 +2387,7 @@
         "VehicleCollisionsPainMultiplier": 1.0,
         "FallPainMultiplier": 1.0,
         "ExplosionsPainMultiplier": 1.0,
+        "FireDamagePainMultiplier": 1.0,
         "UnconsciousWhenOverPainedHeadReceivingHits": 0,
         "CrouchWhenOverPainedTorsoReceivingHits": 1,
         "ArmsLowerWhenAimingWithPainedArms": 1,
@@ -2424,10 +2431,10 @@
         "InternalBleedingSystemIsActive": 0,
         "InternalBleedingBloodLossRateMl": 2.0,
         "DestroyedDoorNotificationType": 2.0,
-        "NoiseMultiplierDay": 1,
-        "NoiseMultiplierNight": 1,
-        "NoiseMultiplierCrouchDay": 1,
-        "NoiseMultiplierCrouchNight": 1,
+        "NoiseMultiplierDay": 1.0,
+        "NoiseMultiplierNight": 1.0,
+        "NoiseMultiplierCrouchDay": 1.0,
+        "NoiseMultiplierCrouchNight": 1.0,
         "NoiseMultiplierLadderDay": 0.20000000298023225,
         "NoiseMultiplierLadderNight": 0.20000000298023225,
         "CamoClothingVisibilityMultipliers": {

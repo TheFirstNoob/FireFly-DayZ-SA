@@ -1,9 +1,9 @@
 {
     "ConfigVersion": "1",
-    "MessageNotDrink": "Эта колонка выглядит поломанной! Мне нужен Ключ чтобы починить ее, либо придется искать другие источники для добычи воды...",
-    "MessageRepaired": "Эта колонка выглядит уже починенной! Ей можно пользоваться.",
+    "MessageNotDrink": "This well doesn't seem to work anymore! I need to repair it with a wrench, or find a natural water source...",
+    "MessageRepaired": "It seems this well has already been repaired...",
     "DisableWellsByDefault": 1,
-    "DamageTool": 25,
+    "DamageTool": 50,
     "TimeToBreak": 1209600,
     "RepairableWells": [
         {
@@ -33,8 +33,18 @@
                 11022.900390625
             ],
             "Invincible": 0,
-            "Repaired": 1,
-            "BreakTime": 1740997433
+            "Repaired": 0,
+            "BreakTime": 0
+        },
+        {
+            "Location": [
+                2879.14892578125,
+                211.06800842285157,
+                6162.5849609375
+            ],
+            "Invincible": 0,
+            "Repaired": 0,
+            "BreakTime": 0
         }
     ]
 }
