@@ -957,23 +957,23 @@
 			<child lootmax="15" lootmin="10" max="13" min="13" type="ChristmasTree"/>
 		</children>
 	</event>
-	<event name="StaticContaminatedArea">
-		<nominal>0</nominal>
-		<min>4</min>
-		<max>8</max>
-		<lifetime>2100</lifetime>
-		<restock>0</restock>
-		<saferadius>0</saferadius>
-		<distanceradius>120</distanceradius>
-		<cleanupradius>0</cleanupradius>
-		<flags deletable="1" init_random="1" remove_damaged="0"/>
-		<position>fixed</position>
-		<limit>parent</limit>
-		<active>1</active>
-		<children>
-			<child lootmax="20" lootmin="15" max="10" min="5" type="ContaminatedArea_Dynamic"/>
-		</children>
-	</event>
+    <event name="StaticContaminatedArea">
+        <nominal>0</nominal>
+        <min>2</min>
+        <max>4</max>
+        <lifetime>2100</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>120</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="1" init_random="1" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>parent</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="4" min="2" type="ContaminatedArea_Dynamic"/>
+        </children>
+    </event>
 	<event name="StaticHeliCrash">
 		<nominal>4</nominal>
 		<min>1</min>
