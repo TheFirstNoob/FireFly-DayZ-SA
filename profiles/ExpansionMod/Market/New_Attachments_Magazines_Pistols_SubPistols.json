@@ -139,6 +139,30 @@
 			"Variants": []
 		},
 		{
+			"ClassName": "Mag_PM73_15Rnd",
+			"MaxPriceThreshold": 645,
+			"MinPriceThreshold": 129,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 185,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"Mag_PM73_25Rnd"
+			]
+		},
+		{
+			"ClassName": "Mag_PM73_25Rnd",
+			"MaxPriceThreshold": 810,
+			"MinPriceThreshold": 162,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 150,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
 			"ClassName": "mag_mp5_15rnd",
 			"MaxPriceThreshold": 580,
 			"MinPriceThreshold": 116,
