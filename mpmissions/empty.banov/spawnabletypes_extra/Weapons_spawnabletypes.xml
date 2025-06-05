@@ -102,6 +102,20 @@
 			<item name="TLRLight" chance="1.00" />
 		</attachments>
 	</type>
+	<type name="PM73Rak">
+        <attachments chance="0.30">
+            <item name="Mag_PM73_15Rnd" chance="0.80" />
+            <item name="Mag_PM73_25Rnd" chance="0.20" />
+        </attachments>
+    </type>
+    <type name="R12">
+        <attachments chance="0.30">
+            <item name="UniversalLight" chance="0.30" />
+        </attachments>
+        <attachments chance="0.30">
+            <item name="ReflexOptic" chance="0.30" />
+        </attachments>
+    </type>
 	<type name="VSS">
 		<attachments chance="1.0">
 			<item name="PSO11Optic" chance="1.00" />
