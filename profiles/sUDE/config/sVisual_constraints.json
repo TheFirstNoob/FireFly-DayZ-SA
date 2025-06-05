@@ -12,12 +12,12 @@
         "max": 1.0
     },
     "ddofEnabledIn3PP": {
-        "constrain": 0,
+        "constrain": 1,
         "message": "#STR_SUDE_LAYOUT_OPTIONS_CONSTRAINED",
         "value": 0
     },
     "ddofEnabledInVehicle": {
-        "constrain": 0,
+        "constrain": 1,
         "message": "#STR_SUDE_LAYOUT_OPTIONS_CONSTRAINED",
         "value": 1
     },
@@ -28,9 +28,9 @@
         "max": 1.0
     },
     "headbobEnabledIn3PP": {
-        "constrain": 0,
+        "constrain": 1,
         "message": "#STR_SUDE_LAYOUT_OPTIONS_CONSTRAINED",
-        "value": 1
+        "value": 0
     },
     "motionBlurIntensity": {
         "constrain": 0,
