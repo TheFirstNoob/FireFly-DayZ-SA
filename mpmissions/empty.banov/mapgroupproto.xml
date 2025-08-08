@@ -4768,6 +4768,9 @@
 		<group name="Land_Wreck_Caravan_MGreen" lootmax="3">
 				<usage name="Village" />
 				<usage name="Industrial" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="lootFloor" lootmax="3">
 						<category name="tools" />
 						<category name="containers" />
@@ -4788,6 +4791,9 @@
 		<group name="Land_Wreck_Caravan_MRust" lootmax="3">
 				<usage name="Industrial" />
 				<usage name="Village" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="lootFloor" lootmax="3">
 						<category name="tools" />
 						<category name="containers" />
@@ -4808,6 +4814,9 @@
 		<group name="Land_Wreck_Caravan_WBrown" lootmax="3">
 				<usage name="Village" />
 				<usage name="Industrial" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="lootFloor" lootmax="3">
 						<category name="tools" />
 						<category name="containers" />
@@ -4828,6 +4837,9 @@
 		<group name="Land_Wreck_Caravan_WGreen" lootmax="3">
 				<usage name="Village" />
 				<usage name="Industrial" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="lootFloor" lootmax="3">
 						<category name="tools" />
 						<category name="containers" />
@@ -4847,6 +4859,10 @@
 		</group>
 		<group name="Land_Wreck_C130J_Cargo" lootmax="10">
 				<usage name="Military" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
+				<value name="Tier4" />
 				<container name="lootFloor" lootmax="4">
 						<category name="clothes" />
 						<tag name="floor" />
@@ -4878,6 +4894,9 @@
 		<group name="Land_Wreck_S1023_Blue" lootmax="4">
 				<usage name="Village" />
 				<usage name="Town" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="lootshelves">
 						<category name="tools" />
 						<category name="clothes" />
@@ -4895,6 +4914,9 @@
 		<group name="Land_Wreck_S1023_Red" lootmax="4">
 				<usage name="Village" />
 				<usage name="Town" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="lootshelves">
 						<category name="tools" />
 						<category name="clothes" />
@@ -4913,6 +4935,9 @@
 		<group name="Land_Wreck_S1023_Beige" lootmax="4">
 				<usage name="Village" />
 				<usage name="Town" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="lootshelves">
 						<category name="tools" />
 						<category name="clothes" />
@@ -14007,6 +14032,10 @@
 		</group>
 		<group name="Land_Wreck_C130J" lootmax="0">
 				<usage name="Military" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
+				<value name="Tier4" />
 				<container name="lootFloor" lootmax="0">
 						<category name="tools" />
 						<category name="containers" />
@@ -14018,6 +14047,9 @@
 		</group>
 		<group name="Land_Wreck_Volha_Police" lootmax="6">
 				<usage name="Police" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="lootFloor" lootmax="6">
 						<category name="tools" />
 						<category name="containers" />
@@ -16972,6 +17004,9 @@
 		</group>
 		<group name="Land_Wreck_sed01_aban1_police" lootmax="2">
 				<usage name="Police" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="loot" lootmax="2">
 						<category name="weapons" />
 						<point pos="0.031705 -0.464386 0.646786" range="0.100000" height="0.170959" />
@@ -17081,6 +17116,9 @@
 		</group>
 		<group name="Land_Wreck_sed01_aban2_police" lootmax="2">
 				<usage name="Police" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="loot" lootmax="2">
 						<category name="weapons" />
 						<point pos="-0.756097 -0.451713 -0.498970" range="0.100000" height="0.250000" />
@@ -17274,6 +17312,10 @@
 		</group>
 		<group name="Land_Wreck_offroad02_aban1" lootmax="2">
 				<usage name="Military" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
+				<value name="Tier4" />
 				<container name="loot" lootmax="2">
 						<category name="containers" />
 						<category name="clothes" />
@@ -17300,6 +17342,10 @@
 		</group>
 		<group name="Land_Wreck_offroad02_aban2" lootmax="2">
 				<usage name="Military" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
+				<value name="Tier4" />
 				<container name="loot" lootmax="2">
 						<category name="containers" />
 						<category name="clothes" />
@@ -17802,6 +17848,10 @@
 		</group>
 		<group name="StaticObj_Wreck_Train_Wagon_Flat_Mil_DE" lootmax="10">
 				<usage name="Military" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
+				<value name="Tier4" />
 				<container name="lootFloor" lootmax="10">
 						<category name="tools" />
 						<category name="containers" />
@@ -17895,6 +17945,10 @@
 		</group>		
 		<group name="StaticObj_Wreck_Train_Wagon_Tanker_Mil_DE" lootmax="5">
 				<usage name="Military" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
+				<value name="Tier4" />
 				<container name="lootFloor" lootmax="5">
 						<category name="tools" />
 						<category name="containers" />
@@ -17949,6 +18003,10 @@
 		</group>
 		<group name="StaticObj_Wreck_Train_742_Blue_Mil_DE" lootmax="7">
 				<usage name="Military" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
+				<value name="Tier4" />
 				<container name="lootFloor" lootmax="7">
 						<category name="containers" />
 						<category name="clothes" />
@@ -17968,6 +18026,9 @@
 		</group>
 		<group name="StaticObj_Wreck_Train_742_Red_Mil_DE" lootmax="7">
 				<usage name="Military" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier4" />
 				<container name="lootFloor" lootmax="7">
 						<category name="containers" />
 						<category name="clothes" />
@@ -17987,6 +18048,10 @@
 		</group>
 		<group name="Land_Train_Wagon_Box_Mil_DE" lootmax="5">
 				<usage name="Military" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
+				<value name="Tier4" />
 					<container name="lootFloor" lootmax="5">
 							<category name="containers" />
 							<category name="clothes" />
@@ -18022,6 +18087,9 @@
 		<group name="Land_Container_1Aoh_DE" lootmax="5">
 			<usage name="Coast" />
 			<usage name="Village" />
+			<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="lootFloor" lootmax="5">
 						<category name="tools" />
 						<category name="containers" />
@@ -18041,6 +18109,9 @@
 				<usage name="Village" />
 				<usage name="Industrial" />
 				<usage name="Town" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="lootFloor" lootmax="5">
 						<category name="tools" />
 						<category name="weapons" />
@@ -18057,7 +18128,9 @@
 		</group>
 		<group name="Land_Container_1Mo_DE" lootmax="3">
 			<usage name="Military" />
-			<value name="Unique" />
+			<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="lootFloor" lootmax="3">
 						<category name="weapons" />
 						<category name="explosives" />
@@ -18070,8 +18143,10 @@
 				</container>
 		</group>
 		<group name="Land_Container_1Moh_DE" lootmax="3">
-			<usage name="Military" />
-			<value name="Unique" />
+				<usage name="Military" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="lootFloor" lootmax="3">
 						<category name="weapons" />
 						<category name="explosives" />
@@ -18085,6 +18160,9 @@
 		</group>
 		<group name="Land_Wreck_V3S_DE" lootmax="4">
 				<usage name="Military" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="lootFloor" lootmax="4">
 						<category name="containers" />
 						<category name="clothes" />
@@ -18101,6 +18179,10 @@
 		</group>
 		<group name="StaticObj_Wreck_BMP1_DE" lootmax="5">
 				<usage name="Military" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
+				<value name="Tier4" />
 				<container name="lootFloor" lootmax="5">
 						<category name="weapons" />
 						<tag name="floor" />
@@ -18116,6 +18198,10 @@
 		</group>
 		<group name="StaticObj_Wreck_BMP2_DE" lootmax="5">
 				<usage name="Military" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
+				<value name="Tier4" />
 				<container name="lootFloor" lootmax="5">
 						<category name="weapons" />
 						<tag name="floor" />
@@ -18131,6 +18217,10 @@
 		</group>
 		<group name="StaticObj_Wreck_BRDM_DE" lootmax="5">
 				<usage name="Military" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
+				<value name="Tier4" />
 				<container name="lootFloor" lootmax="5">
 						<category name="containers" />
 						<category name="weapons" />
@@ -18146,6 +18236,9 @@
 		</group>
 		<group name="StaticObj_Wreck_Ural_DE" lootmax="5">
 				<usage name="Military" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="lootFloor" lootmax="5">
 						<category name="containers" />
 						<category name="clothes" />
@@ -18161,7 +18254,10 @@
 				</container>
 		</group>
 		<group name="Land_wreck_truck01_aban2_green_DE" lootmax="5">
-						<usage name="Military" />				
+						<usage name="Military" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />						
 						<container name="lootFloor" lootmax="5">
 						<category name="containers" />
 						<category name="clothes" />
@@ -18178,6 +18274,9 @@
 		</group>
 		<group name="Land_wreck_truck01_aban1_green_DE" lootmax="5">
 				<usage name="Military" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="lootFloor" lootmax="5">
 						<category name="containers" />
 						<category name="clothes" />
@@ -18193,6 +18292,10 @@
 		</group>
 		<group name="StaticObj_Wreck_HMMWV_DE" lootmax="5">
 				<usage name="Military" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
+				<value name="Tier4" />
 				<container name="lootFloor" lootmax="5">
 						<category name="weapons" />
 						<tag name="floor" />
@@ -18208,6 +18311,9 @@
 		</group>
 		<group name="StaticObj_Wreck_Uaz_DE" lootmax="5">
 				<usage name="Military" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="lootFloor" lootmax="5">
 						<category name="containers" />
 						<category name="clothes" />
@@ -18225,6 +18331,10 @@
 		</group>
 		<group name="StaticObj_Wreck_T72_Chassis_DE" lootmax="5">
 				<usage name="Military" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
+				<value name="Tier4" />
 				<container name="lootFloor" lootmax="5">
 						<category name="weapons" />
 						<category name="explosives" />
@@ -18243,6 +18353,10 @@
 		</group>
 		<group name="StaticObj_Wreck_BMP1_NoPlacement_DE" lootmax="6">
 				<usage name="Military" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
+				<value name="Tier4" />
 				<container name="lootFloor" lootmax="6">
 						<category name="weapons" />
 						<tag name="floor" />
@@ -18260,6 +18374,9 @@
 		<group name="Land_Wreck_Ikarus_DE" lootmax="6">
 				<usage name="Police" />
 				<usage name="Prison" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="lootFloor" lootmax="6">
 						<category name="clothes" />
 						<category name="weapons" />
@@ -18277,6 +18394,9 @@
 		</group>
 		<group name="Land_Wreck_Trailer_Closed_DE" lootmax="4">
 				<usage name="Farm" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="lootFloor" lootmax="4">
 						<category name="weapons" />
 						<tag name="floor" />
@@ -18291,6 +18411,9 @@
 		</group>
 		<group name="Land_Wreck_Tractor_DE" lootmax="4">
 				<usage name="Farm" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="lootFloor" lootmax="4">
 						<category name="food" />
 						<category name="tools" />
@@ -18308,7 +18431,10 @@
 		</group>
 		<group name="Land_Wreck_truck01_aban1_blue_DE" lootmax="4">
 						<usage name="Village" />		
-						<usage name="Industrial" />		
+						<usage name="Industrial" />
+						<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 						<container name="loot" lootmax="4">
 							<category name="tools" />
 							<category name="containers" />
@@ -18325,7 +18451,10 @@
 		</group>
 		<group name="Land_Wreck_truck01_aban1_orange_DE" lootmax="4">
 						<usage name="Village" />		
-						<usage name="Industrial" />		
+						<usage name="Industrial" />
+						<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 						<container name="loot" lootmax="4">
 							<category name="tools" />
 							<category name="containers" />
@@ -18342,7 +18471,10 @@
 		</group>
 		<group name="Land_Wreck_truck01_aban2_blue_DE" lootmax="4">
 						<usage name="Village" />		
-						<usage name="Industrial" />		
+						<usage name="Industrial" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />						
 						<container name="loot" lootmax="4">
 							<category name="tools" />
 							<category name="containers" />
@@ -18358,21 +18490,24 @@
 						</container>
 		</group>
 		<group name="Land_Wreck_truck01_aban2_orange_DE" lootmax="4">
-						<usage name="Village" />		
-						<usage name="Industrial" />	
-						<container name="loot" lootmax="4">
-							<category name="tools" />
-							<category name="containers" />
-							<category name="clothes" />
-							<category name="food" />
-							<category name="weapons" />
-							<category name="explosives" />
-							<point pos="2.483654 1.179749 0.017181" range="1.095703" height="1.557068" />
-							<point pos="1.999454 -0.117981 -1.833937" range="0.765625" height="1.914063" flags="32" />
-							<point pos="3.887206 -0.242188 0.797326" range="0.718750" height="0.810028" flags="32" />
-							<point pos="1.243393 -0.069611 1.413383" range="0.856250" height="1.393524" flags="32" />
-							<point pos="0.722845 1.138458 -0.120233" range="0.670942" height="1.677856" />
-						</container>
+			<usage name="Village" />		
+			<usage name="Industrial" />
+			<value name="Tier1" />
+			<value name="Tier2" />
+			<value name="Tier3" />
+			<container name="loot" lootmax="4">
+				<category name="tools" />
+				<category name="containers" />
+				<category name="clothes" />
+				<category name="food" />
+				<category name="weapons" />
+				<category name="explosives" />
+					<point pos="2.483654 1.179749 0.017181" range="1.095703" height="1.557068" />
+					<point pos="1.999454 -0.117981 -1.833937" range="0.765625" height="1.914063" flags="32" />
+					<point pos="3.887206 -0.242188 0.797326" range="0.718750" height="0.810028" flags="32" />
+					<point pos="1.243393 -0.069611 1.413383" range="0.856250" height="1.393524" flags="32" />
+					<point pos="0.722845 1.138458 -0.120233" range="0.670942" height="1.677856" />
+			</container>
 		</group>
 		<group name="Land_Wreck_offroad02_aban1_DE" lootmax="4">
 				<value name="Tier1" />
@@ -18435,6 +18570,9 @@
 		<group name="Land_Wreck_hb01_aban1_blue_DE" lootmax="6">
 				<usage name="Village" />
 				<usage name="Farm" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="lootFloor" lootmax="6">
 						<category name="tools" />
 						<category name="containers" />
@@ -18462,6 +18600,9 @@
 				<usage name="Village" />
 				<usage name="Hunting" />
 				<usage name="Farm" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="lootFloor" lootmax="6">
 						<category name="tools" />
 						<category name="containers" />
@@ -18488,6 +18629,9 @@
 		<group name="Land_Wreck_hb01_aban1_white_DE" lootmax="6">
 				<usage name="Village" />
 				<usage name="Farm" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="lootFloor" lootmax="6">
 						<category name="tools" />
 						<category name="containers" />
@@ -18514,6 +18658,9 @@
 		<group name="Land_Wreck_hb01_aban2_blue_DE" lootmax="6">
 				<usage name="Village" />
 				<usage name="Farm" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="lootFloor" lootmax="6">
 						<category name="tools" />
 						<category name="containers" />
@@ -18541,6 +18688,9 @@
 				<usage name="Village" />
 				<usage name="Hunting" />
 				<usage name="Farm" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="lootFloor" lootmax="6">
 						<category name="tools" />
 						<category name="containers" />
@@ -18567,6 +18717,9 @@
 		<group name="Land_Wreck_hb01_aban2_white_DE" lootmax="6">
 				<usage name="Village" />
 				<usage name="Farm" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="lootFloor" lootmax="6">
 						<category name="tools" />
 						<category name="containers" />
@@ -18593,6 +18746,9 @@
 		<group name="Land_Wreck_hb02_aban1_red_DE" lootmax="6">
 				<usage name="Village" />
 				<usage name="Industrial" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="loot" lootmax="6">
 						<category name="tools" />
 						<category name="containers" />
@@ -18620,6 +18776,9 @@
 		<group name="Land_Wreck_hb02_aban1_black_DE" lootmax="6">
 				<usage name="Village" />
 				<usage name="Industrial" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="loot" lootmax="6">
 						<category name="tools" />
 						<category name="containers" />
@@ -18647,6 +18806,9 @@
 		<group name="Land_Wreck_hb02_aban1_blue_DE" lootmax="6">
 				<usage name="Village" />
 				<usage name="Industrial" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="loot" lootmax="6">
 						<category name="tools" />
 						<category name="containers" />
@@ -18674,6 +18836,9 @@
 		<group name="Land_Wreck_hb02_aban2_red_DE" lootmax="6">
 				<usage name="Village" />
 				<usage name="Industrial" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="loot" lootmax="6">
 						<category name="tools" />
 						<category name="containers" />
@@ -18703,6 +18868,9 @@
 		<group name="Land_Wreck_hb02_aban2_black_DE" lootmax="6">
 				<usage name="Village" />
 				<usage name="Industrial" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="loot" lootmax="6">
 						<category name="tools" />
 						<category name="containers" />
@@ -18734,7 +18902,6 @@
 				<value name="Tier1" />
 				<value name="Tier2" />
 				<value name="Tier3" />
-				<value name="Tier4" />
 				<container name="loot" lootmax="2">
 						<category name="tools" />
 						<category name="containers" />
@@ -18756,7 +18923,6 @@
 				<value name="Tier1" />
 				<value name="Tier2" />
 				<value name="Tier3" />
-				<value name="Tier4" />
 				<container name="loot" lootmax="2">
 						<category name="tools" />
 						<category name="containers" />
@@ -18775,6 +18941,9 @@
 		<group name="Land_Wreck_hb02_aban2_blue_DE" lootmax="6">
 				<usage name="Village" />
 				<usage name="Industrial" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="loot" lootmax="6">
 						<category name="tools" />
 						<category name="containers" />
@@ -18804,6 +18973,9 @@
 		<group name="Land_Wreck_sed01_aban1_white_DE" lootmax="6">
 				<usage name="Village" />
 				<usage name="Industrial" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="loot" lootmax="6">
 						<category name="tools" />
 						<category name="containers" />
@@ -18835,6 +19007,9 @@
 		<group name="Land_Wreck_sed01_aban1_black_DE" lootmax="6">
 				<usage name="Village" />
 				<usage name="Industrial" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="loot" lootmax="6">
 						<category name="tools" />
 						<category name="containers" />
@@ -18866,6 +19041,9 @@
 		<group name="Land_Wreck_sed01_aban1_wine_DE" lootmax="6">
 				<usage name="Village" />
 				<usage name="Industrial" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="loot" lootmax="6">
 						<category name="tools" />
 						<category name="containers" />
@@ -18896,6 +19074,9 @@
 		</group>
 		<group name="Land_Wreck_sed01_aban1_police_DE" lootmax="3">
 				<usage name="Police" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="loot" lootmax="3">
 						<category name="weapons" />
 						<point pos="0.031705 -0.464386 0.646786" range="0.100000" height="0.170959" />
@@ -18919,6 +19100,9 @@
 		<group name="Land_Wreck_sed01_aban2_white_DE" lootmax="6">
 				<usage name="Village" />
 				<usage name="Industrial" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="loot" lootmax="6">
 						<category name="tools" />
 						<category name="containers" />
@@ -18948,6 +19132,9 @@
 		<group name="Land_Wreck_sed01_aban2_wine_DE" lootmax="6">
 				<usage name="Village" />
 				<usage name="Industrial" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="loot" lootmax="6">
 						<category name="tools" />
 						<category name="containers" />
@@ -18977,6 +19164,9 @@
 		<group name="Land_Wreck_sed01_aban2_black_DE" lootmax="6">
 				<usage name="Village" />
 				<usage name="Industrial" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="loot" lootmax="6">
 						<category name="tools" />
 						<category name="containers" />
@@ -19005,6 +19195,9 @@
 		</group>
 		<group name="Land_Wreck_sed01_aban2_police_DE" lootmax="2">
 				<usage name="Police" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="loot" lootmax="2">
 						<category name="weapons" />
 						<point pos="-0.756097 -0.451713 -0.498970" range="0.100000" height="0.250000" />
@@ -19028,6 +19221,9 @@
 		<group name="Land_Wreck_sed02_aban1_yellow_DE" lootmax="6">
 				<usage name="Village" />
 				<usage name="Industrial" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="loot" lootmax="6">
 						<category name="tools" />
 						<category name="containers" />
@@ -19056,6 +19252,9 @@
 		<group name="Land_Wreck_sed02_aban1_grey_DE" lootmax="6">
 				<usage name="Village" />
 				<usage name="Industrial" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="loot" lootmax="6">
 						<category name="tools" />
 						<category name="containers" />
@@ -19084,6 +19283,9 @@
 		<group name="Land_Wreck_sed02_aban1_red_DE" lootmax="6">
 				<usage name="Village" />
 				<usage name="Industrial" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="loot" lootmax="6">
 						<category name="tools" />
 						<category name="containers" />
@@ -19112,6 +19314,9 @@
 		<group name="Land_Wreck_sed02_aban2_yellow_DE" lootmax="6">
 				<usage name="Village" />
 				<usage name="Industrial" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="loot" lootmax="6">
 						<category name="tools" />
 						<category name="containers" />
@@ -19141,6 +19346,9 @@
 		<group name="Land_Wreck_sed02_aban2_grey_DE" lootmax="6">
 				<usage name="Village" />
 				<usage name="Industrial" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="loot" lootmax="6">
 						<category name="tools" />
 						<category name="containers" />
@@ -19170,6 +19378,9 @@
 		<group name="Land_Wreck_sed02_aban2_red_DE" lootmax="6">
 				<usage name="Village" />
 				<usage name="Industrial" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="loot" lootmax="6">
 						<category name="tools" />
 						<category name="containers" />
@@ -20696,6 +20907,9 @@
 		</group>
 		<group name="Land_wreck_sed02_aban1_Police" lootmax="2">
 				<usage name="Police" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="lootFloor" lootmax="2">
 						<category name="tools" />
 						<category name="containers" />
@@ -20719,6 +20933,9 @@
 		</group>
 		<group name="Land_wreck_sed02_aban1_Police_DE" lootmax="2">
 				<usage name="Police" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="lootFloor" lootmax="2">
 						<category name="tools" />
 						<category name="containers" />
@@ -20742,6 +20959,9 @@
 		</group>
 		<group name="Land_wreck_sed02_aban2_Police" lootmax="2">
 				<usage name="Police" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="lootFloor" lootmax="2">
 						<category name="tools" />
 						<category name="containers" />
@@ -20763,6 +20983,9 @@
 		</group>
 		<group name="Land_wreck_sed02_aban2_Police_DE" lootmax="2">
 				<usage name="Police" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="lootFloor" lootmax="2">
 						<category name="tools" />
 						<category name="containers" />
@@ -21173,6 +21396,9 @@
 		<group name="Land_Wreck_Mining_HaulTruck" lootmax="13">
 				<usage name="Industrial" />
 				<usage name="Farm" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="lootFloor" lootmax="13">
 						<category name="tools" />
 						<category name="clothes" />
@@ -21198,6 +21424,9 @@
 		<group name="Land_Wreck_Mining_Excavator" lootmax="20">
 				<usage name="Industrial" />
 				<usage name="Farm" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
 				<container name="lootFloor" lootmax="20">
 						<category name="tools" />
 						<category name="clothes" />
@@ -21295,6 +21524,9 @@
 		</group>
 		<group name="Land_Wreck_S1023_Medic_Beige_DE" lootmax="10">
                 <usage name="Medic" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
                 <container name="lootFloor" lootmax="10">
                         <point pos="-1.705301 0.531269 0.438694" range="0.100000" height="0.250000" />
                         <point pos="-1.174911 0.973920 0.437195" range="0.203125" height="0.507813" />
