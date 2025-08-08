@@ -919,15 +919,15 @@
 		<flags deletable="0" init_random="0" remove_damaged="1"/>
 		<position>fixed</position>
 		<limit>child</limit>
-		<active>1</active>
+		<active>0</active>
 		<children>
 			<child lootmax="8" lootmin="4" max="20" min="20" type="Bonfire"/>
 		</children>
 	</event>
 	<event name="StaticChristmasTree">
 		<nominal>13</nominal>
-		<min>0</min>
-		<max>0</max>
+		<min>5</min>
+		<max>20</max>
 		<lifetime>43200</lifetime>
 		<restock>0</restock>
 		<saferadius>1000</saferadius>
@@ -936,7 +936,7 @@
 		<flags deletable="0" init_random="0" remove_damaged="1"/>
 		<position>uniform</position>
 		<limit>child</limit>
-		<active>0</active>
+		<active>1</active>
 		<children>
 			<child lootmax="15" lootmin="10" max="13" min="13" type="ChristmasTree"/>
 		</children>
