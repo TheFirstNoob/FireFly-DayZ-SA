@@ -13836,6 +13836,10 @@
 				</container>
 		</group>
 		<group name="Wreck_UH1Y" lootmax="15">
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
+				<value name="Tier4" />
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="15">
 						<category name="tools" />
@@ -13919,6 +13923,10 @@
 				</container>
 		</group>
 		<group name="Wreck_Mi8" lootmax="15">
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
+				<value name="Tier4" />
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="15">
 						<category name="tools" />
@@ -13963,6 +13971,10 @@
 				</container>
 		</group>
 		<group name="Wreck_Mi8_Crashed" lootmax="15">
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
+				<value name="Tier4" />
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="15">
 						<category name="tools" />
@@ -17713,6 +17725,10 @@
 				</container>
 		</group>
 		<group name="Wreck_SantasSleigh" lootmax="15">
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
+				<value name="Tier4" />
 				<usage name="SeasonalEvent" />
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="15">
@@ -18359,6 +18375,10 @@
 						</container>
 		</group>
 		<group name="Land_Wreck_offroad02_aban1_DE" lootmax="4">
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
+				<value name="Tier4" />
 				<usage name="Military" />
 				<container name="loot" lootmax="4">
 						<category name="containers" />
@@ -18384,6 +18404,10 @@
 				</container>
 		</group>
 		<group name="Land_Wreck_offroad02_aban2_DE" lootmax="4">
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
+				<value name="Tier4" />
 				<usage name="Military" />
 				<container name="loot" lootmax="4">
 						<category name="containers" />
@@ -18707,6 +18731,10 @@
 		</group>
 		<group name="Land_Wreck_hb01_aban1_police_DE" lootmax="2">
 				<usage name="Police" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
+				<value name="Tier4" />
 				<container name="loot" lootmax="2">
 						<category name="tools" />
 						<category name="containers" />
@@ -18725,6 +18753,10 @@
 		</group>
 		<group name="Land_Wreck_hb01_aban2_police_DE" lootmax="2">
 				<usage name="Police" />
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
+				<value name="Tier4" />
 				<container name="loot" lootmax="2">
 						<category name="tools" />
 						<category name="containers" />
@@ -20629,6 +20661,10 @@
 				</container>
 		</group>
 		<group name="Land_Wreck_Mi8_Civilian" lootmax="5">
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
+				<value name="Tier4" />
 				<container name="lootWeapons" lootmax="5">
 						<category name="weapons" />
 						<point pos="-4.202759 0.110321 0.616943" range="0.449742" height="0.130674" />
@@ -20647,6 +20683,10 @@
 				</container>
 		</group>
 		<group name="static_mi8_civilian" lootmax="2">
+				<value name="Tier1" />
+				<value name="Tier2" />
+				<value name="Tier3" />
+				<value name="Tier4" />
 				<container name="lootWeapons" lootmax="2">
 						<category name="weapons" />
 						<point pos="0.087159 17.340244 2.154052" range="0.409375" height="1.023438" />
