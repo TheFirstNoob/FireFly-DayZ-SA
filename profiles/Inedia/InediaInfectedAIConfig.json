@@ -1992,10 +1992,10 @@
             "all": 1
         },
         "JumpAttackChance": {
-            "all": 10.0
+            "all": 15.0
         },
         "JumpAttackCooldownSeconds": {
-            "all": 60.0
+            "all": 30.0
         },
         "BloodHandlerIsActive": {
             "Police": 0,
@@ -2059,7 +2059,8 @@
             "all": 1
         },
         "RespawnInCrawlingChancePercent": {
-            "all": 12.0
+            "all": 12.0,
+			"AlienQueen": 0
         },
         "ScreamHandlerIsActive": {
             "Police": 0,
