@@ -317,7 +317,8 @@
 			"Variants": [
 				"UAZ_3962_doors_trunk_green",
 				"UAZ_3962_doors_trunk_MCHS",
-				"UAZ_3962_doors_trunk_VAI"
+				"UAZ_3962_doors_trunk_VAI",
+				"UAZ_3962_doors_trunk_milicia"
 			]
 		},
 		{
@@ -513,7 +514,8 @@
 			"QuantityPercent": -1,
 			"SpawnAttachments": [],
 			"Variants": [
-				"ZAZ_968M_doors_trunk_red"
+				"ZAZ_968M_doors_trunk_red",
+				"ZAZ_968M_doors_trunk_black"
 			]
 		},
 		{
@@ -600,6 +602,19 @@
 				"Tahoe_trunk_Green",
 				"Tahoe_trunk_Pink",
 				"Tahoe_trunk_Red"
+			]
+		},
+		{
+			"ClassName": "TyphoonK_Trunk",
+			"MaxPriceThreshold": 2500,
+			"MinPriceThreshold": 2500,
+			"SellPricePercent": -1,
+			"MaxStockThreshold": 1,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"TyphoonK_Trunk_CamoGreen"
 			]
 		},
 		{

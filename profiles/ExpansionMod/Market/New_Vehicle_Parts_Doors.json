@@ -1002,7 +1002,8 @@
 			"Variants": [
 				"UAZ_3962_doors_driver_green",
 				"UAZ_3962_doors_driver_MCHS",
-				"UAZ_3962_doors_driver_VAI"
+				"UAZ_3962_doors_driver_VAI",
+				"UAZ_3962_doors_driver_milicia"
 			]
 		},
 		{
@@ -1017,7 +1018,8 @@
 			"Variants": [
 				"UAZ_3962_doors_codriver_green",
 				"UAZ_3962_doors_codriver_MCHS",
-				"UAZ_3962_doors_codriver_VAI"
+				"UAZ_3962_doors_codriver_VAI",
+				"UAZ_3962_doors_codriver_milicia"
 			]
 		},
 		{
@@ -1032,7 +1034,24 @@
 			"Variants": [
 				"UAZ_3962_doors_cargo1_green",
 				"UAZ_3962_doors_cargo1_MCHS",
-				"UAZ_3962_doors_cargo1_VAI"
+				"UAZ_3962_doors_cargo1_VAI",
+				"UAZ_3962_doors_cargo1_milicia"
+			]
+		},
+		{
+			"ClassName": "UAZ_3962_doors_cargo2",
+			"MaxPriceThreshold": 2150,
+			"MinPriceThreshold": 2150,
+			"SellPricePercent": -1,
+			"MaxStockThreshold": 1,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"UAZ_3962_doors_cargo2_green",
+				"UAZ_3962_doors_cargo2_MCHS",
+				"UAZ_3962_doors_cargo2_VAI",
+				"UAZ_3962_doors_cargo2_milicia"
 			]
 		},
 		{
@@ -1850,7 +1869,8 @@
 			"QuantityPercent": -1,
 			"SpawnAttachments": [],
 			"Variants": [
-				"ZAZ_968M_doors_driver_red"
+				"ZAZ_968M_doors_driver_red",
+				"ZAZ_968M_doors_driver_black"
 			]
 		},
 		{
@@ -1863,7 +1883,8 @@
 			"QuantityPercent": -1,
 			"SpawnAttachments": [],
 			"Variants": [
-				"ZAZ_968M_doors_codriver_red"
+				"ZAZ_968M_doors_codriver_red",
+				"ZAZ_968M_doors_codriver_black"
 			]
 		},
 		{
@@ -2446,6 +2467,36 @@
 				"GMC_Codrvier_Black",
 				"GMC_Codrvier_White",
 				"GMC_Codrvier_Blue"
+			]
+		},
+		{
+			"ClassName": "GMC_Cargo1",
+			"MaxPriceThreshold": 1750,
+			"MinPriceThreshold": 1750,
+			"SellPricePercent": -1,
+			"MaxStockThreshold": 1,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"GMC_Cargo1_Black",
+				"GMC_Cargo1_White",
+				"GMC_Cargo1_Blue"
+			]
+		},
+		{
+			"ClassName": "GMC_Cargo2",
+			"MaxPriceThreshold": 1750,
+			"MinPriceThreshold": 1750,
+			"SellPricePercent": -1,
+			"MaxStockThreshold": 1,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"GMC_Cargo2_Black",
+				"GMC_Cargo2_White",
+				"GMC_Cargo2_Blue"
 			]
 		},
 		{
