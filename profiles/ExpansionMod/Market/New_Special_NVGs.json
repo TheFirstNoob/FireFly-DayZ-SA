@@ -19,62 +19,10 @@
 		},
 		{
 			"ClassName": "NVGoggles",
-			"MaxPriceThreshold": 18750,
-			"MinPriceThreshold": 3750,
+			"MaxPriceThreshold": 100000,
+			"MinPriceThreshold": 20000,
 			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 5,
-			"MinStockThreshold": 0,
-			"QuantityPercent": -1,
-			"SpawnAttachments": [
-				"battery9v"
-			],
-			"Variants": []
-		},
-		{
-			"ClassName": "TF_NVGoggles_PVS14",
-			"MaxPriceThreshold": 18750,
-			"MinPriceThreshold": 3750,
-			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 5,
-			"MinStockThreshold": 0,
-			"QuantityPercent": -1,
-			"SpawnAttachments": [
-				"battery9v"
-			],
-			"Variants": []
-		},
-		{
-			"ClassName": "TF_NVGoggles_PVS15",
-			"MaxPriceThreshold": 18750,
-			"MinPriceThreshold": 3750,
-			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 5,
-			"MinStockThreshold": 0,
-			"QuantityPercent": -1,
-			"SpawnAttachments": [
-				"battery9v"
-			],
-			"Variants": []
-		},
-		{
-			"ClassName": "TF_NVGoggles_AVS9",
-			"MaxPriceThreshold": 18750,
-			"MinPriceThreshold": 3750,
-			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 5,
-			"MinStockThreshold": 0,
-			"QuantityPercent": -1,
-			"SpawnAttachments": [
-				"battery9v"
-			],
-			"Variants": []
-		},
-		{
-			"ClassName": "TF_NVGoggles_PNV10T",
-			"MaxPriceThreshold": 18750,
-			"MinPriceThreshold": 3750,
-			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 5,
+			"MaxStockThreshold": 20,
 			"MinStockThreshold": 0,
 			"QuantityPercent": -1,
 			"SpawnAttachments": [
