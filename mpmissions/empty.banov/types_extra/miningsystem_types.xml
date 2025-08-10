@@ -167,7 +167,7 @@
 	</type>
 	<type name="FreezeFurnace"> 
 		<nominal>0</nominal>
-		<lifetime>7200</lifetime>
+		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -508,18 +508,14 @@
 	</type>
 	<type name="FreezeGrindingStone"> 
 		<nominal>0</nominal>
-		<lifetime>7200</lifetime>
+		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<tag name="floor"/>
 		<category name="tools"/>
-		<usage name="Farm"/>
-		<usage name="Industrial"/>
-		<usage name="Village"/>
 	</type>
 	<type name="FreezeGrindingStone_Static">
 		<nominal>0</nominal>
@@ -530,11 +526,7 @@
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<tag name="floor"/>
 		<category name="tools"/>
-		<usage name="Farm"/>
-		<usage name="Industrial"/>
-		<usage name="Village"/>
 	</type>
 	<type name="FreezeNode_AquamarineGemNode">
 		<nominal>0</nominal>
