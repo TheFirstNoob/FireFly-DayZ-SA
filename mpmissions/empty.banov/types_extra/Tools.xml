@@ -728,10 +728,10 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="NVGoggles">
-		<nominal>2</nominal>
+		<nominal>8</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>2</min>
+		<min>8</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -847,75 +847,47 @@
 	
 	<!-- Tactical Flava Mod -->
 	<type name="TF_NVGoggles_AVS9">
-		<nominal>2</nominal>
+		<nominal>0</nominal>
 		<lifetime>7200</lifetime>
-		<restock>3600</restock>
-		<min>2</min>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
 		<category name="weapons"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Military"/>
-		<value name="Tier4"/>
-		<value name="Tier5"/>
 	</type>
 	<type name="TF_NVGoggles_PVS14">
-		<nominal>2</nominal>
+		<nominal>0</nominal>
 		<lifetime>7200</lifetime>
-		<restock>3600</restock>
-		<min>2</min>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
 		<category name="weapons"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Military"/>
-		<value name="Tier4"/>
-		<value name="Tier5"/>
 	</type>
 	<type name="TF_NVGoggles_PVS15">
-		<nominal>2</nominal>
+		<nominal>0</nominal>
 		<lifetime>7200</lifetime>
-		<restock>3600</restock>
-		<min>2</min>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
 		<category name="weapons"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Military"/>
-		<value name="Tier4"/>
-		<value name="Tier5"/>
 	</type>
 	<type name="TF_NVGoggles_PNV10T">
-		<nominal>2</nominal>
+		<nominal>0</nominal>
 		<lifetime>7200</lifetime>
-		<restock>3600</restock>
-		<min>2</min>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
 		<category name="weapons"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Military"/>
-		<value name="Tier4"/>
-		<value name="Tier5"/>
 	</type>
 </types>
