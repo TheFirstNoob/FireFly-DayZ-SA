@@ -1,6 +1,6 @@
 {
 	"m_Version": 12,
-	"DisplayName": "Драгоценные камни",
+	"DisplayName": "Горнорудное - Драгоценные камни",
 	"Icon": "Star",
 	"Color": "FBFCFEFF",
 	"IsExchange": 0,
@@ -8,8 +8,8 @@
 	"Items": [
 		{
 			"ClassName": "FreezeGem_Jade_Cut",
-			"MaxPriceThreshold": 100,
-			"MinPriceThreshold": 100,
+			"MaxPriceThreshold": 2000,
+			"MinPriceThreshold": 2000,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 1,
 			"MinStockThreshold": 1,
@@ -19,8 +19,8 @@
 		},
 		{
 			"ClassName": "FreezeGem_Amethyst_Cut",
-			"MaxPriceThreshold": 100,
-			"MinPriceThreshold": 100,
+			"MaxPriceThreshold": 10000,
+			"MinPriceThreshold": 10000,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 1,
 			"MinStockThreshold": 1,
@@ -30,8 +30,8 @@
 		},
 		{
 			"ClassName": "FreezeGem_Amber_Cut",
-			"MaxPriceThreshold": 100,
-			"MinPriceThreshold": 100,
+			"MaxPriceThreshold": 3500,
+			"MinPriceThreshold": 3500,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 1,
 			"MinStockThreshold": 1,
@@ -41,8 +41,8 @@
 		},
 		{
 			"ClassName": "FreezeGem_Aquamarine_Cut",
-			"MaxPriceThreshold": 100,
-			"MinPriceThreshold": 100,
+			"MaxPriceThreshold": 2500,
+			"MinPriceThreshold": 2500,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 1,
 			"MinStockThreshold": 1,
@@ -52,8 +52,8 @@
 		},
 		{
 			"ClassName": "FreezeGem_FancyColourDiamond_Cut",
-			"MaxPriceThreshold": 100,
-			"MinPriceThreshold": 100,
+			"MaxPriceThreshold": 15000,
+			"MinPriceThreshold": 15000,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 1,
 			"MinStockThreshold": 1,
@@ -63,8 +63,8 @@
 		},
 		{
 			"ClassName": "FreezeGem_Iolite_Cut",
-			"MaxPriceThreshold": 100,
-			"MinPriceThreshold": 100,
+			"MaxPriceThreshold": 4000,
+			"MinPriceThreshold": 4000,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 1,
 			"MinStockThreshold": 1,
@@ -74,8 +74,8 @@
 		},
 		{
 			"ClassName": "FreezeGem_Ruby_Cut",
-			"MaxPriceThreshold": 100,
-			"MinPriceThreshold": 100,
+			"MaxPriceThreshold": 8000,
+			"MinPriceThreshold": 8000,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 1,
 			"MinStockThreshold": 1,
@@ -85,8 +85,8 @@
 		},
 		{
 			"ClassName": "FreezeGem_Turquoise_Cut",
-			"MaxPriceThreshold": 100,
-			"MinPriceThreshold": 100,
+			"MaxPriceThreshold": 6000,
+			"MinPriceThreshold": 6000,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 1,
 			"MinStockThreshold": 1,

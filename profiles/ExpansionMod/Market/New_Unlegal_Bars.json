@@ -1,6 +1,6 @@
 {
 	"m_Version": 12,
-	"DisplayName": "Драгоценные слитки",
+	"DisplayName": "Горнорудное - Слитки",
 	"Icon": "Chocolate",
 	"Color": "FBFCFEFF",
 	"IsExchange": 0,
@@ -8,8 +8,8 @@
 	"Items": [
 		{
 			"ClassName": "FreezeBar_copper",
-			"MaxPriceThreshold": 100,
-			"MinPriceThreshold": 100,
+			"MaxPriceThreshold": 1500,
+			"MinPriceThreshold": 1500,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 1,
 			"MinStockThreshold": 1,
@@ -19,8 +19,8 @@
 		},
 		{
 			"ClassName": "FreezeBar_Adamantite",
-			"MaxPriceThreshold": 100,
-			"MinPriceThreshold": 100,
+			"MaxPriceThreshold": 90000,
+			"MinPriceThreshold": 90000,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 1,
 			"MinStockThreshold": 1,
@@ -30,8 +30,8 @@
 		},
 		{
 			"ClassName": "FreezeBar_Eridium",
-			"MaxPriceThreshold": 100,
-			"MinPriceThreshold": 100,
+			"MaxPriceThreshold": 3000000,
+			"MinPriceThreshold": 3000000,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 1,
 			"MinStockThreshold": 1,
@@ -41,8 +41,8 @@
 		},
 		{
 			"ClassName": "FreezeBar_Enchanted",
-			"MaxPriceThreshold": 100,
-			"MinPriceThreshold": 100,
+			"MaxPriceThreshold": 12000,
+			"MinPriceThreshold": 12000,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 1,
 			"MinStockThreshold": 1,
@@ -52,8 +52,8 @@
 		},
 		{
 			"ClassName": "FreezeBar_Cobalt",
-			"MaxPriceThreshold": 100,
-			"MinPriceThreshold": 100,
+			"MaxPriceThreshold": 465000,
+			"MinPriceThreshold": 465000,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 1,
 			"MinStockThreshold": 1,
@@ -63,8 +63,8 @@
 		},
 		{
 			"ClassName": "FreezeBar_Crimant",
-			"MaxPriceThreshold": 100,
-			"MinPriceThreshold": 100,
+			"MaxPriceThreshold": 1450000,
+			"MinPriceThreshold": 1450000,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 1,
 			"MinStockThreshold": 1,
@@ -74,8 +74,8 @@
 		},
 		{
 			"ClassName": "FreezeBar_gold",
-			"MaxPriceThreshold": 100,
-			"MinPriceThreshold": 100,
+			"MaxPriceThreshold": 5000,
+			"MinPriceThreshold": 5000,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 1,
 			"MinStockThreshold": 1,
@@ -85,8 +85,8 @@
 		},
 		{
 			"ClassName": "FreezeBar_iron",
-			"MaxPriceThreshold": 100,
-			"MinPriceThreshold": 100,
+			"MaxPriceThreshold": 2650,
+			"MinPriceThreshold": 2650,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 1,
 			"MinStockThreshold": 1,
@@ -96,8 +96,8 @@
 		},
 		{
 			"ClassName": "FreezeBar_silver",
-			"MaxPriceThreshold": 100,
-			"MinPriceThreshold": 100,
+			"MaxPriceThreshold": 2250,
+			"MinPriceThreshold": 2250,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 1,
 			"MinStockThreshold": 1,
@@ -107,8 +107,8 @@
 		},
 		{
 			"ClassName": "FreezeBar_tin",
-			"MaxPriceThreshold": 100,
-			"MinPriceThreshold": 100,
+			"MaxPriceThreshold": 800,
+			"MinPriceThreshold": 800,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 1,
 			"MinStockThreshold": 1,
@@ -129,8 +129,8 @@
 		},
 		{
 			"ClassName": "FreezeBar_uranium",
-			"MaxPriceThreshold": 100,
-			"MinPriceThreshold": 100,
+			"MaxPriceThreshold": 800,
+			"MinPriceThreshold": 800,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 1,
 			"MinStockThreshold": 1,
