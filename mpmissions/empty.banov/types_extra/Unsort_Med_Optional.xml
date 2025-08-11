@@ -1,49 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
-	
-	<!-- TERJE TOOLS -->
-	<type name="TerjeSleepingBag_Blue">
-		<nominal>10</nominal>
-		<lifetime>604800</lifetime>
-		<restock>3600</restock>
-		<min>5</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<usage name="Farm"/>
-		<usage name="Town"/>
-		<usage name="Village"/>
-		<usage name="Hunting"/>
-	</type>
-	<type name="TerjeSleepingBag_Woodland">
-		<nominal>10</nominal>
-		<lifetime>604800</lifetime>
-		<restock>3600</restock>
-		<min>5</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="shelves"/>
-		<usage name="Hunting"/>
-		<usage name="Military"/>
-	</type>
-	<type name="TerjeHeadgearPsiHelm">
-		<nominal>5</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
-		<min>3</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
-		<category name="weapons"/>
-		<usage name="Military"/>
-	</type>
-
 	<!-- TERJE ENERGY DRINKS -->
 	<type name="TerjeDrinkMadBull">
 		<nominal>5</nominal>
@@ -130,33 +86,7 @@
 		<tag name="shelves"/>
 		<usage name="Medic"/>
 	</type>
-	<type name="TerjePillsNurofen">
-		<nominal>10</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
-		<min>5</min>
-		<quantmin>10</quantmin>
-		<quantmax>80</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="shelves"/>
-		<usage name="Medic"/>
-	</type>
 	<type name="TerjePillsPiperacylin">
-		<nominal>10</nominal>
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
-		<min>5</min>
-		<quantmin>10</quantmin>
-		<quantmax>80</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="shelves"/>
-		<usage name="Medic"/>
-	</type>
-	<type name="TerjePillsMesalazin">
 		<nominal>10</nominal>
 		<lifetime>28800</lifetime>
 		<restock>0</restock>
