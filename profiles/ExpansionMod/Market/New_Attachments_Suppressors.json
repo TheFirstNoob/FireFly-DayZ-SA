@@ -169,18 +169,9 @@
 			"MinStockThreshold": 0,
 			"QuantityPercent": -1,
 			"SpawnAttachments": [],
-			"Variants": []
-		},
-		{
-			"ClassName": "PNC_Suppressor_556mm_2",
-			"MaxPriceThreshold": 100,
-			"MinPriceThreshold": 100,
-			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 100,
-			"MinStockThreshold": 0,
-			"QuantityPercent": -1,
-			"SpawnAttachments": [],
-			"Variants": []
+			"Variants": [
+				"PNC_Suppressor_556mm_2"
+			]
 		},
 		{
 			"ClassName": "PNC_Suppressor_12ga",
@@ -235,29 +226,10 @@
 			"MinStockThreshold": 0,
 			"QuantityPercent": -1,
 			"SpawnAttachments": [],
-			"Variants": []
-		},
-		{
-			"ClassName": "PNC_HoneyBadger_Suppressor_02",
-			"MaxPriceThreshold": 100,
-			"MinPriceThreshold": 100,
-			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 100,
-			"MinStockThreshold": 0,
-			"QuantityPercent": -1,
-			"SpawnAttachments": [],
-			"Variants": []
-		},
-		{
-			"ClassName": "PNC_HoneyBadger_Suppressor_03",
-			"MaxPriceThreshold": 100,
-			"MinPriceThreshold": 100,
-			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 100,
-			"MinStockThreshold": 0,
-			"QuantityPercent": -1,
-			"SpawnAttachments": [],
-			"Variants": []
+			"Variants": [
+				"PNC_HoneyBadger_Suppressor_02",
+				"PNC_HoneyBadger_Suppressor_03"
+			]
 		},
 		{
 			"ClassName": "PNC_Suppressor_338",
