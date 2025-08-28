@@ -218,6 +218,20 @@
 			]
 		},
 		{
+			"ClassName": "waterproofbag_green",
+			"MaxPriceThreshold": 300,
+			"MinPriceThreshold": 120,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"waterproofbag_orange",
+				"waterproofbag_yellow"
+			]
+		},
+		{
 			"ClassName": "TF_CamelBakBag_Black",
 			"MaxPriceThreshold": 30,
 			"MinPriceThreshold": 24,
