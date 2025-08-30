@@ -3,7 +3,7 @@
 	<type name="CableReel">
 		<nominal>80</nominal>
 		<lifetime>604800</lifetime>
-		<restock>3600</restock>
+		<restock>10800</restock>
 		<min>80</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -20,7 +20,7 @@
 	</type>
 	<type name="CombinationLock">
 		<nominal>0</nominal>
-		<lifetime>7200</lifetime>
+		<lifetime>21600</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -31,7 +31,7 @@
 	</type>
 	<type name="CombinationLock4">
 		<nominal>0</nominal>
-		<lifetime>7200</lifetime>
+		<lifetime>21600</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -43,7 +43,7 @@
 	<type name="PowerGenerator">
 		<nominal>20</nominal>
 		<lifetime>604800</lifetime>
-		<restock>3600</restock>
+		<restock>10800</restock>
 		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>

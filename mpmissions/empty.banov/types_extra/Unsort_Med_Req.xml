@@ -68,45 +68,6 @@
         <tag name="shelves"/>
         <usage name="Medic"/>
     </type>
-    <type name="TerjeAmpouleVaxicam">
-        <nominal>3</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>1</min>
-        <quantmin>20</quantmin>
-        <quantmax>100</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <tag name="shelves"/>
-        <usage name="Medic"/>
-    </type>
-    <type name="TerjeAmpouleZerivax">
-        <nominal>3</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>1</min>
-        <quantmin>20</quantmin>
-        <quantmax>100</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <tag name="shelves"/>
-        <usage name="Medic"/>
-    </type>
-    <type name="TerjeAmpouleRabivax">
-        <nominal>3</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>1</min>
-        <quantmin>20</quantmin>
-        <quantmax>100</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <tag name="shelves"/>
-        <usage name="Medic"/>
-    </type>
     <type name="TerjeAmpouleRabinoline">
         <nominal>5</nominal>
         <lifetime>28800</lifetime>
