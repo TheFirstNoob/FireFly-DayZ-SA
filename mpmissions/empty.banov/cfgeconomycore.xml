@@ -10,6 +10,10 @@
 		<rootclass name="CarScript" act="car" reportMemoryLOD="no" /> <!-- cars (sedan, hatchback, transitBus, V3S, ...) -->
 	</classes>
 	<defaults>
+		<default name="world_segments" value="32" />
+		<default name="backup_period" value="30" />
+		<default name="backup_count" value="50" />
+		<default name="backup_startup" value="true" />
 		<default name="dyn_radius" value="30" />
 		<default name="dyn_smin" value="0" />
 		<default name="dyn_smax" value="0" />
