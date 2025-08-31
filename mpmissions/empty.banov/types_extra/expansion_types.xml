@@ -16,7 +16,7 @@
 	<!-- CURRENCYS -->
 	<type name="ExpansionBanknoteHryvnia">
 		<nominal>0</nominal>
-		<lifetime>7200</lifetime>
+		<lifetime>20900</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>10</quantmin>
@@ -39,7 +39,7 @@
 	<!-- BASE BUILDING -->
 	<type name="WoodenLog">
 		<nominal>0</nominal>
-		<lifetime>7200</lifetime>
+		<lifetime>20900</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -50,7 +50,7 @@
 	</type>
 	<type name="ExpansionLumber1">
 		<nominal>0</nominal>
-		<lifetime>7200</lifetime>
+		<lifetime>20900</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -61,7 +61,7 @@
 	</type>
 	<type name="ExpansionLumber1_5">
 		<nominal>0</nominal>
-		<lifetime>7200</lifetime>
+		<lifetime>20900</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -72,7 +72,7 @@
 	</type>
 	<type name="ExpansionLumber3">
 		<nominal>0</nominal>
-		<lifetime>7200</lifetime>
+		<lifetime>20900</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -83,7 +83,7 @@
 	</type>
 	<type name="ExpansionFloorKit">
 		<nominal>0</nominal>
-		<lifetime>7200</lifetime>
+		<lifetime>20900</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -94,7 +94,7 @@
 	</type>
 	<type name="ExpansionWoodPillarKit">
 		<nominal>0</nominal>
-		<lifetime>7200</lifetime>
+		<lifetime>20900</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -105,7 +105,7 @@
 	</type>
 	<type name="ExpansionRampKit">
 		<nominal>0</nominal>
-		<lifetime>7200</lifetime>
+		<lifetime>20900</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -116,7 +116,7 @@
 	</type>
 	<type name="ExpansionStairKit">
 		<nominal>0</nominal>
-		<lifetime>7200</lifetime>
+		<lifetime>20900</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -127,7 +127,7 @@
 	</type>
 	<type name="ExpansionWallKit">
 		<nominal>0</nominal>
-		<lifetime>7200</lifetime>
+		<lifetime>20900</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -138,7 +138,7 @@
 	</type>
 	<type name="ExpansionCamoBoxKit">
 		<nominal>0</nominal>
-		<lifetime>7200</lifetime>
+		<lifetime>20900</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -149,8 +149,8 @@
 	</type>
 	<type name="ExpansionBarrierGateKit">
 		<nominal>0</nominal>
-		<lifetime>7200</lifetime>
-		<restock>3600</restock>
+		<lifetime>20900</lifetime>
+		<restock>900</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -161,7 +161,7 @@
 	<type name="ExpansionSafeLarge">
 		<nominal>5</nominal>
 		<lifetime>3888000</lifetime>
-		<restock>3600</restock>
+		<restock>900</restock>
 		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -178,7 +178,7 @@
 	<type name="ExpansionSafeMini">
 		<nominal>15</nominal>
 		<lifetime>3888000</lifetime>
-		<restock>3600</restock>
+		<restock>900</restock>
 		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -200,7 +200,7 @@
 	<type name="ExpansionSafeMedium">
 		<nominal>10</nominal>
 		<lifetime>3888000</lifetime>
-		<restock>3600</restock>
+		<restock>900</restock>
 		<min>10</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -239,8 +239,8 @@
 	</type>
 	<type name="ExpansionBarbedWireKit">
 		<nominal>8</nominal>
-		<lifetime>7200</lifetime>
-		<restock>3600</restock>
+		<lifetime>20900</lifetime>
+		<restock>900</restock>
 		<min>8</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -256,7 +256,7 @@
 	</type>
 	<type name="ExpansionHescoKit">
 		<nominal>0</nominal>
-		<lifetime>7200</lifetime>
+		<lifetime>20900</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -267,8 +267,8 @@
 	</type>
 	<type name="ExpansionCodeLock">
 		<nominal>20</nominal>
-		<lifetime>7200</lifetime>
-		<restock>3600</restock>
+		<lifetime>20900</lifetime>
+		<restock>900</restock>
 		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -375,8 +375,8 @@
 	</type>
 	<type name="ExpansionGPS">
 		<nominal>12</nominal>
-		<lifetime>7200</lifetime>
-		<restock>3600</restock>
+		<lifetime>20900</lifetime>
+		<restock>900</restock>
 		<min>12</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -393,8 +393,8 @@
 	</type>
 	<type name="ExpansionBoltCutters">
 		<nominal>20</nominal>
-		<lifetime>7200</lifetime>
-		<restock>3600</restock>
+		<lifetime>20900</lifetime>
+		<restock>900</restock>
 		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -410,8 +410,8 @@
 	</type>
 	<type name="ExpansionToolBox">
 		<nominal>10</nominal>
-		<lifetime>7200</lifetime>
-		<restock>3600</restock>
+		<lifetime>20900</lifetime>
+		<restock>900</restock>
 		<min>10</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
