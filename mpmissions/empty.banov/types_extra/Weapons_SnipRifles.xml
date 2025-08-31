@@ -2,8 +2,8 @@
 <types>
 	<type name="B95">
 		<nominal>25</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -22,7 +22,7 @@
 	</type>
 	<type name="SawedoffB95">
 		<nominal>0</nominal>
-		<lifetime>20900</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -33,8 +33,8 @@
 	</type>
 	<type name="SV98">
 		<nominal>15</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -54,8 +54,8 @@
 	</type>
 	<type name="CZ527">
 		<nominal>25</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -78,8 +78,8 @@
 	</type>
 	<type name="CZ550">
 		<nominal>25</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -98,8 +98,8 @@
 	</type>
 	<type name="Repeater">
 		<nominal>50</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -120,8 +120,8 @@
 	</type>
 	<type name="Ruger1022">
 		<nominal>50</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -142,8 +142,8 @@
 	</type>
 	<type name="SKS">
 		<nominal>16</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>16</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -166,8 +166,8 @@
 	</type>
 	<type name="SSG82">
 		<nominal>18</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>18</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -187,8 +187,8 @@
 	</type>
 	<type name="SVD">
 		<nominal>5</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -206,8 +206,8 @@
 	</type>
 	<type name="SVD_Wooden">
 		<nominal>6</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>6</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -225,8 +225,8 @@
 	</type>
 	<type name="Mosin9130">
 		<nominal>35</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>35</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -247,7 +247,7 @@
 	</type>
 	<type name="Mosin9130_Black">
 		<nominal>0</nominal>
-		<lifetime>20900</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -258,7 +258,7 @@
 	</type>
 	<type name="Mosin9130_Camo">
 		<nominal>0</nominal>
-		<lifetime>20900</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -269,7 +269,7 @@
 	</type>
 	<type name="Mosin9130_Green">
 		<nominal>0</nominal>
-		<lifetime>20900</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -280,7 +280,7 @@
 	</type>
 	<type name="SawedoffMosin9130">
 		<nominal>0</nominal>
-		<lifetime>20900</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -291,7 +291,7 @@
 	</type>
 	<type name="SawedoffMosin9130_Black">
 		<nominal>0</nominal>
-		<lifetime>20900</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -302,7 +302,7 @@
 	</type>
 	<type name="SawedoffMosin9130_Camo">
 		<nominal>0</nominal>
-		<lifetime>20900</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -313,7 +313,7 @@
 	</type>
 	<type name="SawedoffMosin9130_Green">
 		<nominal>0</nominal>
-		<lifetime>20900</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -324,8 +324,8 @@
 	</type>
 	<type name="Scout">
 		<nominal>18</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>18</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -344,7 +344,7 @@
 	</type>
 	<type name="Scout_Livonia">
 		<nominal>0</nominal>
-		<lifetime>20900</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -354,8 +354,8 @@
 	</type>
 	<type name="VSS">
 		<nominal>15</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -375,8 +375,8 @@
 	</type>
 	<type name="Winchester70">
 		<nominal>30</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -396,8 +396,8 @@
 	</type>
 	<type name="Izh18">
 		<nominal>45</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>45</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -417,7 +417,7 @@
 	</type>
 	<type name="SawedoffIzh18">
 		<nominal>0</nominal>
-		<lifetime>20900</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -430,8 +430,8 @@
 	<!-- Expansion Mod -->
 	<type name="Expansion_AWM">
 		<nominal>3</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>3</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -449,8 +449,8 @@
 	</type>
 	<type name="Expansion_Kar98">
 		<nominal>7</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>7</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -471,8 +471,8 @@
 	<!-- Tactical Flava Mod -->
 	<type name="TF_M14_DMR">
 		<nominal>2</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -487,8 +487,8 @@
 	</type>
 	<type name="TF_M14_EBR">
 		<nominal>2</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -503,8 +503,8 @@
 	</type>
 	<type name="TF_M14_STD">
 		<nominal>5</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -522,8 +522,8 @@
 	</type>
 	<type name="TF_MAR10">
 		<nominal>2</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -543,8 +543,8 @@
 	</type>
 	<type name="TF_SCAR_20_FDE">
 		<nominal>1</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -562,8 +562,8 @@
 	</type>
 	<type name="TF_SCAR_20_Black">
 		<nominal>1</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -581,8 +581,8 @@
 	</type>
 	<type name="TF_SCAR_20_Shd">
 		<nominal>1</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -600,8 +600,8 @@
 	</type>
 	<type name="TF_VPO136">
 		<nominal>70</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>70</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -624,8 +624,8 @@
 	</type>
 	<type name="TF_VPO190">
 		<nominal>50</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -645,8 +645,8 @@
 	</type>
 	<type name="TF_SVCh308">
 		<nominal>3</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>3</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -664,8 +664,8 @@
 	</type>
 	<type name="TF_SVCh">
 		<nominal>9</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>9</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -683,8 +683,8 @@
 	</type>
 	<type name="TF_SR25">
 		<nominal>7</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>7</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -702,8 +702,8 @@
 	</type>
 	<type name="TF_M24">
 		<nominal>3</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>3</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -721,8 +721,8 @@
 	</type>
 	<type name="TF_SWORD_Mk18_Mjolnir">
 		<nominal>2</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -742,8 +742,8 @@
 	<!-- Panacea Weapons -->
 	<type name="PNC_Anzio">
 		<nominal>1</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -765,8 +765,8 @@
 	</type>
 	<type name="PNC_W_AR15_Long">
 		<nominal>6</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>6</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -784,8 +784,8 @@
 	</type>
 	<type name="PNC_W_ASh127">
 		<nominal>1</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -807,8 +807,8 @@
 	</type>
 	<type name="PNC_W_Aurora">
 		<nominal>1</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -830,8 +830,8 @@
 	</type>
 	<type name="PNC_W_AX50_2">
 		<nominal>1</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -853,8 +853,8 @@
 	</type>
 	<type name="PNC_W_BarretM82A1">
 		<nominal>1</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -876,8 +876,8 @@
 	</type>
 	<type name="PNC_W_Beowulf50">
 		<nominal>5</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -895,8 +895,8 @@
 	</type>
 	<type name="PNC_W_CheyTacM300">
 		<nominal>1</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -918,8 +918,8 @@
 	</type>
 	<type name="PNC_W_DVL10">
 		<nominal>1</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -941,8 +941,8 @@
 	</type>
 	<type name="PNC_W_KIVAARI">
 		<nominal>1</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -964,8 +964,8 @@
 	</type>
 	<type name="PNC_W_ORSIST5000">
 		<nominal>1</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -987,8 +987,8 @@
 	</type>
 	<type name="PNC_W_RemingtonMSR">
 		<nominal>4</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>4</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -1006,8 +1006,8 @@
 	</type>
 	<type name="PNC_W_SuperSniper">
 		<nominal>1</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -1025,8 +1025,8 @@
 	</type>
 	<type name="PNC_W_AX50">
 		<nominal>1</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -1048,8 +1048,8 @@
 	</type>
 	<type name="PNC_W_M110">
 		<nominal>3</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>3</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -1067,8 +1067,8 @@
 	</type>
 	<type name="PNC_W_M200CheyTac">
 		<nominal>1</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -1090,8 +1090,8 @@
 	</type>
 	<type name="PNC_W_TAC21">
 		<nominal>1</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -1113,8 +1113,8 @@
 	</type>
 	<type name="PNC_VSSK_vychlop">
 		<nominal>1</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>

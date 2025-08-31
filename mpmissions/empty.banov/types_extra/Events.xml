@@ -2,7 +2,7 @@
 <types>
 	<type name="EyeMask_Black">
 		<nominal>0</nominal>
-		<lifetime>20900</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -13,7 +13,7 @@
 	</type>
 	<type name="EyeMask_Blue">
 		<nominal>0</nominal>
-		<lifetime>20900</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -24,7 +24,7 @@
 	</type>
 	<type name="EyeMask_Christmas">
 		<nominal>0</nominal>
-		<lifetime>20900</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -35,7 +35,7 @@
 	</type>
 	<type name="EyeMask_Dead">
 		<nominal>0</nominal>
-		<lifetime>20900</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -46,7 +46,7 @@
 	</type>
 	<type name="EyeMask_NewYears">
 		<nominal>0</nominal>
-		<lifetime>20900</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -57,7 +57,7 @@
 	</type>
 	<type name="EyeMask_Red">
 		<nominal>0</nominal>
-		<lifetime>20900</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -68,7 +68,7 @@
 	</type>
 	<type name="EyeMask_Valentines">
 		<nominal>0</nominal>
-		<lifetime>20900</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -79,7 +79,7 @@
 	</type>
 	<type name="EyeMask_Yellow">
 		<nominal>0</nominal>
-		<lifetime>20900</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -90,7 +90,7 @@
 	</type>
 	<type name="MimeMask_Female">
 		<nominal>0</nominal>
-		<lifetime>20900</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -101,7 +101,7 @@
 	</type>
 	<type name="MimeMask_Male">
 		<nominal>0</nominal>
-		<lifetime>20900</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -113,7 +113,7 @@
 	
 	<type name="PaydayMask_Chains">
 		<nominal>0</nominal>
-		<lifetime>20900</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -124,7 +124,7 @@
 	</type>
 	<type name="PaydayMask_Dallas">
 		<nominal>0</nominal>
-		<lifetime>20900</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -135,7 +135,7 @@
 	</type>
 	<type name="PaydayMask_Hoxton">
 		<nominal>0</nominal>
-		<lifetime>20900</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -146,7 +146,7 @@
 	</type>
 	<type name="PaydayMask_Wolf">
 		<nominal>0</nominal>
-		<lifetime>20900</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -158,8 +158,8 @@
 	
 	<type name="CrookedNose">
 		<nominal>1</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -178,8 +178,8 @@
 	
 	<type name="FireworksLauncher">
 		<nominal>2</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -198,8 +198,8 @@
 	
 	<type name="Megaphone">
 		<nominal>10</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>10</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -223,8 +223,8 @@
 	
 	<type name="GreatHelm">
 		<nominal>3</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>3</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -242,8 +242,8 @@
 	</type>
 	<type name="NorseHelm">
 		<nominal>3</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>3</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -261,8 +261,8 @@
 	</type>
 	<type name="Chestplate">
 		<nominal>3</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>3</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -278,8 +278,8 @@
 	</type>
 	<type name="Chainmail">
 		<nominal>3</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>3</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -295,8 +295,8 @@
 	</type>
 	<type name="Chainmail_Coif">
 		<nominal>3</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>3</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -312,8 +312,8 @@
 	</type>
 	<type name="Chainmail_Leggings">
 		<nominal>3</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>3</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -329,8 +329,8 @@
 	</type>
 	<type name="MedievalBoots">
 		<nominal>3</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>3</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -346,8 +346,8 @@
 	</type>
 	<type name="Sword">
 		<nominal>4</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>4</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -364,7 +364,7 @@
 
 	<type name="WitchHoodCoif_Black">
 		<nominal>0</nominal>
-		<lifetime>20900</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -375,7 +375,7 @@
 	</type>
 	<type name="WitchHoodCoif_Brown">
 		<nominal>0</nominal>
-		<lifetime>20900</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -386,7 +386,7 @@
 	</type>
 	<type name="WitchHoodCoif_Red">
 		<nominal>0</nominal>
-		<lifetime>20900</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -398,7 +398,7 @@
 	
 	<type name="PumpkinHelmet">
 		<nominal>0</nominal>
-		<lifetime>20900</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -410,7 +410,7 @@
 	
 	<type name="SantasBeard">
 		<nominal>0</nominal>
-		<lifetime>20900</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -421,7 +421,7 @@
 	</type>
 	<type name="SantasHat">
 		<nominal>0</nominal>
-		<lifetime>20900</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -433,7 +433,7 @@
 	
 	<type name="WitchHat">
 		<nominal>0</nominal>
-		<lifetime>20900</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -444,7 +444,7 @@
 	</type>
 	<type name="WitchHood_Black">
 		<nominal>0</nominal>
-		<lifetime>20900</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -455,7 +455,7 @@
 	</type>
 	<type name="WitchHood_Brown">
 		<nominal>0</nominal>
-		<lifetime>20900</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -466,7 +466,7 @@
 	</type>
 	<type name="WitchHood_Red">
 		<nominal>0</nominal>
-		<lifetime>20900</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -477,7 +477,7 @@
 	</type>
 	<type name="Cauldron">
 		<nominal>0</nominal>
-		<lifetime>20900</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -490,7 +490,7 @@
 	<!-- Tactical Flava Mod -->
 	<type name="TF_Foil_hat">
 		<nominal>0</nominal>
-		<lifetime>20900</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -502,7 +502,7 @@
 	
 	<type name="LeafCrown_Autumn">
         <nominal>0</nominal>
-        <lifetime>20900</lifetime>
+        <lifetime>7200</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
@@ -513,7 +513,7 @@
     </type>
 	<type name="LeafCrown_Spring">
         <nominal>0</nominal>
-        <lifetime>20900</lifetime>
+        <lifetime>7200</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
@@ -524,7 +524,7 @@
     </type>
     <type name="LeafCrown_Summer">
         <nominal>0</nominal>
-        <lifetime>20900</lifetime>
+        <lifetime>7200</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
@@ -535,7 +535,7 @@
     </type>
     <type name="LeafCrown_Winter">
         <nominal>0</nominal>
-        <lifetime>20900</lifetime>
+        <lifetime>7200</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>

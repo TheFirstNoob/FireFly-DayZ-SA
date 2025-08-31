@@ -100,8 +100,8 @@
 	
 	<type name="Tripod">
 		<nominal>80</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>80</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -121,7 +121,7 @@
 	<type name="PileOfWoodenPlanks">
 		<nominal>40</nominal>
 		<lifetime>28800</lifetime>
-		<restock>900</restock>
+		<restock>1500</restock>
 		<min>40</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -155,8 +155,8 @@
 	</type>
 	<type name="Fabric">
 		<nominal>50</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>50</min>
 		<quantmin>25</quantmin>
 		<quantmax>100</quantmax>
@@ -177,7 +177,7 @@
 	<type name="Spotlight">
 		<nominal>50</nominal>
 		<lifetime>604800</lifetime>
-		<restock>900</restock>
+		<restock>1500</restock>
 		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -195,8 +195,8 @@
 	
 	<type name="MetalPlate">
 		<nominal>50</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>

@@ -2,8 +2,8 @@
 <types>
 	<type name="ASVAL">
 		<nominal>12</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>12</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -22,8 +22,8 @@
 	</type>
 	<type name="Aug">
 		<nominal>11</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>11</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -41,8 +41,8 @@
 	</type>
 	<type name="AugShort">
 		<nominal>11</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>11</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -61,8 +61,8 @@
 	</type>
 	<type name="FAL">
 		<nominal>8</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>8</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -80,8 +80,8 @@
 	</type>
 	<type name="FAMAS">
 		<nominal>18</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>18</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -100,7 +100,7 @@
 	</type>
 	<type name="SawedoffFAMAS">
 		<nominal>0</nominal>
-		<lifetime>20900</lifetime>
+		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -113,8 +113,8 @@
 	<!-- Expansion Mod -->
 	<type name="Expansion_G36">
 		<nominal>16</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>16</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -134,8 +134,8 @@
 	<!-- Tactical Flava Mod -->
 	<type name="TF_AN94">
 		<nominal>12</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>12</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -152,8 +152,8 @@
 	</type>
 	<type name="TF_AN94M">
 		<nominal>10</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>10</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -170,8 +170,8 @@
 	</type>
 	<type name="TF_SCAR_L_FDE">
 		<nominal>8</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>8</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -188,8 +188,8 @@
 	</type>
 	<type name="TF_SCAR_L_Black">
 		<nominal>8</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>8</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -206,8 +206,8 @@
 	</type>
 	<type name="TF_SCAR_L_CQC_FDE">
 		<nominal>12</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>12</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -226,8 +226,8 @@
 	</type>
 	<type name="TF_SCAR_L_CQC_Black">
 		<nominal>12</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>12</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -246,8 +246,8 @@
 	</type>
 	<type name="TF_SCAR_H_FDE">
 		<nominal>4</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>4</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -264,8 +264,8 @@
 	</type>
 	<type name="TF_SCAR_H_Black">
 		<nominal>4</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>4</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -282,8 +282,8 @@
 	</type>
 	<type name="TF_SCAR_H_CQC_FDE">
 		<nominal>6</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>6</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -301,8 +301,8 @@
 	</type>
 	<type name="TF_SCAR_H_CQC_Black">
 		<nominal>6</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>6</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -320,8 +320,8 @@
 	</type>
 	<type name="TF_OTs_12_Tiss">
 		<nominal>50</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -343,8 +343,8 @@
 	</type>
 	<type name="TF_OTs_14_Groza">
 		<nominal>25</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -364,8 +364,8 @@
 	</type>
 	<type name="TF_AK101">
 		<nominal>8</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>8</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -383,8 +383,8 @@
 	</type>
 	<type name="TF_AK102">
 		<nominal>8</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>8</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -402,8 +402,8 @@
 	</type>
 	<type name="TF_AK103">
 		<nominal>8</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>8</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -420,8 +420,8 @@
 	</type>
 	<type name="TF_AK104">
 		<nominal>10</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>10</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -439,8 +439,8 @@
 	</type>
 	<type name="TF_AK105">
 		<nominal>6</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>6</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -458,8 +458,8 @@
 	</type>
 	<type name="TF_AK105_Bullpup">
 		<nominal>5</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -477,8 +477,8 @@
 	</type>
 	<type name="TF_AK74M">
 		<nominal>23</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>23</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -497,8 +497,8 @@
 	</type>
 	<type name="TF_AKM">
 		<nominal>20</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -517,8 +517,8 @@
 	</type>
 	<type name="TF_AKMN">
 		<nominal>20</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -536,8 +536,8 @@
 	</type>
 	<type name="TF_AKS74U">
 		<nominal>40</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>40</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -559,8 +559,8 @@
 	</type>
 	<type name="TF_M4A1">
 		<nominal>26</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>26</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -579,8 +579,8 @@
 	</type>
 	<type name="TF_ADAR2_15">
 		<nominal>35</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>35</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -600,8 +600,8 @@
 	</type>
 	<type name="TF_M4A1_CQBR">
 		<nominal>38</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>28</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -621,8 +621,8 @@
 	</type>
 	<type name="TF_MK47_CQBR">
 		<nominal>3</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>3</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -640,8 +640,8 @@
 	</type>
 	<type name="TF_MK47">
 		<nominal>3</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>3</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -659,8 +659,8 @@
 	</type>
 	<type name="TF_M16A4">
 		<nominal>28</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>28</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -682,8 +682,8 @@
 	<!-- Panacea Weapons -->
 	<type name="PNC_W_HoneyBadger">
 		<nominal>12</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>12</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -701,8 +701,8 @@
 	</type>
 	<type name="PNC_W_RemingtonR5">
 		<nominal>12</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>12</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -719,8 +719,8 @@
 	</type>
 	<type name="PNC_W_AEK971">
 		<nominal>15</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -738,8 +738,8 @@
 	</type>
 	<type name="PNC_W_G36">
 		<nominal>15</nominal>
-		<lifetime>20900</lifetime>
-		<restock>900</restock>
+		<lifetime>7200</lifetime>
+		<restock>1500</restock>
 		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
