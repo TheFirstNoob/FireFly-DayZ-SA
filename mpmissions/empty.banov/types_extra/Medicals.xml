@@ -322,10 +322,10 @@
         <value name="Tier4"/>
 	</type>
 	<type name="Heatpack">
-		<nominal>150</nominal>
+		<nominal>200</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>150</min>
+		<min>200</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -1089,12 +1089,12 @@
     </type>
 
 	<type name="TerjePlaster">
-		<nominal>50</nominal>
+		<nominal>40</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>50</min>
+		<min>40</min>
 		<quantmin>10</quantmin>
-		<quantmax>80</quantmax>
+		<quantmax>30</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
@@ -1141,6 +1141,556 @@
 		<value name="Tier3"/>
 		<value name="Tier4"/>
 	</type>
+	
+	<!-- TERJE ТАБЛЕТКИ -->
+	<type name="TerjePillsParacetamol">
+		<nominal>10</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>5</min>
+		<quantmin>10</quantmin>
+		<quantmax>80</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="tools"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
+		<usage name="Medic"/>
+	</type>
+	<type name="TerjePillsPiperacylin">
+		<nominal>10</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>5</min>
+		<quantmin>10</quantmin>
+		<quantmax>80</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="tools"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
+		<usage name="Medic"/>
+	</type>
+	<type name="TerjePillsNoopept">
+		<nominal>10</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>5</min>
+		<quantmin>10</quantmin>
+		<quantmax>80</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="tools"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
+		<usage name="Medic"/>
+	</type>
+	<type name="TerjePillsVikasol">
+		<nominal>10</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>5</min>
+		<quantmin>10</quantmin>
+		<quantmax>80</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="tools"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
+		<usage name="Medic"/>
+	</type>
+	<type name="TerjePillsRombiopental">
+		<nominal>10</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>5</min>
+		<quantmin>10</quantmin>
+		<quantmax>80</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="tools"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
+		<usage name="Medic"/>
+	</type>
+	<type name="TerjePillsMagnesiumSulfate">
+        <nominal>20</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1460</restock>
+        <min>12</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
+        <usage name="Medic"/>
+    </type>
+    <type name="TerjePillsAdepress">
+        <nominal>20</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1460</restock>
+        <min>12</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
+        <usage name="Medic"/>
+    </type>
+	
+	<!-- TERJE АМПУЛЫ -->
+	<type name="TerjeAmpouleKetarol">
+		<nominal>5</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>3</min>
+		<quantmin>20</quantmin>
+		<quantmax>100</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="tools"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
+		<usage name="Medic"/>
+	</type>
+	<type name="TerjeAmpouleFlemoclav">
+		<nominal>5</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>3</min>
+		<quantmin>20</quantmin>
+		<quantmax>100</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="tools"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
+		<usage name="Medic"/>
+	</type>
+	<type name="TerjeAmpouleMorphine">
+		<nominal>5</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>3</min>
+		<quantmin>20</quantmin>
+		<quantmax>100</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="tools"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
+		<usage name="Medic"/>
+	</type>
+	<type name="TerjeAmpouleHeptral">
+		<nominal>5</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>3</min>
+		<quantmin>20</quantmin>
+		<quantmax>100</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="tools"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
+		<usage name="Medic"/>
+	</type>
+	<type name="TerjeAmpouleMetoclopramid">
+		<nominal>5</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>3</min>
+		<quantmin>20</quantmin>
+		<quantmax>100</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="tools"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
+		<usage name="Medic"/>
+	</type>
+	<type name="TerjeAmpouleActaparoxetine">
+		<nominal>5</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>3</min>
+		<quantmin>20</quantmin>
+		<quantmax>100</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="tools"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
+		<usage name="Medic"/>
+	</type>
+	<type name="TerjeAmpouleAmitriptyline">
+		<nominal>5</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>3</min>
+		<quantmin>20</quantmin>
+		<quantmax>100</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="tools"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
+		<usage name="Medic"/>
+	</type>
+	<type name="TerjeAmpouleRifampicyne">
+		<nominal>5</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>3</min>
+		<quantmin>20</quantmin>
+		<quantmax>100</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="tools"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
+		<usage name="Medic"/>
+	</type>
+	<type name="TerjeAmpouleZivirol">
+		<nominal>3</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>1</min>
+		<quantmin>20</quantmin>
+		<quantmax>100</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="tools"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
+		<usage name="Medic"/>
+	</type>
+	<type name="TerjeAmpouleNovacaine">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1460</restock>
+        <min>3</min>
+        <quantmin>20</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
+        <usage name="Medic"/>
+    </type>
+    <type name="TerjeAmpouleNeirox">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1460</restock>
+        <min>3</min>
+        <quantmin>20</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
+        <usage name="Medic"/>
+    </type>
+    <type name="TerjeAmpouleErythropoetin">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1460</restock>
+        <min>3</min>
+        <quantmin>20</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
+        <usage name="Medic"/>
+    </type>
+    <type name="TerjeAmpouleVaxicam">
+        <nominal>3</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1460</restock>
+        <min>1</min>
+        <quantmin>20</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
+        <usage name="Medic"/>
+    </type>
+    <type name="TerjeAmpouleZerivax">
+        <nominal>3</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1460</restock>
+        <min>1</min>
+        <quantmin>20</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
+        <usage name="Medic"/>
+    </type>
+    <type name="TerjeAmpouleRabivax">
+        <nominal>3</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1460</restock>
+        <min>1</min>
+        <quantmin>20</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
+        <usage name="Medic"/>
+    </type>
+    <type name="TerjeAmpouleRabinoline">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1460</restock>
+        <min>3</min>
+        <quantmin>20</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
+        <usage name="Medic"/>
+    </type>
+    <type name="TerjeAmpouleNeirocetal">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1460</restock>
+        <min>1</min>
+        <quantmin>20</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
+        <usage name="Medic"/>
+    </type>
+	
+	<!-- TERJE ИНЪЕКТОРЫ -->
+	<type name="TerjeInjectorTopoizomeraza">
+		<nominal>3</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="tools"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
+		<usage name="Medic"/>
+	</type>
+	<type name="TerjeInjectorErytromixelin">
+		<nominal>3</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="tools"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
+		<usage name="Medic"/>
+	</type>
+	<type name="TerjeInjectorStomaproxidal">
+		<nominal>3</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="tools"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
+		<usage name="Medic"/>
+	</type>
+	<type name="TerjeInjectorRabinucoline">
+		<nominal>3</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="tools"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
+		<usage name="Medic"/>
+	</type>
+	<type name="TerjeInjectorAmfitalicyne">
+		<nominal>3</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="tools"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
+		<usage name="Medic"/>
+	</type>
+	<type name="TerjeInjectorReanimatal">
+		<nominal>3</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="tools"/>
+		<tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
+		<usage name="Medic"/>
+	</type>
+	<type name="TerjeInjectorZivirol">
+        <nominal>3</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1460</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
+        <usage name="Medic"/>
+    </type>
+    <type name="TerjeInjectorNeirox">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1460</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
+        <usage name="Medic"/>
+    </type>
+    <type name="TerjeInjectorErythropoietin">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1460</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
+        <usage name="Medic"/>
+    </type>
+    <type name="TerjeInjectorNovichek">
+        <nominal>3</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1460</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+		<tag name="civilian"/>
+        <usage name="Medic"/>
+    </type>
 
 	<!-- FireFly Mod -->
 	<type name="SR_Ai2">
