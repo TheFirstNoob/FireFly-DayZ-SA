@@ -634,12 +634,12 @@
         <value name="Tier4"/>
     </type>
 	<type name="TerjeSurgicalKit">
-        <nominal>20</nominal>
+        <nominal>30</nominal>
         <lifetime>7200</lifetime>
         <restock>1460</restock>
-        <min>20</min>
+        <min>30</min>
         <quantmin>20</quantmin>
-        <quantmax>80</quantmax>
+        <quantmax>60</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
@@ -651,13 +651,15 @@
         <usage name="Military"/>
         <usage name="Medic"/>
         <usage name="Firefighter"/>
-		<value name="Tier4"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
     </type>
     <type name="TerjeSurgicalTool_White">
-        <nominal>50</nominal>
+        <nominal>80</nominal>
         <lifetime>7200</lifetime>
         <restock>1460</restock>
-        <min>50</min>
+        <min>80</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -676,10 +678,10 @@
         <value name="Tier3"/>
     </type>
     <type name="TerjeSurgicalTool_Ceramic">
-        <nominal>50</nominal>
+        <nominal>80</nominal>
         <lifetime>7200</lifetime>
         <restock>1460</restock>
-        <min>50</min>
+        <min>80</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
