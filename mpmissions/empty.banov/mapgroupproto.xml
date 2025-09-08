@@ -799,6 +799,7 @@
 						<point pos="2.232056 1.699951 -2.650207" range="0.237500" height="0.593750" flags="16" />
 						<point pos="5.670776 2.291260 -1.893126" range="0.306250" height="0.765625" flags="16" />
 				</container>
+				<!-- TEMP DISABLE
 				<dispatch dechance="1.000000">
 						<proxy type="AmmoBox_9x39AP_20Rnd" pos="-6.450194 2.347341 2.558473" rpy="-90.000000 30.000000 0.000000" dechance="0.125" />
 						<proxy type="AmmoBox_556x45Tracer_20Rnd" pos="-4.966064 2.347341 2.919129" rpy="-90.000000 30.000000 0.000000" dechance="0.125" />
@@ -832,6 +833,7 @@
 						<proxy type="Ammo_40mm_Explosive" 	pos="1.104614 0.062756 -0.793396" rpy="0.000000 0.000000 0.000000" dechance="0.166" />
 						<proxy type="Ammo_40mm_Explosive" 	pos="0.781372 0.082756 -0.982544" rpy="90.000000 140.000000 0.000000" dechance="0.166" />
 				</dispatch>
+				-->
 		</group>
 		<group name="Land_Underground_Storage_Ammo2" lootmax="12">
 				<usage name="Military" />
@@ -861,6 +863,7 @@
 						<point pos="3.496094 1.730652 3.489136" range="0.203125" height="0.507813" flags="16" />
 						<point pos="-2.384521 1.730652 2.166809" range="0.375000" height="0.937500" flags="16" />
 				</container>
+				<!-- TEMP DISABLE
 				<dispatch dechance="1.000000">
 						<proxy type="AmmoBox_338_30Rnd" pos="-6.007690 0.462393 0.721314" rpy="-90.000000 75.000000 0.000000" dechance="0.125" />
 						<proxy type="AmmoBox_408CheyTac_25Rnd" pos="-5.702758 0.462393 1.043152" rpy="-90.000000 120.000000 0.000000" dechance="0.125" />
@@ -896,6 +899,7 @@
 						<proxy type="AmmoBox_300AAC_AP_60Rnd" pos="-0.202758 1.210266 -1.44458" rpy="-90.000000 120.000000 0.000000" dechance="0.066" />
 						<proxy type="AmmoBox_50Beowolf_40Rnd" pos="-0.042846 1.220266 -1.40679" rpy="-90.000000 140.000000 0.000000" dechance="0.066" />
 				</dispatch>
+				-->
 		</group>
 		<group name="Land_Underground_Storage_Hospital" lootmax="15">
 				<usage name="Military" />
