@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
 	<type name="Izh18Shotgun">
-		<nominal>130</nominal>
+		<nominal>100</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>130</min>
+		<min>100</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -23,10 +23,10 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Izh43Shotgun">
-		<nominal>130</nominal>
+		<nominal>80</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>130</min>
+		<min>80</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -74,7 +74,7 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<category name="weapons"/>
 		<tag name="floor"/>
 		<tag name="ground"/>
@@ -85,11 +85,31 @@
 		<value name="Tier3"/>
 		<value name="Tier4"/>
 	</type>
-	<type name="R12">
-        <nominal>18</nominal>
+	<type name="Mp133Shotgun">
+        <nominal>35</nominal>
         <lifetime>7200</lifetime>
         <restock>1460</restock>
-        <min>18</min>
+        <min>35</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <tag name="floor"/>
+		<tag name="ground"/>
+		<usage name="Police"/>
+		<usage name="Coast"/>
+		<usage name="Prison"/>
+		<usage name="Town"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+    </type>
+	<type name="R12">
+        <nominal>15</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1460</restock>
+        <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -99,24 +119,21 @@
 		<tag name="ground"/>
 		<usage name="Military"/>
 		<usage name="Police"/>
-		<usage name="Coast"/>
-		<usage name="Prison"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
-		<value name="Tier4"/>
     </type>
 
 	<!-- Expansion Mod -->
 	<type name="Expansion_DT11">
-		<nominal>22</nominal>
+		<nominal>10</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>22</min>
+		<min>10</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<category name="weapons"/>
 		<tag name="floor"/>
 		<tag name="ground"/>
@@ -128,21 +145,18 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="Expansion_BenelliM4">
-		<nominal>18</nominal>
+		<nominal>10</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>18</min>
+		<min>10</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<category name="weapons"/>
 		<tag name="floor"/>
 		<tag name="ground"/>
 		<usage name="Military"/>
-		<usage name="Police"/>
-		<usage name="Coast"/>
-		<usage name="Prison"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
@@ -151,41 +165,25 @@
 
 	<!-- Panacea Weapons -->
 	<type name="PNC_W_VR80">
-		<nominal>2</nominal>
+		<nominal>0</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>2</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="floor"/>
-		<tag name="ground"/>
-		<usage name="Military"/>
-		<usage name="Police"/>
-		<usage name="Coast"/>
-		<usage name="Industrial"/>
-		<value name="Tier4"/>
-		<value name="Tier5"/>
 	</type>
 	<type name="PNC_W_Origin_12ga">
-		<nominal>2</nominal>
+		<nominal>0</nominal>
 		<lifetime>7200</lifetime>
-		<restock>1460</restock>
-		<min>2</min>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="floor"/>
-		<tag name="ground"/>
-		<usage name="Military"/>
-		<usage name="Police"/>
-		<usage name="Coast"/>
-		<usage name="Industrial"/>
-		<value name="Tier4"/>
-		<value name="Tier5"/>
 	</type>
 </types>
