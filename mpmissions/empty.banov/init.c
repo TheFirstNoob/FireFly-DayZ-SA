@@ -7,7 +7,7 @@ void main()
 		ce.InitOffline();
 
 	int year, month, day, hour, minute;
-	int reset_month = 8, reset_day = 31;
+	int reset_month = 9, reset_day = 9;
 	GetGame().GetWorld().GetDate(year, month, day, hour, minute);
 
 	if ((month == reset_month) && (day < reset_day))
@@ -41,6 +41,12 @@ class CustomMission: MissionServer
 		GetGame().SelectPlayer( identity, m_player );
 
 		return m_player;
+	}
+
+	// Add resistance for cold for fresh players
+	override void StartingEquipSetup(PlayerBase player, bool clothesChosen)
+	{
+		player.SetTemporaryResistanceToAgent(eAgents.INFLUENZA, 900);
 	}
 };
 
