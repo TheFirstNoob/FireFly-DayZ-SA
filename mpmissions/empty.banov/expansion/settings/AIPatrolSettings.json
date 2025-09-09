@@ -1,5 +1,5 @@
 {
-    "m_Version": 24,
+    "m_Version": 25,
     "Enabled": 1,
     "FormationScale": -1.0,
     "DespawnTime": 1800.0,
@@ -14,6 +14,34 @@
     "DamageMultiplier": -1.0,
     "DamageReceivedMultiplier": -1.0,
     "LoadBalancingCategories": {
+        "Example": [
+            {
+                "MinPlayers": 0,
+                "MaxPlayers": 255,
+                "MaxPatrols": -1
+            }
+        ],
+        "Quest": [
+            {
+                "MinPlayers": 0,
+                "MaxPlayers": 255,
+                "MaxPatrols": -1
+            }
+        ],
+        "ObjectPatrol": [
+            {
+                "MinPlayers": 0,
+                "MaxPlayers": 255,
+                "MaxPatrols": 5
+            }
+        ],
+        "HelicopterWreck": [
+            {
+                "MinPlayers": 0,
+                "MaxPlayers": 255,
+                "MaxPatrols": 3
+            }
+        ],
         "Global": [
             {
                 "MinPlayers": 0,
@@ -46,34 +74,6 @@
                 "MaxPatrols": 0
             }
         ],
-        "Example": [
-            {
-                "MinPlayers": 0,
-                "MaxPlayers": 255,
-                "MaxPatrols": -1
-            }
-        ],
-        "Quest": [
-            {
-                "MinPlayers": 0,
-                "MaxPlayers": 255,
-                "MaxPatrols": -1
-            }
-        ],
-        "ObjectPatrol": [
-            {
-                "MinPlayers": 0,
-                "MaxPlayers": 255,
-                "MaxPatrols": 5
-            }
-        ],
-        "HelicopterWreck": [
-            {
-                "MinPlayers": 0,
-                "MaxPlayers": 255,
-                "MaxPatrols": 3
-            }
-        ],
         "ContaminatedArea": [
             {
                 "MinPlayers": 0,
@@ -89,7 +89,7 @@
             }
         ]
     },
-    "ObjectPatrols": [
+    "Patrols": [
         {
             "Name": "Военный - Пилот",
             "Persist": 0,
@@ -120,11 +120,13 @@
             "MinSpreadRadius": 5.0,
             "MaxSpreadRadius": 20.0,
             "Chance": 1.0,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "HelicopterWreck",
-            "ClassName": "Wreck_UH1Y"
+            "ObjectClassName": "Wreck_UH1Y",
+            "WaypointInterpolation": "",
+            "UseRandomWaypointAsStartPoint": 0,
+            "Waypoints": []
         },
         {
             "Name": "Военный - Пилот",
@@ -156,11 +158,13 @@
             "MinSpreadRadius": 5.0,
             "MaxSpreadRadius": 20.0,
             "Chance": 1.0,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "HelicopterWreck",
-            "ClassName": "Wreck_Mi8_Crashed"
+            "ObjectClassName": "Wreck_Mi8_Crashed",
+            "WaypointInterpolation": "",
+            "UseRandomWaypointAsStartPoint": 0,
+            "Waypoints": []
         },
         {
             "Name": "Полицейский",
@@ -192,11 +196,13 @@
             "MinSpreadRadius": 5.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 1.0,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
-            "ClassName": "Land_Wreck_sed01_aban1_police"
+            "ObjectClassName": "Land_Wreck_sed01_aban1_police",
+            "WaypointInterpolation": "",
+            "UseRandomWaypointAsStartPoint": 0,
+            "Waypoints": []
         },
         {
             "Name": "Полицейский",
@@ -228,11 +234,13 @@
             "MinSpreadRadius": 5.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 1.0,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
-            "ClassName": "Land_Wreck_sed01_aban2_police"
+            "ObjectClassName": "Land_Wreck_sed01_aban2_police",
+            "WaypointInterpolation": "",
+            "UseRandomWaypointAsStartPoint": 0,
+            "Waypoints": []
         },
         {
             "Name": "Полицейский",
@@ -264,11 +272,13 @@
             "MinSpreadRadius": 5.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 1.0,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
-            "ClassName": "Land_Wreck_hb01_aban1_police"
+            "ObjectClassName": "Land_Wreck_hb01_aban1_police",
+            "WaypointInterpolation": "",
+            "UseRandomWaypointAsStartPoint": 0,
+            "Waypoints": []
         },
         {
             "Name": "Полицейский",
@@ -300,14 +310,14 @@
             "MinSpreadRadius": 5.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 1.0,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
-            "ClassName": "Land_Wreck_hb01_aban2_police"
-        }
-    ],
-    "Patrols": [
+            "ObjectClassName": "Land_Wreck_hb01_aban2_police",
+            "WaypointInterpolation": "",
+            "UseRandomWaypointAsStartPoint": 0,
+            "Waypoints": []
+        },
         {
             "Name": "",
             "Persist": 0,
@@ -338,10 +348,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 1.0,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -386,10 +397,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 1.0,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -434,10 +446,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 1.0,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -482,10 +495,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 1.0,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -530,10 +544,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 1.0,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -578,10 +593,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 1.0,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -626,10 +642,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 1.0,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -674,10 +691,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 1.0,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -722,10 +740,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 1.0,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -770,10 +789,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 1.0,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -818,10 +838,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 1.0,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -866,10 +887,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -909,10 +931,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -952,10 +975,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -995,10 +1019,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -1038,10 +1063,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -1081,10 +1107,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -1124,10 +1151,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -1167,10 +1195,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -1210,10 +1239,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -1253,10 +1283,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -1296,10 +1327,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -1339,10 +1371,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -1382,10 +1415,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -1425,10 +1459,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -1468,10 +1503,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -1511,10 +1547,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -1554,10 +1591,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -1597,10 +1635,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -1640,10 +1679,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -1683,10 +1723,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -1726,10 +1767,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -1769,10 +1811,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -1812,10 +1855,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -1855,10 +1899,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -1898,10 +1943,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -1941,10 +1987,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -1984,10 +2031,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -2027,10 +2075,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -2070,10 +2119,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -2113,10 +2163,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -2156,10 +2207,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -2199,10 +2251,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -2242,10 +2295,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -2285,10 +2339,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -2328,10 +2383,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -2371,10 +2427,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -2414,10 +2471,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -2457,10 +2515,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -2500,10 +2559,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -2543,10 +2603,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -2586,10 +2647,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -2629,10 +2691,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 1.0,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -2672,10 +2735,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 0.15000000596046449,
-            "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -2715,10 +2779,11 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 5.0,
             "Chance": 0.5,
-            "WaypointInterpolation": "",
             "DespawnTime": 1800.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 0,
             "Waypoints": [
                 [
@@ -2757,11 +2822,12 @@
             "DespawnRadius": 500.0,
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 5.0,
-            "Chance": 0.05,
-            "WaypointInterpolation": "",
+            "Chance": 0.05000000074505806,
             "DespawnTime": 1800.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 0,
             "Waypoints": [
                 [
@@ -2788,29 +2854,30 @@
             "CanBeLooted": 0,
             "UnlimitedReload": 1,
             "SniperProneDistanceThreshold": 0.0,
-            "AccuracyMin": 0.35,
-            "AccuracyMax": 0.55,
+            "AccuracyMin": 0.3499999940395355,
+            "AccuracyMax": 0.550000011920929,
             "ThreatDistanceLimit": 200.0,
             "NoiseInvestigationDistanceLimit": 200.0,
             "DamageMultiplier": 1.0,
-            "DamageReceivedMultiplier": 0.35,
+            "DamageReceivedMultiplier": 0.3499999940395355,
             "CanBeTriggeredByAI": 0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": 500.0,
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 1.0,
-            "Chance": 0.3,
-            "WaypointInterpolation": "",
+            "Chance": 0.30000001192092898,
             "DespawnTime": 1800.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 0,
             "Waypoints": [
                 [
-                    7929.41,
-					351.793,
-					10232.4
+                    7929.41015625,
+                    351.7929992675781,
+                    10232.400390625
                 ]
             ]
         },
@@ -2831,29 +2898,30 @@
             "CanBeLooted": 0,
             "UnlimitedReload": 1,
             "SniperProneDistanceThreshold": 0.0,
-            "AccuracyMin": 0.35,
-            "AccuracyMax": 0.55,
+            "AccuracyMin": 0.3499999940395355,
+            "AccuracyMax": 0.550000011920929,
             "ThreatDistanceLimit": 750.0,
             "NoiseInvestigationDistanceLimit": 450.0,
             "DamageMultiplier": 1.0,
-            "DamageReceivedMultiplier": 0.35,
+            "DamageReceivedMultiplier": 0.3499999940395355,
             "CanBeTriggeredByAI": 0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": 800.0,
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 1.0,
-            "Chance": 0.3,
-            "WaypointInterpolation": "",
+            "Chance": 0.30000001192092898,
             "DespawnTime": 1800.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 0,
             "Waypoints": [
                 [
-                    11694.6,
-					616.625,
-					15040.4
+                    11694.599609375,
+                    616.625,
+                    15040.400390625
                 ]
             ]
         },
@@ -2874,29 +2942,30 @@
             "CanBeLooted": 0,
             "UnlimitedReload": 1,
             "SniperProneDistanceThreshold": 0.0,
-            "AccuracyMin": 0.35,
-            "AccuracyMax": 0.55,
+            "AccuracyMin": 0.3499999940395355,
+            "AccuracyMax": 0.550000011920929,
             "ThreatDistanceLimit": 150.0,
             "NoiseInvestigationDistanceLimit": 150.0,
             "DamageMultiplier": 1.0,
-            "DamageReceivedMultiplier": 0.35,
+            "DamageReceivedMultiplier": 0.3499999940395355,
             "CanBeTriggeredByAI": 0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": 350.0,
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 1.0,
-            "Chance": 0.3,
-            "WaypointInterpolation": "",
+            "Chance": 0.30000001192092898,
             "DespawnTime": 1800.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 0,
             "Waypoints": [
                 [
-                    14117.1,
-					390.167,
-					3816.46
+                    14117.099609375,
+                    390.1669921875,
+                    3816.4599609375
                 ]
             ]
         },
@@ -2917,29 +2986,30 @@
             "CanBeLooted": 0,
             "UnlimitedReload": 1,
             "SniperProneDistanceThreshold": 0.0,
-            "AccuracyMin": 0.35,
-            "AccuracyMax": 0.55,
+            "AccuracyMin": 0.3499999940395355,
+            "AccuracyMax": 0.550000011920929,
             "ThreatDistanceLimit": 750.0,
             "NoiseInvestigationDistanceLimit": 500.0,
             "DamageMultiplier": 1.0,
-            "DamageReceivedMultiplier": 0.35,
+            "DamageReceivedMultiplier": 0.3499999940395355,
             "CanBeTriggeredByAI": 0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": 800.0,
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 1.0,
-            "Chance": 0.3,
-            "WaypointInterpolation": "",
+            "Chance": 0.30000001192092898,
             "DespawnTime": 1800.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 0,
             "Waypoints": [
                 [
-                    592.729,
-					329.495,
-					15173
+                    592.72900390625,
+                    329.4949951171875,
+                    15173.0
                 ]
             ]
         },
@@ -2960,12 +3030,12 @@
             "CanBeLooted": 0,
             "UnlimitedReload": 1,
             "SniperProneDistanceThreshold": 0.0,
-            "AccuracyMin": 0.35,
-            "AccuracyMax": 0.55,
+            "AccuracyMin": 0.3499999940395355,
+            "AccuracyMax": 0.550000011920929,
             "ThreatDistanceLimit": 750.0,
             "NoiseInvestigationDistanceLimit": 500.0,
             "DamageMultiplier": 1.0,
-            "DamageReceivedMultiplier": 0.35,
+            "DamageReceivedMultiplier": 0.3499999940395355,
             "CanBeTriggeredByAI": 0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
@@ -2973,16 +3043,17 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 1.0,
             "Chance": 0.5,
-            "WaypointInterpolation": "",
             "DespawnTime": 1800.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
             "UseRandomWaypointAsStartPoint": 0,
             "Waypoints": [
                 [
-                    11471.6,
-					452.434,
-					11967.1
+                    11471.599609375,
+                    452.4339904785156,
+                    11967.099609375
                 ]
             ]
         }
