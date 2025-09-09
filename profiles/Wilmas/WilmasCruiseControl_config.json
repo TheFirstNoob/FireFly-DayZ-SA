@@ -1,10 +1,13 @@
 {
-    "ConfigVersion": "1.00",
+    "ConfigVersion": "1.02",
     "Vehicles_You_Want_To_Disable_Cruise_Control_On": [
         "ExpansionVehicleHelicopterBase",
         "ExpansionVehiclePlaneBase",
         "ExpansionHelicopterScript",
         "RFMosquito",
         "RFFSHeli_base"
-    ]
+    ],
+    "Allow_Speed_Limiter": 1,
+    "Allow_Cruise_Control": 1,
+    "Send_Message_To_Player_If_Not_Allowed_On_Server": 0
 }

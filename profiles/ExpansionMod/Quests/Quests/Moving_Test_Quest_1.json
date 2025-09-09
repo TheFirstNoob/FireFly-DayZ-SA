@@ -1,0 +1,64 @@
+{
+	"ConfigVersion": 22,
+	"ID": 55551,
+	"Type": 1,
+	"Title": "[ТЕСТ] Бег",
+	"Descriptions": [
+		"1",
+		"2",
+		"3"
+	],
+	"ObjectiveText": "Тестовое описание!",
+	"FollowUpQuest": -1,
+	"Repeatable": 0,
+	"IsDailyQuest": 0,
+	"IsWeeklyQuest": 0,
+	"CancelQuestOnPlayerDeath": 1,
+	"Autocomplete": 0,
+	"IsGroupQuest": 0,
+	"ObjectSetFileName": "",
+	"QuestItems": [],
+	"Rewards": [
+		{
+			"ClassName": "R12",
+			"Amount": 1,
+			"Attachments": [],
+			"DamagePercent": 0,
+			"HealthPercent": 0,
+			"QuestID": -1,
+			"Chance": 1.0
+		}
+	],
+	"NeedToSelectReward": 0,
+	"RandomReward": 0,
+	"RandomRewardAmount": -1,
+	"RewardsForGroupOwnerOnly": 0,
+	"RewardBehavior": 0,
+	"QuestGiverIDs": [
+		555
+	],
+	"QuestTurnInIDs": [
+		555
+	],
+	"IsAchievement": 0,
+	"Objectives": [
+		{
+			"ConfigVersion": 28,
+			"ID": 55555,
+			"ObjectiveType": 3
+		}
+	],
+	"QuestColor": -930200403,
+	"ReputationReward": 0,
+	"ReputationRequirement": 1000,
+	"PreQuestIDs": [],
+	"RequiredFaction": "",
+	"FactionReward": "",
+	"PlayerNeedQuestItems": 1,
+	"DeleteQuestItems": 1,
+	"SequentialObjectives": 1,
+	"FactionReputationRequirements": {},
+	"FactionReputationRewards": {},
+	"SuppressQuestLogOnCompetion": 0,
+	"Active": 1
+}

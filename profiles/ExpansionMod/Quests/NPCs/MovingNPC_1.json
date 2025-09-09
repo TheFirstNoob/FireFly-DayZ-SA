@@ -1,0 +1,39 @@
+{
+	"ConfigVersion": 6,
+	"ID": 555,
+	"ClassName": "ExpansionQuestNPCAIDenis",
+	"Position": [
+		1878.78,
+		230.625,
+		6587.1
+	],
+	"Orientation": [
+		162.0,
+		0.0,
+		0.0
+	],
+	"NPCName": "Тестовый ходячий",
+	"DefaultNPCText": "Текст общения",
+	"Waypoints": [
+		[
+            1878.78,
+			230.625,
+			6587.1
+        ],
+		[
+            2078.22,
+			225.901,
+			6427.12
+        ]
+	],
+	"NPCEmoteID": 46,
+	"NPCEmoteIsStatic": 0,
+	"NPCLoadoutFile": "PoliceLoadout",
+	"NPCInteractionEmoteID": 1,
+	"NPCQuestCancelEmoteID": 60,
+	"NPCQuestStartEmoteID": 58,
+	"NPCQuestCompleteEmoteID": 39,
+	"NPCFaction": "Guards",
+	"NPCType": 2,
+	"Active": 1
+}
