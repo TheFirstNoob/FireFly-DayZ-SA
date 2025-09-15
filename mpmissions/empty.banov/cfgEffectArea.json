@@ -1,5 +1,53 @@
 {
     "Areas": [
+		{ 	"AreaName": "Cluster1Geyser1", 
+			"Type": "GeyserArea", 
+			"TriggerType": "GeyserTrigger",
+			"Data": { 
+				"Pos": [ 13757.646484, 0, 9168.047852 ],
+				"Radius": 2,
+				"PosHeight": 20,
+				"NegHeight": 5,
+				"EffectInterval": 600,
+				"EffectDuration": 180
+				}
+		},
+		{ 	"AreaName": "Cluster1Geyser2", 
+			"Type": "GeyserArea", 
+			"TriggerType": "GeyserTrigger",
+			"Data": { 
+				"Pos": [ 13869.593750, 0, 9182.760742 ],
+				"Radius": 2,
+				"PosHeight": 20,
+				"NegHeight": 5,
+				"EffectInterval": 300,
+				"EffectDuration": 90
+				}
+		},
+		{ 	"AreaName": "BanovLand", 
+			"Type": "GeyserArea", 
+			"TriggerType": "GeyserTrigger",
+			"Data": { 
+				"Pos": [ 7043.138184, 0, 12006.588867 ],
+				"Radius": 2,
+				"PosHeight": 20,
+				"NegHeight": 5,
+				"EffectInterval": 300,
+				"EffectDuration": 90
+				}
+		},
+				{ 	"AreaName": "BanovLand2", 
+			"Type": "GeyserArea", 
+			"TriggerType": "GeyserTrigger",
+			"Data": { 
+				"Pos": [ 7025.555176, 0, 12030.474609 ],
+				"Radius": 2,
+				"PosHeight": 20,
+				"NegHeight": 5,
+				"EffectInterval": 300,
+				"EffectDuration": 90
+		}		
+		},
         { 	"AreaName": "Area01", 
 			"Type": "ContaminatedArea_Static", 
 			"TriggerType": "ContaminatedTrigger",
