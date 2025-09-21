@@ -660,8 +660,8 @@
         "AttackPlayersUnconsciousHandlerIsActive": {
             "all": 0
         },
-        "AttackPlayersUnconsciousHitsLimit": {
-            "all": 5.0
+        "AttackPlayersUnconsciousHealthDamageLimit": {
+            "all": 20.0
         },
         "AttackAnimalsHandlerIsActive": {
             "all": 0,
@@ -828,6 +828,48 @@
             "Nbc": 1.0,
             "MedicAndPatientWoman": 40.0,
             "CivilianOldMan": 10.0
+        },
+        "SmellsDisableVanillaIrritationSound": {
+            "all": 0
+        },
+        "LongVisionHandlerIsActive": {
+            "all": 1
+        },
+        "LongVisionMetersInSearchModeDay": {
+            "all": 120.0
+        },
+        "LongVisionMetersInSearchModeNight": {
+            "all": 0.0
+        },
+        "LongVisionMetersInCalmModeDay": {
+            "all": 0.0
+        },
+        "LongVisionMetersInCalmModeNight": {
+            "all": 0.0
+        },
+        "LongVisionVisualAcuityInSearchModeDay": {
+            "all": 1.0
+        },
+        "LongVisionVisualAcuityInSearchModeNight": {
+            "all": 1.0
+        },
+        "LongVisionVisualAcuityInCalmModeDay": {
+            "all": 0.10000000149011612
+        },
+        "LongVisionVisualAcuityInCalmModeNight": {
+            "all": 0.10000000149011612
+        },
+        "LongVisionPersistAfterIrritationSeconds": {
+            "all": 300.0
+        },
+        "LongVisionAllowIgnoreWeather": {
+            "all": 0
+        },
+        "ReturnToSpawnHandlerIsActive": {
+            "all": 1
+        },
+        "ReturnToSpawnRadiusMeters": {
+            "all": 80.0
         },
         "UpJumpHandlerIsActive": {
             "all": 1,
@@ -1835,7 +1877,7 @@
             "all": 1
         },
         "PainToPlayerHeadMultiplier": {
-            "all": 0.4
+            "all": 0.4000000059604645
         },
         "PainToPlayerHeadInBlockMultiplier": {
             "all": 0.0
@@ -2012,6 +2054,18 @@
         "DamageToZombieShockToStunCumulativeDamageTimeFrameSeconds": {
             "all": 0.10000000149011612
         },
+        "DamageToZombieShockToStunIgnoreMeleeHitChancePercent": {
+            "all": 10.0
+        },
+        "DamageToZombieShockToStunIgnoreRangedHitChancePercent": {
+            "all": 10.0
+        },
+        "DamageToZombieShockToStunImmunityAfterMeleeHitSeconds": {
+            "all": 4.0
+        },
+        "DamageToZombieShockToStunImmunityAfterRangedHitSeconds": {
+            "all": 4.0
+        },
         "DamageToZombieWeaponsMultipliers": {
             "all": {
                 "all": 1.0
@@ -2098,7 +2152,7 @@
         },
         "RespawnInCrawlingChancePercent": {
             "all": 12.0,
-			"AlienQueen": 0
+            "AlienQueen": 0.0
         },
         "ScreamHandlerIsActive": {
             "Police": 0,
@@ -2344,6 +2398,9 @@
     },
     "Players": {
         "SmellsHandlerIsActive": 1,
+        "SmellRadiusDefault": 1.0,
+        "SmellRadiusWounded": 6.0,
+        "SmellRadiusBandaged": 3.0,
         "SmellLifetimeSeconds": 60.0,
         "SmellsCountOnMapLimit": 500,
         "FootstepsNoiseHandlerIsActive": 1,
@@ -2404,6 +2461,7 @@
         "TinnitusWhenHeadReceivingHits": 1,
         "BlurWhenHeadReceivingHits": 1,
         "SoundAttenuationWhenHeadReceivingHits": 1,
+        "WeaponSwayWhenHeadReceivingHits": 1,
         "MovementCoordinationImpairmentWhenHeadReceivingHits": 1,
         "PainArmsWhenHitWithoutGloves": 1,
         "ShockIfRunsWithPainedLegs": 1,
@@ -2418,6 +2476,7 @@
         "LimbsBreakFromFalls": 1,
         "LegsBreakFromTraps": 1,
         "UnconsciousWhenHeadBreak": 0,
+        "DisableVanillaBrokenLegWalk": 1,
         "LimbsDeepWoundSystemIsActive": 0,
         "HeadDeepWoundDurationSeconds": 1800.0,
         "ArmsDeepWoundDurationSeconds": 1800.0,
@@ -2467,6 +2526,7 @@
     "LightInHouseMultiplier": 0.30000001192092898,
     "SoundInHouseMultiplier": 0.30000001192092898,
     "SuppressorShotCooldownSeconds": 5.0,
+    "SuppressorShotOverfireDistanceMeters": 80.0,
     "BloodParticlesLimit": 250.0,
     "BloodParticleDurationSeconds": 180.0,
     "SaveConfigAfterInit": 1
