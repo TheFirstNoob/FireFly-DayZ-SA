@@ -2,25 +2,14 @@
 <types>
 	<!-- Tactical Flava Mod -->
 	<type name="TF_AEK999">
-		<nominal>0</nominal>
+		<nominal>1</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-	</type>
-	<type name="TF_M240">
-		<nominal>3</nominal>
-		<lifetime>7200</lifetime>
-		<restock>1460</restock>
-		<min>3</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
 		<category name="weapons"/>
 		<tag name="floor"/>
 		<tag name="ground"/>
@@ -35,6 +24,25 @@
 		<usage name="ContaminatedArea"/>
 		<value name="Tier5"/>
 	</type>
+	<type name="TF_M240">
+		<nominal>3</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>3</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+        <tag name="shelves"/>
+		<tag name="civilian"/>
+		<usage name="Military"/>
+		<usage name="Coast"/>
+		<value name="Tier4"/>
+		<value name="Tier5"/>
+	</type>
 	<type name="TF_M249">
 		<nominal>8</nominal>
 		<lifetime>7200</lifetime>
@@ -43,7 +51,7 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
 		<category name="weapons"/>
 		<tag name="floor"/>
 		<tag name="ground"/>
@@ -51,12 +59,76 @@
 		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Coast"/>
+		<usage name="Prison"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
 		<value name="Tier4"/>
 	</type>
 	<type name="TF_PKM">
+		<nominal>4</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>4</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
+		<category name="weapons"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+        <tag name="shelves"/>
+		<tag name="civilian"/>
+		<usage name="Military"/>
+		<usage name="Coast"/>
+		<value name="Tier4"/>
+		<value name="Tier5"/>
+	</type>
+	<type name="TF_PKP">
+		<nominal>4</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>4</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
+		<category name="weapons"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+        <tag name="shelves"/>
+		<tag name="civilian"/>
+		<usage name="Military"/>
+		<usage name="Coast"/>
+		<value name="Tier4"/>
+		<value name="Tier5"/>
+	</type>
+
+	<!-- Panacea Weapons -->
+	<type name="PNC_W_PKP">
+		<nominal>1</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+        <tag name="shelves"/>
+		<tag name="civilian"/>
+		<usage name="Underground"/>
+		<usage name="Medic"/>
+		<usage name="Military"/>
+		<usage name="Police"/>
+		<usage name="Industrial"/>
+		<usage name="Village"/>
+		<usage name="ContaminatedArea"/>
+		<value name="Tier5"/>
+	</type>
+	<type name="PNC_W_M60">
 		<nominal>3</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
@@ -64,7 +136,7 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="floor"/>
 		<tag name="ground"/>
@@ -77,74 +149,15 @@
 		<value name="Tier3"/>
 		<value name="Tier4"/>
 	</type>
-	<type name="TF_PKP">
-		<nominal>4</nominal>
+	<type name="PNC_W_RPK16_Black">
+		<nominal>35</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>4</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-		<category name="weapons"/>
-		<tag name="floor"/>
-		<tag name="ground"/>
-        <tag name="shelves"/>
-		<tag name="civilian"/>
-		<usage name="Underground"/>
-		<usage name="Medic"/>
-		<usage name="Military"/>
-		<usage name="Police"/>
-		<usage name="Industrial"/>
-		<usage name="Village"/>
-		<usage name="ContaminatedArea"/>
-		<value name="Tier5"/>
-	</type>
-
-	<!-- Panacea Weapons -->
-	<type name="PNC_W_PKP">
-		<nominal>0</nominal>
-		<lifetime>7200</lifetime>
-		<restock>0</restock>
-		<min>0</min>
+		<min>35</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-	</type>
-	<type name="PNC_W_M60">
-		<nominal>3</nominal>
-		<lifetime>7200</lifetime>
-		<restock>1460</restock>
-		<min>3</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-		<category name="weapons"/>
-		<tag name="floor"/>
-		<tag name="ground"/>
-        <tag name="shelves"/>
-		<tag name="civilian"/>
-		<usage name="Underground"/>
-		<usage name="Medic"/>
-		<usage name="Military"/>
-		<usage name="Police"/>
-		<usage name="Industrial"/>
-		<usage name="Village"/>
-		<usage name="ContaminatedArea"/>
-		<value name="Tier5"/>
-	</type>
-	<type name="PNC_W_RPK16_Black">
-		<nominal>15</nominal>
-		<lifetime>7200</lifetime>
-		<restock>1460</restock>
-		<min>15</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<category name="weapons"/>
 		<tag name="floor"/>
 		<tag name="ground"/>
@@ -152,6 +165,7 @@
 		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Coast"/>
+		<usage name="Prison"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>

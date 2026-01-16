@@ -1,19 +1,20 @@
 {
-	"m_Version": 12,
-	"DisplayName": "Торговец провизией",
-	"MinRequiredReputation": 8000,
-	"MaxRequiredReputation": 12000,
-	"RequiredFaction": "",
-	"RequiredCompletedQuestID": -1,
-	"TraderIcon": "Can Of Beans Big",
-	"Currencies": [
-		"expansionbanknotehryvnia"
-	],
-	"DisplayCurrencyValue": 1,
-	"DisplayCurrencyName": "",
-	"Categories": [
-		"New_Barmen_Drinks",
-		"New_Barmen_Foods"
-	],
-	"Items": {}
+    "m_Version": 13,
+    "DisplayName": "Торговец провизией",
+    "MinRequiredReputation": 8000,
+    "MaxRequiredReputation": 12000,
+    "RequiredFaction": "",
+    "RequiredCompletedQuestID": -1,
+    "TraderIcon": "Can Of Beans Big",
+    "Currencies": [
+        "expansionbanknotehryvnia"
+    ],
+    "DisplayCurrencyValue": 1,
+    "DisplayCurrencyName": "",
+    "UseCategoryOrder": 0,
+    "Categories": [
+        "New_Barmen_Drinks",
+        "New_Barmen_Foods"
+    ],
+    "Items": {}
 }

@@ -1,24 +1,25 @@
 {
-	"m_Version": 12,
-	"DisplayName": "Компоненты для строительства",
-	"MinRequiredReputation": 0,
-	"MaxRequiredReputation": 12000,
-	"RequiredFaction": "",
-	"RequiredCompletedQuestID": -1,
-	"TraderIcon": "Nails",
-	"Currencies": [
-		"expansionbanknotehryvnia"
-	],
-	"DisplayCurrencyValue": 1,
-	"DisplayCurrencyName": "",
-	"Categories": [
-		"New_Tools",
-		"Supplies",
-		"Locks",
-		"Containers",
-		"Tents",
-		"Electronics",
-		"Lights"
-	],
-	"Items": {}
+    "m_Version": 13,
+    "DisplayName": "Компоненты для строительства",
+    "MinRequiredReputation": 0,
+    "MaxRequiredReputation": 12000,
+    "RequiredFaction": "",
+    "RequiredCompletedQuestID": -1,
+    "TraderIcon": "Nails",
+    "Currencies": [
+        "expansionbanknotehryvnia"
+    ],
+    "DisplayCurrencyValue": 1,
+    "DisplayCurrencyName": "",
+    "UseCategoryOrder": 0,
+    "Categories": [
+        "New_Tools",
+        "Supplies",
+        "Locks",
+        "Containers",
+        "Tents",
+        "Electronics",
+        "Lights"
+    ],
+    "Items": {}
 }

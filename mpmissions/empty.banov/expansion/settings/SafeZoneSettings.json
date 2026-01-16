@@ -1,8 +1,16 @@
 {
 	"m_Version": 11,
 	"Enabled": 1,
-	"FrameRateCheckSafeZoneInMs": 250,
+	"FrameRateCheckSafeZoneInMs": 500,
 	"CircleZones": [
+		{
+			"Center": [
+				5904.990234375,
+				300.0690002441406,
+				8167.85986328125
+			],
+			"Radius": 125.0
+		},
 		{
 			"Center": [
 				3107.679931640625,
@@ -36,23 +44,10 @@
 			"Radius": 75.0
 		}
 	],
-	"PolygonZones": [
-		[
-			5737.21, 282.568, 8030.07
-        ],
-        [
-			5844.71, 287.148, 8018
-        ],
-        [
-			6001.2, 304.801, 8189.52
-        ],
-        [
-			5973.1, 301.552, 8268.5
-        ]
-	],
+	"PolygonZones": [],
 	"CylinderZones": [],
 	"ActorsPerTick": 5,
-	"DisablePlayerCollision": 1,
+	"DisablePlayerCollision": 0,
 	"DisableVehicleDamageInSafeZone": 1,
 	"EnableForceSZCleanup": 1,
 	"ItemLifetimeInSafeZone": 900.0,

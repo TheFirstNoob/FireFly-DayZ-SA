@@ -1,18 +1,19 @@
 {
-	"m_Version": 12,
-	"DisplayName": "Ивентовый торговец",
-	"MinRequiredReputation": 0,
-	"MaxRequiredReputation": 12000,
-	"RequiredFaction": "",
-	"RequiredCompletedQuestID": -1,
-	"TraderIcon": "Questionmark",
-	"Currencies": [
-		"expansionbanknotehryvnia"
-	],
-	"DisplayCurrencyValue": 1,
-	"DisplayCurrencyName": "",
-	"Categories": [
-		"Event"
-	],
-	"Items": {}
+    "m_Version": 13,
+    "DisplayName": "Ивентовый торговец",
+    "MinRequiredReputation": 0,
+    "MaxRequiredReputation": 12000,
+    "RequiredFaction": "",
+    "RequiredCompletedQuestID": -1,
+    "TraderIcon": "Questionmark",
+    "Currencies": [
+        "expansionbanknotehryvnia"
+    ],
+    "DisplayCurrencyValue": 1,
+    "DisplayCurrencyName": "",
+    "UseCategoryOrder": 0,
+    "Categories": [
+        "Event"
+    ],
+    "Items": {}
 }

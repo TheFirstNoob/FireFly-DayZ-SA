@@ -1,21 +1,22 @@
 {
-	"m_Version": 12,
-	"DisplayName": "Коллекционер",
-	"MinRequiredReputation": 0,
-	"MaxRequiredReputation": 12000,
-	"RequiredFaction": "",
-	"RequiredCompletedQuestID": -1,
-	"TraderIcon": "Book 1",
-	"Currencies": [
-		"expansionbanknotehryvnia"
-	],
-	"DisplayCurrencyValue": 1,
-	"DisplayCurrencyName": "",
-	"Categories": [
-		"New_Collector_Book:2",
-		"New_Collector_Book_2:2",
-		"New_Collector_Book_3:2",
-		"New_Collector_Other:2"
-	],
-	"Items": {}
+    "m_Version": 13,
+    "DisplayName": "Коллекционер",
+    "MinRequiredReputation": 0,
+    "MaxRequiredReputation": 12000,
+    "RequiredFaction": "",
+    "RequiredCompletedQuestID": -1,
+    "TraderIcon": "Book 1",
+    "Currencies": [
+        "expansionbanknotehryvnia"
+    ],
+    "DisplayCurrencyValue": 1,
+    "DisplayCurrencyName": "",
+    "UseCategoryOrder": 0,
+    "Categories": [
+        "New_Collector_Book:2",
+        "New_Collector_Book_2:2",
+        "New_Collector_Book_3:2",
+        "New_Collector_Other:2"
+    ],
+    "Items": {}
 }

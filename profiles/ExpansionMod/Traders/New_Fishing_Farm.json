@@ -1,23 +1,23 @@
 {
-	"m_Version": 12,
-	"DisplayName": "Торговец природными богатствами",
-	"MinRequiredReputation": 0,
-	"MaxRequiredReputation": 12000,
-	"RequiredFaction": "",
-	"RequiredCompletedQuestID": -1,
-	"TraderIcon": "Fishing",
-	"Currencies": [
-		"expansionbanknotehryvnia"
-	],
-	"DisplayCurrencyValue": 1,
-	"DisplayCurrencyName": "",
-	"Categories": [
-		"New_Hunter_Fishing",
-		"New_Hunter_Gardening",
-		"New_Hunter_Meats:2",
-		"New_Hunter_Fishs:2",
-		"New_Hunter_Pelts:2"
-	],
-	"Items": {
-	}
+    "m_Version": 13,
+    "DisplayName": "Торговец природными богатствами",
+    "MinRequiredReputation": 0,
+    "MaxRequiredReputation": 12000,
+    "RequiredFaction": "",
+    "RequiredCompletedQuestID": -1,
+    "TraderIcon": "Fishing",
+    "Currencies": [
+        "expansionbanknotehryvnia"
+    ],
+    "DisplayCurrencyValue": 1,
+    "DisplayCurrencyName": "",
+    "UseCategoryOrder": 0,
+    "Categories": [
+        "New_Hunter_Fishing",
+        "New_Hunter_Gardening",
+        "New_Hunter_Meats:2",
+        "New_Hunter_Fishs:2",
+        "New_Hunter_Pelts:2"
+    ],
+    "Items": {}
 }

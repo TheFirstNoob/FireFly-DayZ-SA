@@ -1,32 +1,33 @@
 {
-	"m_Version": 12,
-	"DisplayName": "Строитель",
-	"MinRequiredReputation": 0,
-	"MaxRequiredReputation": 12000,
-	"RequiredFaction": "",
-	"RequiredCompletedQuestID": -1,
-	"TraderIcon": "Hammer",
-	"Currencies": [
-		"expansionbanknotehryvnia"
-	],
-	"DisplayCurrencyValue": 1,
-	"DisplayCurrencyName": "",
-	"Categories": [
-		"Supplies",
-		"Locks",
-		"Containers",
-		"Tents",
-		"Furnishings",
-		"MSP_test",
-		"MSP_Deco_test",
-		"MSP_BuildKits_test",
-		"MSP_Preview_test:2"
-	],
-	"Items": {
-		"barrel_blue": 2,
-		"barrel_green": 2,
-		"barrel_red": 2,
-		"barrel_yellow": 2,
-		"seachest": 2
-	}
+    "m_Version": 13,
+    "DisplayName": "Строитель",
+    "MinRequiredReputation": 0,
+    "MaxRequiredReputation": 12000,
+    "RequiredFaction": "",
+    "RequiredCompletedQuestID": -1,
+    "TraderIcon": "Hammer",
+    "Currencies": [
+        "expansionbanknotehryvnia"
+    ],
+    "DisplayCurrencyValue": 1,
+    "DisplayCurrencyName": "",
+    "UseCategoryOrder": 0,
+    "Categories": [
+        "Supplies",
+        "Locks",
+        "Containers",
+        "Tents",
+        "Furnishings",
+        "MSP_test",
+        "MSP_Deco_test",
+        "MSP_BuildKits_test",
+        "MSP_Preview_test:2"
+    ],
+    "Items": {
+        "seachest": 2,
+        "barrel_green": 2,
+        "barrel_blue": 2,
+        "barrel_red": 2,
+        "barrel_yellow": 2
+    }
 }
