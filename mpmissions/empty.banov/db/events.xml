@@ -35,23 +35,23 @@
 			<child lootmax="15" lootmin="10" max="1" min="1" type="YRTSK_UFO_Crash"/>
 		 </children>
 	</event>
-	<event name="StaticAmbulanceCar">
-		<nominal>4</nominal>
-		<min>2</min>
-		<max>5</max>
-		<lifetime>1800</lifetime>
-		<restock>0</restock>
-		<saferadius>500</saferadius>
-		<distanceradius>500</distanceradius>
-		<cleanupradius>500</cleanupradius>
-		<secondary>InfectedMedic</secondary>
-		<flags deletable="1" init_random="0" remove_damaged="0"/>
-		<position>fixed</position>
-		<limit>custom</limit>
-		<active>1</active>
-		<children>
-			<child lootmax="3" lootmin="2" max="1" min="1" type="ambulancia_crash"/>
-		 </children>
+	<event name="StaticAmbulance">
+        <nominal>10</nominal>
+        <min>8</min>
+        <max>10</max>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <saferadius>200</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>500</cleanupradius>
+        <secondary>InfectedMedic</secondary>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="8" lootmin="5" max="10" min="10" type="Land_Wreck_S1023_Medic_Beige_DE"/>
+        </children>
 	</event>
 	<event name="InfectedAlien">
 		<nominal>20</nominal>
