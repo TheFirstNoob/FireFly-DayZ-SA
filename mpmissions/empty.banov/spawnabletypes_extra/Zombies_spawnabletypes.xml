@@ -4,8 +4,29 @@
 	<!--START OF ZOMBIES  -->
 	<!--NBC-->
 	<type name="ZmbM_NBC_Grey">
+		<cargo preset="ContaminatedCargo" />
+		<cargo chance="0.03">
+			<item name="AntiChemInjector" chance="1.0" />
+		</cargo>
 	</type>
 	<type name="ZmbM_NBC_Yellow">
+		<cargo preset="ContaminatedCargo" />
+		<cargo chance="0.03">
+			<item name="AntiChemInjector" chance="1.0" />
+		</cargo>
+	</type>
+	<type name="ZmbM_NBC_White">
+		<cargo preset="ContaminatedCargo" />
+		<cargo chance="0.03">
+			<item name="AntiChemInjector" chance="1.0" />
+		</cargo>
+	</type>
+	<type name="Captain_Alien">
+		<cargo preset="foodCity" />
+		<cargo chance="1.0">
+			<item name="CatFoodCan" chance="1.0" />
+			<item name="DogFoodCan" chance="1.0" />
+		</cargo>
 	</type>
 	<!--ARMY-->
 	<type name="ZmbM_PatrolNormal_Autumn">
@@ -57,14 +78,12 @@
 		<attachments preset="vestsArmy" />
 	</type>
 	<type name="ZmbM_usSoldier_Officer_Desert">
-		<cargo preset="foodArmy" />	
-		<cargo preset="ammoArmy" />	
+		<cargo preset="foodArmy" />		
 		<attachments preset="headtorches" />
 		<attachments preset="OfficerHatArmy" />
 	</type>
 	<type name="ZmbM_usSoldier_Heavy_Woodland">
-		<cargo preset="foodArmy" />	
-		<cargo preset="ammoArmy" />	
+		<cargo preset="foodArmy" />		
 		<attachments preset="HeavyArmorArmy" />
 		<attachments preset="HeavyHelmetArmy" />
 	</type>
@@ -700,7 +719,8 @@
 		<cargo preset="toolsPolice" />
 		<cargo preset="ammoPolice" />
 		<cargo chance="0.30">
-			<item name="Mag_SSG82_5rnd" chance="0.50" />		
+			<item name="Mag_SSG82_5rnd" chance="0.50" />
+			<item name="Mag_Scout_5Rnd" chance="0.50" />			
 		</cargo>
 		<attachments preset="hatsPolice" />
 	</type>
@@ -709,6 +729,7 @@
 		<cargo preset="ammoPolice" />
 		<cargo chance="0.30">
 			<item name="Mag_SSG82_5rnd" chance="0.50" />
+			<item name="Mag_Scout_5Rnd" chance="0.50" />
 		</cargo>
 		<attachments preset="hatsPolice" />
 		<attachments preset="vestsPolice" />
@@ -947,9 +968,6 @@
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
 		<attachments preset="hatsFarm" />
-	</type>
-	<type name="ZmbM_NBC_White">	
-		<cargo preset="foodVillage" />
 	</type>
 	<!-- Special -->
 	<type name="ZmbM_Santa">
