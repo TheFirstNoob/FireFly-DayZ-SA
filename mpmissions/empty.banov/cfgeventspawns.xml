@@ -98,7 +98,7 @@
 		<pos x="2873.03"  z="4448.56" a="0"/>
 		<pos x="1177.39"  z="5879.39" a="0"/>
   </event>
-      <event name="StaticBonfire">	<!-- StaticSantaCrash We temp use this for Bonfire...-->
+      <event name="StaticSantaCrash">	<!-- StaticSantaCrash We temp use this for StaticBonfire...-->
 		<zone smin="2" smax="3" dmin="3" dmax="5" r="45" />
 		<pos x="4667.17" z="4218.25" a="1.8"/>
 		<pos x="5686.05" z="5086.91" a="1.8"/>
@@ -205,7 +205,7 @@
 		<pos x="4407.08" y="241.584" z="11946.9" a="167.445"/>
 		<pos x="6748.28" y="245.708" z="5469.34" a="-34.987"/>
   </event>
-  <event name="StaticAmbulanceCar">
+  <event name="StaticAmbulance">
 		<zone smin="1" smax="1" dmin="1" dmax="2" r="45" />
 		<pos x="1828.34" z="8558.18" a="-166.791"/>
 		<pos x="472.277" z="11840.8" a="-46.4476"/>
@@ -365,7 +365,7 @@
     <event name="Loot" />
 	
 	<!-- Mining (Old coords will be changed later) -->
-	<event name="ItemMiningSpawn1">
+	<!-- <event name="ItemMiningSpawn1">
 		<pos x="11947.7" y="347.609" z="2301.7" a="0"/>
 		<pos x="11900" y="345.014" z="2025.58" a="0"/>
 		<pos x="11678.6" y="367.58" z="2189.64" a="0"/>
@@ -450,6 +450,7 @@
 		<pos x="9043.67" y="224.016" z="825.123" a="0"/>
 		<pos x="11811.9" y="351.392" z="9058.74" a="0"/>
 	</event>
+	-->
 	
   <event name="Vehicle_Spawn">
 		<pos x="6890.17" y="222.401" z="3688.1" a="-75.92"/>
@@ -649,18 +650,10 @@
 		<pos x="7341.69" z="8901.82" a="0" y="310.411" group="Lutovmily"/>
 		<pos x="8579.79" z="11653.1" a="0" y="474.62"  group="KopecMilyCamp"/>
 		<pos x="5404.74" z="14481.1" a="0" y="272.391" group="Slatinamilyattack"/>
-		<pos x="5793.8" z="11474.5" a="0" y="362.248"  group="Kopecmilykonvoj"/>
+		<pos x="5746.61" z="12509.4" a="0" y="343.442" group="EaglesConvoy"/>
 		<pos x="1139.95" z="6359.87" a="0" y="268.897" group="DeltaEvakuvacia"/>
 		<pos x="4946.49" z="5580.75" a="0" y="208.111" group="PodluzanyEvakuvacia"/>
 		<pos x="12572.8" z="10014.3" a="0" y="332.136" group="Radisamily"/>
-	</event>
-	<event name="StaticPoliceSituation">
-		<zone smin="0" smax="0" dmin="1" dmax="1" r="20" />
-		<pos x="8639.61" z="6005.53" a="0" y="242.192" group="PoliceDubnicka"/>
-		<pos x="5097.06" z="10082.7" a="0" y="224.985" group="PoliceTimo"/>
-		<pos x="15170.4" z="3161.92" a="0" y="516.006" group="Policeforest"/>
-		<pos x="10568.1" z="3845.92" a="0" y="235.598" group="PoliceUh"/>
-		<pos x="11034.6" z="7233.59" a="0" y="362.075" group="PolicePole"/>
 	</event>
 
     <event name="InfectedVillage" />
