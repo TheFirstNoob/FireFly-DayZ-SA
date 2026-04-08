@@ -1,0 +1,23 @@
+{
+    "ConfigVersion": 1,
+    "DebugMode": 0,
+    "UseElectric": 0,
+    "PowerCost": 0.5,
+    "WorkbenchesClassnames": [
+        "HP_Crafter"
+    ],
+    "ExperiencePerItem": {
+        "WoodenStick": 0.5,
+        "Nail": 0.800000011920929,
+        "Stone": 1.0,
+        "MetalPlate": 2.0,
+        "WoodenLog": 1.5
+    },
+    "DefaultExperienceItem": 1.0,
+    "ResourceSaverReturnMultiplier": 1.5,
+    "MaxBulkCraftQty": 25,
+    "DisassembleBaseHealthLoss": 0.15000000596046449,
+    "DisassembleFailHealthLoss": 0.15000000596046449,
+    "DisassembleBaseYield": 0.5,
+    "CraftBaseLossOnFail": 0.30000001192092898
+}

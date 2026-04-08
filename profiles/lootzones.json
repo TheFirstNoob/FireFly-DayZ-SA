@@ -1,0 +1,59 @@
+{
+    "zones": [
+        {
+            "zoneName": "LootZone_Tier1",
+            "classNames": [
+                {
+                    "className": "Apple",
+                    "minQuantity": 1,
+                    "maxQuantity": 3,
+                    "weight": 4.0,
+                    "attachments": []
+                },
+                {
+                    "className": "M4A1",
+                    "minQuantity": 1,
+                    "maxQuantity": 1,
+                    "weight": 1.0,
+                    "attachments": [
+                        "ACOGOptic",
+                        "M4_Suppressor"
+                    ]
+                },
+                {
+                    "className": "XmasLights",
+                    "minQuantity": 1,
+                    "maxQuantity": 1,
+                    "weight": 2.0,
+                    "attachments": []
+                }
+            ],
+            "dropChance": 1.0,
+            "maxItems": 2,
+            "itemHealth": 100
+        },
+        {
+            "zoneName": "LootZone_Tier2",
+            "classNames": [
+                {
+                    "className": "Banana",
+                    "minQuantity": 1,
+                    "maxQuantity": 2,
+                    "weight": 3.0,
+                    "attachments": []
+                },
+                {
+                    "className": "BandageDressing",
+                    "minQuantity": 1,
+                    "maxQuantity": 1,
+                    "weight": 1.5,
+                    "attachments": []
+                }
+            ],
+            "dropChance": 0.800000011920929,
+            "maxItems": 3,
+            "itemHealth": 80
+        }
+    ],
+    "zoneWeightCache": {}
+}

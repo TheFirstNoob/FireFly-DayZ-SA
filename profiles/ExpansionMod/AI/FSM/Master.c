@@ -645,6 +645,14 @@ class Expansion_Master_Idle_State_0: eAIState_Idle {
 		m_Name = "Idle";
 	}
 }
+class Expansion_Master_Dormant_State_0: eAIState_Dormant {
+	Expansion_Master_FSM_0 fsm;
+	void Expansion_Master_Dormant_State_0(ExpansionFSM _fsm) {
+		Class.CastTo(fsm, _fsm);
+		m_ClassName = "Expansion_Master_Dormant_State_0";
+		m_Name = "Dormant";
+	}
+}
 class Expansion_Master_Unconscious_State_0: eAIState_Unconscious {
 	Expansion_Master_FSM_0 fsm;
 	void Expansion_Master_Unconscious_State_0(ExpansionFSM _fsm) {
@@ -2310,6 +2318,74 @@ class Expansion_Master_Flank_Idle_Transition_0: eAITransition {
 	override ExpansionState GetDestination() { return dst; }
 	override string GetEvent() { return ""; }
 }
+class Expansion_Master_Idle_Dormant_Transition_0: eAITransition {
+	private Expansion_Master_Idle_State_0 src;
+	private Expansion_Master_Dormant_State_0 dst;
+	Expansion_Master_FSM_0 fsm;
+	void Expansion_Master_Idle_Dormant_Transition_0(ExpansionFSM _fsm) {
+		Class.CastTo(fsm, _fsm);
+		m_ClassName = "Expansion_Master_Idle_Dormant_Transition_0";
+		Class.CastTo(src, _fsm.GetState("Expansion_Master_Idle_State_0"));
+		Class.CastTo(dst, _fsm.GetState("Expansion_Master_Dormant_State_0"));
+	}
+	override int Guard() {
+		return dst.Guard();
+	}
+	override ExpansionState GetSource() { return src; }
+	override ExpansionState GetDestination() { return dst; }
+	override string GetEvent() { return ""; }
+}
+class Expansion_Master_TraversingWaypoints_Dormant_Transition_0: eAITransition {
+	private Expansion_Master_TraversingWaypoints_State_0 src;
+	private Expansion_Master_Dormant_State_0 dst;
+	Expansion_Master_FSM_0 fsm;
+	void Expansion_Master_TraversingWaypoints_Dormant_Transition_0(ExpansionFSM _fsm) {
+		Class.CastTo(fsm, _fsm);
+		m_ClassName = "Expansion_Master_TraversingWaypoints_Dormant_Transition_0";
+		Class.CastTo(src, _fsm.GetState("Expansion_Master_TraversingWaypoints_State_0"));
+		Class.CastTo(dst, _fsm.GetState("Expansion_Master_Dormant_State_0"));
+	}
+	override int Guard() {
+		return dst.Guard();
+	}
+	override ExpansionState GetSource() { return src; }
+	override ExpansionState GetDestination() { return dst; }
+	override string GetEvent() { return ""; }
+}
+class Expansion_Master_FollowFormation_Dormant_Transition_0: eAITransition {
+	private Expansion_Master_FollowFormation_State_0 src;
+	private Expansion_Master_Dormant_State_0 dst;
+	Expansion_Master_FSM_0 fsm;
+	void Expansion_Master_FollowFormation_Dormant_Transition_0(ExpansionFSM _fsm) {
+		Class.CastTo(fsm, _fsm);
+		m_ClassName = "Expansion_Master_FollowFormation_Dormant_Transition_0";
+		Class.CastTo(src, _fsm.GetState("Expansion_Master_FollowFormation_State_0"));
+		Class.CastTo(dst, _fsm.GetState("Expansion_Master_Dormant_State_0"));
+	}
+	override int Guard() {
+		return dst.Guard();
+	}
+	override ExpansionState GetSource() { return src; }
+	override ExpansionState GetDestination() { return dst; }
+	override string GetEvent() { return ""; }
+}
+class Expansion_Master_Dormant_Idle_Transition_0: eAITransition {
+	private Expansion_Master_Dormant_State_0 src;
+	private Expansion_Master_Idle_State_0 dst;
+	Expansion_Master_FSM_0 fsm;
+	void Expansion_Master_Dormant_Idle_Transition_0(ExpansionFSM _fsm) {
+		Class.CastTo(fsm, _fsm);
+		m_ClassName = "Expansion_Master_Dormant_Idle_Transition_0";
+		Class.CastTo(src, _fsm.GetState("Expansion_Master_Dormant_State_0"));
+		Class.CastTo(dst, _fsm.GetState("Expansion_Master_Idle_State_0"));
+	}
+	override int Guard() {
+		return SUCCESS;
+	}
+	override ExpansionState GetSource() { return src; }
+	override ExpansionState GetDestination() { return dst; }
+	override string GetEvent() { return ""; }
+}
 class Expansion_Master_Idle_Idle_Transition_0: eAITransition {
 	private Expansion_Master_Idle_State_0 src;
 	private Expansion_Master_Idle_State_0 dst;
@@ -2335,6 +2411,7 @@ class Expansion_Master_FSM_0: eAIFSM {
 	}
 	void Setup() {
 		AddState(new Expansion_Master_Idle_State_0(this));
+		AddState(new Expansion_Master_Dormant_State_0(this));
 		AddState(new Expansion_Master_Unconscious_State_0(this));
 		AddState(new Expansion_Master_Leave_State_0(this));
 		AddState(new Expansion_Master_Interacting_State_0(this));
@@ -2441,6 +2518,10 @@ class Expansion_Master_FSM_0: eAIFSM {
 		AddTransition(new Expansion_Master_TraversingWaypoints_Idle_Transition_0(this));
 		AddTransition(new Expansion_Master_FollowFormation_Idle_Transition_0(this));
 		AddTransition(new Expansion_Master_Flank_Idle_Transition_0(this));
+		AddTransition(new Expansion_Master_Idle_Dormant_Transition_0(this));
+		AddTransition(new Expansion_Master_TraversingWaypoints_Dormant_Transition_0(this));
+		AddTransition(new Expansion_Master_FollowFormation_Dormant_Transition_0(this));
+		AddTransition(new Expansion_Master_Dormant_Idle_Transition_0(this));
 		AddTransition(new Expansion_Master_Idle_Idle_Transition_0(this));
 	}
 }

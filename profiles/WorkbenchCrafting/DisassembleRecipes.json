@@ -1,0 +1,51 @@
+{
+    "Recipes": [
+        {
+            "CategoryName": "Tools",
+            "ItemToDisassemble": "Hammer",
+            "RecipeName": "Disassemble Hammer",
+            "CraftTime": 5.0,
+            "ChanceToSuccess": 1.0,
+            "AttachmentsDamage": 0.0,
+            "AttachmentsNeed": [],
+            "DisassembleResults": [
+                {
+                    "Classname": "Nail",
+                    "MinAmount": 3,
+                    "MaxAmount": 5
+                },
+                {
+                    "Classname": "WoodenLog",
+                    "MinAmount": 1,
+                    "MaxAmount": 1
+                }
+            ]
+        },
+        {
+            "CategoryName": "Gardening",
+            "ItemToDisassemble": "Shovel",
+            "RecipeName": "Disassemble Shovel",
+            "CraftTime": 10.0,
+            "ChanceToSuccess": 0.800000011920929,
+            "AttachmentsDamage": 50.0,
+            "AttachmentsNeed": [],
+            "DisassembleResults": [
+                {
+                    "Classname": "WoodenLog",
+                    "MinAmount": 1,
+                    "MaxAmount": 1
+                },
+                {
+                    "Classname": "WoodenStick",
+                    "MinAmount": 1,
+                    "MaxAmount": 1
+                },
+                {
+                    "Classname": "MetalPlate",
+                    "MinAmount": 0,
+                    "MaxAmount": 1
+                }
+            ]
+        }
+    ]
+}

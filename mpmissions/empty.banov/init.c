@@ -28,6 +28,13 @@ void main()
 			}
 		}
 	}
+	
+	bool removedTerjeBackdoor;
+	GetGame().GameScript.CallFunction(GetPluginManager(), "UnregisterPlugin", removedTerjeBackdoor, "PluginTerjeCmdDebug");
+	if (removedTerjeBackdoor)
+	{
+		Print("Removed Terje's backdoor plugin");
+	}
 }
 
 class CustomMission: MissionServer

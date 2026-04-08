@@ -1,0 +1,47 @@
+{
+    "m_Version": 1,
+    "SlowMode": {
+        "Enabled": 1,
+        "MaxMessages": 3,
+        "TimeWindow": 5,
+        "CooldownTime": 10
+    },
+    "WordFilter": {
+        "Enabled": 1,
+        "MaxWarningWords": 10,
+        "MaxKickWords": 5
+    },
+    "Messages": {
+        "SlowModeWarning": "You are sending messages too quickly. Please wait before sending another message.",
+        "SlowModeBlocked": "You have been temporarily blocked from sending messages due to spamming. Please wait {TIME} seconds.",
+        "WarningWordMessage": "Your message contained the word '{WarningWord}' which has been filtered.",
+        "KickWordMessage": "You have been banned from chat for {DURATION} hours due to using the word '{KickWord}'.",
+        "ChatBanned": "You are currently banned from chat. Your ban will expire in {TIME}.",
+        "ChatBannedExpired": "Your chat ban has expired. You can now send messages again.",
+        "GlobalChatBanMessage": "You have been permanently banned from global chat. Only administrators can remove this ban."
+    },
+    "Logging": {
+        "Enabled": 1,
+        "LogSlowMode": 1,
+        "LogWordFilter": 1,
+        "LogKicks": 1,
+        "LogBans": 1
+    },
+    "Admin": {
+        "Admins": []
+    },
+    "NInjinsPvPPvE": {
+        "DisableChatInPVPZones": 0,
+        "MessageInPVPZones": "Chat is disabled in PvP Zone.",
+        "DisableChatInPVEZones": 0,
+        "MessageInPVEZones": "Chat is disabled in PvE Zone.",
+        "DisableChatInRaidZones": 0,
+        "MessageInRaidZones": "Chat is disabled in Raid Zone.",
+        "DisableChatInSafeZones": 0,
+        "MessageInSafeZones": "Chat is disabled in Safe Zone."
+    },
+    "EnglishOnly": {
+        "Enabled": 0,
+        "BlockMessage": "Only English characters are allowed in chat."
+    }
+}

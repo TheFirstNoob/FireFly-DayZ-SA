@@ -1,0 +1,63 @@
+{
+    "Recipes": [
+        {
+            "CategoryName": "Tools",
+            "Result": "Hammer",
+            "ResultCount": 1,
+            "RecipeName": "Hammer",
+            "CraftTime": 5.0,
+            "ChanceToSuccess": 1.0,
+            "AttachmentsDamage": 10.0,
+            "CraftComponents": [
+                {
+                    "Classname": "Nail",
+                    "Amount": 5,
+                    "Destroy": 1,
+                    "Changehealth": 0.0
+                },
+                {
+                    "Classname": "WoodenLog",
+                    "Amount": 1,
+                    "Destroy": 1,
+                    "Changehealth": 0.0
+                }
+            ],
+            "AttachmentsNeed": [
+                "HP_Anvil",
+                "HP_Vise"
+            ]
+        },
+        {
+            "CategoryName": "Gardening",
+            "Result": "Shovel",
+            "ResultCount": 1,
+            "RecipeName": "Shovel",
+            "CraftTime": 10.0,
+            "ChanceToSuccess": 0.75,
+            "AttachmentsDamage": 25.0,
+            "CraftComponents": [
+                {
+                    "Classname": "WoodenLog",
+                    "Amount": 1,
+                    "Destroy": 1,
+                    "Changehealth": 0.0
+                },
+                {
+                    "Classname": "WoodenStick",
+                    "Amount": 1,
+                    "Destroy": 1,
+                    "Changehealth": 0.0
+                },
+                {
+                    "Classname": "MetalPlate",
+                    "Amount": 1,
+                    "Destroy": 1,
+                    "Changehealth": 0.0
+                }
+            ],
+            "AttachmentsNeed": [
+                "HP_Drill"
+            ]
+        }
+    ]
+}
