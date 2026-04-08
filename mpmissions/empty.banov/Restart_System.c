@@ -1,7 +1,7 @@
 /*
 	Автор: 123new aka Sania(ZoS) 
 	Создано для проекта: Zone of Survival (ZoS)
-	Версия: 1.04 (21.10.2020) - TFN: Работает на 1.21
+	Версия: 1.04 (21.10.2020) - TFN: Обновлено до 1.29
 	Взято: https://s-platoon.ru/files/file/16-restart-system-with-autokick-sistema-restartov-s-avtokikom-igrokov/
 	P.S. С новой политикой автора скрипт стал бесплатным и свободно распространяется, но больше не дорабатывается.
 	Спрашивайте разрешение у автора на изменение кода (Перевод можете сделать сами если требуется).
@@ -129,7 +129,7 @@ class RestartServer_System
 		if (message != "")
 		{
 			private array<Man> players = new array<Man>; 
-			GetGame().GetPlayers( players ); 
+			g_Game.GetPlayers( players ); 
 						
 			for ( int i = 0; i < players.Count(); i++ ) 
 			{ 
@@ -148,7 +148,7 @@ class RestartServer_System
 			if( player ) 
 			{
 				Param1<string> m_GlobalMessage = new Param1<string>(message); 
-				GetGame().RPCSingleParam(player, ERPCs.RPC_USER_ACTION_MESSAGE, m_GlobalMessage, true, player.GetIdentity()); 
+				g_Game.RPCSingleParam(player, ERPCs.RPC_USER_ACTION_MESSAGE, m_GlobalMessage, true, player.GetIdentity()); 
 			}
 		}
 	}	
@@ -180,7 +180,7 @@ class RestartServer_System
 		
 		array<string> players_disconnected = new array<string>; 		
 		array<Man> players = new array<Man>; 
-		GetGame().GetPlayers( players ); 		
+		g_Game.GetPlayers( players ); 		
 		if (players.Count() > 0)
 		{
 			players_disconnected.Insert("Will be disconnected list players:");
@@ -223,7 +223,7 @@ class RestartServer_System
 		private string text_log = "[ChatSendingToAll] " + sending_text_kick_all_from_server_in_restart;
 		fnc_SendMessage_GlobalChat(sending_text_kick_all_from_server_in_restart);
 		Write_Log(text_log);
-		GetGame().GetCallQueue(CALL_CATEGORY_GAMEPLAY).CallLater(this.Kick_all_from_server_Run, (1000 * Time_kick_all_informationWait), false);
+		g_Game.GetCallQueue(CALL_CATEGORY_GAMEPLAY).CallLater(this.Kick_all_from_server_Run, (1000 * Time_kick_all_informationWait), false);
 	}
 	
 	void Shutdown_server() 
@@ -236,12 +236,12 @@ class RestartServer_System
 		fnc_SendMessage_GlobalChat(sending_text_ChatInformation_shutdown_server);
 		private string text_log = "[ChatSendingToAll] " + sending_text_ChatInformation_shutdown_server;
 		Write_Log(text_log);
-		GetGame().GetCallQueue(CALL_CATEGORY_GAMEPLAY).CallLater(this.Shutdown_server_Run, (1000 * Time_Wait_AfterChatInformation_shutdown_server), false);
+		g_Game.GetCallQueue(CALL_CATEGORY_GAMEPLAY).CallLater(this.Shutdown_server_Run, (1000 * Time_Wait_AfterChatInformation_shutdown_server), false);
 	}	
 	void Shutdown_server_Run() 
 	{
 		private string text_log = "Server Command Runned: Executing Shutdown server!!!";
-		GetGame().GetCallQueue(CALL_CATEGORY_GAMEPLAY).CallLater(GetDayZGame().RequestExit, 1000, 0, false); 
+		g_Game.GetCallQueue(CALL_CATEGORY_GAMEPLAY).CallLater(GetDayZGame().RequestExit, 1000, 0, false); 
 	}
 	
 	void Run_Timer_AutoRestart_server() 
@@ -274,19 +274,19 @@ class RestartServer_System
 			float all_time_to_lock_server = all_time_to_restart - ((60 * 1000) * time_undo_lock_server);
 			if(enable_shutdown_server_procedures)
 			{
-				GetGame().GetCallQueue(CALL_CATEGORY_GAMEPLAY).CallLater(this.Shutdown_server, (all_time_to_restart - (1000 * Time_Wait_AfterChatInformation_shutdown_server)), false);
+				g_Game.GetCallQueue(CALL_CATEGORY_GAMEPLAY).CallLater(this.Shutdown_server, (all_time_to_restart - (1000 * Time_Wait_AfterChatInformation_shutdown_server)), false);
 			}
 			if(enable_kick_all_from_server_in_restart)
 			{
-				GetGame().GetCallQueue(CALL_CATEGORY_GAMEPLAY).CallLater(this.Kick_all_from_server, (all_time_to_kick_all - (1000 * Time_kick_all_informationWait)), false);				
+				g_Game.GetCallQueue(CALL_CATEGORY_GAMEPLAY).CallLater(this.Kick_all_from_server, (all_time_to_kick_all - (1000 * Time_kick_all_informationWait)), false);				
 			}
 			if(enable_lock_server_in_restart)
 			{
-				GetGame().GetCallQueue(CALL_CATEGORY_GAMEPLAY).CallLater(this.Close_server, all_time_to_lock_server, false);
+				g_Game.GetCallQueue(CALL_CATEGORY_GAMEPLAY).CallLater(this.Close_server, all_time_to_lock_server, false);
 			}
 			if(enable_chat_info_restart_and_uptime)
 			{
-				GetGame().GetCallQueue(CALL_CATEGORY_GAMEPLAY).CallLater(this.Run_InfoChat_UptimeAndRestartTime_server, (time_chat_information_autorestart * time_format_coef), true);
+				g_Game.GetCallQueue(CALL_CATEGORY_GAMEPLAY).CallLater(this.Run_InfoChat_UptimeAndRestartTime_server, (time_chat_information_autorestart * time_format_coef), true);
 			}
 			if((enable_shutdown_server_chat_RestartInformation_functions) && (enable_shutdown_server_procedures))
 			{
@@ -295,12 +295,12 @@ class RestartServer_System
 					foreach(private int Readed_minute:RestartsInformation_chat_minutes)
 					{
 						float time_sending_autorestart_info = (all_time_to_restart - (1000 * Time_Wait_AfterChatInformation_shutdown_server)) - (Readed_minute * 1000 * 60);
-						GetGame().GetCallQueue(CALL_CATEGORY_GAMEPLAY).CallLater(this.Run_InfoChat_AutoRestart_server, time_sending_autorestart_info, false, false, 0);
+						g_Game.GetCallQueue(CALL_CATEGORY_GAMEPLAY).CallLater(this.Run_InfoChat_AutoRestart_server, time_sending_autorestart_info, false, false, 0);
 					}
 				}
 			}
-			GetGame().GetCallQueue(CALL_CATEGORY_GAMEPLAY).CallLater(this.Run_TickTimer, 1000, true);
-			//GetGame().GetCallQueue(CALL_CATEGORY_GAMEPLAY).CallLater(this.TimeChecking, 1000, true);
+			g_Game.GetCallQueue(CALL_CATEGORY_GAMEPLAY).CallLater(this.Run_TickTimer, 1000, true);
+			//g_Game.GetCallQueue(CALL_CATEGORY_GAMEPLAY).CallLater(this.TimeChecking, 1000, true);
 		} else
 		{
 			private string text_log_disabled = "Work script is disabled!";
@@ -765,7 +765,7 @@ class RestartServer_System
 	{	
 		if( player ) 
 		{		
-			GetGame().GetMission().OnEvent(ClientDisconnectedEventTypeID, new ClientDisconnectedEventParams(player.GetIdentity(), player, 0, false));
+			g_Game.GetMission().OnEvent(ClientDisconnectedEventTypeID, new ClientDisconnectedEventParams(player.GetIdentity(), player, 0, false));
 		}
 	}
 	
@@ -775,7 +775,7 @@ class RestartServer_System
 		{
 		//	Print("Server is locked! Connect DISABLED! Player will be kicked!");
 		//	Print("PARAMETER: " + (Get_RestartServer_System().Server_closed).ToString());
-			GetGame().GetCallQueue(CALL_CATEGORY_GAMEPLAY).CallLater(RunPlayerDisconnect, 1 * 1000, false,player); //MOTD Information Server
+			g_Game.GetCallQueue(CALL_CATEGORY_GAMEPLAY).CallLater(RunPlayerDisconnect, 1 * 1000, false,player); //MOTD Information Server
 			return;
 		} else
 		{
