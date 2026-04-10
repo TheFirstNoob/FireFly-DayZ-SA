@@ -1,0 +1,29 @@
+{
+    "ZoneCheckInterval": 60,
+    "Zones": [
+        {
+            "Name": "Sky Bunker Alpha",
+            "Position": [
+                5000,
+                2000,
+                7000
+            ],
+            "Radius": 1200,
+            "Height": 250,
+            "Temperature_Min": -20,
+            "Temperature_Max": -15
+        },
+        {
+            "Name": "Underground Facility",
+            "Position": [
+                3000,
+                10,
+                4000
+            ],
+            "Radius": 300,
+            "Height": 50,
+            "Temperature_Min": 5,
+            "Temperature_Max": 8
+        }
+    ]
+}
