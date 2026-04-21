@@ -1,63 +1,710 @@
 {
     "Recipes": [
         {
-            "CategoryName": "Tools",
+            "CategoryName": "Инструменты",
             "Result": "Hammer",
             "ResultCount": 1,
-            "RecipeName": "Hammer",
-            "CraftTime": 5.0,
-            "ChanceToSuccess": 1.0,
+            "RecipeName": "Молоток",
+            "CraftTime": 15.0,
+            "ChanceToSuccess": 0.75,
             "AttachmentsDamage": 10.0,
             "CraftComponents": [
-                {
-                    "Classname": "Nail",
-                    "Amount": 5,
-                    "Destroy": 1,
-                    "Changehealth": 0.0
-                },
-                {
-                    "Classname": "WoodenLog",
-                    "Amount": 1,
-                    "Destroy": 1,
-                    "Changehealth": 0.0
-                }
+                { "Classname": "Nail", "Amount": 3, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "WoodenStick", "Amount": 3, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Clue", "Amount": 1, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "SmallStone", "Amount": 3, "Destroy": 1, "Changehealth": 0.0 }
             ],
-            "AttachmentsNeed": [
-                "HP_Anvil",
-                "HP_Vise"
-            ]
+            "AttachmentsNeed": [ "HP_Anvil", "HP_Vise" ]
         },
         {
-            "CategoryName": "Gardening",
-            "Result": "Shovel",
+            "CategoryName": "Электроника",
+            "Result": "Battery9V",
             "ResultCount": 1,
-            "RecipeName": "Shovel",
+            "RecipeName": "Батарейка 9V",
             "CraftTime": 10.0,
-            "ChanceToSuccess": 0.75,
+            "ChanceToSuccess": 0.50,
             "AttachmentsDamage": 25.0,
             "CraftComponents": [
-                {
-                    "Classname": "WoodenLog",
-                    "Amount": 1,
-                    "Destroy": 1,
-                    "Changehealth": 0.0
-                },
-                {
-                    "Classname": "WoodenStick",
-                    "Amount": 1,
-                    "Destroy": 1,
-                    "Changehealth": 0.0
-                },
-                {
-                    "Classname": "MetalPlate",
-                    "Amount": 1,
-                    "Destroy": 1,
-                    "Changehealth": 0.0
-                }
+                { "Classname": "RIP_Plastik", "Amount": 5, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Foil", "Amount": 20, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Wire", "Amount": 10, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Connectors", "Amount": 2, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_K2", "Amount": 25, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Rosin", "Amount": 35, "Destroy": 1, "Changehealth": 0.0 }
             ],
-            "AttachmentsNeed": [
-                "HP_Drill"
-            ]
+            "AttachmentsNeed": [ "HP_Payalnik" ]
+        },
+        {
+            "CategoryName": "Автозапчасти",
+            "Result": "SparkPlug",
+            "ResultCount": 1,
+            "RecipeName": "Свеча зажигания",
+            "CraftTime": 15.0,
+            "ChanceToSuccess": 0.65,
+            "AttachmentsDamage": 10.0,
+            "CraftComponents": [
+                { "Classname": "RIP_bolts", "Amount": 3, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_CopperCoil", "Amount": 10, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Textolit", "Amount": 1, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_SandpaperS", "Amount": 8, "Destroy": 0, "Changehealth": 0.0 }
+            ],
+            "AttachmentsNeed": [ "HP_napilnik" ]
+        },
+        {
+            "CategoryName": "Автозапчасти",
+            "Result": "CarBattery",
+            "ResultCount": 1,
+            "RecipeName": "Автомобильный аккумулятор",
+            "CraftTime": 45.0,
+            "ChanceToSuccess": 0.40,
+            "AttachmentsDamage": 20.0,
+            "CraftComponents": [
+                { "Classname": "RIP_Plastik", "Amount": 15, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_LeadSheets", "Amount": 2, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_H2SO4", "Amount": 500, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Connectors", "Amount": 10, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_rubber", "Amount": 50, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Rosin", "Amount": 75, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Wire", "Amount": 35, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Foil", "Amount": 80, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_SolderCoil", "Amount": 20, "Destroy": 1, "Changehealth": 0.0 }
+            ],
+            "AttachmentsNeed": [ "HP_Vise", "HP_Payalnik" ]
+        },
+        {
+            "CategoryName": "Автозапчасти",
+            "Result": "TruckBattery",
+            "ResultCount": 1,
+            "RecipeName": "Грузовой аккумулятор",
+            "CraftTime": 70.0,
+            "ChanceToSuccess": 0.25,
+            "AttachmentsDamage": 35.0,
+            "CraftComponents": [
+                { "Classname": "RIP_Plastik", "Amount": 25, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_LeadSheets", "Amount": 5, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_H2SO4", "Amount": 1000, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Connectors", "Amount": 20, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Fuses", "Amount": 4, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_rubber", "Amount": 150, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Rosin", "Amount": 75, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Wire", "Amount": 70, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Foil", "Amount": 200, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_SolderCoil", "Amount": 50, "Destroy": 1, "Changehealth": 0.0 }
+            ],
+            "AttachmentsNeed": [ "HP_Vise", "HP_Payalnik" ]
+        },
+        {
+            "CategoryName": "Электроника",
+            "Result": "NVGoggles",
+            "ResultCount": 1,
+            "RecipeName": "ПНВ",
+            "CraftTime": 120.0,
+            "ChanceToSuccess": 0.25,
+            "AttachmentsDamage": 30.0,
+            "CraftComponents": [
+                { "Classname": "RIP_GlassPK", "Amount": 4, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Plastik", "Amount": 15, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_milMCs", "Amount": 3, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Semiconds", "Amount": 10, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Inductors", "Amount": 4, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_modCap", "Amount": 8, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_rubber", "Amount": 30, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Foil", "Amount": 50, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Wire", "Amount": 40, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_SolderCoil", "Amount": 25, "Destroy": 1, "Changehealth": 0.0 }
+            ],
+            "AttachmentsNeed": [ "HP_Payalnik", "HP_Vise" ]
+        },
+        {
+            "CategoryName": "Электроника",
+            "Result": "ExpansionGPS",
+            "ResultCount": 1,
+            "RecipeName": "GPS навигатор",
+            "CraftTime": 100.0,
+            "ChanceToSuccess": 0.20,
+            "AttachmentsDamage": 25.0,
+            "CraftComponents": [
+                { "Classname": "RIP_CivMC", "Amount": 5, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Semiconds", "Amount": 12, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_modCap", "Amount": 8, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_modRes", "Amount": 10, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Textolit", "Amount": 2, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Inductors", "Amount": 4, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_GlassPK", "Amount": 2, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Wire", "Amount": 40, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_SolderCoil", "Amount": 20, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Rosin", "Amount": 30, "Destroy": 1, "Changehealth": 0.0 }
+            ],
+            "AttachmentsNeed": [ "HP_Payalnik", "HP_Vise" ]
+        },
+        {
+            "CategoryName": "Электроника",
+            "Result": "Rangefinder",
+            "ResultCount": 1,
+            "RecipeName": "Дальномер",
+            "CraftTime": 90.0,
+            "ChanceToSuccess": 0.30,
+            "AttachmentsDamage": 20.0,
+            "CraftComponents": [
+                { "Classname": "RIP_CivMC", "Amount": 4, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Semiconds", "Amount": 10, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_modCap", "Amount": 6, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_modRes", "Amount": 8, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Textolit", "Amount": 2, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Inductors", "Amount": 3, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_GlassPK", "Amount": 3, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Plastik", "Amount": 12, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Wire", "Amount": 30, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_SolderCoil", "Amount": 15, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Rosin", "Amount": 25, "Destroy": 1, "Changehealth": 0.0 }
+            ],
+            "AttachmentsNeed": [ "HP_Payalnik", "HP_Vise" ]
+        },
+        {
+            "CategoryName": "Электроника",
+            "Result": "PowerGenerator",
+            "ResultCount": 1,
+            "RecipeName": "Переносной генератор",
+            "CraftTime": 180.0,
+            "ChanceToSuccess": 0.20,
+            "AttachmentsDamage": 40.0,
+            "CraftComponents": [
+                { "Classname": "RIP_Elmotor", "Amount": 1, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_ElmotorDriver", "Amount": 1, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_TRR", "Amount": 2, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_CivMC", "Amount": 5, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_modCap", "Amount": 10, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_rubber", "Amount": 80, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Cable", "Amount": 20, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Wire", "Amount": 80, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Fuses", "Amount": 4, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Connectors", "Amount": 15, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Plastik", "Amount": 25, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_bolts", "Amount": 12, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_nuts", "Amount": 12, "Destroy": 1, "Changehealth": 0.0 }
+            ],
+            "AttachmentsNeed": [ "HP_Vise", "HP_Payalnik", "HP_Drill" ]
+        },
+        {
+            "CategoryName": "Автозапчасти",
+            "Result": "CarRadiator",
+            "ResultCount": 1,
+            "RecipeName": "Автомобильный радиатор",
+            "CraftTime": 80.0,
+            "ChanceToSuccess": 0.35,
+            "AttachmentsDamage": 25.0,
+            "CraftComponents": [
+                { "Classname": "RIP_CopperCoil", "Amount": 80, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Plastik", "Amount": 30, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_rubber", "Amount": 60, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_bolts", "Amount": 10, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_nuts", "Amount": 10, "Destroy": 1, "Changehealth": 0.0 }
+            ],
+            "AttachmentsNeed": [ "HP_Vise", "HP_napilnik" ]
+        },
+        {
+            "CategoryName": "Автозапчасти",
+            "Result": "CarHeadlight",
+            "ResultCount": 1,
+            "RecipeName": "Автомобильная лампа",
+            "CraftTime": 35.0,
+            "ChanceToSuccess": 0.55,
+            "AttachmentsDamage": 12.0,
+            "CraftComponents": [
+                { "Classname": "RIP_GlassPK", "Amount": 2, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Plastik", "Amount": 10, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_CopperCoil", "Amount": 20, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_rubber", "Amount": 15, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_bolts", "Amount": 4, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_nuts", "Amount": 4, "Destroy": 1, "Changehealth": 0.0 }
+            ],
+            "AttachmentsNeed": [ "HP_Vise", "HP_napilnik" ]
+        },
+        {
+            "CategoryName": "Электроника",
+            "Result": "Lnr_BatteryCharger9V",
+            "ResultCount": 1,
+            "RecipeName": "Зарядное устройство для авто",
+            "CraftTime": 60.0,
+            "ChanceToSuccess": 0.45,
+            "AttachmentsDamage": 20.0,
+            "CraftComponents": [
+                { "Classname": "RIP_milMCs", "Amount": 2, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_CivMC", "Amount": 3, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Semiconds", "Amount": 8, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_modCap", "Amount": 8, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_modRes", "Amount": 10, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Inductors", "Amount": 4, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_TRR", "Amount": 2, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_CopperCoil", "Amount": 40, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_rubber", "Amount": 30, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Wire", "Amount": 40, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Connectors", "Amount": 8, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_SolderCoil", "Amount": 20, "Destroy": 1, "Changehealth": 0.0 }
+            ],
+            "AttachmentsNeed": [ "HP_Payalnik", "HP_Vise" ]
+        },
+        {
+            "CategoryName": "Электроника",
+            "Result": "BatteryCharger9V",
+            "ResultCount": 1,
+            "RecipeName": "Зарядное устройство 9В",
+            "CraftTime": 35.0,
+            "ChanceToSuccess": 0.55,
+            "AttachmentsDamage": 12.0,
+            "CraftComponents": [
+                { "Classname": "RIP_CivMC", "Amount": 2, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Semiconds", "Amount": 5, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_modCap", "Amount": 4, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_modRes", "Amount": 6, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Inductors", "Amount": 2, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_TRR", "Amount": 1, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_CopperCoil", "Amount": 20, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_rubber", "Amount": 15, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Wire", "Amount": 20, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Connectors", "Amount": 4, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_SolderCoil", "Amount": 10, "Destroy": 1, "Changehealth": 0.0 }
+            ],
+            "AttachmentsNeed": [ "HP_Payalnik" ]
+        },
+        {
+            "CategoryName": "Компоненты",
+            "Result": "RIP_milMCs",
+            "ResultCount": 1,
+            "RecipeName": "Военная микросхема",
+            "CraftTime": 45.0,
+            "ChanceToSuccess": 0.50,
+            "AttachmentsDamage": 15.0,
+            "CraftComponents": [
+                { "Classname": "RIP_CivMC", "Amount": 3, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Semiconds", "Amount": 8, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_modCap", "Amount": 5, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_modRes", "Amount": 5, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Rosin", "Amount": 20, "Destroy": 1, "Changehealth": 0.0 }
+            ],
+            "AttachmentsNeed": [ "HP_Payalnik" ]
+        },
+        {
+            "CategoryName": "Компоненты",
+            "Result": "RIP_sovCap",
+            "ResultCount": 1,
+            "RecipeName": "Советский конденсатор",
+            "CraftTime": 25.0,
+            "ChanceToSuccess": 0.55,
+            "AttachmentsDamage": 8.0,
+            "CraftComponents": [
+                { "Classname": "RIP_modCap", "Amount": 3, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Foil", "Amount": 15, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Rosin", "Amount": 10, "Destroy": 1, "Changehealth": 0.0 }
+            ],
+            "AttachmentsNeed": [ "HP_Payalnik" ]
+        },
+        {
+            "CategoryName": "Компоненты",
+            "Result": "RIP_sovRes",
+            "ResultCount": 1,
+            "RecipeName": "Советский резистор",
+            "CraftTime": 20.0,
+            "ChanceToSuccess": 0.60,
+            "AttachmentsDamage": 5.0,
+            "CraftComponents": [
+                { "Classname": "RIP_modRes", "Amount": 3, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Foil", "Amount": 10, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Rosin", "Amount": 8, "Destroy": 1, "Changehealth": 0.0 }
+            ],
+            "AttachmentsNeed": [ "HP_Payalnik" ]
+        },
+        {
+            "CategoryName": "Компоненты",
+            "Result": "RIP_modCap",
+            "ResultCount": 1,
+            "RecipeName": "Конденсаторы",
+            "CraftTime": 20.0,
+            "ChanceToSuccess": 0.65,
+            "AttachmentsDamage": 5.0,
+            "CraftComponents": [
+                { "Classname": "RIP_Foil", "Amount": 20, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Plastik", "Amount": 5, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Rosin", "Amount": 10, "Destroy": 1, "Changehealth": 0.0 }
+            ],
+            "AttachmentsNeed": [ "HP_Payalnik" ]
+        },
+        {
+            "CategoryName": "Компоненты",
+            "Result": "RIP_modRes",
+            "ResultCount": 1,
+            "RecipeName": "Резисторы",
+            "CraftTime": 18.0,
+            "ChanceToSuccess": 0.65,
+            "AttachmentsDamage": 5.0,
+            "CraftComponents": [
+                { "Classname": "RIP_Foil", "Amount": 15, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Rosin", "Amount": 8, "Destroy": 1, "Changehealth": 0.0 }
+            ],
+            "AttachmentsNeed": [ "HP_Payalnik" ]
+        },
+        {
+            "CategoryName": "Компоненты",
+            "Result": "RIP_Textolit",
+            "ResultCount": 1,
+            "RecipeName": "Текстолит",
+            "CraftTime": 15.0,
+            "ChanceToSuccess": 0.70,
+            "AttachmentsDamage": 5.0,
+            "CraftComponents": [
+                { "Classname": "RIP_Plastik", "Amount": 15, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Rosin", "Amount": 15, "Destroy": 1, "Changehealth": 0.0 }
+            ],
+            "AttachmentsNeed": [ "HP_Vise" ]
+        },
+        {
+            "CategoryName": "Компоненты",
+            "Result": "RIP_CopperCoil",
+            "ResultCount": 1,
+            "RecipeName": "Катушка меди",
+            "CraftTime": 25.0,
+            "ChanceToSuccess": 0.60,
+            "AttachmentsDamage": 10.0,
+            "CraftComponents": [
+                { "Classname": "RIP_Plastik", "Amount": 10, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Foil", "Amount": 50, "Destroy": 1, "Changehealth": 0.0 }
+            ],
+            "AttachmentsNeed": [ "HP_Vise" ]
+        },
+        {
+            "CategoryName": "Компоненты",
+            "Result": "RIP_Fuses",
+            "ResultCount": 1,
+            "RecipeName": "Предохранители",
+            "CraftTime": 15.0,
+            "ChanceToSuccess": 0.65,
+            "AttachmentsDamage": 5.0,
+            "CraftComponents": [
+                { "Classname": "RIP_Foil", "Amount": 10, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_rubber", "Amount": 8, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_bolts", "Amount": 3, "Destroy": 1, "Changehealth": 0.0 }
+            ],
+            "AttachmentsNeed": [ "HP_Vise", "HP_napilnik" ]
+        },
+        {
+            "CategoryName": "Строительство",
+            "Result": "PortableGasLamp",
+            "ResultCount": 1,
+            "RecipeName": "Газовая лампа",
+            "CraftTime": 30.0,
+            "ChanceToSuccess": 0.60,
+            "AttachmentsDamage": 10.0,
+            "CraftComponents": [
+                { "Classname": "RIP_Plastik", "Amount": 15, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_rubber", "Amount": 20, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_CopperCoil", "Amount": 15, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_bolts", "Amount": 6, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_nuts", "Amount": 6, "Destroy": 1, "Changehealth": 0.0 }
+            ],
+            "AttachmentsNeed": [ "HP_Vise", "HP_napilnik" ]
+        },
+        {
+            "CategoryName": "Строительство",
+            "Result": "XmasLights",
+            "ResultCount": 1,
+            "RecipeName": "Праздничные огни",
+            "CraftTime": 35.0,
+            "ChanceToSuccess": 0.55,
+            "AttachmentsDamage": 10.0,
+            "CraftComponents": [
+                { "Classname": "RIP_Plastik", "Amount": 10, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Wire", "Amount": 30, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_CivMC", "Amount": 2, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Foil", "Amount": 20, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Rosin", "Amount": 15, "Destroy": 1, "Changehealth": 0.0 }
+            ],
+            "AttachmentsNeed": [ "HP_Payalnik" ]
+        },
+        {
+            "CategoryName": "Строительство",
+            "Result": "Spotlight",
+            "ResultCount": 1,
+            "RecipeName": "Строительная лампа",
+            "CraftTime": 50.0,
+            "ChanceToSuccess": 0.45,
+            "AttachmentsDamage": 15.0,
+            "CraftComponents": [
+                { "Classname": "RIP_Plastik", "Amount": 20, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_CivMC", "Amount": 3, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Semiconds", "Amount": 6, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_modCap", "Amount": 5, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_CopperCoil", "Amount": 25, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_rubber", "Amount": 25, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_GlassPK", "Amount": 2, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Wire", "Amount": 25, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_SolderCoil", "Amount": 15, "Destroy": 1, "Changehealth": 0.0 }
+            ],
+            "AttachmentsNeed": [ "HP_Payalnik", "HP_Vise" ]
+        },
+        {
+            "CategoryName": "Строительство",
+            "Result": "CableReel",
+            "ResultCount": 1,
+            "RecipeName": "Кабельная катушка",
+            "CraftTime": 45.0,
+            "ChanceToSuccess": 0.50,
+            "AttachmentsDamage": 15.0,
+            "CraftComponents": [
+                { "Classname": "RIP_Cable", "Amount": 15, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Plastik", "Amount": 15, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_rubber", "Amount": 30, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Connectors", "Amount": 6, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_bolts", "Amount": 8, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_nuts", "Amount": 8, "Destroy": 1, "Changehealth": 0.0 }
+            ],
+            "AttachmentsNeed": [ "HP_Vise", "HP_napilnik" ]
+        },
+        {
+            "CategoryName": "Садоводство",
+            "Result": "GardenLime",
+            "ResultCount": 1,
+            "RecipeName": "Садовая известь",
+            "CraftTime": 25.0,
+            "ChanceToSuccess": 0.60,
+            "AttachmentsDamage": 8.0,
+            "CraftComponents": [
+                { "Classname": "RIP_Plastik", "Amount": 5, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_H2SO4", "Amount": 50, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_HCL", "Amount": 30, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Oleum", "Amount": 20, "Destroy": 1, "Changehealth": 0.0 }
+            ],
+            "AttachmentsNeed": [ "HP_Vise" ]
+        },
+        {
+            "CategoryName": "Защита",
+            "Result": "NBCHoodYellow",
+            "ResultCount": 1,
+            "RecipeName": "Капюшон химзащиты",
+            "CraftTime": 70.0,
+            "ChanceToSuccess": 0.25,
+            "AttachmentsDamage": 20.0,
+            "CraftComponents": [
+                { "Classname": "RIP_Kevlar", "Amount": 40, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Plastik", "Amount": 20, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_rubber", "Amount": 30, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_K2", "Amount": 30, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_SandpaperS", "Amount": 10, "Destroy": 0, "Changehealth": 0.0 }
+            ],
+            "AttachmentsNeed": [ "HP_Vise", "HP_Grinde" ]
+        },
+        {
+            "CategoryName": "Защита",
+            "Result": "NBCJacketYellow",
+            "ResultCount": 1,
+            "RecipeName": "Куртка химзащиты",
+            "CraftTime": 90.0,
+            "ChanceToSuccess": 0.20,
+            "AttachmentsDamage": 25.0,
+            "CraftComponents": [
+                { "Classname": "RIP_Kevlar", "Amount": 80, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Plastik", "Amount": 30, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_rubber", "Amount": 50, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_K2", "Amount": 40, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Clue", "Amount": 4, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_LeatherClue", "Amount": 3, "Destroy": 1, "Changehealth": 0.0 }
+            ],
+            "AttachmentsNeed": [ "HP_Vise", "HP_Grinde" ]
+        },
+        {
+            "CategoryName": "Защита",
+            "Result": "NBCGlovesYellow",
+            "ResultCount": 1,
+            "RecipeName": "Перчатки химзащиты",
+            "CraftTime": 50.0,
+            "ChanceToSuccess": 0.30,
+            "AttachmentsDamage": 15.0,
+            "CraftComponents": [
+                { "Classname": "RIP_Kevlar", "Amount": 25, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Plastik", "Amount": 15, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_rubber", "Amount": 20, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_K2", "Amount": 15, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_LeatherClue", "Amount": 2, "Destroy": 1, "Changehealth": 0.0 }
+            ],
+            "AttachmentsNeed": [ "HP_Vise" ]
+        },
+        {
+            "CategoryName": "Защита",
+            "Result": "NBCBootsYellow",
+            "ResultCount": 1,
+            "RecipeName": "Сапоги химзащиты",
+            "CraftTime": 60.0,
+            "ChanceToSuccess": 0.25,
+            "AttachmentsDamage": 18.0,
+            "CraftComponents": [
+                { "Classname": "RIP_Kevlar", "Amount": 35, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Plastik", "Amount": 20, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_rubber", "Amount": 40, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_K2", "Amount": 20, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_bolts", "Amount": 6, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_nuts", "Amount": 6, "Destroy": 1, "Changehealth": 0.0 }
+            ],
+            "AttachmentsNeed": [ "HP_Vise", "HP_napilnik" ]
+        },
+        {
+            "CategoryName": "Защита",
+            "Result": "NBCPantsYellow",
+            "ResultCount": 1,
+            "RecipeName": "Штаны химзащиты",
+            "CraftTime": 80.0,
+            "ChanceToSuccess": 0.22,
+            "AttachmentsDamage": 22.0,
+            "CraftComponents": [
+                { "Classname": "RIP_Kevlar", "Amount": 60, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Plastik", "Amount": 25, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_rubber", "Amount": 40, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_K2", "Amount": 30, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Clue", "Amount": 3, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_LeatherClue", "Amount": 2, "Destroy": 1, "Changehealth": 0.0 }
+            ],
+            "AttachmentsNeed": [ "HP_Vise", "HP_Grinde" ]
+        },
+        {
+            "CategoryName": "Защита",
+            "Result": "AirborneMask",
+            "ResultCount": 1,
+            "RecipeName": "Противогаз химзащиты",
+            "CraftTime": 85.0,
+            "ChanceToSuccess": 0.20,
+            "AttachmentsDamage": 25.0,
+            "CraftComponents": [
+                { "Classname": "RIP_Kevlar", "Amount": 30, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Plastik", "Amount": 25, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_rubber", "Amount": 40, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_GlassPK", "Amount": 2, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_K2", "Amount": 50, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_H2SO4", "Amount": 30, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Semiconds", "Amount": 8, "Destroy": 1, "Changehealth": 0.0 }
+            ],
+            "AttachmentsNeed": [ "HP_Vise", "HP_Payalnik" ]
+        },
+        {
+            "CategoryName": "Медицина",
+            "Result": "DisinfectanAlcohol",
+            "ResultCount": 1,
+            "RecipeName": "Алкогольная настойка",
+            "CraftTime": 20.0,
+            "ChanceToSuccess": 0.65,
+            "AttachmentsDamage": 5.0,
+            "CraftComponents": [
+                { "Classname": "RIP_GlassPK", "Amount": 1, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Urotropine", "Amount": 15, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_K2", "Amount": 10, "Destroy": 1, "Changehealth": 0.0 }
+            ],
+            "AttachmentsNeed": [ "HP_Vise" ]
+        },
+        {
+            "CategoryName": "Медицина",
+            "Result": "DisinfectantSpray",
+            "ResultCount": 1,
+            "RecipeName": "Дезинфицирующий спрей",
+            "CraftTime": 20.0,
+            "ChanceToSuccess": 0.70,
+            "AttachmentsDamage": 5.0,
+            "CraftComponents": [
+                { "Classname": "RIP_Plastik", "Amount": 5, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_H2SO4", "Amount": 20, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_K2", "Amount": 10, "Destroy": 1, "Changehealth": 0.0 }
+            ],
+            "AttachmentsNeed": [ "HP_Vise" ]
+        },
+        {
+            "CategoryName": "Медицина",
+            "Result": "IodineTincture",
+            "ResultCount": 1,
+            "RecipeName": "Настойка йода",
+            "CraftTime": 18.0,
+            "ChanceToSuccess": 0.70,
+            "AttachmentsDamage": 5.0,
+            "CraftComponents": [
+                { "Classname": "RIP_Plastik", "Amount": 3, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Urotropine", "Amount": 10, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_K2", "Amount": 8, "Destroy": 1, "Changehealth": 0.0 }
+            ],
+            "AttachmentsNeed": [ "HP_Vise" ]
+        },
+        {
+            "CategoryName": "Медицина",
+            "Result": "BloodTestKit",
+            "ResultCount": 1,
+            "RecipeName": "Набор для определения группы крови",
+            "CraftTime": 35.0,
+            "ChanceToSuccess": 0.50,
+            "AttachmentsDamage": 10.0,
+            "CraftComponents": [
+                { "Classname": "RIP_Plastik", "Amount": 8, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_GlassPK", "Amount": 1, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Urotropine", "Amount": 20, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Rosin", "Amount": 15, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_K2", "Amount": 15, "Destroy": 1, "Changehealth": 0.0 }
+            ],
+            "AttachmentsNeed": [ "HP_Vise", "HP_Payalnik" ]
+        },
+        {
+            "CategoryName": "Медицина",
+            "Result": "TerjeSyringeEmpty",
+            "ResultCount": 1,
+            "RecipeName": "Пустой шприц",
+            "CraftTime": 10.0,
+            "ChanceToSuccess": 0.75,
+            "AttachmentsDamage": 3.0,
+            "CraftComponents": [
+                { "Classname": "RIP_Plastik", "Amount": 3, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_rubber", "Amount": 5, "Destroy": 1, "Changehealth": 0.0 }
+            ],
+            "AttachmentsNeed": [ "HP_Vise" ]
+        },
+        {
+            "CategoryName": "Медицина",
+            "Result": "Heatpack",
+            "ResultCount": 1,
+            "RecipeName": "Химическая грелка",
+            "CraftTime": 15.0,
+            "ChanceToSuccess": 0.70,
+            "AttachmentsDamage": 5.0,
+            "CraftComponents": [
+                { "Classname": "RIP_Plastik", "Amount": 3, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_K2", "Amount": 15, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Urotropine", "Amount": 10, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Rosin", "Amount": 8, "Destroy": 1, "Changehealth": 0.0 }
+            ],
+            "AttachmentsNeed": [ "HP_Vise" ]
+        },
+        {
+            "CategoryName": "Освещение",
+            "Result": "Roadflare",
+            "ResultCount": 1,
+            "RecipeName": "Фальшфейер",
+            "CraftTime": 25.0,
+            "ChanceToSuccess": 0.60,
+            "AttachmentsDamage": 8.0,
+            "CraftComponents": [
+                { "Classname": "RIP_Plastik", "Amount": 5, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_UrotropineEx", "Amount": 20, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_K2", "Amount": 15, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Foil", "Amount": 10, "Destroy": 1, "Changehealth": 0.0 }
+            ],
+            "AttachmentsNeed": [ "HP_Vise" ]
+        },
+        {
+            "CategoryName": "Освещение",
+            "Result": "Chemlight_white",
+            "ResultCount": 1,
+            "RecipeName": "Химсвет",
+            "CraftTime": 20.0,
+            "ChanceToSuccess": 0.65,
+            "AttachmentsDamage": 5.0,
+            "CraftComponents": [
+                { "Classname": "RIP_Plastik", "Amount": 3, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_Urotropine", "Amount": 15, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_K2", "Amount": 10, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_H2SO4", "Amount": 15, "Destroy": 1, "Changehealth": 0.0 }
+            ],
+            "AttachmentsNeed": [ "HP_Vise" ]
         }
     ]
 }
