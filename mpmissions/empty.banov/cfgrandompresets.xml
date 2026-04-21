@@ -137,31 +137,35 @@
 				<item name="Battery9V" chance="0.2" />
 				<item name="Flashlight" chance="0.2" />
 		</cargo>
-		<cargo chance="0.15" name="ammoCivil">
+		<!-- ЗАМЕНИТЬ на новые типы патронов AdditionalAmmo -->
+	<cargo chance="0.15" name="ammoCivil">
 				<item name="Ammo_380" chance="0.22" />
-				<item name="AmmoBox_380_35Rnd" chance="0.08" />
+				<!-- <item name="AmmoBox_380_35Rnd" chance="0.08" /> -->
 				<item name="Ammo_9x19" chance="0.15" />
-				<item name="AmmoBox_9x19_25Rnd" chance="0.08" />
+				<!-- <item name="AmmoBox_9x19_25Rnd" chance="0.08" /> -->
 				<item name="Ammo_762x39" chance="0.12" />
-				<item name="AmmoBox_762x39_20Rnd" chance="0.02" />
+				<!-- <item name="AmmoBox_762x39_20Rnd" chance="0.02" /> -->
 				<item name="Ammo_762x54" chance="0.08" />
-				<item name="AmmoBox_762x54_20Rnd" chance="0.02" />
+				<!-- <item name="AmmoBox_762x54_20Rnd" chance="0.02" /> -->
 		</cargo>
-		<cargo chance="0.3" name="ammoPolice">
+		<!-- ЗАМЕНИТЬ на новые типы патронов AdditionalAmmo -->
+	<cargo chance="0.3" name="ammoPolice">
 				<item name="Ammo_9x19" chance="0.25" />
-				<item name="AmmoBox_9x19_25Rnd" chance="0.09" />
+				<!-- <item name="AmmoBox_9x19_25Rnd" chance="0.09" /> -->
 				<item name="Ammo_545x39" chance="0.25" />
-				<item name="AmmoBox_545x39_20Rnd" chance="0.07" />
+				<!-- <item name="AmmoBox_545x39_20Rnd" chance="0.07" /> -->
 		</cargo>
-		<cargo chance="0.25" name="ammoArmy">
+		<!-- ЗАМЕНИТЬ на новые типы патронов AdditionalAmmo -->
+	<cargo chance="0.25" name="ammoArmy">
 				<item name="Ammo_45ACP" chance="0.2" />
-				<item name="AmmoBox_45ACP_25Rnd" chance="0.05" />
+				<!-- <item name="AmmoBox_45ACP_25Rnd" chance="0.05" /> -->
 				<item name="Ammo_762x39" chance="0.2" />
-				<item name="AmmoBox_762x39_20Rnd" chance="0.05" />
+				<!-- <item name="AmmoBox_762x39_20Rnd" chance="0.05" /> -->
 				<item name="Ammo_762x54" chance="0.2" />
-				<item name="AmmoBox_762x54_20Rnd" chance="0.05" />
+				<!-- <item name="AmmoBox_762x54_20Rnd" chance="0.05" /> -->
 		</cargo>
-		<cargo chance="0.1" name="mixVillage">
+		<!-- ЗАМЕНИТЬ на новые типы патронов AdditionalAmmo -->
+	<cargo chance="0.1" name="mixVillage">
 				<item name="DuctTape" chance="0.07" />
 				<item name="Battery9V" chance="0.07" />
 				<item name="Paper" chance="0.1" />
@@ -172,13 +176,13 @@
 				<item name="CanOpener" chance="0.05" />
 				<item name="BandageDressing" chance="0.05" />
 				<item name="Ammo_380" chance="0.22" />
-				<item name="AmmoBox_380_35Rnd" chance="0.08" />
+				<!-- <item name="AmmoBox_380_35Rnd" chance="0.08" /> -->
 				<item name="Ammo_9x19" chance="0.15" />
-				<item name="AmmoBox_9x19_25Rnd" chance="0.08" />
+				<!-- <item name="AmmoBox_9x19_25Rnd" chance="0.08" /> -->
 				<item name="Ammo_762x39" chance="0.12" />
-				<item name="AmmoBox_762x39_20Rnd" chance="0.02" />
+				<!-- <item name="AmmoBox_762x39_20Rnd" chance="0.02" /> -->
 				<item name="Ammo_762x54" chance="0.08" />
-				<item name="AmmoBox_762x54_20Rnd" chance="0.02" />
+				<!-- <item name="AmmoBox_762x54_20Rnd" chance="0.02" /> -->
 				<item name="SodaCan_Cola" chance="0.09" />
 				<item name="SodaCan_Pipsi" chance="0.09" />
 				<item name="SodaCan_Spite" chance="0.09" />
@@ -189,7 +193,8 @@
 				<item name="BakedBeansCan" chance="0.10" />
 				<item name="ChelatingTablets" chance="0.1" />
 		</cargo>
-		<cargo chance="0.1" name="mixHunter">
+		<!-- ЗАМЕНИТЬ на новые типы патронов AdditionalAmmo -->
+	<cargo chance="0.1" name="mixHunter">
 				<item name="Paper" chance="0.1" />
 				<item name="Flashlight" chance="0.1" />
 				<item name="Matchbox" chance="0.07" />
@@ -198,13 +203,13 @@
 				<item name="CanOpener" chance="0.05" />
 				<item name="BandageDressing" chance="0.05" />
 				<item name="Ammo_380" chance="0.22" />
-				<item name="AmmoBox_380_35Rnd" chance="0.08" />
+				<!-- <item name="AmmoBox_380_35Rnd" chance="0.08" /> -->
 				<item name="Ammo_9x19" chance="0.15" />
-				<item name="AmmoBox_9x19_25Rnd" chance="0.08" />
+				<!-- <item name="AmmoBox_9x19_25Rnd" chance="0.08" /> -->
 				<item name="Ammo_762x39" chance="0.12" />
-				<item name="AmmoBox_762x39_20Rnd" chance="0.02" />
+				<!-- <item name="AmmoBox_762x39_20Rnd" chance="0.02" /> -->
 				<item name="Ammo_762x54" chance="0.08" />
-				<item name="AmmoBox_762x54_20Rnd" chance="0.02" />
+				<!-- <item name="AmmoBox_762x54_20Rnd" chance="0.02" /> -->
 				<item name="SodaCan_Cola" chance="0.09" />
 				<item name="SodaCan_Pipsi" chance="0.09" />
 				<item name="SodaCan_Spite" chance="0.08" />
@@ -214,7 +219,8 @@
 				<item name="SpaghettiCan" chance="0.09" />
 				<item name="BakedBeansCan" chance="0.09" />
 		</cargo>
-		<cargo chance="0.1" name="mixArmy">
+		<!-- ЗАМЕНИТЬ на новые типы патронов AdditionalAmmo -->
+	<cargo chance="0.1" name="mixArmy">
 				<item name="SodaCan_Cola" chance="0.05" />
 				<item name="SodaCan_Pipsi" chance="0.05" />
 				<item name="SodaCan_Spite" chance="0.05" />
@@ -226,16 +232,17 @@
 				<item name="TacticalBaconCan" chance="0.1" />
 				<item name="Canteen" chance="0.1" />
 				<item name="Ammo_45ACP" chance="0.2" />
-				<item name="AmmoBox_45ACP_25Rnd" chance="0.05" />
+				<!-- <item name="AmmoBox_45ACP_25Rnd" chance="0.05" /> -->
 				<item name="Ammo_762x39" chance="0.2" />
-				<item name="AmmoBox_762x39_20Rnd" chance="0.05" />
+				<!-- <item name="AmmoBox_762x39_20Rnd" chance="0.05" /> -->
 				<item name="Ammo_762x54" chance="0.2" />
-				<item name="AmmoBox_762x54_20Rnd" chance="0.05" />
+				<!-- <item name="AmmoBox_762x54_20Rnd" chance="0.05" /> -->
 		</cargo>
+		<!-- ЗАМЕНИТЬ на новые типы гранат AdditionalAmmo -->
 		<cargo chance="0.04" name="grenades">
-				<item name="RDG2SmokeGrenade_White" chance="0.25" />
+				<!-- <item name="RDG2SmokeGrenade_White" chance="0.25" /> -->
 				<item name="FlashGrenade" chance="0.25" />
-				<item name="RDG2SmokeGrenade_Black" chance="0.25" />
+				<!-- <item name="RDG2SmokeGrenade_Black" chance="0.25" /> -->
 				<item name="RGD5Grenade" chance="0.25" />
 		</cargo>
 		<attachments chance="0.10" name="optics">
@@ -604,26 +611,29 @@
 			<item name="Ammo_40mm_Explosive" chance="0.02" />
 			<item name="Ammo_40mm_ChemGas" chance="0.02" />
 		</cargo>
+		<!-- ЗАМЕНИТЬ на новые типы патронов AdditionalAmmo -->
 		<cargo chance="1.0" name="Xmas_Ammo_Small">
-			<item name="Ammo_Flare" chance="0.05" />
+			<!-- <item name="Ammo_Flare" chance="0.05" /> -->
 			<item name="Ammo_FlareRed" chance="0.05" />
-			<item name="Ammo_FlareGreen" chance="0.05" />
-			<item name="Ammo_FlareBlue" chance="0.05" />
+			<!-- <item name="Ammo_FlareGreen" chance="0.05" /> -->
+			<!-- <item name="Ammo_FlareBlue" chance="0.05" /> -->
 		</cargo>
+		<!-- ЗАМЕНИТЬ на новые типы патронов AdditionalAmmo -->
 		<cargo chance="1.0" name="Xmas_AmmoBoxes_Small">
-			<item name="AmmoBox_22_50Rnd" chance="0.05" />
-			<item name="AmmoBox_00buck_10rnd" chance="0.05" />
-			<item name="AmmoBox_12gaSlug_10Rnd" chance="0.05" />
-			<item name="AmmoBox_380_35rnd" chance="0.05" />
-			<item name="AmmoBox_9x19_25rnd" chance="0.05" />
-			<item name="AmmoBox_45ACP_25rnd" chance="0.05" />
-			<item name="AmmoBox_357_20Rnd" chance="0.05" />
-			<item name="AmmoBox_762x39_20Rnd" chance="0.05" />
-			<item name="AmmoBox_762x54_20Rnd" chance="0.05" />
+			<!-- <item name="AmmoBox_22_50Rnd" chance="0.05" /> -->
+			<!-- <item name="AmmoBox_00buck_10rnd" chance="0.05" /> -->
+			<!-- <item name="AmmoBox_12gaSlug_10Rnd" chance="0.05" /> -->
+			<!-- <item name="AmmoBox_380_35rnd" chance="0.05" /> -->
+			<!-- <item name="AmmoBox_9x19_25rnd" chance="0.05" /> -->
+			<!-- <item name="AmmoBox_45ACP_25rnd" chance="0.05" /> -->
+			<!-- <item name="AmmoBox_357_20Rnd" chance="0.05" /> -->
+			<!-- <item name="AmmoBox_762x39_20Rnd" chance="0.05" /> -->
+			<!-- <item name="AmmoBox_762x54_20Rnd" chance="0.05" /> -->
 		</cargo>
+		<!-- ЗАМЕНИТЬ на новые типы магазинов AdditionalAmmo -->
 		<cargo chance="1.0" name="Xmas_Mags_Small">
-			<item name="Mag_M14_10Rnd" chance="0.076" />
-			<item name="Mag_M14_20Rnd" chance="0.076" />
+			<!-- <item name="Mag_M14_10Rnd" chance="0.076" /> -->
+			<!-- <item name="Mag_M14_20Rnd" chance="0.076" /> -->
 			<item name="Mag_Ruger1022_15Rnd" chance="0.076" />
 			<item name="Mag_FNX45_15Rnd" chance="0.076" />
 			<item name="Mag_Glock_15Rnd" chance="0.076" />

@@ -92,11 +92,7 @@
 	</type>
 
 	<!-- WEAPONS -->
-	<type name="ExpansionHAMROptic">
-		<attachments chance="0.30">
-			<item name="ExpansionDeltapointOptic" chance="1.00" />
-		</attachments>
-	</type>
+	<!-- ЗАМЕНИТЬ на новые типы AdditionalAmmo -->
 	<type name="Expansion_M9">
 		<attachments chance="0.30">
 			<item name="Mag_Expansion_M9_15Rnd" chance="1.00" />
@@ -118,7 +114,7 @@
 			<item name="ExpansionReflexMRSOptic" chance="0.20" />
 			<item name="ACOGOptic" chance="0.10" />
 			<item name="M4_T3NRDSOptic" chance="0.10" />
-			<item name="ExpansionHAMROptic" chance="0.15" />
+			<!-- ЗАМЕНИТЬ на новые типы AdditionalAmmo -->
 			<item name="ExpansionReflexMRSOptic" chance="0.15" />
 		</attachments>
 		<attachments chance="0.10">
@@ -134,7 +130,7 @@
 			<item name="ExpansionReflexMRSOptic" chance="0.20" />
 			<item name="ACOGOptic" chance="0.10" />
 			<item name="M4_T3NRDSOptic" chance="0.10" />
-			<item name="ExpansionHAMROptic" chance="0.15" />
+			<!-- ЗАМЕНИТЬ на новые типы AdditionalAmmo -->
 			<item name="ExpansionReflexMRSOptic" chance="0.15" />
 		</attachments>
 		<attachments chance="0.10">
@@ -150,7 +146,7 @@
 			<item name="ExpansionReflexMRSOptic" chance="0.20" />
 			<item name="ACOGOptic" chance="0.10" />
 			<item name="M4_T3NRDSOptic" chance="0.10" />
-			<item name="ExpansionHAMROptic" chance="0.15" />
+			<!-- ЗАМЕНИТЬ на новые типы AdditionalAmmo -->
 			<item name="ExpansionReflexMRSOptic" chance="0.15" />
 		</attachments>
 		<attachments chance="0.05">
@@ -166,7 +162,7 @@
 			<item name="ExpansionReflexMRSOptic" chance="0.20" />
 			<item name="ACOGOptic" chance="0.10" />
 			<item name="M4_T3NRDSOptic" chance="0.10" />
-			<item name="ExpansionHAMROptic" chance="0.15" />
+			<!-- ЗАМЕНИТЬ на новые типы AdditionalAmmo -->
 			<item name="ExpansionReflexMRSOptic" chance="0.15" />
 		</attachments>
 		<attachments chance="0.10">
@@ -204,7 +200,7 @@
 		</attachments>
 		<attachments chance="0.20">
 			<item name="Expansion_PMII25Optic" chance="0.50" />
-			<item name="ExpansionHAMROptic" chance="0.10" />
+			<!-- ЗАМЕНИТЬ на новые типы AdditionalAmmo -->
 			<item name="ExpansionReflexMRSOptic" chance="0.05" />
 			<item name="M4_T3NRDSOptic" chance="0.05" />
 			<item name="M68Optic" chance="0.10" />
