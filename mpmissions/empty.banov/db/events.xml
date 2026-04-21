@@ -290,13 +290,6 @@
 			<child lootmax="0" lootmin="0" max="4" min="0" type="Animal_CanisLupus_White"/>
 		</children>
 	</event>
-	
-	<!-- Mining -->
-			<child lootmax="0" lootmin="0" max="7" min="2" type="FreezeNode_gold"/>
-			<child lootmax="0" lootmin="0" max="5" min="0" type="FreezeNode_uranium"/>
-			<child lootmax="0" lootmin="0" max="3" min="1" type="FreezeNode_AquamarineGemNode"/>
-		</children>
-	</event>
 
 	<event name="InfectedArmy">
 		<nominal>50</nominal>
