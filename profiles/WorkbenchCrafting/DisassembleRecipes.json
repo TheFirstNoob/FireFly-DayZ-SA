@@ -1,50 +1,596 @@
 {
     "Recipes": [
         {
-            "CategoryName": "Tools",
+            "CategoryName": "Инструменты",
             "ItemToDisassemble": "Hammer",
-            "RecipeName": "Disassemble Hammer",
+            "RecipeName": "Разборка Молотка",
             "CraftTime": 5.0,
             "ChanceToSuccess": 1.0,
             "AttachmentsDamage": 0.0,
             "AttachmentsNeed": [],
             "DisassembleResults": [
-                {
-                    "Classname": "Nail",
-                    "MinAmount": 3,
-                    "MaxAmount": 5
-                },
-                {
-                    "Classname": "WoodenLog",
-                    "MinAmount": 1,
-                    "MaxAmount": 1
-                }
+                { "Classname": "Nail", "MinAmount": 2, "MaxAmount": 3 },
+                { "Classname": "WoodenLog", "MinAmount": 1, "MaxAmount": 1 }
             ]
         },
         {
-            "CategoryName": "Gardening",
+            "CategoryName": "Садоводство",
             "ItemToDisassemble": "Shovel",
-            "RecipeName": "Disassemble Shovel",
+            "RecipeName": "Разборка Лопаты",
             "CraftTime": 10.0,
-            "ChanceToSuccess": 0.800000011920929,
+            "ChanceToSuccess": 0.80,
             "AttachmentsDamage": 50.0,
             "AttachmentsNeed": [],
             "DisassembleResults": [
-                {
-                    "Classname": "WoodenLog",
-                    "MinAmount": 1,
-                    "MaxAmount": 1
-                },
-                {
-                    "Classname": "WoodenStick",
-                    "MinAmount": 1,
-                    "MaxAmount": 1
-                },
-                {
-                    "Classname": "MetalPlate",
-                    "MinAmount": 0,
-                    "MaxAmount": 1
-                }
+                { "Classname": "WoodenLog", "MinAmount": 1, "MaxAmount": 1 },
+                { "Classname": "WoodenStick", "MinAmount": 1, "MaxAmount": 1 },
+                { "Classname": "MetalPlate", "MinAmount": 0, "MaxAmount": 1 }
+            ]
+        },
+        {
+            "CategoryName": "Электроника",
+            "ItemToDisassemble": "Battery9V",
+            "RecipeName": "Разборка Батарейки 9V",
+            "CraftTime": 5.0,
+            "ChanceToSuccess": 0.90,
+            "AttachmentsDamage": 10.0,
+            "AttachmentsNeed": [ "HP_Payalnik" ],
+            "DisassembleResults": [
+                { "Classname": "RIP_Plastik", "MinAmount": 3, "MaxAmount": 5 },
+                { "Classname": "RIP_Foil", "MinAmount": 12, "MaxAmount": 15 },
+                { "Classname": "RIP_Wire", "MinAmount": 6, "MaxAmount": 8 },
+                { "Classname": "RIP_K2", "MinAmount": 15, "MaxAmount": 20 }
+            ]
+        },
+        {
+            "CategoryName": "Автозапчасти",
+            "ItemToDisassemble": "SparkPlug",
+            "RecipeName": "Разборка Свечи зажигания",
+            "CraftTime": 5.0,
+            "ChanceToSuccess": 0.85,
+            "AttachmentsDamage": 5.0,
+            "AttachmentsNeed": [ "HP_napilnik" ],
+            "DisassembleResults": [
+                { "Classname": "RIP_bolts", "MinAmount": 2, "MaxAmount": 3 },
+                { "Classname": "RIP_CopperCoil", "MinAmount": 6, "MaxAmount": 8 },
+                { "Classname": "RIP_Textolit", "MinAmount": 0, "MaxAmount": 1 }
+            ]
+        },
+        {
+            "CategoryName": "Автозапчасти",
+            "ItemToDisassemble": "CarBattery",
+            "RecipeName": "Разборка Автомобильного аккумулятора",
+            "CraftTime": 15.0,
+            "ChanceToSuccess": 0.80,
+            "AttachmentsDamage": 20.0,
+            "AttachmentsNeed": [ "HP_Vise", "HP_Payalnik" ],
+            "DisassembleResults": [
+                { "Classname": "RIP_Plastik", "MinAmount": 9, "MaxAmount": 12 },
+                { "Classname": "RIP_LeadSheets", "MinAmount": 1, "MaxAmount": 2 },
+                { "Classname": "RIP_H2SO4", "MinAmount": 300, "MaxAmount": 400 },
+                { "Classname": "RIP_rubber", "MinAmount": 30, "MaxAmount": 40 },
+                { "Classname": "RIP_Foil", "MinAmount": 48, "MaxAmount": 64 }
+            ]
+        },
+        {
+            "CategoryName": "Автозапчасти",
+            "ItemToDisassemble": "TruckBattery",
+            "RecipeName": "Разборка Грузового аккумулятора",
+            "CraftTime": 20.0,
+            "ChanceToSuccess": 0.70,
+            "AttachmentsDamage": 30.0,
+            "AttachmentsNeed": [ "HP_Vise", "HP_Payalnik" ],
+            "DisassembleResults": [
+                { "Classname": "RIP_Plastik", "MinAmount": 15, "MaxAmount": 20 },
+                { "Classname": "RIP_LeadSheets", "MinAmount": 3, "MaxAmount": 4 },
+                { "Classname": "RIP_H2SO4", "MinAmount": 600, "MaxAmount": 800 },
+                { "Classname": "RIP_rubber", "MinAmount": 90, "MaxAmount": 120 },
+                { "Classname": "RIP_Foil", "MinAmount": 120, "MaxAmount": 160 }
+            ]
+        },
+        {
+            "CategoryName": "Электроника",
+            "ItemToDisassemble": "NVGoggles",
+            "RecipeName": "Разборка ПНВ",
+            "CraftTime": 30.0,
+            "ChanceToSuccess": 0.70,
+            "AttachmentsDamage": 25.0,
+            "AttachmentsNeed": [ "HP_Payalnik", "HP_Vise" ],
+            "DisassembleResults": [
+                { "Classname": "RIP_GlassPK", "MinAmount": 2, "MaxAmount": 3 },
+                { "Classname": "RIP_Plastik", "MinAmount": 9, "MaxAmount": 12 },
+                { "Classname": "RIP_milMCs", "MinAmount": 2, "MaxAmount": 3 },
+                { "Classname": "RIP_Semiconds", "MinAmount": 6, "MaxAmount": 8 },
+                { "Classname": "RIP_rubber", "MinAmount": 18, "MaxAmount": 24 }
+            ]
+        },
+        {
+            "CategoryName": "Электроника",
+            "ItemToDisassemble": "ExpansionGPS",
+            "RecipeName": "Разборка GPS навигатора",
+            "CraftTime": 25.0,
+            "ChanceToSuccess": 0.65,
+            "AttachmentsDamage": 20.0,
+            "AttachmentsNeed": [ "HP_Payalnik", "HP_Vise" ],
+            "DisassembleResults": [
+                { "Classname": "RIP_CivMC", "MinAmount": 3, "MaxAmount": 4 },
+                { "Classname": "RIP_Semiconds", "MinAmount": 7, "MaxAmount": 10 },
+                { "Classname": "RIP_modCap", "MinAmount": 5, "MaxAmount": 6 },
+                { "Classname": "RIP_modRes", "MinAmount": 6, "MaxAmount": 8 },
+                { "Classname": "RIP_GlassPK", "MinAmount": 1, "MaxAmount": 2 }
+            ]
+        },
+        {
+            "CategoryName": "Электроника",
+            "ItemToDisassemble": "Rangefinder",
+            "RecipeName": "Разборка Дальномера",
+            "CraftTime": 20.0,
+            "ChanceToSuccess": 0.70,
+            "AttachmentsDamage": 18.0,
+            "AttachmentsNeed": [ "HP_Payalnik", "HP_Vise" ],
+            "DisassembleResults": [
+                { "Classname": "RIP_CivMC", "MinAmount": 2, "MaxAmount": 3 },
+                { "Classname": "RIP_Semiconds", "MinAmount": 6, "MaxAmount": 8 },
+                { "Classname": "RIP_modCap", "MinAmount": 4, "MaxAmount": 5 },
+                { "Classname": "RIP_modRes", "MinAmount": 5, "MaxAmount": 6 },
+                { "Classname": "RIP_GlassPK", "MinAmount": 2, "MaxAmount": 2 }
+            ]
+        },
+        {
+            "CategoryName": "Электроника",
+            "ItemToDisassemble": "PowerGenerator",
+            "RecipeName": "Разборка Переносного генератора",
+            "CraftTime": 40.0,
+            "ChanceToSuccess": 0.60,
+            "AttachmentsDamage": 35.0,
+            "AttachmentsNeed": [ "HP_Vise", "HP_Payalnik", "HP_Drill" ],
+            "DisassembleResults": [
+                { "Classname": "RIP_Elmotor", "MinAmount": 1, "MaxAmount": 1 },
+                { "Classname": "RIP_ElmotorDriver", "MinAmount": 1, "MaxAmount": 1 },
+                { "Classname": "RIP_TRR", "MinAmount": 1, "MaxAmount": 2 },
+                { "Classname": "RIP_CivMC", "MinAmount": 3, "MaxAmount": 4 },
+                { "Classname": "RIP_rubber", "MinAmount": 48, "MaxAmount": 64 },
+                { "Classname": "RIP_Cable", "MinAmount": 12, "MaxAmount": 16 }
+            ]
+        },
+        {
+            "CategoryName": "Автозапчасти",
+            "ItemToDisassemble": "CarRadiator",
+            "RecipeName": "Разборка Автомобильного радиатора",
+            "CraftTime": 20.0,
+            "ChanceToSuccess": 0.75,
+            "AttachmentsDamage": 20.0,
+            "AttachmentsNeed": [ "HP_Vise", "HP_napilnik" ],
+            "DisassembleResults": [
+                { "Classname": "RIP_CopperCoil", "MinAmount": 48, "MaxAmount": 64 },
+                { "Classname": "RIP_Plastik", "MinAmount": 18, "MaxAmount": 24 },
+                { "Classname": "RIP_rubber", "MinAmount": 36, "MaxAmount": 48 }
+            ]
+        },
+        {
+            "CategoryName": "Автозапчасти",
+            "ItemToDisassemble": "CarHeadlight",
+            "RecipeName": "Разборка Автомобильной лампы",
+            "CraftTime": 10.0,
+            "ChanceToSuccess": 0.80,
+            "AttachmentsDamage": 10.0,
+            "AttachmentsNeed": [ "HP_Vise", "HP_napilnik" ],
+            "DisassembleResults": [
+                { "Classname": "RIP_GlassPK", "MinAmount": 1, "MaxAmount": 2 },
+                { "Classname": "RIP_Plastik", "MinAmount": 6, "MaxAmount": 8 },
+                { "Classname": "RIP_CopperCoil", "MinAmount": 12, "MaxAmount": 16 },
+                { "Classname": "RIP_rubber", "MinAmount": 9, "MaxAmount": 12 }
+            ]
+        },
+        {
+            "CategoryName": "Электроника",
+            "ItemToDisassemble": "Lnr_BatteryCharger9V",
+            "RecipeName": "Разборка Зарядного устройства для авто",
+            "CraftTime": 15.0,
+            "ChanceToSuccess": 0.75,
+            "AttachmentsDamage": 15.0,
+            "AttachmentsNeed": [ "HP_Payalnik", "HP_Vise" ],
+            "DisassembleResults": [
+                { "Classname": "RIP_milMCs", "MinAmount": 1, "MaxAmount": 2 },
+                { "Classname": "RIP_CivMC", "MinAmount": 2, "MaxAmount": 2 },
+                { "Classname": "RIP_Semiconds", "MinAmount": 5, "MaxAmount": 6 },
+                { "Classname": "RIP_modCap", "MinAmount": 5, "MaxAmount": 6 },
+                { "Classname": "RIP_TRR", "MinAmount": 1, "MaxAmount": 2 }
+            ]
+        },
+        {
+            "CategoryName": "Электроника",
+            "ItemToDisassemble": "BatteryCharger9V",
+            "RecipeName": "Разборка Зарядного устройства 9В",
+            "CraftTime": 10.0,
+            "ChanceToSuccess": 0.80,
+            "AttachmentsDamage": 10.0,
+            "AttachmentsNeed": [ "HP_Payalnik" ],
+            "DisassembleResults": [
+                { "Classname": "RIP_CivMC", "MinAmount": 1, "MaxAmount": 2 },
+                { "Classname": "RIP_Semiconds", "MinAmount": 3, "MaxAmount": 4 },
+                { "Classname": "RIP_modCap", "MinAmount": 2, "MaxAmount": 3 },
+                { "Classname": "RIP_TRR", "MinAmount": 0, "MaxAmount": 1 }
+            ]
+        },
+        {
+            "CategoryName": "Компоненты",
+            "ItemToDisassemble": "RIP_milMCs",
+            "RecipeName": "Разборка Военной микросхемы",
+            "CraftTime": 15.0,
+            "ChanceToSuccess": 0.80,
+            "AttachmentsDamage": 10.0,
+            "AttachmentsNeed": [ "HP_Payalnik" ],
+            "DisassembleResults": [
+                { "Classname": "RIP_CivMC", "MinAmount": 2, "MaxAmount": 2 },
+                { "Classname": "RIP_Semiconds", "MinAmount": 5, "MaxAmount": 6 },
+                { "Classname": "RIP_modCap", "MinAmount": 3, "MaxAmount": 4 },
+                { "Classname": "RIP_modRes", "MinAmount": 3, "MaxAmount": 4 }
+            ]
+        },
+        {
+            "CategoryName": "Компоненты",
+            "ItemToDisassemble": "RIP_sovCap",
+            "RecipeName": "Разборка Советского конденсатора",
+            "CraftTime": 8.0,
+            "ChanceToSuccess": 0.85,
+            "AttachmentsDamage": 5.0,
+            "AttachmentsNeed": [ "HP_Payalnik" ],
+            "DisassembleResults": [
+                { "Classname": "RIP_modCap", "MinAmount": 2, "MaxAmount": 2 },
+                { "Classname": "RIP_Foil", "MinAmount": 9, "MaxAmount": 12 }
+            ]
+        },
+        {
+            "CategoryName": "Компоненты",
+            "ItemToDisassemble": "RIP_sovRes",
+            "RecipeName": "Разборка Советского резистора",
+            "CraftTime": 8.0,
+            "ChanceToSuccess": 0.85,
+            "AttachmentsDamage": 5.0,
+            "AttachmentsNeed": [ "HP_Payalnik" ],
+            "DisassembleResults": [
+                { "Classname": "RIP_modRes", "MinAmount": 2, "MaxAmount": 2 },
+                { "Classname": "RIP_Foil", "MinAmount": 6, "MaxAmount": 8 }
+            ]
+        },
+        {
+            "CategoryName": "Компоненты",
+            "ItemToDisassemble": "RIP_modCap",
+            "RecipeName": "Разборка Конденсаторов",
+            "CraftTime": 8.0,
+            "ChanceToSuccess": 0.85,
+            "AttachmentsDamage": 5.0,
+            "AttachmentsNeed": [ "HP_Payalnik" ],
+            "DisassembleResults": [
+                { "Classname": "RIP_Foil", "MinAmount": 12, "MaxAmount": 16 },
+                { "Classname": "RIP_Plastik", "MinAmount": 3, "MaxAmount": 4 }
+            ]
+        },
+        {
+            "CategoryName": "Компоненты",
+            "ItemToDisassemble": "RIP_modRes",
+            "RecipeName": "Разборка Резисторов",
+            "CraftTime": 8.0,
+            "ChanceToSuccess": 0.85,
+            "AttachmentsDamage": 5.0,
+            "AttachmentsNeed": [ "HP_Payalnik" ],
+            "DisassembleResults": [
+                { "Classname": "RIP_Foil", "MinAmount": 9, "MaxAmount": 12 }
+            ]
+        },
+        {
+            "CategoryName": "Компоненты",
+            "ItemToDisassemble": "RIP_Textolit",
+            "RecipeName": "Разборка Текстолита",
+            "CraftTime": 8.0,
+            "ChanceToSuccess": 0.90,
+            "AttachmentsDamage": 5.0,
+            "AttachmentsNeed": [ "HP_Vise" ],
+            "DisassembleResults": [
+                { "Classname": "RIP_Plastik", "MinAmount": 9, "MaxAmount": 12 },
+                { "Classname": "RIP_Rosin", "MinAmount": 9, "MaxAmount": 12 }
+            ]
+        },
+        {
+            "CategoryName": "Компоненты",
+            "ItemToDisassemble": "RIP_CopperCoil",
+            "RecipeName": "Разборка Катушки меди",
+            "CraftTime": 10.0,
+            "ChanceToSuccess": 0.85,
+            "AttachmentsDamage": 8.0,
+            "AttachmentsNeed": [ "HP_Vise" ],
+            "DisassembleResults": [
+                { "Classname": "RIP_Plastik", "MinAmount": 6, "MaxAmount": 8 },
+                { "Classname": "RIP_Foil", "MinAmount": 30, "MaxAmount": 40 }
+            ]
+        },
+        {
+            "CategoryName": "Компоненты",
+            "ItemToDisassemble": "RIP_Fuses",
+            "RecipeName": "Разборка Предохранителей",
+            "CraftTime": 8.0,
+            "ChanceToSuccess": 0.85,
+            "AttachmentsDamage": 5.0,
+            "AttachmentsNeed": [ "HP_Vise", "HP_napilnik" ],
+            "DisassembleResults": [
+                { "Classname": "RIP_Foil", "MinAmount": 6, "MaxAmount": 8 },
+                { "Classname": "RIP_rubber", "MinAmount": 5, "MaxAmount": 6 }
+            ]
+        },
+        {
+            "CategoryName": "Строительство",
+            "ItemToDisassemble": "PortableGasLamp",
+            "RecipeName": "Разборка Газовой лампы",
+            "CraftTime": 10.0,
+            "ChanceToSuccess": 0.80,
+            "AttachmentsDamage": 8.0,
+            "AttachmentsNeed": [ "HP_Vise", "HP_napilnik" ],
+            "DisassembleResults": [
+                { "Classname": "RIP_Plastik", "MinAmount": 9, "MaxAmount": 12 },
+                { "Classname": "RIP_rubber", "MinAmount": 12, "MaxAmount": 16 },
+                { "Classname": "RIP_CopperCoil", "MinAmount": 9, "MaxAmount": 12 }
+            ]
+        },
+        {
+            "CategoryName": "Строительство",
+            "ItemToDisassemble": "XmasLights",
+            "RecipeName": "Разборка Праздничных огней",
+            "CraftTime": 10.0,
+            "ChanceToSuccess": 0.80,
+            "AttachmentsDamage": 8.0,
+            "AttachmentsNeed": [ "HP_Payalnik" ],
+            "DisassembleResults": [
+                { "Classname": "RIP_Plastik", "MinAmount": 6, "MaxAmount": 8 },
+                { "Classname": "RIP_Wire", "MinAmount": 18, "MaxAmount": 24 },
+                { "Classname": "RIP_CivMC", "MinAmount": 1, "MaxAmount": 2 }
+            ]
+        },
+        {
+            "CategoryName": "Строительство",
+            "ItemToDisassemble": "Spotlight",
+            "RecipeName": "Разборка Строительной лампы",
+            "CraftTime": 15.0,
+            "ChanceToSuccess": 0.75,
+            "AttachmentsDamage": 12.0,
+            "AttachmentsNeed": [ "HP_Payalnik", "HP_Vise" ],
+            "DisassembleResults": [
+                { "Classname": "RIP_Plastik", "MinAmount": 12, "MaxAmount": 16 },
+                { "Classname": "RIP_CivMC", "MinAmount": 2, "MaxAmount": 2 },
+                { "Classname": "RIP_Semiconds", "MinAmount": 4, "MaxAmount": 5 },
+                { "Classname": "RIP_CopperCoil", "MinAmount": 15, "MaxAmount": 20 },
+                { "Classname": "RIP_GlassPK", "MinAmount": 1, "MaxAmount": 2 }
+            ]
+        },
+        {
+            "CategoryName": "Строительство",
+            "ItemToDisassemble": "CableReel",
+            "RecipeName": "Разборка Кабельной катушки",
+            "CraftTime": 12.0,
+            "ChanceToSuccess": 0.80,
+            "AttachmentsDamage": 10.0,
+            "AttachmentsNeed": [ "HP_Vise", "HP_napilnik" ],
+            "DisassembleResults": [
+                { "Classname": "RIP_Cable", "MinAmount": 9, "MaxAmount": 12 },
+                { "Classname": "RIP_Plastik", "MinAmount": 9, "MaxAmount": 12 },
+                { "Classname": "RIP_rubber", "MinAmount": 18, "MaxAmount": 24 }
+            ]
+        },
+        {
+            "CategoryName": "Садоводство",
+            "ItemToDisassemble": "GardenLime",
+            "RecipeName": "Разборка Садовой извести",
+            "CraftTime": 8.0,
+            "ChanceToSuccess": 0.85,
+            "AttachmentsDamage": 5.0,
+            "AttachmentsNeed": [ "HP_Vise" ],
+            "DisassembleResults": [
+                { "Classname": "RIP_Plastik", "MinAmount": 3, "MaxAmount": 4 },
+                { "Classname": "RIP_H2SO4", "MinAmount": 30, "MaxAmount": 40 },
+                { "Classname": "RIP_HCL", "MinAmount": 18, "MaxAmount": 24 }
+            ]
+        },
+        {
+            "CategoryName": "Защита",
+            "ItemToDisassemble": "NBCHoodYellow",
+            "RecipeName": "Разборка Капюшона химзащиты",
+            "CraftTime": 20.0,
+            "ChanceToSuccess": 0.75,
+            "AttachmentsDamage": 15.0,
+            "AttachmentsNeed": [ "HP_Vise", "HP_Grinde" ],
+            "DisassembleResults": [
+                { "Classname": "RIP_Kevlar", "MinAmount": 24, "MaxAmount": 32 },
+                { "Classname": "RIP_Plastik", "MinAmount": 12, "MaxAmount": 16 },
+                { "Classname": "RIP_rubber", "MinAmount": 18, "MaxAmount": 24 },
+                { "Classname": "RIP_K2", "MinAmount": 18, "MaxAmount": 24 }
+            ]
+        },
+        {
+            "CategoryName": "Защита",
+            "ItemToDisassemble": "NBCJacketYellow",
+            "RecipeName": "Разборка Куртки химзащиты",
+            "CraftTime": 25.0,
+            "ChanceToSuccess": 0.70,
+            "AttachmentsDamage": 20.0,
+            "AttachmentsNeed": [ "HP_Vise", "HP_Grinde" ],
+            "DisassembleResults": [
+                { "Classname": "RIP_Kevlar", "MinAmount": 48, "MaxAmount": 64 },
+                { "Classname": "RIP_Plastik", "MinAmount": 18, "MaxAmount": 24 },
+                { "Classname": "RIP_rubber", "MinAmount": 30, "MaxAmount": 40 },
+                { "Classname": "RIP_K2", "MinAmount": 24, "MaxAmount": 32 }
+            ]
+        },
+        {
+            "CategoryName": "Защита",
+            "ItemToDisassemble": "NBCGlovesYellow",
+            "RecipeName": "Разборка Перчаток химзащиты",
+            "CraftTime": 15.0,
+            "ChanceToSuccess": 0.80,
+            "AttachmentsDamage": 10.0,
+            "AttachmentsNeed": [ "HP_Vise" ],
+            "DisassembleResults": [
+                { "Classname": "RIP_Kevlar", "MinAmount": 15, "MaxAmount": 20 },
+                { "Classname": "RIP_Plastik", "MinAmount": 9, "MaxAmount": 12 },
+                { "Classname": "RIP_rubber", "MinAmount": 12, "MaxAmount": 16 },
+                { "Classname": "RIP_K2", "MinAmount": 9, "MaxAmount": 12 }
+            ]
+        },
+        {
+            "CategoryName": "Защита",
+            "ItemToDisassemble": "NBCBootsYellow",
+            "RecipeName": "Разборка Сапог химзащиты",
+            "CraftTime": 18.0,
+            "ChanceToSuccess": 0.75,
+            "AttachmentsDamage": 12.0,
+            "AttachmentsNeed": [ "HP_Vise", "HP_napilnik" ],
+            "DisassembleResults": [
+                { "Classname": "RIP_Kevlar", "MinAmount": 21, "MaxAmount": 28 },
+                { "Classname": "RIP_Plastik", "MinAmount": 12, "MaxAmount": 16 },
+                { "Classname": "RIP_rubber", "MinAmount": 24, "MaxAmount": 32 },
+                { "Classname": "RIP_K2", "MinAmount": 12, "MaxAmount": 16 }
+            ]
+        },
+        {
+            "CategoryName": "Защита",
+            "ItemToDisassemble": "NBCPantsYellow",
+            "RecipeName": "Разборка Штанов химзащиты",
+            "CraftTime": 22.0,
+            "ChanceToSuccess": 0.72,
+            "AttachmentsDamage": 18.0,
+            "AttachmentsNeed": [ "HP_Vise", "HP_Grinde" ],
+            "DisassembleResults": [
+                { "Classname": "RIP_Kevlar", "MinAmount": 36, "MaxAmount": 48 },
+                { "Classname": "RIP_Plastik", "MinAmount": 15, "MaxAmount": 20 },
+                { "Classname": "RIP_rubber", "MinAmount": 24, "MaxAmount": 32 },
+                { "Classname": "RIP_K2", "MinAmount": 18, "MaxAmount": 24 }
+            ]
+        },
+        {
+            "CategoryName": "Защита",
+            "ItemToDisassemble": "AirborneMask",
+            "RecipeName": "Разборка Противогаза химзащиты",
+            "CraftTime": 25.0,
+            "ChanceToSuccess": 0.70,
+            "AttachmentsDamage": 20.0,
+            "AttachmentsNeed": [ "HP_Vise", "HP_Payalnik" ],
+            "DisassembleResults": [
+                { "Classname": "RIP_Kevlar", "MinAmount": 18, "MaxAmount": 24 },
+                { "Classname": "RIP_Plastik", "MinAmount": 15, "MaxAmount": 20 },
+                { "Classname": "RIP_rubber", "MinAmount": 24, "MaxAmount": 32 },
+                { "Classname": "RIP_GlassPK", "MinAmount": 1, "MaxAmount": 2 },
+                { "Classname": "RIP_K2", "MinAmount": 30, "MaxAmount": 40 }
+            ]
+        },
+        {
+            "CategoryName": "Медицина",
+            "ItemToDisassemble": "DisinfectanAlcohol",
+            "RecipeName": "Разборка Алкогольной настойки",
+            "CraftTime": 8.0,
+            "ChanceToSuccess": 0.85,
+            "AttachmentsDamage": 5.0,
+            "AttachmentsNeed": [ "HP_Vise" ],
+            "DisassembleResults": [
+                { "Classname": "RIP_GlassPK", "MinAmount": 0, "MaxAmount": 1 },
+                { "Classname": "RIP_Urotropine", "MinAmount": 9, "MaxAmount": 12 },
+                { "Classname": "RIP_K2", "MinAmount": 6, "MaxAmount": 8 }
+            ]
+        },
+        {
+            "CategoryName": "Медицина",
+            "ItemToDisassemble": "DisinfectantSpray",
+            "RecipeName": "Разборка Дезинфицирующего спрея",
+            "CraftTime": 8.0,
+            "ChanceToSuccess": 0.85,
+            "AttachmentsDamage": 5.0,
+            "AttachmentsNeed": [ "HP_Vise" ],
+            "DisassembleResults": [
+                { "Classname": "RIP_Plastik", "MinAmount": 3, "MaxAmount": 4 },
+                { "Classname": "RIP_H2SO4", "MinAmount": 12, "MaxAmount": 16 },
+                { "Classname": "RIP_K2", "MinAmount": 6, "MaxAmount": 8 }
+            ]
+        },
+        {
+            "CategoryName": "Медицина",
+            "ItemToDisassemble": "IodineTincture",
+            "RecipeName": "Разборка Настойки йода",
+            "CraftTime": 8.0,
+            "ChanceToSuccess": 0.85,
+            "AttachmentsDamage": 5.0,
+            "AttachmentsNeed": [ "HP_Vise" ],
+            "DisassembleResults": [
+                { "Classname": "RIP_Plastik", "MinAmount": 2, "MaxAmount": 2 },
+                { "Classname": "RIP_Urotropine", "MinAmount": 6, "MaxAmount": 8 },
+                { "Classname": "RIP_K2", "MinAmount": 5, "MaxAmount": 6 }
+            ]
+        },
+        {
+            "CategoryName": "Медицина",
+            "ItemToDisassemble": "BloodTestKit",
+            "RecipeName": "Разборка Набора для определения группы крови",
+            "CraftTime": 12.0,
+            "ChanceToSuccess": 0.80,
+            "AttachmentsDamage": 8.0,
+            "AttachmentsNeed": [ "HP_Vise", "HP_Payalnik" ],
+            "DisassembleResults": [
+                { "Classname": "RIP_Plastik", "MinAmount": 5, "MaxAmount": 6 },
+                { "Classname": "RIP_GlassPK", "MinAmount": 0, "MaxAmount": 1 },
+                { "Classname": "RIP_Urotropine", "MinAmount": 12, "MaxAmount": 16 },
+                { "Classname": "RIP_K2", "MinAmount": 9, "MaxAmount": 12 }
+            ]
+        },
+        {
+            "CategoryName": "Медицина",
+            "ItemToDisassemble": "TerjeSyringeEmpty",
+            "RecipeName": "Разборка Пустого шприца",
+            "CraftTime": 5.0,
+            "ChanceToSuccess": 0.90,
+            "AttachmentsDamage": 3.0,
+            "AttachmentsNeed": [ "HP_Vise" ],
+            "DisassembleResults": [
+                { "Classname": "RIP_Plastik", "MinAmount": 2, "MaxAmount": 2 },
+                { "Classname": "RIP_rubber", "MinAmount": 3, "MaxAmount": 4 }
+            ]
+        },
+        {
+            "CategoryName": "Медицина",
+            "ItemToDisassemble": "Heatpack",
+            "RecipeName": "Разборка Химической грелки",
+            "CraftTime": 6.0,
+            "ChanceToSuccess": 0.85,
+            "AttachmentsDamage": 5.0,
+            "AttachmentsNeed": [ "HP_Vise" ],
+            "DisassembleResults": [
+                { "Classname": "RIP_Plastik", "MinAmount": 2, "MaxAmount": 2 },
+                { "Classname": "RIP_K2", "MinAmount": 9, "MaxAmount": 12 },
+                { "Classname": "RIP_Urotropine", "MinAmount": 6, "MaxAmount": 8 }
+            ]
+        },
+        {
+            "CategoryName": "Освещение",
+            "ItemToDisassemble": "Roadflare",
+            "RecipeName": "Разборка Фальшфейера",
+            "CraftTime": 8.0,
+            "ChanceToSuccess": 0.85,
+            "AttachmentsDamage": 5.0,
+            "AttachmentsNeed": [ "HP_Vise" ],
+            "DisassembleResults": [
+                { "Classname": "RIP_Plastik", "MinAmount": 3, "MaxAmount": 4 },
+                { "Classname": "RIP_UrotropineEx", "MinAmount": 12, "MaxAmount": 16 },
+                { "Classname": "RIP_K2", "MinAmount": 9, "MaxAmount": 12 }
+            ]
+        },
+        {
+            "CategoryName": "Освещение",
+            "ItemToDisassemble": "Chemlight_white",
+            "RecipeName": "Разборка Химсвета",
+            "CraftTime": 8.0,
+            "ChanceToSuccess": 0.85,
+            "AttachmentsDamage": 5.0,
+            "AttachmentsNeed": [ "HP_Vise" ],
+            "DisassembleResults": [
+                { "Classname": "RIP_Plastik", "MinAmount": 2, "MaxAmount": 2 },
+                { "Classname": "RIP_Urotropine", "MinAmount": 9, "MaxAmount": 12 },
+                { "Classname": "RIP_K2", "MinAmount": 6, "MaxAmount": 8 }
             ]
         }
     ]
