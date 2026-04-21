@@ -786,9 +786,9 @@
 		<limit>child</limit>
 		<active>1</active>
 		<children>
-			<child lootmax="8" lootmin="4" max="4" min="2" type="StaticObj_Misc_SupplyBox1_DE"/>
-			<child lootmax="8" lootmin="4" max="4" min="2" type="StaticObj_Misc_SupplyBox2_DE"/>
-			<child lootmax="8" lootmin="4" max="4" min="2" type="StaticObj_Misc_SupplyBox3_DE"/>
+			<child lootmax="4" lootmin="2" max="4" min="2" type="StaticObj_Misc_SupplyBox1_DE"/>
+			<child lootmax="4" lootmin="2" max="4" min="2" type="StaticObj_Misc_SupplyBox2_DE"/>
+			<child lootmax="4" lootmin="2" max="4" min="2" type="StaticObj_Misc_SupplyBox3_DE"/>
 		</children>
 	</event>
 	<event name="StaticBonfire">
@@ -858,8 +858,8 @@
 		<limit>child</limit>
 		<active>1</active>
 		<children>
-			<child lootmax="20" lootmin="10" max="20" min="5" type="Wreck_Mi8_Crashed"/>
-			<child lootmax="20" lootmin="10" max="20" min="5" type="Wreck_UH1Y"/>
+			<child lootmax="15" lootmin="8" max="15" min="5" type="Wreck_Mi8_Crashed"/>
+			<child lootmax="15" lootmin="8" max="15" min="5" type="Wreck_UH1Y"/>
 		</children>
 	</event>
 	<event name="StaticMilitaryConvoy">
@@ -893,8 +893,8 @@
 		<limit>child</limit>
 		<active>1</active>
 		<children>
-			<child lootmax="10" lootmin="3" max="10" min="5" type="Land_Wreck_sed01_aban1_police_DE"/>
-			<child lootmax="10" lootmin="3" max="10" min="5" type="Land_Wreck_sed01_aban2_police_DE"/>
+			<child lootmax="2" lootmin="1" max="2" min="1" type="Land_Wreck_sed01_aban1_police_DE"/>
+			<child lootmax="2" lootmin="1" max="2" min="1" type="Land_Wreck_sed01_aban2_police_DE"/>
 		</children>
 	</event>
 	<event name="StaticPoliceSituation">
