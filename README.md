@@ -30,7 +30,8 @@ Discord: TheFirstNoob (Старое: TheFirstNoob#0538)
 * LaffeyChan
 * RMP
 * Beelfee
-* Кого забыл - Пишите :с
+* _ZayaZ_YaukA_
+* Modi
 
 Если кого забыл, пожалуйста отпишите мне куда угодно :)
 
