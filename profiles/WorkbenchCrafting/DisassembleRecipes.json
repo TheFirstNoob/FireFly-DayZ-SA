@@ -169,7 +169,7 @@
         },
         {
             "CategoryName": "Автозапчасти",
-            "ItemToDisassemble": "CarHeadlight",
+            "ItemToDisassemble": "HeadlightH7",
             "RecipeName": "Разборка Автомобильной лампы",
             "CraftTime": 10.0,
             "ChanceToSuccess": 0.80,
@@ -184,8 +184,8 @@
         },
         {
             "CategoryName": "Электроника",
-            "ItemToDisassemble": "Lnr_BatteryCharger9V",
-            "RecipeName": "Разборка Зарядного устройства для авто",
+            "ItemToDisassemble": "BatteryCharger",
+            "RecipeName": "Разборка Зарядного устройства Авто",
             "CraftTime": 15.0,
             "ChanceToSuccess": 0.75,
             "AttachmentsDamage": 15.0,
@@ -200,7 +200,7 @@
         },
         {
             "CategoryName": "Электроника",
-            "ItemToDisassemble": "BatteryCharger9V",
+            "ItemToDisassemble": "Lnr_BatteryCharger9V",
             "RecipeName": "Разборка Зарядного устройства 9В",
             "CraftTime": 10.0,
             "ChanceToSuccess": 0.80,
@@ -483,7 +483,7 @@
         },
         {
             "CategoryName": "Медицина",
-            "ItemToDisassemble": "DisinfectanAlcohol",
+            "ItemToDisassemble": "DisinfectantAlcohol",
             "RecipeName": "Разборка Алкогольной настойки",
             "CraftTime": 8.0,
             "ChanceToSuccess": 0.85,

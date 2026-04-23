@@ -164,7 +164,7 @@
             "CategoryName": "Электроника",
             "Result": "PowerGenerator",
             "ResultCount": 1,
-            "RecipeName": "Переносной генератор",
+            "RecipeName": "Электрический генератор",
             "CraftTime": 180.0,
             "ChanceToSuccess": 0.20,
             "AttachmentsDamage": 40.0,
@@ -204,7 +204,7 @@
         },
         {
             "CategoryName": "Автозапчасти",
-            "Result": "CarHeadlight",
+            "Result": "HeadlightH7",
             "ResultCount": 1,
             "RecipeName": "Автомобильная лампа",
             "CraftTime": 35.0,
@@ -222,9 +222,9 @@
         },
         {
             "CategoryName": "Электроника",
-            "Result": "Lnr_BatteryCharger9V",
+            "Result": "BatteryCharger",
             "ResultCount": 1,
-            "RecipeName": "Зарядное устройство для авто",
+            "RecipeName": "Зарядное устройство Авто",
             "CraftTime": 60.0,
             "ChanceToSuccess": 0.45,
             "AttachmentsDamage": 20.0,
@@ -246,9 +246,9 @@
         },
         {
             "CategoryName": "Электроника",
-            "Result": "BatteryCharger9V",
+            "Result": "Lnr_BatteryCharger9V",
             "ResultCount": 1,
-            "RecipeName": "Зарядное устройство 9В",
+            "RecipeName": "Зарядное устройство 9V",
             "CraftTime": 35.0,
             "ChanceToSuccess": 0.55,
             "AttachmentsDamage": 12.0,
@@ -505,8 +505,8 @@
                 { "Classname": "RIP_Plastik", "Amount": 30, "Destroy": 1, "Changehealth": 0.0 },
                 { "Classname": "RIP_rubber", "Amount": 50, "Destroy": 1, "Changehealth": 0.0 },
                 { "Classname": "RIP_K2", "Amount": 40, "Destroy": 1, "Changehealth": 0.0 },
-                { "Classname": "RIP_Clue", "Amount": 4, "Destroy": 1, "Changehealth": 0.0 },
-                { "Classname": "RIP_LeatherClue", "Amount": 3, "Destroy": 1, "Changehealth": 0.0 }
+                { "Classname": "RIP_Glue", "Amount": 4, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_LeatherGlue", "Amount": 3, "Destroy": 1, "Changehealth": 0.0 }
             ],
             "AttachmentsNeed": [ "HP_Vise", "HP_Grinde" ]
         },
@@ -523,7 +523,7 @@
                 { "Classname": "RIP_Plastik", "Amount": 15, "Destroy": 1, "Changehealth": 0.0 },
                 { "Classname": "RIP_rubber", "Amount": 20, "Destroy": 1, "Changehealth": 0.0 },
                 { "Classname": "RIP_K2", "Amount": 15, "Destroy": 1, "Changehealth": 0.0 },
-                { "Classname": "RIP_LeatherClue", "Amount": 2, "Destroy": 1, "Changehealth": 0.0 }
+                { "Classname": "RIP_LeatherGlue", "Amount": 2, "Destroy": 1, "Changehealth": 0.0 }
             ],
             "AttachmentsNeed": [ "HP_Vise" ]
         },
@@ -558,8 +558,8 @@
                 { "Classname": "RIP_Plastik", "Amount": 25, "Destroy": 1, "Changehealth": 0.0 },
                 { "Classname": "RIP_rubber", "Amount": 40, "Destroy": 1, "Changehealth": 0.0 },
                 { "Classname": "RIP_K2", "Amount": 30, "Destroy": 1, "Changehealth": 0.0 },
-                { "Classname": "RIP_Clue", "Amount": 3, "Destroy": 1, "Changehealth": 0.0 },
-                { "Classname": "RIP_LeatherClue", "Amount": 2, "Destroy": 1, "Changehealth": 0.0 }
+                { "Classname": "RIP_Glue", "Amount": 3, "Destroy": 1, "Changehealth": 0.0 },
+                { "Classname": "RIP_LeatherGlue", "Amount": 2, "Destroy": 1, "Changehealth": 0.0 }
             ],
             "AttachmentsNeed": [ "HP_Vise", "HP_Grinde" ]
         },
@@ -584,7 +584,7 @@
         },
         {
             "CategoryName": "Медицина",
-            "Result": "DisinfectanAlcohol",
+            "Result": "DisinfectantAlcohol",
             "ResultCount": 1,
             "RecipeName": "Алкогольная настойка",
             "CraftTime": 20.0,
