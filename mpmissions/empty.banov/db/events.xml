@@ -67,7 +67,9 @@
 		<limit>mixed</limit>
 		<active>1</active>
 		<children>
-			<child lootmax="5" lootmin="0" max="0" min="30" type="Captain_Alien"/>
+			<child lootmax="3" lootmin="0" max="0" min="8" type="Captain_Alien"/>
+			<child lootmax="3" lootmin="0" max="0" min="8" type="TCHCAI_TheAstronaut_Zombie_2"/>
+			<child lootmax="2" lootmin="0" max="0" min="8" type="TCHCAI_TheAstronaut_Zombie_1"/>
 		</children>
 	</event>
 	<event name="AmbientHare">
