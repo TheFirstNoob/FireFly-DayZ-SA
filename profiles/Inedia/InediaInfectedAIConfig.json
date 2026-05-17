@@ -253,6 +253,21 @@
             "AlienQueen": [
                 "Queen_Alien"
             ],
+            "Arachnids": [
+                "Arachnid_temp_ID1",
+                "Arachnid_temp_ID2",
+                "Arachnid_temp_ID3"
+            ],
+            "Miniboss_Buther": [
+                "TCHC_TheButcher_Zombie"
+            ],
+            "Miniboss_Psycho": [
+                "BM_zombie_psychopath"
+            ],
+            "UFO_Astro": [
+                "TCHCAI_TheAstronaut_Zombie_1",
+                "TCHCAI_TheAstronaut_Zombie_2"
+            ],
             "AnimalRoebuck": [
                 "Animal_CapreolusCapreolus",
                 "Animal_CapreolusCapreolusF"
@@ -463,9 +478,9 @@
                     "Potato"
                 ],
                 "Parameters": {
-                    "ThrowConditionZombieTargetVerticalDistanceMin": 0.4000000059604645,
+                    "ThrowConditionZombieTargetVerticalDistanceMin": 0.4,
                     "TargetStunChancePercent": 30.0,
-                    "ThrowConditionGroundTargetDistanceMin": 0.4000000059604645,
+                    "ThrowConditionGroundTargetDistanceMin": 0.4,
                     "TargetShockDamage": 20.0,
                     "TargetHealthDamage": 7.0,
                     "TargetBleedingChancePercent": 12.0,
@@ -569,13 +584,51 @@
                     "ThrowConditionAmountOfProjectiles": 1.0,
                     "ActivateGrenadeAfterSeconds": 10.0
                 }
+            },
+            "AstroGasGrenade": {
+                "ItemClasses": [
+                    "Grenade_ChemGas",
+                    "Grenade_ChemGas"
+                ],
+                "Parameters": {
+                    "DestroyProjectileAfterSeconds": -1.0,
+                    "ThrowConditionAmountOfProjectiles": 2.0,
+                    "ThrowConditionThrowChancePercent": 50.0,
+                    "ThrowConditionCooldownSeconds": 30.0,
+                    "ActivateGrenadeAfterSeconds": 12.0
+                }
+            },
+            "AstroFlashGrenade": {
+                "ItemClasses": [
+                    "FlashGrenade"
+                ],
+                "Parameters": {
+                    "DestroyProjectileAfterSeconds": -1.0,
+                    "ThrowConditionAmountOfProjectiles": 1.0,
+                    "ThrowConditionThrowChancePercent": 30.0,
+                    "ThrowConditionCooldownSeconds": 60.0,
+                    "ActivateGrenadeAfterSeconds": 5.0
+                }
+            },
+            "HolyFlashGrenade": {
+                "ItemClasses": [
+                    "FlashGrenade"
+                ],
+                "Parameters": {
+                    "DestroyProjectileAfterSeconds": -1.0,
+                    "ThrowConditionAmountOfProjectiles": 1.0,
+                    "ThrowConditionThrowChancePercent": 5.0,
+                    "ThrowConditionCooldownSeconds": 120.0,
+                    "ActivateGrenadeAfterSeconds": 5.0
+                }
             }
         },
         "BreakingDoorsHandlerIsActive": {
             "all": 1,
             "AlienCaptain": 0,
             "AlienQueen": 0,
-            "AlienScout": 0
+            "AlienScout": 0,
+            "UFO_Astro": 0
         },
         "BreakingDoorsRestrictedDoors": {
             "all": {
@@ -620,7 +673,12 @@
             "MedicAndPatientWoman": 7.0,
             "CivilianMan": 10.0,
             "PopClerk": 0.0,
-            "CivilianOldMan": 5.0
+            "CivilianOldMan": 5.0,
+            "AlienCaptain": 0.0,
+            "AlienQueen": 0.0,
+            "UFO_Astro": 0.0,
+            "Miniboss_Buther": 40.0,
+            "Miniboss_Psycho": 30.0
         },
         "BreakingDoorsOpenChancePercent": {
             "Police": 50.0,
@@ -643,7 +701,12 @@
             "MedicAndPatientWoman": 7.0,
             "CivilianMan": 10.0,
             "PopClerk": 0.0,
-            "CivilianOldMan": 5.0
+            "CivilianOldMan": 5.0,
+            "AlienCaptain": 0.0,
+            "AlienQueen": 0.0,
+            "UFO_Astro": 0.0,
+            "Miniboss_Buther": 60.0,
+            "Miniboss_Psycho": 50.0
         },
         "BreakingDoorsOpenLockPickChancePercent": {
             "all": 15.0
@@ -728,32 +791,43 @@
             "all": 1.0
         },
         "SpeedLimitInCalmMode": {
-            "all": 2.0999999046325685
+            "all": 2.1,
+            "CivilianOldWoman": 1.3,
+            "CivilianOldMan": 1.5,
+            "FarmerMan": 1.8,
+            "Arachnids": 2.0
         },
         "SpeedMultiplierInCalmMode": {
             "all": 1.0
         },
         "SpeedMinimumInSearchMode": {
-            "Police": 2.0999999046325685,
+            "Police": 2.1,
             "all": 0.0,
-            "Nbc": 2.0999999046325685,
+            "Nbc": 2.1,
             "Santa": 3.0,
             "CivilianOldWoman": 1.0,
-            "Firefighter": 2.0999999046325685,
+            "Firefighter": 2.1,
             "MedicAndPatientMan": 3.0,
-            "Pop": 2.0999999046325685,
-            "CivilianWoman": 2.0999999046325685,
-            "Prisoner": 2.0999999046325685,
+            "Pop": 2.1,
+            "CivilianWoman": 2.1,
+            "Prisoner": 2.1,
             "Mummy": 3.0,
-            "Solder": 2.0999999046325685,
-            "WorkerMan": 2.0999999046325685,
-            "FarmerMan": 2.0999999046325685,
-            "PoliceSpecForce": 2.0999999046325685,
-            "WorkerWoman": 2.0999999046325685,
+            "Solder": 2.1,
+            "WorkerMan": 2.1,
+            "FarmerMan": 2.1,
+            "PoliceSpecForce": 2.1,
+            "WorkerWoman": 2.1,
             "MedicAndPatientWoman": 3.0,
-            "CivilianMan": 2.0999999046325685,
-            "PopClerk": 2.0999999046325685,
-            "CivilianOldMan": 1.0
+            "CivilianMan": 2.1,
+            "PopClerk": 2.1,
+            "CivilianOldMan": 1.0,
+            "AlienScout": 2.5,
+            "AlienCaptain": 2.5,
+            "AlienQueen": 3.0,
+            "Arachnids": 2.8,
+            "UFO_Astro": 2.5,
+            "Miniboss_Buther": 2.0,
+            "Miniboss_Psycho": 2.5
         },
         "SpeedLimitInSearchMode": {
             "all": 3.0
@@ -772,7 +846,7 @@
             "CivilianOldWoman": 1.0,
             "Firefighter": 3.0,
             "MedicAndPatientMan": 3.0,
-            "Pop": 2.0999999046325685,
+            "Pop": 2.1,
             "CivilianWoman": 3.0,
             "Prisoner": 3.0,
             "Mummy": 3.0,
@@ -783,8 +857,15 @@
             "WorkerWoman": 3.0,
             "MedicAndPatientWoman": 3.0,
             "CivilianMan": 3.0,
-            "PopClerk": 2.0999999046325685,
-            "CivilianOldMan": 1.0
+            "PopClerk": 2.1,
+            "CivilianOldMan": 1.0,
+            "AlienScout": 2.5,
+            "AlienCaptain": 3.0,
+            "AlienQueen": 3.0,
+            "Arachnids": 2.5,
+            "UFO_Astro": 3.0,
+            "Miniboss_Buther": 2.5,
+            "Miniboss_Psycho": 3.0
         },
         "SpeedMultiplierInChaseMode": {
             "all": 1.0
@@ -802,7 +883,7 @@
             "all": 3.0
         },
         "SmellsChaseMultiplier": {
-            "all": 0.6000000238418579
+            "all": 0.6
         },
         "SmellsAllowStealthKills": {
             "all": 1
@@ -827,7 +908,14 @@
             "MedicAndPatientWoman": 40.0,
             "CivilianMan": 20.0,
             "PopClerk": 5.0,
-            "CivilianOldMan": 10.0
+            "CivilianOldMan": 10.0,
+            "AlienScout": 5.0,
+            "AlienCaptain": 3.0,
+            "AlienQueen": 2.0,
+            "Arachnids": 520.0,
+            "UFO_Astro": 10.0,
+            "Miniboss_Buther": 15.0,
+            "Miniboss_Psycho": 10.0
         },
         "SmellsDisableVanillaIrritationSound": {
             "all": 0
@@ -842,9 +930,27 @@
             "all": 0.0
         },
         "LongVisionMetersInCalmModeDay": {
+            "AlienQueen": 150.0,
+            "AlienCaptain": 120.0,
+            "Miniboss_Buther": 100.0,
+            "Miniboss_Psycho": 100.0,
+            "Solder": 80.0,
+            "Police": 60.0,
+            "PoliceSpecForce": 70.0,
+            "UFO_Astro": 90.0,
+            "Arachnids": 110.0,
             "all": 0.0
         },
         "LongVisionMetersInCalmModeNight": {
+            "AlienQueen": 80.0,
+            "AlienCaptain": 60.0,
+            "Miniboss_Buther": 50.0,
+            "Miniboss_Psycho": 50.0,
+            "Solder": 30.0,
+            "Police": 20.0,
+            "PoliceSpecForce": 25.0,
+            "UFO_Astro": 40.0,
+            "Arachnids": 55.0,
             "all": 0.0
         },
         "LongVisionVisualAcuityInSearchModeDay": {
@@ -854,13 +960,42 @@
             "all": 1.0
         },
         "LongVisionVisualAcuityInCalmModeDay": {
-            "all": 0.10000000149011612
+            "all": 0.1
         },
         "LongVisionVisualAcuityInCalmModeNight": {
-            "all": 0.10000000149011612
+            "all": 0.1
         },
-        "LongVisionPersistAfterIrritationSeconds": {
+"LongVisionPersistAfterIrritationSeconds": {
+            "AlienQueen": 600.0,
+            "AlienCaptain": 500.0,
+            "Miniboss_Buther": 480.0,
+            "Miniboss_Psycho": 480.0,
+            "UFO_Astro": 400.0,
             "all": 300.0
+        },
+        "LongVisionVisualAcuityInCalmModeDay": {
+            "AlienQueen": 0.3,
+            "AlienCaptain": 0.25,
+            "Miniboss_Buther": 0.2,
+            "Miniboss_Psycho": 0.2,
+            "Solder": 0.15,
+            "Police": 0.12,
+            "PoliceSpecForce": 0.15,
+            "UFO_Astro": 0.2,
+            "Arachnids": 0.25,
+            "all": 0.1
+        },
+        "LongVisionVisualAcuityInCalmModeNight": {
+            "AlienQueen": 0.2,
+            "AlienCaptain": 0.15,
+            "Miniboss_Buther": 0.1,
+            "Miniboss_Psycho": 0.1,
+            "Solder": 0.08,
+            "Police": 0.05,
+            "PoliceSpecForce": 0.08,
+            "UFO_Astro": 0.1,
+            "Arachnids": 0.15,
+            "all": 0.1
         },
         "LongVisionAllowIgnoreWeather": {
             "all": 0
@@ -874,29 +1009,38 @@
         "UpJumpHandlerIsActive": {
             "all": 1,
             "AlienScout": 0,
-            "AlienQueen": 0
+            "AlienQueen": 0,
+            "Arachnids": 1,
+            "UFO_Astro": 0,
+            "Miniboss_Buther": 0,
+            "Miniboss_Psycho": 0
         },
         "UpJumpHeightMax": {
             "Police": 2.5,
-            "all": 1.7000000476837159,
-            "Nbc": 1.399999976158142,
+            "all": 1.7,
+            "Nbc": 1.4,
             "Santa": 3.0,
             "CivilianOldWoman": 0.0,
             "Firefighter": 2.5,
-            "MedicAndPatientMan": 1.2000000476837159,
+            "MedicAndPatientMan": 1.2,
             "Pop": 0.0,
-            "CivilianWoman": 1.2000000476837159,
+            "CivilianWoman": 1.2,
             "Prisoner": 1.5,
             "Mummy": 3.0,
             "Solder": 2.5,
-            "WorkerMan": 1.600000023841858,
-            "FarmerMan": 0.4000000059604645,
+            "WorkerMan": 1.6,
+            "FarmerMan": 0.4,
             "PoliceSpecForce": 2.5,
             "WorkerWoman": 1.5,
-            "MedicAndPatientWoman": 1.2000000476837159,
-            "CivilianMan": 1.2000000476837159,
+            "MedicAndPatientWoman": 1.2,
+            "CivilianMan": 1.2,
             "PopClerk": 0.0,
-            "CivilianOldMan": 0.0
+            "CivilianOldMan": 0.0,
+            "AlienScout": 0.0,
+            "AlienCaptain": 0.0,
+            "AlienQueen": 0.0,
+            "Arachnids": 3.5,
+            "UFO_Astro": 0.0
         },
         "UpJumpImpulseDamageChancePercent": {
             "Police": 35.0,
@@ -904,7 +1048,7 @@
             "Nbc": 15.0,
             "Santa": 100.0,
             "CivilianOldWoman": 3.0,
-            "Firefighter": 80.0,
+            "Firefighter": 40.0,
             "MedicAndPatientMan": 10.0,
             "Pop": 10.0,
             "CivilianWoman": 7.0,
@@ -918,7 +1062,8 @@
             "MedicAndPatientWoman": 7.0,
             "CivilianMan": 10.0,
             "PopClerk": 10.0,
-            "CivilianOldMan": 5.0
+            "CivilianOldMan": 5.0,
+            "Arachnids": 60.0
         },
         "UpJumpChancePercent": {
             "Police": 35.0,
@@ -926,7 +1071,7 @@
             "Nbc": 15.0,
             "Santa": 100.0,
             "CivilianOldWoman": 3.0,
-            "Firefighter": 80.0,
+            "Firefighter": 40.0,
             "MedicAndPatientMan": 10.0,
             "Pop": 10.0,
             "CivilianWoman": 7.0,
@@ -940,7 +1085,8 @@
             "MedicAndPatientWoman": 7.0,
             "CivilianMan": 10.0,
             "PopClerk": 10.0,
-            "CivilianOldMan": 5.0
+            "CivilianOldMan": 5.0,
+            "Arachnids": 100.0
         },
         "UpJumpCooldownSeconds": {
             "Police": 15.0,
@@ -962,7 +1108,8 @@
             "MedicAndPatientWoman": 50.0,
             "CivilianMan": 45.0,
             "PopClerk": 120.0,
-            "CivilianOldMan": 60.0
+            "CivilianOldMan": 60.0,
+            "Arachnids": 8.0
         },
         "DownJumpHandlerIsActive": {
             "Police": 1,
@@ -982,11 +1129,16 @@
             "PoliceSpecForce": 1,
             "WorkerWoman": 0,
             "AlienScout": 0,
+            "AlienCaptain": 1,
             "MedicAndPatientWoman": 0,
             "CivilianMan": 1,
             "PopClerk": 0,
             "CivilianOldMan": 0,
-            "AlienQueen": 0
+            "AlienQueen": 0,
+            "Arachnids": 1,
+            "UFO_Astro": 1,
+            "Miniboss_Buther": 1,
+            "Miniboss_Psycho": 1
         },
         "DownJumpHeightMax": {
             "Police": 4.0,
@@ -1008,7 +1160,14 @@
             "MedicAndPatientWoman": 2.5,
             "CivilianMan": 3.0,
             "PopClerk": 2.0,
-            "CivilianOldMan": 2.0
+            "CivilianOldMan": 2.0,
+            "AlienScout": 5.0,
+            "AlienCaptain": 10.0,
+            "AlienQueen": 15.0,
+            "Arachnids": 12.0,
+            "UFO_Astro": 8.0,
+            "Miniboss_Buther": 5.0,
+            "Miniboss_Psycho": 4.0
         },
         "StuckJumpHandlerIsActive": {
             "Police": 0,
@@ -1032,7 +1191,11 @@
             "CivilianMan": 1,
             "PopClerk": 1,
             "CivilianOldMan": 1,
-            "AlienQueen": 0
+            "AlienQueen": 0,
+            "UFO_Astro": 0,
+            "AlienCaptain": 0,
+            "Miniboss_Buther": 0,
+            "Miniboss_Psycho": 0
         },
         "FallHandlerIsActive": {
             "all": 1
@@ -1059,7 +1222,11 @@
             "CivilianMan": 3.0,
             "PopClerk": 3.0,
             "CivilianOldMan": 1.0,
-            "AlienQueen": 0.0
+            "AlienQueen": 0.0,
+            "AlienCaptain": 0.0,
+            "UFO_Astro": 0.0,
+            "Miniboss_Buther": 5.0,
+            "Miniboss_Psycho": 4.0
         },
         "FallHandlerLegBreakHeightMax": {
             "Police": 8.0,
@@ -1081,7 +1248,13 @@
             "MedicAndPatientWoman": 6.5,
             "CivilianMan": 7.0,
             "PopClerk": 6.0,
-            "CivilianOldMan": 2.0
+            "CivilianOldMan": 2.0,
+            "AlienScout": 0.0,
+            "AlienCaptain": 0.0,
+            "AlienQueen": 0.0,
+            "UFO_Astro": 0.0,
+            "Miniboss_Buther": 12.0,
+            "Miniboss_Psycho": 10.0
         },
         "FallHandlerDeathHeightMin": {
             "Police": 8.0,
@@ -1103,7 +1276,13 @@
             "MedicAndPatientWoman": 6.5,
             "CivilianMan": 7.0,
             "PopClerk": 6.0,
-            "CivilianOldMan": 2.0
+            "CivilianOldMan": 2.0,
+            "AlienScout": 0.0,
+            "AlienCaptain": 0.0,
+            "AlienQueen": 0.0,
+            "UFO_Astro": 0.0,
+            "Miniboss_Buther": 15.0,
+            "Miniboss_Psycho": 12.0
         },
         "FallHandlerDeathHeightMax": {
             "Police": 16.0,
@@ -1125,7 +1304,13 @@
             "MedicAndPatientWoman": 13.0,
             "CivilianMan": 14.0,
             "PopClerk": 12.0,
-            "CivilianOldMan": 5.0
+            "CivilianOldMan": 5.0,
+            "AlienScout": 0.0,
+            "AlienCaptain": 0.0,
+            "AlienQueen": 0.0,
+            "UFO_Astro": 0.0,
+            "Miniboss_Buther": 25.0,
+            "Miniboss_Psycho": 20.0
         },
         "InjuryHandlerIsActive": {
             "Police": 1,
@@ -1147,7 +1332,13 @@
             "MedicAndPatientWoman": 0,
             "CivilianMan": 1,
             "PopClerk": 0,
-            "CivilianOldMan": 1
+            "CivilianOldMan": 1,
+            "AlienScout": 0,
+            "AlienCaptain": 0,
+            "AlienQueen": 0,
+            "UFO_Astro": 0,
+            "Miniboss_Buther": 0,
+            "Miniboss_Psycho": 0
         },
         "InjuryHandlerInjuryOnExplosiveDamageChancePercent": {
             "all": 100.0
@@ -1172,55 +1363,154 @@
             "AlienScout": 200.0,
             "MedicAndPatientWoman": 6.0,
             "CivilianMan": 50.0,
-            "Captain_Alien": 120.0,
+            "AlienCaptain": 120.0,
             "CivilianOldMan": 30.0,
             "PopClerk": 18.0,
-            "AlienQueen": 350.0
+            "AlienQueen": 350.0,
+            "Arachnids": 250.0,
+            "UFO_Astro": 180.0,
+            "Miniboss_Buther": 200.0,
+            "Miniboss_Psycho": 180.0
         },
         "InjuryHandlerRestoreInjuredArmAfterSeconds": {
-            "Police": 30.0,
-            "all": 60.0,
+            "CivilianOldWoman": 60.0,
+            "CivilianOldMan": 60.0,
+            "CivilianWoman": 120.0,
+            "CivilianMan": 120.0,
+            "WorkerMan": 90.0,
+            "WorkerWoman": 100.0,
+            "MedicAndPatientMan": 150.0,
+            "MedicAndPatientWoman": 180.0,
+            "FarmerMan": 120.0,
+            "Police": 150.0,
+            "PoliceSpecForce": 180.0,
+            "Solder": 180.0,
+            "Firefighter": 150.0,
+            "Prisoner": 90.0,
+            "Pop": 120.0,
+            "PopClerk": 120.0,
             "Nbc": 0.0,
-            "Santa": 20.0,
-            "CivilianOldWoman": 0.0,
-            "Firefighter": 30.0,
-            "MedicAndPatientMan": 30.0,
-            "Pop": 15.0,
-            "CivilianWoman": 0.0,
-            "Prisoner": 60.0,
-            "Mummy": 20.0,
-            "Solder": 30.0,
-            "WorkerMan": 15.0,
-            "FarmerMan": 0.0,
-            "PoliceSpecForce": 30.0,
-            "WorkerWoman": 20.0,
-            "MedicAndPatientWoman": 40.0,
-            "CivilianMan": 0.0,
-            "PopClerk": 15.0,
-            "CivilianOldMan": 0.0
+            "Santa": 90.0,
+            "Mummy": 180.0,
+            "AlienScout": 300.0,
+            "AlienCaptain": 300.0,
+            "AlienQueen": 400.0,
+            "Arachnids": 350.0,
+            "UFO_Astro": 250.0,
+            "Miniboss_Buther": 300.0,
+            "Miniboss_Psycho": 280.0,
+            "all": 120.0
         },
         "InjuryHandlerInjuredOneArmAttackMultiplier": {
+            "CivilianOldWoman": 0.4,
+            "CivilianOldMan": 0.4,
+            "CivilianWoman": 0.5,
+            "CivilianMan": 0.5,
+            "WorkerMan": 0.5,
+            "WorkerWoman": 0.5,
+            "MedicAndPatientMan": 0.55,
+            "MedicAndPatientWoman": 0.55,
+            "FarmerMan": 0.5,
+            "Police": 0.55,
+            "PoliceSpecForce": 0.6,
+            "Solder": 0.6,
+            "Firefighter": 0.55,
+            "Prisoner": 0.5,
+            "Pop": 0.5,
+            "PopClerk": 0.5,
+            "Nbc": 0.7,
+            "Santa": 0.55,
+            "Mummy": 0.6,
+            "AlienScout": 0.75,
+            "AlienCaptain": 0.75,
+            "AlienQueen": 0.8,
+            "UFO_Astro": 0.75,
+            "Miniboss_Buther": 0.8,
+            "Miniboss_Psycho": 0.75,
             "all": 0.5
         },
         "InjuryHandlerInjuredBothArmsAttackMultiplier": {
-            "all": 0.20000000298023225
+            "CivilianOldWoman": 0.15,
+            "CivilianOldMan": 0.15,
+            "CivilianWoman": 0.2,
+            "CivilianMan": 0.2,
+            "WorkerMan": 0.2,
+            "WorkerWoman": 0.2,
+            "MedicAndPatientMan": 0.25,
+            "MedicAndPatientWoman": 0.25,
+            "FarmerMan": 0.2,
+            "Police": 0.25,
+            "PoliceSpecForce": 0.3,
+            "Solder": 0.3,
+            "Firefighter": 0.25,
+            "Prisoner": 0.2,
+            "Pop": 0.2,
+            "PopClerk": 0.2,
+            "Nbc": 0.4,
+            "Santa": 0.25,
+            "Mummy": 0.3,
+            "AlienScout": 0.5,
+            "AlienCaptain": 0.5,
+            "AlienQueen": 0.55,
+            "UFO_Astro": 0.5,
+            "Miniboss_Buther": 0.55,
+            "Miniboss_Psycho": 0.5,
+            "all": 0.2
         },
         "InjuryHandlerInjuredOneArmBreakingDoorChanceMultiplier": {
             "all": 0.5
         },
         "InjuryHandlerInjuredBothArmsBreakingDoorChanceMultiplier": {
-            "all": 0.20000000298023225
+            "all": 0.0
         },
         "InjuryHandlerInjuredOneArmStunChanceMultiplier": {
             "all": 0.5
         },
         "InjuryHandlerInjuredBothArmsStunChanceMultiplier": {
-            "all": 0.20000000298023225
+            "all": 0.2
         },
         "InjuryHandlerInjuredOneArmPainMultiplier": {
+            "CivilianOldWoman": 0.4,
+            "CivilianOldMan": 0.4,
+            "CivilianWoman": 0.5,
+            "CivilianMan": 0.5,
+            "WorkerMan": 0.5,
+            "WorkerWoman": 0.5,
+            "MedicAndPatientMan": 0.55,
+            "MedicAndPatientWoman": 0.55,
+            "Police": 0.55,
+            "PoliceSpecForce": 0.6,
+            "Solder": 0.6,
+            "Firefighter": 0.55,
+            "Nbc": 0.7,
+            "AlienScout": 0.7,
+            "AlienCaptain": 0.7,
+            "AlienQueen": 0.75,
+            "UFO_Astro": 0.7,
+            "Miniboss_Buther": 0.75,
+            "Miniboss_Psycho": 0.7,
             "all": 0.5
         },
         "InjuryHandlerInjuredBothArmsPainMultiplier": {
+            "CivilianOldWoman": 0.0,
+            "CivilianOldMan": 0.0,
+            "CivilianWoman": 0.0,
+            "CivilianMan": 0.0,
+            "WorkerMan": 0.0,
+            "WorkerWoman": 0.0,
+            "MedicAndPatientMan": 0.1,
+            "MedicAndPatientWoman": 0.1,
+            "Police": 0.1,
+            "PoliceSpecForce": 0.15,
+            "Solder": 0.15,
+            "Firefighter": 0.1,
+            "Nbc": 0.2,
+            "AlienScout": 0.2,
+            "AlienCaptain": 0.2,
+            "AlienQueen": 0.25,
+            "UFO_Astro": 0.2,
+            "Miniboss_Buther": 0.25,
+            "Miniboss_Psycho": 0.2,
             "all": 0.0
         },
         "InjuryHandlerInjuredOneArmBleedingChanceMultiplier": {
@@ -1230,7 +1520,7 @@
             "all": 0.5
         },
         "InjuryHandlerSpawnWithInjuredOneArmChancePercent": {
-            "all": 0.20000000298023225
+            "all": 0.2
         },
         "InjuryHandlerSpawnWithInjuredBothArmsChancePercent": {
             "all": 0.5
@@ -1253,48 +1543,142 @@
             "PoliceSpecForce": 70.0,
             "WorkerWoman": 80.0,
             "AlienScout": 600.0,
-            "Captain_Alien": 200.0,
+            "AlienCaptain": 200.0,
             "Nbc": 50.0,
             "MedicAndPatientWoman": 6.0,
             "CivilianOldMan": 30.0,
             "PopClerk": 180.0,
-            "AlienQueen": 1000.0
+            "AlienQueen": 1000.0,
+            "Arachnids": 800.0,
+            "UFO_Astro": 500.0,
+            "Miniboss_Buther": 600.0,
+            "Miniboss_Psycho": 500.0
         },
         "InjuryHandlerRestoreInjuredLegAfterSeconds": {
-            "Police": 40.0,
-            "all": 0.0,
-            "CivilianMan": 0.0,
-            "Santa": 20.0,
-            "CivilianOldWoman": 0.0,
-            "Firefighter": 45.0,
+            "CivilianOldWoman": 60.0,
+            "CivilianOldMan": 60.0,
+            "CivilianWoman": 120.0,
+            "CivilianMan": 120.0,
+            "WorkerMan": 90.0,
+            "WorkerWoman": 100.0,
+            "MedicAndPatientMan": 150.0,
+            "MedicAndPatientWoman": 180.0,
+            "FarmerMan": 120.0,
+            "Police": 150.0,
+            "PoliceSpecForce": 180.0,
+            "Solder": 180.0,
+            "Firefighter": 150.0,
             "Prisoner": 90.0,
-            "Pop": 15.0,
-            "CivilianWoman": 0.0,
-            "MedicAndPatientMan": 45.0,
-            "FarmerMan": 0.0,
-            "Solder": 30.0,
-            "WorkerMan": 20.0,
-            "Mummy": 20.0,
-            "PoliceSpecForce": 30.0,
-            "WorkerWoman": 30.0,
-            "AlienScout": 8.0,
-            "AlienCaptain": 6.5,
+            "Pop": 120.0,
+            "PopClerk": 120.0,
             "Nbc": 0.0,
-            "PopClerk": 15.0,
-            "CivilianOldMan": 0.0,
-            "MedicAndPatientWoman": 60.0,
-            "AlienQueen": 4.0
+            "Santa": 90.0,
+            "Mummy": 180.0,
+            "AlienScout": 300.0,
+            "AlienCaptain": 300.0,
+            "AlienQueen": 400.0,
+            "Arachnids": 350.0,
+            "UFO_Astro": 250.0,
+            "Miniboss_Buther": 300.0,
+            "Miniboss_Psycho": 280.0,
+            "all": 120.0
         },
         "InjuryHandlerInjuredOneLegSpeedLimit": {
-            "all": 2.0999999046325685
+            "CivilianOldWoman": 1.0,
+            "CivilianOldMan": 1.0,
+            "CivilianWoman": 1.5,
+            "CivilianMan": 1.5,
+            "WorkerMan": 1.8,
+            "WorkerWoman": 1.8,
+            "MedicAndPatientMan": 2.0,
+            "MedicAndPatientWoman": 2.0,
+            "Police": 2.0,
+            "PoliceSpecForce": 2.2,
+            "Solder": 2.2,
+            "Firefighter": 2.0,
+            "Prisoner": 1.8,
+            "Pop": 1.5,
+            "PopClerk": 1.5,
+            "Nbc": 2.5,
+            "Santa": 2.0,
+            "Mummy": 2.5,
+            "AlienScout": 2.5,
+            "AlienCaptain": 2.5,
+            "AlienQueen": 2.8,
+            "UFO_Astro": 2.5,
+            "Miniboss_Buther": 2.8,
+            "Miniboss_Psycho": 2.5,
+            "all": 2.1
         },
         "InjuryHandlerInjuredBothLegsSpeedLimit": {
+            "CivilianOldWoman": 0.6,
+            "CivilianOldMan": 0.6,
+            "CivilianWoman": 0.8,
+            "CivilianMan": 0.8,
+            "WorkerMan": 1.0,
+            "WorkerWoman": 1.0,
+            "MedicAndPatientMan": 1.0,
+            "MedicAndPatientWoman": 1.0,
+            "Police": 1.0,
+            "PoliceSpecForce": 1.5,
+            "Solder": 1.5,
+            "Firefighter": 1.0,
+            "Prisoner": 1.0,
+            "Pop": 0.8,
+            "PopClerk": 0.8,
+            "Nbc": 2.0,
+            "Santa": 1.0,
+            "Mummy": 1.5,
+            "AlienScout": 2.0,
+            "AlienCaptain": 2.0,
+            "AlienQueen": 2.5,
+            "UFO_Astro": 2.0,
+            "Miniboss_Buther": 2.5,
+            "Miniboss_Psycho": 2.0,
             "all": 1.0
         },
         "InjuryHandlerInjuredOneLegJumpHeightMultiplier": {
+            "CivilianOldWoman": 0.2,
+            "CivilianOldMan": 0.2,
+            "CivilianWoman": 0.3,
+            "CivilianMan": 0.3,
+            "WorkerMan": 0.4,
+            "WorkerWoman": 0.4,
+            "MedicAndPatientMan": 0.5,
+            "MedicAndPatientWoman": 0.5,
+            "Police": 0.5,
+            "PoliceSpecForce": 0.6,
+            "Solder": 0.6,
+            "Firefighter": 0.5,
+            "Nbc": 0.7,
+            "AlienScout": 0.8,
+            "AlienCaptain": 0.8,
+            "AlienQueen": 0.85,
+            "UFO_Astro": 0.8,
+            "Miniboss_Buther": 0.85,
+            "Miniboss_Psycho": 0.8,
             "all": 0.5
         },
         "InjuryHandlerInjuredBothLegsJumpHeightMultiplier": {
+            "CivilianOldWoman": 0.0,
+            "CivilianOldMan": 0.0,
+            "CivilianWoman": 0.0,
+            "CivilianMan": 0.0,
+            "WorkerMan": 0.0,
+            "WorkerWoman": 0.0,
+            "MedicAndPatientMan": 0.0,
+            "MedicAndPatientWoman": 0.0,
+            "Police": 0.0,
+            "PoliceSpecForce": 0.0,
+            "Solder": 0.0,
+            "Firefighter": 0.0,
+            "Nbc": 0.3,
+            "AlienScout": 0.3,
+            "AlienCaptain": 0.3,
+            "AlienQueen": 0.4,
+            "UFO_Astro": 0.3,
+            "Miniboss_Buther": 0.4,
+            "Miniboss_Psycho": 0.3,
             "all": 0.0
         },
         "InjuryHandlerSpawnWithInjuredOneLegChancePercent": {
@@ -1323,7 +1707,13 @@
             "MedicAndPatientWoman": 1,
             "CivilianMan": 1,
             "PopClerk": 0,
-            "CivilianOldMan": 0
+            "CivilianOldMan": 0,
+            "AlienScout": 1,
+            "AlienCaptain": 1,
+            "AlienQueen": 1,
+            "UFO_Astro": 1,
+            "Miniboss_Buther": 1,
+            "Miniboss_Psycho": 1
         },
         "AttackCarPlayersIsActive": {
             "Police": 1,
@@ -1345,7 +1735,13 @@
             "MedicAndPatientWoman": 1,
             "CivilianMan": 1,
             "PopClerk": 0,
-            "CivilianOldMan": 0
+            "CivilianOldMan": 0,
+            "AlienScout": 1,
+            "AlienCaptain": 1,
+            "AlienQueen": 1,
+            "UFO_Astro": 1,
+            "Miniboss_Buther": 1,
+            "Miniboss_Psycho": 1
         },
         "AttackCarPlayersDistanceMeters": {
             "Police": 1.5,
@@ -1353,21 +1749,27 @@
             "Nbc": 1.0,
             "Santa": 2.0,
             "CivilianOldWoman": 1.0,
-            "Firefighter": 1.7999999523162842,
-            "Prisoner": 1.2000000476837159,
+            "Firefighter": 1.8,
+            "Prisoner": 1.2,
             "Pop": 1.0,
-            "CivilianWoman": 1.2000000476837159,
-            "MedicAndPatientMan": 1.2000000476837159,
+            "CivilianWoman": 1.2,
+            "MedicAndPatientMan": 1.2,
             "Mummy": 2.0,
             "Solder": 1.5,
             "WorkerMan": 2.0,
             "FarmerMan": 1.0,
             "PoliceSpecForce": 1.5,
             "WorkerWoman": 2.0,
-            "MedicAndPatientWoman": 1.2000000476837159,
-            "CivilianMan": 1.2000000476837159,
+            "MedicAndPatientWoman": 1.2,
+            "CivilianMan": 1.2,
             "PopClerk": 1.0,
-            "CivilianOldMan": 1.0
+            "CivilianOldMan": 1.0,
+            "AlienScout": 1.5,
+            "AlienCaptain": 2.0,
+            "AlienQueen": 2.5,
+            "UFO_Astro": 1.8,
+            "Miniboss_Buther": 1.5,
+            "Miniboss_Psycho": 1.2
         },
         "AttackCarElementsIsActive": {
             "Animal_CanisLupus_White": 0,
@@ -1380,34 +1782,40 @@
             "Nbc": 1.0,
             "Santa": 2.0,
             "CivilianOldWoman": 1.0,
-            "Firefighter": 1.7999999523162842,
-            "Prisoner": 1.2000000476837159,
+            "Firefighter": 1.8,
+            "Prisoner": 1.2,
             "Pop": 1.0,
-            "CivilianWoman": 1.2000000476837159,
-            "MedicAndPatientMan": 1.2000000476837159,
+            "CivilianWoman": 1.2,
+            "MedicAndPatientMan": 1.2,
             "Mummy": 2.0,
             "Solder": 1.5,
             "WorkerMan": 2.0,
             "FarmerMan": 1.0,
             "PoliceSpecForce": 1.5,
             "WorkerWoman": 2.0,
-            "MedicAndPatientWoman": 1.2000000476837159,
-            "CivilianMan": 1.2000000476837159,
+            "MedicAndPatientWoman": 1.2,
+            "CivilianMan": 1.2,
             "PopClerk": 1.0,
-            "CivilianOldMan": 1.0
+            "CivilianOldMan": 1.0,
+            "AlienScout": 1.5,
+            "AlienCaptain": 2.0,
+            "AlienQueen": 2.5,
+            "UFO_Astro": 1.8,
+            "Miniboss_Buther": 1.5,
+            "Miniboss_Psycho": 1.2
         },
         "AttackCarElementsGlobalDamageMultiplier": {
             "Police": 1.5,
             "all": 1.0,
-            "CivilianMan": 1.2000000476837159,
+            "CivilianMan": 1.2,
             "Santa": 2.0,
             "CivilianOldWoman": 1.0,
-            "Firefighter": 1.7999999523162842,
-            "Prisoner": 1.2000000476837159,
+            "Firefighter": 1.8,
+            "Prisoner": 1.2,
             "Pop": 1.0,
             "AnimalBear": 4.0,
-            "CivilianWoman": 1.2000000476837159,
-            "MedicAndPatientMan": 1.2000000476837159,
+            "CivilianWoman": 1.2,
+            "MedicAndPatientMan": 1.2,
             "FarmerMan": 1.0,
             "Solder": 1.5,
             "WorkerMan": 2.0,
@@ -1417,8 +1825,14 @@
             "PopClerk": 1.0,
             "Nbc": 1.0,
             "AnimalWolf": 2.0,
-            "MedicAndPatientWoman": 1.2000000476837159,
-            "CivilianOldMan": 1.0
+            "MedicAndPatientWoman": 1.2,
+            "CivilianOldMan": 1.0,
+            "AlienScout": 1.8,
+            "AlienCaptain": 2.5,
+            "AlienQueen": 3.0,
+            "UFO_Astro": 2.0,
+            "Miniboss_Buther": 2.5,
+            "Miniboss_Psycho": 2.2
         },
         "AttackCarElementsByCollisionsIsActive": {
             "all": 1
@@ -1471,10 +1885,10 @@
             "all": 1
         },
         "ReactBehindVisualMultiplier": {
-            "all": 0.20000000298023225
+            "all": 0.2
         },
         "ReactBehindNoiseMultiplier": {
-            "all": 0.4000000059604645
+            "all": 0.4
         },
         "ReactFireplaceVisual": {
             "all": 2.0
@@ -1495,10 +1909,10 @@
             "all": 1.5
         },
         "ReactChemlightVisual": {
-            "all": 0.20000000298023225
+            "all": 0.2
         },
         "ReactChemlightRedVisual": {
-            "all": 0.20000000298023225
+            "all": 0.2
         },
         "ReactPortableGasLampVisual": {
             "all": 1.0
@@ -1552,19 +1966,19 @@
             "all": 1.0
         },
         "ReactFootstepsJogNightNoise": {
-            "all": 1.100000023841858
+            "all": 1.1
         },
         "ReactFootstepsCrouchSprintDayNoise": {
-            "all": 0.699999988079071
+            "all": 0.7
         },
         "ReactFootstepsCrouchSprintNightNoise": {
-            "all": 0.8999999761581421
+            "all": 0.9
         },
         "ReactFootstepsSprintDayNoise": {
             "all": 1.0
         },
         "ReactFootstepsSprintNightNoise": {
-            "all": 1.2000000476837159
+            "all": 1.2
         },
         "ReactHorseHoofstepsDayNoise": {
             "all": 1.0
@@ -1576,7 +1990,7 @@
             "all": 1.0
         },
         "ReactDoorsNightNoise": {
-            "all": 1.2000000476837159
+            "all": 1.2
         },
         "ReactPlayerFallDayNoise": {
             "all": 1.0
@@ -1600,7 +2014,7 @@
             "all": 1.0
         },
         "ReactSymptomsNightNoise": {
-            "all": 1.100000023841858
+            "all": 1.1
         },
         "ReactVoiceWhisperDayNoise": {
             "all": 1.0
@@ -1624,7 +2038,7 @@
             "all": 1.0
         },
         "ReactMiningLightNightNoise": {
-            "all": 1.2999999523162842
+            "all": 1.3
         },
         "ReactMiningHardDayNoise": {
             "all": 1.0
@@ -1636,13 +2050,13 @@
             "all": 1.0
         },
         "ReactBuildingNightNoise": {
-            "all": 1.2999999523162842
+            "all": 1.3
         },
         "ReactSawPlanksDayNoise": {
             "all": 1.0
         },
         "ReactSawPlanksNightNoise": {
-            "all": 1.2999999523162842
+            "all": 1.3
         },
         "ReactVanillaMindstateChange": {
             "all": 1.0
@@ -1695,7 +2109,7 @@
             "all": 0.25
         },
         "ReactAndDestroyPowerGeneratorNoise": {
-            "all": 0.10000000149011612
+            "all": 0.1
         },
         "ReactAndDestroyAlarmClockNoise": {
             "all": 3.0
@@ -1711,81 +2125,96 @@
         },
         "DamageToPlayerHealthMultiplier": {
             "Police": 1.0,
-            "all": 0.800000011920929,
+            "all": 0.8,
             "Nbc": 1.0,
             "Santa": 4.0,
-            "CivilianOldWoman": 0.6000000238418579,
-            "Firefighter": 1.100000023841858,
-            "MedicAndPatientMan": 0.8999999761581421,
-            "Pop": 0.699999988079071,
-            "CivilianWoman": 0.699999988079071,
+            "CivilianOldWoman": 0.4,
+            "Firefighter": 1.25,
+            "MedicAndPatientMan": 0.9,
+            "Pop": 0.7,
+            "CivilianWoman": 0.7,
             "Prisoner": 1.0,
-            "FarmerMan": 0.699999988079071,
-            "Solder": 1.100000023841858,
-            "WorkerMan": 1.0499999523162842,
+            "FarmerMan": 0.7,
+            "Solder": 1.1,
+            "WorkerMan": 1.05,
             "Mummy": 4.0,
-            "PoliceSpecForce": 1.100000023841858,
+            "PoliceSpecForce": 1.1,
             "WorkerWoman": 1.0,
-            "AlienScout": 0.6000000238418579,
-            "MedicAndPatientWoman": 0.8500000238418579,
-            "CivilianMan": 0.699999988079071,
-            "Captain_Alien": 1.0,
-            "CivilianOldMan": 0.699999988079071,
-            "PopClerk": 0.699999988079071,
-            "AlienQueen": 0.800000011920929
+            "AlienScout": 0.6,
+            "MedicAndPatientWoman": 0.85,
+            "CivilianMan": 0.7,
+            "AlienCaptain": 1.0,
+            "CivilianOldMan": 0.6,
+            "PopClerk": 0.7,
+            "AlienQueen": 1.2,
+            "Arachnids": 1.3,
+            "UFO_Astro": 0.9,
+            "Miniboss_Buther": 1.2,
+            "Miniboss_Psycho": 1.1
         },
         "DamageToPlayerInBlockHealthMultiplier": {
-            "all": 0.10000000149011612
+            "all": 0.1
         },
         "DamageToPlayerShockMultiplier": {
-            "Police": 1.100000023841858,
-            "all": 0.699999988079071,
+            "Police": 1.1,
+            "all": 0.7,
             "Nbc": 1.0,
             "Santa": 3.0,
-            "CivilianOldWoman": 0.6000000238418579,
-            "Firefighter": 1.2999999523162842,
+            "CivilianOldWoman": 0.5,
+            "Firefighter": 1.4,
             "Prisoner": 1.0,
             "Pop": 1.0,
-            "CivilianWoman": 0.800000011920929,
-            "MedicAndPatientMan": 0.8999999761581421,
-            "FarmerMan": 0.6000000238418579,
-            "Solder": 1.2999999523162842,
+            "CivilianWoman": 0.8,
+            "MedicAndPatientMan": 0.9,
+            "FarmerMan": 0.6,
+            "Solder": 1.3,
             "WorkerMan": 1.0,
             "Mummy": 3.0,
-            "PoliceSpecForce": 1.2000000476837159,
-            "WorkerWoman": 0.8999999761581421,
+            "PoliceSpecForce": 1.2,
+            "WorkerWoman": 0.9,
             "AlienScout": 0.5,
-            "MedicAndPatientWoman": 0.8899999856948853,
-            "CivilianMan": 0.8999999761581421,
-            "Captain_Alien": 1.0,
-            "CivilianOldMan": 0.699999988079071,
+            "MedicAndPatientWoman": 0.89,
+            "CivilianMan": 0.9,
+            "AlienCaptain": 1.0,
+            "CivilianOldMan": 0.6,
             "PopClerk": 1.0,
-            "AlienQueen": 1.0
+            "AlienQueen": 1.5,
+            "Arachnids": 1.4,
+            "UFO_Astro": 1.0,
+            "Miniboss_Buther": 1.3,
+            "Miniboss_Psycho": 1.2
         },
         "DamageToPlayerInBlockShockMultiplier": {
-            "all": 0.4000000059604645
+            "all": 0.4
         },
         "DamageToPlayerStaminaPercent": {
-            "Police": 1.2999999523162842,
+            "Police": 1.3,
             "all": 1.0,
-            "Nbc": 0.800000011920929,
+            "Nbc": 0.8,
             "Santa": 3.0,
-            "CivilianOldWoman": 0.30000001192092898,
-            "Firefighter": 1.100000023841858,
-            "Prisoner": 0.6000000238418579,
+            "CivilianOldWoman": 0.3,
+            "Firefighter": 1.1,
+            "Prisoner": 0.6,
             "Pop": 1.0,
             "CivilianWoman": 0.5,
-            "MedicAndPatientMan": 0.6000000238418579,
+            "MedicAndPatientMan": 0.6,
             "Mummy": 3.0,
             "Solder": 1.5,
-            "WorkerMan": 0.8999999761581421,
-            "FarmerMan": 0.4000000059604645,
+            "WorkerMan": 0.9,
+            "FarmerMan": 0.4,
             "PoliceSpecForce": 1.5,
-            "WorkerWoman": 0.800000011920929,
+            "WorkerWoman": 0.8,
             "MedicAndPatientWoman": 0.5,
-            "CivilianMan": 0.6000000238418579,
+            "CivilianMan": 0.6,
             "PopClerk": 1.0,
-            "CivilianOldMan": 0.4000000059604645
+            "CivilianOldMan": 0.4,
+            "AlienScout": 0.5,
+            "AlienCaptain": 1.5,
+            "AlienQueen": 2.0,
+            "Arachnids": 2.5,
+            "UFO_Astro": 1.2,
+            "Miniboss_Buther": 2.0,
+            "Miniboss_Psycho": 1.5
         },
         "DamageToPlayerInBlockStaminaPercent": {
             "Police": 7.0,
@@ -1807,7 +2236,14 @@
             "MedicAndPatientWoman": 2.5,
             "CivilianMan": 5.0,
             "PopClerk": 1.0,
-            "CivilianOldMan": 1.0
+            "CivilianOldMan": 1.0,
+            "AlienScout": 3.0,
+            "AlienCaptain": 12.0,
+            "AlienQueen": 15.0,
+            "Arachnids": 12.0,
+            "UFO_Astro": 8.0,
+            "Miniboss_Buther": 12.0,
+            "Miniboss_Psycho": 10.0
         },
         "DamageToPlayerBloodPercent": {
             "all": 0.0
@@ -1823,7 +2259,7 @@
             "all": 10.0,
             "Nbc": 0.0,
             "Santa": 30.0,
-            "CivilianOldWoman": 15.0,
+            "CivilianOldWoman": 18.0,
             "Firefighter": 15.0,
             "Prisoner": 15.0,
             "Pop": 0.0,
@@ -1838,36 +2274,156 @@
             "MedicAndPatientWoman": 30.0,
             "CivilianMan": 10.0,
             "PopClerk": 0.0,
-            "CivilianOldMan": 10.0
+            "CivilianOldMan": 12.0,
+            "AlienScout": 5.0,
+            "AlienCaptain": 0.0,
+            "AlienQueen": 0.0,
+            "Arachnids": 100.0,
+            "UFO_Astro": 15.0,
+            "Miniboss_Buther": 20.0,
+            "Miniboss_Psycho": 18.0
         },
         "DamageToPlayerInBlockBleedingChancePercent": {
-            "all": 0.0
+            "all": 0.0,
+            "Arachnids": 25.0
         },
         "StunToPlayerChancePercent": {
-            "all": 15.0
+            "Police": 20.0,
+            "all": 15.0,
+            "Nbc": 10.0,
+            "Santa": 40.0,
+            "CivilianOldWoman": 5.0,
+            "Firefighter": 25.0,
+            "Prisoner": 20.0,
+            "Pop": 10.0,
+            "CivilianWoman": 8.0,
+            "MedicAndPatientMan": 12.0,
+            "Mummy": 35.0,
+            "Solder": 25.0,
+            "WorkerMan": 18.0,
+            "FarmerMan": 8.0,
+            "PoliceSpecForce": 28.0,
+            "WorkerWoman": 15.0,
+            "MedicAndPatientWoman": 12.0,
+            "CivilianMan": 10.0,
+            "PopClerk": 8.0,
+            "CivilianOldMan": 5.0,
+            "AlienScout": 10.0,
+            "AlienCaptain": 30.0,
+            "AlienQueen": 45.0,
+            "Arachnids": 40.0,
+            "UFO_Astro": 20.0,
+            "Miniboss_Buther": 35.0,
+            "Miniboss_Psycho": 30.0
         },
         "StunToPlayerInBlockChancePercent": {
             "all": 3.0
         },
         "DisarmToPlayerChancePercent": {
+            "AlienQueen": 25.0,
+            "AlienCaptain": 20.0,
+            "Miniboss_Buther": 20.0,
+            "Miniboss_Psycho": 18.0,
+            "PoliceSpecForce": 10.0,
+            "Solder": 8.0,
+            "Police": 5.0,
+            "Arachnids": 22.0,
             "all": 0.0
         },
         "DisarmToPlayerInBlockChancePercent": {
+            "AlienQueen": 10.0,
+            "AlienCaptain": 8.0,
+            "Miniboss_Buther": 8.0,
+            "Miniboss_Psycho": 6.0,
+            "PoliceSpecForce": 4.0,
+            "Solder": 3.0,
+            "Arachnids": 8.0,
             "all": 0.0
         },
         "FastAttackToPlayerChancePercent": {
             "Captain_Alien": 50.0,
             "all": 30.0,
             "AlienScout": 10.0,
-            "AlienQueen": 25.0
+            "AlienQueen": 25.0,
+            "Arachnids": 45.0,
+            "UFO_Astro": 35.0,
+            "Miniboss_Buther": 40.0,
+            "Miniboss_Psycho": 45.0
         },
         "DiseasesToPlayerHandlerIsActive": {
-            "Captain_Alien": 0,
             "all": 0,
+            "MedicAndPatientMan": 1,
+            "MedicAndPatientWoman": 1,
+            "CivilianOldMan": 1,
+            "CivilianOldWoman": 1,
             "AlienScout": 0,
-            "AlienQueen": 0
+            "AlienCaptain": 0,
+            "AlienQueen": 0,
+            "UFO_Astro": 0,
+            "Miniboss_Buther": 0,
+            "Miniboss_Psycho": 0
         },
         "DiseasesToPlayerAgents": {
+            "MedicAndPatientMan": [
+                {
+                    "AgentId": 4,
+                    "AddChance": 15.0,
+                    "AddChanceInBlock": 5.0,
+                    "AddAmount": 50.0,
+                    "AddAmountInBlock": 20.0,
+                    "AddAmountNoMoreThan": 200.0,
+                    "AddOnlyIfBleeding": 0,
+                    "AddOnlyToPlayers": 1
+                }
+            ],
+            "MedicAndPatientWoman": [
+                {
+                    "AgentId": 4,
+                    "AddChance": 18.0,
+                    "AddChanceInBlock": 6.0,
+                    "AddAmount": 50.0,
+                    "AddAmountInBlock": 20.0,
+                    "AddAmountNoMoreThan": 200.0,
+                    "AddOnlyIfBleeding": 0,
+                    "AddOnlyToPlayers": 1
+                }
+            ],
+            "CivilianOldMan": [
+                {
+                    "AgentId": 1,
+                    "AddChance": 12.0,
+                    "AddChanceInBlock": 4.0,
+                    "AddAmount": 30.0,
+                    "AddAmountInBlock": 10.0,
+                    "AddAmountNoMoreThan": 150.0,
+                    "AddOnlyIfBleeding": 0,
+                    "AddOnlyToPlayers": 1
+                }
+            ],
+            "CivilianOldWoman": [
+                {
+                    "AgentId": 1,
+                    "AddChance": 15.0,
+                    "AddChanceInBlock": 5.0,
+                    "AddAmount": 30.0,
+                    "AddAmountInBlock": 10.0,
+                    "AddAmountNoMoreThan": 150.0,
+                    "AddOnlyIfBleeding": 0,
+                    "AddOnlyToPlayers": 1
+                }
+            ],
+            "Arachnids": [
+                {
+                    "AgentId": 64,
+                    "AddChance": 8.0,
+                    "AddChanceInBlock": 3.0,
+                    "AddAmount": 15.0,
+                    "AddAmountInBlock": 8.0,
+                    "AddAmountNoMoreThan": 150.0,
+                    "AddOnlyIfBleeding": 1,
+                    "AddOnlyToPlayers": 1
+                }
+            ],
             "all": []
         },
         "CameraShakeToPlayerIntensity": {
@@ -1877,40 +2433,264 @@
             "all": 1
         },
         "PainToPlayerHeadMultiplier": {
-            "all": 0.4000000059604645
+            "CivilianOldWoman": 1.3,
+            "CivilianOldMan": 1.3,
+            "CivilianWoman": 1.0,
+            "CivilianMan": 1.0,
+            "WorkerMan": 0.9,
+            "WorkerWoman": 0.9,
+            "MedicAndPatientMan": 0.85,
+            "MedicAndPatientWoman": 0.85,
+            "FarmerMan": 1.0,
+            "Police": 0.85,
+            "PoliceSpecForce": 0.8,
+            "Solder": 0.8,
+            "Firefighter": 0.85,
+            "Prisoner": 1.0,
+            "Pop": 1.0,
+            "PopClerk": 1.0,
+            "Nbc": 0.7,
+            "Santa": 0.8,
+            "Mummy": 0.9,
+            "AlienScout": 0.5,
+            "AlienCaptain": 0.5,
+            "AlienQueen": 0.5,
+            "UFO_Astro": 0.6,
+            "Miniboss_Buther": 0.5,
+            "Miniboss_Psycho": 0.5,
+            "Arachnids": 0.5,
+            "all": 1.0
         },
         "PainToPlayerHeadInBlockMultiplier": {
-            "all": 0.0
+            "CivilianOldWoman": 0.4,
+            "CivilianOldMan": 0.4,
+            "CivilianWoman": 0.3,
+            "CivilianMan": 0.3,
+            "WorkerMan": 0.3,
+            "WorkerWoman": 0.3,
+            "MedicAndPatientMan": 0.25,
+            "MedicAndPatientWoman": 0.25,
+            "Police": 0.25,
+            "PoliceSpecForce": 0.2,
+            "Solder": 0.2,
+            "Firefighter": 0.25,
+            "AlienScout": 0.1,
+            "AlienCaptain": 0.1,
+            "AlienQueen": 0.1,
+            "UFO_Astro": 0.15,
+            "Miniboss_Buther": 0.1,
+            "Miniboss_Psycho": 0.1,
+            "all": 0.3
         },
         "PainToPlayerArmsMultiplier": {
+            "CivilianOldWoman": 1.2,
+            "CivilianOldMan": 1.2,
+            "CivilianWoman": 1.0,
+            "CivilianMan": 1.0,
+            "WorkerMan": 0.9,
+            "WorkerWoman": 0.9,
+            "MedicAndPatientMan": 0.85,
+            "MedicAndPatientWoman": 0.85,
+            "Police": 0.85,
+            "PoliceSpecForce": 0.8,
+            "Solder": 0.8,
+            "Firefighter": 0.85,
+            "AlienScout": 0.5,
+            "AlienCaptain": 0.5,
+            "AlienQueen": 0.5,
+            "UFO_Astro": 0.6,
+            "Miniboss_Buther": 0.5,
+            "Miniboss_Psycho": 0.5,
+            "Arachnids": 0.5,
             "all": 1.0
         },
         "PainToPlayerArmsInBlockMultiplier": {
-            "all": 0.6000000238418579
+            "CivilianOldWoman": 0.4,
+            "CivilianOldMan": 0.4,
+            "CivilianWoman": 0.3,
+            "CivilianMan": 0.3,
+            "WorkerMan": 0.3,
+            "WorkerWoman": 0.3,
+            "MedicAndPatientMan": 0.25,
+            "MedicAndPatientWoman": 0.25,
+            "Police": 0.25,
+            "PoliceSpecForce": 0.2,
+            "Solder": 0.2,
+            "Firefighter": 0.25,
+            "AlienScout": 0.1,
+            "AlienCaptain": 0.1,
+            "AlienQueen": 0.1,
+            "UFO_Astro": 0.15,
+            "Miniboss_Buther": 0.1,
+            "Miniboss_Psycho": 0.1,
+            "all": 0.3
         },
         "PainToPlayerArmsDisarmMultiplier": {
-            "all": 0.20000000298023225
+            "CivilianOldWoman": 1.2,
+            "CivilianOldMan": 1.2,
+            "CivilianWoman": 1.0,
+            "CivilianMan": 1.0,
+            "WorkerMan": 0.9,
+            "WorkerWoman": 0.9,
+            "MedicAndPatientMan": 0.85,
+            "MedicAndPatientWoman": 0.85,
+            "Police": 0.85,
+            "PoliceSpecForce": 0.8,
+            "Solder": 0.8,
+            "Firefighter": 0.85,
+            "AlienScout": 0.5,
+            "AlienCaptain": 0.5,
+            "AlienQueen": 0.5,
+            "UFO_Astro": 0.6,
+            "Miniboss_Buther": 0.5,
+            "Miniboss_Psycho": 0.5,
+            "all": 1.0
         },
         "PainToPlayerArmsInBlockDisarmMultiplier": {
             "all": 0.0
         },
         "PainToPlayerLegsMultiplier": {
-            "all": 0.5
+            "CivilianOldWoman": 1.2,
+            "CivilianOldMan": 1.2,
+            "CivilianWoman": 1.0,
+            "CivilianMan": 1.0,
+            "WorkerMan": 0.9,
+            "WorkerWoman": 0.9,
+            "MedicAndPatientMan": 0.85,
+            "MedicAndPatientWoman": 0.85,
+            "Police": 0.85,
+            "PoliceSpecForce": 0.8,
+            "Solder": 0.8,
+            "Firefighter": 0.85,
+            "AlienScout": 0.5,
+            "AlienCaptain": 0.5,
+            "AlienQueen": 0.5,
+            "UFO_Astro": 0.6,
+            "Miniboss_Buther": 0.5,
+            "Miniboss_Psycho": 0.5,
+            "Arachnids": 0.5,
+            "all": 1.0
         },
         "PainToPlayerLegsInBlockMultiplier": {
-            "all": 0.0
+            "CivilianOldWoman": 0.4,
+            "CivilianOldMan": 0.4,
+            "CivilianWoman": 0.3,
+            "CivilianMan": 0.3,
+            "WorkerMan": 0.3,
+            "WorkerWoman": 0.3,
+            "MedicAndPatientMan": 0.25,
+            "MedicAndPatientWoman": 0.25,
+            "Police": 0.25,
+            "PoliceSpecForce": 0.2,
+            "Solder": 0.2,
+            "Firefighter": 0.25,
+            "AlienScout": 0.1,
+            "AlienCaptain": 0.1,
+            "AlienQueen": 0.1,
+            "UFO_Astro": 0.15,
+            "Miniboss_Buther": 0.1,
+            "Miniboss_Psycho": 0.1,
+            "all": 0.3
         },
         "PainToPlayerTorsoMultiplier": {
+            "CivilianOldWoman": 1.2,
+            "CivilianOldMan": 1.2,
+            "CivilianWoman": 1.0,
+            "CivilianMan": 1.0,
+            "WorkerMan": 0.9,
+            "WorkerWoman": 0.9,
+            "MedicAndPatientMan": 0.85,
+            "MedicAndPatientWoman": 0.85,
+            "Police": 0.85,
+            "PoliceSpecForce": 0.85,
+            "Solder": 0.85,
+            "Firefighter": 0.85,
+            "AlienScout": 0.5,
+            "AlienCaptain": 0.5,
+            "AlienQueen": 0.5,
+            "UFO_Astro": 0.6,
+            "Miniboss_Buther": 0.5,
+            "Miniboss_Psycho": 0.5,
+            "Arachnids": 0.5,
             "all": 1.0
         },
         "PainToPlayerTorsoInBlockMultiplier": {
-            "all": 0.6000000238418579
+            "CivilianOldWoman": 0.4,
+            "CivilianOldMan": 0.4,
+            "CivilianWoman": 0.3,
+            "CivilianMan": 0.3,
+            "WorkerMan": 0.3,
+            "WorkerWoman": 0.3,
+            "MedicAndPatientMan": 0.25,
+            "MedicAndPatientWoman": 0.25,
+            "Police": 0.25,
+            "PoliceSpecForce": 0.25,
+            "Solder": 0.25,
+            "Firefighter": 0.25,
+            "AlienScout": 0.1,
+            "AlienCaptain": 0.1,
+            "AlienQueen": 0.1,
+            "UFO_Astro": 0.15,
+            "Miniboss_Buther": 0.1,
+            "Miniboss_Psycho": 0.1,
+            "all": 0.3
         },
         "PainToPlayerLimbsBreakChancesMultiplier": {
-            "all": 0.0
+            "CivilianOldWoman": 1.5,
+            "CivilianOldMan": 1.5,
+            "CivilianWoman": 1.0,
+            "CivilianMan": 1.0,
+            "WorkerMan": 0.8,
+            "WorkerWoman": 0.8,
+            "MedicAndPatientMan": 0.9,
+            "MedicAndPatientWoman": 0.9,
+            "FarmerMan": 1.0,
+            "Police": 0.7,
+            "PoliceSpecForce": 0.6,
+            "Solder": 0.6,
+            "Firefighter": 0.75,
+            "Prisoner": 1.0,
+            "Pop": 0.9,
+            "PopClerk": 0.9,
+            "Nbc": 0.5,
+            "Santa": 0.8,
+            "Mummy": 0.7,
+            "AlienScout": 0.3,
+            "AlienCaptain": 0.3,
+            "AlienQueen": 0.3,
+            "UFO_Astro": 0.4,
+            "Miniboss_Buther": 0.3,
+            "Miniboss_Psycho": 0.3,
+            "Arachnids": 0.3,
+            "all": 1.0
         },
         "PainToPlayerLimbsDeepWoundChancesMultiplier": {
-            "all": 0.0
+            "CivilianOldWoman": 1.3,
+            "CivilianOldMan": 1.3,
+            "CivilianWoman": 1.0,
+            "CivilianMan": 1.0,
+            "WorkerMan": 0.9,
+            "WorkerWoman": 0.9,
+            "MedicAndPatientMan": 0.85,
+            "MedicAndPatientWoman": 0.85,
+            "Police": 0.75,
+            "PoliceSpecForce": 0.7,
+            "Solder": 0.7,
+            "Firefighter": 0.8,
+            "Prisoner": 1.0,
+            "Pop": 0.9,
+            "PopClerk": 0.9,
+            "Nbc": 0.5,
+            "Santa": 0.85,
+            "Mummy": 0.8,
+            "AlienScout": 0.4,
+            "AlienCaptain": 0.4,
+            "AlienQueen": 0.4,
+            "UFO_Astro": 0.5,
+            "Miniboss_Buther": 0.4,
+            "Miniboss_Psycho": 0.4,
+            "Arachnids": 0.4,
+            "all": 1.0
         },
         "DamageToZombieHandlerIsActive": {
             "all": 1
@@ -1925,14 +2705,14 @@
             "Police": 2.5,
             "all": 2.0,
             "Nbc": 2.5,
-            "Santa": 0.20000000298023225,
+            "Santa": 0.2,
             "CivilianOldWoman": 5.0,
-            "Firefighter": 2.299999952316284,
+            "Firefighter": 2.3,
             "MedicAndPatientMan": 2.0,
-            "Pop": 0.800000011920929,
+            "Pop": 0.8,
             "CivilianWoman": 3.5,
             "Prisoner": 2.0,
-            "Mummy": 0.20000000298023225,
+            "Mummy": 0.2,
             "Solder": 2.0,
             "WorkerMan": 2.0,
             "FarmerMan": 3.0,
@@ -1940,21 +2720,28 @@
             "WorkerWoman": 3.5,
             "MedicAndPatientWoman": 3.5,
             "CivilianMan": 2.0,
-            "PopClerk": 0.800000011920929,
-            "CivilianOldMan": 5.0
+            "PopClerk": 0.8,
+            "CivilianOldMan": 5.0,
+            "AlienScout": 1.5,
+            "AlienCaptain": 1.0,
+            "AlienQueen": 0.5,
+            "UFO_Astro": 1.2,
+            "Miniboss_Buther": 0.8,
+            "Miniboss_Psycho": 0.9,
+            "Arachnids": 0.7
         },
         "DamageToZombieHeadRangeMultiplier": {
             "Police": 2.0,
             "all": 1.5,
             "Nbc": 2.0,
-            "Santa": 0.20000000298023225,
+            "Santa": 0.2,
             "CivilianOldWoman": 5.0,
-            "Firefighter": 1.7999999523162842,
+            "Firefighter": 1.8,
             "MedicAndPatientMan": 2.0,
             "Pop": 0.5,
             "CivilianWoman": 3.5,
             "Prisoner": 2.0,
-            "Mummy": 0.20000000298023225,
+            "Mummy": 0.2,
             "Solder": 1.5,
             "WorkerMan": 2.0,
             "FarmerMan": 3.0,
@@ -1963,20 +2750,27 @@
             "MedicAndPatientWoman": 2.5,
             "CivilianMan": 2.5,
             "PopClerk": 0.5,
-            "CivilianOldMan": 5.0
+            "CivilianOldMan": 5.0,
+            "AlienScout": 1.8,
+            "AlienCaptain": 1.2,
+            "AlienQueen": 0.7,
+            "UFO_Astro": 1.5,
+            "Miniboss_Buther": 1.0,
+            "Miniboss_Psycho": 1.1,
+            "Arachnids": 0.9
         },
         "DamageToZombieBodyMeleeMultiplier": {
-            "Police": 1.2000000476837159,
-            "all": 1.2000000476837159,
-            "Nbc": 1.2999999523162842,
-            "Santa": 0.20000000298023225,
+            "Police": 1.2,
+            "all": 1.2,
+            "Nbc": 1.3,
+            "Santa": 0.2,
             "CivilianOldWoman": 2.5,
             "Firefighter": 1.5,
             "MedicAndPatientMan": 1.0,
-            "Pop": 0.800000011920929,
+            "Pop": 0.8,
             "CivilianWoman": 2.0,
             "Prisoner": 1.0,
-            "Mummy": 0.20000000298023225,
+            "Mummy": 0.2,
             "Solder": 1.0,
             "WorkerMan": 1.0,
             "FarmerMan": 1.5,
@@ -1984,21 +2778,28 @@
             "WorkerWoman": 1.5,
             "MedicAndPatientWoman": 1.5,
             "CivilianMan": 1.5,
-            "PopClerk": 0.800000011920929,
-            "CivilianOldMan": 2.0
+            "PopClerk": 0.8,
+            "CivilianOldMan": 2.0,
+            "AlienScout": 0.8,
+            "AlienCaptain": 0.6,
+            "AlienQueen": 0.4,
+            "UFO_Astro": 0.7,
+            "Miniboss_Buther": 0.5,
+            "Miniboss_Psycho": 0.6,
+            "Arachnids": 0.45
         },
         "DamageToZombieBodyRangeMultiplier": {
-            "Police": 1.2000000476837159,
+            "Police": 1.2,
             "all": 1.0,
-            "Nbc": 1.2999999523162842,
-            "Santa": 0.20000000298023225,
+            "Nbc": 1.3,
+            "Santa": 0.2,
             "CivilianOldWoman": 2.5,
             "Firefighter": 1.5,
             "MedicAndPatientMan": 1.0,
-            "Pop": 0.800000011920929,
+            "Pop": 0.8,
             "CivilianWoman": 2.0,
             "Prisoner": 1.0,
-            "Mummy": 0.20000000298023225,
+            "Mummy": 0.2,
             "Solder": 1.0,
             "WorkerMan": 1.0,
             "FarmerMan": 1.5,
@@ -2006,8 +2807,15 @@
             "WorkerWoman": 1.5,
             "MedicAndPatientWoman": 1.5,
             "CivilianMan": 1.5,
-            "PopClerk": 0.800000011920929,
-            "CivilianOldMan": 2.0
+            "PopClerk": 0.8,
+            "CivilianOldMan": 2.0,
+            "AlienScout": 0.7,
+            "AlienCaptain": 0.5,
+            "AlienQueen": 0.3,
+            "UFO_Astro": 0.6,
+            "Miniboss_Buther": 0.4,
+            "Miniboss_Psycho": 0.5,
+            "Arachnids": 0.55
         },
         "DamageToZombieFromCarsMultiplier": {
             "all": 0.5
@@ -2034,7 +2842,10 @@
             "all": 50.0,
             "AlienCaptain": 450.0,
             "AlienScout": 375.0,
-            "AlienQueen": 3000.0
+            "AlienQueen": 3000.0,
+            "UFO_Astro": 500.0,
+            "Miniboss_Buther": 600.0,
+            "Miniboss_Psycho": 550.0
         },
         "DamageToZombieShockToStunThresholdMeleeHeavy": {
             "all": 0.0
@@ -2043,7 +2854,11 @@
             "all": 100.0,
             "AlienCaptain": 600.0,
             "AlienScout": 650.0,
-            "AlienQueen": 2500.0
+            "AlienQueen": 2500.0,
+            "Arachnids": 850.0,
+            "UFO_Astro": 700.0,
+            "Miniboss_Buther": 800.0,
+            "Miniboss_Psycho": 750.0
         },
         "DamageToZombieShockToStunFromButtstockHit": {
             "all": 2.0
@@ -2052,7 +2867,7 @@
             "all": 1
         },
         "DamageToZombieShockToStunCumulativeDamageTimeFrameSeconds": {
-            "all": 0.10000000149011612
+            "all": 0.1
         },
         "DamageToZombieShockToStunIgnoreMeleeHitChancePercent": {
             "all": 10.0
@@ -2072,21 +2887,59 @@
             }
         },
         "MeleeAttacksDodgeHandlerIsActive": {
+            "AlienQueen": 1,
+            "AlienCaptain": 1,
+            "Miniboss_Buther": 1,
+            "Miniboss_Psycho": 1,
+            "PoliceSpecForce": 1,
+            "Solder": 1,
+            "Arachnids": 1,
             "all": 1
         },
         "MeleeAttacksDodgeChance": {
+            "AlienQueen": 50.0,
+            "AlienCaptain": 40.0,
+            "Miniboss_Buther": 35.0,
+            "Miniboss_Psycho": 35.0,
+            "PoliceSpecForce": 25.0,
+            "Solder": 20.0,
+            "Arachnids": 45.0,
             "all": 25.0
         },
         "MeleeAttacksDodgeCooldownSeconds": {
+            "AlienQueen": 8.0,
+            "AlienCaptain": 10.0,
+            "Miniboss_Buther": 12.0,
+            "Miniboss_Psycho": 12.0,
+            "Arachnids": 10.0,
             "all": 10.0
         },
         "JumpAttackHandlerIsActive": {
+            "AlienQueen": 1,
+            "AlienCaptain": 1,
+            "Miniboss_Buther": 1,
+            "Miniboss_Psycho": 1,
+            "PoliceSpecForce": 1,
+            "Solder": 1,
+            "Arachnids": 1,
             "all": 1
         },
         "JumpAttackChance": {
+            "AlienQueen": 25.0,
+            "AlienCaptain": 25.0,
+            "Miniboss_Buther": 25.0,
+            "Miniboss_Psycho": 25.0,
+            "PoliceSpecForce": 15.0,
+            "Solder": 15.0,
+            "Arachnids": 30.0,
             "all": 10.0
         },
         "JumpAttackCooldownSeconds": {
+            "AlienQueen": 45.0,
+            "AlienCaptain": 50.0,
+            "Miniboss_Buther": 55.0,
+            "Miniboss_Psycho": 55.0,
+            "Arachnids": 50.0,
             "all": 60.0
         },
         "BloodHandlerIsActive": {
@@ -2109,19 +2962,74 @@
             "MedicAndPatientWoman": 0,
             "CivilianMan": 1,
             "PopClerk": 0,
-            "CivilianOldMan": 1
+            "CivilianOldMan": 1,
+            "AlienScout": 1,
+            "AlienCaptain": 1,
+            "AlienQueen": 1,
+            "Arachnids": 1,
+            "UFO_Astro": 1,
+            "Miniboss_Buther": 1,
+            "Miniboss_Psycho": 1
         },
         "BloodVolumeMl": {
-            "all": 0.0
+            "CivilianOldMan": 1800.0,
+            "CivilianOldWoman": 1600.0,
+            "CivilianMan": 2200.0,
+            "CivilianWoman": 2000.0,
+            "WorkerMan": 2500.0,
+            "WorkerWoman": 2300.0,
+            "FarmerMan": 2800.0,
+            "Firefighter": 3000.0,
+            "Prisoner": 2400.0,
+            "AlienScout": 2200.0,
+            "AlienCaptain": 2800.0,
+            "AlienQueen": 3500.0,
+            "Arachnids": 3200.0,
+            "UFO_Astro": 2600.0,
+            "Miniboss_Buther": 3000.0,
+            "Miniboss_Psycho": 2800.0,
+            "all": 2000.0
         },
         "BloodLossRateMinMl": {
-            "all": 15.0
+            "CivilianOldMan": 5.0,
+            "CivilianOldWoman": 4.0,
+            "CivilianMan": 8.0,
+            "CivilianWoman": 7.0,
+            "WorkerMan": 10.0,
+            "WorkerWoman": 9.0,
+            "FarmerMan": 12.0,
+            "Firefighter": 15.0,
+            "Prisoner": 10.0,
+            "AlienScout": 10.0,
+            "AlienCaptain": 12.0,
+            "AlienQueen": 15.0,
+            "Arachnids": 14.0,
+            "UFO_Astro": 12.0,
+            "Miniboss_Buther": 15.0,
+            "Miniboss_Psycho": 14.0,
+            "all": 8.0
         },
         "BloodLossRateMaxMl": {
-            "all": 200.0
+            "CivilianOldMan": 40.0,
+            "CivilianOldWoman": 35.0,
+            "CivilianMan": 80.0,
+            "CivilianWoman": 70.0,
+            "WorkerMan": 100.0,
+            "WorkerWoman": 90.0,
+            "FarmerMan": 120.0,
+            "Firefighter": 150.0,
+            "Prisoner": 100.0,
+            "AlienScout": 80.0,
+            "AlienCaptain": 100.0,
+            "AlienQueen": 120.0,
+            "Arachnids": 110.0,
+            "UFO_Astro": 100.0,
+            "Miniboss_Buther": 120.0,
+            "Miniboss_Psycho": 110.0,
+            "all": 80.0
         },
         "BloodLossRateRegenMl": {
-            "all": 0.30000001192092898
+            "all": 0.3
         },
         "BloodOnExplosiveDamageChancePercent": {
             "all": 100.0
@@ -2145,14 +3053,19 @@
             "AlienCaptain": 1,
             "Nbc": 1,
             "Mummy": 1,
-            "AlienQueen": 1
+            "AlienQueen": 1,
+            "UFO_Astro": 1,
+            "Miniboss_Buther": 0,
+            "Miniboss_Psycho": 0
         },
         "AllowCrawling": {
-            "all": 1
+            "all": 1,
+            "Arachnids": 1
         },
         "RespawnInCrawlingChancePercent": {
             "all": 12.0,
-            "AlienQueen": 0.0
+            "AlienQueen": 0.0,
+            "Arachnids": 0.0
         },
         "ScreamHandlerIsActive": {
             "Police": 0,
@@ -2174,7 +3087,13 @@
             "MedicAndPatientWoman": 1,
             "CivilianMan": 0,
             "PopClerk": 0,
-            "CivilianOldMan": 1
+            "CivilianOldMan": 1,
+            "AlienScout": 0,
+            "AlienCaptain": 0,
+            "AlienQueen": 0,
+            "UFO_Astro": 0,
+            "Miniboss_Buther": 1,
+            "Miniboss_Psycho": 1
         },
         "ScreamAttractsZombiesInRadius": {
             "all": 75.0
@@ -2263,9 +3182,7 @@
                     "QuantityInStackToPercent": 100.0,
                     "ConditionFrom": 2,
                     "ConditionTo": 3,
-                    "Foodstages": [
-                        6
-                    ]
+                    "Foodstages": [6]
                 },
                 {
                     "ClassId": "HumanSteakMeat",
@@ -2274,9 +3191,7 @@
                     "QuantityInStackToPercent": 100.0,
                     "ConditionFrom": 2,
                     "ConditionTo": 3,
-                    "Foodstages": [
-                        6
-                    ]
+                    "Foodstages": [6]
                 }
             ]
         },
@@ -2284,30 +3199,42 @@
             "Captain_Alien": 0,
             "all": 1,
             "AlienScout": 0,
-            "AlienQueen": 0
+            "AlienQueen": 0,
+            "Arachnids": 0,
+            "UFO_Astro": 0,
+            "Miniboss_Buther": 0,
+            "Miniboss_Psycho": 0
         },
         "CanBeBackstabbed": {
             "Captain_Alien": 0,
             "all": 1,
             "AlienScout": 0,
-            "AlienQueen": 0
+            "AlienQueen": 0,
+            "Arachnids": 0,
+            "UFO_Astro": 0,
+            "Miniboss_Buther": 0,
+            "Miniboss_Psycho": 0
         },
         "VisionRangeMultiplierDay": {
-            "all": 1.2000000476837159,
+            "all": 1.2,
             "AlienScout": 1.0,
-            "AlienQueen": 1.0
+            "AlienQueen": 1.0,
+            "UFO_Astro": 1.1,
+            "Arachnids": 1.2,
+            "Miniboss_Buther": 1.3,
+            "Miniboss_Psycho": 1.2
         },
         "VisionRangeMultiplierNight": {
-            "all": 0.800000011920929
+            "all": 0.8
         },
         "SizeHandlerIsActive": {
             "all": 1
         },
         "SizeFromMultiplier": {
-            "all": 0.8500000238418579
+            "all": 0.85
         },
         "SizeToMultiplier": {
-            "all": 1.100000023841858
+            "all": 1.1
         },
         "SizeDamageScalingIsActive": {
             "all": 1
@@ -2322,10 +3249,10 @@
             "all": 1
         },
         "ThrowingProjectilesHandlerDamageMultiplier": {
-            "all": 0.8999999761581421
+            "all": 0.9
         },
         "ThrowingProjectilesHandlerVehiclesDamageMultiplier": {
-            "all": 1.2000000476837159
+            "all": 1.2
         },
         "ThrowingProjectilesHandlerProjectilesList": {
             "Police": [
@@ -2351,7 +3278,8 @@
             ],
             "Pop": [
                 "GarbageIfPlayerOnObstacle",
-                "GarbageIfPlayerNonObstacle"
+                "GarbageIfPlayerNonObstacle",
+                "HolyFlashGrenade"
             ],
             "CivilianOldWoman": [
                 "GarbageIfPlayerOnObstacle",
@@ -2384,12 +3312,44 @@
             "PoliceSpecForce": [
                 "GarbageIfPlayerOnObstacle",
                 "PoliceProjectile"
+            ],
+            "AlienScout": [
+                "GarbageIfPlayerOnObstacle",
+                "GarbageIfPlayerNonObstacle"
+            ],
+            "UFO_Astro": [
+                "GarbageIfPlayerOnObstacle",
+                "AstroGasGrenade",
+                "AstroFlashGrenade"
+            ],
+            "AlienCaptain": [
+                "GarbageIfPlayerOnObstacle",
+                "AstroGasGrenade",
+                "AstroFlashGrenade"
+            ],
+            "Miniboss_Buther": [
+                "GarbageIfPlayerOnObstacle",
+                "HEGrenade"
+            ],
+            "Miniboss_Psycho": [
+                "GarbageIfPlayerOnObstacle",
+                "FlashGrenade"
             ]
         },
         "RangeAttacksHandlerIsActive": {
-            "all": 0
+            "all": 0,
+            "UFO_Astro": 1,
+            "AlienCaptain": 1,
+            "Miniboss_Buther": 1,
+            "Miniboss_Psycho": 1,
+            "Pop": 1
         },
         "RangeAttacksHandlerZombiePlayerDistance": {
+            "UFO_Astro": 2.5,
+            "AlienCaptain": 2.8,
+            "Miniboss_Buther": 3.0,
+            "Miniboss_Psycho": 2.5,
+            "Pop": 3.5,
             "all": 2.0
         },
         "RangeAttacksHandlerPlayerOnObstacleHeight": {
@@ -2408,7 +3368,7 @@
         "SearchBodyToViewCargoSeconds": 5.0,
         "SearchBodyExtendLootingToPlayersInRadiusMeters": 30.0,
         "SearchBodyOnlyEmptyHands": 0,
-        "QuietDoorOpeningMechanicIsActive": 1,
+        "QuietDoorOpeningMechanicIsActive": 0,
         "QuietDoorOpeningMechanicDisabledForOpening": 1,
         "QuietDoorOpeningMechanicSeconds": 3.0,
         "QuietDoorOpeningMechanicRestrictedBuildings": [
@@ -2439,7 +3399,7 @@
         "ShowPainBlur": 1,
         "ShowMedicationInfo": 1,
         "PainHealingRatePerSecondPercent": 0.5,
-        "HealthDrainWithCriticalPainLimbPerSecondPercent": 0.15000000596046449,
+        "HealthDrainWithCriticalPainLimbPerSecondPercent": 0.15,
         "HealthDrainWithRedPainLimbPerSecondPercent": 0.0,
         "VehicleCrashPainMultiplier": 1.0,
         "VehicleCollisionsPainMultiplier": 1.0,
@@ -2486,7 +3446,7 @@
         "TorsoDeepWoundDurationSeconds": 1800.0,
         "LimbsDeepWoundConsciousBleedRateMultiplier": 1.0,
         "LimbsDeepWoundUnconsciousBleedRateMultiplier": 1.0,
-        "LimbsDeepWoundVanillaCutBleedRateMultiplier": 0.10000000149011612,
+        "LimbsDeepWoundVanillaCutBleedRateMultiplier": 0.1,
         "LimbsDeepWoundFromFalls": 1,
         "LegsDeepWoundFromTraps": 1,
         "LimbsBulletSystemIsActive": 0,
@@ -2498,13 +3458,13 @@
         "NoiseMultiplierNight": 1.0,
         "NoiseMultiplierCrouchDay": 1.0,
         "NoiseMultiplierCrouchNight": 1.0,
-        "NoiseMultiplierLadderDay": 0.20000000298023225,
-        "NoiseMultiplierLadderNight": 0.20000000298023225,
+        "NoiseMultiplierLadderDay": 0.2,
+        "NoiseMultiplierLadderNight": 0.2,
         "CamoClothingVisibilityMultipliers": {
-            "GhillieSuit_ColorBase": 0.800000011920929,
+            "GhillieSuit_ColorBase": 0.8,
             "all": 1.0,
-            "GhillieTop_ColorBase": 0.800000011920929,
-            "GhillieHood_ColorBase": 0.800000011920929
+            "GhillieTop_ColorBase": 0.8,
+            "GhillieHood_ColorBase": 0.8
         }
     },
     "Vehicles": {
@@ -2525,10 +3485,10 @@
         }
     },
     "LossInterestToIrritantAfterSeconds": 60.0,
-    "LightInHouseMultiplier": 0.30000001192092898,
-    "SoundInHouseMultiplier": 0.30000001192092898,
-    "SuppressorShotCooldownSeconds": 5.0,
-    "SuppressorShotOverfireDistanceMeters": 80.0,
+    "LightInHouseMultiplier": 0.3,
+    "SoundInHouseMultiplier": 0.3,
+    "SuppressorShotCooldownSeconds": 3.0,
+    "SuppressorShotOverfireDistanceMeters": 50.0,
     "BloodParticlesLimit": 250.0,
     "BloodParticleDurationSeconds": 180.0,
     "SaveConfigAfterInit": 1
