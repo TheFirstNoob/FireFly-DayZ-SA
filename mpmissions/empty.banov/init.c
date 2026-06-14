@@ -7,30 +7,30 @@ void main()
 		ce.InitOffline();
 
 	int year, month, day, hour, minute;
-	int reset_month = 9, reset_day = 9;
-	GetGame().GetWorld().GetDate(year, month, day, hour, minute);
+	int reset_month = 6, reset_day = 14;
+	g_Game.GetWorld().GetDate(year, month, day, hour, minute);
 
 	if ((month == reset_month) && (day < reset_day))
 	{
-		GetGame().GetWorld().SetDate(year, reset_month, reset_day, hour, minute);
+		g_Game.GetWorld().SetDate(year, reset_month, reset_day, hour, minute);
 	}
 	else
 	{
 		if ((month == reset_month + 1) && (day > reset_day))
 		{
-			GetGame().GetWorld().SetDate(year, reset_month, reset_day, hour, minute);
+			g_Game.GetWorld().SetDate(year, reset_month, reset_day, hour, minute);
 		}
 		else
 		{
 			if ((month < reset_month) || (month > reset_month + 1))
 			{
-				GetGame().GetWorld().SetDate(year, reset_month, reset_day, hour, minute);
+				g_Game.GetWorld().SetDate(year, reset_month, reset_day, hour, minute);
 			}
 		}
 	}
 	
 	bool removedTerjeBackdoor;
-	GetGame().GameScript.CallFunction(GetPluginManager(), "UnregisterPlugin", removedTerjeBackdoor, "PluginTerjeCmdDebug");
+	g_Game.GameScript.CallFunction(GetPluginManager(), "UnregisterPlugin", removedTerjeBackdoor, "PluginTerjeCmdDebug");
 	if (removedTerjeBackdoor)
 	{
 		Print("Removed Terje's backdoor plugin");
@@ -42,10 +42,10 @@ class CustomMission: MissionServer
 	override PlayerBase CreateCharacter(PlayerIdentity identity, vector pos, ParamsReadContext ctx, string characterName)
 	{
 		Entity playerEnt;
-		playerEnt = GetGame().CreatePlayer( identity, characterName, pos, 0, "NONE" );
+		playerEnt = g_Game.CreatePlayer( identity, characterName, pos, 0, "NONE" );
 		Class.CastTo( m_player, playerEnt );
 
-		GetGame().SelectPlayer( identity, m_player );
+		g_Game.SelectPlayer( identity, m_player );
 
 		return m_player;
 	}
