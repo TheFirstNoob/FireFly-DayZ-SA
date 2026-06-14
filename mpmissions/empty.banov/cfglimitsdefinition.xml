@@ -10,12 +10,13 @@
         <category name="weapons"/>
         <category name="books"/>
         <category name="explosives"/>
+		<category name="alienpod"/>
     </categories>
     <tags>
         <tag name="floor"/>
         <tag name="shelves"/>
         <tag name="ground"/>
-		<tag name="civilian"/>
+		<tag name="civilian" />
     </tags>
     <usageflags>
         <usage name="Military"/>
@@ -31,6 +32,7 @@
         <usage name="Hunting"/>
         <usage name="Office"/>
         <usage name="School"/>
+		<usage name="Container"/>
         <usage name="Prison"/>
         <usage name="Lunapark"/>
         <usage name="SeasonalEvent"/>
