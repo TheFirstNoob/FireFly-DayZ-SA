@@ -48,6 +48,7 @@
 	</type>
 	<type name="ScientificBriefcase">
 		<hoarder />
+		<damage min="0.1" max="0.1" />
 	</type>
 	<type name="UndergroundStash">
 		<hoarder />
@@ -136,9 +137,6 @@
 		<damage min="0.1" max="0.1" />
 	</type>
 	<type name="FilteringBottle">
-		<damage min="0.1" max="0.1" />
-	</type>
-	<type name="ScientificBriefcase">
 		<damage min="0.1" max="0.1" />
 	</type>
 	<type name="ScientificBriefcaseKeys">
