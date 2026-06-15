@@ -2,7 +2,7 @@
     "DefaultWeatherPreset": "clear",
     "WeatherPresets": {
         "clear": {
-            "m_WeatherChance": 30,
+            "m_WeatherChance": 36,
             "m_TransitionTime_Min": 300,
             "m_TransitionTime_Max": 480,
             "m_MinDuration_Min": 1200,
@@ -42,10 +42,10 @@
             "m_ThunderstormThreshold": 0.95,
             "m_LightningTimeout": 45,
             "m_UseEnvironmentTemperature": 0,
-            "m_EnvironmentTemperature": 12
+            "m_EnvironmentTemperature": 24
         },
         "partly_cloudy": {
-            "m_WeatherChance": 25,
+            "m_WeatherChance": 31,
             "m_TransitionTime_Min": 300,
             "m_TransitionTime_Max": 480,
             "m_MinDuration_Min": 900,
@@ -85,7 +85,7 @@
             "m_ThunderstormThreshold": 0.95,
             "m_LightningTimeout": 60,
             "m_UseEnvironmentTemperature": 0,
-            "m_EnvironmentTemperature": 15
+            "m_EnvironmentTemperature": 22
         },
         "overcast": {
             "m_WeatherChance": 18,
@@ -128,10 +128,10 @@
             "m_ThunderstormThreshold": 0.95,
             "m_LightningTimeout": 45,
             "m_UseEnvironmentTemperature": 0,
-            "m_EnvironmentTemperature": 10
+            "m_EnvironmentTemperature": 18
         },
         "rain": {
-            "m_WeatherChance": 10,
+            "m_WeatherChance": 5,
             "m_TransitionTime_Min": 240,
             "m_TransitionTime_Max": 360,
             "m_MinDuration_Min": 600,
@@ -166,12 +166,12 @@
             "m_SnowfallThreshold_Timeout": 60,
             "m_RainThreshold_Min": 0.7,
             "m_RainThreshold_Max": 1.0,
-            "m_RainThreshold_Timeout": 60,
+            "m_RainThreshold_Timeout": 120,
             "m_ThunderstormDensity": 0.05,
             "m_ThunderstormThreshold": 0.85,
             "m_LightningTimeout": 50,
             "m_UseEnvironmentTemperature": 0,
-            "m_EnvironmentTemperature": 8
+            "m_EnvironmentTemperature": 16
         },
         "stormy": {
             "m_WeatherChance": 2,
@@ -209,12 +209,12 @@
             "m_SnowfallThreshold_Timeout": 60,
             "m_RainThreshold_Min": 0.7,
             "m_RainThreshold_Max": 1.0,
-            "m_RainThreshold_Timeout": 60,
+            "m_RainThreshold_Timeout": 120,
             "m_ThunderstormDensity": 0.2,
             "m_ThunderstormThreshold": 0.75,
             "m_LightningTimeout": 25,
             "m_UseEnvironmentTemperature": 0,
-            "m_EnvironmentTemperature": 6
+            "m_EnvironmentTemperature": 18
         },
         "foggy": {
             "m_WeatherChance": 8,
@@ -257,10 +257,10 @@
             "m_ThunderstormThreshold": 0.95,
             "m_LightningTimeout": 45,
             "m_UseEnvironmentTemperature": 0,
-            "m_EnvironmentTemperature": 5
+            "m_EnvironmentTemperature": 10
         },
         "snowy": {
-            "m_WeatherChance": 5,
+            "m_WeatherChance": 0,
             "m_TransitionTime_Min": 240,
             "m_TransitionTime_Max": 420,
             "m_MinDuration_Min": 600,

@@ -38,7 +38,7 @@
             "m_ThunderstormThreshold": 0.8,
             "m_LightningTimeout": 45,
             "m_UseEnvironmentTemperature": 0,
-            "m_EnvironmentTemperature": 15
+            "m_EnvironmentTemperature": 24
         },
         "partly_cloudy": {
             "m_TransitionTime_Min": 180,
@@ -71,14 +71,14 @@
             "m_SnowfallThreshold_Min": 0.6,
             "m_SnowfallThreshold_Max": 1,
             "m_SnowfallThreshold_Timeout": 30,
-            "m_RainThreshold_Min": 0.3,
+            "m_RainThreshold_Min": 0.7,
             "m_RainThreshold_Max": 1.0,
-            "m_RainThreshold_Timeout": 30,
-            "m_ThunderstormDensity": 0.1,
-            "m_ThunderstormThreshold": 0.85,
-            "m_LightningTimeout": 60,
+            "m_RainThreshold_Timeout": 120,
+            "m_ThunderstormDensity": 0.7,
+            "m_ThunderstormThreshold": 0.7,
+            "m_LightningTimeout": 20,
             "m_UseEnvironmentTemperature": 0,
-            "m_EnvironmentTemperature": 18
+            "m_EnvironmentTemperature": 22
         },
         "overcast": {
             "m_TransitionTime_Min": 120,
@@ -118,7 +118,7 @@
             "m_ThunderstormThreshold": 0.8,
             "m_LightningTimeout": 45,
             "m_UseEnvironmentTemperature": 0,
-            "m_EnvironmentTemperature": 16
+            "m_EnvironmentTemperature": 20
         },
         "rain": {
             "m_TransitionTime_Min": 90,
@@ -151,9 +151,9 @@
             "m_SnowfallThreshold_Min": 0.6,
             "m_SnowfallThreshold_Max": 1,
             "m_SnowfallThreshold_Timeout": 30,
-            "m_RainThreshold_Min": 0.3,
+            "m_RainThreshold_Min": 0.7,
             "m_RainThreshold_Max": 1.0,
-            "m_RainThreshold_Timeout": 30,
+            "m_RainThreshold_Timeout": 120,
             "m_ThunderstormDensity": 0.3,
             "m_ThunderstormThreshold": 0.8,
             "m_LightningTimeout": 30,
@@ -198,7 +198,7 @@
             "m_ThunderstormThreshold": 0.7,
             "m_LightningTimeout": 20,
             "m_UseEnvironmentTemperature": 0,
-            "m_EnvironmentTemperature": 22
+            "m_EnvironmentTemperature": 18
         },
         "foggy": {
             "m_TransitionTime_Min": 180,
@@ -238,7 +238,7 @@
             "m_ThunderstormThreshold": 0.8,
             "m_LightningTimeout": 45,
             "m_UseEnvironmentTemperature": 0,
-            "m_EnvironmentTemperature": 14
+            "m_EnvironmentTemperature": 16
         },
         "snowy": {
             "m_TransitionTime_Min": 180,
@@ -299,7 +299,7 @@
         },
         {
             "Time": "14:00",
-            "Preset": "rain",
+            "Preset": "overcast",
             "Chance": 100
         },
         {
