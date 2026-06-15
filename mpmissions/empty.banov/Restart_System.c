@@ -26,7 +26,7 @@
 class RestartServer_System
 {
 	// ─── Config ─────────────────────────────────────────────
-	private ref array<string> m_RestartTimes = {"05:59:00", "11:59:00", "17:59:00", "23:59:00"};
+	private ref array<string> m_RestartTimes = {"05:59:40", "11:59:40", "17:59:40", "23:59:40"};
 	private ref array<int> m_WarnMinutes = {15, 10, 5, 4, 3, 2, 1};
 	private int m_LockMinutesBefore = 3;
 	private int m_KickSecondsBefore = 120;
