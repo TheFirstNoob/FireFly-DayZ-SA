@@ -131,6 +131,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+	</type>
 	<type name="Key_Nano">	//Don't edit! 
         <nominal>0</nominal>
         <lifetime>7200</lifetime>
@@ -184,6 +185,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+	</type>
 	<type name="Scout_Alien_1">
         <nominal>0</nominal>
         <lifetime>1800</lifetime>
@@ -333,6 +335,19 @@
         <usage name="Military"/>
         <value name="Tier4"/>
     </type>
+		<type name="YRTSK_Banov_Pod">
+		<nominal>49</nominal>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="alienpod"/>
+		<usage name="Military"/>
+		<tag name="floor" />
+   </type>
     <type name="ShippingContainerKeys_Yellow">
         <nominal>2</nominal>
         <lifetime>3600</lifetime>
@@ -400,7 +415,6 @@
         <usage name="Village"/>
         <usage name="Hunting"/>
         <usage name="Lunapark"/>
-        <value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
     </type>

@@ -33,7 +33,7 @@
 		<child type="StaticObj_Misc_Pallets2" spawnsecondary="false" x="19" z="15.9199" y="-0.319992" a="27.5399"/>
 		<child type="StaticObj_Misc_Barbedwire" spawnsecondary="false" x="20" z="1.18994" y="-0.0540009" a="0"/>
 		<child type="StaticObj_Misc_Barbedwire" spawnsecondary="false" x="23.8994" z="-4.56006" y="-0.026001" a="0"/>
-		<child type="vbldr_mil_camonet_tent2" spawnsecondary="false" x="8.09961" z="-0.219971" y="1.84801" a="0"/>
+		<child type="StaticObj_Mil_CamoNet_Side_east" spawnsecondary="false" x="8.09961" z="-0.219971" y="1.84801" a="0"/>
 		<child type="StaticObj_Misc_Pallet" spawnsecondary="false" x="8.19922" z="-2.61011" y="-0.966003" a="0"/>
 		<child type="StaticObj_Misc_Pallet" spawnsecondary="false" x="6.19922" z="-0.0300293" y="-0.964005" a="0"/>
 		<child type="StaticObj_Misc_Pallets2" spawnsecondary="false" x="10.5996" z="0.5" y="-0.552994" a="0"/>
@@ -49,13 +49,13 @@
 		<!--<pos x="5621.75" z="10674.6" a="0" y="389.705" group="Lom"/>-->
 	<group name="Lom">
 		<child type="StaticObj_Misc_Antenna" spawnsecondary="false" x="0" z="0" y="0" a="0"/>
-		<child type="vbldr_mil_camonet_tent2" spawnsecondary="false" x="-2.97021" z="-14.6992" y="-1.91699" a="41.5801"/>
-		<child type="vbldr_tent_gunrack_prx" spawnsecondary="false" x="-1.00977" z="-9.69922" y="-4.25598" a="0"/>
-		<child type="vbldr_tent_ltable_prx" spawnsecondary="false" x="-2.70996" z="-14.2998" y="-4.30099" a="24.84"/>
-		<child type="vbldr_tent_stretcher_prx" spawnsecondary="false" x="-5.72998" z="-18" y="-4.57999" a="0"/>
-		<child type="vbldr_tent_stretcher_prx" spawnsecondary="false" z="-16.5" y="-4.59198" a="0"/>
-		<child type="vbldr_tent_stretcher_prx" spawnsecondary="false" x="0.25" z="-16.6992" y="-4.63397" a="0"/>
-		<child type="vbldr_tent_stretcher_prx" spawnsecondary="false" x="-0.75" z="-17" y="-4.68198" a="0"/>
+		<child type="StaticObj_Mil_CamoNet_Side_east" spawnsecondary="false" x="-2.97021" z="-14.6992" y="-1.91699" a="41.5801"/>
+		<child type="StaticObj_Misc_Gunrack" spawnsecondary="false" x="-1.00977" z="-9.69922" y="-4.25598" a="0"/>
+		<child type="StaticObj_Mil_CamoNet_Side_east" spawnsecondary="false" x="-2.70996" z="-14.2998" y="-4.30099" a="24.84"/>
+		<child type="StaticObj_Stretcher_Green" spawnsecondary="false" x="-5.72998" z="-18" y="-4.57999" a="0"/>
+		<child type="StaticObj_Stretcher_Green" spawnsecondary="false" z="-16.5" y="-4.59198" a="0"/>
+		<child type="StaticObj_Stretcher_Green" spawnsecondary="false" x="0.25" z="-16.6992" y="-4.63397" a="0"/>
+		<child type="StaticObj_Stretcher_Green" spawnsecondary="false" x="-0.75" z="-17" y="-4.68198" a="0"/>
 		<child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="3" lootmin="1" x="-7.75977" z="-7.59961" y="-3.90799" a="0"/>
 		<child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="3" lootmin="1" x="2.64014" z="-3.5" y="-3.87799" a="0"/>
 		<child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="3" lootmin="1" x="-6.9502" z="-21" y="-4.21298" a="0"/>
@@ -79,25 +79,25 @@
 	</group>
 		<!--<pos x="5430.5" z="14502.4" a="0" y="271.98" group="Slatina"/>-->
 	<group name="Slatina">
-		<child type="vbldr_shellcrater2_small" spawnsecondary="false" x="0" z="0" y="0" a="0"/>
-		<child type="vbldr_shellcrater2_small" spawnsecondary="false" x="7.83984" z="-15.6006" y="-0.104004" a="0"/>
-		<child type="vbldr_shellcrater2_small" spawnsecondary="false" x="-40.7998" z="-12.4004" y="-0.0440063" a="0"/>
-		<child type="vbldr_shellcrater2_large" spawnsecondary="false" x="-29.27" z="-3.90039" y="-1.38702" a="0"/>
-		<child type="vbldr_shellcrater2_large" spawnsecondary="false" x="-61.9302" z="5.2998" y="-1.27902" a="0"/>
-		<child type="vbldr_shellcrater2_debris" spawnsecondary="false" x="-23.9902" z="-10.3008" y="0.429993" a="0"/>
-		<child type="vbldr_shellcrater2_debris" spawnsecondary="false" x="-26.4302" z="-12.5" y="0.429993" a="0"/>
-		<child type="vbldr_shellcrater2_debris" spawnsecondary="false" x="-20.75" z="-10.4004" y="0.429993" a="0"/>
-		<child type="vbldr_shellcrater2_debris" spawnsecondary="false" x="-10.73" z="-12.3008" y="0.429993" a="0"/>
-		<child type="vbldr_shellcrater2_debris" spawnsecondary="false" x="-37.21" z="-3.7002" y="0.429993" a="0"/>
-		<child type="vbldr_shellcrater2_debris" spawnsecondary="false" x="-41.5698" z="-6.5" y="0.429993" a="0"/>
-		<child type="vbldr_shellcrater2_debris" spawnsecondary="false" x="-69.1401" z="3.09961" y="0.429993" a="0"/>
-		<child type="vbldr_shellcrater2_debris" spawnsecondary="false" x="-68.04" z="-0.300781" y="0.429993" a="0"/>
-		<child type="vbldr_shellcrater2_debris" spawnsecondary="false" x="-59.1802" z="-1.30078" y="0.429993" a="0"/>
-		<child type="vbldr_shellcrater2_debris" spawnsecondary="false" x="-59.98" z="-4.2002" y="0.429993" a="0"/>
-		<child type="vbldr_shellcrater2_debris" spawnsecondary="false" x="13.5298" z="-19.5" y="0.429993" a="0"/>
-		<child type="vbldr_shellcrater2_debris" spawnsecondary="false" x="9.66016" z="-20.3008" y="0.429993" a="0"/>
-		<child type="vbldr_shellcrater2_debris" spawnsecondary="false" x="3.2002" z="-16.3008" y="0.429993" a="0"/>
-		<child type="vbldr_shellcrater2_debris" spawnsecondary="false" x="2.81982" z="-18.1006" y="0.429993" a="0"/>
+		<child type="StaticObj_ShellCrater2_Small" spawnsecondary="false" x="0" z="0" y="0" a="0"/>
+		<child type="StaticObj_ShellCrater2_Small" spawnsecondary="false" x="7.83984" z="-15.6006" y="-0.104004" a="0"/>
+		<child type="StaticObj_ShellCrater2_Small" spawnsecondary="false" x="-40.7998" z="-12.4004" y="-0.0440063" a="0"/>
+		<child type="StaticObj_ShellCrater2_Large" spawnsecondary="false" x="-29.27" z="-3.90039" y="-1.38702" a="0"/>
+		<child type="StaticObj_ShellCrater2_Large" spawnsecondary="false" x="-61.9302" z="5.2998" y="-1.27902" a="0"/>
+		<child type="StaticObj_shellcrater2_debris" spawnsecondary="false" x="-23.9902" z="-10.3008" y="0.429993" a="0"/>
+		<child type="StaticObj_shellcrater2_debris" spawnsecondary="false" x="-26.4302" z="-12.5" y="0.429993" a="0"/>
+		<child type="StaticObj_shellcrater2_debris" spawnsecondary="false" x="-20.75" z="-10.4004" y="0.429993" a="0"/>
+		<child type="StaticObj_shellcrater2_debris" spawnsecondary="false" x="-10.73" z="-12.3008" y="0.429993" a="0"/>
+		<child type="StaticObj_shellcrater2_debris" spawnsecondary="false" x="-37.21" z="-3.7002" y="0.429993" a="0"/>
+		<child type="StaticObj_shellcrater2_debris" spawnsecondary="false" x="-41.5698" z="-6.5" y="0.429993" a="0"/>
+		<child type="StaticObj_shellcrater2_debris" spawnsecondary="false" x="-69.1401" z="3.09961" y="0.429993" a="0"/>
+		<child type="StaticObj_shellcrater2_debris" spawnsecondary="false" x="-68.04" z="-0.300781" y="0.429993" a="0"/>
+		<child type="StaticObj_shellcrater2_debris" spawnsecondary="false" x="-59.1802" z="-1.30078" y="0.429993" a="0"/>
+		<child type="StaticObj_shellcrater2_debris" spawnsecondary="false" x="-59.98" z="-4.2002" y="0.429993" a="0"/>
+		<child type="StaticObj_shellcrater2_debris" spawnsecondary="false" x="13.5298" z="-19.5" y="0.429993" a="0"/>
+		<child type="StaticObj_shellcrater2_debris" spawnsecondary="false" x="9.66016" z="-20.3008" y="0.429993" a="0"/>
+		<child type="StaticObj_shellcrater2_debris" spawnsecondary="false" x="3.2002" z="-16.3008" y="0.429993" a="0"/>
+		<child type="StaticObj_shellcrater2_debris" spawnsecondary="false" x="2.81982" z="-18.1006" y="0.429993" a="0"/>
 		<child type="StaticObj_Wreck_BMP1_DE" deloot="0" lootmax="3" lootmin="1" x="-18.2998" z="-6" y="1.67798" a="337.32"/>
 		<child type="StaticObj_Wreck_BMP2_DE" deloot="0" lootmax="3" lootmin="1" x="-34.6802" z="-8.80078" y="1.03799" a="323.01"/>
 		<child type="StaticObj_Wreck_Ural_DE" deloot="0" lootmax="3" lootmin="1" x="-64.6001" z="-3.10059" y="1.60898" a="122.58"/>
@@ -107,12 +107,12 @@
 	</group>
 		<!--<pos x="8582.71" z="11701.8" a="0" y="473.462" group="Asgard"/>-->
 	<group name="Asgard">
-		<child type="vbldr_tent_ltable_prx" spawnsecondary="false" x="0" z="0" y="0" a="0"/>
-		<child type="vbldr_mil_camonet_tent2" spawnsecondary="false" x="0.349609" z="-4.5" y="2.40399" a="15.66"/>
-		<child type="vbldr_tent_boxwooden_prx" spawnsecondary="false" x="3.86035" z="-2.7998" y="0.0149841" a="0"/>
-		<child type="vbldr_tent_boxwooden_prx" spawnsecondary="false" x="-0.479492" z="-8.5" y="0.0149841" a="0"/>
-		<child type="vbldr_tent_gunrack_prx" spawnsecondary="false" x="-0.150391" z="-4.2002" y="-0.106995" a="0"/>
-		<child type="vbldr_tent_stretcher_prx"  spawnsecondary="false" x="8.09961" z="-7" y="-0.391998" a="0"/>
+		<child type="StaticObj_Mil_CamoNet_Side_east" spawnsecondary="false" x="0" z="0" y="0" a="0"/>
+		<child type="StaticObj_Mil_CamoNet_Side_east" spawnsecondary="false" x="0.349609" z="-4.5" y="2.40399" a="15.66"/>
+		<child type="StaticObj_Misc_BoxWooden" spawnsecondary="false" x="3.86035" z="-2.7998" y="0.0149841" a="0"/>
+		<child type="StaticObj_Misc_BoxWooden" spawnsecondary="false" x="-0.479492" z="-8.5" y="0.0149841" a="0"/>
+		<child type="StaticObj_Misc_Gunrack" spawnsecondary="false" x="-0.150391" z="-4.2002" y="-0.106995" a="0"/>
+		<child type="StaticObj_Stretcher_Green"  spawnsecondary="false" x="8.09961" z="-7" y="-0.391998" a="0"/>
 		<child type="StaticObj_Misc_Antenna" spawnsecondary="false" x="7.65039" z="5.2002" y="4.09698" a="0"/>
 		<child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="3" lootmin="1" x="8.20996" z="-2.7998" y="0.427002" a="0"/>
 		<child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="3" lootmin="1" x="7.7998" z="-9.59961" y="0.427002" a="69.3899"/>
@@ -154,13 +154,13 @@
 	</group>
 		<!--<pos x="12442.5" z="8291.66" a="0" y="309.973" group="Radisa"/>-->
 	<group name="Radisa">
-		<child type="vbldr_tent_stretcher_prx" spawnsecondary="false" x="0" z="0" y="0" a="0"/>
-		<child type="vbldr_mil_camonet_tent2" spawnsecondary="false" x="2.7998" z="3.29004" y="1.784" a="41.5801"/>
-		<child type="vbldr_tent_gunrack_prx" spawnsecondary="false" x="4.7002" z="8.29004" y="0.322998" a="0"/>
-		<child type="vbldr_tent_ltable_prx" spawnsecondary="false" x="3" z="3.7002" y="0.257996" a="24.84"/>
-		<child type="vbldr_tent_stretcher_prx"  spawnsecondary="false" x="6.90039" z="1.5" y="-0.225006" a="0"/>
-		<child type="vbldr_tent_stretcher_prx"  spawnsecondary="false" x="6" z="1.29004" y="-0.244995" a="0"/>
-		<child type="vbldr_tent_stretcher_prx"  spawnsecondary="false" x="5" z="1" y="-0.268982" a="0"/>
+		<child type="StaticObj_Stretcher_Green" spawnsecondary="false" x="0" z="0" y="0" a="0"/>
+		<child type="StaticObj_Mil_CamoNet_Side_east" spawnsecondary="false" x="2.7998" z="3.29004" y="1.784" a="41.5801"/>
+		<child type="StaticObj_Misc_Gunrack" spawnsecondary="false" x="4.7002" z="8.29004" y="0.322998" a="0"/>
+		<child type="StaticObj_Mil_CamoNet_Side_east" spawnsecondary="false" x="3" z="3.7002" y="0.257996" a="24.84"/>
+		<child type="StaticObj_Stretcher_Green"  spawnsecondary="false" x="6.90039" z="1.5" y="-0.225006" a="0"/>
+		<child type="StaticObj_Stretcher_Green"  spawnsecondary="false" x="6" z="1.29004" y="-0.244995" a="0"/>
+		<child type="StaticObj_Stretcher_Green"  spawnsecondary="false" x="5" z="1" y="-0.268982" a="0"/>
 		<child type="StaticObj_Misc_Antenna" deloot="0" lootmax="3" lootmin="1" x="13.9004" z="5.43945" y="4.552" a="0"/>
 		<child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="3" lootmin="1" x="-3.7002" z="-1.54004" y="0.352997" a="69.1199"/>
 		<child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="3" lootmin="1" x="5.7002" z="12.3301" y="0.723999" a="0"/>
