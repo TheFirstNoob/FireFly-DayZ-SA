@@ -140,7 +140,16 @@ class RestartServer_System
 
 	private void SendGlobalChat(string message)
 	{
-		g_Game.RPCSingleParam(null, ERPCs.RPC_USER_ACTION_MESSAGE, new Param1<string>(message), true);
+		array<Man> players = new array<Man>();
+		g_Game.GetPlayers(players);
+		foreach (Man man : players)
+		{
+			if (man && man.GetIdentity())
+			{
+				Param1<string> param = new Param1<string>(message);
+				g_Game.RPCSingleParam(man, ERPCs.RPC_USER_ACTION_MESSAGE, param, true, man.GetIdentity());
+			}
+		}
 	}
 
 	bool IsServerLocked()
