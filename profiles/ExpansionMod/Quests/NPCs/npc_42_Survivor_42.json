@@ -3,21 +3,19 @@
     "ID": 42,
     "ClassName": "ExpansionQuestNPCAIMirek",
     "Position": [
-        0.0,
-        0.0,
-        0.0
+        1037.3, 226.707, 521.818
     ],
     "Orientation": [
         0.0,
         0.0,
         0.0
     ],
-    "NPCName": "[SurvivorTZ] Выживший_42",
+    "NPCName": "Выживший",
     "DefaultNPCText": "Привет, новенький.|Как дела в этих краях?|Тут неспокойно в последнее время.",
     "Waypoints": [],
     "NPCEmoteID": 46,
     "NPCEmoteIsStatic": 0,
-    "NPCLoadoutFile": "CivilianLoadout",
+    "NPCLoadoutFile": "NPC_Survivor",
     "NPCInteractionEmoteID": 1,
     "NPCQuestCancelEmoteID": 60,
     "NPCQuestStartEmoteID": 58,
@@ -34,9 +32,9 @@
         "50",
         "60"
     ],
-    "NPCSitDuration": 10,
+    "NPCSitDuration": 0,
     "NPCSleepBehavior": 1,
-    "NPCSleepDuration": 15,
+    "NPCSleepDuration": -1,
     "NPCActionAnimations": 1,
     "NPCActionModifiers": 0,
     "NPCActionModifierList": []

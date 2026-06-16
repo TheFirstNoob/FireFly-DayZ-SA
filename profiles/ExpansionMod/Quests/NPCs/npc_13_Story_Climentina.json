@@ -1,21 +1,21 @@
 {
     "ConfigVersion": 6,
-    "ID": 61,
-    "ClassName": "ExpansionQuestNPCAIMirek",
+    "ID": 13,
+    "ClassName": "ExpansionQuestNPCAIMaria",
     "Position": [
-        1097.01, 227.902, 453.653
+        1102.1, 227.286, 462.278
     ],
     "Orientation": [
         0.0,
         0.0,
         0.0
     ],
-    "NPCName": "Лаборант",
-    "DefaultNPCText": "Не мешай, идёт эксперимент.|Осторожно, здесь образцы.|Тебе нужна помощь учёного?",
+    "NPCName": "Климентина",
+    "DefaultNPCText": "Здесь будет текст диалога.|Скоро появится...",
     "Waypoints": [],
     "NPCEmoteID": 46,
     "NPCEmoteIsStatic": 0,
-    "NPCLoadoutFile": "NPC_Laborant",
+    "NPCLoadoutFile": "Story_Climentina",
     "NPCInteractionEmoteID": 1,
     "NPCQuestCancelEmoteID": 60,
     "NPCQuestStartEmoteID": 58,
@@ -28,8 +28,7 @@
         "46",
         "48",
         "58",
-        "51",
-        "7"
+        "51"
     ],
     "NPCSitDuration": 0,
     "NPCSleepBehavior": 0,

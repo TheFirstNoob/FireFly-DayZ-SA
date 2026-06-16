@@ -3,21 +3,19 @@
     "ID": 62,
     "ClassName": "ExpansionQuestNPCAIMirek",
     "Position": [
-        0.0,
-        0.0,
-        0.0
+        1096.49, 227.637, 457.094
     ],
     "Orientation": [
         0.0,
         0.0,
         0.0
     ],
-    "NPCName": "[Laborant] Исследователь_62",
+    "NPCName": "Лаборант",
     "DefaultNPCText": "Не мешай, идёт эксперимент.|Осторожно, здесь образцы.|Тебе нужна помощь учёного?",
     "Waypoints": [],
     "NPCEmoteID": 46,
     "NPCEmoteIsStatic": 0,
-    "NPCLoadoutFile": "ScientistLoadout",
+    "NPCLoadoutFile": "NPC_Laborant",
     "NPCInteractionEmoteID": 1,
     "NPCQuestCancelEmoteID": 60,
     "NPCQuestStartEmoteID": 58,

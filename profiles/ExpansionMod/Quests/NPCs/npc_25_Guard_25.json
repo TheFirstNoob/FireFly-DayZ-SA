@@ -1,28 +1,26 @@
-{
+﻿{
     "ConfigVersion": 6,
-    "ID": 12,
-    "ClassName": "ExpansionQuestNPCAIMirek",
+    "ID": 25,
+    "ClassName": "ExpansionQuestNPCAIDenis",
     "Position": [
-        0.0,
-        0.0,
-        0.0
+        1039.24, 232.151, 406.132
     ],
     "Orientation": [
         0.0,
         0.0,
         0.0
     ],
-    "NPCName": "[Story] Персонаж_12",
-    "DefaultNPCText": "Здесь будет текст диалога.|Скоро появится...",
+    "NPCName": "Охранник",
+    "DefaultNPCText": "Не стой на месте, проходи.|Отойди, не мешай.|Есть работа?",
     "Waypoints": [],
     "NPCEmoteID": 46,
     "NPCEmoteIsStatic": 0,
-    "NPCLoadoutFile": "PoliceLoadout",
+    "NPCLoadoutFile": "NPC_Guard",
     "NPCInteractionEmoteID": 1,
     "NPCQuestCancelEmoteID": 60,
     "NPCQuestStartEmoteID": 58,
     "NPCQuestCompleteEmoteID": 39,
-    "NPCFaction": "InvincibleObservers",
+    "NPCFaction": "Guards",
     "NPCType": 2,
     "Active": 1,
     "NPCIdleBehavior": 1,
@@ -30,12 +28,13 @@
         "46",
         "48",
         "58",
-        "51"
+        "44"
     ],
     "NPCSitDuration": 0,
     "NPCSleepBehavior": 0,
     "NPCSleepDuration": 0,
-    "NPCActionAnimations": 1,
+    "NPCActionAnimations": 0,
     "NPCActionModifiers": 0,
     "NPCActionModifierList": []
 }
+

@@ -1,23 +1,21 @@
-{
+﻿{
     "ConfigVersion": 6,
     "ID": 22,
     "ClassName": "ExpansionQuestNPCAIDenis",
     "Position": [
-        0.0,
-        0.0,
-        0.0
+        1043.95, 225.505, 547.203
     ],
     "Orientation": [
         0.0,
         0.0,
         0.0
     ],
-    "NPCName": "[GuardStay] Охранник_22",
+    "NPCName": "Охранник",
     "DefaultNPCText": "Не стой на месте, проходи.|Отойди, не мешай.|Есть работа?",
     "Waypoints": [],
     "NPCEmoteID": 46,
     "NPCEmoteIsStatic": 0,
-    "NPCLoadoutFile": "PoliceLoadout",
+    "NPCLoadoutFile": "NPC_Guard",
     "NPCInteractionEmoteID": 1,
     "NPCQuestCancelEmoteID": 60,
     "NPCQuestStartEmoteID": 58,

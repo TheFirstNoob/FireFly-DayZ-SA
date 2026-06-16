@@ -3,21 +3,19 @@
     "ID": 70,
     "ClassName": "ExpansionQuestNPCAIMirek",
     "Position": [
-        0.0,
-        0.0,
-        0.0
+        1071.65, 226.31, 526.556
     ],
     "Orientation": [
         0.0,
         0.0,
         0.0
     ],
-    "NPCName": "[Medic] Доктор",
+    "NPCName": "Доктор",
     "DefaultNPCText": "Ранен? Давай помогу.|Будь осторожен в этих краях.|Медицина — моё призвание.",
     "Waypoints": [],
     "NPCEmoteID": 46,
     "NPCEmoteIsStatic": 0,
-    "NPCLoadoutFile": "DoctorLoadout",
+    "NPCLoadoutFile": "NPC_Doctor",
     "NPCInteractionEmoteID": 1,
     "NPCQuestCancelEmoteID": 60,
     "NPCQuestStartEmoteID": 58,

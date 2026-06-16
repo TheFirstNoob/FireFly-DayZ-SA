@@ -1,26 +1,26 @@
-{
+﻿{
     "ConfigVersion": 6,
-    "ID": 61,
-    "ClassName": "ExpansionQuestNPCAIMirek",
+    "ID": 999904,
+    "ClassName": "ExpansionQuestNPCAIDenis",
     "Position": [
-        1097.01, 227.902, 453.653
+        1143.69, 229.568, 502.673
     ],
     "Orientation": [
         0.0,
         0.0,
         0.0
     ],
-    "NPCName": "Лаборант",
-    "DefaultNPCText": "Не мешай, идёт эксперимент.|Осторожно, здесь образцы.|Тебе нужна помощь учёного?",
+    "NPCName": "Охранник",
+    "DefaultNPCText": "Не стой на месте, проходи.|Отойди, не мешай.|Есть работа?",
     "Waypoints": [],
     "NPCEmoteID": 46,
     "NPCEmoteIsStatic": 0,
-    "NPCLoadoutFile": "NPC_Laborant",
+    "NPCLoadoutFile": "NPC_GuardTower",
     "NPCInteractionEmoteID": 1,
     "NPCQuestCancelEmoteID": 60,
     "NPCQuestStartEmoteID": 58,
     "NPCQuestCompleteEmoteID": 39,
-    "NPCFaction": "InvincibleObservers",
+    "NPCFaction": "Guards",
     "NPCType": 2,
     "Active": 1,
     "NPCIdleBehavior": 1,
@@ -28,13 +28,13 @@
         "46",
         "48",
         "58",
-        "51",
-        "7"
+        "44"
     ],
     "NPCSitDuration": 0,
     "NPCSleepBehavior": 0,
     "NPCSleepDuration": 0,
-    "NPCActionAnimations": 1,
+    "NPCActionAnimations": 0,
     "NPCActionModifiers": 0,
     "NPCActionModifierList": []
 }
+

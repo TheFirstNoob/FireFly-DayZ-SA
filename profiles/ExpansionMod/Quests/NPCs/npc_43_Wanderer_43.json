@@ -12,7 +12,7 @@
         0.0,
         0.0
     ],
-    "NPCName": "[SurvivorTZ] Странник_43",
+    "NPCName": "Странник",
     "DefaultNPCText": "Пути здесь опасные.|Торговая зона недалеко.|Удачи тебе.",
     "Waypoints": [
         [
@@ -33,7 +33,7 @@
     ],
     "NPCEmoteID": 46,
     "NPCEmoteIsStatic": 0,
-    "NPCLoadoutFile": "CivilianLoadout",
+    "NPCLoadoutFile": "NPC_Survivor",
     "NPCInteractionEmoteID": 1,
     "NPCQuestCancelEmoteID": 60,
     "NPCQuestStartEmoteID": 58,
@@ -49,10 +49,16 @@
         "49",
         "50"
     ],
-    "NPCSitDuration": 8,
+    "NPCSitDuration": 0,
     "NPCSleepBehavior": 0,
     "NPCSleepDuration": 0,
     "NPCActionAnimations": 1,
     "NPCActionModifiers": 1,
-    "NPCActionModifierList": []
+    "NPCActionModifierList": [],
+    "WaypointBehaviors": [
+        "walk","walk","walk"
+    ],
+    "WaypointDurations": [
+        0,0,0
+    ]
 }

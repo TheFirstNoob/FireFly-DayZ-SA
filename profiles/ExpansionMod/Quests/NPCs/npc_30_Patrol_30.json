@@ -3,37 +3,29 @@
     "ID": 30,
     "ClassName": "ExpansionQuestNPCAIDenis",
     "Position": [
-        0.0,
-        0.0,
-        0.0
+        1163.05, 225.585, 508.669
     ],
     "Orientation": [
         0.0,
         0.0,
         0.0
     ],
-    "NPCName": "[GuardPatrol] Патрульный_30",
+    "NPCName": "Патрульный",
     "DefaultNPCText": "Обстановка спокойная.|Будь осторожен.|Всё чисто, командир.",
     "Waypoints": [
-        [
-            0,
-            0,
-            0
-        ],
-        [
-            0,
-            0,
-            0
-        ],
-        [
-            0,
-            0,
-            0
-        ]
+        [1163.05, 225.585, 508.669],
+		[1050.25, 233.502, 369.582],
+		[1010.63, 225.705, 542.85],
+		[1089.83, 225.486, 573.122],
+		[1117.66, 225.112, 550.448],
+        [1142.74, 226.09, 546.343],
+		[1122.33, 225.415, 544.512],
+		[1143.65, 225.585, 522.372],
+		[1163.05, 225.585, 508.669]
     ],
     "NPCEmoteID": 46,
     "NPCEmoteIsStatic": 0,
-    "NPCLoadoutFile": "PoliceLoadout",
+    "NPCLoadoutFile": "NPC_Guard",
     "NPCInteractionEmoteID": 1,
     "NPCQuestCancelEmoteID": 60,
     "NPCQuestStartEmoteID": 58,
@@ -49,10 +41,18 @@
         "51",
         "60"
     ],
-    "NPCSitDuration": 6,
+    "NPCSitDuration": 0,
     "NPCSleepBehavior": 0,
     "NPCSleepDuration": 0,
     "NPCActionAnimations": 1,
     "NPCActionModifiers": 1,
-    "NPCActionModifierList": []
+    "NPCActionModifierList": [],
+    "WaypointBehaviors": [
+        "walk","walk","walk","walk","walk",
+        "sit","walk","walk","walk"
+    ],
+    "WaypointDurations": [
+        0,0,0,0,0,
+        60,0,0,0
+    ]
 }
