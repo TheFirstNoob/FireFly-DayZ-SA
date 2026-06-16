@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
-	<type name="SingularityCannon"> //Don't edit! 
+	<type name="SingularityCannon"> <<!-- Don't Edit -->
         <nominal>0</nominal>            
         <lifetime>28800</lifetime>
         <restock>0</restock>
@@ -10,7 +10,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
 	</type>
-		<type name="TLS_Nano2_Gloves">	//Don't edit!  
+		<type name="TLS_Nano2_Gloves">	<<!-- Don't Edit --> 
         <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
@@ -21,7 +21,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
     </type>
-		<type name="TLS_NanoHelm_v2_Red_Powered">	//Don't edit! 
+		<type name="TLS_NanoHelm_v2_Red_Powered">	<<!-- Don't Edit -->
         <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
@@ -32,7 +32,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
 	</type>
-		  <type name="TLS_NanoSuit_v2_Red_Powered">	//Don't edit! 
+		  <type name="TLS_NanoSuit_v2_Red_Powered">		<<!-- Don't Edit -->
         <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
@@ -43,7 +43,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
     </type>	
-	<type name="PunchedCard">			//Don't edit! 
+	<type name="PunchedCard">			<<!-- Don't Edit -->
         <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
@@ -78,7 +78,7 @@
         <category name="weapons"/>
 		 <usage name="Military"/>
 	</type>
-	<type name="Banov_XSight">	//Don't edit! 
+	<type name="Banov_XSight">	<<!-- Don't Edit -->
         <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
@@ -88,7 +88,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 	</type>
-    <type name="Ammo_BNVSingularityCell">	//Don't edit! 
+    <type name="Ammo_BNVSingularityCell">	<<!-- Don't Edit -->
 		<nominal>0</nominal>
 		<lifetime>7200</lifetime>
 		<restock>0</restock>
@@ -112,7 +112,7 @@
         <usage name="Hunting"/>
         <usage name="Office"/>
     </type>
-	<type name="Blue_Key"> /Don't edit!
+	<type name="Blue_Key"> 	<<!-- Don't Edit -->
         <nominal>0</nominal>
         <lifetime>1800</lifetime>
         <restock>0</restock>
@@ -122,7 +122,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
     </type>
-	<type name="Red_Key"> /Don't edit!
+	<type name="Red_Key"> <<!-- Don't Edit -->
         <nominal>0</nominal>
         <lifetime>1800</lifetime>
         <restock>0</restock>
@@ -132,7 +132,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
 	</type>
-	<type name="Key_Nano">	//Don't edit! 
+	<type name="Key_Nano">	<<!-- Don't Edit -->
         <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
@@ -142,7 +142,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-	<type name="TLS_NanoSuit_v2_Battery_Red">	//Don't edit! 
+	<type name="TLS_NanoSuit_v2_Battery_Red">	<<!-- Don't Edit -->
         <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
@@ -152,7 +152,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-		<type name="TLS_NanoSuit_v2_Battery_Blue">	//Don't edit! 
+		<type name="TLS_NanoSuit_v2_Battery_Blue">	<<!-- Don't Edit -->
         <nominal>2</nominal>
         <lifetime>21800</lifetime>
         <restock>0</restock>
@@ -164,7 +164,7 @@
         <category name="Warlords"/>
         <usage name="Alien"/>
     </type>
-		<type name="TLS_NanoSuit_v2_Battery_Yellow">	//Don't edit! 
+		<type name="TLS_NanoSuit_v2_Battery_Yellow">	<<!-- Don't Edit -->
         <nominal>4</nominal>
         <lifetime>21800</lifetime>
         <restock>0</restock>
@@ -176,7 +176,7 @@
         <category name="Warlords"/>
         <usage name="Alien"/>
     </type>
-	<type name="Yellow_Key"> /Don't edit!
+	<type name="Yellow_Key"> 	<<!-- Don't Edit -->
         <nominal>0</nominal>
         <lifetime>1800</lifetime>
         <restock>0</restock>
@@ -335,7 +335,7 @@
         <usage name="Military"/>
         <value name="Tier4"/>
     </type>
-		<type name="YRTSK_Banov_Pod">
+		<type name="YRTSK_Banov_Pod_UFO">
 		<nominal>49</nominal>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -347,6 +347,16 @@
 		<category name="alienpod"/>
 		<usage name="Military"/>
 		<tag name="floor" />
+   </type>
+   <type name="YRTSK_Banov_Pod_Bunker">
+		<nominal>0</nominal>
+		<min>0</min>           
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
    </type>
     <type name="ShippingContainerKeys_Yellow">
         <nominal>2</nominal>
