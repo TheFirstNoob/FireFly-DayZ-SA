@@ -12,37 +12,29 @@
     "UseWholeMapForATMPlayerList": 0,
     "SellPricePercent": 66.0,
     "NetworkBatchSize": 100,
-    "MaxVehicleDistanceToTrader": 70.0,
-    "MaxLargeVehicleDistanceToTrader": 120.0,
+    "MaxVehicleDistanceToTrader": 125.0,
+    "MaxLargeVehicleDistanceToTrader": 125.0,
     "LargeVehicles": [
         "expansionlhd"
     ],
     "LandSpawnPositions": [
         {
-            "Position": [
-                5856.47998046875,
-                294.2820129394531,
-                8129.68994140625
-            ],
-            "Orientation": [
-                -145.0,
-                0.0,
-                0.0
-            ]
+            "Position": [1130.78, 225.585, 558.323],
+            "Orientation": [-130.0, 0.0, 0.0]
+        },
+		{
+            "Position": [1118.48, 225.118, 570.382],
+            "Orientation": [-160.0, 0.0, 0.0]
+        },
+		{
+            "Position": [1104.92 225.585 581.689],
+            "Orientation": [-163.0, 0.0, 0.0]
         }
     ],
     "AirSpawnPositions": [
         {
-            "Position": [
-                5844.9501953125,
-                289.7539978027344,
-                8081.9501953125
-            ],
-            "Orientation": [
-                -153.0,
-                0.0,
-                0.0
-            ]
+            "Position": [1118.48, 225.118, 570.382],
+            "Orientation": [-160.0, 0.0, 0.0]
         }
     ],
     "WaterSpawnPositions": [],
