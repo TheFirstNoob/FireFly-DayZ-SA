@@ -1,0 +1,47 @@
+{
+	"ConfigVersion": 28,
+	"ID": 1005,
+	"ObjectiveType": 6,
+	"ObjectiveText": "Найдите схрон C",
+	"TimeLimit": -1,
+	"Active": 1,
+	"ShowDistance": 0,
+	"ContainerName": "ExpansionQuestSeaChest",
+	"DigInStash": 0,
+	"MarkerName": "Схрон C",
+	"MarkerVisibility": 4,
+	"Positions": [
+		[0, 0, 0]
+	],
+	"LootItemsAmount": 3,
+	"MaxDistance": 10.0,
+	"Loot": [
+		{
+			"Name": "Watch",
+			"Chance": 1.0,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "BakedBeansCan",
+			"Chance": 0.8,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "TetracyclineAntibiotics",
+			"Chance": 0.5,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		}
+	]
+}

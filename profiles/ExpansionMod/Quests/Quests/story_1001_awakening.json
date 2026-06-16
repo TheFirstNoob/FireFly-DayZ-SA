@@ -1,0 +1,80 @@
+{
+	"ConfigVersion": 22,
+	"ID": 1001,
+	"Type": 1,
+	"Title": "Пробуждение",
+	"Descriptions": [
+		"<p align=\"center\"><image set=\"expansion_iconset\" name=\"Questionmark\" scale=\"1.92\" /><color hex=\"0xFFCC6600\"> Голова раскалывается. Ты открываешь глаза и видишь серое небо. Как ты здесь оказался?..<br /><br /> Обрывки воспоминаний мелькают перед глазами — лица, крики, вспышки. Ты пытаешься собрать их воедино, но перед глазами лишь рябь. Единственное, что осталось чётко — смутное чувство: тебе нужно <b>туда</b>. Вперёд. Туда, где за деревьями угадываются очертания построек.<br /><br /> Ты не знаешь, что это за место. Ты не знаешь, кто там. Но что-то внутри настойчиво твердит — <i>иди</i>.</color></p>",
+		"<p align=\"center\"><image set=\"expansion_iconset\" name=\"Questionmark\" scale=\"1.92\" /><color hex=\"0xFFCC6600\"> Голова раскалывается. Ты открываешь глаза и видишь серое небо. Как ты здесь оказался?..<br /><br /> Обрывки воспоминаний мелькают перед глазами — лица, крики, вспышки. Ты пытаешься собрать их воедино, но перед глазами лишь рябь. Единственное, что осталось чётко — смутное чувство: тебе нужно <b>туда</b>. Вперёд. Туда, где за деревьями угадываются очертания построек.<br /><br /> Ты не знаешь, что это за место. Ты не знаешь, кто там. Но что-то внутри настойчиво твердит — <i>иди</i>.</color></p>",
+		"<p align=\"center\"><color hex=\"0xFFCC6600\"> Ты подходишь к охраннику. Он сверлит тебя взглядом, скалясь, и преграждает путь: <br /><br /><b>\"Я сказал — стоять. Откуда ты взялся? На тебе лица нет. Ты один из тех 'проснувшихся', да?..\"</b><br /><br /> Он сплёвывает в сторону и хмурится, но всё же опускает ствол.</color></p>"
+	],
+	"ObjectiveText": "<p align=\"center\"><image set=\"expansion_iconset\" name=\"Compass\" scale=\"1.28\" /> Доберитесь до безопасной зоны и поговорите с охранником.</p>",
+	"FollowUpQuest": -1,
+	"Repeatable": 0,
+	"IsDailyQuest": 0,
+	"IsWeeklyQuest": 0,
+	"CancelQuestOnPlayerDeath": 0,
+	"Autocomplete": 0,
+	"IsGroupQuest": 0,
+	"ObjectSetFileName": "",
+	"QuestItems": [
+		{
+			"ClassName": "ExpansionQuestItemPaper",
+			"Amount": 1
+		}
+	],
+	"Rewards": [
+		{
+			"ClassName": "Watch",
+			"Amount": 1,
+			"Attachments": [],
+			"DamagePercent": 0,
+			"HealthPercent": 0,
+			"QuestID": -1,
+			"MinObjectiveCount": -1,
+			"RequiredObjectiveID": -1,
+			"Chance": 1.0
+		}
+	],
+	"NeedToSelectReward": 0,
+	"RandomReward": 0,
+	"RandomRewardAmount": -1,
+	"RewardsForGroupOwnerOnly": 1,
+	"RewardBehavior": 0,
+	"QuestGiverIDs": [],
+	"QuestTurnInIDs": [
+		20,
+		21,
+		22,
+		23
+	],
+	"IsAchievement": 0,
+	"Objectives": [
+		{
+			"ConfigVersion": 28,
+			"ID": 1001,
+			"ObjectiveType": 3
+		},
+		{
+			"ConfigVersion": 28,
+			"ID": 1002,
+			"ObjectiveType": 5
+		}
+	],
+	"QuestColor": 0,
+	"ReputationReward": 100,
+	"ReputationRequirement": -1,
+	"PreQuestIDs": [],
+	"RequiredFaction": "",
+	"FactionReward": "",
+	"PlayerNeedQuestItems": 1,
+	"DeleteQuestItems": 1,
+	"SequentialObjectives": 1,
+	"CompletionMode": 0,
+	"MinRequiredObjectives": -1,
+	"QuestTimeLimit": -1,
+	"FactionReputationRequirements": {},
+	"FactionReputationRewards": {},
+	"SuppressQuestLogOnCompetion": 0,
+	"Active": 1
+}

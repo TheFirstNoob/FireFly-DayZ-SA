@@ -1,0 +1,109 @@
+{
+	"ConfigVersion": 22,
+	"ID": 1002,
+	"Type": 1,
+	"Title": "Докажи доверие",
+	"Descriptions": [
+		"<p align=\"center\"><image set=\"expansion_iconset\" name=\"Shield\" scale=\"1.92\" /><color hex=\"0xFFCC6600\"> Тот же охранник окликает тебя, когда ты проходишь мимо. Он уже не целится, но всё ещё хмур: <br /><br /><b>\"Эй, 'проснувшийся'. Раз ты здесь — значит, кто-то из наших тебя пропустил. Я этого не решал. Но если хочешь торчать в лагере — придётся доказать, что ты не обуза.\"</b><br /><br /> Он достаёт потрёпанную карту и тыкает пальцем в три отметки: <br /><br /><b>\"К северу — схроны с припасами. Мы их припрятали, когда всё пошло к чертям. Принесёшь хотя бы одну находку — докажешь, что не пропадёшь. А если все три — буду знать, что ты не лыком шит. Решать тебе.\"</b></color></p>",
+		"<outline color=\"255,200,100,255\" size=\"4\"> На карте отмечены три схрона. Достаточно хотя бы одного. Но чем больше — тем лучше.</outline>",
+		"<p align=\"center\"><color hex=\"0xFFCC6600\"> Ты возвращаешься к охраннику и выкладываешь перед ним добычу. Он поднимает бровь, перебирает находки, и на его лице впервые появляется подобие улыбки: <br /><br /><b>\"Неплохо, новичок. Совсем неплохо. Ладно, считай, что ты заслужил право остаться. Но я за тобой слежу.\"</b></color></p>"
+	],
+	"ObjectiveText": "<p align=\"center\"><image set=\"expansion_iconset\" name=\"Map\" scale=\"1.28\" /> Найдите схроны и вернитесь к любому охраннику с добычей.<br /><color hex=\"0xFFAA5500\"> Достаточно найти хотя бы один схрон.</color></p>",
+	"FollowUpQuest": -1,
+	"Repeatable": 0,
+	"IsDailyQuest": 0,
+	"IsWeeklyQuest": 0,
+	"CancelQuestOnPlayerDeath": 0,
+	"Autocomplete": 0,
+	"IsGroupQuest": 0,
+	"ObjectSetFileName": "",
+	"QuestItems": [],
+	"Rewards": [
+		{
+			"ClassName": "Watch",
+			"Amount": 3,
+			"Attachments": [],
+			"DamagePercent": 0,
+			"HealthPercent": 0,
+			"QuestID": -1,
+			"MinObjectiveCount": 1,
+			"RequiredObjectiveID": -1,
+			"Chance": 1.0
+		},
+		{
+			"ClassName": "Watch",
+			"Amount": 8,
+			"Attachments": [],
+			"DamagePercent": 0,
+			"HealthPercent": 0,
+			"QuestID": -1,
+			"MinObjectiveCount": 2,
+			"RequiredObjectiveID": -1,
+			"Chance": 1.0
+		},
+		{
+			"ClassName": "Watch",
+			"Amount": 15,
+			"Attachments": [],
+			"DamagePercent": 0,
+			"HealthPercent": 0,
+			"QuestID": -1,
+			"MinObjectiveCount": 3,
+			"RequiredObjectiveID": -1,
+			"Chance": 1.0
+		}
+	],
+	"NeedToSelectReward": 0,
+	"RandomReward": 0,
+	"RandomRewardAmount": -1,
+	"RewardsForGroupOwnerOnly": 1,
+	"RewardBehavior": 0,
+	"QuestGiverIDs": [
+		20,
+		21,
+		22,
+		23
+	],
+	"QuestTurnInIDs": [
+		20,
+		21,
+		22,
+		23
+	],
+	"IsAchievement": 0,
+	"Objectives": [
+		{
+			"ConfigVersion": 28,
+			"ID": 1003,
+			"ObjectiveType": 6
+		},
+		{
+			"ConfigVersion": 28,
+			"ID": 1004,
+			"ObjectiveType": 6
+		},
+		{
+			"ConfigVersion": 28,
+			"ID": 1005,
+			"ObjectiveType": 6
+		}
+	],
+	"QuestColor": 0,
+	"ReputationReward": 0,
+	"ReputationRequirement": -1,
+	"PreQuestIDs": [
+		1001
+	],
+	"RequiredFaction": "",
+	"FactionReward": "",
+	"PlayerNeedQuestItems": 1,
+	"DeleteQuestItems": 1,
+	"SequentialObjectives": 0,
+	"CompletionMode": 1,
+	"MinRequiredObjectives": 1,
+	"QuestTimeLimit": 7200,
+	"FactionReputationRequirements": {},
+	"FactionReputationRewards": {},
+	"SuppressQuestLogOnCompetion": 0,
+	"Active": 1
+}

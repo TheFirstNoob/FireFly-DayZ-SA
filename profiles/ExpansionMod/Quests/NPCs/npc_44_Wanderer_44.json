@@ -1,0 +1,58 @@
+{
+    "ConfigVersion": 6,
+    "ID": 44,
+    "ClassName": "ExpansionQuestNPCAIDenis",
+    "Position": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "Orientation": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "NPCName": "[SurvivorTZ] Странник_44",
+    "DefaultNPCText": "Пути здесь опасные.|Торговая зона недалеко.|Удачи тебе.",
+    "Waypoints": [
+        [
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0
+        ]
+    ],
+    "NPCEmoteID": 46,
+    "NPCEmoteIsStatic": 0,
+    "NPCLoadoutFile": "CivilianLoadout",
+    "NPCInteractionEmoteID": 1,
+    "NPCQuestCancelEmoteID": 60,
+    "NPCQuestStartEmoteID": 58,
+    "NPCQuestCompleteEmoteID": 39,
+    "NPCFaction": "InvincibleObservers",
+    "NPCType": 2,
+    "Active": 1,
+    "NPCIdleBehavior": 1,
+    "NPCIdleEmotes": [
+        "46",
+        "48",
+        "58",
+        "49",
+        "50"
+    ],
+    "NPCSitDuration": 8,
+    "NPCSleepBehavior": 0,
+    "NPCSleepDuration": 0,
+    "NPCActionAnimations": 1,
+    "NPCActionModifiers": 1,
+    "NPCActionModifierList": []
+}

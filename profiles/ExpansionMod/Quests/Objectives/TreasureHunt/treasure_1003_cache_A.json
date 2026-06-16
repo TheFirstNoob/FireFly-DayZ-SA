@@ -1,0 +1,47 @@
+{
+	"ConfigVersion": 28,
+	"ID": 1003,
+	"ObjectiveType": 6,
+	"ObjectiveText": "Найдите схрон A",
+	"TimeLimit": -1,
+	"Active": 1,
+	"ShowDistance": 0,
+	"ContainerName": "ExpansionQuestSeaChest",
+	"DigInStash": 0,
+	"MarkerName": "Схрон A",
+	"MarkerVisibility": 4,
+	"Positions": [
+		[0, 0, 0]
+	],
+	"LootItemsAmount": 3,
+	"MaxDistance": 10.0,
+	"Loot": [
+		{
+			"Name": "Watch",
+			"Chance": 1.0,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "Apple",
+			"Chance": 0.8,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "BandageDressing",
+			"Chance": 0.5,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		}
+	]
+}

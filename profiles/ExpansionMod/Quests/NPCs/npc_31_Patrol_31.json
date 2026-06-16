@@ -1,0 +1,58 @@
+{
+    "ConfigVersion": 6,
+    "ID": 31,
+    "ClassName": "ExpansionQuestNPCAIDenis",
+    "Position": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "Orientation": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "NPCName": "[GuardPatrol] Патрульный_31",
+    "DefaultNPCText": "Обстановка спокойная.|Будь осторожен.|Всё чисто, командир.",
+    "Waypoints": [
+        [
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0
+        ]
+    ],
+    "NPCEmoteID": 46,
+    "NPCEmoteIsStatic": 0,
+    "NPCLoadoutFile": "PoliceLoadout",
+    "NPCInteractionEmoteID": 1,
+    "NPCQuestCancelEmoteID": 60,
+    "NPCQuestStartEmoteID": 58,
+    "NPCQuestCompleteEmoteID": 39,
+    "NPCFaction": "Guards",
+    "NPCType": 2,
+    "Active": 1,
+    "NPCIdleBehavior": 1,
+    "NPCIdleEmotes": [
+        "46",
+        "48",
+        "58",
+        "51",
+        "60"
+    ],
+    "NPCSitDuration": 6,
+    "NPCSleepBehavior": 0,
+    "NPCSleepDuration": 0,
+    "NPCActionAnimations": 1,
+    "NPCActionModifiers": 1,
+    "NPCActionModifierList": []
+}
