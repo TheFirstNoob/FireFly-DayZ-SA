@@ -737,9 +737,9 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="8" lootmin="4" max="4" min="2" type="StaticObj_Misc_SupplyBox1_DE"/>
-            <child lootmax="8" lootmin="4" max="4" min="2" type="StaticObj_Misc_SupplyBox2_DE"/>
-            <child lootmax="8" lootmin="4" max="4" min="2" type="StaticObj_Misc_SupplyBox3_DE"/>
+            <child lootmax="6" lootmin="4" max="4" min="2" type="StaticObj_Misc_SupplyBox1_DE"/>
+            <child lootmax="6" lootmin="4" max="4" min="2" type="StaticObj_Misc_SupplyBox2_DE"/>
+            <child lootmax="6" lootmin="4" max="4" min="2" type="StaticObj_Misc_SupplyBox3_DE"/>
         </children>
     </event>
     <event name="StaticAmbulance">
@@ -847,8 +847,8 @@
         <children>
             <child lootmax="5" lootmin="3" max="5" min="5" type="Land_Wreck_sed01_aban1_police"/>
             <child lootmax="5" lootmin="3" max="5" min="5" type="Land_Wreck_sed01_aban2_police"/>
-            <child lootmax="5" lootmin="3" max="5" min="5" type="Land_Wreck_sed02_aban1_Police_DE"/>
-            <child lootmax="5" lootmin="3" max="5" min="5" type="Land_Wreck_sed02_aban2_Police_DE"/>
+            <child lootmax="4" lootmin="3" max="4" min="4" type="Land_Wreck_sed01_aban1_police_DE"/>
+            <child lootmax="4" lootmin="3" max="4" min="4" type="Land_Wreck_sed01_aban2_police_DE"/>
         </children>
     </event>
     <event name="StaticSantaCrash">
@@ -870,7 +870,7 @@
         </children>
     </event>
     <event name="StaticTrain">
-        <nominal>3</nominal>
+        <nominal>2</nominal>
         <min>1</min>
         <max>0</max>
         <lifetime>5400</lifetime>
@@ -1016,7 +1016,7 @@
         </children>
     </event>
     <event name="TrajectoryStones">
-        <nominal>100</nominal>
+        <nominal>30</nominal>
         <min>1</min>
         <max>2</max>
         <lifetime>180</lifetime>
