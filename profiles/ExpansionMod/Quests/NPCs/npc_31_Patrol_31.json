@@ -39,28 +39,14 @@
     "NPCFaction": "Guards",
     "NPCType": 2,
     "Active": 1,
-    "NPCIdleBehavior": 1,
-    "NPCIdleEmotes": [
-        "46",
-        "48",
-        "58",
-        "51",
-        "60"
-    ],
+    "NPCIdleBehavior": 0,
+    "NPCIdleEmotes": [],
     "NPCSitDuration": 0,
     "NPCSleepBehavior": 0,
     "NPCSleepDuration": 0,
-    "NPCActionAnimations": 1,
-    "NPCActionModifiers": 1,
+    "NPCActionAnimations": 0,
+    "NPCActionModifiers": 0,
     "NPCActionModifierList": [],
-    "WaypointBehaviors": [
-        "walk","walk","walk","guard","walk",
-        "walk","guard","sleep","walk","guard",
-        "walk","walk","guard","sit","walk"
-    ],
-    "WaypointDurations": [
-        0,0,0,7,0,
-        0,8,180,0,10,
-        0,0,0,60,0
-    ]
+    "WaypointBehaviors": [],
+    "WaypointDurations": []
 }
