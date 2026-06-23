@@ -83,13 +83,12 @@
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
-		<value name="Tier4"/>
 	</type>
 	<type name="R12">
-        <nominal>18</nominal>
+        <nominal>15</nominal>
         <lifetime>7200</lifetime>
         <restock>1460</restock>
-        <min>18</min>
+        <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -104,34 +103,29 @@
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
-		<value name="Tier4"/>
     </type>
 
 	<!-- Expansion Mod -->
-	<type name="Expansion_DT11">
-		<nominal>22</nominal>
+	<type name="Expansion_DT11"> <!-- Event -->
+		<nominal>5</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>22</min>
+		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<category name="weapons"/>
 		<tag name="floor"/>
 		<tag name="ground"/>
 		<usage name="Hunting"/>
-		<usage name="Prison"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
 		<value name="Tier4"/>
 	</type>
 	<type name="Expansion_BenelliM4">
-		<nominal>18</nominal>
+		<nominal>12</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>18</min>
+		<min>12</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -146,7 +140,6 @@
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
-		<value name="Tier4"/>
 	</type>
 
 	<!-- Panacea Weapons -->

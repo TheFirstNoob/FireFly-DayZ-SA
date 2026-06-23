@@ -72,7 +72,7 @@
 		<value name="Tier2"/>
 		<value name="Tier3"/>
 	</type>
-	<type name="Deagle_Gold">
+	<type name="Deagle_Gold"> <!-- Event -->
 		<nominal>8</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
@@ -80,18 +80,13 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<category name="weapons"/>
 		<tag name="floor"/>
 		<tag name="ground"/>
         <tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Police"/>
-		<usage name="Coast"/>
-		<usage name="Military"/>
-		<usage name="Prison"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
         <value name="Tier5"/>
 	</type>
 	<type name="Derringer_Black">
@@ -163,7 +158,7 @@
 		<value name="Tier2"/>
 		<value name="Tier3"/>
 	</type>
-	<type name="Engraved1911">
+	<type name="Engraved1911"> <!-- Event -->
 		<nominal>10</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
@@ -171,20 +166,13 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<category name="weapons"/>
 		<tag name="floor"/>
 		<tag name="ground"/>
         <tag name="shelves"/>
 		<tag name="civilian"/>
-		<usage name="Police"/>
-		<usage name="Coast"/>
-		<usage name="Military"/>
 		<usage name="Prison"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
         <value name="Tier5"/>
 	</type>
 	<type name="FNX45">
@@ -236,26 +224,15 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Longhorn">
-		<nominal>55</nominal>
+		<nominal>0</nominal>
 		<lifetime>7200</lifetime>
-		<restock>1460</restock>
-		<min>55</min>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="floor"/>
-		<tag name="ground"/>
-        <tag name="shelves"/>
-		<tag name="civilian"/>
-		<usage name="Hunting"/>
-		<usage name="Village"/>
-		<usage name="Coast"/>
-		<usage name="Farm"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
 	</type>
 	<type name="MKII">
 		<nominal>60</nominal>
@@ -393,51 +370,26 @@
 	
 	<!-- Tactical Flava Mod -->
 	<type name="TF_FiveSeven">
-		<nominal>35</nominal>
+		<nominal>0</nominal>
 		<lifetime>7200</lifetime>
-		<restock>1460</restock>
-		<min>35</min>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="floor"/>
-		<tag name="ground"/>
-        <tag name="shelves"/>
-		<tag name="civilian"/>
-		<usage name="Police"/>
-		<usage name="Village"/>
-		<usage name="Coast"/>
-        <usage name="Town"/>
-		<usage name="Prison"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
 	</type>
 	<type name="TF_MakarovPB">
-		<nominal>60</nominal>
+		<nominal>0</nominal>
 		<lifetime>7200</lifetime>
-		<restock>1460</restock>
-		<min>60</min>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="floor"/>
-		<tag name="ground"/>
-        <tag name="shelves"/>
-		<tag name="civilian"/>
-		<usage name="Police"/>
-		<usage name="Village"/>
-		<usage name="Coast"/>
-        <usage name="Town"/>
-		<usage name="Farm"/>
-		<usage name="Office"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
 	</type>
 	<type name="TF_MP443">
 		<nominal>52</nominal>
