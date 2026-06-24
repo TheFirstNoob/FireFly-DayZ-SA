@@ -1,41 +1,30 @@
-{
-    "ConfigVersion": 6,
-    "ID": 11,
-    "ClassName": "ExpansionQuestNPCAIBaty",
-    "Position": [
-        1048.66,
-        229.028,
-        488.853
-    ],
-    "Orientation": [
-        0.0,
-        0.0,
-        0.0
-    ],
-    "NPCName": "Бубылда",
-    "DefaultNPCText": "Что-то нужно? Я просто сильно занят как видишь...",
-    "Waypoints": [],
-    "NPCEmoteID": 46,
-    "NPCEmoteIsStatic": 0,
-    "NPCLoadoutFile": "Story_Bubulda",
-    "NPCInteractionEmoteID": 1,
-    "NPCQuestCancelEmoteID": 60,
-    "NPCQuestStartEmoteID": 58,
-    "NPCQuestCompleteEmoteID": 39,
-    "NPCFaction": "InvincibleObservers",
-    "NPCType": 2,
-    "Active": 1,
-    "NPCIdleBehavior": 1,
-    "NPCIdleEmotes": [
-        "46",
-        "48",
-        "58",
-        "60"
-    ],
-    "NPCSitDuration": 8,
-    "NPCSleepBehavior": 0,
-    "NPCSleepDuration": 0,
-    "NPCActionAnimations": 0,
-    "NPCActionModifiers": 0,
-    "NPCActionModifierList": []
+﻿{
+    "ConfigVersion":  6,
+    "ID":  11,
+    "ClassName":  "ExpansionQuestNPCAIBaty",
+    "Position":  [
+                     1048.66,
+                     229.028,
+                     488.853
+                 ],
+    "Orientation":  [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+    "NPCName":  "Бубылда",
+    "DefaultNPCText":  "Что-то нужно? Я просто сильно занят как видишь...",
+    "Waypoints":  [
+
+                  ],
+    "NPCEmoteID":  46,
+    "NPCEmoteIsStatic":  0,
+    "NPCLoadoutFile":  "Story_Bubulda",
+    "NPCInteractionEmoteID":  1,
+    "NPCQuestCancelEmoteID":  60,
+    "NPCQuestStartEmoteID":  58,
+    "NPCQuestCompleteEmoteID":  39,
+    "NPCFaction":  "InvincibleObservers",
+    "NPCType":  2,
+    "Active":  1
 }

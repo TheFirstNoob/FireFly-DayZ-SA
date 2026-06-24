@@ -1,41 +1,30 @@
-{
-    "ConfigVersion": 6,
-    "ID": 10,
-    "ClassName": "ExpansionQuestNPCAIMirek",
-    "Position": [
-        1108.21,
-        225.187,
-        537.042
-    ],
-    "Orientation": [
-        0.0,
-        0.0,
-        0.0
-    ],
-    "NPCName": "Петрович",
-    "DefaultNPCText": "Новенький? Нет? Ну тогда у меня для тебя есть работка...",
-    "Waypoints": [],
-    "NPCEmoteID": 46,
-    "NPCEmoteIsStatic": 0,
-    "NPCLoadoutFile": "Story_Petrovich",
-    "NPCInteractionEmoteID": 1,
-    "NPCQuestCancelEmoteID": 60,
-    "NPCQuestStartEmoteID": 58,
-    "NPCQuestCompleteEmoteID": 39,
-    "NPCFaction": "InvincibleObservers",
-    "NPCType": 2,
-    "Active": 1,
-    "NPCIdleBehavior": 1,
-    "NPCIdleEmotes": [
-        "46",
-        "48",
-        "58",
-        "51"
-    ],
-    "NPCSitDuration": 0,
-    "NPCSleepBehavior": 0,
-    "NPCSleepDuration": 0,
-    "NPCActionAnimations": 1,
-    "NPCActionModifiers": 0,
-    "NPCActionModifierList": []
+﻿{
+    "ConfigVersion":  6,
+    "ID":  10,
+    "ClassName":  "ExpansionQuestNPCAIMirek",
+    "Position":  [
+                     1108.21,
+                     225.187,
+                     537.042
+                 ],
+    "Orientation":  [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+    "NPCName":  "Петрович",
+    "DefaultNPCText":  "Новенький? Нет? Ну тогда у меня для тебя есть работка...",
+    "Waypoints":  [
+
+                  ],
+    "NPCEmoteID":  46,
+    "NPCEmoteIsStatic":  0,
+    "NPCLoadoutFile":  "Story_Petrovich",
+    "NPCInteractionEmoteID":  1,
+    "NPCQuestCancelEmoteID":  60,
+    "NPCQuestStartEmoteID":  58,
+    "NPCQuestCompleteEmoteID":  39,
+    "NPCFaction":  "InvincibleObservers",
+    "NPCType":  2,
+    "Active":  1
 }

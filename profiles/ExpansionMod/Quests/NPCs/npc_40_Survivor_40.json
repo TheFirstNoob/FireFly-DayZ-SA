@@ -1,40 +1,30 @@
-{
-    "ConfigVersion": 6,
-    "ID": 40,
-    "ClassName": "ExpansionQuestNPCAIMirek",
-    "Position": [
-        1055.12, 227.302, 496.436
-    ],
-    "Orientation": [
-        0.0,
-        0.0,
-        0.0
-    ],
-    "NPCName": "Выживший",
-    "DefaultNPCText": "Привет, новенький.|Как дела в этих краях?|Тут неспокойно в последнее время.",
-    "Waypoints": [],
-    "NPCEmoteID": 14,
-    "NPCEmoteIsStatic": 1,
-    "NPCLoadoutFile": "NPC_Survivor",
-    "NPCInteractionEmoteID": 1,
-    "NPCQuestCancelEmoteID": 60,
-    "NPCQuestStartEmoteID": 58,
-    "NPCQuestCompleteEmoteID": 39,
-    "NPCFaction": "InvincibleObservers",
-    "NPCType": 2,
-    "Active": 1,
-    "NPCIdleBehavior": 0,
-    "NPCIdleEmotes": [
-        "46",
-        "48",
-        "58",
-        "49",
-        "50"
-    ],
-    "NPCSitDuration": 0,
-    "NPCSleepBehavior": 0,
-    "NPCSleepDuration": 15,
-    "NPCActionAnimations": 0,
-    "NPCActionModifiers": 0,
-    "NPCActionModifierList": []
+﻿{
+    "ConfigVersion":  6,
+    "ID":  40,
+    "ClassName":  "ExpansionQuestNPCAIMirek",
+    "Position":  [
+                     1055.12,
+                     227.302,
+                     496.436
+                 ],
+    "Orientation":  [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+    "NPCName":  "Выживший",
+    "DefaultNPCText":  "Привет, новенький.|Как дела в этих краях?|Тут неспокойно в последнее время.",
+    "Waypoints":  [
+
+                  ],
+    "NPCEmoteID":  14,
+    "NPCEmoteIsStatic":  1,
+    "NPCLoadoutFile":  "NPC_Survivor",
+    "NPCInteractionEmoteID":  1,
+    "NPCQuestCancelEmoteID":  60,
+    "NPCQuestStartEmoteID":  58,
+    "NPCQuestCompleteEmoteID":  39,
+    "NPCFaction":  "InvincibleObservers",
+    "NPCType":  2,
+    "Active":  1
 }

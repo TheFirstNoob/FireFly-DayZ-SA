@@ -1,39 +1,30 @@
-{
-    "ConfigVersion": 6,
-    "ID": 12,
-    "ClassName": "ExpansionQuestNPCAIMirek",
-    "Position": [
-        1121.1, 225.428, 521.44
-    ],
-    "Orientation": [
-        0.0,
-        0.0,
-        0.0
-    ],
-    "NPCName": "Гоуст",
-    "DefaultNPCText": "Здесь будет текст диалога.|Скоро появится...",
-    "Waypoints": [],
-    "NPCEmoteID": 46,
-    "NPCEmoteIsStatic": 0,
-    "NPCLoadoutFile": "Story_Ghost",
-    "NPCInteractionEmoteID": 1,
-    "NPCQuestCancelEmoteID": 60,
-    "NPCQuestStartEmoteID": 58,
-    "NPCQuestCompleteEmoteID": 39,
-    "NPCFaction": "InvincibleObservers",
-    "NPCType": 2,
-    "Active": 1,
-    "NPCIdleBehavior": 1,
-    "NPCIdleEmotes": [
-        "46",
-        "48",
-        "58",
-        "51"
-    ],
-    "NPCSitDuration": 0,
-    "NPCSleepBehavior": 0,
-    "NPCSleepDuration": 0,
-    "NPCActionAnimations": 1,
-    "NPCActionModifiers": 0,
-    "NPCActionModifierList": []
+﻿{
+    "ConfigVersion":  6,
+    "ID":  12,
+    "ClassName":  "ExpansionQuestNPCAIMirek",
+    "Position":  [
+                     1121.1,
+                     225.428,
+                     521.44
+                 ],
+    "Orientation":  [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+    "NPCName":  "Гоуст",
+    "DefaultNPCText":  "Здесь будет текст диалога.|Скоро появится...",
+    "Waypoints":  [
+
+                  ],
+    "NPCEmoteID":  46,
+    "NPCEmoteIsStatic":  0,
+    "NPCLoadoutFile":  "Story_Ghost",
+    "NPCInteractionEmoteID":  1,
+    "NPCQuestCancelEmoteID":  60,
+    "NPCQuestStartEmoteID":  58,
+    "NPCQuestCompleteEmoteID":  39,
+    "NPCFaction":  "InvincibleObservers",
+    "NPCType":  2,
+    "Active":  1
 }

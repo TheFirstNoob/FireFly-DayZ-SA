@@ -1,64 +1,44 @@
-{
-    "ConfigVersion": 6,
-    "ID": 44,
-    "ClassName": "ExpansionQuestNPCAIDenis",
-    "Position": [
-        0.0,
-        0.0,
-        0.0
-    ],
-    "Orientation": [
-        0.0,
-        0.0,
-        0.0
-    ],
-    "NPCName": "Странник",
-    "DefaultNPCText": "Пути здесь опасные.|Торговая зона недалеко.|Удачи тебе.",
-    "Waypoints": [
-        [
-            0,
-            0,
-            0
-        ],
-        [
-            0,
-            0,
-            0
-        ],
-        [
-            0,
-            0,
-            0
-        ]
-    ],
-    "NPCEmoteID": 46,
-    "NPCEmoteIsStatic": 0,
-    "NPCLoadoutFile": "NPC_Survivor",
-    "NPCInteractionEmoteID": 1,
-    "NPCQuestCancelEmoteID": 60,
-    "NPCQuestStartEmoteID": 58,
-    "NPCQuestCompleteEmoteID": 39,
-    "NPCFaction": "InvincibleObservers",
-    "NPCType": 2,
-    "Active": 0,
-    "NPCIdleBehavior": 1,
-    "NPCIdleEmotes": [
-        "46",
-        "48",
-        "58",
-        "49",
-        "50"
-    ],
-    "NPCSitDuration": 0,
-    "NPCSleepBehavior": 0,
-    "NPCSleepDuration": 0,
-    "NPCActionAnimations": 1,
-    "NPCActionModifiers": 1,
-    "NPCActionModifierList": [],
-    "WaypointBehaviors": [
-        "walk","walk","walk"
-    ],
-    "WaypointDurations": [
-        0,0,0
-    ]
+﻿{
+    "ConfigVersion":  6,
+    "ID":  44,
+    "ClassName":  "ExpansionQuestNPCAIDenis",
+    "Position":  [
+                     0.0,
+                     0.0,
+                     0.0
+                 ],
+    "Orientation":  [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+    "NPCName":  "Странник",
+    "DefaultNPCText":  "Пути здесь опасные.|Торговая зона недалеко.|Удачи тебе.",
+    "Waypoints":  [
+                      [
+                          0,
+                          0,
+                          0
+                      ],
+                      [
+                          0,
+                          0,
+                          0
+                      ],
+                      [
+                          0,
+                          0,
+                          0
+                      ]
+                  ],
+    "NPCEmoteID":  46,
+    "NPCEmoteIsStatic":  0,
+    "NPCLoadoutFile":  "NPC_Survivor",
+    "NPCInteractionEmoteID":  1,
+    "NPCQuestCancelEmoteID":  60,
+    "NPCQuestStartEmoteID":  58,
+    "NPCQuestCompleteEmoteID":  39,
+    "NPCFaction":  "InvincibleObservers",
+    "NPCType":  2,
+    "Active":  0
 }
