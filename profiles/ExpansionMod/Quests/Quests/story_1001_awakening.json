@@ -16,7 +16,12 @@
 	"Autocomplete": 0,
 	"IsGroupQuest": 0,
 	"ObjectSetFileName": "",
-	"QuestItems": [],
+	"QuestItems": [
+		{
+			"ClassName": "ExpansionQuestItemPaper",
+			"Amount": 1
+		}
+	],
 	"Rewards": [
 		{
 			"ClassName": "ExpansionBanknoteHryvnia",
