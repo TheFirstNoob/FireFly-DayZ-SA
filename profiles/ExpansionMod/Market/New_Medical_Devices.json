@@ -38,6 +38,104 @@
 			"QuantityPercent": -1,
 			"SpawnAttachments": [],
 			"Variants": []
+		},
+		{
+			"ClassName": "TerjeSurgicalKit",
+			"MaxPriceThreshold": 25000,
+			"MinPriceThreshold": 5000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 30,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "TerjeSurgicalTool_Ceramic",
+			"MaxPriceThreshold": 10000,
+			"MinPriceThreshold": 2000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 60,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"TerjeSurgicalTool_White"
+			]
+		},
+		{
+			"ClassName": "TerjeFirstAidKitIndividual_Black",
+			"MaxPriceThreshold": 37500,
+			"MinPriceThreshold": 7500,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 10,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"TerjeFirstAidKitIndividual_Brown",
+				"TerjeFirstAidKitIndividual_Green",
+				"TerjeFirstAidKitIndividual_Camo"
+			]
+		},
+		{
+			"ClassName": "TerjeFirstAidKitAdvance_Black",
+			"MaxPriceThreshold": 75000,
+			"MinPriceThreshold": 15000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 5,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"TerjeFirstAidKitAdvance_Brown",
+				"TerjeFirstAidKitAdvance_Green",
+				"TerjeFirstAidKitAdvance_Camo"
+			]
+		},
+		{
+			"ClassName": "TerjeFirstAidKitMedium",
+			"MaxPriceThreshold": 20000,
+			"MinPriceThreshold": 4000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 25,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "TerjeFirstAidKitLarge",
+			"MaxPriceThreshold": 30000,
+			"MinPriceThreshold": 6000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 15,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "TerjePlaster",
+			"MaxPriceThreshold": 2500,
+			"MinPriceThreshold": 500,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "TerjeStethoscope",
+			"MaxPriceThreshold": 15000,
+			"MinPriceThreshold": 3000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 30,
+			"MinStockThreshold": 0,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
 		}
 	]
 }
