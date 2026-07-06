@@ -1,0 +1,266 @@
+{
+    "CategoryName": "Components",
+    "CategoryDisplay": "Компоненты",
+    "RequiredLevel": 0,
+    "Recipes": [
+        {
+            "Result": "RIP_milMCs",
+            "ResultCount": 1,
+            "RecipeName": "Военная микросхема",
+            "CraftTime": 45.0,
+            "SuccessChance": 0.5,
+            "AttachmentsDamage": 15.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {
+                    "Classname": "RIP_CivMC",
+                    "Amount": 3,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Semiconds",
+                    "Amount": 8,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_modCap",
+                    "Amount": 5,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_modRes",
+                    "Amount": 5,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Rosin",
+                    "Amount": 20,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
+            ],
+            "RequiredTools": [
+                "HP_Payalnik"
+            ],
+            "Tables": []
+        },
+        {
+            "Result": "RIP_sovCap",
+            "ResultCount": 1,
+            "RecipeName": "Советский конденсатор",
+            "CraftTime": 25.0,
+            "SuccessChance": 0.55,
+            "AttachmentsDamage": 8.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {
+                    "Classname": "RIP_modCap",
+                    "Amount": 3,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "Amount": 15,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Rosin",
+                    "Amount": 10,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
+            ],
+            "RequiredTools": [
+                "HP_Payalnik"
+            ],
+            "Tables": []
+        },
+        {
+            "Result": "RIP_sovRes",
+            "ResultCount": 1,
+            "RecipeName": "Советский резистор",
+            "CraftTime": 20.0,
+            "SuccessChance": 0.6,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {
+                    "Classname": "RIP_modRes",
+                    "Amount": 3,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "Amount": 10,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Rosin",
+                    "Amount": 8,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
+            ],
+            "RequiredTools": [
+                "HP_Payalnik"
+            ],
+            "Tables": []
+        },
+        {
+            "Result": "RIP_modCap",
+            "ResultCount": 1,
+            "RecipeName": "Конденсаторы",
+            "CraftTime": 20.0,
+            "SuccessChance": 0.65,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {
+                    "Classname": "RIP_Foil",
+                    "Amount": 20,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Plastik",
+                    "Amount": 5,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Rosin",
+                    "Amount": 10,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
+            ],
+            "RequiredTools": [
+                "HP_Payalnik"
+            ],
+            "Tables": []
+        },
+        {
+            "Result": "RIP_modRes",
+            "ResultCount": 1,
+            "RecipeName": "Резисторы",
+            "CraftTime": 18.0,
+            "SuccessChance": 0.65,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {
+                    "Classname": "RIP_Foil",
+                    "Amount": 15,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Rosin",
+                    "Amount": 8,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
+            ],
+            "RequiredTools": [
+                "HP_Payalnik"
+            ],
+            "Tables": []
+        },
+        {
+            "Result": "RIP_Textolit",
+            "ResultCount": 1,
+            "RecipeName": "Текстолит",
+            "CraftTime": 15.0,
+            "SuccessChance": 0.7,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {
+                    "Classname": "RIP_Plastik",
+                    "Amount": 15,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Rosin",
+                    "Amount": 15,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
+            ],
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "Tables": []
+        },
+        {
+            "Result": "RIP_CopperCoil",
+            "ResultCount": 1,
+            "RecipeName": "Катушка меди",
+            "CraftTime": 25.0,
+            "SuccessChance": 0.6,
+            "AttachmentsDamage": 10.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {
+                    "Classname": "RIP_Plastik",
+                    "Amount": 10,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "Amount": 50,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
+            ],
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "Tables": []
+        },
+        {
+            "Result": "RIP_Fuses",
+            "ResultCount": 1,
+            "RecipeName": "Предохранители",
+            "CraftTime": 15.0,
+            "SuccessChance": 0.65,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {
+                    "Classname": "RIP_Foil",
+                    "Amount": 10,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "Amount": 8,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_bolts",
+                    "Amount": 3,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
+            ],
+            "RequiredTools": [
+                "HP_Vise",
+                "HP_napilnik"
+            ],
+            "Tables": []
+        }
+    ]
+}

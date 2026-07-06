@@ -1,0 +1,85 @@
+{
+    "CategoryName": "Lighting",
+    "CategoryDisplay": "Освещение",
+    "RequiredLevel": 0,
+    "Recipes": [
+        {
+            "Result": "Roadflare",
+            "ResultCount": 1,
+            "RecipeName": "Фальшфейер",
+            "CraftTime": 25.0,
+            "SuccessChance": 0.6,
+            "AttachmentsDamage": 8.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {
+                    "Classname": "RIP_Plastik",
+                    "Amount": 5,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_UrotropineEx",
+                    "Amount": 20,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_K2",
+                    "Amount": 15,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "Amount": 10,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
+            ],
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "Tables": []
+        },
+        {
+            "Result": "Chemlight_white",
+            "ResultCount": 1,
+            "RecipeName": "Химсвет",
+            "CraftTime": 20.0,
+            "SuccessChance": 0.65,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {
+                    "Classname": "RIP_Plastik",
+                    "Amount": 3,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Urotropine",
+                    "Amount": 15,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_K2",
+                    "Amount": 10,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_H2SO4",
+                    "Amount": 15,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
+            ],
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "Tables": []
+        }
+    ]
+}

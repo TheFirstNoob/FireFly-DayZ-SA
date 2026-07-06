@@ -1,0 +1,29 @@
+{
+    "CategoryName": "Tools",
+    "CategoryDisplay": "Инструменты",
+    "RequiredLevel": 0,
+    "Recipes": [
+        {
+            "ItemToDisassemble": "Hammer",
+            "RecipeName": "Разборка Молотка",
+            "CraftTime": 5.0,
+            "SuccessChance": 1.0,
+            "AttachmentsDamage": 0.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [],
+            "DisassembleResults": [
+                {
+                    "Classname": "Nail",
+                    "MinAmount": 2,
+                    "MaxAmount": 3
+                },
+                {
+                    "Classname": "WoodenLog",
+                    "MinAmount": 1,
+                    "MaxAmount": 1
+                }
+            ],
+            "Tables": []
+        }
+    ]
+}

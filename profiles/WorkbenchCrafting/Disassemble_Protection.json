@@ -1,0 +1,221 @@
+{
+    "CategoryName": "Protection",
+    "CategoryDisplay": "Защита",
+    "RequiredLevel": 0,
+    "Recipes": [
+        {
+            "ItemToDisassemble": "NBCHoodYellow",
+            "RecipeName": "Разборка Капюшона химзащиты",
+            "CraftTime": 20.0,
+            "SuccessChance": 0.75,
+            "AttachmentsDamage": 15.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise",
+                "HP_Grinde"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_Kevlar",
+                    "MinAmount": 24,
+                    "MaxAmount": 32
+                },
+                {
+                    "Classname": "RIP_Plastik",
+                    "MinAmount": 12,
+                    "MaxAmount": 16
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "MinAmount": 18,
+                    "MaxAmount": 24
+                },
+                {
+                    "Classname": "RIP_K2",
+                    "MinAmount": 18,
+                    "MaxAmount": 24
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "NBCJacketYellow",
+            "RecipeName": "Разборка Куртки химзащиты",
+            "CraftTime": 25.0,
+            "SuccessChance": 0.7,
+            "AttachmentsDamage": 20.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise",
+                "HP_Grinde"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_Kevlar",
+                    "MinAmount": 48,
+                    "MaxAmount": 64
+                },
+                {
+                    "Classname": "RIP_Plastik",
+                    "MinAmount": 18,
+                    "MaxAmount": 24
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "MinAmount": 30,
+                    "MaxAmount": 40
+                },
+                {
+                    "Classname": "RIP_K2",
+                    "MinAmount": 24,
+                    "MaxAmount": 32
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "NBCGlovesYellow",
+            "RecipeName": "Разборка Перчаток химзащиты",
+            "CraftTime": 15.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 10.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_Kevlar",
+                    "MinAmount": 15,
+                    "MaxAmount": 20
+                },
+                {
+                    "Classname": "RIP_Plastik",
+                    "MinAmount": 9,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "MinAmount": 12,
+                    "MaxAmount": 16
+                },
+                {
+                    "Classname": "RIP_K2",
+                    "MinAmount": 9,
+                    "MaxAmount": 12
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "NBCBootsYellow",
+            "RecipeName": "Разборка Сапог химзащиты",
+            "CraftTime": 18.0,
+            "SuccessChance": 0.75,
+            "AttachmentsDamage": 12.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise",
+                "HP_napilnik"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_Kevlar",
+                    "MinAmount": 21,
+                    "MaxAmount": 28
+                },
+                {
+                    "Classname": "RIP_Plastik",
+                    "MinAmount": 12,
+                    "MaxAmount": 16
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "MinAmount": 24,
+                    "MaxAmount": 32
+                },
+                {
+                    "Classname": "RIP_K2",
+                    "MinAmount": 12,
+                    "MaxAmount": 16
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "NBCPantsYellow",
+            "RecipeName": "Разборка Штанов химзащиты",
+            "CraftTime": 22.0,
+            "SuccessChance": 0.72,
+            "AttachmentsDamage": 18.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise",
+                "HP_Grinde"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_Kevlar",
+                    "MinAmount": 36,
+                    "MaxAmount": 48
+                },
+                {
+                    "Classname": "RIP_Plastik",
+                    "MinAmount": 15,
+                    "MaxAmount": 20
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "MinAmount": 24,
+                    "MaxAmount": 32
+                },
+                {
+                    "Classname": "RIP_K2",
+                    "MinAmount": 18,
+                    "MaxAmount": 24
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "AirborneMask",
+            "RecipeName": "Разборка Противогаза химзащиты",
+            "CraftTime": 25.0,
+            "SuccessChance": 0.7,
+            "AttachmentsDamage": 20.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise",
+                "HP_Payalnik"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_Kevlar",
+                    "MinAmount": 18,
+                    "MaxAmount": 24
+                },
+                {
+                    "Classname": "RIP_Plastik",
+                    "MinAmount": 15,
+                    "MaxAmount": 20
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "MinAmount": 24,
+                    "MaxAmount": 32
+                },
+                {
+                    "Classname": "RIP_GlassPK",
+                    "MinAmount": 1,
+                    "MaxAmount": 2
+                },
+                {
+                    "Classname": "RIP_K2",
+                    "MinAmount": 30,
+                    "MaxAmount": 40
+                }
+            ],
+            "Tables": []
+        }
+    ]
+}

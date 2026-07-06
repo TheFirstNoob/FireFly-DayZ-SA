@@ -1,0 +1,46 @@
+{
+    "CategoryName": "Gardening",
+    "CategoryDisplay": "Садоводство",
+    "RequiredLevel": 0,
+    "Recipes": [
+        {
+            "Result": "GardenLime",
+            "ResultCount": 1,
+            "RecipeName": "Садовая известь",
+            "CraftTime": 25.0,
+            "SuccessChance": 0.6,
+            "AttachmentsDamage": 8.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {
+                    "Classname": "RIP_Plastik",
+                    "Amount": 5,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_H2SO4",
+                    "Amount": 50,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_HCL",
+                    "Amount": 30,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Oleum",
+                    "Amount": 20,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
+            ],
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "Tables": []
+        }
+    ]
+}

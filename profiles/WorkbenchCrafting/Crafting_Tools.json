@@ -1,0 +1,47 @@
+{
+    "CategoryName": "Tools",
+    "CategoryDisplay": "Инструменты",
+    "RequiredLevel": 0,
+    "Recipes": [
+        {
+            "Result": "Hammer",
+            "ResultCount": 1,
+            "RecipeName": "Молоток",
+            "CraftTime": 15.0,
+            "SuccessChance": 0.75,
+            "AttachmentsDamage": 10.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {
+                    "Classname": "Nail",
+                    "Amount": 3,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "WoodenStick",
+                    "Amount": 3,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Clue",
+                    "Amount": 1,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "SmallStone",
+                    "Amount": 3,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
+            ],
+            "RequiredTools": [
+                "HP_Anvil",
+                "HP_Vise"
+            ],
+            "Tables": []
+        }
+    ]
+}

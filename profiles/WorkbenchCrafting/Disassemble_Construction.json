@@ -1,0 +1,136 @@
+{
+    "CategoryName": "Construction",
+    "CategoryDisplay": "Строительство",
+    "RequiredLevel": 0,
+    "Recipes": [
+        {
+            "ItemToDisassemble": "PortableGasLamp",
+            "RecipeName": "Разборка Газовой лампы",
+            "CraftTime": 10.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 8.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise",
+                "HP_napilnik"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_Plastik",
+                    "MinAmount": 9,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "MinAmount": 12,
+                    "MaxAmount": 16
+                },
+                {
+                    "Classname": "RIP_CopperCoil",
+                    "MinAmount": 9,
+                    "MaxAmount": 12
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "XmasLights",
+            "RecipeName": "Разборка Праздничных огней",
+            "CraftTime": 10.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 8.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Payalnik"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_Plastik",
+                    "MinAmount": 6,
+                    "MaxAmount": 8
+                },
+                {
+                    "Classname": "RIP_Wire",
+                    "MinAmount": 18,
+                    "MaxAmount": 24
+                },
+                {
+                    "Classname": "RIP_CivMC",
+                    "MinAmount": 1,
+                    "MaxAmount": 2
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Spotlight",
+            "RecipeName": "Разборка Строительной лампы",
+            "CraftTime": 15.0,
+            "SuccessChance": 0.75,
+            "AttachmentsDamage": 12.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Payalnik",
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_Plastik",
+                    "MinAmount": 12,
+                    "MaxAmount": 16
+                },
+                {
+                    "Classname": "RIP_CivMC",
+                    "MinAmount": 2,
+                    "MaxAmount": 2
+                },
+                {
+                    "Classname": "RIP_Semiconds",
+                    "MinAmount": 4,
+                    "MaxAmount": 5
+                },
+                {
+                    "Classname": "RIP_CopperCoil",
+                    "MinAmount": 15,
+                    "MaxAmount": 20
+                },
+                {
+                    "Classname": "RIP_GlassPK",
+                    "MinAmount": 1,
+                    "MaxAmount": 2
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "CableReel",
+            "RecipeName": "Разборка Кабельной катушки",
+            "CraftTime": 12.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 10.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise",
+                "HP_napilnik"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_Cable",
+                    "MinAmount": 9,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "RIP_Plastik",
+                    "MinAmount": 9,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "MinAmount": 18,
+                    "MaxAmount": 24
+                }
+            ],
+            "Tables": []
+        }
+    ]
+}

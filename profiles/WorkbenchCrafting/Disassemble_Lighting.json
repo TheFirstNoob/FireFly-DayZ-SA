@@ -1,0 +1,65 @@
+{
+    "CategoryName": "Lighting",
+    "CategoryDisplay": "Освещение",
+    "RequiredLevel": 0,
+    "Recipes": [
+        {
+            "ItemToDisassemble": "Roadflare",
+            "RecipeName": "Разборка Фальшфейера",
+            "CraftTime": 8.0,
+            "SuccessChance": 0.85,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_Plastik",
+                    "MinAmount": 3,
+                    "MaxAmount": 4
+                },
+                {
+                    "Classname": "RIP_UrotropineEx",
+                    "MinAmount": 12,
+                    "MaxAmount": 16
+                },
+                {
+                    "Classname": "RIP_K2",
+                    "MinAmount": 9,
+                    "MaxAmount": 12
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Chemlight_white",
+            "RecipeName": "Разборка Химсвета",
+            "CraftTime": 8.0,
+            "SuccessChance": 0.85,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_Plastik",
+                    "MinAmount": 2,
+                    "MaxAmount": 2
+                },
+                {
+                    "Classname": "RIP_Urotropine",
+                    "MinAmount": 9,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "RIP_K2",
+                    "MinAmount": 6,
+                    "MaxAmount": 8
+                }
+            ],
+            "Tables": []
+        }
+    ]
+}

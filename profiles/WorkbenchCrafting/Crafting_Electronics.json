@@ -1,0 +1,556 @@
+{
+    "CategoryName": "Electronics",
+    "CategoryDisplay": "Электроника",
+    "RequiredLevel": 0,
+    "Recipes": [
+        {
+            "Result": "Battery9V",
+            "ResultCount": 1,
+            "RecipeName": "Батарейка 9V",
+            "CraftTime": 10.0,
+            "SuccessChance": 0.5,
+            "AttachmentsDamage": 25.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {
+                    "Classname": "RIP_Plastik",
+                    "Amount": 5,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "Amount": 20,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Wire",
+                    "Amount": 10,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Connectors",
+                    "Amount": 2,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_K2",
+                    "Amount": 25,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Rosin",
+                    "Amount": 35,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
+            ],
+            "RequiredTools": [
+                "HP_Payalnik"
+            ],
+            "Tables": []
+        },
+        {
+            "Result": "NVGoggles",
+            "ResultCount": 1,
+            "RecipeName": "ПНВ",
+            "CraftTime": 120.0,
+            "SuccessChance": 0.25,
+            "AttachmentsDamage": 30.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {
+                    "Classname": "RIP_GlassPK",
+                    "Amount": 4,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Plastik",
+                    "Amount": 15,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_milMCs",
+                    "Amount": 3,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Semiconds",
+                    "Amount": 10,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Inductors",
+                    "Amount": 4,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_modCap",
+                    "Amount": 8,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "Amount": 30,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "Amount": 50,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Wire",
+                    "Amount": 40,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_SolderCoil",
+                    "Amount": 25,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
+            ],
+            "RequiredTools": [
+                "HP_Payalnik",
+                "HP_Vise"
+            ],
+            "Tables": []
+        },
+        {
+            "Result": "ExpansionGPS",
+            "ResultCount": 1,
+            "RecipeName": "GPS навигатор",
+            "CraftTime": 100.0,
+            "SuccessChance": 0.2,
+            "AttachmentsDamage": 25.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {
+                    "Classname": "RIP_CivMC",
+                    "Amount": 5,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Semiconds",
+                    "Amount": 12,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_modCap",
+                    "Amount": 8,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_modRes",
+                    "Amount": 10,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Textolit",
+                    "Amount": 2,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Inductors",
+                    "Amount": 4,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_GlassPK",
+                    "Amount": 2,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Wire",
+                    "Amount": 40,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_SolderCoil",
+                    "Amount": 20,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Rosin",
+                    "Amount": 30,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
+            ],
+            "RequiredTools": [
+                "HP_Payalnik",
+                "HP_Vise"
+            ],
+            "Tables": []
+        },
+        {
+            "Result": "Rangefinder",
+            "ResultCount": 1,
+            "RecipeName": "Дальномер",
+            "CraftTime": 90.0,
+            "SuccessChance": 0.3,
+            "AttachmentsDamage": 20.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {
+                    "Classname": "RIP_CivMC",
+                    "Amount": 4,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Semiconds",
+                    "Amount": 10,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_modCap",
+                    "Amount": 6,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_modRes",
+                    "Amount": 8,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Textolit",
+                    "Amount": 2,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Inductors",
+                    "Amount": 3,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_GlassPK",
+                    "Amount": 3,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Plastik",
+                    "Amount": 12,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Wire",
+                    "Amount": 30,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_SolderCoil",
+                    "Amount": 15,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Rosin",
+                    "Amount": 25,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
+            ],
+            "RequiredTools": [
+                "HP_Payalnik",
+                "HP_Vise"
+            ],
+            "Tables": []
+        },
+        {
+            "Result": "PowerGenerator",
+            "ResultCount": 1,
+            "RecipeName": "Электрический генератор",
+            "CraftTime": 180.0,
+            "SuccessChance": 0.2,
+            "AttachmentsDamage": 40.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {
+                    "Classname": "RIP_Elmotor",
+                    "Amount": 1,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_ElmotorDriver",
+                    "Amount": 1,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_TRR",
+                    "Amount": 2,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_CivMC",
+                    "Amount": 5,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_modCap",
+                    "Amount": 10,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "Amount": 80,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Cable",
+                    "Amount": 20,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Wire",
+                    "Amount": 80,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Fuses",
+                    "Amount": 4,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Connectors",
+                    "Amount": 15,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Plastik",
+                    "Amount": 25,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_bolts",
+                    "Amount": 12,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_nuts",
+                    "Amount": 12,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
+            ],
+            "RequiredTools": [
+                "HP_Vise",
+                "HP_Payalnik",
+                "HP_Drill"
+            ],
+            "Tables": []
+        },
+        {
+            "Result": "BatteryCharger",
+            "ResultCount": 1,
+            "RecipeName": "Зарядное устройство Авто",
+            "CraftTime": 60.0,
+            "SuccessChance": 0.45,
+            "AttachmentsDamage": 20.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {
+                    "Classname": "RIP_milMCs",
+                    "Amount": 2,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_CivMC",
+                    "Amount": 3,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Semiconds",
+                    "Amount": 8,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_modCap",
+                    "Amount": 8,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_modRes",
+                    "Amount": 10,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Inductors",
+                    "Amount": 4,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_TRR",
+                    "Amount": 2,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_CopperCoil",
+                    "Amount": 40,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "Amount": 30,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Wire",
+                    "Amount": 40,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Connectors",
+                    "Amount": 8,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_SolderCoil",
+                    "Amount": 20,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
+            ],
+            "RequiredTools": [
+                "HP_Payalnik",
+                "HP_Vise"
+            ],
+            "Tables": []
+        },
+        {
+            "Result": "Lnr_BatteryCharger9V",
+            "ResultCount": 1,
+            "RecipeName": "Зарядное устройство 9V",
+            "CraftTime": 35.0,
+            "SuccessChance": 0.55,
+            "AttachmentsDamage": 12.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {
+                    "Classname": "RIP_CivMC",
+                    "Amount": 2,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Semiconds",
+                    "Amount": 5,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_modCap",
+                    "Amount": 4,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_modRes",
+                    "Amount": 6,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Inductors",
+                    "Amount": 2,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_TRR",
+                    "Amount": 1,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_CopperCoil",
+                    "Amount": 20,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "Amount": 15,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Wire",
+                    "Amount": 20,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Connectors",
+                    "Amount": 4,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_SolderCoil",
+                    "Amount": 10,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
+            ],
+            "RequiredTools": [
+                "HP_Payalnik"
+            ],
+            "Tables": []
+        }
+    ]
+}

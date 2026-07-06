@@ -1,0 +1,205 @@
+{
+    "CategoryName": "Components",
+    "CategoryDisplay": "Компоненты",
+    "RequiredLevel": 0,
+    "Recipes": [
+        {
+            "ItemToDisassemble": "RIP_milMCs",
+            "RecipeName": "Разборка Военной микросхемы",
+            "CraftTime": 15.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 10.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Payalnik"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_CivMC",
+                    "MinAmount": 2,
+                    "MaxAmount": 2
+                },
+                {
+                    "Classname": "RIP_Semiconds",
+                    "MinAmount": 5,
+                    "MaxAmount": 6
+                },
+                {
+                    "Classname": "RIP_modCap",
+                    "MinAmount": 3,
+                    "MaxAmount": 4
+                },
+                {
+                    "Classname": "RIP_modRes",
+                    "MinAmount": 3,
+                    "MaxAmount": 4
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "RIP_sovCap",
+            "RecipeName": "Разборка Советского конденсатора",
+            "CraftTime": 8.0,
+            "SuccessChance": 0.85,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Payalnik"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_modCap",
+                    "MinAmount": 2,
+                    "MaxAmount": 2
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 9,
+                    "MaxAmount": 12
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "RIP_sovRes",
+            "RecipeName": "Разборка Советского резистора",
+            "CraftTime": 8.0,
+            "SuccessChance": 0.85,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Payalnik"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_modRes",
+                    "MinAmount": 2,
+                    "MaxAmount": 2
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 6,
+                    "MaxAmount": 8
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "RIP_modCap",
+            "RecipeName": "Разборка Конденсаторов",
+            "CraftTime": 8.0,
+            "SuccessChance": 0.85,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Payalnik"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 12,
+                    "MaxAmount": 16
+                },
+                {
+                    "Classname": "RIP_Plastik",
+                    "MinAmount": 3,
+                    "MaxAmount": 4
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "RIP_modRes",
+            "RecipeName": "Разборка Резисторов",
+            "CraftTime": 8.0,
+            "SuccessChance": 0.85,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Payalnik"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 9,
+                    "MaxAmount": 12
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "RIP_Textolit",
+            "RecipeName": "Разборка Текстолита",
+            "CraftTime": 8.0,
+            "SuccessChance": 0.9,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_Plastik",
+                    "MinAmount": 9,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "RIP_Rosin",
+                    "MinAmount": 9,
+                    "MaxAmount": 12
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "RIP_CopperCoil",
+            "RecipeName": "Разборка Катушки меди",
+            "CraftTime": 10.0,
+            "SuccessChance": 0.85,
+            "AttachmentsDamage": 8.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_Plastik",
+                    "MinAmount": 6,
+                    "MaxAmount": 8
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 30,
+                    "MaxAmount": 40
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "RIP_Fuses",
+            "RecipeName": "Разборка Предохранителей",
+            "CraftTime": 8.0,
+            "SuccessChance": 0.85,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise",
+                "HP_napilnik"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 6,
+                    "MaxAmount": 8
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "MinAmount": 5,
+                    "MaxAmount": 6
+                }
+            ],
+            "Tables": []
+        }
+    ]
+}

@@ -1,0 +1,312 @@
+{
+    "CategoryName": "Protection",
+    "CategoryDisplay": "Защита",
+    "RequiredLevel": 0,
+    "Recipes": [
+        {
+            "Result": "NBCHoodYellow",
+            "ResultCount": 1,
+            "RecipeName": "Капюшон химзащиты",
+            "CraftTime": 70.0,
+            "SuccessChance": 0.25,
+            "AttachmentsDamage": 20.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {
+                    "Classname": "RIP_Kevlar",
+                    "Amount": 40,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Plastik",
+                    "Amount": 20,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "Amount": 30,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_K2",
+                    "Amount": 30,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_SandpaperS",
+                    "Amount": 10,
+                    "Destroy": false,
+                    "HealthChange": 0.0
+                }
+            ],
+            "RequiredTools": [
+                "HP_Vise",
+                "HP_Grinde"
+            ],
+            "Tables": []
+        },
+        {
+            "Result": "NBCJacketYellow",
+            "ResultCount": 1,
+            "RecipeName": "Куртка химзащиты",
+            "CraftTime": 90.0,
+            "SuccessChance": 0.2,
+            "AttachmentsDamage": 25.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {
+                    "Classname": "RIP_Kevlar",
+                    "Amount": 80,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Plastik",
+                    "Amount": 30,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "Amount": 50,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_K2",
+                    "Amount": 40,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Glue",
+                    "Amount": 4,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_LeatherGlue",
+                    "Amount": 3,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
+            ],
+            "RequiredTools": [
+                "HP_Vise",
+                "HP_Grinde"
+            ],
+            "Tables": []
+        },
+        {
+            "Result": "NBCGlovesYellow",
+            "ResultCount": 1,
+            "RecipeName": "Перчатки химзащиты",
+            "CraftTime": 50.0,
+            "SuccessChance": 0.3,
+            "AttachmentsDamage": 15.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {
+                    "Classname": "RIP_Kevlar",
+                    "Amount": 25,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Plastik",
+                    "Amount": 15,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "Amount": 20,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_K2",
+                    "Amount": 15,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_LeatherGlue",
+                    "Amount": 2,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
+            ],
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "Tables": []
+        },
+        {
+            "Result": "NBCBootsYellow",
+            "ResultCount": 1,
+            "RecipeName": "Сапоги химзащиты",
+            "CraftTime": 60.0,
+            "SuccessChance": 0.25,
+            "AttachmentsDamage": 18.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {
+                    "Classname": "RIP_Kevlar",
+                    "Amount": 35,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Plastik",
+                    "Amount": 20,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "Amount": 40,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_K2",
+                    "Amount": 20,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_bolts",
+                    "Amount": 6,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_nuts",
+                    "Amount": 6,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
+            ],
+            "RequiredTools": [
+                "HP_Vise",
+                "HP_napilnik"
+            ],
+            "Tables": []
+        },
+        {
+            "Result": "NBCPantsYellow",
+            "ResultCount": 1,
+            "RecipeName": "Штаны химзащиты",
+            "CraftTime": 80.0,
+            "SuccessChance": 0.22,
+            "AttachmentsDamage": 22.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {
+                    "Classname": "RIP_Kevlar",
+                    "Amount": 60,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Plastik",
+                    "Amount": 25,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "Amount": 40,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_K2",
+                    "Amount": 30,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Glue",
+                    "Amount": 3,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_LeatherGlue",
+                    "Amount": 2,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
+            ],
+            "RequiredTools": [
+                "HP_Vise",
+                "HP_Grinde"
+            ],
+            "Tables": []
+        },
+        {
+            "Result": "AirborneMask",
+            "ResultCount": 1,
+            "RecipeName": "Противогаз химзащиты",
+            "CraftTime": 85.0,
+            "SuccessChance": 0.2,
+            "AttachmentsDamage": 25.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {
+                    "Classname": "RIP_Kevlar",
+                    "Amount": 30,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Plastik",
+                    "Amount": 25,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "Amount": 40,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_GlassPK",
+                    "Amount": 2,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_K2",
+                    "Amount": 50,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_H2SO4",
+                    "Amount": 30,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Semiconds",
+                    "Amount": 8,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
+            ],
+            "RequiredTools": [
+                "HP_Vise",
+                "HP_Payalnik"
+            ],
+            "Tables": []
+        }
+    ]
+}

@@ -1,0 +1,290 @@
+{
+    "CategoryName": "AutoParts",
+    "CategoryDisplay": "Автозапчасти",
+    "RequiredLevel": 0,
+    "Recipes": [
+        {
+            "Result": "SparkPlug",
+            "ResultCount": 1,
+            "RecipeName": "Свеча зажигания",
+            "CraftTime": 15.0,
+            "SuccessChance": 0.65,
+            "AttachmentsDamage": 10.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {
+                    "Classname": "RIP_bolts",
+                    "Amount": 3,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_CopperCoil",
+                    "Amount": 10,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Textolit",
+                    "Amount": 1,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_SandpaperS",
+                    "Amount": 8,
+                    "Destroy": false,
+                    "HealthChange": 0.0
+                }
+            ],
+            "RequiredTools": [
+                "HP_napilnik"
+            ],
+            "Tables": []
+        },
+        {
+            "Result": "CarBattery",
+            "ResultCount": 1,
+            "RecipeName": "Автомобильный аккумулятор",
+            "CraftTime": 45.0,
+            "SuccessChance": 0.4,
+            "AttachmentsDamage": 20.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {
+                    "Classname": "RIP_Plastik",
+                    "Amount": 15,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_LeadSheets",
+                    "Amount": 2,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_H2SO4",
+                    "Amount": 500,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Connectors",
+                    "Amount": 10,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "Amount": 50,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Rosin",
+                    "Amount": 75,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Wire",
+                    "Amount": 35,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "Amount": 80,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_SolderCoil",
+                    "Amount": 20,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
+            ],
+            "RequiredTools": [
+                "HP_Vise",
+                "HP_Payalnik"
+            ],
+            "Tables": []
+        },
+        {
+            "Result": "TruckBattery",
+            "ResultCount": 1,
+            "RecipeName": "Грузовой аккумулятор",
+            "CraftTime": 70.0,
+            "SuccessChance": 0.25,
+            "AttachmentsDamage": 35.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {
+                    "Classname": "RIP_Plastik",
+                    "Amount": 25,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_LeadSheets",
+                    "Amount": 5,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_H2SO4",
+                    "Amount": 1000,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Connectors",
+                    "Amount": 20,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Fuses",
+                    "Amount": 4,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "Amount": 150,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Rosin",
+                    "Amount": 75,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Wire",
+                    "Amount": 70,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "Amount": 200,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_SolderCoil",
+                    "Amount": 50,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
+            ],
+            "RequiredTools": [
+                "HP_Vise",
+                "HP_Payalnik"
+            ],
+            "Tables": []
+        },
+        {
+            "Result": "CarRadiator",
+            "ResultCount": 1,
+            "RecipeName": "Автомобильный радиатор",
+            "CraftTime": 80.0,
+            "SuccessChance": 0.35,
+            "AttachmentsDamage": 25.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {
+                    "Classname": "RIP_CopperCoil",
+                    "Amount": 80,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Plastik",
+                    "Amount": 30,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "Amount": 60,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_bolts",
+                    "Amount": 10,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_nuts",
+                    "Amount": 10,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
+            ],
+            "RequiredTools": [
+                "HP_Vise",
+                "HP_napilnik"
+            ],
+            "Tables": []
+        },
+        {
+            "Result": "HeadlightH7",
+            "ResultCount": 1,
+            "RecipeName": "Автомобильная лампа",
+            "CraftTime": 35.0,
+            "SuccessChance": 0.55,
+            "AttachmentsDamage": 12.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {
+                    "Classname": "RIP_GlassPK",
+                    "Amount": 2,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Plastik",
+                    "Amount": 10,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_CopperCoil",
+                    "Amount": 20,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "Amount": 15,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_bolts",
+                    "Amount": 4,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_nuts",
+                    "Amount": 4,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
+            ],
+            "RequiredTools": [
+                "HP_Vise",
+                "HP_napilnik"
+            ],
+            "Tables": []
+        }
+    ]
+}

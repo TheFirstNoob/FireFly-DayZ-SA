@@ -1,0 +1,218 @@
+{
+    "CategoryName": "Medicine",
+    "CategoryDisplay": "Медицина",
+    "RequiredLevel": 0,
+    "Recipes": [
+        {
+            "Result": "DisinfectantAlcohol",
+            "ResultCount": 1,
+            "RecipeName": "Алкогольная настойка",
+            "CraftTime": 20.0,
+            "SuccessChance": 0.65,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {
+                    "Classname": "RIP_GlassPK",
+                    "Amount": 1,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Urotropine",
+                    "Amount": 15,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_K2",
+                    "Amount": 10,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
+            ],
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "Tables": []
+        },
+        {
+            "Result": "DisinfectantSpray",
+            "ResultCount": 1,
+            "RecipeName": "Дезинфицирующий спрей",
+            "CraftTime": 20.0,
+            "SuccessChance": 0.7,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {
+                    "Classname": "RIP_Plastik",
+                    "Amount": 5,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_H2SO4",
+                    "Amount": 20,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_K2",
+                    "Amount": 10,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
+            ],
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "Tables": []
+        },
+        {
+            "Result": "IodineTincture",
+            "ResultCount": 1,
+            "RecipeName": "Настойка йода",
+            "CraftTime": 18.0,
+            "SuccessChance": 0.7,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {
+                    "Classname": "RIP_Plastik",
+                    "Amount": 3,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Urotropine",
+                    "Amount": 10,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_K2",
+                    "Amount": 8,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
+            ],
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "Tables": []
+        },
+        {
+            "Result": "BloodTestKit",
+            "ResultCount": 1,
+            "RecipeName": "Набор для определения группы крови",
+            "CraftTime": 35.0,
+            "SuccessChance": 0.5,
+            "AttachmentsDamage": 10.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {
+                    "Classname": "RIP_Plastik",
+                    "Amount": 8,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_GlassPK",
+                    "Amount": 1,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Urotropine",
+                    "Amount": 20,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Rosin",
+                    "Amount": 15,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_K2",
+                    "Amount": 15,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
+            ],
+            "RequiredTools": [
+                "HP_Vise",
+                "HP_Payalnik"
+            ],
+            "Tables": []
+        },
+        {
+            "Result": "TerjeSyringeEmpty",
+            "ResultCount": 1,
+            "RecipeName": "Пустой шприц",
+            "CraftTime": 10.0,
+            "SuccessChance": 0.75,
+            "AttachmentsDamage": 3.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {
+                    "Classname": "RIP_Plastik",
+                    "Amount": 3,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "Amount": 5,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
+            ],
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "Tables": []
+        },
+        {
+            "Result": "Heatpack",
+            "ResultCount": 1,
+            "RecipeName": "Химическая грелка",
+            "CraftTime": 15.0,
+            "SuccessChance": 0.7,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {
+                    "Classname": "RIP_Plastik",
+                    "Amount": 3,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_K2",
+                    "Amount": 15,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Urotropine",
+                    "Amount": 10,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Rosin",
+                    "Amount": 8,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
+            ],
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "Tables": []
+        }
+    ]
+}

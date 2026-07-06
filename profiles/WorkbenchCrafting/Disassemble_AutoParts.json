@@ -1,0 +1,181 @@
+{
+    "CategoryName": "AutoParts",
+    "CategoryDisplay": "Автозапчасти",
+    "RequiredLevel": 0,
+    "Recipes": [
+        {
+            "ItemToDisassemble": "SparkPlug",
+            "RecipeName": "Разборка Свечи зажигания",
+            "CraftTime": 5.0,
+            "SuccessChance": 0.85,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_napilnik"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_bolts",
+                    "MinAmount": 2,
+                    "MaxAmount": 3
+                },
+                {
+                    "Classname": "RIP_CopperCoil",
+                    "MinAmount": 6,
+                    "MaxAmount": 8
+                },
+                {
+                    "Classname": "RIP_Textolit",
+                    "MinAmount": 0,
+                    "MaxAmount": 1
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "CarBattery",
+            "RecipeName": "Разборка Автомобильного аккумулятора",
+            "CraftTime": 15.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 20.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise",
+                "HP_Payalnik"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_Plastik",
+                    "MinAmount": 9,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "RIP_LeadSheets",
+                    "MinAmount": 1,
+                    "MaxAmount": 2
+                },
+                {
+                    "Classname": "RIP_H2SO4",
+                    "MinAmount": 300,
+                    "MaxAmount": 400
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "MinAmount": 30,
+                    "MaxAmount": 40
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 48,
+                    "MaxAmount": 64
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "TruckBattery",
+            "RecipeName": "Разборка Грузового аккумулятора",
+            "CraftTime": 20.0,
+            "SuccessChance": 0.7,
+            "AttachmentsDamage": 30.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise",
+                "HP_Payalnik"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_Plastik",
+                    "MinAmount": 15,
+                    "MaxAmount": 20
+                },
+                {
+                    "Classname": "RIP_LeadSheets",
+                    "MinAmount": 3,
+                    "MaxAmount": 4
+                },
+                {
+                    "Classname": "RIP_H2SO4",
+                    "MinAmount": 600,
+                    "MaxAmount": 800
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "MinAmount": 90,
+                    "MaxAmount": 120
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 120,
+                    "MaxAmount": 160
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "CarRadiator",
+            "RecipeName": "Разборка Автомобильного радиатора",
+            "CraftTime": 20.0,
+            "SuccessChance": 0.75,
+            "AttachmentsDamage": 20.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise",
+                "HP_napilnik"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_CopperCoil",
+                    "MinAmount": 48,
+                    "MaxAmount": 64
+                },
+                {
+                    "Classname": "RIP_Plastik",
+                    "MinAmount": 18,
+                    "MaxAmount": 24
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "MinAmount": 36,
+                    "MaxAmount": 48
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "HeadlightH7",
+            "RecipeName": "Разборка Автомобильной лампы",
+            "CraftTime": 10.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 10.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise",
+                "HP_napilnik"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_GlassPK",
+                    "MinAmount": 1,
+                    "MaxAmount": 2
+                },
+                {
+                    "Classname": "RIP_Plastik",
+                    "MinAmount": 6,
+                    "MaxAmount": 8
+                },
+                {
+                    "Classname": "RIP_CopperCoil",
+                    "MinAmount": 12,
+                    "MaxAmount": 16
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "MinAmount": 9,
+                    "MaxAmount": 12
+                }
+            ],
+            "Tables": []
+        }
+    ]
+}

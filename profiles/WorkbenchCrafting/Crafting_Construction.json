@@ -1,0 +1,220 @@
+{
+    "CategoryName": "Construction",
+    "CategoryDisplay": "Строительство",
+    "RequiredLevel": 0,
+    "Recipes": [
+        {
+            "Result": "PortableGasLamp",
+            "ResultCount": 1,
+            "RecipeName": "Газовая лампа",
+            "CraftTime": 30.0,
+            "SuccessChance": 0.6,
+            "AttachmentsDamage": 10.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {
+                    "Classname": "RIP_Plastik",
+                    "Amount": 15,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "Amount": 20,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_CopperCoil",
+                    "Amount": 15,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_bolts",
+                    "Amount": 6,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_nuts",
+                    "Amount": 6,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
+            ],
+            "RequiredTools": [
+                "HP_Vise",
+                "HP_napilnik"
+            ],
+            "Tables": []
+        },
+        {
+            "Result": "XmasLights",
+            "ResultCount": 1,
+            "RecipeName": "Праздничные огни",
+            "CraftTime": 35.0,
+            "SuccessChance": 0.55,
+            "AttachmentsDamage": 10.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {
+                    "Classname": "RIP_Plastik",
+                    "Amount": 10,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Wire",
+                    "Amount": 30,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_CivMC",
+                    "Amount": 2,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "Amount": 20,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Rosin",
+                    "Amount": 15,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
+            ],
+            "RequiredTools": [
+                "HP_Payalnik"
+            ],
+            "Tables": []
+        },
+        {
+            "Result": "Spotlight",
+            "ResultCount": 1,
+            "RecipeName": "Строительная лампа",
+            "CraftTime": 50.0,
+            "SuccessChance": 0.45,
+            "AttachmentsDamage": 15.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {
+                    "Classname": "RIP_Plastik",
+                    "Amount": 20,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_CivMC",
+                    "Amount": 3,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Semiconds",
+                    "Amount": 6,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_modCap",
+                    "Amount": 5,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_CopperCoil",
+                    "Amount": 25,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "Amount": 25,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_GlassPK",
+                    "Amount": 2,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Wire",
+                    "Amount": 25,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_SolderCoil",
+                    "Amount": 15,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
+            ],
+            "RequiredTools": [
+                "HP_Payalnik",
+                "HP_Vise"
+            ],
+            "Tables": []
+        },
+        {
+            "Result": "CableReel",
+            "ResultCount": 1,
+            "RecipeName": "Кабельная катушка",
+            "CraftTime": 45.0,
+            "SuccessChance": 0.5,
+            "AttachmentsDamage": 15.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {
+                    "Classname": "RIP_Cable",
+                    "Amount": 15,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Plastik",
+                    "Amount": 15,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "Amount": 30,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Connectors",
+                    "Amount": 6,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_bolts",
+                    "Amount": 8,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_nuts",
+                    "Amount": 8,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
+            ],
+            "RequiredTools": [
+                "HP_Vise",
+                "HP_napilnik"
+            ],
+            "Tables": []
+        }
+    ]
+}
