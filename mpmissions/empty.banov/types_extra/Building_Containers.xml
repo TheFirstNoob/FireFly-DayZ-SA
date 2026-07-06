@@ -124,7 +124,7 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
 	</type>
-	
+
 	<type name="CarTent">
 		<nominal>10</nominal>
 		<lifetime>3888000</lifetime>
@@ -317,7 +317,7 @@
         <value name="Tier2"/>
         <value name="Tier3"/>
 	</type>
-	
+
 	<type name="SeaChest">
 		<nominal>12</nominal>
 		<lifetime>3888000</lifetime>
@@ -337,7 +337,7 @@
         <value name="Tier3"/>
 		<value name="Tier4"/>
 	</type>
-	
+
 	<type name="WoodenCrate">
 		<nominal>0</nominal>
 		<lifetime>3888000</lifetime>
@@ -349,7 +349,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="containers"/>
 	</type>
-	
+
 	<type name="SmallProtectorCase">
 		<nominal>30</nominal>
 		<lifetime>7200</lifetime>
