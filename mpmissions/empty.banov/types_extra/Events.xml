@@ -170,10 +170,8 @@
 		<tag name="ground"/>
         <tag name="shelves"/>
 		<tag name="civilian"/>
-		<usage name="SeasonalEvent"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
 	</type>
 	
 	<type name="FireworksLauncher">
@@ -235,7 +233,8 @@
 		<tag name="ground"/>
         <tag name="shelves"/>
 		<tag name="civilian"/>
-		<usage name="Historical"/>
+		<usage name="Military"/>
+		<usage name="Town"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
@@ -254,7 +253,8 @@
 		<tag name="ground"/>
         <tag name="shelves"/>
 		<tag name="civilian"/>
-		<usage name="Historical"/>
+		<usage name="Military"/>
+		<usage name="Town"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
@@ -271,7 +271,8 @@
 		<category name="clothes"/>
 		<tag name="floor"/>
 		<tag name="ground"/>
-		<usage name="Historical"/>
+		<usage name="Military"/>
+		<usage name="Town"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
@@ -288,7 +289,8 @@
 		<category name="clothes"/>
 		<tag name="floor"/>
 		<tag name="ground"/>
-		<usage name="Historical"/>
+		<usage name="Military"/>
+		<usage name="Town"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
@@ -305,7 +307,8 @@
 		<category name="clothes"/>
 		<tag name="floor"/>
 		<tag name="ground"/>
-		<usage name="Historical"/>
+		<usage name="Military"/>
+		<usage name="Town"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
@@ -322,7 +325,8 @@
 		<category name="clothes"/>
 		<tag name="floor"/>
 		<tag name="ground"/>
-		<usage name="Historical"/>
+		<usage name="Military"/>
+		<usage name="Town"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
@@ -339,7 +343,8 @@
 		<category name="clothes"/>
 		<tag name="floor"/>
 		<tag name="ground"/>
-		<usage name="Historical"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
@@ -356,7 +361,8 @@
 		<category name="clothes"/>
 		<tag name="floor"/>
 		<tag name="ground"/>
-		<usage name="Historical"/>
+		<usage name="Military"/>
+		<usage name="Town"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>

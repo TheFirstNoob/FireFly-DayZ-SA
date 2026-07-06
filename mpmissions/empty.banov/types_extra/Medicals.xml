@@ -8,13 +8,13 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-        <tag name="shelves"/>
-		<tag name="civilian"/>
-		<usage name="Medic"/>
-        <value name="Tier4"/>
-        <value name="Tier5"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="shelves" />
+		<tag name="civilian" />
+		<usage name="Medic" />
+		<value name="Tier4" />
+		<value name="Tier5" />
 	</type>
 	<type name="BandageDressing">
 		<nominal>60</nominal>
@@ -24,30 +24,29 @@
 		<quantmin>25</quantmin>
 		<quantmax>50</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-		<tag name="civilian"/>
-		<usage name="Military"/>
-        <usage name="Police"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
-        <usage name="Industrial"/>
-        <usage name="Farm"/>
-        <usage name="Coast"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
-        <usage name="Office"/>
-        <usage name="School"/>
-        <usage name="Prison"/>
-        <usage name="Lunapark"/>
-		<usage name="Historical"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="civilian" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Medic" />
+		<usage name="Firefighter" />
+		<usage name="Industrial" />
+		<usage name="Farm" />
+		<usage name="Coast" />
+		<usage name="Town" />
+		<usage name="Village" />
+		<usage name="Hunting" />
+		<usage name="Office" />
+		<usage name="School" />
+		<usage name="Prison" />
+		<usage name="Lunapark" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
 	</type>
 	<type name="BloodBagEmpty">
 		<nominal>30</nominal>
@@ -57,17 +56,17 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Medic"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Medic" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
 	</type>
 	<type name="BloodBagFull">
 		<nominal>0</nominal>
@@ -77,15 +76,15 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-		<category name="tools"/>
-        <tag name="shelves"/>
-		<tag name="civilian"/>
-		<usage name="Medic"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+		<category name="tools" />
+		<tag name="shelves" />
+		<tag name="civilian" />
+		<usage name="Medic" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
 	</type>
 	<type name="BloodBagIV">
 		<nominal>0</nominal>
@@ -95,8 +94,8 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-		<category name="tools"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+		<category name="tools" />
 	</type>
 	<type name="BloodTestKit">
 		<nominal>100</nominal>
@@ -106,31 +105,30 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Military"/>
-        <usage name="Police"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
-        <usage name="Industrial"/>
-        <usage name="Farm"/>
-        <usage name="Coast"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
-        <usage name="Office"/>
-        <usage name="School"/>
-        <usage name="Prison"/>
-        <usage name="Lunapark"/>
-		<usage name="Historical"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Medic" />
+		<usage name="Firefighter" />
+		<usage name="Industrial" />
+		<usage name="Farm" />
+		<usage name="Coast" />
+		<usage name="Town" />
+		<usage name="Village" />
+		<usage name="Hunting" />
+		<usage name="Office" />
+		<usage name="School" />
+		<usage name="Prison" />
+		<usage name="Lunapark" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
 	</type>
 	<type name="SalineBag">
 		<nominal>50</nominal>
@@ -140,15 +138,15 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-        <tag name="shelves"/>
-		<tag name="civilian"/>
-		<usage name="Medic"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="shelves" />
+		<tag name="civilian" />
+		<usage name="Medic" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
 	</type>
 	<type name="StartKitIV">
 		<nominal>25</nominal>
@@ -158,21 +156,21 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Medic"/>
-		<usage name="Military"/>
-		<usage name="Police"/>
-		<usage name="Town"/>
-		<usage name="Firefighter"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Medic" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Town" />
+		<usage name="Firefighter" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
 	</type>
 	<type name="SalineBagIV">
 		<nominal>0</nominal>
@@ -182,8 +180,8 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-		<category name="tools"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+		<category name="tools" />
 	</type>
 	<type name="CharcoalTablets">
 		<nominal>60</nominal>
@@ -193,31 +191,30 @@
 		<quantmin>9</quantmin>
 		<quantmax>50</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Military"/>
-        <usage name="Police"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
-        <usage name="Industrial"/>
-        <usage name="Farm"/>
-        <usage name="Coast"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
-        <usage name="Office"/>
-        <usage name="School"/>
-        <usage name="Prison"/>
-        <usage name="Lunapark"/>
-		<usage name="Historical"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Medic" />
+		<usage name="Firefighter" />
+		<usage name="Industrial" />
+		<usage name="Farm" />
+		<usage name="Coast" />
+		<usage name="Town" />
+		<usage name="Village" />
+		<usage name="Hunting" />
+		<usage name="Office" />
+		<usage name="School" />
+		<usage name="Prison" />
+		<usage name="Lunapark" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
 	</type>
 	<type name="ChelatingTablets">
 		<nominal>40</nominal>
@@ -227,17 +224,17 @@
 		<quantmin>5</quantmin>
 		<quantmax>25</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Medic"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Medic" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
 	</type>
 	<type name="DisinfectantAlcohol">
 		<nominal>80</nominal>
@@ -247,31 +244,30 @@
 		<quantmin>10</quantmin>
 		<quantmax>75</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Military"/>
-        <usage name="Police"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
-        <usage name="Industrial"/>
-        <usage name="Farm"/>
-        <usage name="Coast"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
-        <usage name="Office"/>
-        <usage name="School"/>
-        <usage name="Prison"/>
-        <usage name="Lunapark"/>
-		<usage name="Historical"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Medic" />
+		<usage name="Firefighter" />
+		<usage name="Industrial" />
+		<usage name="Farm" />
+		<usage name="Coast" />
+		<usage name="Town" />
+		<usage name="Village" />
+		<usage name="Hunting" />
+		<usage name="Office" />
+		<usage name="School" />
+		<usage name="Prison" />
+		<usage name="Lunapark" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
 	</type>
 	<type name="DisinfectantSpray">
 		<nominal>50</nominal>
@@ -281,21 +277,21 @@
 		<quantmin>10</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Medic"/>
-		<usage name="Military"/>
-		<usage name="Police"/>
-		<usage name="Town"/>
-		<usage name="Firefighter"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Medic" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Town" />
+		<usage name="Firefighter" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
 	</type>
 	<type name="Epinephrine">
 		<nominal>45</nominal>
@@ -305,21 +301,21 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Medic"/>
-		<usage name="Military"/>
-		<usage name="Firefighter"/>
-		<usage name="Police"/>
-		<usage name="Prison"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Medic" />
+		<usage name="Military" />
+		<usage name="Firefighter" />
+		<usage name="Police" />
+		<usage name="Prison" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
 	</type>
 	<type name="Heatpack">
 		<nominal>200</nominal>
@@ -329,31 +325,30 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Military"/>
-        <usage name="Police"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
-        <usage name="Industrial"/>
-        <usage name="Farm"/>
-        <usage name="Coast"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
-        <usage name="Office"/>
-        <usage name="School"/>
-        <usage name="Prison"/>
-        <usage name="Lunapark"/>
-		<usage name="Historical"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Medic" />
+		<usage name="Firefighter" />
+		<usage name="Industrial" />
+		<usage name="Farm" />
+		<usage name="Coast" />
+		<usage name="Town" />
+		<usage name="Village" />
+		<usage name="Hunting" />
+		<usage name="Office" />
+		<usage name="School" />
+		<usage name="Prison" />
+		<usage name="Lunapark" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
 	</type>
 	<type name="IodineTincture">
 		<nominal>60</nominal>
@@ -363,32 +358,30 @@
 		<quantmin>10</quantmin>
 		<quantmax>45</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Military"/>
-        <usage name="Police"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
-        <usage name="Industrial"/>
-        <usage name="Farm"/>
-        <usage name="Coast"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
-        <usage name="Office"/>
-        <usage name="School"/>
-        <usage name="Prison"/>
-        <usage name="Lunapark"/>
-        <usage name="SeasonalEvent"/>
-		<usage name="Historical"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Medic" />
+		<usage name="Firefighter" />
+		<usage name="Industrial" />
+		<usage name="Farm" />
+		<usage name="Coast" />
+		<usage name="Town" />
+		<usage name="Village" />
+		<usage name="Hunting" />
+		<usage name="Office" />
+		<usage name="School" />
+		<usage name="Prison" />
+		<usage name="Lunapark" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
 	</type>
 	<type name="Morphine">
 		<nominal>45</nominal>
@@ -398,20 +391,20 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Medic"/>
-		<usage name="Military"/>
-		<usage name="Firefighter"/>
-		<usage name="Police"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Medic" />
+		<usage name="Military" />
+		<usage name="Firefighter" />
+		<usage name="Police" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
 	</type>
 	<type name="PainkillerTablets">
 		<nominal>30</nominal>
@@ -421,31 +414,30 @@
 		<quantmin>5</quantmin>
 		<quantmax>50</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Military"/>
-        <usage name="Police"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
-        <usage name="Industrial"/>
-        <usage name="Farm"/>
-        <usage name="Coast"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
-        <usage name="Office"/>
-        <usage name="School"/>
-        <usage name="Prison"/>
-        <usage name="Lunapark"/>
-		<usage name="Historical"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Medic" />
+		<usage name="Firefighter" />
+		<usage name="Industrial" />
+		<usage name="Farm" />
+		<usage name="Coast" />
+		<usage name="Town" />
+		<usage name="Village" />
+		<usage name="Hunting" />
+		<usage name="Office" />
+		<usage name="School" />
+		<usage name="Prison" />
+		<usage name="Lunapark" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
 	</type>
 	<type name="PurificationTablets">
 		<nominal>100</nominal>
@@ -455,31 +447,30 @@
 		<quantmin>10</quantmin>
 		<quantmax>50</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Military"/>
-        <usage name="Police"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
-        <usage name="Industrial"/>
-        <usage name="Farm"/>
-        <usage name="Coast"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
-        <usage name="Office"/>
-        <usage name="School"/>
-        <usage name="Prison"/>
-        <usage name="Lunapark"/>
-		<usage name="Historical"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Medic" />
+		<usage name="Firefighter" />
+		<usage name="Industrial" />
+		<usage name="Farm" />
+		<usage name="Coast" />
+		<usage name="Town" />
+		<usage name="Village" />
+		<usage name="Hunting" />
+		<usage name="Office" />
+		<usage name="School" />
+		<usage name="Prison" />
+		<usage name="Lunapark" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
 	</type>
 	<type name="TetracyclineAntibiotics">
 		<nominal>40</nominal>
@@ -489,18 +480,18 @@
 		<quantmin>5</quantmin>
 		<quantmax>30</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Medic"/>
-		<usage name="Military"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Medic" />
+		<usage name="Military" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
 	</type>
 	<type name="VitaminBottle">
 		<nominal>60</nominal>
@@ -510,31 +501,30 @@
 		<quantmin>2</quantmin>
 		<quantmax>10</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Military"/>
-        <usage name="Police"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
-        <usage name="Industrial"/>
-        <usage name="Farm"/>
-        <usage name="Coast"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
-        <usage name="Office"/>
-        <usage name="School"/>
-        <usage name="Prison"/>
-        <usage name="Lunapark"/>
-		<usage name="Historical"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Medic" />
+		<usage name="Firefighter" />
+		<usage name="Industrial" />
+		<usage name="Farm" />
+		<usage name="Coast" />
+		<usage name="Town" />
+		<usage name="Village" />
+		<usage name="Hunting" />
+		<usage name="Office" />
+		<usage name="School" />
+		<usage name="Prison" />
+		<usage name="Lunapark" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
 	</type>
 	<type name="Thermometer">
 		<nominal>30</nominal>
@@ -544,24 +534,23 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-        <tag name="shelves"/>
-		<tag name="civilian"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
-        <usage name="Industrial"/>
-        <usage name="Farm"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Office"/>
-        <usage name="School"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="shelves" />
+		<tag name="civilian" />
+		<usage name="Medic" />
+		<usage name="Firefighter" />
+		<usage name="Industrial" />
+		<usage name="Farm" />
+		<usage name="Town" />
+		<usage name="Village" />
+		<usage name="Office" />
+		<usage name="School" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
 	</type>
-
 	<type name="FirstAidKit">
 		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
@@ -570,21 +559,20 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="containers"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Medic"/>
-		<usage name="Military"/>
-		<usage name="Firefighter"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="containers" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Medic" />
+		<usage name="Military" />
+		<usage name="Firefighter" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
 	</type>
-
 	<type name="Splint">
 		<nominal>0</nominal>
 		<lifetime>3600</lifetime>
@@ -593,8 +581,8 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-		<category name="clothes"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+		<category name="clothes" />
 	</type>
 	<type name="Splint_Applied">
 		<nominal>0</nominal>
@@ -604,492 +592,486 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-		<category name="clothes"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+		<category name="clothes" />
 	</type>
-
-	<!-- Terje -->
 	<type name="TerjeBandageHemostatic">
-        <nominal>40</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1460</restock>
-        <min>40</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <tag name="floor"/>
-        <tag name="shelves"/>
-		<tag name="civilian"/>
-		<usage name="Military"/>
-        <usage name="Police"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
-        <usage name="Industrial"/>
-        <usage name="Hunting"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
+		<nominal>40</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>40</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="civilian" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Medic" />
+		<usage name="Firefighter" />
+		<usage name="Industrial" />
+		<usage name="Hunting" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+	</type>
 	<type name="TerjeSurgicalKit">
-        <nominal>30</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1460</restock>
-        <min>30</min>
-        <quantmin>20</quantmin>
-        <quantmax>60</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <tag name="floor"/>
-        <tag name="ground"/>
-        <tag name="shelves"/>
-		<tag name="civilian"/>
-        <usage name="Police"/>
-        <usage name="Military"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-    </type>
-    <type name="TerjeSurgicalTool_White">
-        <nominal>80</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1460</restock>
-        <min>80</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <tag name="floor"/>
-        <tag name="ground"/>
-        <tag name="shelves"/>
-		<tag name="civilian"/>
-        <usage name="Police"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
-        <usage name="Industrial"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-    </type>
-    <type name="TerjeSurgicalTool_Ceramic">
-        <nominal>80</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1460</restock>
-        <min>80</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <tag name="floor"/>
-        <tag name="ground"/>
-        <tag name="shelves"/>
-		<tag name="civilian"/>
-        <usage name="Police"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
-        <usage name="Industrial"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-    </type>
+		<nominal>30</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>30</min>
+		<quantmin>20</quantmin>
+		<quantmax>60</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="ground" />
+		<tag name="shelves" />
+		<tag name="civilian" />
+		<usage name="Police" />
+		<usage name="Military" />
+		<usage name="Medic" />
+		<usage name="Firefighter" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+	</type>
+	<type name="TerjeSurgicalTool_White">
+		<nominal>80</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>80</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="ground" />
+		<tag name="shelves" />
+		<tag name="civilian" />
+		<usage name="Police" />
+		<usage name="Medic" />
+		<usage name="Firefighter" />
+		<usage name="Industrial" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+	</type>
+	<type name="TerjeSurgicalTool_Ceramic">
+		<nominal>80</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>80</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="ground" />
+		<tag name="shelves" />
+		<tag name="civilian" />
+		<usage name="Police" />
+		<usage name="Medic" />
+		<usage name="Firefighter" />
+		<usage name="Industrial" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+	</type>
 	<type name="TerjeFirstAidKitAdvance_Black">
-        <nominal>1</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1460</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-        <category name="containers"/>
-        <tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Underground"/>
-		<usage name="Medic"/>
-		<usage name="Military"/>
-		<usage name="Police"/>
-		<usage name="Industrial"/>
-		<usage name="Village"/>
-		<usage name="ContaminatedArea"/>
-		<value name="Tier5"/>
-    </type>
-    <type name="TerjeFirstAidKitAdvance_Brown">
-        <nominal>1</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1460</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-        <category name="containers"/>
-        <tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Underground"/>
-		<usage name="Medic"/>
-		<usage name="Military"/>
-		<usage name="Police"/>
-		<usage name="Industrial"/>
-		<usage name="Village"/>
-		<usage name="ContaminatedArea"/>
-		<value name="Tier5"/>
-    </type>
-    <type name="TerjeFirstAidKitAdvance_Green">
-        <nominal>1</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1460</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-        <category name="containers"/>
-        <tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Underground"/>
-		<usage name="Medic"/>
-		<usage name="Military"/>
-		<usage name="Police"/>
-		<usage name="Industrial"/>
-		<usage name="Village"/>
-		<usage name="ContaminatedArea"/>
-		<value name="Tier5"/>
-    </type>
-    <type name="TerjeFirstAidKitAdvance_Camo">
-        <nominal>1</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1460</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-        <category name="containers"/>
-        <tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Underground"/>
-		<usage name="Medic"/>
-		<usage name="Military"/>
-		<usage name="Police"/>
-		<usage name="Industrial"/>
-		<usage name="Village"/>
-		<usage name="ContaminatedArea"/>
-		<value name="Tier5"/>
-    </type>
-    <type name="TerjeFirstAidKitIndividual_Black">
-        <nominal>3</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1460</restock>
-        <min>3</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-        <category name="containers"/>
-        <tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Underground"/>
-		<usage name="Medic"/>
-		<usage name="Military"/>
-		<usage name="Police"/>
-		<usage name="Industrial"/>
-		<usage name="Village"/>
-		<usage name="ContaminatedArea"/>
-		<value name="Tier5"/>
-    </type>
-    <type name="TerjeFirstAidKitIndividual_Brown">
-        <nominal>3</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1460</restock>
-        <min>3</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-        <category name="containers"/>
-        <tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Underground"/>
-		<usage name="Medic"/>
-		<usage name="Military"/>
-		<usage name="Police"/>
-		<usage name="Industrial"/>
-		<usage name="Village"/>
-		<usage name="ContaminatedArea"/>
-		<value name="Tier5"/>
-    </type>
-    <type name="TerjeFirstAidKitIndividual_Green">
-        <nominal>3</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1460</restock>
-        <min>3</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-        <category name="containers"/>
-        <tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Underground"/>
-		<usage name="Medic"/>
-		<usage name="Military"/>
-		<usage name="Police"/>
-		<usage name="Industrial"/>
-		<usage name="Village"/>
-		<usage name="ContaminatedArea"/>
-		<value name="Tier5"/>
-    </type>
-    <type name="TerjeFirstAidKitIndividual_Camo">
-        <nominal>3</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1460</restock>
-        <min>3</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-        <category name="containers"/>
-        <tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Underground"/>
-		<usage name="Medic"/>
-		<usage name="Military"/>
-		<usage name="Police"/>
-		<usage name="Industrial"/>
-		<usage name="Village"/>
-		<usage name="ContaminatedArea"/>
-		<value name="Tier5"/>
-    </type>
-	
+		<nominal>1</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
+		<category name="containers" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Underground" />
+		<usage name="Medic" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Industrial" />
+		<usage name="Village" />
+		<usage name="ContaminatedArea" />
+		<value name="Tier5" />
+	</type>
+	<type name="TerjeFirstAidKitAdvance_Brown">
+		<nominal>1</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
+		<category name="containers" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Underground" />
+		<usage name="Medic" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Industrial" />
+		<usage name="Village" />
+		<usage name="ContaminatedArea" />
+		<value name="Tier5" />
+	</type>
+	<type name="TerjeFirstAidKitAdvance_Green">
+		<nominal>1</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
+		<category name="containers" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Underground" />
+		<usage name="Medic" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Industrial" />
+		<usage name="Village" />
+		<usage name="ContaminatedArea" />
+		<value name="Tier5" />
+	</type>
+	<type name="TerjeFirstAidKitAdvance_Camo">
+		<nominal>1</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
+		<category name="containers" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Underground" />
+		<usage name="Medic" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Industrial" />
+		<usage name="Village" />
+		<usage name="ContaminatedArea" />
+		<value name="Tier5" />
+	</type>
+	<type name="TerjeFirstAidKitIndividual_Black">
+		<nominal>3</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>3</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
+		<category name="containers" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Underground" />
+		<usage name="Medic" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Industrial" />
+		<usage name="Village" />
+		<usage name="ContaminatedArea" />
+		<value name="Tier5" />
+	</type>
+	<type name="TerjeFirstAidKitIndividual_Brown">
+		<nominal>3</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>3</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
+		<category name="containers" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Underground" />
+		<usage name="Medic" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Industrial" />
+		<usage name="Village" />
+		<usage name="ContaminatedArea" />
+		<value name="Tier5" />
+	</type>
+	<type name="TerjeFirstAidKitIndividual_Green">
+		<nominal>3</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>3</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
+		<category name="containers" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Underground" />
+		<usage name="Medic" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Industrial" />
+		<usage name="Village" />
+		<usage name="ContaminatedArea" />
+		<value name="Tier5" />
+	</type>
+	<type name="TerjeFirstAidKitIndividual_Camo">
+		<nominal>3</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>3</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
+		<category name="containers" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Underground" />
+		<usage name="Medic" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Industrial" />
+		<usage name="Village" />
+		<usage name="ContaminatedArea" />
+		<value name="Tier5" />
+	</type>
 	<type name="TerjeFirstAidKitMedium">
-        <nominal>8</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1460</restock>
-        <min>8</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="containers"/>
-        <tag name="floor"/>
-        <tag name="ground"/>
-        <tag name="shelves"/>
-		<tag name="civilian"/>
-        <usage name="Medic"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
-    </type>
-    <type name="TerjeFirstAidKitLarge">
-        <nominal>5</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1460</restock>
-        <min>5</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-        <category name="containers"/>
-        <tag name="floor"/>
-        <tag name="ground"/>
-        <tag name="shelves"/>
-		<tag name="civilian"/>
-        <usage name="Police"/>
-        <usage name="Military"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
-		<value name="Tier4"/>
-    </type>
-
+		<nominal>8</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>8</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="containers" />
+		<tag name="floor" />
+		<tag name="ground" />
+		<tag name="shelves" />
+		<tag name="civilian" />
+		<usage name="Medic" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+	</type>
+	<type name="TerjeFirstAidKitLarge">
+		<nominal>5</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>5</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
+		<category name="containers" />
+		<tag name="floor" />
+		<tag name="ground" />
+		<tag name="shelves" />
+		<tag name="civilian" />
+		<usage name="Police" />
+		<usage name="Military" />
+		<usage name="Medic" />
+		<usage name="Firefighter" />
+		<value name="Tier4" />
+	</type>
 	<type name="TerjeSyringeNew">
-        <nominal>20</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1460</restock>
-        <min>20</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <tag name="floor"/>
-        <tag name="ground"/>
-        <tag name="shelves"/>
-		<tag name="civilian"/>
-        <usage name="Medic"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
-    </type>
-    <type name="TerjeSyringeEmpty">
-        <nominal>50</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1460</restock>
-        <min>50</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <tag name="floor"/>
-        <tag name="ground"/>
-        <tag name="shelves"/>
-		<tag name="civilian"/>
-        <usage name="Military"/>
-        <usage name="Police"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
-        <usage name="Industrial"/>
-        <usage name="Farm"/>
-        <usage name="Coast"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
-        <usage name="Office"/>
-        <usage name="School"/>
-        <usage name="Prison"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
-    </type>
-
+		<nominal>20</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>20</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="ground" />
+		<tag name="shelves" />
+		<tag name="civilian" />
+		<usage name="Medic" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+	</type>
+	<type name="TerjeSyringeEmpty">
+		<nominal>50</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>50</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="ground" />
+		<tag name="shelves" />
+		<tag name="civilian" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Medic" />
+		<usage name="Firefighter" />
+		<usage name="Industrial" />
+		<usage name="Farm" />
+		<usage name="Coast" />
+		<usage name="Town" />
+		<usage name="Village" />
+		<usage name="Hunting" />
+		<usage name="Office" />
+		<usage name="School" />
+		<usage name="Prison" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+	</type>
 	<type name="TerjeSalveFinalgon">
-        <nominal>20</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1460</restock>
-        <min>20</min>
-        <quantmin>10</quantmin>
-        <quantmax>50</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <tag name="floor"/>
-        <tag name="ground"/>
-        <tag name="shelves"/>
-		<tag name="civilian"/>
-        <usage name="Military"/>
-        <usage name="Police"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
-        <usage name="Industrial"/>
-        <usage name="Farm"/>
-        <usage name="Coast"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
-        <usage name="Office"/>
-        <usage name="School"/>
-        <usage name="Prison"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-    </type>
-    <type name="TerjeSalveCapsicum">
-        <nominal>20</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1460</restock>
-        <min>20</min>
-        <quantmin>10</quantmin>
-        <quantmax>50</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <nominal>20</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1460</restock>
-        <min>20</min>
-        <quantmin>10</quantmin>
-        <quantmax>50</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <tag name="floor"/>
-        <tag name="ground"/>
-        <tag name="shelves"/>
-		<tag name="civilian"/>
-        <usage name="Military"/>
-        <usage name="Police"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
-        <usage name="Industrial"/>
-        <usage name="Farm"/>
-        <usage name="Coast"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
-        <usage name="Office"/>
-        <usage name="School"/>
-        <usage name="Prison"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-    </type>
-    <type name="TerjeSalveViprosal">
-        <nominal>20</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1460</restock>
-        <min>20</min>
-        <quantmin>10</quantmin>
-        <quantmax>50</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <nominal>20</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1460</restock>
-        <min>20</min>
-        <quantmin>10</quantmin>
-        <quantmax>50</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <tag name="floor"/>
-        <tag name="ground"/>
-        <tag name="shelves"/>
-		<tag name="civilian"/>
-        <usage name="Military"/>
-        <usage name="Police"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
-        <usage name="Industrial"/>
-        <usage name="Farm"/>
-        <usage name="Coast"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
-        <usage name="Office"/>
-        <usage name="School"/>
-        <usage name="Prison"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-    </type>
-
+		<nominal>20</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>20</min>
+		<quantmin>10</quantmin>
+		<quantmax>50</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="ground" />
+		<tag name="shelves" />
+		<tag name="civilian" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Medic" />
+		<usage name="Firefighter" />
+		<usage name="Industrial" />
+		<usage name="Farm" />
+		<usage name="Coast" />
+		<usage name="Town" />
+		<usage name="Village" />
+		<usage name="Hunting" />
+		<usage name="Office" />
+		<usage name="School" />
+		<usage name="Prison" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+	</type>
+	<type name="TerjeSalveCapsicum">
+		<nominal>20</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>20</min>
+		<quantmin>10</quantmin>
+		<quantmax>50</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<nominal>20</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>20</min>
+		<quantmin>10</quantmin>
+		<quantmax>50</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="ground" />
+		<tag name="shelves" />
+		<tag name="civilian" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Medic" />
+		<usage name="Firefighter" />
+		<usage name="Industrial" />
+		<usage name="Farm" />
+		<usage name="Coast" />
+		<usage name="Town" />
+		<usage name="Village" />
+		<usage name="Hunting" />
+		<usage name="Office" />
+		<usage name="School" />
+		<usage name="Prison" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+	</type>
+	<type name="TerjeSalveViprosal">
+		<nominal>20</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>20</min>
+		<quantmin>10</quantmin>
+		<quantmax>50</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<nominal>20</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>20</min>
+		<quantmin>10</quantmin>
+		<quantmax>50</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="ground" />
+		<tag name="shelves" />
+		<tag name="civilian" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Medic" />
+		<usage name="Firefighter" />
+		<usage name="Industrial" />
+		<usage name="Farm" />
+		<usage name="Coast" />
+		<usage name="Town" />
+		<usage name="Village" />
+		<usage name="Hunting" />
+		<usage name="Office" />
+		<usage name="School" />
+		<usage name="Prison" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+	</type>
 	<type name="TerjePlaster">
 		<nominal>40</nominal>
 		<lifetime>7200</lifetime>
@@ -1098,31 +1080,29 @@
 		<quantmin>10</quantmin>
 		<quantmax>30</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
-        <tag name="shelves"/>
-		<tag name="civilian"/>
-        <usage name="Police"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
-        <usage name="Industrial"/>
-        <usage name="Farm"/>
-        <usage name="Coast"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
-        <usage name="Office"/>
-        <usage name="School"/>
-        <usage name="Prison"/>
-        <usage name="Historical"/>
-        <usage name="Lunapark"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="ground" />
+		<tag name="shelves" />
+		<tag name="civilian" />
+		<usage name="Police" />
+		<usage name="Medic" />
+		<usage name="Firefighter" />
+		<usage name="Industrial" />
+		<usage name="Farm" />
+		<usage name="Coast" />
+		<usage name="Town" />
+		<usage name="Village" />
+		<usage name="Hunting" />
+		<usage name="Office" />
+		<usage name="School" />
+		<usage name="Prison" />
+		<usage name="Lunapark" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
 	</type>
-	
 	<type name="TerjeStethoscope">
 		<nominal>10</nominal>
 		<lifetime>7200</lifetime>
@@ -1131,20 +1111,18 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
-        <tag name="shelves"/>
-		<tag name="civilian"/>
-        <usage name="Medic"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="ground" />
+		<tag name="shelves" />
+		<tag name="civilian" />
+		<usage name="Medic" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
 	</type>
-	
-	<!-- TERJE ТАБЛЕТКИ -->
 	<type name="TerjePillsParacetamol">
 		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
@@ -1153,32 +1131,31 @@
 		<quantmin>10</quantmin>
 		<quantmax>50</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Military"/>
-        <usage name="Police"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
-        <usage name="Industrial"/>
-        <usage name="Farm"/>
-        <usage name="Coast"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
-        <usage name="Office"/>
-        <usage name="School"/>
-        <usage name="Prison"/>
-        <usage name="Lunapark"/>
-		<usage name="Historical"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Medic" />
+		<usage name="Firefighter" />
+		<usage name="Industrial" />
+		<usage name="Farm" />
+		<usage name="Coast" />
+		<usage name="Town" />
+		<usage name="Village" />
+		<usage name="Hunting" />
+		<usage name="Office" />
+		<usage name="School" />
+		<usage name="Prison" />
+		<usage name="Lunapark" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
 	</type>
 	<type name="TerjePillsPiperacylin">
 		<nominal>20</nominal>
@@ -1188,31 +1165,30 @@
 		<quantmin>10</quantmin>
 		<quantmax>50</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Military"/>
-        <usage name="Police"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
-        <usage name="Industrial"/>
-        <usage name="Farm"/>
-        <usage name="Coast"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
-        <usage name="Office"/>
-        <usage name="School"/>
-        <usage name="Prison"/>
-        <usage name="Lunapark"/>
-		<usage name="Historical"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Medic" />
+		<usage name="Firefighter" />
+		<usage name="Industrial" />
+		<usage name="Farm" />
+		<usage name="Coast" />
+		<usage name="Town" />
+		<usage name="Village" />
+		<usage name="Hunting" />
+		<usage name="Office" />
+		<usage name="School" />
+		<usage name="Prison" />
+		<usage name="Lunapark" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
 	</type>
 	<type name="TerjePillsNoopept">
 		<nominal>25</nominal>
@@ -1222,31 +1198,30 @@
 		<quantmin>10</quantmin>
 		<quantmax>50</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Military"/>
-        <usage name="Police"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
-        <usage name="Industrial"/>
-        <usage name="Farm"/>
-        <usage name="Coast"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
-        <usage name="Office"/>
-        <usage name="School"/>
-        <usage name="Prison"/>
-        <usage name="Lunapark"/>
-		<usage name="Historical"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Medic" />
+		<usage name="Firefighter" />
+		<usage name="Industrial" />
+		<usage name="Farm" />
+		<usage name="Coast" />
+		<usage name="Town" />
+		<usage name="Village" />
+		<usage name="Hunting" />
+		<usage name="Office" />
+		<usage name="School" />
+		<usage name="Prison" />
+		<usage name="Lunapark" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
 	</type>
 	<type name="TerjePillsVikasol">
 		<nominal>20</nominal>
@@ -1256,31 +1231,30 @@
 		<quantmin>10</quantmin>
 		<quantmax>50</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Military"/>
-        <usage name="Police"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
-        <usage name="Industrial"/>
-        <usage name="Farm"/>
-        <usage name="Coast"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
-        <usage name="Office"/>
-        <usage name="School"/>
-        <usage name="Prison"/>
-        <usage name="Lunapark"/>
-		<usage name="Historical"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Medic" />
+		<usage name="Firefighter" />
+		<usage name="Industrial" />
+		<usage name="Farm" />
+		<usage name="Coast" />
+		<usage name="Town" />
+		<usage name="Village" />
+		<usage name="Hunting" />
+		<usage name="Office" />
+		<usage name="School" />
+		<usage name="Prison" />
+		<usage name="Lunapark" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
 	</type>
 	<type name="TerjePillsRombiopental">
 		<nominal>20</nominal>
@@ -1290,102 +1264,97 @@
 		<quantmin>10</quantmin>
 		<quantmax>50</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Military"/>
-        <usage name="Police"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
-        <usage name="Industrial"/>
-        <usage name="Farm"/>
-        <usage name="Coast"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
-        <usage name="Office"/>
-        <usage name="School"/>
-        <usage name="Prison"/>
-        <usage name="Lunapark"/>
-		<usage name="Historical"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Medic" />
+		<usage name="Firefighter" />
+		<usage name="Industrial" />
+		<usage name="Farm" />
+		<usage name="Coast" />
+		<usage name="Town" />
+		<usage name="Village" />
+		<usage name="Hunting" />
+		<usage name="Office" />
+		<usage name="School" />
+		<usage name="Prison" />
+		<usage name="Lunapark" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
 	</type>
 	<type name="TerjePillsMagnesiumSulfate">
-        <nominal>20</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1460</restock>
-        <min>20</min>
-        <quantmin>10</quantmin>
-        <quantmax>50</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-        <usage name="Military"/>
-        <usage name="Police"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
-        <usage name="Industrial"/>
-        <usage name="Farm"/>
-        <usage name="Coast"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
-        <usage name="Office"/>
-        <usage name="School"/>
-        <usage name="Prison"/>
-        <usage name="Lunapark"/>
-		<usage name="Historical"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-    <type name="TerjePillsAdepress">
-        <nominal>20</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1460</restock>
-        <min>20</min>
-        <quantmin>10</quantmin>
-        <quantmax>50</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-        <usage name="Military"/>
-        <usage name="Police"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
-        <usage name="Industrial"/>
-        <usage name="Farm"/>
-        <usage name="Coast"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
-        <usage name="Office"/>
-        <usage name="School"/>
-        <usage name="Prison"/>
-        <usage name="Lunapark"/>
-		<usage name="Historical"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-	
-	<!-- TERJE АМПУЛЫ -->
+		<nominal>20</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>20</min>
+		<quantmin>10</quantmin>
+		<quantmax>50</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Medic" />
+		<usage name="Firefighter" />
+		<usage name="Industrial" />
+		<usage name="Farm" />
+		<usage name="Coast" />
+		<usage name="Town" />
+		<usage name="Village" />
+		<usage name="Hunting" />
+		<usage name="Office" />
+		<usage name="School" />
+		<usage name="Prison" />
+		<usage name="Lunapark" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+	</type>
+	<type name="TerjePillsAdepress">
+		<nominal>20</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>20</min>
+		<quantmin>10</quantmin>
+		<quantmax>50</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Medic" />
+		<usage name="Firefighter" />
+		<usage name="Industrial" />
+		<usage name="Farm" />
+		<usage name="Coast" />
+		<usage name="Town" />
+		<usage name="Village" />
+		<usage name="Hunting" />
+		<usage name="Office" />
+		<usage name="School" />
+		<usage name="Prison" />
+		<usage name="Lunapark" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+	</type>
 	<type name="TerjeAmpouleKetarol">
 		<nominal>5</nominal>
 		<lifetime>7200</lifetime>
@@ -1394,18 +1363,18 @@
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Medic"/>
-		<usage name="Military"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Medic" />
+		<usage name="Military" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
 	</type>
 	<type name="TerjeAmpouleFlemoclav">
 		<nominal>5</nominal>
@@ -1415,18 +1384,18 @@
 		<quantmin>40</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Medic"/>
-		<usage name="Military"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Medic" />
+		<usage name="Military" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
 	</type>
 	<type name="TerjeAmpouleMorphine">
 		<nominal>5</nominal>
@@ -1436,18 +1405,18 @@
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Medic"/>
-		<usage name="Military"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Medic" />
+		<usage name="Military" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
 	</type>
 	<type name="TerjeAmpouleHeptral">
 		<nominal>5</nominal>
@@ -1457,18 +1426,18 @@
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Medic"/>
-		<usage name="Military"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Medic" />
+		<usage name="Military" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
 	</type>
 	<type name="TerjeAmpouleMetoclopramid">
 		<nominal>5</nominal>
@@ -1478,18 +1447,18 @@
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Medic"/>
-		<usage name="Military"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Medic" />
+		<usage name="Military" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
 	</type>
 	<type name="TerjeAmpouleActaparoxetine">
 		<nominal>5</nominal>
@@ -1499,18 +1468,18 @@
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Medic"/>
-		<usage name="Military"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Medic" />
+		<usage name="Military" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
 	</type>
 	<type name="TerjeAmpouleAmitriptyline">
 		<nominal>5</nominal>
@@ -1520,18 +1489,18 @@
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Medic"/>
-		<usage name="Military"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Medic" />
+		<usage name="Military" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
 	</type>
 	<type name="TerjeAmpouleRifampicyne">
 		<nominal>5</nominal>
@@ -1541,18 +1510,18 @@
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Medic"/>
-		<usage name="Military"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Medic" />
+		<usage name="Military" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
 	</type>
 	<type name="TerjeAmpouleZivirol">
 		<nominal>3</nominal>
@@ -1562,126 +1531,124 @@
 		<quantmin>20</quantmin>
 		<quantmax>40</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Medic"/>
-		<usage name="Military"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Medic" />
+		<usage name="Military" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
 	</type>
 	<type name="TerjeAmpouleNovacaine">
-        <nominal>5</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1460</restock>
-        <min>5</min>
-        <quantmin>20</quantmin>
-        <quantmax>60</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-        <usage name="Medic"/>
-		<usage name="Military"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-    <type name="TerjeAmpouleNeirox">
-        <nominal>5</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1460</restock>
-        <min>5</min>
-        <quantmin>20</quantmin>
-        <quantmax>60</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-        <usage name="Medic"/>
-		<usage name="Military"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-    <type name="TerjeAmpouleErythropoetin">
-        <nominal>5</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1460</restock>
-        <min>5</min>
-        <quantmin>20</quantmin>
-        <quantmax>60</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-        <usage name="Medic"/>
-		<usage name="Military"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-    <type name="TerjeAmpouleRabinoline">
-        <nominal>5</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1460</restock>
-        <min>5</min>
-        <quantmin>20</quantmin>
-        <quantmax>60</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-        <usage name="Medic"/>
-		<usage name="Military"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-    <type name="TerjeAmpouleNeirocetal">
-        <nominal>5</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1460</restock>
-        <min>5</min>
-        <quantmin>20</quantmin>
-        <quantmax>60</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-        <usage name="Medic"/>
-		<usage name="Military"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-	
-	<!-- TERJE ИНЪЕКТОРЫ -->
+		<nominal>5</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>5</min>
+		<quantmin>20</quantmin>
+		<quantmax>60</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Medic" />
+		<usage name="Military" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+	</type>
+	<type name="TerjeAmpouleNeirox">
+		<nominal>5</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>5</min>
+		<quantmin>20</quantmin>
+		<quantmax>60</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Medic" />
+		<usage name="Military" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+	</type>
+	<type name="TerjeAmpouleErythropoetin">
+		<nominal>5</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>5</min>
+		<quantmin>20</quantmin>
+		<quantmax>60</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Medic" />
+		<usage name="Military" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+	</type>
+	<type name="TerjeAmpouleRabinoline">
+		<nominal>5</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>5</min>
+		<quantmin>20</quantmin>
+		<quantmax>60</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Medic" />
+		<usage name="Military" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+	</type>
+	<type name="TerjeAmpouleNeirocetal">
+		<nominal>5</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>5</min>
+		<quantmin>20</quantmin>
+		<quantmax>60</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Medic" />
+		<usage name="Military" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+	</type>
 	<type name="TerjeInjectorTopoizomeraza">
 		<nominal>3</nominal>
 		<lifetime>7200</lifetime>
@@ -1690,21 +1657,21 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Underground"/>
-		<usage name="Medic"/>
-		<usage name="Military"/>
-		<usage name="Police"/>
-		<usage name="Industrial"/>
-		<usage name="Village"/>
-		<usage name="ContaminatedArea"/>
-		<value name="Tier4"/>
-		<value name="Tier5"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Underground" />
+		<usage name="Medic" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Industrial" />
+		<usage name="Village" />
+		<usage name="ContaminatedArea" />
+		<value name="Tier4" />
+		<value name="Tier5" />
 	</type>
 	<type name="TerjeInjectorErytromixelin">
 		<nominal>3</nominal>
@@ -1714,21 +1681,21 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Underground"/>
-		<usage name="Medic"/>
-		<usage name="Military"/>
-		<usage name="Police"/>
-		<usage name="Industrial"/>
-		<usage name="Village"/>
-		<usage name="ContaminatedArea"/>
-		<value name="Tier4"/>
-		<value name="Tier5"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Underground" />
+		<usage name="Medic" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Industrial" />
+		<usage name="Village" />
+		<usage name="ContaminatedArea" />
+		<value name="Tier4" />
+		<value name="Tier5" />
 	</type>
 	<type name="TerjeInjectorStomaproxidal">
 		<nominal>3</nominal>
@@ -1738,21 +1705,21 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Underground"/>
-		<usage name="Medic"/>
-		<usage name="Military"/>
-		<usage name="Police"/>
-		<usage name="Industrial"/>
-		<usage name="Village"/>
-		<usage name="ContaminatedArea"/>
-		<value name="Tier4"/>
-		<value name="Tier5"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Underground" />
+		<usage name="Medic" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Industrial" />
+		<usage name="Village" />
+		<usage name="ContaminatedArea" />
+		<value name="Tier4" />
+		<value name="Tier5" />
 	</type>
 	<type name="TerjeInjectorRabinucoline">
 		<nominal>3</nominal>
@@ -1762,21 +1729,21 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Underground"/>
-		<usage name="Medic"/>
-		<usage name="Military"/>
-		<usage name="Police"/>
-		<usage name="Industrial"/>
-		<usage name="Village"/>
-		<usage name="ContaminatedArea"/>
-		<value name="Tier4"/>
-		<value name="Tier5"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Underground" />
+		<usage name="Medic" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Industrial" />
+		<usage name="Village" />
+		<usage name="ContaminatedArea" />
+		<value name="Tier4" />
+		<value name="Tier5" />
 	</type>
 	<type name="TerjeInjectorAmfitalicyne">
 		<nominal>3</nominal>
@@ -1786,21 +1753,21 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Underground"/>
-		<usage name="Medic"/>
-		<usage name="Military"/>
-		<usage name="Police"/>
-		<usage name="Industrial"/>
-		<usage name="Village"/>
-		<usage name="ContaminatedArea"/>
-		<value name="Tier4"/>
-		<value name="Tier5"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Underground" />
+		<usage name="Medic" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Industrial" />
+		<usage name="Village" />
+		<usage name="ContaminatedArea" />
+		<value name="Tier4" />
+		<value name="Tier5" />
 	</type>
 	<type name="TerjeInjectorReanimatal">
 		<nominal>3</nominal>
@@ -1810,120 +1777,118 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Underground"/>
-		<usage name="Medic"/>
-		<usage name="Military"/>
-		<usage name="Police"/>
-		<usage name="Industrial"/>
-		<usage name="Village"/>
-		<usage name="ContaminatedArea"/>
-		<value name="Tier4"/>
-		<value name="Tier5"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Underground" />
+		<usage name="Medic" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Industrial" />
+		<usage name="Village" />
+		<usage name="ContaminatedArea" />
+		<value name="Tier4" />
+		<value name="Tier5" />
 	</type>
 	<type name="TerjeInjectorZivirol">
-        <nominal>3</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1460</restock>
-        <min>3</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-        <usage name="Underground"/>
-		<usage name="Medic"/>
-		<usage name="Military"/>
-		<usage name="Police"/>
-		<usage name="Industrial"/>
-		<usage name="Village"/>
-		<usage name="ContaminatedArea"/>
-		<value name="Tier4"/>
-		<value name="Tier5"/>
-    </type>
-    <type name="TerjeInjectorNeirox">
-        <nominal>3</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1460</restock>
-        <min>3</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-        <usage name="Underground"/>
-		<usage name="Medic"/>
-		<usage name="Military"/>
-		<usage name="Police"/>
-		<usage name="Industrial"/>
-		<usage name="Village"/>
-		<usage name="ContaminatedArea"/>
-		<value name="Tier4"/>
-		<value name="Tier5"/>
-    </type>
-    <type name="TerjeInjectorErythropoietin">
-        <nominal>3</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1460</restock>
-        <min>3</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-        <usage name="Underground"/>
-		<usage name="Medic"/>
-		<usage name="Military"/>
-		<usage name="Police"/>
-		<usage name="Industrial"/>
-		<usage name="Village"/>
-		<usage name="ContaminatedArea"/>
-		<value name="Tier4"/>
-		<value name="Tier5"/>
-    </type>
-    <type name="TerjeInjectorNovichek">
-        <nominal>3</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1460</restock>
-        <min>3</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-        <usage name="Underground"/>
-		<usage name="Medic"/>
-		<usage name="Military"/>
-		<usage name="Police"/>
-		<usage name="Industrial"/>
-		<usage name="Village"/>
-		<usage name="ContaminatedArea"/>
-		<value name="Tier4"/>
-		<value name="Tier5"/>
-    </type>
-
-	<!-- FireFly Mod -->
+		<nominal>3</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>3</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Underground" />
+		<usage name="Medic" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Industrial" />
+		<usage name="Village" />
+		<usage name="ContaminatedArea" />
+		<value name="Tier4" />
+		<value name="Tier5" />
+	</type>
+	<type name="TerjeInjectorNeirox">
+		<nominal>3</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>3</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Underground" />
+		<usage name="Medic" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Industrial" />
+		<usage name="Village" />
+		<usage name="ContaminatedArea" />
+		<value name="Tier4" />
+		<value name="Tier5" />
+	</type>
+	<type name="TerjeInjectorErythropoietin">
+		<nominal>3</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>3</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Underground" />
+		<usage name="Medic" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Industrial" />
+		<usage name="Village" />
+		<usage name="ContaminatedArea" />
+		<value name="Tier4" />
+		<value name="Tier5" />
+	</type>
+	<type name="TerjeInjectorNovichek">
+		<nominal>3</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>3</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Underground" />
+		<usage name="Medic" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Industrial" />
+		<usage name="Village" />
+		<usage name="ContaminatedArea" />
+		<value name="Tier4" />
+		<value name="Tier5" />
+	</type>
 	<type name="SR_Ai2">
 		<nominal>30</nominal>
 		<lifetime>7200</lifetime>
@@ -1932,31 +1897,30 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Military"/>
-        <usage name="Police"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
-        <usage name="Industrial"/>
-        <usage name="Farm"/>
-        <usage name="Coast"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
-        <usage name="Office"/>
-        <usage name="School"/>
-        <usage name="Prison"/>
-        <usage name="Lunapark"/>
-		<usage name="Historical"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Medic" />
+		<usage name="Firefighter" />
+		<usage name="Industrial" />
+		<usage name="Farm" />
+		<usage name="Coast" />
+		<usage name="Town" />
+		<usage name="Village" />
+		<usage name="Hunting" />
+		<usage name="Office" />
+		<usage name="School" />
+		<usage name="Prison" />
+		<usage name="Lunapark" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
 	</type>
 	<type name="SR_Ai2_Army">
 		<nominal>15</nominal>
@@ -1966,17 +1930,17 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Military"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Military" />
+		<value name="Tier1" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
 	</type>
 	<type name="SR_Ai2_Nauk">
 		<nominal>7</nominal>
@@ -1986,19 +1950,19 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-        <tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Underground"/>
-		<usage name="Medic"/>
-		<usage name="Military"/>
-		<usage name="Police"/>
-		<usage name="Industrial"/>
-		<usage name="Village"/>
-		<usage name="ContaminatedArea"/>
-		<value name="Tier5"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<tag name="floor" />
+		<tag name="shelves" />
+		<tag name="ground" />
+		<tag name="civilian" />
+		<usage name="Underground" />
+		<usage name="Medic" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Industrial" />
+		<usage name="Village" />
+		<usage name="ContaminatedArea" />
+		<value name="Tier5" />
 	</type>
 </types>
