@@ -572,17 +572,6 @@
                     "ThrowConditionCooldownSeconds": 45.0
                 }
             },
-            "HEGrenade": {
-                "ItemClasses": [
-                    "RGD5Grenade",
-                    "M67Grenade"
-                ],
-                "Parameters": {
-                    "DestroyProjectileAfterSeconds": -1.0,
-                    "ThrowConditionAmountOfProjectiles": 1.0,
-                    "ActivateGrenadeAfterSeconds": 10.0
-                }
-            },
             "AstroGasGrenade": {
                 "ItemClasses": [
                     "Grenade_ChemGas",
@@ -3327,7 +3316,7 @@
             ],
             "Miniboss_Buther": [
                 "GarbageIfPlayerOnObstacle",
-                "HEGrenade"
+                "FirefightersProjectile"
             ],
             "Miniboss_Psycho": [
                 "GarbageIfPlayerOnObstacle",
