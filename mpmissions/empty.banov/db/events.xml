@@ -246,6 +246,8 @@
         <active>1</active>
         <children>
             <child lootmax="5" lootmin="0" max="0" min="30" type="Captain_Alien"/>
+            <child lootmax="5" lootmin="0" max="0" min="30" type="TCHCAI_TheAstronaut_Zombie_1"/>
+            <child lootmax="5" lootmin="0" max="0" min="30" type="TCHCAI_TheAstronaut_Zombie_2"/>
         </children>
     </event>
     <event name="InfectedArmy">
