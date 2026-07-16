@@ -1783,7 +1783,10 @@
 			"MinStockThreshold": 1,
 			"QuantityPercent": -1,
 			"SpawnAttachments": [],
-			"Variants": []
+			"Variants": [
+				"VBL_doors_driver_desert",
+				"VBL_doors_driver_winter"
+			]
 		},
 		{
 			"ClassName": "VBL_doors_codriver",
@@ -1794,7 +1797,10 @@
 			"MinStockThreshold": 1,
 			"QuantityPercent": -1,
 			"SpawnAttachments": [],
-			"Variants": []
+			"Variants": [
+				"VBL_doors_codriver_desert",
+				"VBL_doors_codriver_winter"
+			]
 		},
 		{
 			"ClassName": "VBL_doors_cargo1",
@@ -1805,7 +1811,10 @@
 			"MinStockThreshold": 1,
 			"QuantityPercent": -1,
 			"SpawnAttachments": [],
-			"Variants": []
+			"Variants": [
+				"VBL_doors_cargo1_desert",
+				"VBL_doors_cargo1_winter"
+			]
 		},
 		{
 			"ClassName": "VBL_doors_cargo3",
@@ -1816,7 +1825,10 @@
 			"MinStockThreshold": 1,
 			"QuantityPercent": -1,
 			"SpawnAttachments": [],
-			"Variants": []
+			"Variants": [
+				"VBL_doors_cargo3_desert",
+				"VBL_doors_cargo3_winter"
+			]
 		},
 		{
 			"ClassName": "VBL_doors_cargo4",
@@ -1827,7 +1839,10 @@
 			"MinStockThreshold": 1,
 			"QuantityPercent": -1,
 			"SpawnAttachments": [],
-			"Variants": []
+			"Variants": [
+				"VBL_doors_cargo4_desert",
+				"VBL_doors_cargo4_winter"
+			]
 		},
 		{
 			"ClassName": "ZAZ_965_doors_driver",
@@ -2905,6 +2920,70 @@
 				"expansion_landrover_right_grey",
 				"expansion_landrover_right_blue",
 				"expansion_landrover_right_orange"
+			]
+		},
+		{
+			"ClassName": "IJ_2125_Kombi_doors_driver",
+			"MaxPriceThreshold": 1000,
+			"MinPriceThreshold": 1000,
+			"SellPricePercent": -1,
+			"MaxStockThreshold": 1,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"IJ_2125_Kombi_doors_driver_beg",
+				"IJ_2125_Kombi_doors_driver_green",
+				"IJ_2125_Kombi_doors_driver_orange",
+				"IJ_2125_Kombi_doors_driver_red"
+			]
+		},
+		{
+			"ClassName": "IJ_2125_Kombi_doors_codriver",
+			"MaxPriceThreshold": 1000,
+			"MinPriceThreshold": 1000,
+			"SellPricePercent": -1,
+			"MaxStockThreshold": 1,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"IJ_2125_Kombi_doors_codriver_beg",
+				"IJ_2125_Kombi_doors_codriver_green",
+				"IJ_2125_Kombi_doors_codriver_orange",
+				"IJ_2125_Kombi_doors_codriver_red"
+			]
+		},
+		{
+			"ClassName": "IJ_2125_Kombi_doors_cargo1",
+			"MaxPriceThreshold": 1000,
+			"MinPriceThreshold": 1000,
+			"SellPricePercent": -1,
+			"MaxStockThreshold": 1,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"IJ_2125_Kombi_doors_cargo1_beg",
+				"IJ_2125_Kombi_doors_cargo1_green",
+				"IJ_2125_Kombi_doors_cargo1_orange",
+				"IJ_2125_Kombi_doors_cargo1_red"
+			]
+		},
+		{
+			"ClassName": "IJ_2125_Kombi_doors_cargo2",
+			"MaxPriceThreshold": 1000,
+			"MinPriceThreshold": 1000,
+			"SellPricePercent": -1,
+			"MaxStockThreshold": 1,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"IJ_2125_Kombi_doors_cargo2_beg",
+				"IJ_2125_Kombi_doors_cargo2_green",
+				"IJ_2125_Kombi_doors_cargo2_orange",
+				"IJ_2125_Kombi_doors_cargo2_red"
 			]
 		}
 	]

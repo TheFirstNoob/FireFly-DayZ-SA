@@ -487,7 +487,10 @@
 			"MinStockThreshold": 1,
 			"QuantityPercent": -1,
 			"SpawnAttachments": [],
-			"Variants": []
+			"Variants": [
+				"VBL_doors_trunk_desert",
+				"VBL_doors_trunk_winter"
+			]
 		},
 		{
 			"ClassName": "ZAZ_965_doors_trunk",
@@ -857,6 +860,22 @@
 				"expansion_landrover_trunk_grey",
 				"expansion_landrover_trunk_blue",
 				"expansion_landrover_trunk_orange"
+			]
+		},
+		{
+			"ClassName": "IJ_2125_Kombi_doors_trunk",
+			"MaxPriceThreshold": 1000,
+			"MinPriceThreshold": 1000,
+			"SellPricePercent": -1,
+			"MaxStockThreshold": 1,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"IJ_2125_Kombi_doors_trunk_beg",
+				"IJ_2125_Kombi_doors_trunk_green",
+				"IJ_2125_Kombi_doors_trunk_orange",
+				"IJ_2125_Kombi_doors_trunk_red"
 			]
 		}
 	]

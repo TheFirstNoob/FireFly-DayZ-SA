@@ -239,6 +239,20 @@
 			"Variants": []
 		},
 		{
+			"ClassName": "VBL_doors_hood",
+			"MaxPriceThreshold": 4500,
+			"MinPriceThreshold": 4500,
+			"SellPricePercent": -1,
+			"MaxStockThreshold": 1,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"VBL_doors_hood_desert",
+				"VBL_doors_hood_winter"
+			]
+		},
+		{
 			"ClassName": "UAZ_27722_mchs_doors_hood",
 			"MaxPriceThreshold": 2150,
 			"MinPriceThreshold": 2150,
@@ -845,6 +859,22 @@
 				"expansion_landrover_hood_grey",
 				"expansion_landrover_hood_blue",
 				"expansion_landrover_hood_orange"
+			]
+		},
+		{
+			"ClassName": "IJ_2125_Kombi_doors_hood",
+			"MaxPriceThreshold": 1000,
+			"MinPriceThreshold": 1000,
+			"SellPricePercent": -1,
+			"MaxStockThreshold": 1,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"IJ_2125_Kombi_doors_hood_beg",
+				"IJ_2125_Kombi_doors_hood_green",
+				"IJ_2125_Kombi_doors_hood_orange",
+				"IJ_2125_Kombi_doors_hood_red"
 			]
 		}
 	]
