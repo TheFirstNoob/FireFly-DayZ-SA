@@ -8,22 +8,22 @@
 	"Items": [
 		{
 			"ClassName": "TF_Atlas_Bipod",
-			"MaxPriceThreshold": 30,
-			"MinPriceThreshold": 24,
+			"MaxPriceThreshold": 1500,
+			"MinPriceThreshold": 750,
 			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 150,
-			"MinStockThreshold": 0,
+			"MaxStockThreshold": 75,
+			"MinStockThreshold": 1,
 			"QuantityPercent": -1,
 			"SpawnAttachments": [],
 			"Variants": []
 		},
 		{
 			"ClassName": "TF_Harris_Bipod",
-			"MaxPriceThreshold": 30,
-			"MinPriceThreshold": 24,
+			"MaxPriceThreshold": 1200,
+			"MinPriceThreshold": 600,
 			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 150,
-			"MinStockThreshold": 0,
+			"MaxStockThreshold": 85,
+			"MinStockThreshold": 1,
 			"QuantityPercent": -1,
 			"SpawnAttachments": [],
 			"Variants": []
