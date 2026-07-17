@@ -7,26 +7,13 @@ void main()
 		ce.InitOffline();
 
 	int year, month, day, hour, minute;
-	int reset_month = 6, reset_day = 14;
+	int reset_month = 7, reset_day = 17;
 	g_Game.GetWorld().GetDate(year, month, day, hour, minute);
 
-	if ((month == reset_month) && (day < reset_day))
+	// Reset to target month/day if we've drifted outside the window
+	if (month != reset_month || day != reset_day)
 	{
 		g_Game.GetWorld().SetDate(year, reset_month, reset_day, hour, minute);
-	}
-	else
-	{
-		if ((month == reset_month + 1) && (day > reset_day))
-		{
-			g_Game.GetWorld().SetDate(year, reset_month, reset_day, hour, minute);
-		}
-		else
-		{
-			if ((month < reset_month) || (month > reset_month + 1))
-			{
-				g_Game.GetWorld().SetDate(year, reset_month, reset_day, hour, minute);
-			}
-		}
 	}
 	
 	bool removedTerjeBackdoor;
