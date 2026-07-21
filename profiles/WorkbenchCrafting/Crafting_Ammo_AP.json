@@ -1,0 +1,225 @@
+{
+    "CategoryName": "Ammo_AP",
+    "CategoryDisplay": "Бронебойные патроны",
+    "RequiredLevel": 0,
+    "Recipes": [
+        {
+            "Result": "AmmoBox_new_357HollowPoint",
+            "ResultCount": 1,
+            "RecipeName": ".357 Hollow Point",
+            "CraftTime": 35.0,
+            "SuccessChance": 0.6,
+            "AttachmentsDamage": 8.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {"Classname": "RIP_LeadSmall", "Amount": 15, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_Foil", "Amount": 20, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "SAC_GunPowder", "Amount": 15, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_bolts", "Amount": 3, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_Carbon", "Amount": 1, "Destroy": true, "HealthChange": 0.0}
+            ],
+            "RequiredTools": ["HP_Vise"],
+            "Tables": []
+        },
+        {
+            "Result": "AmmoBox_new_380BondedJhp",
+            "ResultCount": 1,
+            "RecipeName": ".380 Bonded JHP",
+            "CraftTime": 40.0,
+            "SuccessChance": 0.6,
+            "AttachmentsDamage": 8.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {"Classname": "RIP_LeadSmall", "Amount": 25, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_Foil", "Amount": 35, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "SAC_GunPowder", "Amount": 25, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_bolts", "Amount": 5, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_Carbon", "Amount": 2, "Destroy": true, "HealthChange": 0.0}
+            ],
+            "RequiredTools": ["HP_Vise"],
+            "Tables": []
+        },
+        {
+            "Result": "AmmoBox_new_45AcpAP",
+            "ResultCount": 1,
+            "RecipeName": ".45 ACP AP",
+            "CraftTime": 35.0,
+            "SuccessChance": 0.6,
+            "AttachmentsDamage": 8.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {"Classname": "RIP_LeadSmall", "Amount": 18, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_Foil", "Amount": 25, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "SAC_GunPowder", "Amount": 18, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_bolts", "Amount": 4, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_Carbon", "Amount": 1, "Destroy": true, "HealthChange": 0.0}
+            ],
+            "RequiredTools": ["HP_Vise"],
+            "Tables": []
+        },
+        {
+            "Result": "AmmoBox_new_545x397H39",
+            "ResultCount": 1,
+            "RecipeName": "5.45x39 7H39",
+            "CraftTime": 35.0,
+            "SuccessChance": 0.6,
+            "AttachmentsDamage": 8.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {"Classname": "RIP_LeadSmall", "Amount": 15, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_Foil", "Amount": 20, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "SAC_GunPowder", "Amount": 15, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_bolts", "Amount": 3, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_Carbon", "Amount": 1, "Destroy": true, "HealthChange": 0.0}
+            ],
+            "RequiredTools": ["HP_Vise"],
+            "Tables": []
+        },
+        {
+            "Result": "AmmoBox_new_556x45M995",
+            "ResultCount": 1,
+            "RecipeName": "5.56x45 M995",
+            "CraftTime": 35.0,
+            "SuccessChance": 0.6,
+            "AttachmentsDamage": 8.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {"Classname": "RIP_LeadSmall", "Amount": 15, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_Foil", "Amount": 20, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "SAC_GunPowder", "Amount": 15, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_bolts", "Amount": 3, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_Carbon", "Amount": 1, "Destroy": true, "HealthChange": 0.0}
+            ],
+            "RequiredTools": ["HP_Vise"],
+            "Tables": []
+        },
+        {
+            "Result": "AmmoBox_new_762x39Bp",
+            "ResultCount": 1,
+            "RecipeName": "7.62x39 BP",
+            "CraftTime": 35.0,
+            "SuccessChance": 0.6,
+            "AttachmentsDamage": 8.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {"Classname": "RIP_LeadSmall", "Amount": 15, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_Foil", "Amount": 20, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "SAC_GunPowder", "Amount": 15, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_bolts", "Amount": 3, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_Carbon", "Amount": 1, "Destroy": true, "HealthChange": 0.0}
+            ],
+            "RequiredTools": ["HP_Vise"],
+            "Tables": []
+        },
+        {
+            "Result": "AmmoBox_new_9x19Ap",
+            "ResultCount": 1,
+            "RecipeName": "9x19 AP",
+            "CraftTime": 35.0,
+            "SuccessChance": 0.6,
+            "AttachmentsDamage": 8.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {"Classname": "RIP_LeadSmall", "Amount": 18, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_Foil", "Amount": 25, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "SAC_GunPowder", "Amount": 18, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_bolts", "Amount": 4, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_Carbon", "Amount": 1, "Destroy": true, "HealthChange": 0.0}
+            ],
+            "RequiredTools": ["HP_Vise"],
+            "Tables": []
+        },
+        {
+            "Result": "AmmoBox_new_9x39Sp6",
+            "ResultCount": 1,
+            "RecipeName": "9x39 SP-6",
+            "CraftTime": 35.0,
+            "SuccessChance": 0.6,
+            "AttachmentsDamage": 8.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {"Classname": "RIP_LeadSmall", "Amount": 15, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_Foil", "Amount": 20, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "SAC_GunPowder", "Amount": 15, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_bolts", "Amount": 3, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_Carbon", "Amount": 1, "Destroy": true, "HealthChange": 0.0}
+            ],
+            "RequiredTools": ["HP_Vise"],
+            "Tables": []
+        },
+        {
+            "Result": "AmmoBox_new_308WinM993",
+            "ResultCount": 1,
+            "RecipeName": ".308 Win M993",
+            "CraftTime": 50.0,
+            "SuccessChance": 0.55,
+            "AttachmentsDamage": 10.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {"Classname": "RIP_LeadSmall", "Amount": 30, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_Foil", "Amount": 30, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "SAC_GunPowder", "Amount": 25, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_bolts", "Amount": 4, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_Carbon", "Amount": 2, "Destroy": true, "HealthChange": 0.0}
+            ],
+            "RequiredTools": ["HP_Vise"],
+            "Tables": []
+        },
+        {
+            "Result": "AmmoBox_new_762x547H37",
+            "ResultCount": 1,
+            "RecipeName": "7.62x54 7H37",
+            "CraftTime": 50.0,
+            "SuccessChance": 0.55,
+            "AttachmentsDamage": 10.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {"Classname": "RIP_LeadSmall", "Amount": 30, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_Foil", "Amount": 30, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "SAC_GunPowder", "Amount": 25, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_bolts", "Amount": 4, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_Carbon", "Amount": 2, "Destroy": true, "HealthChange": 0.0}
+            ],
+            "RequiredTools": ["HP_Vise"],
+            "Tables": []
+        },
+        {
+            "Result": "AmmoBox_new_12gaRip",
+            "ResultCount": 1,
+            "RecipeName": "12ga RIP Slug",
+            "CraftTime": 35.0,
+            "SuccessChance": 0.6,
+            "AttachmentsDamage": 8.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {"Classname": "RIP_LeadSmall", "Amount": 25, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_Foil", "Amount": 10, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_Plastik", "Amount": 5, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "SAC_GunPowder", "Amount": 15, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_bolts", "Amount": 2, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_Carbon", "Amount": 1, "Destroy": true, "HealthChange": 0.0}
+            ],
+            "RequiredTools": ["HP_Vise"],
+            "Tables": []
+        },
+        {
+            "Result": "AmmoBox_new_12ga2Sabot",
+            "ResultCount": 1,
+            "RecipeName": "12ga 2-Sabot",
+            "CraftTime": 35.0,
+            "SuccessChance": 0.6,
+            "AttachmentsDamage": 8.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {"Classname": "RIP_LeadSmall", "Amount": 30, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_Foil", "Amount": 10, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_Plastik", "Amount": 5, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "SAC_GunPowder", "Amount": 15, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_bolts", "Amount": 2, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_Carbon", "Amount": 2, "Destroy": true, "HealthChange": 0.0}
+            ],
+            "RequiredTools": ["HP_Vise"],
+            "Tables": []
+        }
+    ]
+}

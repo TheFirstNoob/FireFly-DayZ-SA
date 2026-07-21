@@ -1,0 +1,169 @@
+{
+    "CategoryName": "Ammo_Shock",
+    "CategoryDisplay": "Шоковые патроны",
+    "RequiredLevel": 0,
+    "Recipes": [
+        {
+            "Result": "AmmoBox_new_357QuikShokJhp",
+            "ResultCount": 1,
+            "RecipeName": ".357 QuikShok JHP",
+            "CraftTime": 35.0,
+            "SuccessChance": 0.65,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {"Classname": "RIP_LeadSmall", "Amount": 8, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_Foil", "Amount": 20, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "SAC_GunPowder", "Amount": 12, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_bolts", "Amount": 2, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_rubber", "Amount": 5, "Destroy": true, "HealthChange": 0.0}
+            ],
+            "RequiredTools": ["HP_Vise"],
+            "Tables": []
+        },
+        {
+            "Result": "AmmoBox_new_380HydraShokJhp",
+            "ResultCount": 1,
+            "RecipeName": ".380 HydraShok JHP",
+            "CraftTime": 40.0,
+            "SuccessChance": 0.65,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {"Classname": "RIP_LeadSmall", "Amount": 14, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_Foil", "Amount": 35, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "SAC_GunPowder", "Amount": 20, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_bolts", "Amount": 4, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_rubber", "Amount": 8, "Destroy": true, "HealthChange": 0.0}
+            ],
+            "RequiredTools": ["HP_Vise"],
+            "Tables": []
+        },
+        {
+            "Result": "AmmoBox_new_45AcpHydrShock",
+            "ResultCount": 1,
+            "RecipeName": ".45 ACP HydraShock",
+            "CraftTime": 35.0,
+            "SuccessChance": 0.65,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {"Classname": "RIP_LeadSmall", "Amount": 10, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_Foil", "Amount": 25, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "SAC_GunPowder", "Amount": 15, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_bolts", "Amount": 3, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_rubber", "Amount": 6, "Destroy": true, "HealthChange": 0.0}
+            ],
+            "RequiredTools": ["HP_Vise"],
+            "Tables": []
+        },
+        {
+            "Result": "AmmoBox_new_545x39Hp",
+            "ResultCount": 1,
+            "RecipeName": "5.45x39 HP",
+            "CraftTime": 30.0,
+            "SuccessChance": 0.65,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {"Classname": "RIP_LeadSmall", "Amount": 8, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_Foil", "Amount": 20, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "SAC_GunPowder", "Amount": 12, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_bolts", "Amount": 2, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_rubber", "Amount": 5, "Destroy": true, "HealthChange": 0.0}
+            ],
+            "RequiredTools": ["HP_Vise"],
+            "Tables": []
+        },
+        {
+            "Result": "AmmoBox_new_762x39Hp",
+            "ResultCount": 1,
+            "RecipeName": "7.62x39 HP",
+            "CraftTime": 30.0,
+            "SuccessChance": 0.65,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {"Classname": "RIP_LeadSmall", "Amount": 8, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_Foil", "Amount": 20, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "SAC_GunPowder", "Amount": 12, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_bolts", "Amount": 2, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_rubber", "Amount": 5, "Destroy": true, "HealthChange": 0.0}
+            ],
+            "RequiredTools": ["HP_Vise"],
+            "Tables": []
+        },
+        {
+            "Result": "AmmoBox_new_9x19Rip",
+            "ResultCount": 1,
+            "RecipeName": "9x19 RIP",
+            "CraftTime": 35.0,
+            "SuccessChance": 0.65,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {"Classname": "RIP_LeadSmall", "Amount": 10, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_Foil", "Amount": 25, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "SAC_GunPowder", "Amount": 15, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_bolts", "Amount": 3, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_rubber", "Amount": 6, "Destroy": true, "HealthChange": 0.0}
+            ],
+            "RequiredTools": ["HP_Vise"],
+            "Tables": []
+        },
+        {
+            "Result": "AmmoBox_new_308WinM61",
+            "ResultCount": 1,
+            "RecipeName": ".308 Win M61 Shock",
+            "CraftTime": 45.0,
+            "SuccessChance": 0.6,
+            "AttachmentsDamage": 8.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {"Classname": "RIP_LeadSmall", "Amount": 15, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_Foil", "Amount": 30, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "SAC_GunPowder", "Amount": 20, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_bolts", "Amount": 3, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_rubber", "Amount": 8, "Destroy": true, "HealthChange": 0.0}
+            ],
+            "RequiredTools": ["HP_Vise"],
+            "Tables": []
+        },
+        {
+            "Result": "AmmoBox_new_762x547H1",
+            "ResultCount": 1,
+            "RecipeName": "7.62x54 7H1",
+            "CraftTime": 45.0,
+            "SuccessChance": 0.6,
+            "AttachmentsDamage": 8.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {"Classname": "RIP_LeadSmall", "Amount": 15, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_Foil", "Amount": 30, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "SAC_GunPowder", "Amount": 20, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_bolts", "Amount": 3, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_rubber", "Amount": 8, "Destroy": true, "HealthChange": 0.0}
+            ],
+            "RequiredTools": ["HP_Vise"],
+            "Tables": []
+        },
+        {
+            "Result": "AmmoBox_new_12gaFlchetteS",
+            "ResultCount": 1,
+            "RecipeName": "12ga Flechette",
+            "CraftTime": 30.0,
+            "SuccessChance": 0.7,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "CraftComponents": [
+                {"Classname": "RIP_Foil", "Amount": 10, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_Plastik", "Amount": 5, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "SAC_GunPowder", "Amount": 12, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_bolts", "Amount": 3, "Destroy": true, "HealthChange": 0.0},
+                {"Classname": "RIP_rubber", "Amount": 3, "Destroy": true, "HealthChange": 0.0}
+            ],
+            "RequiredTools": ["HP_Vise"],
+            "Tables": []
+        }
+    ]
+}
