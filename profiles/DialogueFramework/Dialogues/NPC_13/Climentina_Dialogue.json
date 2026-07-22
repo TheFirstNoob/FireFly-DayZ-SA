@@ -1,0 +1,112 @@
+{
+    "ID": 113,
+    "RootNodeID": 1,
+    "GreetingVoiceLineIDs": [],
+    "FarewellVoiceLineIDs": [],
+    "Nodes": [
+        {
+            "ID": 1,
+            "Type": "STANDARD",
+            "SpeakerText": "Вы кто? А, новенький. Я Климентина, главный исследователь здесь. Не часто ко мне приходят без дела. Что нужно?",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Меня Петрович прислал. Сказал — вы главная по науке.",
+                    "NextNodeID": 2,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Что вы исследуете?",
+                    "NextNodeID": 3,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Есть работа для меня?",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
+                    "Text": "Я просто смотрел. Бывай.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 2,
+            "Type": "STANDARD",
+            "SpeakerText": "А, Петрович. Хороший мужик, хоть и полицейский. Если он тебя прислал — значит, ты прошёл отбор. Что ж, добро пожаловать в научный отдел. Точнее, в то, что от него осталось.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Чем вы тут занимаетесь?",
+                    "NextNodeID": 3,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Мне нужна работа.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
+                    "Text": "Пойду я.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 3,
+            "Type": "STANDARD",
+            "SpeakerText": "Если кратко — пытаемся понять, что произошло с миром и можно ли это обратить. Этот вирус — не просто случайность. Я уверена, что это биооружие, которое вышло из-под контроля. Или нет — может, это только начало. У нас есть образцы, данные, но не хватает оборудования и доступа в некоторые зоны.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "В какие зоны?",
+                    "NextNodeID": 4,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Чем я могу помочь?",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
+                    "Text": "Понял. Удачи в исследованиях.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 4,
+            "Type": "STANDARD",
+            "SpeakerText": "Военные объекты. Старые лаборатории. Там, где всё началось. Но туда нужен доступ, а у нас нет людей, чтобы прорваться. И охрана карантина никого не пускает без моего личного разрешения. Так что пока мы работаем с тем, что имеем. Если хочешь помочь — я дам задание, но сначала докажи, что ты надёжен.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Я готов помочь.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
+                    "Text": "Мне нужно подумать.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        }
+    ]
+}

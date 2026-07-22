@@ -1,0 +1,82 @@
+{
+    "ID": 109,
+    "RootNodeID": 1,
+    "GreetingVoiceLineIDs": [],
+    "FarewellVoiceLineIDs": [],
+    "Nodes": [
+        {
+            "ID": 1,
+            "Type": "STANDARD",
+            "SpeakerText": "А? Чего? Я отвлёкся... Ты что-то хотел? Или просто мимо шёл?",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Ты чего такой задумчивый?",
+                    "NextNodeID": 2,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Что изучаешь?",
+                    "NextNodeID": 3,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Не отвлекаю.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 2,
+            "Type": "STANDARD",
+            "SpeakerText": "Да есть над чем... Смотри, я нашёл закономерность в поведении заражённых. Они не просто шатаются — они мигрируют. Как будто их кто-то направляет. Или ЧТО-то. Я пытаюсь понять, есть ли у них коллективный разум. Если да — мы все в глубокой жопе.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Серьёзно? Думаешь, ими управляют?",
+                    "NextNodeID": 4,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Звучит как бред.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 3,
+            "Type": "STANDARD",
+            "SpeakerText": "Клеточные структуры заражённых. Они... меняются. Не просто разлагаются, а трансформируются во что-то новое. Я назвал это 'стадия B'. Если процесс не остановить — они станут чем-то большим, чем просто зомби. Но Климентина говорит, что у нас нет ресурсов на полноценное исследование.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Интересно. Удачи.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 4,
+            "Type": "STANDARD",
+            "SpeakerText": "Я не уверен. Но данные не врут. Они движутся группами в определённые точки. Как муравьи. И эти точки... совпадают с местами, где был замечен тот зелёный туман. Совпадение? Хуй там. Ладно, иди, мне нужно додумать эту теорию.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Удачи с теорией.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        }
+    ]
+}

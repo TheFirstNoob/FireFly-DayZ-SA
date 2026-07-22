@@ -1,0 +1,54 @@
+{
+    "ID": 205,
+    "RootNodeID": 1,
+    "GreetingVoiceLineIDs": [],
+    "FarewellVoiceLineIDs": [],
+    "Nodes": [
+        {
+            "ID": 1,
+            "Type": "STANDARD",
+            "SpeakerText": "О, ещё один. Слушай, мне похер кто ты, откуда и зачем. Если есть дело — говори. Если нет — иди мимо. У меня смена через два часа кончается, и я хочу просто выпить и забыть этот день.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Я от Виктора. Бумажка есть.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
+                    "Text": "Есть работа?",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
+                    "Text": "Сделал. Готово.",
+                    "NextNodeID": 2,
+                    "RequiredQuestID": 1002,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Не мешаю.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 2,
+            "Type": "STANDARD",
+            "SpeakerText": "Ну красавчик. Прими похвалу — она последняя, потому что завтра ты скорее всего сдохнешь. Но Петрович верит в тебя, так что иди к нему, не разочаровывай старика. А я пошёл курить. Надорвался даже — похвалу выдал.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Ценю. Бывай.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        }
+    ]
+}

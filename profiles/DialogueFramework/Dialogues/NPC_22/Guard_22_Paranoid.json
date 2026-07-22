@@ -1,0 +1,54 @@
+{
+    "ID": 202,
+    "RootNodeID": 1,
+    "GreetingVoiceLineIDs": [],
+    "FarewellVoiceLineIDs": [],
+    "Nodes": [
+        {
+            "ID": 1,
+            "Type": "STANDARD",
+            "SpeakerText": "Стоять. Медленно. Руки где вижу. Ты кто такой? Я тебя не знаю. Откуда ты взялся? Как сюда попал? Кто пропустил? Отвечай, блядь, а не молчи!",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Спокойно. Я от Виктора.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
+                    "Text": "Есть работа, начальник?",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
+                    "Text": "Я сделал дело.",
+                    "NextNodeID": 2,
+                    "RequiredQuestID": 1002,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Я ухожу, не стреляй.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 2,
+            "Type": "STANDARD",
+            "SpeakerText": "А... ну да. Действительно, принёс. Лады. Верю. Пока. Петрович тебя ждёт. И смотри у меня — я за тобой слежу. Один неверный шаг — и ты труп. Понял? Свободен.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Понял.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        }
+    ]
+}

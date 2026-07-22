@@ -1,0 +1,82 @@
+{
+    "ID": 402,
+    "RootNodeID": 1,
+    "GreetingVoiceLineIDs": [],
+    "FarewellVoiceLineIDs": [],
+    "Nodes": [
+        {
+            "ID": 1,
+            "Type": "STANDARD",
+            "SpeakerText": "Ты слышишь его? Шёпот в ветре? Нет? Странно... Я слышу постоянно. Он говорит, что скоро всё закончится. Цикл завершится. Ты веришь в циклы?",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "О чём ты говоришь?",
+                    "NextNodeID": 2,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Ты нормальный вообще?",
+                    "NextNodeID": 3,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Пойду я.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 2,
+            "Type": "STANDARD",
+            "SpeakerText": "Они не говорят прямо. Но я чувствую. Новый Рассвет знает правду. Отец Лиян... он видел свет. Там, за туманом. Мы все будем спасены. Если примем шум. Если не будем сопротивляться. Ты сопротивляешься? Зря. Отпусти — и станет легче.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Ты с Новым Рассветом?",
+                    "NextNodeID": 4,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Мне пора. Береги себя.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 3,
+            "Type": "STANDARD",
+            "SpeakerText": "Нормальный? ХА-ХА-ХА! Нормальных больше нет, чувак. Есть только принявшие — и те, кто ещё борется. Борьба бесполезна. Они сильнее. Глубинные. Подземные. Они ждали миллионы лет. Наша очередь — слушать и подчиняться.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Ты пугаешь меня. Пока.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 4,
+            "Type": "STANDARD",
+            "SpeakerText": "Я не с ними. Но я их понимаю. Иногда мне кажется, что они правы. Шум такой сладкий, когда перестаёшь бороться... Но я держусь. Пока держусь. Не знаю, насколько меня хватит. Если увидишь, что я меняюсь — пристрели. Не хочу стать одной из тех тварей.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Договорились. Держись.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        }
+    ]
+}

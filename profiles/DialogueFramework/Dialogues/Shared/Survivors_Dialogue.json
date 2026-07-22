@@ -1,0 +1,49 @@
+{
+    "ID": 104,
+    "NPCIDs": [40, 41, 42],
+    "RootNodeID": 1,
+    "GreetingVoiceLineIDs": [],
+    "FarewellVoiceLineIDs": [],
+    "Nodes": [
+        {
+            "ID": 1,
+            "Type": "STANDARD",
+            "SpeakerText": "О, привет. Ты новенький? А я тебя не помню... Ну да ладно, тут все друг друга не знают.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Как оно тут?",
+                    "NextNodeID": 2,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Есть работа?",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
+                    "Text": "Бывай.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 2,
+            "Type": "STANDARD",
+            "SpeakerText": "Да как-то выживаем. Жратва есть, вода есть — уже хорошо. Охрана не даёт зомбакам прорываться. Но по ночам страшно. Ты если шаришься — лучше с оружием ходи. Тут не город, понимаешь.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Ясно. Ну бывай.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        }
+    ]
+}

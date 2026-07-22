@@ -1,0 +1,54 @@
+{
+    "ID": 203,
+    "RootNodeID": 1,
+    "GreetingVoiceLineIDs": [],
+    "FarewellVoiceLineIDs": [],
+    "Nodes": [
+        {
+            "ID": 1,
+            "Type": "STANDARD",
+            "SpeakerText": "Чего надо? Не видишь — я работаю. Быстро говори и вали.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Я от Виктора.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
+                    "Text": "Есть работа?",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
+                    "Text": "Пришёл отчитаться. Готово.",
+                    "NextNodeID": 2,
+                    "RequiredQuestID": 1002,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Пока.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 2,
+            "Type": "STANDARD",
+            "SpeakerText": "Угу. Молодец. Вали к Петровичу. Он ждёт. И в следующий раз не части — у меня смена через 4 часа, я спать хочу, а не базарить с каждым пришлым.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Не буду мешать.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        }
+    ]
+}

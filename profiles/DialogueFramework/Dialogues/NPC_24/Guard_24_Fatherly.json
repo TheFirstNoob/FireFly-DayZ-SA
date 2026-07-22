@@ -1,0 +1,54 @@
+{
+    "ID": 204,
+    "RootNodeID": 1,
+    "GreetingVoiceLineIDs": [],
+    "FarewellVoiceLineIDs": [],
+    "Nodes": [
+        {
+            "ID": 1,
+            "Type": "STANDARD",
+            "SpeakerText": "А, новенький! Здорово, сынок. Ну как ты? Не замёрз? Не голодный? Ты если что — подходи, не стесняйся. У меня тут и хлеб есть, и вода. Всякое бывает. Давай, рассказывай, с чем пришёл.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Я от Виктора. Сказали — вы поможете.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
+                    "Text": "Есть работа?",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
+                    "Text": "Я справился. Принёс всё.",
+                    "NextNodeID": 2,
+                    "RequiredQuestID": 1002,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Спасибо, я пойду.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 2,
+            "Type": "STANDARD",
+            "SpeakerText": "Молодец, сынок! А я верил в тебя! Петрович уже знает, ждёт тебя. Ты иди, не задерживайся. И смотри — если что надо будет — я всегда тут. Не пропадёшь. С богом!",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Спасибо, отец. Бывай.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        }
+    ]
+}

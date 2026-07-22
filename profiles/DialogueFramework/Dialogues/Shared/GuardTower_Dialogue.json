@@ -1,0 +1,69 @@
+{
+    "ID": 103,
+    "NPCIDs": [999901, 999902, 999903, 999904],
+    "RootNodeID": 1,
+    "GreetingVoiceLineIDs": [],
+    "FarewellVoiceLineIDs": [],
+    "Nodes": [
+        {
+            "ID": 1,
+            "Type": "STANDARD",
+            "SpeakerText": "Кто там? А, новенький. Ну чего тебе? Скучно тут наверху, пиздец. Хоть бы зомбаки какие набежали, развеяться.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Есть работа?",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
+                    "Text": "Чё видно с вышки?",
+                    "NextNodeID": 2,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Не скучай, служба.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 2,
+            "Type": "STANDARD",
+            "SpeakerText": "Да херня. Лес, поля, пара зомбаков шастает. Скука смертная. Вон на прошлой неделе какой-то мудак пытался через забор перелезть. Я ему крикнул — он как дёрнулся, нахуй. Больше не видел. Надеюсь, сожрали его.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Бывает. Ну бывай.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                },
+                {
+                    "Text": "А Петрович где?",
+                    "NextNodeID": 3,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                }
+            ]
+        },
+        {
+            "ID": 3,
+            "Type": "STANDARD",
+            "SpeakerText": "А хер его знает. По лагерю шляется, командование разводит. Ищи в штабе или у машин. Если чё, скажи — Колян с вышки привет передавал. Пусть сигарет закинет, а то я тут с голыми руками хуй кого остановлю.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Передам, если увижу.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        }
+    ]
+}

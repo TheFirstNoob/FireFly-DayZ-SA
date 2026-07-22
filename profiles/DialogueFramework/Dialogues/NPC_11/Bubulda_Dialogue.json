@@ -1,0 +1,88 @@
+{
+    "ID": 111,
+    "RootNodeID": 1,
+    "GreetingVoiceLineIDs": [],
+    "FarewellVoiceLineIDs": [],
+    "Nodes": [
+        {
+            "ID": 1,
+            "Type": "STANDARD",
+            "SpeakerText": "А, пришёл. Ждал тебя. Ну чего встал? Говори, раз пришёл в лес.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Ты Бубылда?",
+                    "NextNodeID": 2,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Есть работа?",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
+                    "Text": "Я просто мимо шёл.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 2,
+            "Type": "STANDARD",
+            "SpeakerText": "Он самый. Живу тут, знаю каждый куст. Если тебе что-то нужно в лесу — ты ко мне. Если тебе что-то нужно от меня — говори дело. Я не люблю базарить попусту.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Что ты знаешь об этом месте?",
+                    "NextNodeID": 3,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Понял. Бывай.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 3,
+            "Type": "STANDARD",
+            "SpeakerText": "Много чего. Но не всё тебе знать, парень. Скажу одно: этот остров хранит секреты. Военные тут что-то строили, потом бросили. А теперь эти... твари вылезли. Я видел вещи, от которых волосы дыбом встают. И если ты умный — будешь держаться подальше от старых бункеров и лабораторий.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Каких бункеров?",
+                    "NextNodeID": 4,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Понял, учту.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 4,
+            "Type": "STANDARD",
+            "SpeakerText": "Э, не сейчас. Скажу только, что если найдёшь вход в подземелье — не лезь туда без подготовки. И без оружия. Там такое водится... не чета тем зомбакам, что по улицам шастают. Ладно, мне пора. Лес не ждёт.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Спасибо за совет.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        }
+    ]
+}

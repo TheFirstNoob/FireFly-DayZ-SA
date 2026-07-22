@@ -1,0 +1,128 @@
+{
+    "ID": 112,
+    "RootNodeID": 1,
+    "GreetingVoiceLineIDs": [],
+    "FarewellVoiceLineIDs": [],
+    "Nodes": [
+        {
+            "ID": 1,
+            "Type": "STANDARD",
+            "SpeakerText": "...",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Ты кто?",
+                    "NextNodeID": 2,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Чего молчишь?",
+                    "NextNodeID": 3,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Ну и молчи.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 2,
+            "Type": "STANDARD",
+            "SpeakerText": "Призрак. Меня так называют. Я не помню, кто я был раньше. Помню только огонь, крики и... зелёный свет. Ты видел зелёный свет?",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Нет. А что это?",
+                    "NextNodeID": 4,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Ты пугаешь меня.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 3,
+            "Type": "STANDARD",
+            "SpeakerText": "Говорить больно. В голове шум. Ты слышишь шум? Нет? Ну и хорошо. Меньше знаешь — крепче спишь.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "О чём ты?",
+                    "NextNodeID": 4,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Ладно, не буду мешать.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 4,
+            "Type": "STANDARD",
+            "SpeakerText": "Они идут. Все они. Из зелёного тумана. Я видел. Они не люди больше. Но и не зомби. Что-то среднее. Сильнее. Умнее. Они ждут. Не ходи туда, где туман. Или станешь как я.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Кто 'они'?",
+                    "NextNodeID": 5,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Спасибо за предупреждение.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 5,
+            "Type": "STANDARD",
+            "SpeakerText": "Эксперимент. Проект. У них нет имени. Были людьми, как мы. Теперь они — инструменты. Кем-то созданные. Для чего-то. Я не знаю зачем. Но знаю, что они не остановятся.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Откуда ты это знаешь?",
+                    "NextNodeID": 6,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Мне пора.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 6,
+            "Type": "STANDARD",
+            "SpeakerText": "Я был там. Внутри. Я видел, что они делают. Я сбежал. Но часть меня осталась там. Слышишь? Ветер до сих пор шепчет их имена... Уходи. Пока можешь.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Береги себя, Призрак.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        }
+    ]
+}

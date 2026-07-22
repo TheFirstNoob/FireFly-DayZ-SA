@@ -1,0 +1,54 @@
+{
+    "ID": 200,
+    "RootNodeID": 1,
+    "GreetingVoiceLineIDs": [],
+    "FarewellVoiceLineIDs": [],
+    "Nodes": [
+        {
+            "ID": 1,
+            "Type": "STANDARD",
+            "SpeakerText": "Стоять. Документы? Нет? Откуда ты взялся, мать твою? Ладно, Виктор предупреждал. Проходи, но чтобы я тебя больше без дела не видел. У нас тут режимный объект, а не проходной двор.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Я от Виктора.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
+                    "Text": "Есть работа?",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
+                    "Text": "Я принёс добычу.",
+                    "NextNodeID": 2,
+                    "RequiredQuestID": 1002,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Так, мимо бежал.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 2,
+            "Type": "STANDARD",
+            "SpeakerText": "Вольно. Докладывай. Выполнил? Добро. Петровичу доложено, ждёт тебя в штабе. Иди, не задерживайся. Время — деньги, а у нас тут и того, и другого — по минимуму.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Есть. Бывай.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        }
+    ]
+}

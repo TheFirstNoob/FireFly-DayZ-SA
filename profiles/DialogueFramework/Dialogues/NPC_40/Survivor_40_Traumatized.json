@@ -1,0 +1,62 @@
+{
+    "ID": 400,
+    "RootNodeID": 1,
+    "GreetingVoiceLineIDs": [],
+    "FarewellVoiceLineIDs": [],
+    "Nodes": [
+        {
+            "ID": 1,
+            "Type": "STANDARD",
+            "SpeakerText": "...ты... ты живой? Настоящий? Или ты тоже из тумана?",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Я живой. Всё хорошо.",
+                    "NextNodeID": 2,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Ты в порядке?",
+                    "NextNodeID": 3,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Не буду мешать.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 2,
+            "Type": "STANDARD",
+            "SpeakerText": "Я... я не сплю уже третью ночь. Каждый раз когда закрываю глаза — я вижу их. Лица. Те, что я... я не хотела. Это был не я. Туман заставляет делать ужасные вещи. Ты не представляешь... не представляешь...",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Всё позади. Ты в безопасности.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 3,
+            "Type": "STANDARD",
+            "SpeakerText": "В порядке? ХА! В порядке? Я видела, как мой муж превратился в одну из этих тварей. Я слышала, как он говорил со мной — но это был не он. Голос был... другой. Из-под земли. Ты слышал этот голос? Шёпот? Если нет — берегись. Он придёт.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Мне жаль. Отдыхай.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "ID": 108,
+    "RootNodeID": 1,
+    "GreetingVoiceLineIDs": [],
+    "FarewellVoiceLineIDs": [],
+    "Nodes": [
+        {
+            "ID": 1,
+            "Type": "STANDARD",
+            "SpeakerText": "Не стой на проходе. Я занята. Если тебе что-то нужно — говори быстро и по делу.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Чем занимаешься?",
+                    "NextNodeID": 2,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Есть работа?",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
+                    "Text": "Не задерживаю.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 2,
+            "Type": "STANDARD",
+            "SpeakerText": "Анализирую образцы тканей заражённых. Если кратко — смотрю, как эта херня их меняет. Результаты неутешительные. Вирус мутирует быстрее, чем мы успеваем его изучать. Советую тебе не попадаться тварям лишний раз. Укус — и ты труп. Или хуже — один из них.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Есть лекарство?",
+                    "NextNodeID": 3,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Понял, спасибо за инфу.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 3,
+            "Type": "STANDARD",
+            "SpeakerText": "Если бы было — я бы не торчала тут в этом гадюшнике. Пока нет. Но мы работаем. Климентина говорит, что есть записи из военной лаборатории, где якобы нашли что-то похожее на антидот. Но доступа туда нет — зона оцеплена. Так что... да. Выживай как можешь.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Понял. Удачи.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        }
+    ]
+}

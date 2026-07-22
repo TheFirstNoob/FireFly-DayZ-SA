@@ -1,0 +1,48 @@
+{
+    "ID": 403,
+    "RootNodeID": 1,
+    "GreetingVoiceLineIDs": [],
+    "FarewellVoiceLineIDs": [],
+    "Nodes": [
+        {
+            "ID": 1,
+            "Type": "STANDARD",
+            "SpeakerText": "А, пришлый. Тоже шатаешься? Ну-ну... Будь осторожен. Тут места гиблые, особенно если на север пойти.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Что на севере?",
+                    "NextNodeID": 2,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Есть работа?",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
+                    "Text": "Бывай, странник.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 2,
+            "Type": "STANDARD",
+            "SpeakerText": "Твари там по-крупному, не то что тут. И база какая-то военная, говорят. Я не совался — жить хочу. А ещё слухи ходят про какие-то эксперименты... Будто правительство там что-то делало до всего этого дерьма. Ладно, мне пора.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Счастливо.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        }
+    ]
+}

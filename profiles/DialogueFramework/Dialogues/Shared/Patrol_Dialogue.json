@@ -1,0 +1,89 @@
+{
+    "ID": 102,
+    "NPCIDs": [30, 31, 32],
+    "RootNodeID": 1,
+    "GreetingVoiceLineIDs": [],
+    "FarewellVoiceLineIDs": [],
+    "Nodes": [
+        {
+            "ID": 1,
+            "Type": "STANDARD",
+            "SpeakerText": "Стой! А, это ты... Ну чего застыл? Говори, раз пришёл.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Есть работа?",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
+                    "Text": "Как обстановка?",
+                    "NextNodeID": 2,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Я принёс, что просили.",
+                    "NextNodeID": 5,
+                    "RequiredQuestID": 1002,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Бывай.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 2,
+            "Type": "STANDARD",
+            "SpeakerText": "Да хреново. Твари прут, припасов мало. Но мы держимся. Ты как сам? Не сдох ещё?",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Пока жив.",
+                    "NextNodeID": 3,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Бывай, служба.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 3,
+            "Type": "STANDARD",
+            "SpeakerText": "Ну и молодец. Тут долго не живут, но некоторые умудряются. Слышал, ты к Петровичу ходил? Он мужик нормальный, хоть и мент бывший. Слушайся его — не пропадёшь.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Добро, учту.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 5,
+            "Type": "STANDARD",
+            "SpeakerText": "Молодец. Я всё видел, ты красавчик. Петровичу про тебя уже сказали. Иди к нему, он ждёт. Дальше сам.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Понял.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        }
+    ]
+}

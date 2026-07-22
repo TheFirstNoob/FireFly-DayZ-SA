@@ -1,0 +1,48 @@
+{
+    "ID": 404,
+    "RootNodeID": 1,
+    "GreetingVoiceLineIDs": [],
+    "FarewellVoiceLineIDs": [],
+    "Nodes": [
+        {
+            "ID": 1,
+            "Type": "STANDARD",
+            "SpeakerText": "Привет, выживальщик. Не видел по дороге моего брата? Нет? Ну и ладно. Тут все теряют всех. Ты как, держишься?",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Держусь. А ты чего ищешь?",
+                    "NextNodeID": 2,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Есть работа?",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
+                    "Text": "Не встречал. Бывай.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 2,
+            "Type": "STANDARD",
+            "SpeakerText": "Еду, воду — всё что можно унести. Слышал, к востоку есть заброшенный военный склад. Может, там ещё что-то осталось. Хочешь — присоединяйся? Хотя нет, ты ж местный, тебе и тут дел хватает. Ладно, удачи. Ещё увидимся.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Удачи и тебе.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        }
+    ]
+}

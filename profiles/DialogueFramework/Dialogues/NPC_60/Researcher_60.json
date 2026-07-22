@@ -1,0 +1,68 @@
+{
+    "ID": 107,
+    "RootNodeID": 1,
+    "GreetingVoiceLineIDs": [],
+    "FarewellVoiceLineIDs": [],
+    "Nodes": [
+        {
+            "ID": 1,
+            "Type": "STANDARD",
+            "SpeakerText": "Ой! Ты чего подкрадываешься? Я тебя не заметил... Ты от Петровича? А, нет? Ну... чего надо?",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Ты кто такой?",
+                    "NextNodeID": 2,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Что вы тут исследуете?",
+                    "NextNodeID": 3,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Бывай.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 2,
+            "Type": "STANDARD",
+            "SpeakerText": "Я младший научный сотрудник... Был. Теперь просто пытаюсь не сдохнуть. Помогаю Климентине с образцами. Это... интересно, но страшно. Ты бы знал, что мы тут находим... Я иногда ночами не сплю.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Что находите?",
+                    "NextNodeID": 3,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Крепись, учёный.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 3,
+            "Type": "STANDARD",
+            "SpeakerText": "Я... не могу рассказывать. Климентина запретила. Но одно скажу: то, что случилось с миром — это не случайность. И оно ещё не закончилось. Тут, на Банове, происходит что-то... странное. Зелёный туман, мутации... Ты сам увидишь, если долго проживёшь. А теперь извини, мне нужно работать.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Ладно, не мешаю.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        }
+    ]
+}

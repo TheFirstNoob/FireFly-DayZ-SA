@@ -1,0 +1,88 @@
+{
+    "ID": 110,
+    "RootNodeID": 1,
+    "GreetingVoiceLineIDs": [],
+    "FarewellVoiceLineIDs": [],
+    "Nodes": [
+        {
+            "ID": 1,
+            "Type": "STANDARD",
+            "SpeakerText": "Заходи, не стесняйся. Жалобы есть? Или просто так заглянул?",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Как дела в лазарете?",
+                    "NextNodeID": 2,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Что можете рассказать про этот вирус?",
+                    "NextNodeID": 3,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Есть работа?",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
+                    "Text": "Бывай, док.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 2,
+            "Type": "STANDARD",
+            "SpeakerText": "Да как обычно. Раненые, больные, парочка с нервным срывом. Припасов мало, антибиотиков почти нет. Но живём. Если поранят тебя — приходи, перевяжу. Бесплатно, но если есть чем заплатить — не откажусь. Тут каждый сам за себя, но я стараюсь помогать всем.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Спасибо, док. Буду знать.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 3,
+            "Type": "STANDARD",
+            "SpeakerText": "Слушай сюда, парень. Это не обычная инфекция. Я видел reports из военных госпиталей — этот вирус переписывает ДНК. Превращает человека во что-то... другое. И передаётся через Bloodborne путь. Один укус — и ты труп. Лечения нет. Есть только профилактика: не подпускать их к себе. И если заметишь зелёный туман — беги. Это не погодное явление.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "А зелёный туман — что это?",
+                    "NextNodeID": 4,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Понял, буду осторожен.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 4,
+            "Type": "STANDARD",
+            "SpeakerText": "Хер его знает. Какая-то химия. Появляется в низинах, после него зомбаки становятся агрессивнее. Я брал пробы — в составе есть соединения, которых нет в природе. Кто-то это создал. Вопрос — зачем? Если узнаешь что-то — расскажешь мне. А теперь иди, мне нужно работать.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Договорились.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        }
+    ]
+}

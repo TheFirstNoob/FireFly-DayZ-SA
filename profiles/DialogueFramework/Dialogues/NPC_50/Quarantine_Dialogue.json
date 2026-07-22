@@ -1,0 +1,88 @@
+{
+    "ID": 106,
+    "RootNodeID": 1,
+    "GreetingVoiceLineIDs": [],
+    "FarewellVoiceLineIDs": [],
+    "Nodes": [
+        {
+            "ID": 1,
+            "Type": "STANDARD",
+            "SpeakerText": "Стоять. Дальше нельзя. У тебя пропуск есть? Нет? Тогда вали отсюда, пока цел.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Чего за херня? Почему нельзя?",
+                    "NextNodeID": 2,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Пропуск? От кого?",
+                    "NextNodeID": 3,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Ладно, ухожу.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 2,
+            "Type": "STANDARD",
+            "SpeakerText": "Сказано — нельзя, значит нельзя. Там зона карантина. Трупы, зараза, эксперименты эти долбаные. Хочешь превратиться в одного из них? Ну вали, я не остановлю. Но обратно не пущу — сожгут к хуям.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "А что за эксперименты?",
+                    "NextNodeID": 3,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Понял, не пойду.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 3,
+            "Type": "STANDARD",
+            "SpeakerText": "Слышь, я не информационная стойка. Мне платят за то, чтобы я стоял тут и не пускал всяких. Учёные там копошатся, Климентина командует. Если тебе так припекло — иди к ней, пусть она решает. А моё дело маленькое: не пускать — и не пускаю.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Где найти Климентину?",
+                    "NextNodeID": 4,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Ясно, отваливаю.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 4,
+            "Type": "STANDARD",
+            "SpeakerText": "В лаборатории она, где ж ещё. За этим забором, в здании. Но без дела она тебя пошлёт нахуй, сразу предупреждаю. Если Петрович сказал — иди, тогда может и примет. Ну всё, вали, разговор окончен.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Понял. Бывай.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        }
+    ]
+}

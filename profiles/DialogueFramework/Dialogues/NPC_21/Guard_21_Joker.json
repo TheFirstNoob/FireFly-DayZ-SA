@@ -1,0 +1,54 @@
+{
+    "ID": 201,
+    "RootNodeID": 1,
+    "GreetingVoiceLineIDs": [],
+    "FarewellVoiceLineIDs": [],
+    "Nodes": [
+        {
+            "ID": 1,
+            "Type": "STANDARD",
+            "SpeakerText": "Опа! Новое лицо! А я уж думал — все нормальные свалили. А ты, видать, не нормальный, раз сюда припёрся. Заходь, не стесняйся. Только смотри — у нас тут зомби кусаются, а девки все с автоматами.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Я от Виктора.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
+                    "Text": "Есть работа?",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
+                    "Text": "Я принёс добычу, начальник.",
+                    "NextNodeID": 2,
+                    "RequiredQuestID": 1002,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Бывай, весельчак.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 2,
+            "Type": "STANDARD",
+            "SpeakerText": "О, смотри-ка! А ты не лыком шит! Ну красавчик! Петрович про тебя уже знает — иди к нему, отметься. Молоток там, слышал, тебе приготовили какой-то... забавное будет зрелище. Давай, шуруй, вечером расскажешь, как оно!",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Договорились.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "ID": 206,
+    "RootNodeID": 1,
+    "GreetingVoiceLineIDs": [],
+    "FarewellVoiceLineIDs": [],
+    "Nodes": [
+        {
+            "ID": 1,
+            "Type": "STANDARD",
+            "SpeakerText": "Ой бля! Ты чего подкрадываешься? А, это ты... Фух, а я думал — зомбяк. Ну честное слово — уже каждые полчаса дёргаюсь. Тут такое творится... Ты откуда вообще? Чё надо?",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Спокойно. Я от Виктора.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
+                    "Text": "Есть работа для меня?",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
+                    "Text": "Я сделал. Всё пучком.",
+                    "NextNodeID": 2,
+                    "RequiredQuestID": 1002,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Не дёргайся так. Бывай.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 2,
+            "Type": "STANDARD",
+            "SpeakerText": "О, реально сделал? Ну ни хера себе! А я вот в прошлый раз чуть не обосрался, когда в лес пошёл... Крч, Петрович тебя ждёт. Ты это... будь осторожен там. Я серьёзно. Тут опасно. Ну, удачи!",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Спасибо, брат. Бывай.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,134 @@
+{
+    "ID": 101,
+    "RootNodeID": 1,
+    "GreetingVoiceLineIDs": [],
+    "FarewellVoiceLineIDs": [],
+    "Nodes": [
+        {
+            "ID": 1,
+            "Type": "STANDARD",
+            "SpeakerText": "Чего тебе? Я Петрович. Ты кто вообще?",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Меня охранник прислал. Сказал — вы главный, есть разговор.",
+                    "NextNodeID": 2,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Я сделал то, что ты просил. Пять трупов — готово.",
+                    "NextNodeID": 5,
+                    "RequiredQuestID": 1003,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Да так, мимо проходил.",
+                    "NextNodeID": 3,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Бывай.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 2,
+            "Type": "STANDARD",
+            "SpeakerText": "А, от моих ребят. Ну лады. Раз пропустили — значит, не совсем безнадёга. Но я проверю тебя сам. Слышал, я тут заправляю, да? Это правда. Но я не доверяю просто так. Никому. Ты мне должен доказать, что не сдохнешь в первую же вылазку.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Что я должен сделать?",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
+                    "Text": "А что будет, если откажусь?",
+                    "NextNodeID": 4,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Пока рано. Я подумаю.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 3,
+            "Type": "STANDARD",
+            "SpeakerText": "Ну иди, не задерживай. У меня дел по горло.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Ладно, бывай.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 4,
+            "Type": "STANDARD",
+            "SpeakerText": "Ну, вали на все четыре стороны. Только охранники тебя больше не пропустят. Решай.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Ладно, я согласен.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
+                    "Text": "Пока.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 5,
+            "Type": "STANDARD",
+            "SpeakerText": "О, смотрю — справился! Мать твою, а я уж думал — не вывезут тебя. Ну, молодец. Неожиданно. Лады, держи слово. Торговцы теперь тебя обслужат. Заслужил. В банк и схрон пока рановато, но базар — открыт. А там посмотрим, что из тебя выйдет.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Спасибо, Петрович.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                },
+                {
+                    "Text": "Что дальше?",
+                    "NextNodeID": 6,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                }
+            ]
+        },
+        {
+            "ID": 6,
+            "Type": "STANDARD",
+            "SpeakerText": "Отдыхай пока. Потом будет работа. У нас тут проблемы покрупнее, чем зомбаки с отбивным молотком. Но об этом потом. Дай человеку дух перевести.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Понял. Отдохну.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        }
+    ]
+}

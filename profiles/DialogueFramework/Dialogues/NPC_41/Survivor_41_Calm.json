@@ -1,0 +1,48 @@
+{
+    "ID": 401,
+    "RootNodeID": 1,
+    "GreetingVoiceLineIDs": [],
+    "FarewellVoiceLineIDs": [],
+    "Nodes": [
+        {
+            "ID": 1,
+            "Type": "STANDARD",
+            "SpeakerText": "Привет. Не пугайся, я свой. Тут все свои, чужие тут не задерживаются. Как сам?",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Нормально. А ты как тут оказался?",
+                    "NextNodeID": 2,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Есть работа?",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
+                    "Text": "Бывай.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 2,
+            "Type": "STANDARD",
+            "SpeakerText": "Долгая история. Коротко — я был в городе, когда всё начало рушиться. Видел вещи, которые врагу не пожелаешь. Но я принял это. Мир изменился — надо меняться вместе с ним. Тут, в лагере, я нашёл покой. Ну, насколько это вообще возможно.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Мудрый подход. Бывай.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        }
+    ]
+}
