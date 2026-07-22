@@ -1,0 +1,82 @@
+{
+	"ConfigVersion": 22,
+	"ID": 1004,
+	"Type": 1,
+	"Title": "Посылка для Бубылды",
+	"Descriptions": [
+		"<p align=\"center\"><image set=\"expansion_iconset\" name=\"Deliver\" scale=\"1.92\" /><color hex=\"0xFFCC6600\"> Охранник встречает тебя уже спокойнее, без прежней злобы в глазах. Он протягивает плотно запечатанный свёрток: <br /><br /><b>\"Новичок. Раз уж ты не пропал в лесу — есть дело. Отнесёшь это Бубылде. Живёт в лесу за северным блокпостом, знает каждый куст тут. Передашь лично.\"</b><br /><br /> Он суёт свёрток тебе в руки. Внутри что-то позвякивает. <br /><br /><b>\"И смотри не потеряй. Бубылда этого не простит.\"</b></color></p>",
+		"<outline color=\"255,200,100,255\" size=\"4\"> Бубылда ждёт посылку. Держись севернее блокпоста — его лагерь в лесу.</outline>",
+		"<p align=\"center\"><color hex=\"0xFFCC6600\"> Бубылда принимает свёрток, взвешивает его в руке, хмыкает и прячет под плащом: <br /><br /><b>\"Хм. Дошло. Ну бывай, новичок. Ещё увидимся.\"</b><br /><br /> Он отворачивается и исчезает среди деревьев, не сказав больше ни слова.</color></p>"
+	],
+	"ObjectiveText": "<p align=\"center\"><image set=\"expansion_iconset\" name=\"Paper\" scale=\"1.28\" /> Доставьте посылку Бубылде.</p>",
+	"FollowUpQuest": -1,
+	"Repeatable": 0,
+	"IsDailyQuest": 0,
+	"IsWeeklyQuest": 0,
+	"CancelQuestOnPlayerDeath": 0,
+	"Autocomplete": 0,
+	"IsGroupQuest": 0,
+	"ObjectSetFileName": "",
+	"QuestItems": [
+		{
+			"ClassName": "ExpansionQuestItemPaper",
+			"Amount": 1
+		}
+	],
+	"Rewards": [
+		{
+			"ClassName": "ExpansionBanknoteHryvnia",
+			"Amount": 1000,
+			"Attachments": [],
+			"DamagePercent": 0,
+			"HealthPercent": 0,
+			"QuestID": -1,
+			"MinObjectiveCount": -1,
+			"RequiredObjectiveID": -1,
+			"Chance": 1.0
+		}
+	],
+	"NeedToSelectReward": 0,
+	"RandomReward": 0,
+	"RandomRewardAmount": -1,
+	"RewardsForGroupOwnerOnly": 1,
+	"RewardBehavior": 0,
+	"QuestGiverIDs": [
+		20,
+		21,
+		22,
+		23,
+		24,
+		25,
+		26
+	],
+	"QuestTurnInIDs": [
+		11
+	],
+	"IsAchievement": 0,
+	"Objectives": [
+		{
+			"ConfigVersion": 28,
+			"ID": 1006,
+			"ObjectiveType": 5
+		}
+	],
+	"QuestColor": 0,
+	"ReputationReward": 0,
+	"ReputationRequirement": -1,
+	"PreQuestIDs": [
+		1003
+	],
+	"RequiredFaction": "",
+	"FactionReward": "",
+	"PlayerNeedQuestItems": 1,
+	"DeleteQuestItems": 1,
+	"SequentialObjectives": 1,
+	"CompletionMode": 0,
+	"MinRequiredObjectives": -1,
+	"QuestTimeLimit": -1,
+	"FactionReputationRequirements": {},
+	"FactionReputationRewards": {},
+	"SuppressQuestLogOnCompetion": 0,
+	"Active": 1
+}
