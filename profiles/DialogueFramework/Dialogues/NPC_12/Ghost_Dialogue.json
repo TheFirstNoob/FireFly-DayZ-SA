@@ -6,7 +6,53 @@
             "ID": 1,
             "Type": "STANDARD",
             "SpeakerText": "...",
+            "SpeakerTextConditions": [
+                {
+                    "Text": "Ты снова здесь.",
+                    "RequiredQuestID": 1004,
+                    "RequiredState": "COMPLETED"
+                },
+                {
+                    "Text": "Вернулся. Ну что там?",
+                    "RequiredQuestID": 1006,
+                    "RequiredState": "CAN_TURNIN"
+                },
+                {
+                    "Text": "Ну как прошло?",
+                    "RequiredQuestID": 1006,
+                    "RequiredState": "STARTED"
+                }
+            ],
             "Responses": [
+                {
+                    "Text": "Я отнес семена. Доктор и Климентина посмотрели.",
+                    "NextNodeID": 9,
+                    "RequiredQuestID": 1006,
+                    "RequiredQuestState": "STARTED",
+                    "RequiredItemClassName": "CP_CannabisSeedsPurpleKush",
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Призрак, Петрович сказал зайти. Говорит, у тебя дело.",
+                    "NextNodeID": 8,
+                    "RequiredQuestID": 1006,
+                    "RequiredQuestState": "NONE",
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Петрович сказал найти тебя.",
+                    "NextNodeID": 7,
+                    "RequiredQuestID": 1004,
+                    "RequiredQuestState": "STARTED",
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Я разобрался с тем местом.",
+                    "NextNodeID": 10,
+                    "RequiredQuestID": 1006,
+                    "RequiredQuestState": "CAN_TURNIN",
+                    "ActionType": "NONE"
+                },
                 {
                     "Text": "Ты кто?",
                     "NextNodeID": 2,
@@ -30,16 +76,16 @@
         {
             "ID": 2,
             "Type": "STANDARD",
-            "SpeakerText": "Призрак. Меня так называют. Я не помню, кто я был раньше. Помню только огонь, крики и... зелёный свет. Ты видел зелёный свет?",
+            "SpeakerText": "Призрак. Меня так зовут. Я здесь давно. Видел, как лагерь строился, как люди приходили и уходили. Некоторые не возвращались.",
             "Responses": [
                 {
-                    "Text": "Нет. А что это?",
+                    "Text": "Почему Призрак?",
                     "NextNodeID": 4,
                     "RequiredQuestID": -1,
                     "ActionType": "NONE"
                 },
                 {
-                    "Text": "Ты пугаешь меня.",
+                    "Text": "Жутковато тут у тебя.",
                     "NextNodeID": -1,
                     "RequiredQuestID": -1,
                     "ActionType": "END_CONVERSATION"
@@ -49,16 +95,16 @@
         {
             "ID": 3,
             "Type": "STANDARD",
-            "SpeakerText": "Говорить больно. В голове шум. Ты слышишь шум? Нет? Ну и хорошо. Меньше знаешь — крепче спишь.",
+            "SpeakerText": "Говорить не люблю. Слова — шум. В этом мире лучше слушать, чем говорить.",
             "Responses": [
                 {
-                    "Text": "О чём ты?",
+                    "Text": "Что ты слышишь?",
                     "NextNodeID": 4,
                     "RequiredQuestID": -1,
                     "ActionType": "NONE"
                 },
                 {
-                    "Text": "Ладно, не буду мешать.",
+                    "Text": "Понятно.",
                     "NextNodeID": -1,
                     "RequiredQuestID": -1,
                     "ActionType": "END_CONVERSATION"
@@ -68,30 +114,11 @@
         {
             "ID": 4,
             "Type": "STANDARD",
-            "SpeakerText": "Они идут. Все они. Из зелёного тумана. Я видел. Они не люди больше. Но и не зомби. Что-то среднее. Сильнее. Умнее. Они ждут. Не ходи туда, где туман. Или станешь как я.",
+            "SpeakerText": "Ветер доносит многое. Крики вдалеке. Шорохи в кустах. Люди думают, что я странный. А я просто смотрю. И запоминаю. В мире, где каждый день может стать последним, знания — единственная валюта.",
             "Responses": [
                 {
-                    "Text": "Кто 'они'?",
+                    "Text": "Какие знания?",
                     "NextNodeID": 5,
-                    "RequiredQuestID": -1,
-                    "ActionType": "NONE"
-                },
-                {
-                    "Text": "Спасибо за предупреждение.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "END_CONVERSATION"
-                }
-            ]
-        },
-        {
-            "ID": 5,
-            "Type": "STANDARD",
-            "SpeakerText": "Эксперимент. Проект. У них нет имени. Были людьми, как мы. Теперь они — инструменты. Кем-то созданные. Для чего-то. Я не знаю зачем. Но знаю, что они не остановятся.",
-            "Responses": [
-                {
-                    "Text": "Откуда ты это знаешь?",
-                    "NextNodeID": 6,
                     "RequiredQuestID": -1,
                     "ActionType": "NONE"
                 },
@@ -104,15 +131,184 @@
             ]
         },
         {
-            "ID": 6,
+            "ID": 5,
             "Type": "STANDARD",
-            "SpeakerText": "Я был там. Внутри. Я видел, что они делают. Я сбежал. Но часть меня осталась там. Слышишь? Ветер до сих пор шепчет их имена... Уходи. Пока можешь.",
+            "SpeakerText": "Я знаю, где спрятаны тайники. Где водятся твари. Какие дороги безопасны, а какие — нет. Иногда я делюсь этим с теми, кто не боится заплатить.",
             "Responses": [
                 {
-                    "Text": "Береги себя, Призрак.",
+                    "Text": "Расскажешь?",
+                    "NextNodeID": 6,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "В другой раз.",
                     "NextNodeID": -1,
                     "RequiredQuestID": -1,
                     "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 6,
+            "Type": "STANDARD",
+            "SpeakerText": "Приходи, когда будешь готов. У меня есть пара интересных мест на примете. Но предупреждаю: лёгкой прогулки не жди.",
+            "Responses": [
+                {
+                    "Text": "Договорились.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                },
+                {
+                    "Text": "Подумаю.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 7,
+            "Type": "STANDARD",
+            "SpeakerText": "Петрович тебя прислал... Зря. Я не из тех, с кем водят знакомства. Но раз он за тебя ручается — слушай. Если нужна будет информация — приходи. У меня глаза повсюду.",
+            "Responses": [
+                {
+                    "Text": "Понял. Бывай.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 8,
+            "Type": "STANDARD",
+            "SpeakerText": "Петрович сказал? Рано ещё. Иди, занимайся делами.",
+            "SpeakerTextConditions": [
+                {
+                    "Text": "А, Петрович сказал. Да, есть дело. Зараза вокруг — не простая. Обычная медицина её не берёт. Нужны свои методы. Возьми это. Отнеси Доктору — посмотрим, что скажет.",
+                    "RequiredQuestID": 1005,
+                    "RequiredState": "COMPLETED"
+                }
+            ],
+            "Responses": [
+                {
+                    "Text": "Что это?",
+                    "NextNodeID": 12,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Понял, несу Доктору.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 1005,
+                    "RequiredState": "COMPLETED",
+                    "ActionType": "ACCEPT_QUEST"
+                },
+                {
+                    "Text": "В другой раз.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 9,
+            "Type": "STANDARD",
+            "SpeakerText": "Доктор и Климентина посмотрели, говоришь? И что сказали?.. Хм. Не помогло, значит. Ну... спасибо, что сбегал.",
+            "Responses": [
+                {
+                    "Text": "И это всё? Я бегал туда-сюда, таскал твои семена, а ты просто «спасибо»? Сам бы мог тогда сходить!",
+                    "NextNodeID": 13,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Да пожалуйста. Бывай.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 10,
+            "Type": "STANDARD",
+            "SpeakerText": "Слушаю. Рассказывай.",
+            "Responses": [
+                {
+                    "Text": "Это какие-то ебанаты в белых одеждах. Они дикие, орут, размахивают символикой. Но главное — зомби их не трогают. Вообще. Проходят мимо как будто их нет. Ты куда меня послал, Призрак? Подставить решил?",
+                    "NextNodeID": 14,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                }
+            ]
+        },
+        {
+            "ID": 12,
+            "Type": "STANDARD",
+            "SpeakerText": "Семена. Необычные. Легендарный сорт. Говорят, до всего этого бардака их использовали в экспериментальной медицине. Если кто и разберётся — то Доктор. Или Климентина. Неси им.",
+            "Responses": [
+                {
+                    "Text": "Понял, несу.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 1005,
+                    "RequiredState": "COMPLETED",
+                    "ActionType": "ACCEPT_QUEST"
+                },
+                {
+                    "Text": "Уговорил.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 1005,
+                    "RequiredState": "COMPLETED",
+                    "ActionType": "ACCEPT_QUEST"
+                }
+            ]
+        },
+        {
+            "ID": 13,
+            "Type": "STANDARD",
+            "SpeakerText": "Ты прав. Это было... мелочно. Прости. Но я не просто так просил. Есть кое-что. Тут недалеко тусуется странная группа. Называют себя «Новый Рассвет». Они мне не нравятся. Зомби их обходят стороной — я сам видел. Съезди, глянь, что там. Если что — разберись. Обещаю — в этот раз не пожалеешь.",
+            "Responses": [
+                {
+                    "Text": "Ладно. Где они?",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 14,
+            "Type": "STANDARD",
+            "SpeakerText": "Зомби их не трогают... Вот дерьмо. Я чувствовал, что с ними что-то не так, но чтобы настолько. Нет, я не подставлял тебя. Я сам не знал, что там такое. Теперь знаем. Надо будет за ними присмотреть. Ты молодец, что сходил и разобрался. Держи — заслужил. И вот ещё — семена того же сорта. Попробуй вырастить. Может тогда Климентина или Доктор смогут разобраться, что к чему.",
+            "Responses": [
+                {
+                    "Text": "Что за ящик?",
+                    "NextNodeID": 15,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Спасибо. Выращу — занесу им.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "TURN_IN_QUEST"
+                }
+            ]
+        },
+        {
+            "ID": 15,
+            "Type": "STANDARD",
+            "SpeakerText": "Не спрашивай, где я его взял. Скажем так — есть люди, которые делают вещи, не предназначенные для общего пользования. Ты Пробудившийся — вы особенные. Вещи внутри не пропадут, даже если ты снова «очнёшься» где-нибудь в поле. Никому про него не рассказывай — уникальная технология, лишние вопросы нам ни к чему. Семена посади где-нибудь в тихом месте. Как вырастут — покажи Доктору или Климентине. Может, из этого выйдет толк.",
+            "Responses": [
+                {
+                    "Text": "Понял. Никому ни слова.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "TURN_IN_QUEST"
                 }
             ]
         }

@@ -1,0 +1,99 @@
+{
+	"ConfigVersion": 22,
+	"ID": 1006,
+	"Type": 1,
+	"Title": "Необычное лекарство",
+	"Descriptions": [
+		"<p align=\"center\"><image set=\"expansion_iconset\" name=\"Shield\" scale=\"1.92\" /><color hex=\"0xFFCC6600\"> Призрак смотрит на тебя из тени и протягивает маленький свёрток: <br /><br /><b>\"Зараза вокруг — не простая. Обычная медицина не поможет. Нужны свои методы. Возьми это, отнеси Доктору — посмотрим, что он скажет.\"</b><br /><br /> Ты разворачиваешь ткань. Внутри — горсть необычных семян.</color></p>",
+		"<p align=\"center\"><color hex=\"0xFFCC6600\"> Доктор и Климентина изучили семена. Толком никто не знает, что это такое. Но терять нечего — нестандартная медицина так нестандартная. Призрак задумчив: <br /><br /><b>\"Не помогло... ну и ладно. Спасибо, что сбегал.\"</b><br /><br /> Ты чувствуешь, что тебя просто использовали. И говоришь ему об этом.</color></p>",
+		"<p align=\"center\"><color hex=\"0xFFCC6600\"> Призрак молчит, потом кивает: <br /><br /><b>\"Ладно, ты прав. Есть кое-что. Тут недалеко тусуется странная группа. Называют себя «Новый Рассвет». Они мне не нравятся. Съезди, глянь, что там. Если что — разберись.\"</b></color></p>",
+		"<p align=\"center\"><color hex=\"0xFFCC6600\"> На месте — они. Странные. В белых одеждах, с символикой. И главное — зомби их не трогают. Ты делаешь то, что должен.</color></p>",
+		"<p align=\"center\"><color hex=\"0xFFCC6600\"> Призрак слушает твой рассказ и мрачнеет: <br /><br /><b>\"Зомби их не трогают, говоришь... Это плохо. Очень плохо. Надо будет за ними присмотреть. Ты молодец, что сходил. Держи — это тебе.\"</b><br /><br /> Он протягивает тебе пачку семян и небольшой защитный ящик.</color></p>"
+	],
+	"ObjectiveText": "<p align=\"center\"><image set=\"expansion_iconset\" name=\"Gun\" scale=\"1.28\" /> Доберитесь до зоны «Нового Рассвета», устраните 5 приспешников и вернитесь к Призраку.</p>",
+	"FollowUpQuest": -1,
+	"Repeatable": 0,
+	"IsDailyQuest": 0,
+	"IsWeeklyQuest": 0,
+	"CancelQuestOnPlayerDeath": 0,
+	"Autocomplete": 0,
+	"IsGroupQuest": 0,
+	"ObjectSetFileName": "",
+	"QuestItems": [
+		{
+			"ClassName": "CP_CannabisSeedsPurpleKush",
+			"Amount": 1
+		}
+	],
+	"Rewards": [
+		{
+			"ClassName": "CP_CannabisSeedsPurpleKush",
+			"Amount": 3,
+			"Attachments": [],
+			"DamagePercent": 0,
+			"HealthPercent": 0,
+			"QuestID": -1,
+			"MinObjectiveCount": -1,
+			"RequiredObjectiveID": -1,
+			"Chance": 1.0
+		},
+		{
+			"ClassName": "A6_SecureContainer_Alpha",
+			"Amount": 1,
+			"Attachments": [],
+			"DamagePercent": 0,
+			"HealthPercent": 0,
+			"QuestID": -1,
+			"MinObjectiveCount": -1,
+			"RequiredObjectiveID": -1,
+			"Chance": 1.0
+		}
+	],
+	"NeedToSelectReward": 0,
+	"RandomReward": 0,
+	"RandomRewardAmount": -1,
+	"RewardsForGroupOwnerOnly": 1,
+	"RewardBehavior": 0,
+	"QuestGiverIDs": [
+		12
+	],
+	"QuestTurnInIDs": [
+		12
+	],
+	"IsAchievement": 0,
+	"Objectives": [
+		{
+			"ConfigVersion": 28,
+			"ID": 1014,
+			"ObjectiveType": 9
+		},
+		{
+			"ConfigVersion": 28,
+			"ID": 1015,
+			"ObjectiveType": 2
+		},
+		{
+			"ConfigVersion": 28,
+			"ID": 1016,
+			"ObjectiveType": 5
+		}
+	],
+	"QuestColor": 0,
+	"ReputationReward": 300,
+	"ReputationRequirement": -1,
+	"PreQuestIDs": [
+		1005
+	],
+	"RequiredFaction": "",
+	"FactionReward": "",
+	"PlayerNeedQuestItems": 1,
+	"DeleteQuestItems": 1,
+	"SequentialObjectives": 1,
+	"CompletionMode": 0,
+	"MinRequiredObjectives": -1,
+	"QuestTimeLimit": -1,
+	"FactionReputationRequirements": {},
+	"FactionReputationRewards": {},
+	"SuppressQuestLogOnCompetion": 0,
+	"Active": 1
+}

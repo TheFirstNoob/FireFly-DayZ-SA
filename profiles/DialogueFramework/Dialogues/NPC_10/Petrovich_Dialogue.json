@@ -6,6 +6,18 @@
             "ID": 1,
             "Type": "STANDARD",
             "SpeakerText": "Чего тебе? Я Петрович. Ты кто вообще?",
+            "SpeakerTextConditions": [
+                {
+                    "Text": "Ну что, разведал?",
+                    "RequiredQuestID": 1005,
+                    "RequiredState": "CAN_TURNIN"
+                },
+                {
+                    "Text": "А, это ты. Ну как, освоился в лагере?",
+                    "RequiredQuestID": 1004,
+                    "RequiredState": "COMPLETED"
+                }
+            ],
             "Responses": [
                 {
                     "Text": "Меня охранник прислал. Сказал — вы главный, есть разговор.",
@@ -17,6 +29,35 @@
                     "Text": "Я сделал то, что ты просил. Пять трупов — готово.",
                     "NextNodeID": 5,
                     "RequiredQuestID": 1003,
+                    "RequiredQuestState": "CAN_TURNIN",
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Я познакомился со всеми!",
+                    "NextNodeID": 8,
+                    "RequiredQuestID": 1004,
+                    "RequiredQuestState": "CAN_TURNIN",
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Петрович, я готов проверить окрестности.",
+                    "NextNodeID": 9,
+                    "RequiredQuestID": 1005,
+                    "RequiredQuestState": "NONE",
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Я всё осмотрел. Неспокойно там.",
+                    "NextNodeID": 10,
+                    "RequiredQuestID": 1005,
+                    "RequiredQuestState": "CAN_TURNIN",
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Призрак просил зайти, говорит — дело есть.",
+                    "NextNodeID": 11,
+                    "RequiredQuestID": 1005,
+                    "RequiredQuestState": "COMPLETED",
                     "ActionType": "NONE"
                 },
                 {
@@ -96,10 +137,10 @@
             "SpeakerText": "О, смотрю — справился! Мать твою, а я уж думал — не вывезут тебя. Ну, молодец. Неожиданно. Лады, держи слово. Торговцы теперь тебя обслужат. Заслужил. В банк и схрон пока рановато, но базар — открыт. А там посмотрим, что из тебя выйдет.",
             "Responses": [
                 {
-                    "Text": "Спасибо, Петрович.",
+                    "Text": "Спасибо за доверие. Я оправдаю.",
                     "NextNodeID": -1,
                     "RequiredQuestID": -1,
-                    "ActionType": "END_CONVERSATION"
+                    "ActionType": "TURN_IN_QUEST"
                 },
                 {
                     "Text": "Что дальше?",
@@ -112,10 +153,119 @@
         {
             "ID": 6,
             "Type": "STANDARD",
-            "SpeakerText": "Отдыхай пока. Потом будет работа. У нас тут проблемы покрупнее, чем зомбаки с отбивным молотком. Но об этом потом. Дай человеку дух перевести.",
+            "SpeakerText": "Слушай, раз теперь ты с нами — надо познакомить тебя с остальными. Найди Климентину, Доктора, Бубылду и Гоуста. Скажи каждому — я прислал. Как обойдёшь всех — возвращайся, расскажешь впечатления.",
+            "SpeakerTextConditions": [
+                {
+                    "Text": "Ты уже всё знаешь. Отдыхай пока, потом будет работа.",
+                    "RequiredQuestID": 1004,
+                    "RequiredState": "COMPLETED"
+                },
+                {
+                    "Text": "Отдохнул? Работы пока нет, но ты первый в списке.",
+                    "RequiredQuestID": 1005,
+                    "RequiredState": "COMPLETED"
+                },
+                {
+                    "Text": "Призрак просил зайти — дуй к нему, не задерживай.",
+                    "RequiredQuestID": 1006,
+                    "RequiredState": "COMPLETED"
+                }
+            ],
             "Responses": [
                 {
-                    "Text": "Понял. Отдохну.",
+                    "Text": "Понял, иду знакомиться.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 1004,
+                    "RequiredQuestState": "NONE",
+                    "ActionType": "ACCEPT_QUEST"
+                },
+                {
+                    "Text": "Что за люди? Расскажи.",
+                    "NextNodeID": 7,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Давай потом.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 7,
+            "Type": "STANDARD",
+            "SpeakerText": "Климентина — главный исследователь. Всё про зелёный туман знает... ну или делает вид. Доктор — лечит всех подряд, усталый вечно. Бубылда — гений-электрик, но характер — жесть. Гоуст... ну, сам увидишь. Странный он. Очень. Но свой.",
+            "Responses": [
+                {
+                    "Text": "Понял, иду знакомиться.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 1004,
+                    "RequiredQuestState": "NONE",
+                    "ActionType": "ACCEPT_QUEST"
+                },
+                {
+                    "Text": "Ладно, потом зайду.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 8,
+            "Type": "STANDARD",
+            "SpeakerText": "Ну как тебе? Лагерь — он такой. Люди разные, но своих не бросаем. Ты теперь свой, считай. Отдыхай, набирайся сил. Завтра может быть жарко.",
+            "Responses": [
+                {
+                    "Text": "Спасибо за доверие.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "TURN_IN_QUEST"
+                }
+            ]
+        },
+        {
+            "ID": 9,
+            "Type": "STANDARD",
+            "SpeakerText": "Слушай, Пробудившийся. Мы тут сидим за забором и понятия не имеем, что за ним. Бойцов у меня раз-два и обчёлся, а ты... ну ты же всё равно вернёшься, если что случится, да? Короче, нужно проверить ближайшие места. Северную окраину, восточный лес и западный тракт. Посмотри, сколько там тварей, не подбираются ли к нам. Я должен знать, насколько тут безопасно.",
+            "Responses": [
+                {
+                    "Text": "Понял, иду смотреть.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 1005,
+                    "RequiredQuestState": "NONE",
+                    "ActionType": "ACCEPT_QUEST"
+                },
+                {
+                    "Text": "Давай позже схожу.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 10,
+            "Type": "STANDARD",
+            "SpeakerText": "Я так и думал. Везде твари, везде опасно. Спокойных мест рядом нет. Значит, будем укрепляться и следить. Ты молодец, что сходил. Теперь хоть понимаем картину. Раз уж ты с нами надолго — надо тебе где-то располагаться. В синем шкафчике можешь хранить деньги, я лично за ним слежу. И в сундуке рядом — снарягу складывай. Пользуйся, заслужил.",
+            "Responses": [
+                {
+                    "Text": "Спасибо, Петрович. Пригодится.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "TURN_IN_QUEST"
+                }
+            ]
+        },
+        {
+            "ID": 11,
+            "Type": "STANDARD",
+            "SpeakerText": "Призрак просил, чтобы ты заглянул к нему. Говорит, дело есть. Меня это не касается, но он помогает лагерю — так что дуй, не задерживайся.",
+            "Responses": [
+                {
+                    "Text": "Понял, схожу к нему.",
                     "NextNodeID": -1,
                     "RequiredQuestID": -1,
                     "ActionType": "END_CONVERSATION"

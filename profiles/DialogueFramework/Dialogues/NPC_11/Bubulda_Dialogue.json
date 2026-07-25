@@ -8,6 +8,13 @@
             "SpeakerText": "А, пришёл. Ждал тебя. Ну чего встал? Говори, раз пришёл в лес.",
             "Responses": [
                 {
+                    "Text": "Петрович сказал познакомиться.",
+                    "NextNodeID": 5,
+                    "RequiredQuestID": 1004,
+                    "RequiredQuestState": "STARTED",
+                    "ActionType": "NONE"
+                },
+                {
                     "Text": "Ты Бубылда?",
                     "NextNodeID": 2,
                     "RequiredQuestID": -1,
@@ -21,6 +28,19 @@
                 },
                 {
                     "Text": "Я просто мимо шёл.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 5,
+            "Type": "STANDARD",
+            "SpeakerText": "Петрович, значит. Ну, раз он прислал — слушай сюда. Я Бубылда. Чиняю всё, что ломается, и ломаю всё, что бесит. Живу в лесу, не мешаю — и мне не мешайте. Будешь под ногами вертеться — получишь отвёрткой в глаз. Свободен.",
+            "Responses": [
+                {
+                    "Text": "Понял, бывай.",
                     "NextNodeID": -1,
                     "RequiredQuestID": -1,
                     "ActionType": "END_CONVERSATION"

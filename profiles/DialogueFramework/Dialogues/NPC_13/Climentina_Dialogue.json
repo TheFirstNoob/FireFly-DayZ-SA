@@ -8,6 +8,13 @@
             "SpeakerText": "Вы кто? А, новенький. Я Климентина, главный исследователь здесь. Не часто ко мне приходят без дела. Что нужно?",
             "Responses": [
                 {
+                    "Text": "Меня Петрович прислал познакомиться.",
+                    "NextNodeID": 5,
+                    "RequiredQuestID": 1004,
+                    "RequiredQuestState": "STARTED",
+                    "ActionType": "NONE"
+                },
+                {
                     "Text": "Меня Петрович прислал. Сказал — вы главная по науке.",
                     "NextNodeID": 2,
                     "RequiredQuestID": -1,
@@ -20,6 +27,14 @@
                     "ActionType": "NONE"
                 },
                 {
+                    "Text": "Доктор сказал тебе это показать.",
+                    "NextNodeID": 6,
+                    "RequiredQuestID": 1006,
+                    "RequiredQuestState": "STARTED",
+                    "RequiredItemClassName": "CP_CannabisSeedsPurpleKush",
+                    "ActionType": "NONE"
+                },
+                {
                     "Text": "Есть работа для меня?",
                     "NextNodeID": -1,
                     "RequiredQuestID": -1,
@@ -27,6 +42,19 @@
                 },
                 {
                     "Text": "Я просто смотрел. Бывай.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 5,
+            "Type": "STANDARD",
+            "SpeakerText": "А, знакомство. Ну, Петрович — хороший мужик. Я Климентина. Исследую этот туман, что накрыл остров. Если хочешь помогать — я найду работу. А пока — присматривайся, осваивайся.",
+            "Responses": [
+                {
+                    "Text": "Спасибо. Пойду дальше знакомиться.",
                     "NextNodeID": -1,
                     "RequiredQuestID": -1,
                     "ActionType": "END_CONVERSATION"
@@ -96,6 +124,19 @@
                 },
                 {
                     "Text": "Мне нужно подумать.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 6,
+            "Type": "STANDARD",
+            "SpeakerText": "Доктор прислал? Ну-ка покажи... Хм. Интересная структура. Я такие штуки в довоенных журналах видела. Экспериментальная фитотерапия. Доктор прав — в обычной медицине такого нет. А тебе вообще зачем это знать? Хотя... Нестандартная медицина на нелегальных препаратах. Мы и сами не знаем, что это за хрень. Терять нам нечего. Забирай, неси обратно Гоусту. Пусть знает, что мы глянули, но ничего определённого сказать не можем.",
+            "Responses": [
+                {
+                    "Text": "Понял, отнесу Гоусту.",
                     "NextNodeID": -1,
                     "RequiredQuestID": -1,
                     "ActionType": "END_CONVERSATION"

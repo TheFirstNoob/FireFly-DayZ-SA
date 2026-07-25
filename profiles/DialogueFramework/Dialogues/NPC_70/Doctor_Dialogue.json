@@ -8,6 +8,13 @@
             "SpeakerText": "Заходи, не стесняйся. Жалобы есть? Или просто так заглянул?",
             "Responses": [
                 {
+                    "Text": "Я от Петровича. Велел познакомиться.",
+                    "NextNodeID": 5,
+                    "RequiredQuestID": 1004,
+                    "RequiredQuestState": "STARTED",
+                    "ActionType": "NONE"
+                },
+                {
                     "Text": "Как дела в лазарете?",
                     "NextNodeID": 2,
                     "RequiredQuestID": -1,
@@ -20,6 +27,14 @@
                     "ActionType": "NONE"
                 },
                 {
+                    "Text": "Призрак просил тебе кое-что показать.",
+                    "NextNodeID": 6,
+                    "RequiredQuestID": 1006,
+                    "RequiredQuestState": "STARTED",
+                    "RequiredItemClassName": "CP_CannabisSeedsPurpleKush",
+                    "ActionType": "NONE"
+                },
+                {
                     "Text": "Есть работа?",
                     "NextNodeID": -1,
                     "RequiredQuestID": -1,
@@ -27,6 +42,19 @@
                 },
                 {
                     "Text": "Бывай, док.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 5,
+            "Type": "STANDARD",
+            "SpeakerText": "А, Петрович прислал. Меня Доктором кличут. Лечу всех, кого могу, но припасов вечно не хватает. Если поранят — заходи, перевяжу. А сейчас извини, работы по горло. Передавай Петровичу — я тут, пока не свалился.",
+            "Responses": [
+                {
+                    "Text": "Спасибо, док. Передам.",
                     "NextNodeID": -1,
                     "RequiredQuestID": -1,
                     "ActionType": "END_CONVERSATION"
@@ -72,6 +100,19 @@
             "Responses": [
                 {
                     "Text": "Договорились.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 6,
+            "Type": "STANDARD",
+            "SpeakerText": "Хм, семена? Необычные. Дай-ка глянуть... Интересно. Очень интересно. Я такие раньше не видел. Состав непривычный — в обычной аптеке не найдёшь. Знаешь что? Иди-ка ты к Климентине. Она по таким непонятным штукам спец. У неё и оборудование есть, и голова варит. Скажи, я посмотрел и ничего конкретного не сказал — пусть она глянет.",
+            "Responses": [
+                {
+                    "Text": "Понял, схожу к Климентине.",
                     "NextNodeID": -1,
                     "RequiredQuestID": -1,
                     "ActionType": "END_CONVERSATION"
