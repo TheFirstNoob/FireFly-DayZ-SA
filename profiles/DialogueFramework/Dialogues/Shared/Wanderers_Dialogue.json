@@ -12,7 +12,7 @@
             "VoiceLineIDs": [],
             "Responses": [
                 {
-                    "Text": "Что на севере?",
+                    "Text": "А что на севере?",
                     "NextNodeID": 2,
                     "RequiredQuestID": -1,
                     "ActionType": "NONE"
@@ -24,7 +24,7 @@
                     "ActionType": "SHOW_QUEST_LIST"
                 },
                 {
-                    "Text": "Бывай, странник.",
+                    "Text": "Бывай.",
                     "NextNodeID": -1,
                     "RequiredQuestID": -1,
                     "ActionType": "END_CONVERSATION"
