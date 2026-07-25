@@ -2,14 +2,11 @@
     "ID": 102,
     "NPCIDs": [30, 31, 32],
     "RootNodeID": 1,
-    "GreetingVoiceLineIDs": [],
-    "FarewellVoiceLineIDs": [],
     "Nodes": [
         {
             "ID": 1,
             "Type": "STANDARD",
             "SpeakerText": "Стой! А, это ты... Ну чего застыл? Говори, раз пришёл.",
-            "VoiceLineIDs": [],
             "Responses": [
                 {
                     "Text": "Есть работа?",
@@ -41,7 +38,6 @@
             "ID": 2,
             "Type": "STANDARD",
             "SpeakerText": "Да хреново. Твари прут, припасов мало. Но мы держимся. Ты как сам? Не сдох ещё?",
-            "VoiceLineIDs": [],
             "Responses": [
                 {
                     "Text": "Пока жив.",
@@ -61,7 +57,6 @@
             "ID": 3,
             "Type": "STANDARD",
             "SpeakerText": "Ну и молодец. Тут долго не живут, но некоторые умудряются. Слышал, ты к Петровичу ходил? Он мужик нормальный, хоть и мент бывший. Слушайся его — не пропадёшь.",
-            "VoiceLineIDs": [],
             "Responses": [
                 {
                     "Text": "Добро, учту.",
@@ -75,7 +70,6 @@
             "ID": 5,
             "Type": "STANDARD",
             "SpeakerText": "Молодец. Я всё видел, ты красавчик. Петровичу про тебя уже сказали. Иди к нему, он ждёт. Дальше сам.",
-            "VoiceLineIDs": [],
             "Responses": [
                 {
                     "Text": "Понял.",
