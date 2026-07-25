@@ -1,0 +1,110 @@
+{
+	"ConfigVersion": 28,
+	"ID": 6002,
+	"ObjectiveType": 6,
+	"ObjectiveText": "Найдите зашифрованный схрон",
+	"TimeLimit": -1,
+	"Active": 1,
+	"ShowDistance": 0,
+	"ContainerName": "CipherQuestSafe",
+	"DigInStash": 1,
+	"MarkerName": "",
+	"MarkerVisibility": 0,
+	"Positions": [
+		[3224.80, 225.67, 4461.44],
+		[11169.10, 365.85, 8536.08],
+		[7535.90, 471.92, 10838.90],
+		[9577.94, 272.45, 5981.96],
+		[5467.36, 356.34, 12927.50],
+		[5428.05, 229.24, 2935.17],
+		[8219.42, 237.35, 1244.29]
+	],
+	"LootItemsAmount": 5,
+	"MaxDistance": 10.0,
+	"Loot": [
+		{
+			"Name": "NVGoggles",
+			"Chance": 0.3,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "Scout",
+			"Chance": 0.15,
+			"Attachments": [
+				{
+					"Name": "mag_scout_5rnd",
+					"Chance": 1.0,
+					"Attachments": []
+				}
+			],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "WeaponCleaningKit",
+			"Chance": 0.5,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "AliceBag_Green",
+			"Chance": 0.3,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "CarTent",
+			"Chance": 0.2,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "ExpansionSafeMini",
+			"Chance": 0.2,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "NVGoggles",
+			"Chance": 0.3,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "Rangefinder",
+			"Chance": 0.2,
+			"Attachments": [
+				{
+					"Name": "Battery9V",
+					"Chance": 1.0,
+					"Attachments": []
+				}
+			],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		}
+	]
+}

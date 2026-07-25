@@ -1,0 +1,147 @@
+{
+	"ConfigVersion": 28,
+	"ID": 6003,
+	"ObjectiveType": 6,
+	"ObjectiveText": "Найдите зашифрованный схрон",
+	"TimeLimit": -1,
+	"Active": 1,
+	"ShowDistance": 0,
+	"ContainerName": "CipherQuestSafe",
+	"DigInStash": 1,
+	"MarkerName": "",
+	"MarkerVisibility": 0,
+	"Positions": [
+		[13780.40, 453.24, 5336.86],
+		[12582.50, 350.38, 7997.35],
+		[5233.67, 230.53, 10242.08],
+		[3108.64, 305.81, 12943.80],
+		[11877.80, 421.38, 11476.50],
+		[4944.92, 222.38, 6348.28],
+		[6014.04, 195.82, 757.85],
+		[13086.70, 543.22, 10287.40]
+	],
+	"LootItemsAmount": 8,
+	"MaxDistance": 10.0,
+	"Loot": [
+		{
+			"Name": "Deagle_gold",
+			"Chance": 0.2,
+			"Attachments": [
+				{
+					"Name": "mag_deagle_9rnd",
+					"Chance": 1.0,
+					"Attachments": []
+				}
+			],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "ASVAL",
+			"Chance": 0.2,
+			"Attachments": [
+				{
+					"Name": "mag_val_20rnd",
+					"Chance": 1.0,
+					"Attachments": []
+				}
+			],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "Saiga",
+			"Chance": 0.2,
+			"Attachments": [
+				{
+					"Name": "Mag_Saiga_Drum20Rnd",
+					"Chance": 1.0,
+					"Attachments": []
+				}
+			],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "VSS",
+			"Chance": 0.2,
+			"Attachments": [
+				{
+					"Name": "mag_vss_10rnd",
+					"Chance": 1.0,
+					"Attachments": []
+				}
+			],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "Expansion_AWM",
+			"Chance": 0.15,
+			"Attachments": [
+				{
+					"Name": "Mag_Expansion_AWM_5Rnd",
+					"Chance": 1.0,
+					"Attachments": []
+				}
+			],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "ExpansionGPS",
+			"Chance": 0.8,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "NVGoggles",
+			"Chance": 0.5,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "WeaponCleaningKit",
+			"Chance": 0.8,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "CarTent",
+			"Chance": 0.3,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "AliceBag_Green",
+			"Chance": 0.5,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		}
+	]
+}

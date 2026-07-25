@@ -1,0 +1,69 @@
+{
+	"ConfigVersion": 28,
+	"ID": 6001,
+	"ObjectiveType": 6,
+	"ObjectiveText": "Найдите зашифрованный тайник",
+	"TimeLimit": -1,
+	"Active": 1,
+	"ShowDistance": 0,
+	"ContainerName": "CipherQuestSafe",
+	"DigInStash": 0,
+	"MarkerName": "",
+	"MarkerVisibility": 0,
+	"Positions": [
+		[6672.06, 289.32, 7726.74],
+		[8857.44, 247.52, 6298.23],
+		[5923.69, 246.87, 9313.21],
+		[4427.47, 209.05, 7412.72],
+		[6930.14, 234.10, 3553.08]
+	],
+	"LootItemsAmount": 3,
+	"MaxDistance": 10.0,
+	"Loot": [
+		{
+			"Name": "WeaponCleaningKit",
+			"Chance": 0.5,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "VitaminBottle",
+			"Chance": 0.5,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "BatteryCharger",
+			"Chance": 0.3,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "ExpansionGPS",
+			"Chance": 0.2,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "Binoculars",
+			"Chance": 0.5,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		}
+	]
+}
