@@ -68,6 +68,34 @@
                     "ActionType": "NONE"
                 },
                 {
+                    "Text": "Слышал, Вовчику помощь нужна?",
+                    "NextNodeID": 12,
+                    "RequiredQuestID": 202,
+                    "RequiredQuestState": "NONE",
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Я сводил Вовчика. Живой, целый.",
+                    "NextNodeID": 13,
+                    "RequiredQuestID": 202,
+                    "RequiredQuestState": "CAN_TURNIN",
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Что там с Вовчиком?",
+                    "NextNodeID": 14,
+                    "RequiredQuestID": 202,
+                    "RequiredQuestState": "COMPLETED",
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Я вытащил Вовчика из города.",
+                    "NextNodeID": 15,
+                    "RequiredQuestID": 203,
+                    "RequiredQuestState": "CAN_TURNIN",
+                    "ActionType": "NONE"
+                },
+                {
                     "Text": "Да так, мимо проходил.",
                     "NextNodeID": 3,
                     "RequiredQuestID": -1,
@@ -283,6 +311,72 @@
                     "NextNodeID": -1,
                     "RequiredQuestID": -1,
                     "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 12,
+            "Type": "STANDARD",
+            "SpeakerText": "А, Вовчик... Короче, алкаш местный. Вечно бухой, вечно обосранный. Сейчас сидит, трясётся, боится до сортира доползти. Своди его, а? Он обещал бумажкой расплатиться — я глянул, там ценная какая-то, на схрон идёт. Не пропадать же добру.",
+            "Responses": [
+                {
+                    "Text": "Помогу, конечно.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 202,
+                    "RequiredQuestState": "NONE",
+                    "ActionType": "ACCEPT_QUEST"
+                },
+                {
+                    "Text": "Не до него сейчас.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 13,
+            "Type": "STANDARD",
+            "SpeakerText": "Ну, молодец. Угодил парню. Он там бумажку тебе оставил. Пользуйся.",
+            "Responses": [
+                {
+                    "Text": "Спасибо.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "TURN_IN_QUEST"
+                }
+            ]
+        },
+        {
+            "ID": 14,
+            "Type": "STANDARD",
+            "SpeakerText": "Да всё тот же Вовчик. Алкаш чёртов — попёрся в город за бухлом, а там заражённые, целая орда. Застрял, дурак. Вытащи его, будь другом. У него для тебя бумажка есть, ещё круче прошлой. Видимо, пока бухой был — где-то нашёл.",
+            "Responses": [
+                {
+                    "Text": "Вытащу.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 203,
+                    "RequiredQuestState": "NONE",
+                    "ActionType": "ACCEPT_QUEST"
+                },
+                {
+                    "Text": "Потом.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 15,
+            "Type": "STANDARD",
+            "SpeakerText": "Смотрю, Вовчик довольный бегает. Справился. Держи, заслужил.",
+            "Responses": [
+                {
+                    "Text": "Спасибо.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "TURN_IN_QUEST"
                 }
             ]
         }

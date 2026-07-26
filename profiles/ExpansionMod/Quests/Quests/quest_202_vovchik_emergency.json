@@ -1,0 +1,78 @@
+{
+	"ConfigVersion": 22,
+	"ID": 202,
+	"Type": 1,
+	"Title": "Вовчик приспичило",
+	"Descriptions": [
+		"Вовчик алкаш местный. Перебрал самогона, теперь сидит трясётся. Петрович сказал: \"Отведи его до сортира, пока не обосрался. У него бумажки, расплатится\".",
+		"Тащи этого обосранца к сортиру, пока не поздно!",
+		"Вовчик в сортире. Сунул тебе бумажку и зачем-то налил."
+	],
+	"ObjectiveText": "Отведи Вовчика до сортира, пока не обосрался",
+	"FollowUpQuest": -1,
+	"Repeatable": 0,
+	"IsDailyQuest": 0,
+	"IsWeeklyQuest": 0,
+	"CancelQuestOnPlayerDeath": 1,
+	"Autocomplete": 0,
+	"IsGroupQuest": 0,
+	"ObjectSetFileName": "",
+	"QuestItems": [],
+	"Rewards": [
+		{
+			"ClassName": "ExpansionPersonalStorageUpgrade_Level2",
+			"Amount": 1,
+			"Attachments": [],
+			"DamagePercent": 0,
+			"HealthPercent": 0,
+			"QuestID": -1,
+			"Chance": 1
+		},
+		{
+			"ClassName": "ExpansionBanknoteHryvnia",
+			"Amount": 500,
+			"Attachments": [],
+			"DamagePercent": 0,
+			"HealthPercent": 0,
+			"QuestID": -1,
+			"Chance": 1
+		}
+	],
+	"NeedToSelectReward": 0,
+	"RandomReward": 0,
+	"RandomRewardAmount": -1,
+	"RewardsForGroupOwnerOnly": 0,
+	"RewardBehavior": 0,
+	"QuestGiverIDs": [
+		10
+	],
+	"QuestTurnInIDs": [
+		10
+	],
+	"IsAchievement": 0,
+	"Objectives": [
+		{
+			"ConfigVersion": 28,
+			"ID": 20201,
+			"ObjectiveType": 9
+		}
+	],
+	"QuestColor": 0,
+	"ReputationReward": 200,
+	"ReputationRequirement": -1,
+	"PreQuestIDs": [
+		105
+	],
+	"RequiredFaction": "",
+	"FactionReward": "",
+	"PlayerNeedQuestItems": 1,
+	"DeleteQuestItems": 1,
+	"SequentialObjectives": 1,
+	"CompletionMode": 0,
+	"MinRequiredObjectives": -1,
+	"QuestTimeLimit": -1,
+	"FactionReputationRequirements": {},
+	"FactionReputationRewards": {},
+	"SuppressQuestLogOnCompetion": 0,
+	"Active": 1
+}

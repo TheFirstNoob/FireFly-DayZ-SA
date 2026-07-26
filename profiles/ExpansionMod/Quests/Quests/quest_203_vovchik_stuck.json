@@ -1,0 +1,83 @@
+{
+	"ConfigVersion": 22,
+	"ID": 203,
+	"Type": 1,
+	"Title": "Вовчик в завязке",
+	"Descriptions": [
+		"Вовчик алкаш местный — попёрся в город за бухлом, а там заражённые, целая орда. Петрович просит: \"Вытащи его, у него бумажка ценная, не пропадёт же\". Зачисти территорию и выведи его.",
+		"Зачисти город от заражённых и вытащи этого бухого дурака.",
+		"Вовчик спасён, бухло при нём, бумажка твоя."
+	],
+	"ObjectiveText": "Спасите Вовчика",
+	"FollowUpQuest": -1,
+	"Repeatable": 0,
+	"IsDailyQuest": 0,
+	"IsWeeklyQuest": 0,
+	"CancelQuestOnPlayerDeath": 1,
+	"Autocomplete": 0,
+	"IsGroupQuest": 0,
+	"ObjectSetFileName": "",
+	"QuestItems": [],
+	"Rewards": [
+		{
+			"ClassName": "ExpansionPersonalStorageUpgrade_Level3",
+			"Amount": 1,
+			"Attachments": [],
+			"DamagePercent": 0,
+			"HealthPercent": 0,
+			"QuestID": -1,
+			"Chance": 1
+		},
+		{
+			"ClassName": "ExpansionBanknoteHryvnia",
+			"Amount": 1500,
+			"Attachments": [],
+			"DamagePercent": 0,
+			"HealthPercent": 0,
+			"QuestID": -1,
+			"Chance": 1
+		}
+	],
+	"NeedToSelectReward": 0,
+	"RandomReward": 0,
+	"RandomRewardAmount": -1,
+	"RewardsForGroupOwnerOnly": 0,
+	"RewardBehavior": 0,
+	"QuestGiverIDs": [
+		10
+	],
+	"QuestTurnInIDs": [
+		10
+	],
+	"IsAchievement": 0,
+	"Objectives": [
+		{
+			"ConfigVersion": 28,
+			"ID": 20301,
+			"ObjectiveType": 12
+		},
+		{
+			"ConfigVersion": 28,
+			"ID": 20302,
+			"ObjectiveType": 9
+		}
+	],
+	"QuestColor": 0,
+	"ReputationReward": 400,
+	"ReputationRequirement": -1,
+	"PreQuestIDs": [
+		202
+	],
+	"RequiredFaction": "",
+	"FactionReward": "",
+	"PlayerNeedQuestItems": 1,
+	"DeleteQuestItems": 1,
+	"SequentialObjectives": 1,
+	"CompletionMode": 0,
+	"MinRequiredObjectives": -1,
+	"QuestTimeLimit": -1,
+	"FactionReputationRequirements": {},
+	"FactionReputationRewards": {},
+	"SuppressQuestLogOnCompetion": 0,
+	"Active": 1
+}

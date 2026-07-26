@@ -1,0 +1,136 @@
+{
+    "ID": 451,
+    "RootNodeID": 1,
+    "Nodes": [
+        {
+            "ID": 1,
+            "Type": "STANDARD",
+            "SpeakerText": "А? А, это ты... Слышь, есть закурить? А выпить? Ну нет так нет...",
+            "SpeakerTextConditions": [],
+            "Responses": [
+                {
+                    "Text": "Ты как вообще, Вовчик?",
+                    "NextNodeID": 2,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Есть дело. Петрович прислал.",
+                    "NextNodeID": 5,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "На, держи на пивасик.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 99001,
+                    "RequiredQuestState": "NONE",
+                    "RequiredItemClassName": "ExpansionBanknoteHryvnia",
+                    "RequiredItemCount": 500,
+                    "RemoveItemClassName": "ExpansionBanknoteHryvnia",
+                    "RemoveItemCount": 500,
+                    "ActionType": "ACCEPT_QUEST"
+                },
+                {
+                    "Text": "Бывай, алкаш.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 2,
+            "Type": "STANDARD",
+            "SpeakerText": "Да норм... живой пока. Хотя утром думал — всё, кирдык.",
+            "SpeakerTextConditions": [],
+            "Responses": [
+                {
+                    "Text": "Чего так?",
+                    "NextNodeID": 3,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Ладно, бывай.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 3,
+            "Type": "STANDARD",
+            "SpeakerText": "Понимаешь... я вчера нашёл банку браги. Думал, выпью — и норм. А оно вон как...",
+            "SpeakerTextConditions": [],
+            "RandomTexts": [
+                "Понимаешь... я вчера нашёл банку браги. Думал, выпью — и норм. А оно вон как...",
+                "Да там... ну это... голоса в трубах. Слышу, говорят: \"Вовчик, налей себе\". Я и налил.",
+                "Бабка одна сказала: \"Помрёшь ты, Вова, от пьянства\". А я ей: \"Не каркай, старая\". А она каркнула. Теперь вот живой — и то хлеб.",
+                "Понимаешь, брат... я когда трезвый — мне страшно. А когда пьяный — мне весело. Ну и какой смысл быть трезвым?",
+                "Слышал, в городе самогон появился? Надо бы сходить... Ой, точно, я ж оттуда только вчера еле уполз.",
+                "Слушай и запоминай: Господь просил о бедности, целомудрии и послушании. А о трезвости — ни слова! Так что не лезь ко мне с этим."
+            ],
+            "Responses": [
+                {
+                    "Text": "Тебе бы завязать, Вовчик.",
+                    "NextNodeID": 4,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "В общем, давай, не помирай тут.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 4,
+            "Type": "STANDARD",
+            "SpeakerText": "Завязать? Ага, а жить зачем тогда? Слушай, вот есть теория... ну, я вчера придумал... короче, если пить самогон и не закусывать — можно увидеть будущее... ну, или прошлое. Я видел деда своего. Сказал, чтоб я меньше пил. А потом оказалось, что это не дед, а шкаф. Но шкаф тоже прав — надо меньше... или больше? Запутался я...",
+            "Responses": [
+                {
+                    "Text": "Ладно, Вовчик, я пошёл.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 5,
+            "Type": "STANDARD",
+            "SpeakerText": "Петрович? О, уважаю мужика. Строгий, но справедливый. Один раз он меня запер в сарае, чтоб я протрезвел. Я там с курицей три дня прожил. Хорошая курица была... разговорчивая.",
+            "Responses": [
+                {
+                    "Text": "Курица разговорчивая?",
+                    "NextNodeID": 6,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Понял, пойду.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 6,
+            "Type": "STANDARD",
+            "SpeakerText": "Ну да. Я ей говорю: \"Ко-ко-ко?\", а она мне: \"Ко-ко-ко\". Нормально общались. Я потом её съел. Но мы сначала поговорили по душам. Она была не против.",
+            "Responses": [
+                {
+                    "Text": "...",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        }
+    ]
+}
