@@ -7,7 +7,7 @@ void main()
 		ce.InitOffline();
 
 	int year, month, day, hour, minute;
-	int reset_month = 7, reset_day = 17;
+	int reset_month = 2, reset_day = 1;
 	g_Game.GetWorld().GetDate(year, month, day, hour, minute);
 
 	// Reset to target month/day if we've drifted outside the window
