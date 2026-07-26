@@ -1,71 +1,37 @@
 {
-	"ConfigVersion": 22,
+	"ConfigVersion": 28,
 	"ID": 1003,
-	"Type": 1,
 	"Title": "[Ежедневная] Охота на дичь",
-	"Descriptions": [
-		"Петрович подзывает тебя: <br /><br /><b>\"Мясо нужно лагерю. В лесу зверьё бегает, рыба в реке плещется. Добудь чего-нибудь съестного, принеси — не пропадёт.\"</b>",
-		"Ты добыл достаточно. Пора возвращаться к Петровичу.",
-		"Петрович принимает добычу: <br /><br /><b>\"Молодец. С голоду не пропадём. Держи, заслужил.\"</b>"
-	],
-	"ObjectiveText": "Добудьте 3 шт мяса или рыбы",
+	"TitleText": "Добыть 3 шт мяса или рыбы",
+	"Description": "Петрович: В лагере жрать нечего. Сходил бы на охоту или порыбачил. Мясо или рыба — без разницы, главтобы было. Не с пустыми руками возвращайся.",
+	"ObjectiveText": "Добыть мясо/рыбу",
+	"Type": 1,
+	"IsAchievement": 0,
+	"QuestGiverIDs": [10],
+	"QuestTurnInIDs": [10],
+	"XP": 0,
+	"Reputation": 50,
+	"QuestTimeLimit": -1,
+	"QuestTimeLimitMin": -1,
+	"CanBeCanceled": 1,
+	"NeedToSelectReward": 0,
+	"RewardXP": 0,
+	"RewardMoney": 500,
+	"RewardReputation": 50,
+	"ObjectiveHandle": "",
+	"RewardItems": [],
+	"QuestItems": [],
+	"PreQuestIDs": [105],
 	"FollowUpQuest": -1,
 	"Repeatable": 1,
-	"IsDailyQuest": 1,
-	"IsWeeklyQuest": 0,
-	"CancelQuestOnPlayerDeath": 0,
-	"Autocomplete": 0,
-	"IsGroupQuest": 0,
-	"ObjectSetFileName": "",
-	"QuestItems": [],
-	"Rewards": [
-		{
-			"ClassName": "ExpansionBanknoteHryvnia",
-			"Amount": 500,
-			"Attachments": [],
-			"DamagePercent": 0,
-			"HealthPercent": 0,
-			"QuestID": -1,
-			"MinObjectiveCount": -1,
-			"RequiredObjectiveID": -1,
-			"Chance": 1.0
-		}
-	],
-	"NeedToSelectReward": 0,
-	"RandomReward": 0,
-	"RandomRewardAmount": -1,
-	"RewardsForGroupOwnerOnly": 1,
-	"RewardBehavior": 0,
-	"QuestGiverIDs": [
-		10
-	],
-	"QuestTurnInIDs": [
-		10
-	],
-	"IsAchievement": 0,
-	"Objectives": [
-		{
-			"ConfigVersion": 28,
-			"ID": 100301,
-			"ObjectiveType": 4
-		}
-	],
-	"QuestColor": 0,
-	"ReputationReward": 50,
-	"ReputationRequirement": -1,
-	"PreQuestIDs": [
-		103
-	],
-	"RequiredFaction": "",
-	"FactionReward": "",
-	"PlayerNeedQuestItems": 1,
-	"DeleteQuestItems": 1,
+	"DailyRepeatable": 1,
+	"WeeklyRepeatable": 0,
+	"MonthlyRepeatable": 0,
+	"RepeatDelay": 0,
+	"ConfigVersion": 28,
+	"ObjectiveIDs": [100301],
 	"SequentialObjectives": 1,
 	"CompletionMode": 0,
-	"MinRequiredObjectives": -1,
-	"QuestTimeLimit": -1,
-	"FactionReputationRequirements": {},
-	"FactionReputationRewards": {},
-	"SuppressQuestLogOnCompetion": 0,
-	"Active": 1
+	"MinRequiredObjectives": 0,
+	"ShowAllObjectives": 1
 }

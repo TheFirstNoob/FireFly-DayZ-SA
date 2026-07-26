@@ -1,0 +1,26 @@
+{
+	"ConfigVersion": 28,
+	"ID": 50001,
+	"ObjectiveType": 13,
+	"ObjectiveText": "Сопроводите путника до безопасной точки",
+	"TimeLimit": 1800,
+	"Active": 1,
+	"Position": [0, 0, 0],
+	"MaxDistance": 15.0,
+	"MarkerName": "Точка эвакуации",
+	"ShowDistance": 1,
+	"CanLootAI": 0,
+	"NPCLoadoutFile": "HumanLoadout",
+	"NPCClassName": "",
+	"NPCName": "Путник",
+	"Positions": [
+		"0 0 0",
+		"0 0 0",
+		"0 0 0"
+	],
+	"NPCNames": [
+		"Заблудший",
+		"Странник",
+		"Путник"
+	]
+}

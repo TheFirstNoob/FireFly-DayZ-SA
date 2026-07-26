@@ -1,0 +1,25 @@
+{
+	"ConfigVersion": 28,
+	"ID": 50101,
+	"ObjectiveType": 13,
+	"ObjectiveText": "Сопроводите заказчика до точки",
+	"TimeLimit": 900,
+	"Active": 1,
+	"Position": [0, 0, 0],
+	"MaxDistance": 15.0,
+	"MarkerName": "Лагерь",
+	"ShowDistance": 1,
+	"CanLootAI": 0,
+	"NPCLoadoutFile": "SurvivorLoadout",
+	"NPCClassName": "",
+	"NPCName": "Заказчик",
+	"Positions": [
+		"0 0 0",
+		"0 0 0"
+	],
+	"NPCNames": [
+		"Курьер",
+		"Гонец",
+		"Заказчик"
+	]
+}

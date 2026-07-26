@@ -54,6 +54,13 @@
                     "ActionType": "NONE"
                 },
                 {
+                    "Text": "Работа есть какая?",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 105,
+                    "RequiredQuestState": "COMPLETED",
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
                     "Text": "Призрак просил зайти, говорит — дело есть.",
                     "NextNodeID": 11,
                     "RequiredQuestID": 105,
@@ -161,7 +168,7 @@
                     "RequiredState": "COMPLETED"
                 },
                 {
-                    "Text": "Отдохнул? Работы пока нет, но ты первый в списке.",
+                    "Text": "Отдохнул? Есть пара подработок, если хочешь. Заглядывай, когда нужно.",
                     "RequiredQuestID": 105,
                     "RequiredState": "COMPLETED"
                 },
@@ -178,6 +185,13 @@
                     "RequiredQuestID": 104,
                     "RequiredQuestState": "NONE",
                     "ActionType": "ACCEPT_QUEST"
+                },
+                {
+                    "Text": "Показывай, что есть.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 105,
+                    "RequiredQuestState": "COMPLETED",
+                    "ActionType": "SHOW_QUEST_LIST"
                 },
                 {
                     "Text": "Что за люди? Расскажи.",
