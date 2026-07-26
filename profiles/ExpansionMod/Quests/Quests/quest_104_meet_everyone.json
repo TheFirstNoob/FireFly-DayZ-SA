@@ -1,0 +1,76 @@
+{
+	"ConfigVersion": 22,
+	"ID": 104,
+	"Type": 1,
+	"Title": "[СЮЖЕТ] Знакомство",
+	"Descriptions": [
+		"<p align=\"center\"><image set=\"expansion_iconset\" name=\"Shield\" scale=\"1.92\" /><color hex=\"0xFFCC6600\"> Петрович довольно ухмыляется: <br /><br /><b>\"Ну что, Пробудившийся, с первым заданием справился. Торговцы теперь твои. Но это не всё. Познакомься с остальными: Доктор, Бубылда, Климентина, Гоуст. Они лагерь держат — тебе с ними работать.\"</b><br /><br /> Он протягивает тебе список имён.</color></p>",
+		"<p align=\"center\"><color hex=\"0xFFCC6600\"> Ты познакомился со всеми. Пора отчитаться Петровичу.</color></p>",
+		"<p align=\"center\"><color hex=\"0xFFCC6600\"> Петрович довольно кивает: <br /><br /><b>\"Молодец. Теперь ты свой. Отдыхай, осваивайся. Завтра будет работа.\"</b></color></p>"
+	],
+	"ObjectiveText": "<p align=\"center\"><image set=\"expansion_iconset\" name=\"Compass\" scale=\"1.28\" /> Познакомьтесь с ключевыми жителями лагеря и вернитесь к Петровичу.</p>",
+	"FollowUpQuest": -1,
+	"Repeatable": 0,
+	"IsDailyQuest": 0,
+	"IsWeeklyQuest": 0,
+	"CancelQuestOnPlayerDeath": 0,
+	"Autocomplete": 0,
+	"IsGroupQuest": 0,
+	"ObjectSetFileName": "",
+	"QuestItems": [
+		{
+			"ClassName": "ExpansionQuestItemPaper",
+			"Amount": 1
+		}
+	],
+	"Rewards": [
+		{
+			"ClassName": "ExpansionBanknoteHryvnia",
+			"Amount": 2000,
+			"Attachments": [],
+			"DamagePercent": 0,
+			"HealthPercent": 0,
+			"QuestID": -1,
+			"MinObjectiveCount": -1,
+			"RequiredObjectiveID": -1,
+			"Chance": 1.0
+		}
+	],
+	"NeedToSelectReward": 0,
+	"RandomReward": 0,
+	"RandomRewardAmount": -1,
+	"RewardsForGroupOwnerOnly": 1,
+	"RewardBehavior": 0,
+	"QuestGiverIDs": [
+		10
+	],
+	"QuestTurnInIDs": [
+		10
+	],
+	"IsAchievement": 0,
+	"Objectives": [
+		{
+			"ConfigVersion": 28,
+			"ID": 10401,
+			"ObjectiveType": 5
+		}
+	],
+	"QuestColor": 0,
+	"ReputationReward": 200,
+	"ReputationRequirement": -1,
+	"PreQuestIDs": [
+		103
+	],
+	"RequiredFaction": "",
+	"FactionReward": "",
+	"PlayerNeedQuestItems": 1,
+	"DeleteQuestItems": 1,
+	"SequentialObjectives": 1,
+	"CompletionMode": 0,
+	"MinRequiredObjectives": -1,
+	"QuestTimeLimit": -1,
+	"FactionReputationRequirements": {},
+	"FactionReputationRewards": {},
+	"SuppressQuestLogOnCompetion": 0,
+	"Active": 1
+}

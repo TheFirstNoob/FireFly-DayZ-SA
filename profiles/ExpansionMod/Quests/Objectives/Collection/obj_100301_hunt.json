@@ -1,0 +1,44 @@
+{
+	"ConfigVersion": 28,
+	"ID": 100301,
+	"ObjectiveType": 4,
+	"ObjectiveText": "Добудьте 3 шт мяса или рыбы",
+	"TimeLimit": -1,
+	"Active": 1,
+	"Collections": [
+		{
+			"Amount": 3,
+			"ClassName": "Food_Meat_Steak",
+			"QuantityPercent": -1,
+			"MinQuantityPercent": -1
+		},
+		{
+			"Amount": 3,
+			"ClassName": "Food_Meat_Steak_Boiled",
+			"QuantityPercent": -1,
+			"MinQuantityPercent": -1
+		},
+		{
+			"Amount": 3,
+			"ClassName": "Food_Meat_Steak_Baked",
+			"QuantityPercent": -1,
+			"MinQuantityPercent": -1
+		},
+		{
+			"Amount": 3,
+			"ClassName": "Food_FishSalmon",
+			"QuantityPercent": -1,
+			"MinQuantityPercent": -1
+		},
+		{
+			"Amount": 3,
+			"ClassName": "Food_Fish_Tuna",
+			"QuantityPercent": -1,
+			"MinQuantityPercent": -1
+		}
+	],
+	"NeedAnyCollection": true,
+	"ShowDistance": 0,
+	"AddItemsToNearbyMarketZone": 0,
+	"MaxDistance": -1
+}

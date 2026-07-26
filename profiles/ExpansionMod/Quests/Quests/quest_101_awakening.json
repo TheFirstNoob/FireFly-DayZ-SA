@@ -1,0 +1,67 @@
+{
+	"ConfigVersion": 22,
+	"ID": 101,
+	"Type": 1,
+	"Title": "[СЮЖЕТ] Пробуждение",
+	"Descriptions": [
+		"<p align=\"center\"><image set=\"expansion_iconset\" name=\"Shield\" scale=\"1.92\" /><color hex=\"0xFFCC6600\"> Ты открываешь глаза. Голова раскалывается. Вокруг — незнакомый лагерь. Рядом стоит охранник и хмуро смотрит на тебя. В руке у тебя зажата мокрая от пота бумажка.</color></p>",
+		"<p align=\"center\"><color hex=\"0xFFCC6600\"> Охранник кивает: <br /><br /><b>\"Ну, бывает. Вон, видишь синий шкаф? Брось туда бумажку — я проверю. И вали к Петровичу, он ждёт. Хотя откуда тебе знать, кто это... Ладно, разберёшься.\"</b></color></p>"
+	],
+	"ObjectiveText": "Поговорите с любым охранником",
+	"FollowUpQuest": 102,
+	"Repeatable": 0,
+	"IsDailyQuest": 0,
+	"IsWeeklyQuest": 0,
+	"CancelQuestOnPlayerDeath": 0,
+	"Autocomplete": 0,
+	"IsGroupQuest": 0,
+	"ObjectSetFileName": "",
+	"QuestItems": [
+		{
+			"ClassName": "ExpansionQuestItemPaper",
+			"Amount": 1
+		}
+	],
+	"Rewards": [],
+	"NeedToSelectReward": 0,
+	"RandomReward": 0,
+	"RandomRewardAmount": -1,
+	"RewardsForGroupOwnerOnly": 1,
+	"RewardBehavior": 0,
+	"QuestGiverIDs": [
+		-1
+	],
+	"QuestTurnInIDs": [
+		20,
+		21,
+		22,
+		23,
+		24,
+		25,
+		26
+	],
+	"IsAchievement": 0,
+	"Objectives": [
+		{
+			"ConfigVersion": 28,
+			"ID": 10101,
+			"ObjectiveType": 5
+		}
+	],
+	"QuestColor": 0,
+	"ReputationReward": 0,
+	"ReputationRequirement": -1,
+	"PreQuestIDs": [],
+	"RequiredFaction": "",
+	"FactionReward": "",
+	"PlayerNeedQuestItems": 1,
+	"DeleteQuestItems": 1,
+	"SequentialObjectives": 1,
+	"CompletionMode": 0,
+	"MinRequiredObjectives": -1,
+	"QuestTimeLimit": -1,
+	"FactionReputationRequirements": {},
+	"FactionReputationRewards": {},
+	"SuppressQuestLogOnCompetion": 0,
+	"Active": 1
+}

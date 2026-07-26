@@ -9,12 +9,12 @@
             "SpeakerTextConditions": [
                 {
                     "Text": "Ну что, разведал?",
-                    "RequiredQuestID": 1005,
+                    "RequiredQuestID": 105,
                     "RequiredState": "CAN_TURNIN"
                 },
                 {
                     "Text": "А, это ты. Ну как, освоился в лагере?",
-                    "RequiredQuestID": 1004,
+                    "RequiredQuestID": 104,
                     "RequiredState": "COMPLETED"
                 }
             ],
@@ -28,35 +28,35 @@
                 {
                     "Text": "Я сделал то, что ты просил. Пять трупов — готово.",
                     "NextNodeID": 5,
-                    "RequiredQuestID": 1003,
+                    "RequiredQuestID": 103,
                     "RequiredQuestState": "CAN_TURNIN",
                     "ActionType": "NONE"
                 },
                 {
                     "Text": "Я познакомился со всеми!",
                     "NextNodeID": 8,
-                    "RequiredQuestID": 1004,
+                    "RequiredQuestID": 104,
                     "RequiredQuestState": "CAN_TURNIN",
                     "ActionType": "NONE"
                 },
                 {
                     "Text": "Петрович, я готов проверить окрестности.",
                     "NextNodeID": 9,
-                    "RequiredQuestID": 1005,
+                    "RequiredQuestID": 105,
                     "RequiredQuestState": "NONE",
                     "ActionType": "NONE"
                 },
                 {
                     "Text": "Я всё осмотрел. Неспокойно там.",
                     "NextNodeID": 10,
-                    "RequiredQuestID": 1005,
+                    "RequiredQuestID": 105,
                     "RequiredQuestState": "CAN_TURNIN",
                     "ActionType": "NONE"
                 },
                 {
                     "Text": "Призрак просил зайти, говорит — дело есть.",
                     "NextNodeID": 11,
-                    "RequiredQuestID": 1005,
+                    "RequiredQuestID": 105,
                     "RequiredQuestState": "COMPLETED",
                     "ActionType": "NONE"
                 },
@@ -157,17 +157,17 @@
             "SpeakerTextConditions": [
                 {
                     "Text": "Ты уже всё знаешь. Отдыхай пока, потом будет работа.",
-                    "RequiredQuestID": 1004,
+                    "RequiredQuestID": 104,
                     "RequiredState": "COMPLETED"
                 },
                 {
                     "Text": "Отдохнул? Работы пока нет, но ты первый в списке.",
-                    "RequiredQuestID": 1005,
+                    "RequiredQuestID": 105,
                     "RequiredState": "COMPLETED"
                 },
                 {
                     "Text": "Призрак просил зайти — дуй к нему, не задерживай.",
-                    "RequiredQuestID": 1006,
+                    "RequiredQuestID": 106,
                     "RequiredState": "COMPLETED"
                 }
             ],
@@ -175,7 +175,7 @@
                 {
                     "Text": "Понял, иду знакомиться.",
                     "NextNodeID": -1,
-                    "RequiredQuestID": 1004,
+                    "RequiredQuestID": 104,
                     "RequiredQuestState": "NONE",
                     "ActionType": "ACCEPT_QUEST"
                 },
@@ -201,7 +201,7 @@
                 {
                     "Text": "Понял, иду знакомиться.",
                     "NextNodeID": -1,
-                    "RequiredQuestID": 1004,
+                    "RequiredQuestID": 104,
                     "RequiredQuestState": "NONE",
                     "ActionType": "ACCEPT_QUEST"
                 },
@@ -234,7 +234,7 @@
                 {
                     "Text": "Понял, иду смотреть.",
                     "NextNodeID": -1,
-                    "RequiredQuestID": 1005,
+                    "RequiredQuestID": 105,
                     "RequiredQuestState": "NONE",
                     "ActionType": "ACCEPT_QUEST"
                 },

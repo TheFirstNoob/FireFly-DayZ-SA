@@ -1,19 +1,21 @@
 {
 	"ConfigVersion": 28,
-	"ID": 1015,
+	"ID": 10301,
 	"ObjectiveType": 2,
-	"ObjectiveText": "Убейте приспешников «Нового Рассвета» (5)",
+	"ObjectiveText": "Убейте 5 инфицированных с помощью отбивного молотка (MeatTenderizer)",
 	"TimeLimit": -1,
 	"Active": 1,
 	"Position": [0, 0, 0],
-	"MaxDistance": 150.0,
+	"MaxDistance": -1,
 	"MinDistance": -1,
 	"Amount": 5,
 	"ClassNames": [],
 	"CountSelfKill": 0,
-	"AllowedWeapons": [],
+	"AllowedWeapons": [
+		"MeatTenderizer"
+	],
 	"ExcludedClassNames": [],
-	"CountAIPlayers": 1,
+	"CountAIPlayers": 0,
 	"AllowedTargetFactions": [],
 	"AllowedDamageZones": []
 }

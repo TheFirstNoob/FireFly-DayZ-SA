@@ -9,17 +9,17 @@
             "SpeakerTextConditions": [
                 {
                     "Text": "Ты снова здесь.",
-                    "RequiredQuestID": 1004,
+                    "RequiredQuestID": 104,
                     "RequiredState": "COMPLETED"
                 },
                 {
                     "Text": "Вернулся. Ну что там?",
-                    "RequiredQuestID": 1006,
+                    "RequiredQuestID": 106,
                     "RequiredState": "CAN_TURNIN"
                 },
                 {
                     "Text": "Ну как прошло?",
-                    "RequiredQuestID": 1006,
+                    "RequiredQuestID": 106,
                     "RequiredState": "STARTED"
                 }
             ],
@@ -27,7 +27,7 @@
                 {
                     "Text": "Я отнес семена. Доктор и Климентина посмотрели.",
                     "NextNodeID": 9,
-                    "RequiredQuestID": 1006,
+                    "RequiredQuestID": 106,
                     "RequiredQuestState": "STARTED",
                     "RequiredItemClassName": "CP_CannabisSeedsPurpleKush",
                     "ActionType": "NONE"
@@ -35,21 +35,21 @@
                 {
                     "Text": "Призрак, Петрович сказал зайти. Говорит, у тебя дело.",
                     "NextNodeID": 8,
-                    "RequiredQuestID": 1006,
+                    "RequiredQuestID": 106,
                     "RequiredQuestState": "NONE",
                     "ActionType": "NONE"
                 },
                 {
                     "Text": "Петрович сказал найти тебя.",
                     "NextNodeID": 7,
-                    "RequiredQuestID": 1004,
+                    "RequiredQuestID": 104,
                     "RequiredQuestState": "STARTED",
                     "ActionType": "NONE"
                 },
                 {
                     "Text": "Я разобрался с тем местом.",
                     "NextNodeID": 10,
-                    "RequiredQuestID": 1006,
+                    "RequiredQuestID": 106,
                     "RequiredQuestState": "CAN_TURNIN",
                     "ActionType": "NONE"
                 },
@@ -188,7 +188,7 @@
             "SpeakerTextConditions": [
                 {
                     "Text": "А, Петрович сказал. Да, есть дело. Зараза вокруг — не простая. Обычная медицина её не берёт. Нужны свои методы. Возьми это. Отнеси Доктору — посмотрим, что скажет.",
-                    "RequiredQuestID": 1005,
+                    "RequiredQuestID": 105,
                     "RequiredState": "COMPLETED"
                 }
             ],
@@ -202,7 +202,7 @@
                 {
                     "Text": "Понял, несу Доктору.",
                     "NextNodeID": -1,
-                    "RequiredQuestID": 1005,
+                    "RequiredQuestID": 105,
                     "RequiredState": "COMPLETED",
                     "ActionType": "ACCEPT_QUEST"
                 },
@@ -254,14 +254,14 @@
                 {
                     "Text": "Понял, несу.",
                     "NextNodeID": -1,
-                    "RequiredQuestID": 1005,
+                    "RequiredQuestID": 105,
                     "RequiredState": "COMPLETED",
                     "ActionType": "ACCEPT_QUEST"
                 },
                 {
                     "Text": "Уговорил.",
                     "NextNodeID": -1,
-                    "RequiredQuestID": 1005,
+                    "RequiredQuestID": 105,
                     "RequiredState": "COMPLETED",
                     "ActionType": "ACCEPT_QUEST"
                 }
