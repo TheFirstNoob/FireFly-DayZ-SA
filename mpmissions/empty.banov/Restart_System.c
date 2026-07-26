@@ -22,7 +22,7 @@
 	Инструкция: Добавить первой строчкой в init.c
 	#include "$CurrentDir:mpmissions\empty.banov\Restart_System.c"
 */
-#define RestartServer_System
+
 class RestartServer_System
 {
 	// ─── Config ─────────────────────────────────────────────
