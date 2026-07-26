@@ -61,6 +61,20 @@
                     "ActionType": "SHOW_QUEST_LIST"
                 },
                 {
+                    "Text": "Что слышно про полицейский участок?",
+                    "NextNodeID": 16,
+                    "RequiredQuestID": 105,
+                    "RequiredQuestState": "COMPLETED",
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Я разобрался в участке.",
+                    "NextNodeID": 17,
+                    "RequiredQuestID": 301,
+                    "RequiredQuestState": "CAN_TURNIN",
+                    "ActionType": "NONE"
+                },
+                {
                     "Text": "Призрак просил зайти, говорит — дело есть.",
                     "NextNodeID": 11,
                     "RequiredQuestID": 105,
@@ -377,6 +391,66 @@
                     "NextNodeID": -1,
                     "RequiredQuestID": -1,
                     "ActionType": "TURN_IN_QUEST"
+                }
+            ]
+        },
+        {
+            "ID": 16,
+            "Type": "STANDARD",
+            "SpeakerText": "С полицейским участком? Хуёво там. Мои парни перестали выходить на связь. Я послал ребят проверить — не вернулись. Чувствую, там что-то недоброе. Собери группу и сгоняй, глянь что к чему. В одного не суйся — я тебя знаю, ты живучий, но там что-то серьёзное.",
+            "Responses": [
+                {
+                    "Text": "Я готов, но пока один.",
+                    "NextNodeID": 18,
+                    "RequiredQuestID": 301,
+                    "RequiredQuestState": "NONE",
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "У меня есть группа. Берёмся.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 301,
+                    "RequiredQuestState": "NONE",
+                    "ActionType": "ACCEPT_QUEST"
+                },
+                {
+                    "Text": "Позже займусь.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 17,
+            "Type": "STANDARD",
+            "SpeakerText": "Вернулся... По лицу вижу — не с пустыми руками. Рассказывай.",
+            "SpeakerTextConditions": [
+                {
+                    "Text": "Вернулся... По лицу вижу — не с пустыми руками. Надеюсь, ты принёс хорошие новости.",
+                    "RequiredQuestID": 301,
+                    "RequiredState": "STARTED"
+                }
+            ],
+            "Responses": [
+                {
+                    "Text": "Там был Мясник. Какой-то здоровый инфицированный. Зачистил весь участок. Я его уложил.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "TURN_IN_QUEST"
+                }
+            ]
+        },
+        {
+            "ID": 18,
+            "Type": "STANDARD",
+            "SpeakerText": "Слышь, я ж сказал — в одного не суйся. Там не шутки. Собери хотя бы пару человек, тогда и приходи. Без группы я тебя не пущу — мне трупы лишние не нужны.",
+            "Responses": [
+                {
+                    "Text": "Понял, найду людей.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
                 }
             ]
         }
