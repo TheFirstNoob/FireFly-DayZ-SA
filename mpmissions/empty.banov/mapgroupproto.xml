@@ -12319,7 +12319,7 @@
 		</container>
 	</group>
 	-->
-	<group name="Land_FuelStation_Build" lootmax="10">
+	<group name="Land_FuelStation_Build" lootmax="8">
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<value name="Tier1"/>
@@ -12352,7 +12352,7 @@
 			<point pos="0.262119 -1.097858 1.033071" range="0.281006" height="0.366436"/>
 		</container>
 	</group>
-	<group name="Land_City_PoliceStation" lootmax="143">
+	<group name="Land_City_PoliceStation" lootmax="110">
 		<usage name="Police"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -12599,7 +12599,7 @@
 			<point pos="4.919434 5.030197 2.081787" range="1.199951" height="2.000008"/>
 		</container>
 	</group>
-	<group name="Land_City_PoliceStation_Enoch" lootmax="143">
+	<group name="Land_City_PoliceStation_Enoch" lootmax="115">
 		<usage name="Police"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -12846,7 +12846,7 @@
 			<point pos="4.919434 5.030197 2.081787" range="1.199951" height="2.000008"/>
 		</container>
 	</group>
-	<group name="Land_City_FireStation" lootmax="134">
+	<group name="Land_City_FireStation" lootmax="109">
 		<usage name="Firefighter"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -13027,7 +13027,7 @@
 			<point pos="3.061525 5.000000 -14.561523" range="1.199951" height="2.000000"/>
 		</container>
 	</group>
-	<group name="Land_Mil_FireStation" lootmax="134">
+	<group name="Land_Mil_FireStation" lootmax="115">
 		<usage name="Military"/>
 		<usage name="Firefighter"/>
 		<value name="Tier1"/>
@@ -13230,7 +13230,7 @@
 			<point pos="6.554823 0.428795 -0.249204" range="1.062500" height="2.001121"/>
 		</container>
 	</group>
-	<group name="Land_Prison_Main" lootmax="159">
+	<group name="Land_Prison_Main" lootmax="125">
 		<usage name="Prison"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -13447,7 +13447,7 @@
 			<point pos="21.674805 -13.775536 -14.175293" range="0.865967" height="2.000000"/>
 		</container>
 	</group>
-	<group name="Land_Prison_Side" lootmax="87">
+	<group name="Land_Prison_Side" lootmax="80">
 		<usage name="Prison"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -13619,7 +13619,7 @@
 			<point pos="-4.182860 0.948479 -14.849121" range="1.199951" height="2.000000"/>
 		</container>
 	</group>
-	<group name="Land_City_School" lootmax="238">
+	<group name="Land_City_School" lootmax="199">
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="School"/>
@@ -13941,7 +13941,7 @@
 			<point pos="1.533569 -1.503838 2.144874" range="0.100000" height="0.250000"/>
 		</container>
 	</group>
-	<group name="Land_Medical_Tent_Big" lootmax="30">
+	<group name="Land_Medical_Tent_Big" lootmax="28">
 		<usage name="Medic"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -14002,7 +14002,7 @@
 			<point pos="0.130408 0.007614 -3.332648" range="0.935200" height="2.000000"/>
 		</container>
 	</group>
-	<group name="Land_Village_HealthCare" lootmax="53">
+	<group name="Land_Village_HealthCare" lootmax="47">
 		<usage name="Medic"/>
 		<usage name="Village"/>
 		<value name="Tier1"/>
@@ -14082,7 +14082,7 @@
 			<point pos="4.661276 -2.966034 4.360758" range="0.520020" height="1.300050"/>
 		</container>
 	</group>
-	<group name="Land_City_Hospital" lootmax="91">
+	<group name="Land_City_Hospital" lootmax="83">
 		<usage name="Medic"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -14406,7 +14406,7 @@
 			<point pos="-0.746227 -0.397102 0.430710" range="0.427940" height="0.253947" flags="32"/>
 		</container>
 	</group>
-	<group name="Land_Camp_House_red" lootmax="21">
+	<group name="Land_Camp_House_red" lootmax="18">
 		<usage name="Hunting"/>
 		<usage name="Village"/>
 		<value name="Tier1"/>
@@ -14455,7 +14455,7 @@
 			<point pos="3.709741 -1.346848 2.698318" range="0.443750" height="1.109375"/>
 		</container>
 	</group>
-	<group name="Land_Camp_House_white" lootmax="17">
+	<group name="Land_Camp_House_white" lootmax="14">
 		<usage name="Hunting"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -14496,7 +14496,7 @@
 			<point pos="3.583814 -1.341988 -2.711381" range="0.409375" height="1.023407"/>
 		</container>
 	</group>
-	<group name="Land_Camp_House_brown" lootmax="17">
+	<group name="Land_Camp_House_brown" lootmax="14">
 		<usage name="Hunting"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -14536,7 +14536,7 @@
 			<point pos="0.930465 -1.363213 1.634892" range="0.376999" height="0.942162"/>
 		</container>
 	</group>
-	<group name="Land_Castle_Bergfrit" lootmax="15">
+	<group name="Land_Castle_Bergfrit" lootmax="13">
 		<usage name="Historical"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -14570,7 +14570,7 @@
 			<point pos="-0.214438 16.870667 -2.092011" range="1.199951" height="2.000000"/>
 		</container>
 	</group>
-	<group name="Land_Castle_Bergfrit2" lootmax="22">
+	<group name="Land_Castle_Bergfrit2" lootmax="20">
 		<usage name="Hunting"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -14640,7 +14640,7 @@
 			<point pos="1.072510 -2.821342 -6.458251" range="0.194770" height="2.000000"/>
 		</container>
 	</group>
-	<group name="Land_Castle_Stairs_nolc" lootmax="13">
+	<group name="Land_Castle_Stairs_nolc" lootmax="11">
 		<usage name="Historical"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -14775,7 +14775,7 @@
 			<point pos="-2.828705 -3.117279 1.325740" range="1.199951" height="2.000000"/>
 		</container>
 	</group>
-	<group name="Land_Barn_Brick1" lootmax="25">
+	<group name="Land_Barn_Brick1" lootmax="22">
 		<usage name="Farm"/>
 		<usage name="Village"/>
 		<value name="Tier1"/>
@@ -14827,7 +14827,7 @@
 			<point pos="9.630831 -5.054985 -2.403715" range="1.129883" height="1.858536"/>
 		</container>
 	</group>
-	<group name="Land_Barn_Brick2" lootmax="9">
+	<group name="Land_Barn_Brick2" lootmax="7">
 		<usage name="Farm"/>
 		<usage name="Village"/>
 		<value name="Tier1"/>
@@ -14941,7 +14941,7 @@
 			<point pos="5.659784 -2.320038 2.777977" range="1.199951" height="2.000000"/>
 		</container>
 	</group>
-	<group name="Land_Barn_Metal_Big" lootmax="58">
+	<group name="Land_Barn_Metal_Big" lootmax="47">
 		<usage name="Industrial"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -15029,7 +15029,7 @@
 			<point pos="-25.123045 5.586525 -4.419437" range="0.684375" height="1.710938"/>
 		</container>
 	</group>
-	<group name="Land_Chapel" lootmax="6">
+	<group name="Land_Chapel" lootmax="3">
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<value name="Tier1"/>
@@ -15088,7 +15088,7 @@
 			<point pos="0.202690 -4.883392 -7.001423" range="0.190674" height="0.476685"/>
 		</container>
 	</group>
-	<group name="Land_Church2_2" lootmax="15">
+	<group name="Land_Church2_2" lootmax="11">
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<value name="Tier1"/>
@@ -15120,7 +15120,7 @@
 			<point pos="-7.251928 -9.968109 -3.577317" range="0.306250" height="0.765625"/>
 		</container>
 	</group>
-	<group name="Land_Church3" lootmax="27">
+	<group name="Land_Church3" lootmax="23">
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<value name="Tier1"/>
@@ -15437,7 +15437,7 @@
 		</container>
 	</group>
 	<!-- ENOCH SPECIFIC-->
-	<group name="Land_Mil_Guardhouse3" lootmax="19">
+	<group name="Land_Mil_Guardhouse3" lootmax="16">
 		<usage name="Police"/>
 		<usage name="Town"/>
 		<value name="Tier1"/>
@@ -15545,7 +15545,7 @@
 			<point pos="-1.406128 -0.382006 -0.481567" range="0.203125" height="0.507813"/>
 		</container>
 	</group>
-	<group name="Land_Mil_ControlTower_East" lootmax="43">
+	<group name="Land_Mil_ControlTower_East" lootmax="41">
 		<usage name="Military"/>
 		<usage name="Industrial"/>
 		<value name="Tier1"/>
@@ -15713,7 +15713,7 @@
 			<point pos="2.323974 -0.914948 0.271973" range="0.182983" height="0.457458"/>
 		</container>
 	</group>
-	<group name="Land_Church4" lootmax="16">
+	<group name="Land_Church4" lootmax="14">
 		<usage name="Village"/>
 		<usage name="Farm"/>
 		<value name="Tier1"/>
@@ -15753,7 +15753,7 @@
 			<point pos="5.559448 -8.996725 2.142455" range="0.443750" height="1.109375"/>
 		</container>
 	</group>
-	<group name="Land_Church4_Dam" lootmax="16">
+	<group name="Land_Church4_Dam" lootmax="14">
 		<usage name="Village"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -15792,7 +15792,7 @@
 			<point pos="5.559448 -8.996725 2.142455" range="0.443750" height="1.109375"/>
 		</container>
 	</group>
-	<group name="Land_Church4_Lightblue" lootmax="16">
+	<group name="Land_Church4_Lightblue" lootmax="14">
 		<usage name="Village"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -15831,7 +15831,7 @@
 			<point pos="5.559448 -8.996725 2.142455" range="0.443750" height="1.109375"/>
 		</container>
 	</group>
-	<group name="Land_Church4_Red" lootmax="16">
+	<group name="Land_Church4_Red" lootmax="14">
 		<usage name="Village"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -15870,7 +15870,7 @@
 			<point pos="5.559448 -8.996725 2.142455" range="0.443750" height="1.109375"/>
 		</container>
 	</group>
-	<group name="Land_Church4_White" lootmax="16">
+	<group name="Land_Church4_White" lootmax="14">
 		<usage name="Village"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -15909,7 +15909,7 @@
 			<point pos="5.559448 -8.996725 2.142455" range="0.443750" height="1.109375"/>
 		</container>
 	</group>
-	<group name="Land_Church4_Yellow_Dam" lootmax="16">
+	<group name="Land_Church4_Yellow_Dam" lootmax="14">
 		<usage name="Village"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -15948,7 +15948,7 @@
 			<point pos="5.559448 -8.996725 2.142455" range="0.443750" height="1.109375"/>
 		</container>
 	</group>
-	<group name="Land_Bunker1_Double" lootmax="11">
+	<group name="Land_Bunker1_Double" lootmax="9">
 		<usage name="Military"/>
 		<usage name="Police"/>
 		<usage name="Medic"/>
@@ -15986,7 +15986,7 @@
 			<point pos="1.324951 -0.291767 0.477173" range="0.102458" height="0.256145"/>
 		</container>
 	</group>
-	<group name="Land_Bunker1_Left" lootmax="6">
+	<group name="Land_Bunker1_Left" lootmax="5">
 		<usage name="Military"/>
 		<usage name="Police"/>
 		<usage name="Medic"/>
@@ -16017,7 +16017,7 @@
 			<point pos="0.802368 -0.975271 -0.415161" range="0.691728" height="1.818542"/>
 		</container>
 	</group>
-	<group name="Land_Bunker3_2" lootmax="7">
+	<group name="Land_Bunker3_2" lootmax="6">
 		<usage name="Military"/>
 		<usage name="Police"/>
 		<usage name="Medic"/>
@@ -16040,7 +16040,7 @@
 			<point pos="0.098022 0.455988 -1.971191" range="0.271875" height="0.369999"/>
 		</container>
 	</group>
-	<group name="Land_Bunker1_Right" lootmax="10">
+	<group name="Land_Bunker1_Right" lootmax="8">
 		<usage name="Military"/>
 		<usage name="Police"/>
 		<usage name="Medic"/>
@@ -16075,7 +16075,7 @@
 			<point pos="1.268066 -0.537098 -1.380859" range="0.180420" height="0.451050"/>
 		</container>
 	</group>
-	<group name="Land_Bunker2_Double" lootmax="11">
+	<group name="Land_Bunker2_Double" lootmax="10">
 		<usage name="Military"/>
 		<usage name="Police"/>
 		<usage name="Medic"/>
@@ -16113,7 +16113,7 @@
 			<point pos="0.392456 -0.610142 -2.199829" range="0.160156" height="0.400391"/>
 		</container>
 	</group>
-	<group name="Land_Bunker2_Left" lootmax="9">
+	<group name="Land_Bunker2_Left" lootmax="8">
 		<usage name="Military"/>
 		<usage name="Police"/>
 		<usage name="Medic"/>
@@ -16147,7 +16147,7 @@
 			<point pos="1.885010 -0.975271 0.051758" range="0.222900" height="0.557251"/>
 		</container>
 	</group>
-	<group name="Land_Bunker2_Right" lootmax="11">
+	<group name="Land_Bunker2_Right" lootmax="9">
 		<usage name="Military"/>
 		<usage name="Police"/>
 		<usage name="Medic"/>
@@ -16203,7 +16203,7 @@
 			<point pos="0.266235 -0.883638 0.025391" range="0.646644" height="0.490490"/>
 		</container>
 	</group>
-	<group name="Land_Castle_Bastion2" lootmax="8">
+	<group name="Land_Castle_Bastion2" lootmax="6">
 		<usage name="Hunting"/>
 		<usage name="Historical"/>
 		<value name="Tier1"/>
@@ -16231,7 +16231,7 @@
 			<point pos="0.201294 -0.285522 -4.033935" range="0.237500" height="0.593750"/>
 		</container>
 	</group>
-	<group name="Land_Slum_House1" lootmax="13">
+	<group name="Land_Slum_House1" lootmax="10">
 		<usage name="Industrial"/>
 		<usage name="Town"/>
 		<value name="Tier1"/>
@@ -16287,7 +16287,7 @@
 			<point pos="-0.121582 -1.157734 0.884277" range="0.857422" height="2.000000" flags="32"/>
 		</container>
 	</group>
-	<group name="Land_Slum_House3" lootmax="17">
+	<group name="Land_Slum_House3" lootmax="14">
 		<usage name="Industrial"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
@@ -16374,7 +16374,7 @@
 			<point pos="-0.243164 -0.931513 1.655517" range="0.509521" height="1.273804"/>
 		</container>
 	</group>
-	<group name="Land_Slum_House6" lootmax="18">
+	<group name="Land_Slum_House6" lootmax="15">
 		<usage name="Industrial"/>
 		<usage name="Farm"/>
 		<value name="Tier1"/>
@@ -16418,7 +16418,7 @@
 			<point pos="0.784912 -0.969234 1.453369" range="0.168750" height="0.370001"/>
 		</container>
 	</group>
-	<group name="Land_Slum_House7" lootmax="6">
+	<group name="Land_Slum_House7" lootmax="4">
 		<usage name="Industrial"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -16447,7 +16447,7 @@
 			<point pos="1.470948 -0.713203 -1.968994" range="0.226150" height="0.565374"/>
 		</container>
 	</group>
-	<group name="Land_House_1W13_Dam" lootmax="16">
+	<group name="Land_House_1W13_Dam" lootmax="13">
 		<usage name="Village"/>
 		<usage name="Farm"/>
 		<value name="Tier1"/>
@@ -16518,7 +16518,7 @@
 		</container>
 	</group>
 	-->
-	<group name="Land_DieselPowerPlant_Building" lootmax="29">
+	<group name="Land_DieselPowerPlant_Building" lootmax="28">
 		<usage name="Industrial"/>
 		<usage name="Town"/>
 		<value name="Tier1"/>
@@ -16679,7 +16679,7 @@
 			<point pos="-25.174191 5.594564 -6.648196" range="0.718750" height="1.796875"/>
 		</container>
 	</group>
-	<group name="Land_Shed_Closed2" lootmax="43">
+	<group name="Land_Shed_Closed2" lootmax="39">
 		<usage name="Industrial"/>
 		<usage name="Town"/>
 		<value name="Tier1"/>
@@ -16782,7 +16782,7 @@
 			<point pos="2.182862 -3.597795 1.149780" range="1.087907" height="2.000000" flags="32"/>
 		</container>
 	</group>
-	<group name="Land_FuelStation_Build_Enoch" lootmax="9">
+	<group name="Land_FuelStation_Build_Enoch" lootmax="8">
 		<usage name="Industrial"/>
 		<usage name="Village"/>
 		<value name="Tier1"/>
@@ -16815,7 +16815,7 @@
 			<point pos="-0.905884 -1.578144 -1.695190" range="1.014038" height="2.000000"/>
 		</container>
 	</group>
-	<group name="Land_Workshop_FuelStation" lootmax="54">
+	<group name="Land_Workshop_FuelStation" lootmax="47">
 		<usage name="Industrial"/>
 		<usage name="Village"/>
 		<value name="Tier1"/>
@@ -17007,7 +17007,7 @@
 			<point pos="2.186035 -2.168509 2.855713" range="0.744629" height="1.861572"/>
 		</container>
 	</group>
-	<group name="Land_Ruin_HouseSmall2" lootmax="28">
+	<group name="Land_Ruin_HouseSmall2" lootmax="25">
 		<usage name="Village"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -17062,7 +17062,7 @@
 			<point pos="1.097656 -1.838024 -2.161865" range="0.208008" height="0.204199"/>
 		</container>
 	</group>
-	<group name="Land_Ruin_HouseSmall2_NoIvy" lootmax="28">
+	<group name="Land_Ruin_HouseSmall2_NoIvy" lootmax="25">
 		<usage name="Village"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -17205,7 +17205,7 @@
 		</container>
 	</group>
 	-->
-	<group name="Land_Ruin_HouseBig1" lootmax="23">
+	<group name="Land_Ruin_HouseBig1" lootmax="21">
 		<usage name="Village"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -17254,7 +17254,7 @@
 			<point pos="6.863281 0.288832 -0.696045" range="0.354370" height="0.885925"/>
 		</container>
 	</group>
-	<group name="Land_Ruin_HouseBig1_NoIvy" lootmax="23">
+	<group name="Land_Ruin_HouseBig1_NoIvy" lootmax="21">
 		<usage name="Village"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -17341,7 +17341,7 @@
 			<point pos="-6.074830 -0.764282 0.421753" range="1.199951" height="2.000000"/>
 		</container>
 	</group>
-	<group name="Land_Ruin_HouseBig1_NoIvy_Half" lootmax="14">
+	<group name="Land_Ruin_HouseBig1_NoIvy_Half" lootmax="12">
 		<usage name="Village"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -17379,7 +17379,7 @@
 			<point pos="-6.074830 -0.764282 0.421753" range="1.199951" height="2.000000"/>
 		</container>
 	</group>
-	<group name="Land_Ruin_HouseBig2" lootmax="46">
+	<group name="Land_Ruin_HouseBig2" lootmax="44">
 		<usage name="Village"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -17459,7 +17459,7 @@
 			<point pos="-4.399780 2.230816 5.358276" range="0.271875" height="0.679688"/>
 		</container>
 	</group>
-	<group name="Land_Ruin_HouseBig2_NoIvy" lootmax="46">
+	<group name="Land_Ruin_HouseBig2_NoIvy" lootmax="44">
 		<usage name="Village"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -17539,7 +17539,7 @@
 			<point pos="-4.399780 2.230816 5.358276" range="0.271875" height="0.679688"/>
 		</container>
 	</group>
-	<group name="Land_Ruin_HouseBig2_Half" lootmax="14">
+	<group name="Land_Ruin_HouseBig2_Half" lootmax="12">
 		<usage name="Village"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -17578,7 +17578,7 @@
 			<point pos="-4.947266 0.508970 4.860106" range="0.478125" height="1.195313"/>
 		</container>
 	</group>
-	<group name="Land_Ruin_HouseBig2_NoIvy_Half" lootmax="14">
+	<group name="Land_Ruin_HouseBig2_NoIvy_Half" lootmax="12">
 		<usage name="Village"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -17617,7 +17617,7 @@
 			<point pos="-4.947266 0.508970 4.860106" range="0.478125" height="1.195313"/>
 		</container>
 	</group>
-	<group name="Land_Ruin_HouseBig3" lootmax="26">
+	<group name="Land_Ruin_HouseBig3" lootmax="24">
 		<usage name="Village"/>
 		<usage name="Farm"/>
 		<value name="Tier1"/>
@@ -17673,7 +17673,7 @@
 			<point pos="-5.095703 -0.563976 -2.280518" range="0.504435" height="1.261087"/>
 		</container>
 	</group>
-	<group name="Land_Ruin_HouseBig3_NoIvy" lootmax="26">
+	<group name="Land_Ruin_HouseBig3_NoIvy" lootmax="24">
 		<usage name="Village"/>
 		<usage name="Farm"/>
 		<value name="Tier1"/>
@@ -17729,7 +17729,7 @@
 			<point pos="-5.095703 -0.563976 -2.280518" range="0.504435" height="1.261087"/>
 		</container>
 	</group>
-	<group name="Land_Ruin_HouseBig3_Half" lootmax="17">
+	<group name="Land_Ruin_HouseBig3_Half" lootmax="15">
 		<usage name="Village"/>
 		<usage name="Farm"/>
 		<value name="Tier1"/>
@@ -17774,7 +17774,7 @@
 			<point pos="0.970215 2.219894 2.988769" range="0.535034" height="1.337585"/>
 		</container>
 	</group>
-	<group name="Land_Ruin_HouseBig3_NoIvy_Half" lootmax="17">
+	<group name="Land_Ruin_HouseBig3_NoIvy_Half" lootmax="15">
 		<usage name="Village"/>
 		<usage name="Farm"/>
 		<value name="Tier1"/>
@@ -17819,7 +17819,7 @@
 			<point pos="0.970215 2.219894 2.988769" range="0.535034" height="1.337585"/>
 		</container>
 	</group>
-	<group name="Land_Village_PoliceStation_Enoch" lootmax="67">
+	<group name="Land_Village_PoliceStation_Enoch" lootmax="54">
 		<usage name="Police"/>
 		<usage name="Town"/>
 		<value name="Tier1"/>
@@ -17951,7 +17951,7 @@
 			<point pos="3.331274 1.301941 -1.368039" range="1.199951" height="2.001986"/>
 		</container>
 	</group>
-	<group name="Land_Village_HealthCare_Enoch" lootmax="52">
+	<group name="Land_Village_HealthCare_Enoch" lootmax="47">
 		<usage name="Medic"/>
 		<usage name="Village"/>
 		<value name="Tier1"/>
@@ -18031,7 +18031,7 @@
 			<point pos="3.636109 -2.493612 5.282225" range="0.340625" height="0.851563"/>
 		</container>
 	</group>
-	<group name="Land_Village_Store_Enoch" lootmax="47">
+	<group name="Land_Village_Store_Enoch" lootmax="45">
 		<usage name="Village"/>
 		<usage name="Hunting"/>
 		<usage name="Farm"/>
@@ -19002,7 +19002,7 @@
 		</container>
 	</group>
 	<!-- 1.07  Amusement Park Objects-->
-	<group name="Land_Lunapark_Shooting_Gallery" lootmax="23">
+	<group name="Land_Lunapark_Shooting_Gallery" lootmax="21">
 		<usage name="Village"/>
 		<usage name="Town"/>
 		<usage name="Hunting"/>
@@ -19052,7 +19052,7 @@
 			<point pos="-0.250976 0.063848 -1.626587" range="0.134375" height="0.335938"/>
 		</container>
 	</group>
-	<group name="Land_Lunapark_Ferris_wheel" lootmax="10">
+	<group name="Land_Lunapark_Ferris_wheel" lootmax="8">
 		<usage name="Village"/>
 		<usage name="Town"/>
 		<value name="Tier1"/>
@@ -19086,7 +19086,7 @@
 			<point pos="0.598267 -6.680296 -0.737671" range="0.773234" height="2.000000"/>
 		</container>
 	</group>
-	<group name="Land_Lunapark_Carousel_Swan" lootmax="11">
+	<group name="Land_Lunapark_Carousel_Swan" lootmax="9">
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<value name="Tier1"/>
@@ -21353,7 +21353,7 @@
 			<point pos="0.878849 -0.900024 -0.231583" range="0.366364" height="0.920135" flags="32"/>
 		</container>
 	</group>
-	<group name="Land_Tenement_Small_Yellow" lootmax="108">
+	<group name="Land_Tenement_Small_Yellow" lootmax="94">
 		<usage name="Town"/>
 		<usage name="Office"/>
 		<value name="Tier1"/>
@@ -21494,7 +21494,7 @@
 			<point pos="-3.891356 1.252304 -1.783449" range="0.478125" height="1.195313"/>
 		</container>
 	</group>
-	<group name="Land_Tenement_Small_Brown" lootmax="89">
+	<group name="Land_Tenement_Small_Brown" lootmax="75">
 		<usage name="Town"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -21623,7 +21623,7 @@
 			<point pos="-1.614746 1.822721 -6.613770" range="0.133545" height="0.170000"/>
 		</container>
 	</group>
-	<group name="Land_Tenement_Small_Brick" lootmax="88">
+	<group name="Land_Tenement_Small_Brick" lootmax="81">
 		<usage name="Town"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -21743,7 +21743,7 @@
 			<point pos="3.001953 1.310993 1.033203" range="0.340625" height="0.851563"/>
 		</container>
 	</group>
-	<group name="Land_Tenement_Medium" lootmax="49">
+	<group name="Land_Tenement_Medium" lootmax="48">
 		<usage name="Town"/>
 		<usage name="Office"/>
 		<value name="Tier1"/>
@@ -22211,7 +22211,7 @@
 			<point pos="12.700438 0.222727 0.517578" range="1.199951" height="2.000000"/>
 		</container>
 	</group>
-	<group name="Land_Village_store_East" lootmax="47">
+	<group name="Land_Village_store_East" lootmax="36">
 		<usage name="Farm"/>
 		<usage name="Village"/>
 		<usage name="Hunting"/>
@@ -22415,7 +22415,7 @@
 		</container>
 	</group>
 	-->
-	<group name="Land_Geoplant_Drilltower" lootmax="8">
+	<group name="Land_Geoplant_Drilltower" lootmax="7">
 		<usage name="Industrial"/>
 		<usage name="Hunting"/>
 		<value name="Tier1"/>
@@ -22485,7 +22485,7 @@
 		</container>
 	</group>
 	-->
-	<group name="Land_Geoplant_MaintenanceHall" lootmax="129">
+	<group name="Land_Geoplant_MaintenanceHall" lootmax="119">
 		<usage name="Industrial"/>
 		<usage name="Military"/>
 		<usage name="Town"/>
@@ -22645,7 +22645,7 @@
 			<point pos="4.645061 -3.787657 0.512769" range="0.720963" height="1.995642"/>
 		</container>
 	</group>
-	<group name="Land_CementWorks_ConveyorHall" lootmax="20">
+	<group name="Land_CementWorks_ConveyorHall" lootmax="18">
 		<usage name="Industrial"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -23414,7 +23414,7 @@
 		</container>
 	</group>
 	-->
-	<group name="Land_Radio_building_East" lootmax="33">
+	<group name="Land_Radio_building_East" lootmax="29">
 		<usage name="Police"/>
 		<usage name="Medic"/>
 		<usage name="Town"/>
