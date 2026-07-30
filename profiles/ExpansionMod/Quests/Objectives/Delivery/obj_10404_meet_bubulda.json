@@ -1,13 +1,13 @@
 {
 	"ConfigVersion": 28,
-	"ID": 10401,
+	"ID": 10404,
 	"ObjectiveType": 5,
-	"ObjectiveText": "Вернитесь к Петровичу с итоговой бумажкой",
+	"ObjectiveText": "Поговорите с Бубылдой и получите его бумажку",
 	"TimeLimit": -1,
 	"Active": 1,
 	"Collections": [
 		{
-			"ClassName": "QuestPaperFinal",
+			"ClassName": "QuestPaperBubulda",
 			"Amount": 1,
 			"QuantityPercent": -1,
 			"MinQuantityPercent": -1
@@ -16,5 +16,5 @@
 	"ShowDistance": 1,
 	"AddItemsToNearbyMarketZone": 0,
 	"MaxDistance": 10.0,
-	"MarkerName": "Вернуться к Петровичу"
+	"MarkerName": "Бубылда"
 }

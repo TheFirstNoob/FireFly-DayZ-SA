@@ -4,11 +4,11 @@
 	"Type": 1,
 	"Title": "[СЮЖЕТ] Знакомство",
 	"Descriptions": [
-		"<p align=\"center\"><image set=\"expansion_iconset\" name=\"Shield\" scale=\"1.92\" /><color hex=\"0xFFCC6600\"> Петрович довольно ухмыляется: <br /><br /><b>\"Ну что, Пробудившийся, с первым заданием справился. Торговцы теперь твои. Но это не всё. Познакомься с остальными: Доктор, Бубылда, Климентина, Гоуст. Они лагерь держат — тебе с ними работать.\"</b><br /><br /> Он протягивает тебе список имён.</color></p>",
-		"<p align=\"center\"><color hex=\"0xFFCC6600\"> Ты познакомился со всеми. Пора отчитаться Петровичу.</color></p>",
-		"<p align=\"center\"><color hex=\"0xFFCC6600\"> Петрович довольно кивает: <br /><br /><b>\"Молодец. Теперь ты свой. Отдыхай, осваивайся. Завтра будет работа.\"</b></color></p>"
+		"<p align=\"center\"><image set=\"expansion_iconset\" name=\"Shield\" scale=\"1.92\" /><color hex=\"0xFFCC6600\"> Петрович протягивает тебе рекомендательную бумажку: <br /><br /><b>\"В общем так. В лагере свои порядки. Чтобы тебя приняли — нужно пройти по цепочке. Я даю бумажку к Климентине. Она ставит отметку и отправляет к Доктору. Доктор — к Бубылде. Бубылда — к Гоусту. А Гоуст даст итоговую — её принесёшь мне. <br /><br />Без неё не возвращайся.\"</b></color></p>",
+		"<p align=\"center\"><color hex=\"0xFFCC6600\"> Ты прошёл всю цепочку. Итоговая бумажка у тебя. Пора к Петровичу.</color></p>",
+		"<p align=\"center\"><color hex=\"0xFFCC6600\"> Петрович довольно кивает: <br /><br /><b>\"Молодец. Теперь ты свой. Отдыхай, осваивайся. Позже будет работа.\"</b></color></p>"
 	],
-	"ObjectiveText": "<p align=\"center\"><image set=\"expansion_iconset\" name=\"Compass\" scale=\"1.28\" /> Познакомьтесь с ключевыми жителями лагеря и вернитесь к Петровичу.</p>",
+	"ObjectiveText": "<p align=\"center\"><image set=\"expansion_iconset\" name=\"Compass\" scale=\"1.28\" /> Пройдите цепочку: Климентина → Доктор → Бубылда → Гоуст → Петрович.</p>",
 	"FollowUpQuest": -1,
 	"Repeatable": 0,
 	"IsDailyQuest": 0,
@@ -17,12 +17,7 @@
 	"Autocomplete": 0,
 	"IsGroupQuest": 0,
 	"ObjectSetFileName": "",
-	"QuestItems": [
-		{
-			"ClassName": "ExpansionQuestItemPaper",
-			"Amount": 1
-		}
-	],
+	"QuestItems": [],
 	"Rewards": [
 		{
 			"ClassName": "ExpansionBanknoteHryvnia",
@@ -45,10 +40,33 @@
 		10
 	],
 	"QuestTurnInIDs": [
-		10
+		10,
+		11,
+		13,
+		70
 	],
 	"IsAchievement": 0,
 	"Objectives": [
+		{
+			"ConfigVersion": 28,
+			"ID": 10402,
+			"ObjectiveType": 5
+		},
+		{
+			"ConfigVersion": 28,
+			"ID": 10403,
+			"ObjectiveType": 5
+		},
+		{
+			"ConfigVersion": 28,
+			"ID": 10404,
+			"ObjectiveType": 5
+		},
+		{
+			"ConfigVersion": 28,
+			"ID": 10405,
+			"ObjectiveType": 5
+		},
 		{
 			"ConfigVersion": 28,
 			"ID": 10401,
@@ -63,8 +81,8 @@
 	],
 	"RequiredFaction": "",
 	"FactionReward": "",
-	"PlayerNeedQuestItems": 1,
-	"DeleteQuestItems": 1,
+	"PlayerNeedQuestItems": 0,
+	"DeleteQuestItems": 0,
 	"SequentialObjectives": 1,
 	"CompletionMode": 0,
 	"MinRequiredObjectives": -1,

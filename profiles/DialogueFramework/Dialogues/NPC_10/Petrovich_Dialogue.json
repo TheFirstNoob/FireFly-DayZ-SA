@@ -40,6 +40,15 @@
                     "ActionType": "NONE"
                 },
                 {
+                    "Text": "С кого начать?",
+                    "NextNodeID": 20,
+                    "RequiredQuestID": 104,
+                    "RequiredQuestState": "STARTED",
+                    "GiveItemClassName": "QuestPaperClimentina",
+                    "GiveItemCount": 1,
+                    "ActionType": "NONE"
+                },
+                {
                     "Text": "Петрович, я готов проверить окрестности.",
                     "NextNodeID": 9,
                     "RequiredQuestID": 105,
@@ -448,6 +457,19 @@
             "Responses": [
                 {
                     "Text": "Понял, найду людей.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 20,
+            "Type": "STANDARD",
+            "SpeakerText": "Вот, держи рекомендательную бумажку для Климентины. Она главная по науке и исследованиям — без её слова никто тут не работает. Отдашь ей — она скажет, к кому идти дальше. По цепочке обойдёшь всех, последний даст бумажку ко мне. Без неё не возвращайся.",
+            "Responses": [
+                {
+                    "Text": "Понял. Иду.",
                     "NextNodeID": -1,
                     "RequiredQuestID": -1,
                     "ActionType": "END_CONVERSATION"
