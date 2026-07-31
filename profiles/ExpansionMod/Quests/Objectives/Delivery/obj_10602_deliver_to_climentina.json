@@ -1,13 +1,13 @@
 {
 	"ConfigVersion": 28,
-	"ID": 10404,
+	"ID": 10602,
 	"ObjectiveType": 5,
-	"ObjectiveText": "Отнесите бумажку Гоусту и получите итоговую",
+	"ObjectiveText": "Отнесите семена Климентине",
 	"TimeLimit": -1,
 	"Active": 1,
 	"Collections": [
 		{
-			"ClassName": "QuestPaperGhost",
+			"ClassName": "CP_CannabisSeedsPurpleKush",
 			"Amount": 1,
 			"QuantityPercent": -1,
 			"MinQuantityPercent": -1
@@ -16,6 +16,6 @@
 	"ShowDistance": 1,
 	"AddItemsToNearbyMarketZone": 0,
 	"MaxDistance": 10.0,
-	"MarkerName": "Гоуст",
-	"TargetNPCID": 12
+	"MarkerName": "Климентина",
+	"TargetNPCID": 13
 }

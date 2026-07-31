@@ -1,36 +1,76 @@
 {
-	"ConfigVersion": 28,
+	"ConfigVersion": 22,
 	"ID": 1002,
-	"Title": "[Ежедневная] Зачистка периметра",
-	"TitleText": "Убить 8 заражённых в зоне зачистки",
-	"Description": "Петрович: За забором опять неспокойно. Твари подбираются к лагерю. Сходи, прореди их — и чтобы не шастали. Я заплачу.",
-	"ObjectiveText": "Зачистить периметр",
 	"Type": 1,
-	"IsAchievement": 0,
-	"QuestGiverIDs": [10],
-	"QuestTurnInIDs": [10],
-	"XP": 0,
-	"Reputation": 50,
-	"QuestTimeLimit": -1,
-	"QuestTimeLimitMin": -1,
-	"CanBeCanceled": 1,
-	"NeedToSelectReward": 0,
-	"RewardXP": 0,
-	"RewardMoney": 500,
-	"RewardReputation": 50,
-	"ObjectiveHandle": "",
-	"RewardItems": [],
-	"QuestItems": [],
-	"PreQuestIDs": [105],
+	"Title": "[ЕЖЕДНЕВНАЯ] Зачистка периметра",
+	"Descriptions": [
+		"<p align=\"center\"><image set=\"expansion_iconset\" name=\"Shield\" scale=\"1.92\" /><color hex=\"0xFFCC6600\"> Петрович: <br /><br /><b>\"За забором опять неспокойно. Твари подбираются к лагерю. Сходи, прореди их — и чтобы не шастали. Я заплачу.\"</b></color></p>",
+		"<p align=\"center\"><color hex=\"0xFFCC6600\"> Заражённые в зоне зачистки. Убей 8 штук и возвращайся за наградой.</color></p>",
+		"<p align=\"center\"><color hex=\"0xFFCC6600\"> Петрович кивает: <br /><br /><b>\"Нормально поработал. Держи, что обещал.\"</b></color></p>"
+	],
+	"ObjectiveText": "Зачистить периметр",
 	"FollowUpQuest": -1,
 	"Repeatable": 1,
-	"DailyRepeatable": 1,
-	"WeeklyRepeatable": 0,
-	"MonthlyRepeatable": 0,
-	"RepeatDelay": 0,
-	"ObjectiveIDs": [100201, 100202],
+	"IsDailyQuest": 1,
+	"IsWeeklyQuest": 0,
+	"CancelQuestOnPlayerDeath": 0,
+	"Autocomplete": 0,
+	"IsGroupQuest": 0,
+	"ObjectSetFileName": "",
+	"QuestItems": [],
+	"Rewards": [
+		{
+			"ClassName": "ExpansionBanknoteHryvnia",
+			"Amount": 500,
+			"Attachments": [],
+			"DamagePercent": 0,
+			"HealthPercent": 0,
+			"QuestID": -1,
+			"MinObjectiveCount": -1,
+			"RequiredObjectiveID": -1,
+			"Chance": 1.0
+		}
+	],
+	"NeedToSelectReward": 0,
+	"RandomReward": 0,
+	"RandomRewardAmount": -1,
+	"RewardsForGroupOwnerOnly": 1,
+	"RewardBehavior": 0,
+	"QuestGiverIDs": [
+		10
+	],
+	"QuestTurnInIDs": [
+		10
+	],
+	"IsAchievement": 0,
+	"Objectives": [
+		{
+			"ConfigVersion": 28,
+			"ID": 100201,
+			"ObjectiveType": 9
+		},
+		{
+			"ConfigVersion": 28,
+			"ID": 100202,
+			"ObjectiveType": 12
+		}
+	],
+	"QuestColor": 0,
+	"ReputationReward": 50,
+	"ReputationRequirement": -1,
+	"PreQuestIDs": [
+		105
+	],
+	"RequiredFaction": "",
+	"FactionReward": "",
+	"PlayerNeedQuestItems": 0,
+	"DeleteQuestItems": 0,
 	"SequentialObjectives": 1,
 	"CompletionMode": 0,
-	"MinRequiredObjectives": 0,
-	"ShowAllObjectives": 1
+	"MinRequiredObjectives": -1,
+	"QuestTimeLimit": -1,
+	"FactionReputationRequirements": {},
+	"FactionReputationRewards": {},
+	"SuppressQuestLogOnCompetion": 0,
+	"Active": 1
 }
