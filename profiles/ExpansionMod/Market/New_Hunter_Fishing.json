@@ -8,8 +8,8 @@
 	"Items": [
 		{
 			"ClassName": "Jig",
-			"MaxPriceThreshold": 4,
-			"MinPriceThreshold": 2,
+			"MaxPriceThreshold": 12500,
+			"MinPriceThreshold": 2500,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 100,
 			"MinStockThreshold": 1,
@@ -19,8 +19,8 @@
 		},
 		{
 			"ClassName": "hook",
-			"MaxPriceThreshold": 14,
-			"MinPriceThreshold": 7,
+			"MaxPriceThreshold": 1750,
+			"MinPriceThreshold": 350,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 100,
 			"MinStockThreshold": 1,
@@ -30,8 +30,8 @@
 		},
 		{
 			"ClassName": "fishingrod",
-			"MaxPriceThreshold": 120,
-			"MinPriceThreshold": 60,
+			"MaxPriceThreshold": 25000,
+			"MinPriceThreshold": 5000,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 100,
 			"MinStockThreshold": 1,
