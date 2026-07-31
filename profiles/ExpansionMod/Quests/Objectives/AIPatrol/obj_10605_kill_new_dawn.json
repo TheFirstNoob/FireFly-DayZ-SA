@@ -2,24 +2,28 @@
 	"ConfigVersion": 28,
 	"ID": 10605,
 	"ObjectiveType": 7,
-	"ObjectiveText": "Убейте 5 приспешников «Нового Рассвета»",
+	"ObjectiveText": "Убейте 5 обитателей этого места",
 	"TimeLimit": -1,
 	"Active": 1,
 	"AISpawn": {
 		"NumberOfAI": 5,
-		"NPCName": "Новый Рассвет",
-		"Waypoints": [],
-		"Behaviour": "PATROL",
+		"NPCName": "Незнакомец",
+		"Waypoints": [
+			[
+				5164.42, 197.495, 223.595
+			]
+		],
+		"Behaviour": 0,
 		"Formation": "RANDOM",
-		"Loadout": "",
-		"Faction": "",
+		"Loadout": "AI_Fanatic_Loadout",
+		"Faction": "Shamans",
 		"Speed": 1.0,
-		"ThreatSpeed": 3.0,
-		"MinAccuracy": 0.1,
-		"MaxAccuracy": 0.5,
+		"ThreatSpeed": 4.0,
+		"MinAccuracy": 0.2,
+		"MaxAccuracy": 0.33,
 		"CanBeLooted": true,
-		"UnlimitedReload": true,
-		"ThreatDistanceLimit": 1000.0,
+		"UnlimitedReload": false,
+		"ThreatDistanceLimit": 300.0,
 		"DamageMultiplier": 1.0,
 		"DamageReceivedMultiplier": 1.0,
 		"ClassNames": [
@@ -58,9 +62,9 @@
 		"SniperProneDistanceThreshold": 300.0,
 		"RespawnTime": 1.0,
 		"DespawnTime": 1.0,
-		"MinDistanceRadius": 10.0,
-		"MaxDistanceRadius": 50.0,
-		"DespawnRadius": 200.0
+		"MinDistanceRadius": 50.0,
+		"MaxDistanceRadius": 350.0,
+		"DespawnRadius": 350.0
 	},
 	"MaxDistance": -1,
 	"MinDistance": -1,
