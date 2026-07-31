@@ -72,6 +72,13 @@
                     "NextNodeID": -1,
                     "RequiredQuestID": -1,
                     "ActionType": "END_CONVERSATION"
+                },
+                {
+                    "Text": "Есть что предложить?",
+                    "NextNodeID": 16,
+                    "RequiredQuestID": 105,
+                    "RequiredQuestState": "COMPLETED",
+                    "ActionType": "NONE"
                 }
             ]
         },
@@ -311,6 +318,124 @@
                     "NextNodeID": -1,
                     "RequiredQuestID": -1,
                     "ActionType": "TURN_IN_QUEST"
+                }
+            ]
+        },
+        {
+            "ID": 16,
+            "Type": "STANDARD",
+            "SpeakerText": "Есть три места, до которых я добраться не смог. Не потому что далеко — а потому что там всё зашифровано. Военные схемы, кодовые замки, электронные ключи. Я собирал информацию годами. Карты, коды, обрывки записей. Всё это у меня есть. Бери — плати — владей.",
+            "Responses": [
+                {
+                    "Text": "Заброшенный бункер — что там?",
+                    "NextNodeID": 17,
+                    "RequiredQuestID": 6001,
+                    "RequiredQuestState": "NONE",
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Оружейный схрон — о чём речь?",
+                    "NextNodeID": 18,
+                    "RequiredQuestID": 6002,
+                    "RequiredQuestState": "NONE",
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Элитный тайник — что там прячут?",
+                    "NextNodeID": 19,
+                    "RequiredQuestID": 6003,
+                    "RequiredQuestState": "NONE",
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Покажи, что есть.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
+                    "Text": "В другой раз.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 17,
+            "Type": "STANDARD",
+            "SpeakerText": "Старый военный бункер. На картах не значится. Я нашёл его случайно — заросший вход, свежие следы. Кто-то там был, но не смог открыть. Внутри — запасы связистов: радиостанции, приборы ночного видения, может, оружие. Говорю «может» — потому что сам не вскрыл. Шифр первого уровня, но без кода — стена.",
+            "Responses": [
+                {
+                    "Text": "Сколько стоит?",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 6001,
+                    "RequiredQuestState": "NONE",
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
+                    "Text": "Дороговато...",
+                    "NextNodeID": 16,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Не интересует.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 18,
+            "Type": "STANDARD",
+            "SpeakerText": "Склад оружейный. Нелегальный, довоенный. Хозяева погибли, схрон остался. Я выменял часть карты у одного сталкера — он нашёл её в мёртвом городе. Говорил, там целый арсенал: автоматы, броня, боеприпасы. Но дверь — с электронным замком. Код я подобрал, проверять не ходил — берегу себя. Тебе он нужнее.",
+            "Responses": [
+                {
+                    "Text": "Сколько стоит?",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 6002,
+                    "RequiredQuestState": "NONE",
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
+                    "Text": "Многовато...",
+                    "NextNodeID": 16,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Не интересует.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 19,
+            "Type": "STANDARD",
+            "SpeakerText": "Самое жирное место. Элитный схрон — не знаю, кто его строил, но явно не рядовые военные. Трёхуровневая защита: код, биометрия, механический ключ. У меня есть все три части. Но цена высокая — потому что и риск, и награда максимальные. Там может быть всё что угодно: от образцов оружия до документов, переворачивающих историю этого мира.",
+            "Responses": [
+                {
+                    "Text": "Сколько стоит?",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 6003,
+                    "RequiredQuestState": "NONE",
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
+                    "Text": "Это точно не моя цена...",
+                    "NextNodeID": 16,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Не интересует.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
                 }
             ]
         }

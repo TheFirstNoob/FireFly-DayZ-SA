@@ -40,13 +40,15 @@
 		10
 	],
 	"QuestTurnInIDs": [
-		10,
-		11,
-		13,
-		70
+		10
 	],
 	"IsAchievement": 0,
 	"Objectives": [
+		{
+			"ConfigVersion": 28,
+			"ID": 10401,
+			"ObjectiveType": 5
+		},
 		{
 			"ConfigVersion": 28,
 			"ID": 10402,
@@ -65,11 +67,6 @@
 		{
 			"ConfigVersion": 28,
 			"ID": 10405,
-			"ObjectiveType": 5
-		},
-		{
-			"ConfigVersion": 28,
-			"ID": 10401,
 			"ObjectiveType": 5
 		}
 	],

@@ -2,10 +2,28 @@
 	"ConfigVersion": 28,
 	"ID": 10203,
 	"ObjectiveType": 6,
-	"ObjectiveText": "Найдите схрон C",
-	"TimeLimit": 5400,
+	"ObjectiveText": "Найдите схрон III",
+	"TimeLimit": -1,
 	"Active": 1,
-	"Position": [2149.36, 212.648, 2024.650],
-	"MaxDistance": 8.0,
-	"MarkerName": "Схрон C"
+	"ShowDistance": 1,
+	"ContainerName": "",
+	"DigInStash": 0,
+	"MarkerName": "Схрон III",
+	"MarkerVisibility": 2,
+	"Positions": [
+		[450.157, 228.635, 2765.5]
+	],
+	"LootItemsAmount": 1,
+	"MaxDistance": 20.0,
+	"Loot": [
+		{
+			"Name": "CachePaperC",
+			"Chance": 1.0,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		}
+	]
 }

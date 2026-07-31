@@ -2,10 +2,28 @@
 	"ConfigVersion": 28,
 	"ID": 10202,
 	"ObjectiveType": 6,
-	"ObjectiveText": "Найдите схрон B",
-	"TimeLimit": 5400,
+	"ObjectiveText": "Найдите схрон II",
+	"TimeLimit": -1,
 	"Active": 1,
-	"Position": [2149.36, 212.648, 2024.65],
-	"MaxDistance": 8.0,
-	"MarkerName": "Схрон B"
+	"ShowDistance": 1,
+	"ContainerName": "",
+	"DigInStash": 0,
+	"MarkerName": "Схрон II",
+	"MarkerVisibility": 2,
+	"Positions": [
+		[2115.96, 210.251, 1995.23]
+	],
+	"LootItemsAmount": 1,
+	"MaxDistance": 20.0,
+	"Loot": [
+		{
+			"Name": "CachePaperB",
+			"Chance": 1.0,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		}
+	]
 }

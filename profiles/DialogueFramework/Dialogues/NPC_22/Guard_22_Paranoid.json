@@ -23,6 +23,7 @@
                     "Text": "Я сделал дело.",
                     "NextNodeID": 2,
                     "RequiredQuestID": 102,
+                    "RequiredQuestState": "STARTED",
                     "ActionType": "NONE"
                 },
                 {
@@ -36,13 +37,64 @@
         {
             "ID": 2,
             "Type": "STANDARD",
-            "SpeakerText": "А... ну да. Действительно, принёс. Лады. Верю. Пока. Петрович тебя ждёт. И смотри у меня — я за тобой слежу. Один неверный шаг — и ты труп. Понял? Свободен.",
+            "SpeakerText": "Где? Быстро показывай! И без резких движений... Будешь мне тут сказки рассказывать про какие-то схроны. Давай сюда бумажки — я сам посмотрю.",
             "Responses": [
                 {
-                    "Text": "Понял.",
+                    "Text": "Вот бумажка с цифрой I.",
+                    "NextNodeID": 2,
+                    "RequiredQuestID": 102,
+                    "RequiredQuestState": "STARTED",
+                    "RequiredItemClassName": "CachePaperA",
+                    "RequiredItemCount": 1,
+                    "RemoveItemClassName": "CachePaperA",
+                    "RemoveItemCount": 1,
+                    "GiveItems": [
+                        {"ClassName": "TF_VPO190", "Count": 1},
+                        {"ClassName": "TF_Mag_VPO190_4Rnd", "Count": 2},
+                        {"ClassName": "AmmoBox_new_545x39Hp", "Count": 1}
+                    ],
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Вот бумажка с цифрой II.",
+                    "NextNodeID": 2,
+                    "RequiredQuestID": 102,
+                    "RequiredQuestState": "STARTED",
+                    "RequiredItemClassName": "CachePaperB",
+                    "RequiredItemCount": 1,
+                    "RemoveItemClassName": "CachePaperB",
+                    "RemoveItemCount": 1,
+                    "GiveItems": [
+                        {"ClassName": "TerjeSurgicalKit", "Count": 1},
+                        {"ClassName": "TerjePillsParacetamol", "Count": 1},
+                        {"ClassName": "BandageDressing", "Count": 2}
+                    ],
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Вот бумажка с цифрой III.",
+                    "NextNodeID": 2,
+                    "RequiredQuestID": 102,
+                    "RequiredQuestState": "STARTED",
+                    "RequiredItemClassName": "CachePaperC",
+                    "RequiredItemCount": 1,
+                    "RemoveItemClassName": "CachePaperC",
+                    "RemoveItemCount": 1,
+                    "GiveItems": [
+                        {"ClassName": "SodaCan_Cola", "Count": 1},
+                        {"ClassName": "SodaCan_Pipsi", "Count": 1},
+                        {"ClassName": "CookZ_PaellaBox", "Count": 1},
+                        {"ClassName": "SewingKit", "Count": 1},
+                        {"ClassName": "Whetstone", "Count": 1},
+                        {"ClassName": "DuctTape", "Count": 1}
+                    ],
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Это всё, больше нет.",
                     "NextNodeID": -1,
                     "RequiredQuestID": -1,
-                    "ActionType": "END_CONVERSATION"
+                    "ActionType": "TURN_IN_QUEST"
                 }
             ]
         }

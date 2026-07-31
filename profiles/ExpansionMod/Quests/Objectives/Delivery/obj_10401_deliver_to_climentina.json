@@ -1,13 +1,13 @@
 {
 	"ConfigVersion": 28,
-	"ID": 10405,
+	"ID": 10401,
 	"ObjectiveType": 5,
-	"ObjectiveText": "Поговорите с Гоустом и получите итоговую бумажку",
+	"ObjectiveText": "Поговорите с Климентиной и получите её бумажку",
 	"TimeLimit": -1,
 	"Active": 1,
 	"Collections": [
 		{
-			"ClassName": "QuestPaperGhost",
+			"ClassName": "QuestPaperClimentina",
 			"Amount": 1,
 			"QuantityPercent": -1,
 			"MinQuantityPercent": -1
@@ -16,5 +16,5 @@
 	"ShowDistance": 1,
 	"AddItemsToNearbyMarketZone": 0,
 	"MaxDistance": 10.0,
-	"MarkerName": "Гоуст"
+	"MarkerName": "Климентина"
 }

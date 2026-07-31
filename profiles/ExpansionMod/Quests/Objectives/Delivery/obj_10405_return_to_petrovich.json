@@ -1,13 +1,13 @@
 {
 	"ConfigVersion": 28,
-	"ID": 10402,
+	"ID": 10405,
 	"ObjectiveType": 5,
-	"ObjectiveText": "Поговорите с Климентиной и получите её бумажку",
+	"ObjectiveText": "Вернитесь к Петровичу с итоговой бумажкой",
 	"TimeLimit": -1,
 	"Active": 1,
 	"Collections": [
 		{
-			"ClassName": "QuestPaperClimentina",
+			"ClassName": "QuestPaperFinal",
 			"Amount": 1,
 			"QuantityPercent": -1,
 			"MinQuantityPercent": -1
@@ -16,5 +16,5 @@
 	"ShowDistance": 1,
 	"AddItemsToNearbyMarketZone": 0,
 	"MaxDistance": 10.0,
-	"MarkerName": "Климентина"
+	"MarkerName": "Вернуться к Петровичу"
 }
