@@ -8,8 +8,8 @@
 	"Items": [
 		{
 			"ClassName": "sweater_gray",
-			"MaxPriceThreshold": 40,
-			"MinPriceThreshold": 20,
+			"MaxPriceThreshold": 2700,
+			"MinPriceThreshold": 540,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 100,
 			"MinStockThreshold": 1,
@@ -22,20 +22,9 @@
 			]
 		},
 		{
-			"ClassName": "sweater_blue",
-			"MaxPriceThreshold": 40,
-			"MinPriceThreshold": 20,
-			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 100,
-			"MinStockThreshold": 1,
-			"QuantityPercent": -1,
-			"SpawnAttachments": [],
-			"Variants": []
-		},
-		{
 			"ClassName": "hoodie_blue",
-			"MaxPriceThreshold": 60,
-			"MinPriceThreshold": 30,
+			"MaxPriceThreshold": 3750,
+			"MinPriceThreshold": 750,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 100,
 			"MinStockThreshold": 1,

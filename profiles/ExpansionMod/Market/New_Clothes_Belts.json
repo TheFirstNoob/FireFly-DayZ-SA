@@ -8,8 +8,8 @@
 	"Items": [
 		{
 			"ClassName": "civilianbelt",
-			"MaxPriceThreshold": 200,
-			"MinPriceThreshold": 100,
+			"MaxPriceThreshold": 750,
+			"MinPriceThreshold": 150,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 100,
 			"MinStockThreshold": 1,
@@ -19,8 +19,8 @@
 		},
 		{
 			"ClassName": "militarybelt",
-			"MaxPriceThreshold": 200,
-			"MinPriceThreshold": 100,
+			"MaxPriceThreshold": 750,
+			"MinPriceThreshold": 150,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 100,
 			"MinStockThreshold": 1,
@@ -30,8 +30,8 @@
 		},
 		{
 			"ClassName": "hippack_black",
-			"MaxPriceThreshold": 200,
-			"MinPriceThreshold": 100,
+			"MaxPriceThreshold": 3750,
+			"MinPriceThreshold": 750,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 100,
 			"MinStockThreshold": 1,
@@ -45,8 +45,8 @@
 		},
 		{
 			"ClassName": "TF_FannyPack_Coyote",
-			"MaxPriceThreshold": 30,
-			"MinPriceThreshold": 24,
+			"MaxPriceThreshold": 5000,
+			"MinPriceThreshold": 1000,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 150,
 			"MinStockThreshold": 0,
@@ -56,8 +56,8 @@
 		},
 		{
 			"ClassName": "Msp_WaistPack_Tan",
-			"MaxPriceThreshold": 7000,
-			"MinPriceThreshold": 2000,
+			"MaxPriceThreshold": 25000,
+			"MinPriceThreshold": 5000,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 150,
 			"MinStockThreshold": 1,

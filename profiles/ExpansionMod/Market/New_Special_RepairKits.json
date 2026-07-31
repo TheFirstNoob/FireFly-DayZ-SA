@@ -74,8 +74,8 @@
 		},
 		{
 			"ClassName": "epoxyputty",
-			"MaxPriceThreshold": 30,
-			"MinPriceThreshold": 15,
+			"MaxPriceThreshold": 10000,
+			"MinPriceThreshold": 2000,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 100,
 			"MinStockThreshold": 1,
@@ -85,8 +85,8 @@
 		},
 		{
 			"ClassName": "ducttape",
-			"MaxPriceThreshold": 40,
-			"MinPriceThreshold": 20,
+			"MaxPriceThreshold": 7500,
+			"MinPriceThreshold": 1500,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 100,
 			"MinStockThreshold": 1,
