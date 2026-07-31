@@ -4,9 +4,9 @@
 	"Type": 1,
 	"Title": "[Еженедельный] Схрон",
 	"Descriptions": [
-		"Раз в Неделю вы можете получить Редкие халявные предметы. Точка выбирается случайно. Схрон откапывать НЕ НУЖНО!",
-		"Ты уже получил координаты. Проверь карту и ищи значок Схрон",
-		"Нашел? Забрал? Молодца!"
+		"<p align=\"center\"><image set=\"expansion_iconset\" name=\"Compass\" scale=\"1.28\" /><color hex=\"0xFFCC6600\"> Раз в неделю вы можете получить редкие халявные предметы. Точка выбирается случайно. Схрон откапывать НЕ НУЖНО!</color></p>",
+		"<p align=\"center\"><color hex=\"0xFFCC6600\"> Ты получил координаты. Проверь карту и ищи значок Схрон.</color></p>",
+		"<p align=\"center\"><color hex=\"0xFFCC6600\"> Нашёл? Забрал? Молодца!</color></p>"
 	],
 	"ObjectiveText": "Найдите Схрон.",
 	"FollowUpQuest": -1,
@@ -46,7 +46,7 @@
 	],
 	"RequiredFaction": "",
 	"FactionReward": "",
-	"PlayerNeedQuestItems": 1,
+	"PlayerNeedQuestItems": 0,
 	"DeleteQuestItems": 1,
 	"SequentialObjectives": 1,
 	"CompletionMode": 0,

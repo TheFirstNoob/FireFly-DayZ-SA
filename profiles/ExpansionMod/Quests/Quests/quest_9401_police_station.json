@@ -1,0 +1,74 @@
+﻿{
+	"ConfigVersion": 22,
+	"ID": 9401,
+	"Type": 1,
+	"Title": "[ГРУППОВОЙ] Полицейский участок",
+	"Descriptions": [
+		"<p align=\"center\"><image set=\"expansion_iconset\" name=\"Shield\" scale=\"1.92\" /><color hex=\"0xFFCC6600\"> Петрович хмурится: <br /><br /><b>\"С парнями связь потерял. Участок молчит уже третий день. Я бы сам пошёл, но мне тут командовать надо. Собери людей, проверь. Только осторожно — внутри что-то нечисто.\"</b></color></p>",
+		"<p align=\"center\"><color hex=\"0xFFCC6600\"> Вы подходите к участку. Дверь приоткрыта. Внутри — тела патрульных. И тишина. Слишком тихо.</color></p>",
+		"<p align=\"center\"><color hex=\"0xFFCC6600\"> Ты стоишь над телом Мясника. В руке — жетон шефа полиции. <br /><br /><b>\"Вернулся... По лицу вижу — не с пустыми руками. Рассказывай.\"</b></color></p>"
+	],
+	"ObjectiveText": "<p align=\"center\"><image set=\"expansion_iconset\" name=\"Group\" scale=\"1.28\" /> Проверьте полицейский участок — найдите, что случилось с патрулём, и убейте Мясника.</p>",
+	"FollowUpQuest": -1,
+	"Repeatable": 0,
+	"IsDailyQuest": 0,
+	"IsWeeklyQuest": 0,
+	"CancelQuestOnPlayerDeath": 1,
+	"Autocomplete": 0,
+	"IsGroupQuest": 1,
+	"ObjectSetFileName": "",
+	"QuestItems": [],
+	"Rewards": [
+		{
+			"ClassName": "ExpansionBanknoteHryvnia",
+			"Amount": 500,
+			"Attachments": [],
+			"DamagePercent": 0,
+			"HealthPercent": 0,
+			"QuestID": -1,
+			"Chance": 1
+		}
+	],
+	"NeedToSelectReward": 0,
+	"RandomReward": 0,
+	"RandomRewardAmount": -1,
+	"RewardsForGroupOwnerOnly": 0,
+	"RewardBehavior": 0,
+	"QuestGiverIDs": [
+		10
+	],
+	"QuestTurnInIDs": [
+		10
+	],
+	"IsAchievement": 0,
+	"Objectives": [
+		{
+			"ConfigVersion": 28,
+			"ID": 940101,
+			"ObjectiveType": 9
+		},
+		{
+			"ConfigVersion": 28,
+			"ID": 940102,
+			"ObjectiveType": 12
+		}
+	],
+	"QuestColor": 0,
+	"ReputationReward": 300,
+	"ReputationRequirement": -1,
+	"PreQuestIDs": [
+		105
+	],
+	"RequiredFaction": "",
+	"FactionReward": "",
+	"PlayerNeedQuestItems": 0,
+	"DeleteQuestItems": 0,
+	"SequentialObjectives": 1,
+	"CompletionMode": 0,
+	"MinRequiredObjectives": -1,
+	"QuestTimeLimit": -1,
+	"FactionReputationRequirements": {},
+	"FactionReputationRewards": {},
+	"SuppressQuestLogOnCompetion": 0,
+	"Active": 1
+}

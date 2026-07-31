@@ -77,7 +77,7 @@
                 {
                     "Text": "Я разобрался в участке.",
                     "NextNodeID": 17,
-                    "RequiredQuestID": 301,
+                    "RequiredQuestID": 9401,
                     "RequiredQuestState": "CAN_TURNIN",
                     "ActionType": "NONE"
                 },
@@ -91,28 +91,28 @@
                 {
                     "Text": "Слышал, Вовчику помощь нужна?",
                     "NextNodeID": 12,
-                    "RequiredQuestID": 202,
+                    "RequiredQuestID": 301,
                     "RequiredQuestState": "NONE",
                     "ActionType": "NONE"
                 },
                 {
                     "Text": "Я сводил Вовчика. Живой, целый.",
                     "NextNodeID": 13,
-                    "RequiredQuestID": 202,
+                    "RequiredQuestID": 301,
                     "RequiredQuestState": "CAN_TURNIN",
                     "ActionType": "NONE"
                 },
                 {
                     "Text": "Что там с Вовчиком?",
                     "NextNodeID": 14,
-                    "RequiredQuestID": 202,
+                    "RequiredQuestID": 301,
                     "RequiredQuestState": "COMPLETED",
                     "ActionType": "NONE"
                 },
                 {
                     "Text": "Я вытащил Вовчика из города.",
                     "NextNodeID": 15,
-                    "RequiredQuestID": 203,
+                    "RequiredQuestID": 302,
                     "RequiredQuestState": "CAN_TURNIN",
                     "ActionType": "NONE"
                 },
@@ -338,12 +338,12 @@
         {
             "ID": 12,
             "Type": "STANDARD",
-            "SpeakerText": "А, Вовчик... Короче, алкаш местный. Вечно бухой, вечно обосранный. Сейчас сидит, трясётся, боится до сортира доползти. Своди его, а? Он обещал бумажкой расплатиться — я глянул, там ценная какая-то, на схрон идёт. Не пропадать же добру.",
+            "SpeakerText": "А, Вовчик... Короче, алкаш местный. Нажрался и забил все сортиры — теперь людям ходить некуда. Сейчас сидит, трясётся, до последнего целого сам не дойдёт. Своди его, а? Он обещал бумажкой расплатиться — я глянул, там ценная какая-то, на схрон идёт. Не пропадать же добру.",
             "Responses": [
                 {
                     "Text": "Помогу, конечно.",
                     "NextNodeID": -1,
-                    "RequiredQuestID": 202,
+                    "RequiredQuestID": 301,
                     "RequiredQuestState": "NONE",
                     "ActionType": "ACCEPT_QUEST"
                 },
@@ -371,12 +371,12 @@
         {
             "ID": 14,
             "Type": "STANDARD",
-            "SpeakerText": "Да всё тот же Вовчик. Алкаш чёртов — попёрся в город за бухлом, а там заражённые, целая орда. Застрял, дурак. Вытащи его, будь другом. У него для тебя бумажка есть, ещё круче прошлой. Видимо, пока бухой был — где-то нашёл.",
+            "SpeakerText": "Да всё тот же Вовчик. Мало ему было наши сортиры забить — теперь в город попёрся. Говорит, там общественный санузел нормальный. А на деле — заражённые, целая орда. Найди его, отбейся от заражённых и приведи обратно. У него бумажка есть, ещё круче прошлой.",
             "Responses": [
                 {
                     "Text": "Вытащу.",
                     "NextNodeID": -1,
-                    "RequiredQuestID": 203,
+                    "RequiredQuestID": 302,
                     "RequiredQuestState": "NONE",
                     "ActionType": "ACCEPT_QUEST"
                 },
@@ -409,14 +409,14 @@
                 {
                     "Text": "Я готов, но пока один.",
                     "NextNodeID": 18,
-                    "RequiredQuestID": 301,
+                    "RequiredQuestID": 9401,
                     "RequiredQuestState": "NONE",
                     "ActionType": "NONE"
                 },
                 {
                     "Text": "У меня есть группа. Берёмся.",
                     "NextNodeID": -1,
-                    "RequiredQuestID": 301,
+                    "RequiredQuestID": 9401,
                     "RequiredQuestState": "NONE",
                     "ActionType": "ACCEPT_QUEST"
                 },
@@ -435,7 +435,7 @@
             "SpeakerTextConditions": [
                 {
                     "Text": "Вернулся... По лицу вижу — не с пустыми руками. Надеюсь, ты принёс хорошие новости.",
-                    "RequiredQuestID": 301,
+                    "RequiredQuestID": 9401,
                     "RequiredState": "STARTED"
                 }
             ],

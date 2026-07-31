@@ -4,9 +4,9 @@
 	"Type": 1,
 	"Title": "Требуется проводник",
 	"Descriptions": [
-		"Заблудший путник ждёт провожатого до безопасного места. Оплата на месте.",
-		"Сопроводите путника до точки. Карта обновлена.",
-		"Готово."
+		"<p align=\"center\"><image set=\"expansion_iconset\" name=\"Compass\" scale=\"1.28\" /><color hex=\"0xFFCC6600\"> Заблудший путник ищет провожатого до безопасного места. Оплата по прибытии.</color></p>",
+		"<p align=\"center\"><color hex=\"0xFFCC6600\"> Сопроводите путника до указанной точки. Карта обновлена.</color></p>",
+		"<p align=\"center\"><color hex=\"0xFFCC6600\"> Путник доставлен. Забирайте свою награду.</color></p>"
 	],
 	"ObjectiveText": "Сопроводите путника до точки",
 	"FollowUpQuest": -1,
@@ -54,7 +54,7 @@
 	"PreQuestIDs": [],
 	"RequiredFaction": "",
 	"FactionReward": "",
-	"PlayerNeedQuestItems": 1,
+	"PlayerNeedQuestItems": 0,
 	"DeleteQuestItems": 1,
 	"SequentialObjectives": 1,
 	"CompletionMode": 0,
