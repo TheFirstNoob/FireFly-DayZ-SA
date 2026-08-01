@@ -83,15 +83,21 @@
 		<category name="weapons"/>
 	</type>
 	<type name="AmmoBox_new_308WinM80">
-		<nominal>0</nominal>
+		<nominal>9</nominal>
 		<lifetime>7200</lifetime>
-		<restock>0</restock>
-		<min>0</min>
+		<restock>1460</restock>
+		<min>9</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
+		<tag name="shelves"/>
+		<tag name="civilian"/>
+		<usage name="Police"/>
+		<usage name="Coast"/>
+		<usage name="Military"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="AmmoBox_new_308WinM993">
 		<nominal>0</nominal>
@@ -328,15 +334,21 @@
 		<category name="weapons"/>
 	</type>
 	<type name="AmmoBox_new_762x547H1">
-		<nominal>0</nominal>
+		<nominal>9</nominal>
 		<lifetime>7200</lifetime>
-		<restock>0</restock>
-		<min>0</min>
+		<restock>1460</restock>
+		<min>9</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
+		<tag name="shelves"/>
+		<tag name="civilian"/>
+		<usage name="Police"/>
+		<usage name="Coast"/>
+		<usage name="Military"/>
+		<value name="Tier4"/>
 	</type>
 
 	<!-- FireFly Main Additional Ammo -->
@@ -376,26 +388,42 @@
 
 	<!-- FireFly Main Additional Ammo -->
 	<type name="AmmoBox_new_9x39Sp5">
-		<nominal>0</nominal>
+		<nominal>10</nominal>
 		<lifetime>7200</lifetime>
-		<restock>0</restock>
-		<min>0</min>
+		<restock>1460</restock>
+		<min>10</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
+		<tag name="shelves"/>
+		<tag name="civilian"/>
+		<usage name="Police"/>
+		<usage name="Coast"/>
+		<usage name="Military"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="AmmoBox_new_9x39Sp6">
-		<nominal>0</nominal>
+		<nominal>12</nominal>
 		<lifetime>7200</lifetime>
-		<restock>0</restock>
-		<min>0</min>
+		<restock>1460</restock>
+		<min>12</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
+		<tag name="shelves"/>
+		<tag name="civilian"/>
+		<usage name="Underground"/>
+		<usage name="Medic"/>
+		<usage name="Military"/>
+		<usage name="Police"/>
+		<usage name="Industrial"/>
+		<usage name="Village"/>
+		<usage name="ContaminatedArea"/>
+		<value name="Tier5"/>
 	</type>
 
 	<!-- AMMOBOXES EXPANSION DISABLED FULL -->
@@ -457,69 +485,129 @@
 		<category name="weapons"/>
 	</type>
 	<type name="AmmoBox_300AAC">
-		<nominal>0</nominal>
+		<nominal>8</nominal>
 		<lifetime>7200</lifetime>
-		<restock>0</restock>
-		<min>0</min>
+		<restock>1460</restock>
+		<min>8</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
+		<tag name="shelves"/>
+		<tag name="civilian"/>
+		<usage name="Underground"/>
+		<usage name="Medic"/>
+		<usage name="Military"/>
+		<usage name="Police"/>
+		<usage name="Industrial"/>
+		<usage name="Village"/>
+		<usage name="ContaminatedArea"/>
+		<value name="Tier5"/>
 	</type>
 	<type name="AmmoBox_300AAC_AP">
-		<nominal>0</nominal>
+		<nominal>5</nominal>
 		<lifetime>7200</lifetime>
-		<restock>0</restock>
-		<min>0</min>
+		<restock>1460</restock>
+		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
+		<tag name="shelves"/>
+		<tag name="civilian"/>
+		<usage name="Underground"/>
+		<usage name="Medic"/>
+		<usage name="Military"/>
+		<usage name="Police"/>
+		<usage name="Industrial"/>
+		<usage name="Village"/>
+		<usage name="ContaminatedArea"/>
+		<value name="Tier5"/>
 	</type>
 	<type name="AmmoBox_408CheyTac">
-		<nominal>0</nominal>
+		<nominal>4</nominal>
 		<lifetime>7200</lifetime>
-		<restock>0</restock>
-		<min>0</min>
+		<restock>1460</restock>
+		<min>4</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
+		<tag name="shelves"/>
+		<tag name="civilian"/>
+		<usage name="Underground"/>
+		<usage name="Medic"/>
+		<usage name="Military"/>
+		<usage name="Police"/>
+		<usage name="Industrial"/>
+		<usage name="Village"/>
+		<usage name="ContaminatedArea"/>
+		<value name="Tier5"/>
 	</type>
 	<type name="AmmoBox_50BMG">
-		<nominal>0</nominal>
+		<nominal>3</nominal>
 		<lifetime>7200</lifetime>
-		<restock>0</restock>
-		<min>0</min>
+		<restock>1460</restock>
+		<min>3</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
+		<tag name="shelves"/>
+		<tag name="civilian"/>
+		<usage name="Underground"/>
+		<usage name="Medic"/>
+		<usage name="Military"/>
+		<usage name="Police"/>
+		<usage name="Industrial"/>
+		<usage name="Village"/>
+		<usage name="ContaminatedArea"/>
+		<value name="Tier5"/>
 	</type>
 	<type name="AmmoBox_50BMG_AP">
-		<nominal>0</nominal>
+		<nominal>2</nominal>
 		<lifetime>7200</lifetime>
-		<restock>0</restock>
-		<min>0</min>
+		<restock>1460</restock>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
+		<tag name="shelves"/>
+		<tag name="civilian"/>
+		<usage name="Underground"/>
+		<usage name="Medic"/>
+		<usage name="Military"/>
+		<usage name="Police"/>
+		<usage name="Industrial"/>
+		<usage name="Village"/>
+		<usage name="ContaminatedArea"/>
+		<value name="Tier5"/>
 	</type>
 	<type name="AmmoBox_65Creedmore">
-		<nominal>0</nominal>
+		<nominal>10</nominal>
 		<lifetime>7200</lifetime>
-		<restock>0</restock>
-		<min>0</min>
+		<restock>1460</restock>
+		<min>10</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
+		<tag name="shelves"/>
+		<tag name="civilian"/>
+		<usage name="Underground"/>
+		<usage name="Medic"/>
+		<usage name="Military"/>
+		<usage name="Police"/>
+		<usage name="Industrial"/>
+		<usage name="Village"/>
+		<usage name="ContaminatedArea"/>
+		<value name="Tier5"/>
 	</type>
 </types>
