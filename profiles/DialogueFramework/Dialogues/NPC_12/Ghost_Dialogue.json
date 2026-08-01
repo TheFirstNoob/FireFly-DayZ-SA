@@ -325,27 +325,6 @@
             "SpeakerText": "Есть три места, до которых я добраться не смог. Не потому что далеко — а потому что там всё зашифровано. Военные схемы, кодовые замки, электронные ключи. Я собирал информацию годами. Карты, коды, обрывки записей. Всё это у меня есть. Бери — плати — владей.",
             "Responses": [
                 {
-                    "Text": "Заброшенный бункер — что там?",
-                    "NextNodeID": 17,
-                    "RequiredQuestID": 6001,
-                    "RequiredQuestState": "NONE",
-                    "ActionType": "NONE"
-                },
-                {
-                    "Text": "Оружейный схрон — о чём речь?",
-                    "NextNodeID": 18,
-                    "RequiredQuestID": 6002,
-                    "RequiredQuestState": "NONE",
-                    "ActionType": "NONE"
-                },
-                {
-                    "Text": "Элитный тайник — что там прячут?",
-                    "NextNodeID": 19,
-                    "RequiredQuestID": 6003,
-                    "RequiredQuestState": "NONE",
-                    "ActionType": "NONE"
-                },
-                {
                     "Text": "Покажи, что есть.",
                     "NextNodeID": -1,
                     "RequiredQuestID": -1,
