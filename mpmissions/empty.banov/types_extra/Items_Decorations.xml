@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
 	<type name="Bear_Beige">
-		<nominal>3</nominal>
+		<nominal>5</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>3</min>
+		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -16,16 +16,18 @@
 		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
-		<usage name="Farm"/>
+		<usage name="School"/>
+		<usage name="Firefighter"/>
+		<usage name="Prison"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
 	</type>
 	<type name="Bear_Dark">
-		<nominal>3</nominal>
+		<nominal>5</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>3</min>
+		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -37,16 +39,18 @@
 		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
-		<usage name="Farm"/>
+		<usage name="School"/>
+		<usage name="Firefighter"/>
+		<usage name="Prison"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
 	</type>
 	<type name="Bear_Pink">
-		<nominal>3</nominal>
+		<nominal>5</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>3</min>
+		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -58,16 +62,18 @@
 		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
-		<usage name="Farm"/>
+		<usage name="School"/>
+		<usage name="Firefighter"/>
+		<usage name="Prison"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
 	</type>
 	<type name="Bear_White">
-		<nominal>3</nominal>
+		<nominal>5</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>3</min>
+		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -79,7 +85,9 @@
 		<tag name="civilian"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
-		<usage name="Farm"/>
+		<usage name="School"/>
+		<usage name="Firefighter"/>
+		<usage name="Prison"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
 	<type name="AntiPestsSpray">
-		<nominal>30</nominal>
+		<nominal>50</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>30</min>
+		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -16,15 +16,16 @@
 		<tag name="civilian"/>
 		<usage name="Village"/>
 		<usage name="Farm"/>
+		<usage name="Hunting"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
 	</type>
 	<type name="GardenLime">
-		<nominal>30</nominal>
+		<nominal>35</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>30</min>
+		<min>35</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -135,10 +136,10 @@
 		<category name="tools"/>
 	</type>
 	<type name="PotatoSeed">
-		<nominal>50</nominal>
+		<nominal>80</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>50</min>
+		<min>80</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -166,10 +167,10 @@
 		<category name="tools"/>
 	</type>
 	<type name="PumpkinSeedsPack">
-		<nominal>25</nominal>
+		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>25</min>
+		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -196,10 +197,10 @@
 		<category name="tools"/>
 	</type>
 	<type name="TomatoSeedsPack">
-		<nominal>40</nominal>
+		<nominal>45</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>40</min>
+		<min>45</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -226,10 +227,10 @@
 		<category name="tools"/>
 	</type>
 	<type name="ZucchiniSeedsPack">
-		<nominal>30</nominal>
+		<nominal>35</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>30</min>
+		<min>35</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>

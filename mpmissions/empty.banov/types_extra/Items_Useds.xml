@@ -1,85 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
-	<type name="AlarmClock_Blue">
-		<nominal>10</nominal>
-		<lifetime>7200</lifetime>
-		<restock>1460</restock>
-		<min>10</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-		<tag name="civilian"/>
-		<usage name="Town"/>
-		<usage name="Office"/>
-		<usage name="School"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-	</type>
-	<type name="AlarmClock_Green">
-		<nominal>10</nominal>
-		<lifetime>7200</lifetime>
-		<restock>1460</restock>
-		<min>10</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-		<tag name="civilian"/>
-		<usage name="Town"/>
-		<usage name="Office"/>
-		<usage name="School"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-	</type>
-	<type name="AlarmClock_Red">
-		<nominal>10</nominal>
-		<lifetime>7200</lifetime>
-		<restock>1460</restock>
-		<min>10</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-		<tag name="civilian"/>
-		<usage name="Town"/>
-		<usage name="Office"/>
-		<usage name="School"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-	</type>
-	<type name="KitchenTimer">
-		<nominal>10</nominal>
-		<lifetime>7200</lifetime>
-		<restock>1460</restock>
-		<min>10</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="shelves"/>
-		<tag name="civilian"/>
-		<usage name="Town"/>
-		<usage name="Village"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-	</type>
-
 	<type name="Bait">
 		<nominal>0</nominal>
 		<lifetime>3600</lifetime>
@@ -114,10 +34,10 @@
 		<category name="tools"/>
 	</type>
 	<type name="Hook">
-		<nominal>50</nominal>
+		<nominal>75</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>50</min>
+		<min>75</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -127,6 +47,7 @@
 		<tag name="civilian"/>
 		<usage name="Farm"/>
 		<usage name="Coast"/>
+		<usage name="Hunting"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
@@ -189,10 +110,10 @@
 	</type>
 
 	<type name="BurlapSack">
-		<nominal>20</nominal>
+		<nominal>50</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>20</min>
+		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -203,6 +124,7 @@
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
 		<usage name="Farm"/>
+		<usage name="Hunting"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
@@ -253,92 +175,11 @@
 		<category name="tools"/>
 	</type>
 
-	<type name="Pen_Black">
-		<nominal>5</nominal>
-		<lifetime>4000</lifetime>
-		<restock>1460</restock>
-		<min>5</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="shelves"/>
-		<tag name="civilian"/>
-		<usage name="Town"/>
-		<usage name="Village"/>
-		<usage name="Office"/>
-		<usage name="School"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-	</type>
-	<type name="Pen_Blue">
-		<nominal>5</nominal>
-		<lifetime>4000</lifetime>
-		<restock>1460</restock>
-		<min>5</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="shelves"/>
-		<tag name="civilian"/>
-		<usage name="Town"/>
-		<usage name="Village"/>
-		<usage name="Office"/>
-		<usage name="School"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-	</type>
-	<type name="Pen_Green">
-		<nominal>5</nominal>
-		<lifetime>4000</lifetime>
-		<restock>1460</restock>
-		<min>5</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="shelves"/>
-		<tag name="civilian"/>
-		<usage name="Town"/>
-		<usage name="Village"/>
-		<usage name="Office"/>
-		<usage name="School"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-	</type>
-	<type name="Pen_Red">
-		<nominal>5</nominal>
-		<lifetime>4000</lifetime>
-		<restock>1460</restock>
-		<min>5</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="shelves"/>
-		<tag name="civilian"/>
-		<usage name="Town"/>
-		<usage name="Village"/>
-		<usage name="Office"/>
-		<usage name="School"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-	</type>
-
 	<type name="Compass">
-		<nominal>40</nominal>
+		<nominal>50</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>40</min>
+		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -356,10 +197,10 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="OrienteeringCompass">
-		<nominal>50</nominal>
+		<nominal>100</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>50</min>
+		<min>100</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -380,54 +221,6 @@
 	<type name="HandDrillKit">
 		<nominal>0</nominal>
 		<lifetime>3600</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-		<category name="tools"/>
-	</type>
-
-	<type name="HandcuffKeys">
-		<nominal>10</nominal>
-		<lifetime>4000</lifetime>
-		<restock>1460</restock>
-		<min>5</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-        <tag name="shelves"/>
-		<tag name="civilian"/>
-		<usage name="Police"/>
-		<usage name="Prison"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-	</type>
-	<type name="Handcuffs">
-		<nominal>20</nominal>
-		<lifetime>4000</lifetime>
-		<restock>1460</restock>
-		<min>10</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-        <tag name="shelves"/>
-		<tag name="civilian"/>
-		<usage name="Police"/>
-		<usage name="Prison"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-	</type>
-	<type name="HandcuffsLocked">
-		<nominal>0</nominal>
-		<lifetime>600</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
@@ -484,10 +277,10 @@
 	</type>
 
 	<type name="Roadflare">
-		<nominal>40</nominal>
+		<nominal>65</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>40</min>
+		<min>65</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -508,10 +301,10 @@
 	</type>
 
 	<type name="Rope">
-		<nominal>50</nominal>
+		<nominal>65</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>50</min>
+		<min>65</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -523,6 +316,9 @@
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
 		<usage name="Farm"/>
+		<usage name="School"/>
+		<usage name="Firefighter"/>
+		<usage name="Police"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
@@ -604,6 +400,7 @@
 		<usage name="Industrial"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
+		<usage name="Farm"/>
 		<usage name="Medic"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -627,6 +424,7 @@
 		<usage name="Industrial"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
+		<usage name="Farm"/>
 		<usage name="Medic"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -650,6 +448,7 @@
 		<usage name="Industrial"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
+		<usage name="Farm"/>
 		<usage name="Medic"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -673,6 +472,7 @@
 		<usage name="Industrial"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
+		<usage name="Farm"/>
 		<usage name="Medic"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -696,6 +496,7 @@
 		<usage name="Industrial"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
+		<usage name="Farm"/>
 		<usage name="Medic"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -728,7 +529,8 @@
         <tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
-		<usage name="Farm"/>
+		<usage name="Military"/>
+		<usage name="Prison"/>
 		<usage name="Town"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -736,10 +538,10 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="Netting">
-		<nominal>50</nominal>
+		<nominal>75</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>50</min>
+		<min>75</min>
 		<quantmin>25</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
@@ -753,6 +555,7 @@
 		<usage name="Farm"/>
 		<usage name="Hunting"/>
 		<usage name="Village"/>
+		<usage name="School"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
@@ -779,6 +582,7 @@
 		<usage name="Hunting"/>
 		<usage name="School"/>
 		<usage name="Prison"/>
+		<usage name="Military"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>

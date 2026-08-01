@@ -22,7 +22,7 @@
 		<restock>1460</restock>
 		<min>60</min>
 		<quantmin>25</quantmin>
-		<quantmax>50</quantmax>
+		<quantmax>75</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
@@ -48,10 +48,10 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="BloodBagEmpty">
-		<nominal>30</nominal>
+		<nominal>50</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>30</min>
+		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -77,13 +77,6 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="tools"/>
-		<tag name="shelves"/>
-		<tag name="civilian"/>
-		<usage name="Medic"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
 	</type>
 	<type name="BloodBagIV">
 		<nominal>0</nominal>
@@ -129,10 +122,10 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="SalineBag">
-		<nominal>50</nominal>
+		<nominal>65</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>50</min>
+		<min>65</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -147,10 +140,10 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="StartKitIV">
-		<nominal>25</nominal>
+		<nominal>75</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>25</min>
+		<min>75</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -165,6 +158,7 @@
 		<usage name="Police"/>
 		<usage name="Town"/>
 		<usage name="Firefighter"/>
+		<usage name="School"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
@@ -314,10 +308,10 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="Heatpack">
-		<nominal>200</nominal>
+		<nominal>100</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>200</min>
+		<min>100</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -517,36 +511,11 @@
 		<value name="Tier3"/>
 		<value name="Tier4"/>
 	</type>
-	<type name="Thermometer">
+	<type name="FirstAidKit">
 		<nominal>30</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
 		<min>30</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="shelves"/>
-		<tag name="civilian"/>
-		<usage name="Medic"/>
-		<usage name="Firefighter"/>
-		<usage name="Industrial"/>
-		<usage name="Farm"/>
-		<usage name="Town"/>
-		<usage name="Village"/>
-		<usage name="Office"/>
-		<usage name="School"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
-	</type>
-	<type name="FirstAidKit">
-		<nominal>20</nominal>
-		<lifetime>7200</lifetime>
-		<restock>1460</restock>
-		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -587,10 +556,10 @@
 		<category name="clothes"/>
 	</type>
 	<type name="TerjeBandageHemostatic">
-		<nominal>40</nominal>
+		<nominal>50</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>40</min>
+		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -611,10 +580,10 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="TerjeSurgicalKit">
-		<nominal>30</nominal>
+		<nominal>50</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>30</min>
+		<min>50</min>
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
@@ -631,12 +600,13 @@
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="TerjeSurgicalTool_White">
-		<nominal>80</nominal>
+		<nominal>120</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>80</min>
+		<min>120</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -650,15 +620,19 @@
 		<usage name="Medic"/>
 		<usage name="Firefighter"/>
 		<usage name="Industrial"/>
+		<usage name="Prison"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Hunting"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
 	</type>
 	<type name="TerjeSurgicalTool_Ceramic">
-		<nominal>80</nominal>
+		<nominal>120</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>80</min>
+		<min>120</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -672,6 +646,10 @@
 		<usage name="Medic"/>
 		<usage name="Firefighter"/>
 		<usage name="Industrial"/>
+		<usage name="Prison"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Hunting"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
@@ -861,10 +839,10 @@
 		<value name="Tier5"/>
 	</type>
 	<type name="TerjeFirstAidKitMedium">
-		<nominal>8</nominal>
+		<nominal>15</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>8</min>
+		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -881,10 +859,10 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="TerjeFirstAidKitLarge">
-		<nominal>5</nominal>
+		<nominal>8</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>5</min>
+		<min>8</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -901,10 +879,10 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="TerjeSyringeNew">
-		<nominal>20</nominal>
+		<nominal>50</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>20</min>
+		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -921,10 +899,10 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="TerjeSyringeEmpty">
-		<nominal>50</nominal>
+		<nominal>85</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>50</min>
+		<min>85</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -953,10 +931,10 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="TerjeSalveFinalgon">
-		<nominal>20</nominal>
+		<nominal>60</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>20</min>
+		<min>60</min>
 		<quantmin>10</quantmin>
 		<quantmax>50</quantmax>
 		<cost>100</cost>
@@ -984,19 +962,10 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="TerjeSalveCapsicum">
-		<nominal>20</nominal>
+		<nominal>60</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>20</min>
-		<quantmin>10</quantmin>
-		<quantmax>50</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<nominal>20</nominal>
-		<lifetime>7200</lifetime>
-		<restock>1460</restock>
-		<min>20</min>
+		<min>60</min>
 		<quantmin>10</quantmin>
 		<quantmax>50</quantmax>
 		<cost>100</cost>
@@ -1024,19 +993,10 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="TerjeSalveViprosal">
-		<nominal>20</nominal>
+		<nominal>60</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>20</min>
-		<quantmin>10</quantmin>
-		<quantmax>50</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<nominal>20</nominal>
-		<lifetime>7200</lifetime>
-		<restock>1460</restock>
-		<min>20</min>
+		<min>60</min>
 		<quantmin>10</quantmin>
 		<quantmax>50</quantmax>
 		<cost>100</cost>
@@ -1064,10 +1024,10 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="TerjePlaster">
-		<nominal>40</nominal>
+		<nominal>100</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>40</min>
+		<min>100</min>
 		<quantmin>10</quantmin>
 		<quantmax>30</quantmax>
 		<cost>100</cost>
@@ -1094,10 +1054,10 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="TerjeStethoscope">
-		<nominal>10</nominal>
+		<nominal>35</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>10</min>
+		<min>35</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -1114,15 +1074,14 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="TerjePillsParacetamol">
-		<nominal>20</nominal>
+		<nominal>35</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>20</min>
+		<min>35</min>
 		<quantmin>10</quantmin>
 		<quantmax>50</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
 		<category name="tools"/>
 		<tag name="floor"/>
 		<tag name="shelves"/>
@@ -1147,10 +1106,10 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="TerjePillsPiperacylin">
-		<nominal>20</nominal>
+		<nominal>35</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>20</min>
+		<min>35</min>
 		<quantmin>10</quantmin>
 		<quantmax>50</quantmax>
 		<cost>100</cost>
@@ -1179,6 +1138,70 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="TerjePillsNoopept">
+		<nominal>35</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>35</min>
+		<quantmin>10</quantmin>
+		<quantmax>50</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="tools"/>
+		<tag name="floor"/>
+		<tag name="shelves"/>
+		<tag name="ground"/>
+		<tag name="civilian"/>
+		<usage name="Military"/>
+		<usage name="Police"/>
+		<usage name="Medic"/>
+		<usage name="Firefighter"/>
+		<usage name="Industrial"/>
+		<usage name="Farm"/>
+		<usage name="Coast"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+		<usage name="Hunting"/>
+		<usage name="Office"/>
+		<usage name="School"/>
+		<usage name="Prison"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+	<type name="TerjePillsVikasol">
+		<nominal>35</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>35</min>
+		<quantmin>10</quantmin>
+		<quantmax>50</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="tools"/>
+		<tag name="floor"/>
+		<tag name="shelves"/>
+		<tag name="ground"/>
+		<tag name="civilian"/>
+		<usage name="Military"/>
+		<usage name="Police"/>
+		<usage name="Medic"/>
+		<usage name="Firefighter"/>
+		<usage name="Industrial"/>
+		<usage name="Farm"/>
+		<usage name="Coast"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+		<usage name="Hunting"/>
+		<usage name="Office"/>
+		<usage name="School"/>
+		<usage name="Prison"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+	<type name="TerjePillsRombiopental">
 		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
@@ -1210,75 +1233,11 @@
 		<value name="Tier3"/>
 		<value name="Tier4"/>
 	</type>
-	<type name="TerjePillsVikasol">
-		<nominal>20</nominal>
-		<lifetime>7200</lifetime>
-		<restock>1460</restock>
-		<min>20</min>
-		<quantmin>10</quantmin>
-		<quantmax>50</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-		<tag name="shelves"/>
-		<tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Military"/>
-		<usage name="Police"/>
-		<usage name="Medic"/>
-		<usage name="Firefighter"/>
-		<usage name="Industrial"/>
-		<usage name="Farm"/>
-		<usage name="Coast"/>
-		<usage name="Town"/>
-		<usage name="Village"/>
-		<usage name="Hunting"/>
-		<usage name="Office"/>
-		<usage name="School"/>
-		<usage name="Prison"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
-	</type>
-	<type name="TerjePillsRombiopental">
-		<nominal>20</nominal>
-		<lifetime>7200</lifetime>
-		<restock>1460</restock>
-		<min>20</min>
-		<quantmin>10</quantmin>
-		<quantmax>50</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-		<tag name="shelves"/>
-		<tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Military"/>
-		<usage name="Police"/>
-		<usage name="Medic"/>
-		<usage name="Firefighter"/>
-		<usage name="Industrial"/>
-		<usage name="Farm"/>
-		<usage name="Coast"/>
-		<usage name="Town"/>
-		<usage name="Village"/>
-		<usage name="Hunting"/>
-		<usage name="Office"/>
-		<usage name="School"/>
-		<usage name="Prison"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
-	</type>
 	<type name="TerjePillsMagnesiumSulfate">
-		<nominal>20</nominal>
+		<nominal>30</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>20</min>
+		<min>30</min>
 		<quantmin>10</quantmin>
 		<quantmax>50</quantmax>
 		<cost>100</cost>
@@ -1307,10 +1266,10 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="TerjePillsAdepress">
-		<nominal>20</nominal>
+		<nominal>45</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>20</min>
+		<min>45</min>
 		<quantmin>10</quantmin>
 		<quantmax>50</quantmax>
 		<cost>100</cost>
@@ -1507,10 +1466,10 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="TerjeAmpouleZivirol">
-		<nominal>3</nominal>
+		<nominal>5</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>3</min>
+		<min>5</min>
 		<quantmin>20</quantmin>
 		<quantmax>40</quantmax>
 		<cost>100</cost>
@@ -1729,10 +1688,10 @@
 		<value name="Tier5"/>
 	</type>
 	<type name="TerjeInjectorAmfitalicyne">
-		<nominal>3</nominal>
+		<nominal>5</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>3</min>
+		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -1753,10 +1712,10 @@
 		<value name="Tier5"/>
 	</type>
 	<type name="TerjeInjectorReanimatal">
-		<nominal>3</nominal>
+		<nominal>5</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>3</min>
+		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -1777,10 +1736,10 @@
 		<value name="Tier5"/>
 	</type>
 	<type name="TerjeInjectorZivirol">
-		<nominal>3</nominal>
+		<nominal>5</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>3</min>
+		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -1801,10 +1760,10 @@
 		<value name="Tier5"/>
 	</type>
 	<type name="TerjeInjectorNeirox">
-		<nominal>3</nominal>
+		<nominal>5</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>3</min>
+		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -1825,34 +1784,10 @@
 		<value name="Tier5"/>
 	</type>
 	<type name="TerjeInjectorErythropoietin">
-		<nominal>3</nominal>
+		<nominal>5</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>3</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-		<tag name="shelves"/>
-		<tag name="ground"/>
-		<tag name="civilian"/>
-		<usage name="Underground"/>
-		<usage name="Medic"/>
-		<usage name="Military"/>
-		<usage name="Police"/>
-		<usage name="Industrial"/>
-		<usage name="Village"/>
-		<usage name="ContaminatedArea"/>
-		<value name="Tier4"/>
-		<value name="Tier5"/>
-	</type>
-	<type name="TerjeInjectorNovichek">
-		<nominal>3</nominal>
-		<lifetime>7200</lifetime>
-		<restock>1460</restock>
-		<min>3</min>
+		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -1873,10 +1808,10 @@
 		<value name="Tier5"/>
 	</type>
 	<type name="SR_Ai2">
-		<nominal>30</nominal>
+		<nominal>50</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>30</min>
+		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -1905,10 +1840,10 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="SR_Ai2_Army">
-		<nominal>15</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>15</min>
+		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -1925,10 +1860,10 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="SR_Ai2_Nauk">
-		<nominal>7</nominal>
+		<nominal>10</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>7</min>
+		<min>10</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>

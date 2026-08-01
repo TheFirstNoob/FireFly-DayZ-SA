@@ -298,10 +298,10 @@
 		<category name="tools"/>
 	</type>
 	<type name="FishingRod">
-		<nominal>40</nominal>
+		<nominal>55</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>40</min>
+		<min>55</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -313,6 +313,8 @@
 		<usage name="Coast"/>
 		<usage name="Farm"/>
 		<usage name="Village"/>
+		<usage name="Hunting"/>
+		<usage name="Town"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
@@ -329,10 +331,10 @@
 		<category name="tools"/>
 	</type>
 	<type name="FryingPan">
-		<nominal>60</nominal>
+		<nominal>75</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>60</min>
+		<min>75</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -393,10 +395,10 @@
         <value name="Tier4"/>
 	</type>
 	<type name="Hammer">
-		<nominal>45</nominal>
+		<nominal>50</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>45</min>
+		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -557,9 +559,8 @@
 		<category name="clothes"/>
 		<tag name="floor"/>
 		<tag name="ground"/>
-		<usage name="Military"/>
+		<usage name="Historical"/>
 		<usage name="Hunting"/>
-		<usage name="Town"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
@@ -738,10 +739,10 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Screwdriver">
-		<nominal>50</nominal>
+		<nominal>65</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>50</min>
+		<min>65</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -772,10 +773,10 @@
 		<category name="tools"/>
 	</type>
 	<type name="FieldShovel">
-		<nominal>20</nominal>
+		<nominal>35</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>20</min>
+		<min>35</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -792,10 +793,10 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Sickle">
-		<nominal>30</nominal>
+		<nominal>40</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>30</min>
+		<min>40</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -908,10 +909,10 @@
 		<category name="tools"/>
 	</type>
 	<type name="WoodAxe">
-		<nominal>30</nominal>
+		<nominal>35</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>30</min>
+		<min>35</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
