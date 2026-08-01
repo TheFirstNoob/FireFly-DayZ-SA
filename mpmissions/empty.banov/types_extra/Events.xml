@@ -157,28 +157,22 @@
 	</type>
 
 	<type name="CrookedNose">
-		<nominal>1</nominal>
+		<nominal>0</nominal>
 		<lifetime>7200</lifetime>
-		<restock>1460</restock>
-		<min>1</min>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<tag name="floor"/>
-		<tag name="ground"/>
-        <tag name="shelves"/>
-		<tag name="civilian"/>
-		<usage name="Town"/>
-		<usage name="Village"/>
 	</type>
 
 	<type name="FireworksLauncher">
-		<nominal>2</nominal>
+		<nominal>5</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>2</min>
+		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -188,17 +182,16 @@
 		<tag name="ground"/>
         <tag name="shelves"/>
 		<tag name="civilian"/>
-		<usage name="Lunapark"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
 	</type>
 
 	<type name="Megaphone">
-		<nominal>10</nominal>
+		<nominal>12</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>10</min>
+		<min>12</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -206,14 +199,11 @@
 		<category name="tools"/>
 		<tag name="floor"/>
 		<tag name="ground"/>
-        <tag name="shelves"/>
-		<tag name="civilian"/>
 		<usage name="Military"/>
 		<usage name="Police"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="Prison"/>
-		<usage name="Lunapark"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
@@ -231,10 +221,7 @@
 		<category name="clothes"/>
 		<tag name="floor"/>
 		<tag name="ground"/>
-        <tag name="shelves"/>
-		<tag name="civilian"/>
-		<usage name="Military"/>
-		<usage name="Town"/>
+		<usage name="Historical"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
@@ -251,10 +238,7 @@
 		<category name="clothes"/>
 		<tag name="floor"/>
 		<tag name="ground"/>
-        <tag name="shelves"/>
-		<tag name="civilian"/>
-		<usage name="Military"/>
-		<usage name="Town"/>
+		<usage name="Historical"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
@@ -271,8 +255,7 @@
 		<category name="clothes"/>
 		<tag name="floor"/>
 		<tag name="ground"/>
-		<usage name="Military"/>
-		<usage name="Town"/>
+		<usage name="Historical"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
@@ -289,8 +272,7 @@
 		<category name="clothes"/>
 		<tag name="floor"/>
 		<tag name="ground"/>
-		<usage name="Military"/>
-		<usage name="Town"/>
+		<usage name="Historical"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
@@ -307,8 +289,7 @@
 		<category name="clothes"/>
 		<tag name="floor"/>
 		<tag name="ground"/>
-		<usage name="Military"/>
-		<usage name="Town"/>
+		<usage name="Historical"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
@@ -325,8 +306,7 @@
 		<category name="clothes"/>
 		<tag name="floor"/>
 		<tag name="ground"/>
-		<usage name="Military"/>
-		<usage name="Town"/>
+		<usage name="Historical"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
@@ -343,8 +323,7 @@
 		<category name="clothes"/>
 		<tag name="floor"/>
 		<tag name="ground"/>
-		<usage name="Town"/>
-		<usage name="Village"/>
+		<usage name="Historical"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
@@ -361,8 +340,7 @@
 		<category name="clothes"/>
 		<tag name="floor"/>
 		<tag name="ground"/>
-		<usage name="Military"/>
-		<usage name="Town"/>
+		<usage name="Historical"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>

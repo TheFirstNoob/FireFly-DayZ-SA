@@ -11,66 +11,54 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 	</type>
 	<type name="RIP_OilPlastic">
-		<nominal>20</nominal>
+		<nominal>40</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>20</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>40</min>
+		<quantmin>20</quantmin>
+		<quantmax>100</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
 		<usage name="Police"/>
-        <usage name="Farm"/>
         <usage name="Coast"/>
-        <usage name="Town"/>
         <usage name="Village"/>
         <usage name="Hunting"/>
-        <usage name="Office"/>
+        <usage name="Military"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_WeaponCleaningSpray_2">
-		<nominal>10</nominal>
+		<nominal>18</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>10</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>18</min>
+		<quantmin>10</quantmin>
+		<quantmax>65</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
 		<tag name="shelves"/>
 		<tag name="civilian"/>
-		<usage name="Industrial"/>
 		<usage name="Police"/>
-        <usage name="Farm"/>
-        <usage name="Coast"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
-        <usage name="Office"/>
+        <usage name="Military"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_KontactSpray">
-		<nominal>12</nominal>
+		<nominal>18</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>12</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>18</min>
+		<quantmin>15</quantmin>
+		<quantmax>60</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
@@ -79,7 +67,6 @@
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
-		<usage name="Police"/>
         <usage name="Farm"/>
         <usage name="Coast"/>
         <usage name="Town"/>
@@ -91,12 +78,12 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_SharpeningKit">
-		<nominal>3</nominal>
+		<nominal>4</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>3</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>4</min>
+		<quantmin>20</quantmin>
+		<quantmax>80</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
@@ -112,17 +99,15 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_LeatherGlue">
-		<nominal>15</nominal>
+		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>15</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>20</min>
+		<quantmin>35</quantmin>
+		<quantmax>90</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
@@ -142,13 +127,11 @@
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
 		<min>25</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<quantmin>33</quantmin>
+		<quantmax>85</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
@@ -167,13 +150,11 @@
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
 		<min>25</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<quantmin>30</quantmin>
+		<quantmax>75</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
@@ -192,46 +173,37 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_GK">
-		<nominal>10</nominal>
+		<nominal>12</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>10</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>12</min>
+		<quantmin>10</quantmin>
+		<quantmax>45</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
 		<usage name="Police"/>
-        <usage name="Farm"/>
-        <usage name="Coast"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
-        <usage name="Office"/>
         <usage name="Medic"/>
         <usage name="Firefighter"/>
+        <usage name="Military"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_lighterfuel">
-		<nominal>20</nominal>
+		<nominal>40</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>20</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>40</min>
+		<quantmin>30</quantmin>
+		<quantmax>100</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
@@ -244,6 +216,7 @@
         <usage name="Office"/>
         <usage name="Medic"/>
         <usage name="Firefighter"/>
+        <usage name="Military"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
@@ -254,13 +227,11 @@
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
 		<min>25</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<quantmin>10</quantmin>
+		<quantmax>55</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
@@ -279,43 +250,26 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_SandpaperS">
-		<nominal>10</nominal>
+		<nominal>0</nominal>
 		<lifetime>7200</lifetime>
-		<restock>1460</restock>
-		<min>10</min>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
-		<tag name="shelves"/>
-		<tag name="civilian"/>
-		<usage name="Industrial"/>
-        <usage name="Coast"/>
-        <usage name="Town"/>
-        <usage name="Hunting"/>
-        <usage name="Office"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
 	</type>
 	<type name="RIP_bolts">
-		<nominal>20</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>20</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>25</min>
+		<quantmin>15</quantmin>
+		<quantmax>66</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
@@ -334,17 +288,15 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_nuts">
-		<nominal>20</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>20</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>25</min>
+		<quantmin>15</quantmin>
+		<quantmax>66</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
@@ -481,8 +433,8 @@
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
 		<min>20</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<quantmin>5</quantmin>
+		<quantmax>35</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
@@ -506,17 +458,15 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_CivMC">
-		<nominal>20</nominal>
+		<nominal>18</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>20</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>18</min>
+		<quantmin>10</quantmin>
+		<quantmax>70</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
@@ -535,17 +485,15 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_Connectors">
-		<nominal>20</nominal>
+		<nominal>15</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>20</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>15</min>
+		<quantmin>15</quantmin>
+		<quantmax>65</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
@@ -564,17 +512,15 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_CopperCoil">
-		<nominal>20</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>20</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>25</min>
+		<quantmin>15</quantmin>
+		<quantmax>55</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
@@ -593,17 +539,15 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_Corners">
-		<nominal>20</nominal>
+		<nominal>30</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>20</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>30</min>
+		<quantmin>5</quantmin>
+		<quantmax>65</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
@@ -622,12 +566,12 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_Foil">
-		<nominal>20</nominal>
+		<nominal>18</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>20</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>18</min>
+		<quantmin>12</quantmin>
+		<quantmax>45</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
@@ -651,17 +595,15 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_Fuses">
-		<nominal>20</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>20</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>25</min>
+		<quantmin>20</quantmin>
+		<quantmax>66</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
@@ -680,17 +622,15 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_Inductors">
-		<nominal>20</nominal>
+		<nominal>22</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>20</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>22</min>
+		<quantmin>20</quantmin>
+		<quantmax>80</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
@@ -709,17 +649,15 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_InductorsC">
-		<nominal>20</nominal>
+		<nominal>22</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>20</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>22</min>
+		<quantmin>20</quantmin>
+		<quantmax>80</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
@@ -738,12 +676,12 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_Rustymetal">
-		<nominal>20</nominal>
+		<nominal>16</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>20</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>16</min>
+		<quantmin>18</quantmin>
+		<quantmax>80</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
@@ -767,12 +705,12 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_milMCs">
-		<nominal>10</nominal>
+		<nominal>12</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>10</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>12</min>
+		<quantmin>30</quantmin>
+		<quantmax>66</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
@@ -789,17 +727,15 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_modCap">
-		<nominal>15</nominal>
+		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>15</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>20</min>
+		<quantmin>15</quantmin>
+		<quantmax>66</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
@@ -818,17 +754,15 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_modRes">
-		<nominal>15</nominal>
+		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>15</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>20</min>
+		<quantmin>15</quantmin>
+		<quantmax>66</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
@@ -851,13 +785,11 @@
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
 		<min>20</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<quantmin>15</quantmin>
+		<quantmax>66</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
@@ -880,13 +812,11 @@
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
 		<min>20</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<quantmin>15</quantmin>
+		<quantmax>66</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
@@ -905,17 +835,15 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_Plastik">
-		<nominal>20</nominal>
+		<nominal>22</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>20</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>22</min>
+		<quantmin>12</quantmin>
+		<quantmax>78</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
@@ -934,17 +862,15 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_Rosin">
-		<nominal>20</nominal>
+		<nominal>35</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>20</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>35</min>
+		<quantmin>20</quantmin>
+		<quantmax>75</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
@@ -963,26 +889,21 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_rubber">
-		<nominal>10</nominal>
+		<nominal>12</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>10</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>12</min>
+		<quantmin>15</quantmin>
+		<quantmax>50</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
 		<tag name="floor"/>
         <tag name="ground"/>
-		<tag name="shelves"/>
-		<tag name="civilian"/>
 		<usage name="Industrial"/>
 		<usage name="Police"/>
-        <usage name="Farm"/>
         <usage name="Coast"/>
         <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
         <usage name="Office"/>
         <usage name="Medic"/>
         <usage name="Firefighter"/>
@@ -992,12 +913,12 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_Selectors">
-		<nominal>20</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>20</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>25</min>
+		<quantmin>15</quantmin>
+		<quantmax>66</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
@@ -1021,17 +942,15 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_Semiconds">
-		<nominal>20</nominal>
+		<nominal>22</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>20</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>22</min>
+		<quantmin>18</quantmin>
+		<quantmax>65</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
@@ -1050,12 +969,12 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_SMDbox">
-		<nominal>20</nominal>
+		<nominal>18</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>20</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>18</min>
+		<quantmin>5</quantmin>
+		<quantmax>40</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
@@ -1079,17 +998,15 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_Textolit">
-		<nominal>20</nominal>
+		<nominal>22</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>20</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>22</min>
+		<quantmin>20</quantmin>
+		<quantmax>80</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
@@ -1108,12 +1025,12 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_SolderCoil">
-		<nominal>20</nominal>
+		<nominal>18</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>20</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>18</min>
+		<quantmin>10</quantmin>
+		<quantmax>70</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
@@ -1123,12 +1040,6 @@
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
 		<usage name="Police"/>
-        <usage name="Farm"/>
-        <usage name="Coast"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
-        <usage name="Office"/>
         <usage name="Medic"/>
         <usage name="Firefighter"/>
 		<value name="Tier1"/>
@@ -1137,17 +1048,15 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_thsh">
-		<nominal>20</nominal>
+		<nominal>40</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>20</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>40</min>
+		<quantmin>20</quantmin>
+		<quantmax>100</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
@@ -1166,10 +1075,10 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_TRR">
-		<nominal>12</nominal>
+		<nominal>35</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>12</min>
+		<min>35</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -1195,10 +1104,10 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_TRRdis">
-		<nominal>12</nominal>
+		<nominal>35</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>12</min>
+		<min>35</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -1224,10 +1133,10 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_TTRR">
-		<nominal>12</nominal>
+		<nominal>22</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>12</min>
+		<min>22</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -1253,10 +1162,10 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_TTRRcore">
-		<nominal>12</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>12</min>
+		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -1282,10 +1191,10 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_Wire">
-		<nominal>15</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>15</min>
+		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -1311,17 +1220,15 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_K1">
-		<nominal>10</nominal>
+		<nominal>23</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>10</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>23</min>
+		<quantmin>8</quantmin>
+		<quantmax>66</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
@@ -1334,17 +1241,15 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_Oleum">
-		<nominal>10</nominal>
+		<nominal>23</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>10</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>23</min>
+		<quantmin>8</quantmin>
+		<quantmax>66</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
@@ -1357,17 +1262,15 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_K2">
-		<nominal>10</nominal>
+		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>10</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>20</min>
+		<quantmin>8</quantmin>
+		<quantmax>66</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
@@ -1380,17 +1283,15 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_HCL">
-		<nominal>10</nominal>
+		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>10</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>20</min>
+		<quantmin>8</quantmin>
+		<quantmax>66</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
@@ -1403,40 +1304,15 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_HNO3">
-		<nominal>10</nominal>
+		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>10</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>20</min>
+		<quantmin>8</quantmin>
+		<quantmax>66</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
-		<tag name="shelves"/>
-		<tag name="civilian"/>
-		<usage name="Industrial"/>
-		<usage name="Police"/>
-        <usage name="Medic"/>
-        <usage name="Military"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-	</type>
-	<type name="RIP_HNOEx">
-		<nominal>10</nominal>
-		<lifetime>7200</lifetime>
-		<restock>1460</restock>
-		<min>10</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
@@ -1449,17 +1325,15 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_Toluene">
-		<nominal>10</nominal>
+		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>10</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>20</min>
+		<quantmin>8</quantmin>
+		<quantmax>66</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
@@ -1472,17 +1346,15 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_HCN">
-		<nominal>10</nominal>
+		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>10</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>20</min>
+		<quantmin>8</quantmin>
+		<quantmax>66</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
@@ -1495,17 +1367,15 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_H2SO4">
-		<nominal>10</nominal>
+		<nominal>18</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>10</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>18</min>
+		<quantmin>8</quantmin>
+		<quantmax>66</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
@@ -1551,36 +1421,11 @@
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
 		<min>10</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<quantmin>11</quantmin>
+		<quantmax>58</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
-		<tag name="shelves"/>
-		<tag name="civilian"/>
-		<usage name="Industrial"/>
-		<usage name="Police"/>
-        <usage name="Medic"/>
-        <usage name="Military"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-	</type>
-	<type name="RIP_UrotropineEx">
-		<nominal>10</nominal>
-		<lifetime>7200</lifetime>
-		<restock>1460</restock>
-		<min>10</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
@@ -1594,12 +1439,12 @@
 	</type>
 
 	<type name="RIP_MetalworkingKit">
-		<nominal>10</nominal>
+		<nominal>3</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>10</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>3</min>
+		<quantmin>6</quantmin>
+		<quantmax>42</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
@@ -1608,32 +1453,22 @@
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
-		<usage name="Police"/>
-        <usage name="Farm"/>
-        <usage name="Coast"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
-        <usage name="Office"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
+		<usage name="Military"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_LiPoBatt">
-		<nominal>10</nominal>
+		<nominal>30</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>10</min>
+		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
@@ -1649,17 +1484,15 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_BrushLessmotor">
-		<nominal>10</nominal>
+		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>10</min>
+		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
@@ -1678,17 +1511,15 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_ElmotorSm">
-		<nominal>10</nominal>
+		<nominal>25</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>10</min>
+		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
@@ -1701,17 +1532,15 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_ElmotorDriver">
-		<nominal>10</nominal>
+		<nominal>18</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>10</min>
+		<min>18</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
 		<tag name="shelves"/>
 		<tag name="civilian"/>
 		<usage name="Industrial"/>
@@ -1723,12 +1552,12 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_Carbon">
-		<nominal>15</nominal>
+		<nominal>22</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>15</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>22</min>
+		<quantmin>20</quantmin>
+		<quantmax>80</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
@@ -1752,43 +1581,36 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_GlassPK">
-		<nominal>10</nominal>
+		<nominal>15</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>10</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>15</min>
+		<quantmin>20</quantmin>
+		<quantmax>80</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
 		<tag name="floor"/>
         <tag name="ground"/>
-		<tag name="shelves"/>
-		<tag name="civilian"/>
 		<usage name="Industrial"/>
-		<usage name="Police"/>
-        <usage name="Military"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_Kevlar">
-		<nominal>10</nominal>
+		<nominal>12</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>10</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>12</min>
+		<quantmin>5</quantmin>
+		<quantmax>45</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
 		<tag name="floor"/>
         <tag name="ground"/>
-		<tag name="shelves"/>
-		<tag name="civilian"/>
 		<usage name="Industrial"/>
-		<usage name="Police"/>
         <usage name="Military"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
@@ -1796,10 +1618,10 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_LeadSheets">
-		<nominal>10</nominal>
+		<nominal>18</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>10</min>
+		<min>18</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -1807,16 +1629,8 @@
 		<category name="tools"/>
 		<tag name="floor"/>
         <tag name="ground"/>
-		<tag name="shelves"/>
-		<tag name="civilian"/>
 		<usage name="Industrial"/>
 		<usage name="Police"/>
-        <usage name="Farm"/>
-        <usage name="Coast"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
-        <usage name="Office"/>
         <usage name="Medic"/>
         <usage name="Firefighter"/>
 		<value name="Tier1"/>
@@ -1825,41 +1639,23 @@
         <value name="Tier4"/>
 	</type>
 	<type name="RIP_LeadSmall">
-		<nominal>15</nominal>
+		<nominal>0</nominal>
 		<lifetime>7200</lifetime>
-		<restock>1460</restock>
-		<min>15</min>
+		<restock>0</restock>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="tools"/>
-		<tag name="floor"/>
-        <tag name="ground"/>
-		<tag name="shelves"/>
-		<tag name="civilian"/>
-		<usage name="Industrial"/>
-		<usage name="Police"/>
-        <usage name="Farm"/>
-        <usage name="Coast"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
-        <usage name="Office"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
 	</type>
 	<type name="RIP_Plexiglass">
-		<nominal>10</nominal>
+		<nominal>18</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>10</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<min>18</min>
+		<quantmin>20</quantmin>
+		<quantmax>80</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
@@ -1876,23 +1672,46 @@
         <value name="Tier4"/>
 	</type>
 	<type name="SAC_GunPowder">
-		<nominal>0</nominal>
+		<nominal>50</nominal>
 		<lifetime>7200</lifetime>
-		<restock>0</restock>
-		<min>0</min>
+		<restock>1460</restock>
+		<min>50</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+		<category name="tools"/>
+		<tag name="shelves"/>
+		<tag name="civilian"/>
+		<usage name="Industrial"/>
+		<usage name="Police"/>
+        <usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="Medic"/>
+        <usage name="Firefighter"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
 	</type>
 	<type name="SAC_GunPowderBox">
-		<nominal>0</nominal>
+		<nominal>12</nominal>
 		<lifetime>7200</lifetime>
-		<restock>0</restock>
-		<min>0</min>
+		<restock>1460</restock>
+		<min>12</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+		<category name="tools"/>
+		<tag name="shelves"/>
+		<tag name="civilian"/>
+		<usage name="Industrial"/>
+        <usage name="Military"/>
+        <value name="Tier4"/>
 	</type>
 </types>

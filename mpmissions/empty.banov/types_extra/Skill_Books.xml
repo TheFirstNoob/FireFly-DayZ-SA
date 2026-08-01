@@ -285,7 +285,6 @@
 		<usage name="Hunting"/>
 		<usage name="Police"/>
 		<usage name="Military"/>
-		<usage name="Lunapark"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
@@ -305,7 +304,6 @@
 		<usage name="Hunting"/>
 		<usage name="Police"/>
 		<usage name="Military"/>
-		<usage name="Lunapark"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
@@ -648,6 +646,98 @@
 		<usage name="Industrial"/>
 		<usage name="Village"/>
 		<usage name="ContaminatedArea"/>
+		<value name="Tier5"/>
+	</type>
+	<type name="HPCrafterBook_Lv1">
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="books"/>
+		<tag name="civilian"/>
+		<tag name="shelves"/>
+		<usage name="Industrial"/>
+		<usage name="School"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+	</type>
+	<type name="HPCrafterBook_Lv2">
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="books"/>
+		<tag name="civilian"/>
+		<tag name="shelves"/>
+		<usage name="Industrial"/>
+		<usage name="School"/>
+		<usage name="Office"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="HPCrafterBook_Lv3">
+		<nominal>2</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="books"/>
+		<tag name="civilian"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+		<usage name="Industrial"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+	<type name="HPCrafterBook_Lv4">
+		<nominal>1</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="books"/>
+		<tag name="civilian"/>
+		<tag name="shelves"/>
+		<usage name="Military"/>
+		<usage name="Police"/>
+		<usage name="Industrial"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+		<value name="Tier5"/>
+	</type>
+	<type name="HPCrafterBook_Lv5">
+		<nominal>1</nominal>
+		<lifetime>7200</lifetime>
+		<restock>1460</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="books"/>
+		<tag name="civilian"/>
+		<tag name="shelves"/>
+		<usage name="Underground"/>
+		<usage name="ContaminatedArea"/>
+		<usage name="Military"/>
+		<value name="Tier4"/>
 		<value name="Tier5"/>
 	</type>
 </types>

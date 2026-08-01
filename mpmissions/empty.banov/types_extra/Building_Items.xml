@@ -154,10 +154,10 @@
 		<category name="tools"/>
 	</type>
 	<type name="Fabric">
-		<nominal>50</nominal>
+		<nominal>65</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>50</min>
+		<min>65</min>
 		<quantmin>25</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
@@ -175,10 +175,10 @@
 	</type>
 
 	<type name="Spotlight">
-		<nominal>50</nominal>
+		<nominal>30</nominal>
 		<lifetime>604800</lifetime>
 		<restock>1460</restock>
-		<min>50</min>
+		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>

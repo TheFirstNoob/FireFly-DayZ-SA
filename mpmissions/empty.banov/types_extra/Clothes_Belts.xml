@@ -89,7 +89,6 @@
 		<tag name="ground"/>
         <tag name="shelves"/>
 		<tag name="civilian"/>
-		<usage name="Lunapark"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
@@ -176,10 +175,10 @@
 
 	<!-- MSP Mod -->
 	<type name="Msp_WaistPack_Tan">
-		<nominal>1</nominal>
+		<nominal>2</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>1</min>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -198,10 +197,10 @@
 		<value name="Tier5"/>
 	</type>
 	<type name="Msp_WaistPack_Black">
-		<nominal>1</nominal>
+		<nominal>2</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>1</min>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -220,10 +219,10 @@
 		<value name="Tier5"/>
 	</type>
 	<type name="Msp_WaistPack_Green">
-		<nominal>1</nominal>
+		<nominal>2</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>1</min>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -242,10 +241,10 @@
 		<value name="Tier5"/>
 	</type>
 	<type name="Msp_WaistPack_Brown">
-		<nominal>1</nominal>
+		<nominal>2</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>1</min>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -264,10 +263,10 @@
 		<value name="Tier5"/>
 	</type>
 	<type name="Msp_WaistPack_UrbanFlektarn">
-		<nominal>1</nominal>
+		<nominal>2</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>1</min>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -286,10 +285,10 @@
 		<value name="Tier5"/>
 	</type>
 	<type name="Msp_WaistPack_Blue">
-		<nominal>1</nominal>
+		<nominal>2</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1460</restock>
-		<min>1</min>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
