@@ -434,16 +434,21 @@
 		<usage name="Industrial"/>
 	</type>
 	<type name="CivSedanWheel">
-		<nominal>40</nominal>
+		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
-		<restock>0</restock>
-		<min>30</min>
+		<restock>1460</restock>
+		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="lootdispatch"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
 		<usage name="Industrial"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 
 	<!-- ADA 4x4 -->
@@ -732,19 +737,23 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="lootdispatch"/>
-		<usage name="Industrial"/>
 	</type>
 	<type name="HatchbackWheel">
-		<nominal>40</nominal>
+		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
-		<restock>0</restock>
-		<min>30</min>
+		<restock>1460</restock>
+		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="lootdispatch"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
 		<usage name="Industrial"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 
 	<!-- GUNTER 2 -->
@@ -1181,16 +1190,21 @@
 		<usage name="Industrial"/>
 	</type>
 	<type name="Hatchback_02_Wheel">
-		<nominal>40</nominal>
+		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
-		<restock>0</restock>
-		<min>30</min>
+		<restock>1460</restock>
+		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="lootdispatch"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
 		<usage name="Industrial"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 
 	<!-- SARKA 120 -->
@@ -1627,15 +1641,20 @@
 		<usage name="Industrial"/>
 	</type>
 	<type name="Sedan_02_Wheel">
-		<nominal>40</nominal>
+		<nominal>20</nominal>
 		<lifetime>7200</lifetime>
-		<restock>0</restock>
-		<min>30</min>
+		<restock>1460</restock>
+		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="lootdispatch"/>
 		<tag name="floor"/>
+		<tag name="ground"/>
+		<usage name="Industrial"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 </types>
