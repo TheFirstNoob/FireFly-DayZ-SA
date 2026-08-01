@@ -8,8 +8,8 @@
 	"Items": [
 		{
 			"ClassName": "smallprotectorcase",
-			"MaxPriceThreshold": 140,
-			"MinPriceThreshold": 70,
+			"MaxPriceThreshold": 7500,
+			"MinPriceThreshold": 1500,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 100,
 			"MinStockThreshold": 1,
@@ -19,8 +19,8 @@
 		},
 		{
 			"ClassName": "ammobox",
-			"MaxPriceThreshold": 160,
-			"MinPriceThreshold": 80,
+			"MaxPriceThreshold": 12500,
+			"MinPriceThreshold": 2500,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 100,
 			"MinStockThreshold": 1,
@@ -30,8 +30,8 @@
 		},
 		{
 			"ClassName": "barrelholes_blue",
-			"MaxPriceThreshold": 1600,
-			"MinPriceThreshold": 800,
+			"MaxPriceThreshold": 40000,
+			"MinPriceThreshold": 8000,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 100,
 			"MinStockThreshold": 1,
@@ -45,8 +45,8 @@
 		},
 		{
 			"ClassName": "barrel_blue",
-			"MaxPriceThreshold": 3000,
-			"MinPriceThreshold": 1500,
+			"MaxPriceThreshold": 125000,
+			"MinPriceThreshold": 15000,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 100,
 			"MinStockThreshold": 1,
@@ -60,8 +60,8 @@
 		},
 		{
 			"ClassName": "seachest",
-			"MaxPriceThreshold": 4000,
-			"MinPriceThreshold": 2000,
+			"MaxPriceThreshold": 50000,
+			"MinPriceThreshold": 10000,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 100,
 			"MinStockThreshold": 1,
@@ -71,40 +71,7 @@
 		},
 		{
 			"ClassName": "woodencrate",
-			"MaxPriceThreshold": 4000,
-			"MinPriceThreshold": 2000,
-			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 100,
-			"MinStockThreshold": 1,
-			"QuantityPercent": -1,
-			"SpawnAttachments": [],
-			"Variants": []
-		},
-		{
-			"ClassName": "expansiontoolbox",
-			"MaxPriceThreshold": 1000,
-			"MinPriceThreshold": 500,
-			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 100,
-			"MinStockThreshold": 1,
-			"QuantityPercent": -1,
-			"SpawnAttachments": [],
-			"Variants": []
-		},
-		{
-			"ClassName": "expansionsafemini",
-			"MaxPriceThreshold": 8000,
-			"MinPriceThreshold": 4000,
-			"SellPricePercent": -1.0,
-			"MaxStockThreshold": 100,
-			"MinStockThreshold": 1,
-			"QuantityPercent": -1,
-			"SpawnAttachments": [],
-			"Variants": []
-		},
-		{
-			"ClassName": "expansionsafemedium",
-			"MaxPriceThreshold": 12000,
+			"MaxPriceThreshold": 30000,
 			"MinPriceThreshold": 6000,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 100,
@@ -114,9 +81,42 @@
 			"Variants": []
 		},
 		{
+			"ClassName": "expansiontoolbox",
+			"MaxPriceThreshold": 20000,
+			"MinPriceThreshold": 4000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "expansionsafemini",
+			"MaxPriceThreshold": 50000,
+			"MinPriceThreshold": 10000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "expansionsafemedium",
+			"MaxPriceThreshold": 125000,
+			"MinPriceThreshold": 25000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 100,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
 			"ClassName": "expansionsafelarge",
-			"MaxPriceThreshold": 16000,
-			"MinPriceThreshold": 8000,
+			"MaxPriceThreshold": 250000,
+			"MinPriceThreshold": 50000,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 100,
 			"MinStockThreshold": 1,
