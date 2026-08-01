@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 
 <spawnabletypes>
 	<type name="Barrel_Blue">
@@ -144,12 +144,6 @@
 	</type>
 	<type name="SmallStone">
 		<damage min="0.0" max="0.0" />
-	</type>
-	<type name="Ammo_40mm_Explosive">
-		<damage min="0.0" max="0.35" />
-	</type>
-	<type name="Ammo_40mm_POX">
-		<damage min="0.0" max="0.35" />
 	</type>
 	<type name="AssaultBag_Ttsko">
 		<cargo preset="mixArmy" />
@@ -389,82 +383,49 @@
 		</cargo>
 	</type>
 	<type name="AmmoBox">
-		<!--
 		<cargo chance="0.40"> <item name="AmmoBox_new_12gaMagnumBuckshot8" /></cargo>
 		<cargo chance="0.18"> <item name="AmmoBox_new_12gaRip" /></cargo>
-		<cargo chance="0.15"> <item name="AmmoBox_new_12gaAP20" /></cargo>
-		<cargo chance="0.40"> <item name="AmmoBox_new_12ga2Sabot" /></cargo>
-		<cargo chance="0.25"> <item name="AmmoBox_new_12gaFtxCustomLIte" /></cargo>
-		<cargo chance="0.28"> <item name="AmmoBox_new_12gaGrizzly40" /></cargo>
-		<cargo chance="0.18"> <item name="AmmoBox_new_12ga50Bmg" /></cargo>
-		<cargo chance="0.36"> <item name="AmmoBox_new_12gaLead" /></cargo>
-		<cargo chance="0.40"> <item name="AmmoBox_new_12gaFlchetteS" /></cargo>
-		<cargo chance="0.32"> <item name="AmmoBox_new_12gaSuperFormance" /></cargo>
-		<cargo chance="0.23"> <item name="AmmoBox_new_12gaCopperSabotPremier" /></cargo>
+
 		<cargo chance="0.60"> <item name="AmmoBox_new_22HighVelocity" /></cargo>
-		<cargo chance="0.55"> <item name="AmmoBox_new_22HyperVelocity" /></cargo>
-		<cargo chance="0.17"> <item name="AmmoBox_new_308WinM61" /></cargo>
-		<cargo chance="0.22"> <item name="AmmoBox_new_308WinM62" /></cargo>
-		<cargo chance="0.19"> <item name="AmmoBox_new_308WinM80" /></cargo>
-		<cargo chance="0.20"> <item name="AmmoBox_new_308WinM993" /></cargo>
-		<cargo chance="0.40"> <item name="AmmoBox_new_308WinUltraNosler" /></cargo>
-		<cargo chance="0.35"> <item name="AmmoBox_new_308WinFMJ" /></cargo>
-		<cargo chance="0.50"> <item name="AmmoBox_new_357QuikShokJhp" /></cargo>
-		<cargo chance="0.36"> <item name="AmmoBox_new_357HollowPoint" /></cargo>
-		<cargo chance="0.39"> <item name="AmmoBox_new_357GoldDotJhp" /></cargo>
-		<cargo chance="0.42"> <item name="AmmoBox_new_357Semiwadcutter" /></cargo>
+		<cargo chance="0.45"> <item name="AmmoBox_new_22HyperVelocity" /></cargo>
+
+		<cargo chance="0.12"> <item name="AmmoBox_new_308WinM61" /></cargo>
+		<cargo chance="0.25"> <item name="AmmoBox_new_308WinM80" /></cargo>
+		<cargo chance="0.12"> <item name="AmmoBox_new_308WinM993" /></cargo>
+
+		<cargo chance="0.25"> <item name="AmmoBox_new_357QuikShokJhp" /></cargo>
+		<cargo chance="0.25"> <item name="AmmoBox_new_357HollowPoint" /></cargo>
 		<cargo chance="0.45"> <item name="AmmoBox_new_357SilvertipJhp" /></cargo>
+
 		<cargo chance="0.45"> <item name="AmmoBox_new_380BondedJhp" /></cargo>
-		<cargo chance="0.50"> <item name="AmmoBox_new_380Jhp" /></cargo>
 		<cargo chance="0.60"> <item name="AmmoBox_new_380HydraShokJhp" /></cargo>
-		<cargo chance="0.55"> <item name="AmmoBox_new_380Fmj" /></cargo>
-		<cargo chance="0.38"> <item name="AmmoBox_new_45AcpAP" /></cargo>
+
+		<cargo chance="0.28"> <item name="AmmoBox_new_45AcpAP" /></cargo>
 		<cargo chance="0.60"> <item name="AmmoBox_new_45AcpFmj" /></cargo>
-		<cargo chance="0.60"> <item name="AmmoBox_new_45AcpHydrShock" /></cargo>
-		<cargo chance="0.55"> <item name="AmmoBox_new_45AcpLasermatchFmj" /></cargo>
-		<cargo chance="0.40"> <item name="AmmoBox_new_45AcpRip" /></cargo>
+		<cargo chance="0.28"> <item name="AmmoBox_new_45AcpHydrShock" /></cargo>
+
 		<cargo chance="0.20"> <item name="AmmoBox_new_545x397H39" /></cargo>
-		<cargo chance="0.23"> <item name="AmmoBox_new_545x39Hp" /></cargo>
-		<cargo chance="0.34"> <item name="AmmoBox_new_545x39Bp" /></cargo>
-		<cargo chance="0.27"> <item name="AmmoBox_new_545x39Bs" /></cargo>
-		<cargo chance="0.30"> <item name="AmmoBox_new_545x39Bt" /></cargo>
-		<cargo chance="0.39"> <item name="AmmoBox_new_545x39Pp" /></cargo>
-		<cargo chance="0.42"> <item name="AmmoBox_new_545x39Ps" /></cargo>
-		<cargo chance="0.42"> <item name="AmmoBox_new_545x39Us" /></cargo>
-		<cargo chance="0.35"> <item name="AmmoBox_new_556x45M855" /></cargo>
-		<cargo chance="0.30"> <item name="AmmoBox_new_556x45M855A1" /></cargo>
-		<cargo chance="0.40"> <item name="AmmoBox_new_556x45M856" /></cargo>
-		<cargo chance="0.25"> <item name="AmmoBox_new_556x45M995" /></cargo>
-		<cargo chance="0.45"> <item name="AmmoBox_new_556x4555Fmj" /></cargo>
-		<cargo chance="0.37"> <item name="AmmoBox_new_762x39Hp" /></cargo>
-		<cargo chance="0.22"> <item name="AmmoBox_new_762x39Bp" /></cargo>
+		<cargo chance="0.35"> <item name="AmmoBox_new_545x39Hp" /></cargo>
+		<cargo chance="0.20"> <item name="AmmoBox_new_545x39Bp" /></cargo>
+
+		<cargo chance="0.20"> <item name="AmmoBox_new_556x45M855" /></cargo>
+		<cargo chance="0.20"> <item name="AmmoBox_new_556x45M995" /></cargo>
+		<cargo chance="0.35"> <item name="AmmoBox_new_556x4555Fmj" /></cargo>
+
+		<cargo chance="0.15"> <item name="AmmoBox_new_762x39Hp" /></cargo>
+		<cargo chance="0.15"> <item name="AmmoBox_new_762x39Bp" /></cargo>
 		<cargo chance="0.30"> <item name="AmmoBox_new_762x39Ps" /></cargo>
-		<cargo chance="0.33"> <item name="AmmoBox_new_762x39T45M" /></cargo>
-		<cargo chance="0.40"> <item name="AmmoBox_new_762x39Us" /></cargo>
-		<cargo chance="0.18"> <item name="AmmoBox_new_762x547Bt1" /></cargo>
-		<cargo chance="0.15"> <item name="AmmoBox_new_762x547H37" /></cargo>
-		<cargo chance="0.20"> <item name="AmmoBox_new_762x54Snb" /></cargo>
-		<cargo chance="0.28"> <item name="AmmoBox_new_762x547H1" /></cargo>
-		<cargo chance="0.35"> <item name="AmmoBox_new_762x54T46M" /></cargo>
+
+		<cargo chance="0.13"> <item name="AmmoBox_new_762x547H37" /></cargo>
+		<cargo chance="0.13"> <item name="AmmoBox_new_762x54Snb" /></cargo>
+		<cargo chance="0.25"> <item name="AmmoBox_new_762x547H1" /></cargo>
+
 		<cargo chance="0.50"> <item name="AmmoBox_new_9x19Pst" /></cargo>
-		<cargo chance="0.48"> <item name="AmmoBox_new_9x19LugerCci" /></cargo>
-		<cargo chance="0.30"> <item name="AmmoBox_new_9x19Rip" /></cargo>
+		<cargo chance="0.35"> <item name="AmmoBox_new_9x19Rip" /></cargo>
 		<cargo chance="0.35"> <item name="AmmoBox_new_9x19Ap" /></cargo>
-		<cargo chance="0.25"> <item name="AmmoBox_new_9x197H31" /></cargo>
+
 		<cargo chance="0.25"> <item name="AmmoBox_new_9x39Sp5" /></cargo>
-		<cargo chance="0.20"> <item name="AmmoBox_new_9x39Sp6" /></cargo>
-		<cargo chance="0.15"> <item name="AmmoBox_new_9x397H9" /></cargo>
-		<cargo chance="0.10"> <item name="AmmoBox_new_9x397H12" /></cargo>
-		<cargo chance="0.06"> <item name="AmmoBox_338_30Rnd" /></cargo>
-		<cargo chance="0.05"> <item name="AmmoBox_408CheyTac" /></cargo>
-		<cargo chance="0.10"> <item name="AmmoBox_300AAC" /></cargo>
-		<cargo chance="0.10"> <item name="AmmoBox_300AAC_AP" /></cargo>
-		<cargo chance="0.03"> <item name="AmmoBox_50BMG" /></cargo>
-		<cargo chance="0.01"> <item name="AmmoBox_50BMG_AP" /></cargo>
-		<cargo chance="0.03"> <item name="AmmoBox_12_7_55" /></cargo>
-		<cargo chance="0.10"> <item name="AmmoBox_50Beowolf" /></cargo>
-		<cargo chance="0.06"> <item name="AmmoBox_65Creedmore" /></cargo>
-		-->
+		<cargo chance="0.10"> <item name="AmmoBox_new_9x39Sp6" /></cargo>
 	</type>
 	<type name="FishingRod">
 		<attachments chance="0.35">
@@ -590,15 +551,5 @@
 	<type name="WaterBottle">
 	</type>
 	<type name="Canteen">
-	</type>
-	<type name="PersonalRadio">
-		<attachments chance="0.30">
-			<item name="Battery9V" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="GPSReceiver">
-		<attachments chance="0.30">
-			<item name="Battery9V" chance="1.00" />
-		</attachments>
 	</type>
 </spawnabletypes>
