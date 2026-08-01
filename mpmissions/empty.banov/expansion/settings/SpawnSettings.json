@@ -625,12 +625,7 @@
 			"AthleticShoes_Black"
 		],
 		"Armbands": [],
-		"Backpacks": [
-			"TaloonBag_Blue",
-			"TaloonBag_Green",
-			"TaloonBag_Orange",
-			"TaloonBag_Violet"
-		]
+		"Backpacks": []
 	},
 	"EnableSpawnSelection": 0,
 	"SpawnOnTerritory": 0,
@@ -648,16 +643,6 @@
 				"ClassName": "Apple",
 				"Quantity": -1,
 				"Attachments": []
-			},
-			{
-				"ClassName": "Heatpack",
-				"Quantity": -1,
-				"Attachments": []
-			},
-			{
-				"ClassName": "Heatpack",
-				"Quantity": -1,
-				"Attachments": []
 			}
 		],
 		"PantsGear": [],
@@ -667,21 +652,11 @@
 		"SecondaryWeapon": {}
 	},
 	"UseLoadouts": 0,
-	"MaleLoadouts": [
-		{
-			"Loadout": "PlayerSurvivorLoadout",
-			"Chance": 1.0
-		}
-	],
-	"FemaleLoadouts": [
-		{
-			"Loadout": "PlayerSurvivorLoadout",
-			"Chance": 1.0
-		}
-	],
+	"MaleLoadouts": [],
+	"FemaleLoadouts": [],
 	"SpawnHealthValue": 100.0,
-	"SpawnEnergyValue": 2000.0,
-	"SpawnWaterValue": 2000.0,
+	"SpawnEnergyValue": 2500.0,
+	"SpawnWaterValue": 2500.0,
 	"EnableRespawnCooldowns": 1,
 	"RespawnCooldown": 10800,
 	"TerritoryRespawnCooldown": 240,
