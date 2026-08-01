@@ -19,8 +19,8 @@
 					},
 					"Health": [
 						{
-							"Min": 1.0,
-							"Max": 1.0,
+							"Min": 0.2,
+							"Max": 0.25,
 							"Zone": ""
 						}
 					],
@@ -43,8 +43,8 @@
 					},
 					"Health": [
 						{
-							"Min": 1.0,
-							"Max": 1.0,
+							"Min": 0.2,
+							"Max": 0.25,
 							"Zone": ""
 						}
 					],
@@ -67,8 +67,8 @@
 					},
 					"Health": [
 						{
-							"Min": 1.0,
-							"Max": 1.0,
+							"Min": 0.2,
+							"Max": 0.25,
 							"Zone": ""
 						}
 					],
@@ -91,8 +91,8 @@
 					},
 					"Health": [
 						{
-							"Min": 1.0,
-							"Max": 1.0,
+							"Min": 0.2,
+							"Max": 0.25,
 							"Zone": ""
 						}
 					],
@@ -115,8 +115,8 @@
 					},
 					"Health": [
 						{
-							"Min": 1.0,
-							"Max": 1.0,
+							"Min": 0.2,
+							"Max": 0.25,
 							"Zone": ""
 						}
 					],
@@ -139,8 +139,8 @@
 					},
 					"Health": [
 						{
-							"Min": 1.0,
-							"Max": 1.0,
+							"Min": 0.2,
+							"Max": 0.25,
 							"Zone": ""
 						}
 					],
@@ -163,8 +163,8 @@
 					},
 					"Health": [
 						{
-							"Min": 1.0,
-							"Max": 1.0,
+							"Min": 0.2,
+							"Max": 0.25,
 							"Zone": ""
 						}
 					],
@@ -187,8 +187,8 @@
 					},
 					"Health": [
 						{
-							"Min": 1.0,
-							"Max": 1.0,
+							"Min": 0.2,
+							"Max": 0.25,
 							"Zone": ""
 						}
 					],
@@ -211,8 +211,8 @@
 					},
 					"Health": [
 						{
-							"Min": 1.0,
-							"Max": 1.0,
+							"Min": 0.2,
+							"Max": 0.25,
 							"Zone": ""
 						}
 					],
@@ -230,8 +230,8 @@
 					},
 					"Health": [
 						{
-							"Min": 1.0,
-							"Max": 1.0,
+							"Min": 0.2,
+							"Max": 0.25,
 							"Zone": ""
 						}
 					],
@@ -254,8 +254,8 @@
 					},
 					"Health": [
 						{
-							"Min": 1.0,
-							"Max": 1.0,
+							"Min": 0.2,
+							"Max": 0.25,
 							"Zone": ""
 						}
 					],
@@ -303,7 +303,13 @@
                                 "Min": 0.0,
                                 "Max": 0.0
                             },
-                            "Health": [],
+                            "Health": [
+                                {
+                                "Min": 0.4,
+                                "Max": 0.6,
+                                "Zone": ""
+                                }
+                            ],
                             "InventoryAttachments": [
                                 {
                                     "Items": [
@@ -311,8 +317,8 @@
                                             "ClassName": "PNC_M60_Mag",
                                             "Chance": 1.0,
                                             "Quantity": {
-                                                "Min": 0.0,
-                                                "Max": 0.0
+                                                "Min": 1.0,
+                                                "Max": 1.0
                                             },
                                             "Health": [],
                                             "InventoryAttachments": [],
@@ -406,7 +412,13 @@
                                 "Min": 0.0,
                                 "Max": 0.0
                             },
-                            "Health": [],
+                            "Health": [
+                                {
+                                "Min": 0.4,
+                                "Max": 0.6,
+                                "Zone": ""
+                                }
+                            ],
                             "InventoryAttachments": [
                                 {
                                     "Items": [
@@ -414,8 +426,8 @@
                                             "ClassName": "TF_Mag_M249_200Rnd",
                                             "Chance": 1.0,
                                             "Quantity": {
-                                                "Min": 0.0,
-                                                "Max": 0.0
+                                                "Min": 1.0,
+                                                "Max": 1.0
                                             },
                                             "Health": [],
                                             "InventoryAttachments": [],
@@ -509,7 +521,13 @@
                                 "Min": 0.0,
                                 "Max": 0.0
                             },
-                            "Health": [],
+                            "Health": [
+                                {
+                                "Min": 0.4,
+                                "Max": 0.6,
+                                "Zone": ""
+                                }
+                            ],
                             "InventoryAttachments": [
                                 {
                                     "Items": [
@@ -517,8 +535,8 @@
                                             "ClassName": "TF_Mag_PKM_100Rnd",
                                             "Chance": 1.0,
                                             "Quantity": {
-                                                "Min": 0.0,
-                                                "Max": 0.0
+                                                "Min": 1.0,
+                                                "Max": 1.0
                                             },
                                             "Health": [],
                                             "InventoryAttachments": [],
