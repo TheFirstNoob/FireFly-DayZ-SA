@@ -2786,13 +2786,13 @@
             "SniperProneDistanceThreshold": 0.0,
             "AccuracyMin": 0.5,
             "AccuracyMax": 0.800000011920929,
-            "ThreatDistanceLimit": 25.0,
-            "NoiseInvestigationDistanceLimit": 50.0,
+            "ThreatDistanceLimit": 500.0,
+            "NoiseInvestigationDistanceLimit": 450.0,
             "MaxFlankingDistance": -1.0,
             "EnableFlankingOutsideCombat": -1,
             "DamageMultiplier": 1.0,
-            "DamageReceivedMultiplier": 0.5,
-            "HeadshotResistance": 0.0,
+            "DamageReceivedMultiplier": 0.75,
+            "HeadshotResistance": 0.1,
             "ShoryukenChance": -1.0,
             "ShoryukenDamageMultiplier": -1.0,
             "CanSpawnInContaminatedArea": 0,
@@ -2800,9 +2800,9 @@
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": 350.0,
-            "MinSpreadRadius": 1.0,
-            "MaxSpreadRadius": 5.0,
-            "Chance": 0.5,
+            "MinSpreadRadius": 5.0,
+            "MaxSpreadRadius": 20.0,
+            "Chance": 1.0,
             "DespawnTime": 1800.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
@@ -2838,13 +2838,13 @@
             "SniperProneDistanceThreshold": 0.0,
             "AccuracyMin": 0.5,
             "AccuracyMax": 0.800000011920929,
-            "ThreatDistanceLimit": 400.0,
-            "NoiseInvestigationDistanceLimit": 400.0,
+            "ThreatDistanceLimit": 500.0,
+            "NoiseInvestigationDistanceLimit": 450.0,
             "MaxFlankingDistance": -1.0,
             "EnableFlankingOutsideCombat": -1,
             "DamageMultiplier": 1.0,
-            "DamageReceivedMultiplier": 0.5,
-            "HeadshotResistance": 0.0,
+            "DamageReceivedMultiplier": 0.75,
+            "HeadshotResistance": 0.1,
             "ShoryukenChance": -1.0,
             "ShoryukenDamageMultiplier": -1.0,
             "CanSpawnInContaminatedArea": 0,
@@ -2852,9 +2852,9 @@
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": 500.0,
-            "MinSpreadRadius": 1.0,
-            "MaxSpreadRadius": 5.0,
-            "Chance": 0.05000000074505806,
+            "MinSpreadRadius": 5.0,
+            "MaxSpreadRadius": 20.0,
+            "Chance": 1.0,
             "DespawnTime": 1800.0,
             "RespawnTime": -1.0,
             "LoadBalancingCategory": "",
@@ -3138,276 +3138,6 @@
             ]
         },
         {
-            "Name": "Охранник Wolf 1",
-            "Persist": 0,
-            "Faction": "Shamans",
-            "Formation": "Wall",
-            "FormationScale": -1.0,
-            "FormationLooseness": 2.0,
-            "Loadout": "AI_Wolf_Guard_Loadout",
-            "Units": [],
-            "NumberOfAI": 1,
-            "NumberOfAIMax": 0,
-            "Behaviour": "HALT",
-            "LootingBehaviour": "DEFAULT",
-            "Speed": "STATIC",
-            "UnderThreatSpeed": "RANDOM_NONSTATIC",
-            "DefaultStance": "STANDING",
-            "DefaultLookAngle": 0.0,
-            "CanBeLooted": 1,
-            "LootDropOnDeath": "",
-            "UnlimitedReload": 0,
-            "SniperProneDistanceThreshold": 0.0,
-            "AccuracyMin": 0.5,
-            "AccuracyMax": 0.800000011920929,
-            "ThreatDistanceLimit": 600.0,
-            "NoiseInvestigationDistanceLimit": 450.0,
-            "MaxFlankingDistance": -1.0,
-            "EnableFlankingOutsideCombat": -1,
-            "DamageMultiplier": 1.0,
-            "DamageReceivedMultiplier": 0.75,
-            "HeadshotResistance": 0.0,
-            "ShoryukenChance": -1.0,
-            "ShoryukenDamageMultiplier": -1.0,
-            "CanSpawnInContaminatedArea": 0,
-            "CanBeTriggeredByAI": 0,
-            "MinDistRadius": -2.0,
-            "MaxDistRadius": -2.0,
-            "DespawnRadius": 500.0,
-            "MinSpreadRadius": 1.0,
-            "MaxSpreadRadius": 5.0,
-            "Chance": 0.5,
-            "DespawnTime": 1800.0,
-            "RespawnTime": -1.0,
-            "LoadBalancingCategory": "",
-            "ObjectClassName": "",
-            "WaypointInterpolation": "",
-            "UseRandomWaypointAsStartPoint": 0,
-            "Waypoints": [
-                [
-                    0,
-                    0,
-                    0
-                ]
-            ]
-        },
-        {
-            "Name": "Охранник Wolf 2",
-            "Persist": 0,
-            "Faction": "Shamans",
-            "Formation": "Wall",
-            "FormationScale": -1.0,
-            "FormationLooseness": 2.0,
-            "Loadout": "AI_Wolf_Guard_Loadout",
-            "Units": [],
-            "NumberOfAI": 1,
-            "NumberOfAIMax": 0,
-            "Behaviour": "HALT",
-            "LootingBehaviour": "DEFAULT",
-            "Speed": "STATIC",
-            "UnderThreatSpeed": "RANDOM_NONSTATIC",
-            "DefaultStance": "STANDING",
-            "DefaultLookAngle": 0.0,
-            "CanBeLooted": 1,
-            "LootDropOnDeath": "",
-            "UnlimitedReload": 0,
-            "SniperProneDistanceThreshold": 0.0,
-            "AccuracyMin": 0.5,
-            "AccuracyMax": 0.800000011920929,
-            "ThreatDistanceLimit": 600.0,
-            "NoiseInvestigationDistanceLimit": 450.0,
-            "MaxFlankingDistance": -1.0,
-            "EnableFlankingOutsideCombat": -1,
-            "DamageMultiplier": 1.0,
-            "DamageReceivedMultiplier": 0.75,
-            "HeadshotResistance": 0.0,
-            "ShoryukenChance": -1.0,
-            "ShoryukenDamageMultiplier": -1.0,
-            "CanSpawnInContaminatedArea": 0,
-            "CanBeTriggeredByAI": 0,
-            "MinDistRadius": -2.0,
-            "MaxDistRadius": -2.0,
-            "DespawnRadius": 500.0,
-            "MinSpreadRadius": 1.0,
-            "MaxSpreadRadius": 5.0,
-            "Chance": 0.5,
-            "DespawnTime": 1800.0,
-            "RespawnTime": -1.0,
-            "LoadBalancingCategory": "",
-            "ObjectClassName": "",
-            "WaypointInterpolation": "",
-            "UseRandomWaypointAsStartPoint": 0,
-            "Waypoints": [
-                [
-                    0,
-                    0,
-                    0
-                ]
-            ]
-        },
-        {
-            "Name": "Охранник Wolf 3",
-            "Persist": 0,
-            "Faction": "Shamans",
-            "Formation": "Wall",
-            "FormationScale": -1.0,
-            "FormationLooseness": 2.0,
-            "Loadout": "AI_Wolf_Guard_Loadout",
-            "Units": [],
-            "NumberOfAI": 1,
-            "NumberOfAIMax": 0,
-            "Behaviour": "HALT",
-            "LootingBehaviour": "DEFAULT",
-            "Speed": "STATIC",
-            "UnderThreatSpeed": "RANDOM_NONSTATIC",
-            "DefaultStance": "STANDING",
-            "DefaultLookAngle": 0.0,
-            "CanBeLooted": 1,
-            "LootDropOnDeath": "",
-            "UnlimitedReload": 0,
-            "SniperProneDistanceThreshold": 0.0,
-            "AccuracyMin": 0.5,
-            "AccuracyMax": 0.800000011920929,
-            "ThreatDistanceLimit": 600.0,
-            "NoiseInvestigationDistanceLimit": 450.0,
-            "MaxFlankingDistance": -1.0,
-            "EnableFlankingOutsideCombat": -1,
-            "DamageMultiplier": 1.0,
-            "DamageReceivedMultiplier": 0.75,
-            "HeadshotResistance": 0.0,
-            "ShoryukenChance": -1.0,
-            "ShoryukenDamageMultiplier": -1.0,
-            "CanSpawnInContaminatedArea": 0,
-            "CanBeTriggeredByAI": 0,
-            "MinDistRadius": -2.0,
-            "MaxDistRadius": -2.0,
-            "DespawnRadius": 500.0,
-            "MinSpreadRadius": 1.0,
-            "MaxSpreadRadius": 5.0,
-            "Chance": 0.5,
-            "DespawnTime": 1800.0,
-            "RespawnTime": -1.0,
-            "LoadBalancingCategory": "",
-            "ObjectClassName": "",
-            "WaypointInterpolation": "",
-            "UseRandomWaypointAsStartPoint": 0,
-            "Waypoints": [
-                [
-                    0,
-                    0,
-                    0
-                ]
-            ]
-        },
-        {
-            "Name": "Охранник Wolf 4",
-            "Persist": 0,
-            "Faction": "Shamans",
-            "Formation": "Wall",
-            "FormationScale": -1.0,
-            "FormationLooseness": 2.0,
-            "Loadout": "AI_Wolf_Guard_Loadout",
-            "Units": [],
-            "NumberOfAI": 1,
-            "NumberOfAIMax": 0,
-            "Behaviour": "HALT",
-            "LootingBehaviour": "DEFAULT",
-            "Speed": "STATIC",
-            "UnderThreatSpeed": "RANDOM_NONSTATIC",
-            "DefaultStance": "STANDING",
-            "DefaultLookAngle": 0.0,
-            "CanBeLooted": 1,
-            "LootDropOnDeath": "",
-            "UnlimitedReload": 0,
-            "SniperProneDistanceThreshold": 0.0,
-            "AccuracyMin": 0.5,
-            "AccuracyMax": 0.800000011920929,
-            "ThreatDistanceLimit": 600.0,
-            "NoiseInvestigationDistanceLimit": 450.0,
-            "MaxFlankingDistance": -1.0,
-            "EnableFlankingOutsideCombat": -1,
-            "DamageMultiplier": 1.0,
-            "DamageReceivedMultiplier": 0.75,
-            "HeadshotResistance": 0.0,
-            "ShoryukenChance": -1.0,
-            "ShoryukenDamageMultiplier": -1.0,
-            "CanSpawnInContaminatedArea": 0,
-            "CanBeTriggeredByAI": 0,
-            "MinDistRadius": -2.0,
-            "MaxDistRadius": -2.0,
-            "DespawnRadius": 500.0,
-            "MinSpreadRadius": 1.0,
-            "MaxSpreadRadius": 5.0,
-            "Chance": 0.5,
-            "DespawnTime": 1800.0,
-            "RespawnTime": -1.0,
-            "LoadBalancingCategory": "",
-            "ObjectClassName": "",
-            "WaypointInterpolation": "",
-            "UseRandomWaypointAsStartPoint": 0,
-            "Waypoints": [
-                [
-                    0,
-                    0,
-                    0
-                ]
-            ]
-        },
-        {
-            "Name": "Охранник Wolf 5",
-            "Persist": 0,
-            "Faction": "Shamans",
-            "Formation": "Wall",
-            "FormationScale": -1.0,
-            "FormationLooseness": 2.0,
-            "Loadout": "AI_Wolf_Guard_Loadout",
-            "Units": [],
-            "NumberOfAI": 1,
-            "NumberOfAIMax": 0,
-            "Behaviour": "HALT",
-            "LootingBehaviour": "DEFAULT",
-            "Speed": "STATIC",
-            "UnderThreatSpeed": "RANDOM_NONSTATIC",
-            "DefaultStance": "STANDING",
-            "DefaultLookAngle": 0.0,
-            "CanBeLooted": 1,
-            "LootDropOnDeath": "",
-            "UnlimitedReload": 0,
-            "SniperProneDistanceThreshold": 0.0,
-            "AccuracyMin": 0.5,
-            "AccuracyMax": 0.800000011920929,
-            "ThreatDistanceLimit": 600.0,
-            "NoiseInvestigationDistanceLimit": 450.0,
-            "MaxFlankingDistance": -1.0,
-            "EnableFlankingOutsideCombat": -1,
-            "DamageMultiplier": 1.0,
-            "DamageReceivedMultiplier": 0.75,
-            "HeadshotResistance": 0.0,
-            "ShoryukenChance": -1.0,
-            "ShoryukenDamageMultiplier": -1.0,
-            "CanSpawnInContaminatedArea": 0,
-            "CanBeTriggeredByAI": 0,
-            "MinDistRadius": -2.0,
-            "MaxDistRadius": -2.0,
-            "DespawnRadius": 500.0,
-            "MinSpreadRadius": 1.0,
-            "MaxSpreadRadius": 5.0,
-            "Chance": 0.5,
-            "DespawnTime": 1800.0,
-            "RespawnTime": -1.0,
-            "LoadBalancingCategory": "",
-            "ObjectClassName": "",
-            "WaypointInterpolation": "",
-            "UseRandomWaypointAsStartPoint": 0,
-            "Waypoints": [
-                [
-                    0,
-                    0,
-                    0
-                ]
-            ]
-        },
-        {
             "Name": "Военный - Пост 1",
             "Persist": 0,
             "Faction": "East",
@@ -3417,7 +3147,7 @@
             "Loadout": "AI_Military_Loadout",
             "Units": [],
             "NumberOfAI": 3,
-            "NumberOfAIMax": 0,
+            "NumberOfAIMax": 6,
             "Behaviour": "HALT",
             "LootingBehaviour": "DEFAULT",
             "Speed": "STATIC",
@@ -3452,22 +3182,16 @@
             "LoadBalancingCategory": "",
             "ObjectClassName": "",
             "WaypointInterpolation": "",
-            "UseRandomWaypointAsStartPoint": 0,
+            "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    0,
-                    0,
-                    0
+                    11715.5, 616.625, 14742.2
                 ],
                 [
-                    0,
-                    0,
-                    0
+                    11924.6, 616.625, 14575.5
                 ],
                 [
-                    0,
-                    0,
-                    0
+                    12201, 616.625, 14538.7
                 ]
             ]
         },
@@ -3480,8 +3204,8 @@
             "FormationLooseness": 2.0,
             "Loadout": "AI_Military_Loadout",
             "Units": [],
-            "NumberOfAI": 3,
-            "NumberOfAIMax": 0,
+            "NumberOfAI": 4,
+            "NumberOfAIMax": 7,
             "Behaviour": "HALT",
             "LootingBehaviour": "DEFAULT",
             "Speed": "STATIC",
@@ -3516,22 +3240,61 @@
             "LoadBalancingCategory": "",
             "ObjectClassName": "",
             "WaypointInterpolation": "",
-            "UseRandomWaypointAsStartPoint": 0,
+            "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    0,
-                    0,
-                    0
+                    1669.59, 266.931, 11314.5
                 ],
                 [
-                    0,
-                    0,
-                    0
+                    1851.62, 268.458, 11290.6
                 ],
                 [
-                    0,
-                    0,
-                    0
+                    2045.46, 266.491, 11184.4
+                ],
+                [
+                    2252.08, 263.534, 11181.6
+                ],
+                [
+                    2511.84, 288.004, 11189.1
+                ],
+                [
+                    2635.56, 302.235, 11185
+                ],
+                [
+                    2765.19, 310.854, 11379.3
+                ],
+                [
+                    2731.47, 306.276, 11510.9
+                ],
+                [
+                    2584.72, 288.595, 11723.1
+                ],
+                [
+                    2485.13, 268.055, 11870.1
+                ],
+                [
+                    2379.71, 271.937, 12227.2
+                ],
+                [
+                    1988.07, 268.755, 12339.3
+                ],
+                [
+                    1781.73, 267.71, 12316.8
+                ],
+                [
+                    1723.32, 268.755, 12231.3
+                ],
+                [
+                    1714.54, 268.73, 12012.7
+                ],
+                [
+                    1668.14, 268.73, 11715
+                ],
+                [
+                    1619.44, 267.499, 11371.9
+                ],
+                [
+                    1666.58, 266.854, 11312.8
                 ]
             ]
         }
