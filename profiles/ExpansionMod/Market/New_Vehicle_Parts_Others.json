@@ -1,4 +1,4 @@
-{
+﻿{
 	"m_Version": 12,
 	"DisplayName": "Прочее",
 	"Icon": "Car Keys",
@@ -8,8 +8,8 @@
 	"Items": [
 		{
 			"ClassName": "CanisterGasoline",
-			"MaxPriceThreshold": 6500,
-			"MinPriceThreshold": 6500,
+			"MaxPriceThreshold": 8125,
+			"MinPriceThreshold": 8125,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 1,
 			"MinStockThreshold": 1,
@@ -19,8 +19,8 @@
 		},
 		{
 			"ClassName": "EngineOil",
-			"MaxPriceThreshold": 5000,
-			"MinPriceThreshold": 1000,
+			"MaxPriceThreshold": 6250,
+			"MinPriceThreshold": 1250,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 75,
 			"MinStockThreshold": 0,
@@ -30,8 +30,8 @@
 		},
 		{
 			"ClassName": "rag_car_jack",
-			"MaxPriceThreshold": 5000,
-			"MinPriceThreshold": 5000,
+			"MaxPriceThreshold": 6250,
+			"MinPriceThreshold": 6250,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 1,
 			"MinStockThreshold": 1,
@@ -41,8 +41,8 @@
 		},
 		{
 			"ClassName": "rag_farmjack",
-			"MaxPriceThreshold": 5000,
-			"MinPriceThreshold": 5000,
+			"MaxPriceThreshold": 6250,
+			"MinPriceThreshold": 6250,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 1,
 			"MinStockThreshold": 1,
@@ -52,8 +52,8 @@
 		},
 		{
 			"ClassName": "rag_oil_dipstick",
-			"MaxPriceThreshold": 100,
-			"MinPriceThreshold": 100,
+			"MaxPriceThreshold": 125,
+			"MinPriceThreshold": 125,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 1,
 			"MinStockThreshold": 1,
@@ -63,8 +63,8 @@
 		},
 		{
 			"ClassName": "ExpansionCarKey",
-			"MaxPriceThreshold": 2500,
-			"MinPriceThreshold": 2500,
+			"MaxPriceThreshold": 3125,
+			"MinPriceThreshold": 3125,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 1,
 			"MinStockThreshold": 1,
@@ -74,8 +74,8 @@
 		},
 		{
 			"ClassName": "lugwrench",
-			"MaxPriceThreshold": 5000,
-			"MinPriceThreshold": 1000,
+			"MaxPriceThreshold": 6250,
+			"MinPriceThreshold": 1250,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 150,
 			"MinStockThreshold": 0,
@@ -85,8 +85,8 @@
 		},
 		{
 			"ClassName": "blowtorch",
-			"MaxPriceThreshold": 5000,
-			"MinPriceThreshold": 1000,
+			"MaxPriceThreshold": 6250,
+			"MinPriceThreshold": 1250,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 25,
 			"MinStockThreshold": 0,

@@ -1,4 +1,4 @@
-{
+﻿{
 	"m_Version": 12,
 	"DisplayName": "Детали для техники - Внутреннее",
 	"Icon": "Screwdriver",
@@ -8,8 +8,8 @@
 	"Items": [
 		{
 			"ClassName": "carbattery",
-			"MaxPriceThreshold": 15000,
-			"MinPriceThreshold": 3000,
+			"MaxPriceThreshold": 18750,
+			"MinPriceThreshold": 3750,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 150,
 			"MinStockThreshold": 0,
@@ -19,8 +19,8 @@
 		},
 		{
 			"ClassName": "truckbattery",
-			"MaxPriceThreshold": 25000,
-			"MinPriceThreshold": 5000,
+			"MaxPriceThreshold": 31250,
+			"MinPriceThreshold": 6250,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 100,
 			"MinStockThreshold": 0,
@@ -30,8 +30,8 @@
 		},
 		{
 			"ClassName": "headlighth7",
-			"MaxPriceThreshold": 2500,
-			"MinPriceThreshold": 500,
+			"MaxPriceThreshold": 3125,
+			"MinPriceThreshold": 625,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 300,
 			"MinStockThreshold": 0,
@@ -41,8 +41,8 @@
 		},
 		{
 			"ClassName": "carradiator",
-			"MaxPriceThreshold": 7500,
-			"MinPriceThreshold": 1500,
+			"MaxPriceThreshold": 9375,
+			"MinPriceThreshold": 1875,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 150,
 			"MinStockThreshold": 0,
@@ -52,8 +52,8 @@
 		},
 		{
 			"ClassName": "sparkplug",
-			"MaxPriceThreshold": 3000,
-			"MinPriceThreshold": 600,
+			"MaxPriceThreshold": 3750,
+			"MinPriceThreshold": 750,
 			"SellPricePercent": -1.0,
 			"MaxStockThreshold": 250,
 			"MinStockThreshold": 0,
