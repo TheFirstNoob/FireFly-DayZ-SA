@@ -320,7 +320,10 @@
                 "Parameters": {
                     "ThrowConditionAmountOfProjectiles": 2.0,
                     "ThrowConditionThrowChancePercent": 20.0,
-                    "ThrowConditionCooldownSeconds": 45.0
+                    "ThrowConditionCooldownSeconds": 45.0,
+                "TargetHealthDamage": 4.0,
+                "TargetShockDamage": 10.0,
+                "TargetBleedingChancePercent": 4.0
                 }
             },
             "MedicsProjectile": {
@@ -352,7 +355,10 @@
                 "Parameters": {
                     "ThrowConditionAmountOfProjectiles": 2.0,
                     "ThrowConditionThrowChancePercent": 20.0,
-                    "ThrowConditionCooldownSeconds": 45.0
+                    "ThrowConditionCooldownSeconds": 45.0,
+                "TargetHealthDamage": 4.0,
+                "TargetShockDamage": 10.0,
+                "TargetBleedingChancePercent": 4.0
                 }
             },
             "FirefightersProjectile": {
@@ -366,7 +372,10 @@
                 "Parameters": {
                     "ThrowConditionAmountOfProjectiles": 2.0,
                     "ThrowConditionThrowChancePercent": 20.0,
-                    "ThrowConditionCooldownSeconds": 45.0
+                    "ThrowConditionCooldownSeconds": 45.0,
+                "TargetHealthDamage": 5.0,
+                "TargetShockDamage": 12.0,
+                "TargetBleedingChancePercent": 5.0
                 }
             },
             "MilitaryProjectile": {
@@ -398,7 +407,10 @@
                 "Parameters": {
                     "ThrowConditionAmountOfProjectiles": 2.0,
                     "ThrowConditionThrowChancePercent": 20.0,
-                    "ThrowConditionCooldownSeconds": 45.0
+                    "ThrowConditionCooldownSeconds": 45.0,
+                "TargetHealthDamage": 4.0,
+                "TargetShockDamage": 10.0,
+                "TargetBleedingChancePercent": 4.0
                 }
             },
             "CityProjectile": {
@@ -415,7 +427,10 @@
                 "Parameters": {
                     "ThrowConditionAmountOfProjectiles": 2.0,
                     "ThrowConditionThrowChancePercent": 20.0,
-                    "ThrowConditionCooldownSeconds": 45.0
+                    "ThrowConditionCooldownSeconds": 45.0,
+                "TargetHealthDamage": 4.0,
+                "TargetShockDamage": 10.0,
+                "TargetBleedingChancePercent": 4.0
                 }
             },
             "FlashGrenade": {
@@ -460,7 +475,10 @@
                 "Parameters": {
                     "ThrowConditionAmountOfProjectiles": 2.0,
                     "ThrowConditionThrowChancePercent": 20.0,
-                    "ThrowConditionCooldownSeconds": 45.0
+                    "ThrowConditionCooldownSeconds": 45.0,
+                "TargetHealthDamage": 5.0,
+                "TargetShockDamage": 12.0,
+                "TargetBleedingChancePercent": 5.0
                 }
             },
             "GarbageIfPlayerOnObstacle": {
@@ -512,7 +530,10 @@
                 "Parameters": {
                     "ThrowConditionAmountOfProjectiles": 2.0,
                     "ThrowConditionThrowChancePercent": 20.0,
-                    "ThrowConditionCooldownSeconds": 45.0
+                    "ThrowConditionCooldownSeconds": 45.0,
+                "TargetHealthDamage": 5.0,
+                "TargetShockDamage": 12.0,
+                "TargetBleedingChancePercent": 5.0
                 }
             },
             "GarbageIfPlayerNonObstacle": {
@@ -554,7 +575,10 @@
                 "Parameters": {
                     "ThrowConditionAmountOfProjectiles": 2.0,
                     "ThrowConditionThrowChancePercent": 20.0,
-                    "ThrowConditionCooldownSeconds": 45.0
+                    "ThrowConditionCooldownSeconds": 45.0,
+                "TargetHealthDamage": 4.0,
+                "TargetShockDamage": 10.0,
+                "TargetBleedingChancePercent": 4.0
                 }
             },
             "FishermenProjectile": {
@@ -569,7 +593,10 @@
                 "Parameters": {
                     "ThrowConditionAmountOfProjectiles": 2.0,
                     "ThrowConditionThrowChancePercent": 20.0,
-                    "ThrowConditionCooldownSeconds": 45.0
+                    "ThrowConditionCooldownSeconds": 45.0,
+                "TargetHealthDamage": 4.0,
+                "TargetShockDamage": 10.0,
+                "TargetBleedingChancePercent": 4.0
                 }
             },
             "AstroGasGrenade": {
@@ -3247,7 +3274,7 @@
             "all": 1
         },
         "ThrowingProjectilesHandlerDamageMultiplier": {
-            "all": 0.9
+            "all": 0.45
         },
         "ThrowingProjectilesHandlerVehiclesDamageMultiplier": {
             "all": 1.2
