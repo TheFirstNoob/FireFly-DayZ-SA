@@ -52,6 +52,7 @@
 		<value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
+		<usage name="Historical"/>
 	</type>
 	<type name="Msp_PipeAxe">
 		<nominal>2</nominal>
@@ -240,7 +241,7 @@
 		<category name="tools"/>
 	</type>
 	<type name="Msp_GrenadeBox">
-		<nominal>3</nominal>
+		<nominal>0</nominal>
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>1</min>
