@@ -209,8 +209,8 @@
                 {
                     "Text": "Понял, несу Доктору.",
                     "NextNodeID": -1,
-                    "RequiredQuestID": 105,
-                    "RequiredState": "COMPLETED",
+                    "RequiredQuestID": 106,
+                    "RequiredQuestState": "NONE",
                     "ActionType": "ACCEPT_QUEST"
                 },
                 {
@@ -261,15 +261,15 @@
                 {
                     "Text": "Понял, несу.",
                     "NextNodeID": -1,
-                    "RequiredQuestID": 105,
-                    "RequiredState": "COMPLETED",
+                    "RequiredQuestID": 106,
+                    "RequiredQuestState": "NONE",
                     "ActionType": "ACCEPT_QUEST"
                 },
                 {
                     "Text": "Уговорил.",
                     "NextNodeID": -1,
-                    "RequiredQuestID": 105,
-                    "RequiredState": "COMPLETED",
+                    "RequiredQuestID": 106,
+                    "RequiredQuestState": "NONE",
                     "ActionType": "ACCEPT_QUEST"
                 }
             ]
