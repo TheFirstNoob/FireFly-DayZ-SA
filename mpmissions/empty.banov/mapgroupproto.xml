@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <prototype>
 	<defaults>
 		<default name="group" lootmax="6"/>
@@ -1567,39 +1567,39 @@
 			<point pos="-2.384521 1.730652 2.166809" range="0.375000" height="0.937500" flags="16"/>
 		</container>
 		<dispatch dechance="1.000000">
-			<proxy type="AmmoBox_new_9x39Sp6" pos="-6.007690 0.462393 0.721314" rpy="-90.000000 75.000000 0.000000" dechance="0.125"
-					<proxy type="AmmoBox_new_308WinM61" pos="-5.702758 0.462393 1.043152" rpy="-90.000000 120.000000 0.000000" dechance="0.125"
-					<proxy type="AmmoBox_new_308WinM80" pos="-5.691162 0.472393 0.777710" rpy="-90.000000 140.000000 0.000000" dechance="0.125"
-					<proxy type="AmmoBox_new_308WinM993" pos="-5.360474 0.462393 1.084412" rpy="-90.000000 160.000000 0.000000" dechance="0.125"
-					<proxy type="AmmoBox_new_545x397H39" pos="-4.808838 0.462393 0.866942" rpy="-90.000000 200.000000 0.000000" dechance="0.125"
-					<proxy type="AmmoBox_new_545x39Hp" pos="-5.215454 0.472393 0.595460" rpy="-90.000000 240.000000 0.000000" dechance="0.125"
-					<proxy type="AmmoBox_new_545x39Bp" pos="-5.484498 0.462393 0.483703" rpy="-90.000000 260.000000 0.000000" dechance="0.125"
-					<proxy type="AmmoBox_new_556x45M855" pos="-6.085205 0.479429 0.476014" rpy="-90.000000 280.000000 0.000000" dechance="0.125"
+			<proxy type="AmmoBox_new_9x39Sp6" pos="-6.007690 0.462393 0.721314" rpy="-90.000000 75.000000 0.000000" dechance="0.125"/>
+					<proxy type="AmmoBox_new_308WinM61" pos="-5.702758 0.462393 1.043152" rpy="-90.000000 120.000000 0.000000" dechance="0.125"/>
+					<proxy type="AmmoBox_new_308WinM80" pos="-5.691162 0.472393 0.777710" rpy="-90.000000 140.000000 0.000000" dechance="0.125"/>
+					<proxy type="AmmoBox_new_308WinM993" pos="-5.360474 0.462393 1.084412" rpy="-90.000000 160.000000 0.000000" dechance="0.125"/>
+					<proxy type="AmmoBox_new_545x397H39" pos="-4.808838 0.462393 0.866942" rpy="-90.000000 200.000000 0.000000" dechance="0.125"/>
+					<proxy type="AmmoBox_new_545x39Hp" pos="-5.215454 0.472393 0.595460" rpy="-90.000000 240.000000 0.000000" dechance="0.125"/>
+					<proxy type="AmmoBox_new_545x39Bp" pos="-5.484498 0.462393 0.483703" rpy="-90.000000 260.000000 0.000000" dechance="0.125"/>
+					<proxy type="AmmoBox_new_556x45M855" pos="-6.085205 0.479429 0.476014" rpy="-90.000000 280.000000 0.000000" dechance="0.125"/>
 			</dispatch>
 			<dispatch dechance="1.000000">
-					<proxy type="AmmoBox_300AAC" pos="2.495239 0.867300 1.328369" rpy="90.000000 35.000000 0.000000" dechance="0.166"
-					<proxy type="AmmoBox_300AAC_AP" pos="2.972656 1.194336 1.125428" rpy="90.000000 70.000000 0.000000" dechance="0.166"
-					<proxy type="AmmoBox_408CheyTac" pos="3.318970 1.194336 1.115418" rpy="90.000000 105.000000 0.000000" dechance="0.166"
-					<proxy type="AmmoBox_50BMG" pos="3.888550 1.214336 1.360290" rpy="-90.000000 175.000000 0.000000" dechance="0.166"
-					<proxy type="AmmoBox_50BMG_AP" pos="2.504150 1.194336 0.624817" rpy="90.000000 315.000000 0.000000" dechance="0.166"
-					<proxy type="AmmoBox_65Creedmore" pos="2.453003 1.25336 0.897278" rpy="-90.000000 350.000000 0.000000" dechance="0.166"
+					<proxy type="AmmoBox_300AAC" pos="2.495239 0.867300 1.328369" rpy="90.000000 35.000000 0.000000" dechance="0.166"/>
+					<proxy type="AmmoBox_300AAC_AP" pos="2.972656 1.194336 1.125428" rpy="90.000000 70.000000 0.000000" dechance="0.166"/>
+					<proxy type="AmmoBox_408CheyTac" pos="3.318970 1.194336 1.115418" rpy="90.000000 105.000000 0.000000" dechance="0.166"/>
+					<proxy type="AmmoBox_50BMG" pos="3.888550 1.214336 1.360290" rpy="-90.000000 175.000000 0.000000" dechance="0.166"/>
+					<proxy type="AmmoBox_50BMG_AP" pos="2.504150 1.194336 0.624817" rpy="90.000000 315.000000 0.000000" dechance="0.166"/>
+					<proxy type="AmmoBox_65Creedmore" pos="2.453003 1.25336 0.897278" rpy="-90.000000 350.000000 0.000000" dechance="0.166"/>
 			</dispatch>
 			<dispatch dechance="1.000000">
-					<proxy type="AmmoBox_new_556x45M995" pos="1.041016 1.220266 -1.645569" rpy="-90.000000 40.000000 0.000000" dechance="0.066"
-					<proxy type="AmmoBox_new_556x4555Fmj" pos="1.067627 1.210266 -1.915344" rpy="-90.000000 80.000000 0.000000" dechance="0.066"
-					<proxy type="AmmoBox_new_762x39Hp" pos="0.825684 1.210266 -1.984741" rpy="-90.000000 100.000000 0.000000" dechance="0.066"
-					<proxy type="AmmoBox_new_762x39Bp" pos="0.639038 1.220266 -1.525635" rpy="-90.000000 120.000000 0.000000" dechance="0.066"
-					<proxy type="AmmoBox_new_762x39Ps" pos="0.457642 1.210266 -1.697876" rpy="-90.000000 140.000000 0.000000" dechance="0.066"
-					<proxy type="AmmoBox_new_762x547H37" pos="-0.028321 1.220266 -1.69494" rpy="-90.000000 240.000000 0.000000" dechance="0.066"
-					<proxy type="AmmoBox_new_762x54Snb" pos="0.420655 1.220266 -2.055237" rpy="-90.000000 260.000000 0.000000" dechance="0.066"
-					<proxy type="AmmoBox_new_762x547H1" pos="0.547973 1.210266 -1.955444" rpy="-90.000000 280.000000 0.000000" dechance="0.066"
-					<proxy type="AmmoBox_new_9x39Sp5" pos="0.842163 1.220266 -1.526062" rpy="-90.000000 20.000000 0.000000" dechance="0.066"
-					<proxy type="AmmoBox_new_9x39Sp6" pos="0.802002 1.210266 -1.736084" rpy="-90.000000 40.000000 0.000000" dechance="0.066"
-					<proxy type="AmmoBox_338_30Rnd" pos="-0.207519 1.220266 -1.86840" rpy="-90.000000 60.000000 0.000000" dechance="0.066"
-					<proxy type="AmmoBox_12_7_55" pos="-0.377198 1.220266 -1.62683" rpy="-90.000000 80.000000 0.000000" dechance="0.066"
-					<proxy type="AmmoBox_50Beowolf" pos="-0.362549 1.220266 -1.49017" rpy="-90.000000 100.000000 0.000000" dechance="0.066"
-					<proxy type="AmmoBox_new_556x45M995" pos="-0.202758 1.210266 -1.44458" rpy="-90.000000 120.000000 0.000000" dechance="0.066"
-					<proxy type="AmmoBox_new_556x4555Fmj" pos="-0.042846 1.220266 -1.40679" rpy="-90.000000 140.000000 0.000000" dechance="0.066"
+					<proxy type="AmmoBox_new_556x45M995" pos="1.041016 1.220266 -1.645569" rpy="-90.000000 40.000000 0.000000" dechance="0.066"/>
+					<proxy type="AmmoBox_new_556x4555Fmj" pos="1.067627 1.210266 -1.915344" rpy="-90.000000 80.000000 0.000000" dechance="0.066"/>
+					<proxy type="AmmoBox_new_762x39Hp" pos="0.825684 1.210266 -1.984741" rpy="-90.000000 100.000000 0.000000" dechance="0.066"/>
+					<proxy type="AmmoBox_new_762x39Bp" pos="0.639038 1.220266 -1.525635" rpy="-90.000000 120.000000 0.000000" dechance="0.066"/>
+					<proxy type="AmmoBox_new_762x39Ps" pos="0.457642 1.210266 -1.697876" rpy="-90.000000 140.000000 0.000000" dechance="0.066"/>
+					<proxy type="AmmoBox_new_762x547H37" pos="-0.028321 1.220266 -1.69494" rpy="-90.000000 240.000000 0.000000" dechance="0.066"/>
+					<proxy type="AmmoBox_new_762x54Snb" pos="0.420655 1.220266 -2.055237" rpy="-90.000000 260.000000 0.000000" dechance="0.066"/>
+					<proxy type="AmmoBox_new_762x547H1" pos="0.547973 1.210266 -1.955444" rpy="-90.000000 280.000000 0.000000" dechance="0.066"/>
+					<proxy type="AmmoBox_new_9x39Sp5" pos="0.842163 1.220266 -1.526062" rpy="-90.000000 20.000000 0.000000" dechance="0.066"/>
+					<proxy type="AmmoBox_new_9x39Sp6" pos="0.802002 1.210266 -1.736084" rpy="-90.000000 40.000000 0.000000" dechance="0.066"/>
+					<proxy type="AmmoBox_338_30Rnd" pos="-0.207519 1.220266 -1.86840" rpy="-90.000000 60.000000 0.000000" dechance="0.066"/>
+					<proxy type="AmmoBox_12_7_55" pos="-0.377198 1.220266 -1.62683" rpy="-90.000000 80.000000 0.000000" dechance="0.066"/>
+					<proxy type="AmmoBox_50Beowolf" pos="-0.362549 1.220266 -1.49017" rpy="-90.000000 100.000000 0.000000" dechance="0.066"/>
+					<proxy type="AmmoBox_new_556x45M995" pos="-0.202758 1.210266 -1.44458" rpy="-90.000000 120.000000 0.000000" dechance="0.066"/>
+					<proxy type="AmmoBox_new_556x4555Fmj" pos="-0.042846 1.220266 -1.40679" rpy="-90.000000 140.000000 0.000000" dechance="0.066"/>
 		</dispatch>
 	</group>
 	<group name="Land_Underground_Storage_Hospital" lootmax="16">
