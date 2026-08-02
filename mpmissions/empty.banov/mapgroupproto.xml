@@ -992,7 +992,7 @@
 			<point pos="-7.081082 -2.734787 -4.558140" range="0.237500" height="0.593750"/>
 		</container>
 	</group>
-	<group name="Land_ceap_block1" lootmax="2">
+	<group name="Land_ceap_block1" lootmax="123">
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="Industrial"/>
@@ -2273,7 +2273,7 @@
 			<point pos="-0.628582 -4.982351 -0.475132" range="0.375977" height="0.939943"/>
 		</container>
 	</group>
-	<group name="Land_HouseBlock_1F_Corner" lootmax="40">
+	<group name="Land_HouseBlock_1F_Corner" lootmax="35">
 		<usage name="Town"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
@@ -3177,7 +3177,7 @@
 		</container>
 	</group>
 	<!-- Not used on Banov -->
-	<group name="Land_Hotel_Damaged" lootmax="10">
+	<group name="Land_Hotel_Damaged" lootmax="15">
 		<usage name="Town"/>
 		<container name="lootFloor" lootmax="5">
 			<category name="tools"/>
@@ -4939,7 +4939,7 @@
 			<point pos="-3.349609 -1.957016 5.010498" range="1.088282" height="1.999996"/>
 		</container>
 	</group>
-	<group name="Land_House_1W09_Yellow" lootmax="19">
+	<group name="Land_House_1W09_Yellow" lootmax="20">
 		<usage name="Village"/>
 		<usage name="Town"/>
 		<value name="Tier1"/>
@@ -5161,7 +5161,7 @@
 			<point pos="-8.604980 -1.662315 -4.589356" range="0.100000" height="0.250000"/>
 		</container>
 	</group>
-	<group name="Land_House_1W12_Brown" lootmax="11">
+	<group name="Land_House_1W12_Brown" lootmax="25">
 		<usage name="Village"/>
 		<usage name="Town"/>
 		<value name="Tier1"/>
