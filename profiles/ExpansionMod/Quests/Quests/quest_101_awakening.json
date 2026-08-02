@@ -5,10 +5,10 @@
 	"Title": "[СЮЖЕТ] Пробуждение",
 	"Descriptions": [
 		"<p align=\"center\"><image set=\"expansion_iconset\" name=\"Shield\" scale=\"1.92\" /><color hex=\"0xFFCC6600\"> Ты открываешь глаза. Голова раскалывается. Вокруг — незнакомый лагерь. Рядом стоит охранник и хмуро смотрит на тебя. В руке у тебя зажата мокрая от пота бумажка.</color></p>",
-		"<p align=\"center\"><color hex=\"0xFFCC6600\"> Охранник кивает: <br /><br /><b>\"Ну, бывает. Вон, видишь синий шкаф? Брось туда бумажку — я проверю. И вали к Петровичу, он ждёт. Хотя откуда тебе знать, кто это... Ладно, разберёшься.\"</b></color></p>",
-		"<p align=\"center\"><color hex=\"0xFFCC6600\"> Охранник принимает бумажку: <br /><br /><b>\"Всё верно, мои отметки на месте. Вали к Петровичу — он в главном здании. Скажешь, что от нас.\"</b></color></p>"
+		"<p align=\"center\"><color hex=\"0xFFCC6600\"> Охранник кивает: <br /><br /><b>\"Ну, бывает. Разберёшься, куда идти: тут недалеко торговая зона. Там тебе подскажут, что к чему. Вали к Петровичу, он ждёт. Хотя откуда тебе знать, кто это... Ладно, разберёшься.\"</b></color></p>",
+		"<p align=\"center\"><color hex=\"0xFFCC6600\"> Ты приходишь в торговую зону: шум, торговцы, охрана. Похоже, это место — сердце лагеря. Здесь тебя ждут.</color></p>"
 	],
-	"ObjectiveText": "Поговорите с любым охранником",
+	"ObjectiveText": "Доберитесь до известной безопасной зоны",
 	"FollowUpQuest": 102,
 	"Repeatable": 0,
 	"IsDailyQuest": 0,
@@ -17,12 +17,7 @@
 	"Autocomplete": 0,
 	"IsGroupQuest": 0,
 	"ObjectSetFileName": "",
-	"QuestItems": [
-		{
-			"ClassName": "ExpansionQuestItemPaper",
-			"Amount": 1
-		}
-	],
+	"QuestItems": [],
 	"Rewards": [],
 	"NeedToSelectReward": 0,
 	"RandomReward": 0,
@@ -30,21 +25,13 @@
 	"RewardsForGroupOwnerOnly": 1,
 	"RewardBehavior": 0,
 	"QuestGiverIDs": [],
-	"QuestTurnInIDs": [
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26
-	],
+	"QuestTurnInIDs": [],
 	"IsAchievement": 0,
 	"Objectives": [
 		{
 			"ConfigVersion": 28,
 			"ID": 10101,
-			"ObjectiveType": 5
+			"ObjectiveType": 3
 		}
 	],
 	"QuestColor": 0,
@@ -53,7 +40,7 @@
 	"PreQuestIDs": [],
 	"RequiredFaction": "",
 	"FactionReward": "",
-	"PlayerNeedQuestItems": 1,
+	"PlayerNeedQuestItems": 0,
 	"DeleteQuestItems": 1,
 	"SequentialObjectives": 1,
 	"CompletionMode": 0,
