@@ -1,0 +1,17 @@
+﻿{
+    "Nodes": [
+        {
+            "ID": 1,
+            "Type": "STANDARD",
+            "SpeakerText": "Молодец. Я всё видел, ты красавчик. Петровичу про тебя уже сказали. Иди к нему, он ждёт. Дальше сам.",
+            "Responses": [
+                {
+                    "Text": "Понял.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        }
+    ]
+}

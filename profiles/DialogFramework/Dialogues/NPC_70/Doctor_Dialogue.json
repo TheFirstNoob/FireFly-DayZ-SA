@@ -1,4 +1,4 @@
-{
+﻿{
     "ID": 110,
     "RootNodeID": 1,
     "Nodes": [
@@ -7,13 +7,6 @@
             "Type": "STANDARD",
             "SpeakerText": "Заходи, не стесняйся. Жалобы есть? Или просто так заглянул?",
             "Responses": [
-                {
-                    "Text": "Я от Петровича. Велел познакомиться.",
-                    "NextNodeID": 5,
-                    "RequiredQuestID": 104,
-                    "RequiredQuestState": "STARTED",
-                    "ActionType": "NONE"
-                },
                 {
                     "Text": "Как дела в лазарете?",
                     "NextNodeID": 2,
@@ -28,11 +21,12 @@
                 },
                 {
                     "Text": "Призрак просил тебе кое-что показать.",
-                    "NextNodeID": 6,
+                    "NextNodeID": -1,
                     "RequiredQuestID": 106,
                     "RequiredQuestState": "STARTED",
                     "RequiredItemClassName": "CP_CannabisSeedsPurpleKush",
-                    "ActionType": "NONE"
+                    "ActionType": "NONE",
+                    "File": "quest_106.json"
                 },
                 {
                     "Text": "Есть работа?",
@@ -45,19 +39,14 @@
                     "NextNodeID": -1,
                     "RequiredQuestID": -1,
                     "ActionType": "END_CONVERSATION"
-                }
-            ]
-        },
-        {
-            "ID": 5,
-            "Type": "STANDARD",
-            "SpeakerText": "Климентина прислала? Дай глянуть... Ага, её отметка стоит. Ну, со здоровьем у тебя вроде порядок. Держи — моя бумажка для Бубылды. Он у нас по технике и электрике, без его визы дальше не пустят. Иди, пока я добрый.",
-            "Responses": [
+                },
                 {
-                    "Text": "Спасибо, док. Передам.",
+                    "Text": "Я от Петровича. Велел познакомиться.",
                     "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "END_CONVERSATION"
+                    "RequiredQuestID": 104,
+                    "RequiredQuestState": "STARTED",
+                    "ActionType": "NONE",
+                    "File": "quest_104.json"
                 }
             ]
         },
@@ -105,23 +94,6 @@
                     "ActionType": "END_CONVERSATION"
                 }
             ]
-        },
-        {
-            "ID": 6,
-            "Type": "STANDARD",
-            "SpeakerText": "Хм, семена? Необычные. Дай-ка глянуть... Интересно. Очень интересно. Я такие раньше не видел. Состав непривычный — в обычной аптеке не найдёшь. Знаешь что? Иди-ка ты к Климентине. Она по таким непонятным штукам спец. У неё и оборудование есть, и голова варит. Скажи, я посмотрел и ничего конкретного не сказал — пусть она глянет.",
- "Responses": [
-  {
-   "Text": "Понял, схожу к Климентине.",
-   "NextNodeID": -1,
-   "RequiredQuestID": -1,
-   "RequiredItemClassName": "CP_CannabisSeedsPurpleKush",
-   "RequiredItemCount": 1,
-   "RemoveItemClassName": "CP_CannabisSeedsPurpleKush",
-   "RemoveItemCount": 1,
-   "ActionType": "END_CONVERSATION"
-  }
- ]
         }
     ]
 }

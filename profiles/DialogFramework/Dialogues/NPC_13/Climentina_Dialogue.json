@@ -1,4 +1,4 @@
-{
+﻿{
     "ID": 113,
     "RootNodeID": 1,
     "Nodes": [
@@ -7,13 +7,6 @@
             "Type": "STANDARD",
             "SpeakerText": "Вы кто? А, новенький. Я Климентина, главный исследователь здесь. Не часто ко мне приходят без дела. Что нужно?",
             "Responses": [
-                {
-                    "Text": "Меня Петрович прислал познакомиться.",
-                    "NextNodeID": 5,
-                    "RequiredQuestID": 104,
-                    "RequiredQuestState": "STARTED",
-                    "ActionType": "NONE"
-                },
                 {
                     "Text": "Меня Петрович прислал. Сказал — вы главная по науке.",
                     "NextNodeID": 2,
@@ -28,11 +21,12 @@
                 },
                 {
                     "Text": "Доктор сказал тебе это показать.",
-                    "NextNodeID": 6,
+                    "NextNodeID": -1,
                     "RequiredQuestID": 106,
                     "RequiredQuestState": "STARTED",
                     "RequiredItemClassName": "CP_CannabisSeedsPurpleKush",
-                    "ActionType": "NONE"
+                    "ActionType": "NONE",
+                    "File": "quest_106.json"
                 },
                 {
                     "Text": "Есть работа для меня?",
@@ -45,19 +39,14 @@
                     "NextNodeID": -1,
                     "RequiredQuestID": -1,
                     "ActionType": "END_CONVERSATION"
-                }
-            ]
-        },
-        {
-            "ID": 5,
-            "Type": "STANDARD",
-            "SpeakerText": "Петрович прислал? Ну давай сюда бумажку... А, всё верно. Я тут ставлю отметку, что ты прошёл проверку. Теперь дуй к Доктору — отдашь ему мою рекомендацию. Он проверит здоровье и отправит дальше. Без этой бумажки он бы тебя и слушать не стал.",
-            "Responses": [
+                },
                 {
-                    "Text": "Спасибо. Пойду дальше знакомиться.",
+                    "Text": "Меня Петрович прислал познакомиться.",
                     "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "END_CONVERSATION"
+                    "RequiredQuestID": 104,
+                    "RequiredQuestState": "STARTED",
+                    "ActionType": "NONE",
+                    "File": "quest_104.json"
                 }
             ]
         },
@@ -129,23 +118,6 @@
                     "ActionType": "END_CONVERSATION"
                 }
             ]
-        },
-        {
-            "ID": 6,
-            "Type": "STANDARD",
-            "SpeakerText": "Доктор прислал? Ну-ка покажи... Хм. Интересная структура. Я такие штуки в довоенных журналах видела. Экспериментальная фитотерапия. Доктор прав — в обычной медицине такого нет. А тебе вообще зачем это знать? Хотя... Нестандартная медицина на нелегальных препаратах. Мы и сами не знаем, что это за хрень. Терять нам нечего. Забирай, неси обратно Гоусту. Пусть знает, что мы глянули, но ничего определённого сказать не можем.",
- "Responses": [
-  {
-   "Text": "Понял, отнесу Гоусту.",
-   "NextNodeID": -1,
-   "RequiredQuestID": -1,
-   "RequiredItemClassName": "CP_CannabisSeedsPurpleKush",
-   "RequiredItemCount": 1,
-   "RemoveItemClassName": "CP_CannabisSeedsPurpleKush",
-   "RemoveItemCount": 1,
-   "ActionType": "END_CONVERSATION"
-  }
- ]
         }
     ]
 }

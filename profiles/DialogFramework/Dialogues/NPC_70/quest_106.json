@@ -1,0 +1,21 @@
+﻿{
+    "Nodes": [
+        {
+            "ID": 1,
+            "Type": "STANDARD",
+            "SpeakerText": "Хм, семена? Необычные. Дай-ка глянуть... Интересно. Очень интересно. Я такие раньше не видел. Состав непривычный — в обычной аптеке не найдёшь. Знаешь что? Иди-ка ты к Климентине. Она по таким непонятным штукам спец. У неё и оборудование есть, и голова варит. Скажи, я посмотрел и ничего конкретного не сказал — пусть она глянет.",
+            "Responses": [
+                {
+                    "Text": "Понял, схожу к Климентине.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "RequiredItemClassName": "CP_CannabisSeedsPurpleKush",
+                    "RequiredItemCount": 1,
+                    "RemoveItemClassName": "CP_CannabisSeedsPurpleKush",
+                    "RemoveItemCount": 1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        }
+    ]
+}
