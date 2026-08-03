@@ -1,4 +1,4 @@
-{
+﻿{
     "ID": 201,
     "RootNodeID": 1,
     "Nodes": [
@@ -8,20 +8,6 @@
             "SpeakerText": "Опа! Новое лицо! А я уж думал — все нормальные свалили. А ты, видать, не нормальный, раз сюда припёрся. Заходь, не стесняйся. Только смотри — у нас тут инфицированные кусаются, а девки все с автоматами.",
             "Responses": [
                 {
-                    "Text": "Я принёс добычу, начальник.",
-                    "NextNodeID": 2,
-                    "RequiredQuestID": 102,
-                    "RequiredQuestState": "STARTED",
-                    "ActionType": "NONE"
-                },
-                {
-                    "Text": "Я принёс ещё бумажки.",
-                    "NextNodeID": 2,
-                    "RequiredQuestID": 102,
-                    "RequiredQuestState": "CAN_TURNIN",
-                    "ActionType": "NONE"
-                },
-                {
                     "Text": "Я всё сделал.",
                     "NextNodeID": -1,
                     "RequiredQuestID": 102,
@@ -29,10 +15,12 @@
                     "ActionType": "TURN_IN_QUEST"
                 },
                 {
-                    "Text": "Я от Виктора.",
+                    "Text": "Я по делу.",
                     "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "SHOW_QUEST_LIST"
+                    "RequiredQuestID": 102,
+                    "ActionType": "SHOW_QUEST_LIST",
+                    "RequiredQuestState": "CAN_TURNIN",
+                    "InvertQuestGate": true
                 },
                 {
                     "Text": "Есть работа?",
@@ -45,46 +33,6 @@
                     "NextNodeID": -1,
                     "RequiredQuestID": -1,
                     "ActionType": "END_CONVERSATION"
-                }
-            ]
-        },
-        {
-            "ID": 2,
-            "Type": "STANDARD",
-            "SpeakerText": "Ого! Реально принёс? Ну-ка, ну-ка... А ты шустрый! Показывай, что там за бумажки. Я глазастый, всё вижу.",
-            "Responses": [
-                {
-                    "Text": "Вот бумажка с цифрой I.",
-                    "NextNodeID": 2,
-                    "RequiredItemClassName": "CachePaperA",
-                    "RequiredItemCount": 1,
-                    "RemoveItemClassName": "CachePaperA",
-                    "RemoveItemCount": 1,
-                    "ActionType": "NONE"
-                },
-                {
-                    "Text": "Вот бумажка с цифрой II.",
-                    "NextNodeID": 2,
-                    "RequiredItemClassName": "CachePaperB",
-                    "RequiredItemCount": 1,
-                    "RemoveItemClassName": "CachePaperB",
-                    "RemoveItemCount": 1,
-                    "ActionType": "NONE"
-                },
-                {
-                    "Text": "Вот бумажка с цифрой III.",
-                    "NextNodeID": 2,
-                    "RequiredItemClassName": "CachePaperC",
-                    "RequiredItemCount": 1,
-                    "RemoveItemClassName": "CachePaperC",
-                    "RemoveItemCount": 1,
-                    "ActionType": "NONE"
-                },
-                {
-                    "Text": "Это всё, больше нет.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": 102,
-                    "ActionType": "TURN_IN_QUEST"
                 }
             ]
         }
