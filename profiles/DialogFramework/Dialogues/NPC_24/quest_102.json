@@ -1,0 +1,23 @@
+﻿{
+    "Nodes": [
+        {
+            "ID": 10201,
+            "Type": "STANDARD",
+            "SpeakerText": "Слышь, новенький. Петрович — главный тут. Чтобы к нему попасть, надо доказать, что ты не пустое место. Короче: за периметром есть старые схроны. Найди хотя бы один — принеси мне бумажку оттуда. Время пошло.",
+            "Responses": [
+                {
+                    "Text": "Берусь.",
+                    "NextNodeID": -1,
+                    "ActionType": "ACCEPT_QUEST",
+                    "RequiredQuestID": 102,
+                    "RequiredQuestState": "NONE"
+                },
+                {
+                    "Text": "Не сейчас.",
+                    "NextNodeID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        }
+    ]
+}

@@ -18,20 +18,18 @@
                     "Text": "Я по делу.",
                     "NextNodeID": -1,
                     "RequiredQuestID": 102,
-                    "ActionType": "SHOW_QUEST_LIST",
-                    "RequiredQuestState": "CAN_TURNIN",
-                    "InvertQuestGate": true
+                    "RequiredQuestState": "NONE",
+                    "ActionType": "NONE",
+                    "File": "quest_102.json"
                 },
                 {
                     "Text": "Есть работа?",
                     "NextNodeID": -1,
-                    "RequiredQuestID": -1,
                     "ActionType": "SHOW_QUEST_LIST"
                 },
                 {
                     "Text": "Бывай, весельчак.",
                     "NextNodeID": -1,
-                    "RequiredQuestID": -1,
                     "ActionType": "END_CONVERSATION"
                 }
             ]
