@@ -20,22 +20,9 @@
             ],
             "Responses": [
                 {
-                    "Text": "Меня охранник прислал. Сказал — вы главный, есть разговор.",
-                    "NextNodeID": 2,
-                    "RequiredQuestID": -1,
-                    "ActionType": "NONE"
-                },
-                {
                     "Text": "Я сделал то, что ты просил. Пять трупов — готово.",
                     "NextNodeID": 5,
                     "RequiredQuestID": 103,
-                    "RequiredQuestState": "CAN_TURNIN",
-                    "ActionType": "NONE"
-                },
-                {
-                    "Text": "Я познакомился со всеми!",
-                    "NextNodeID": 8,
-                    "RequiredQuestID": 104,
                     "RequiredQuestState": "CAN_TURNIN",
                     "ActionType": "NONE"
                 },
@@ -44,6 +31,13 @@
                     "NextNodeID": 20,
                     "RequiredQuestID": 104,
                     "RequiredQuestState": "STARTED",
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Я познакомился со всеми!",
+                    "NextNodeID": 8,
+                    "RequiredQuestID": 104,
+                    "RequiredQuestState": "CAN_TURNIN",
                     "ActionType": "NONE"
                 },
                 {
@@ -75,17 +69,17 @@
                     "ActionType": "NONE"
                 },
                 {
-                    "Text": "Я разобрался в участке.",
-                    "NextNodeID": 17,
-                    "RequiredQuestID": 9401,
-                    "RequiredQuestState": "CAN_TURNIN",
-                    "ActionType": "NONE"
-                },
-                {
                     "Text": "Призрак просил зайти, говорит — дело есть.",
                     "NextNodeID": 11,
                     "RequiredQuestID": 105,
                     "RequiredQuestState": "COMPLETED",
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Я разобрался в участке.",
+                    "NextNodeID": 17,
+                    "RequiredQuestID": 9401,
+                    "RequiredQuestState": "CAN_TURNIN",
                     "ActionType": "NONE"
                 },
                 {
@@ -114,6 +108,12 @@
                     "NextNodeID": 15,
                     "RequiredQuestID": 302,
                     "RequiredQuestState": "CAN_TURNIN",
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Меня охранник прислал. Сказал — вы главный, есть разговор.",
+                    "NextNodeID": 2,
+                    "RequiredQuestID": -1,
                     "ActionType": "NONE"
                 },
                 {

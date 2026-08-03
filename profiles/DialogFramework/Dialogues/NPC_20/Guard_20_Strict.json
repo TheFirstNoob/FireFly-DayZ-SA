@@ -8,18 +8,6 @@
             "SpeakerText": "Стоять. Документы? Нет? Откуда ты взялся, мать твою? Ладно, Виктор предупреждал. Проходи, но чтобы я тебя больше без дела не видел. У нас тут режимный объект, а не проходной двор.",
             "Responses": [
                 {
-                    "Text": "Я от Виктора.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "SHOW_QUEST_LIST"
-                },
-                {
-                    "Text": "Есть работа?",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "SHOW_QUEST_LIST"
-                },
-                {
                     "Text": "Я принёс добычу.",
                     "NextNodeID": 2,
                     "RequiredQuestID": 102,
@@ -39,6 +27,18 @@
                     "RequiredQuestID": 102,
                     "RequiredQuestState": "CAN_TURNIN",
                     "ActionType": "TURN_IN_QUEST"
+                },
+                {
+                    "Text": "Я от Виктора.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
+                    "Text": "Есть работа?",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
                 },
                 {
                     "Text": "Так, мимо бежал.",

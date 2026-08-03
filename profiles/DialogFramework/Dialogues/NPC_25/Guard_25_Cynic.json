@@ -8,18 +8,6 @@
             "SpeakerText": "О, ещё один. Слушай, мне похер кто ты, откуда и зачем. Если есть дело — говори. Если нет — иди мимо. У меня смена через два часа кончается, и я хочу просто выпить и забыть этот день.",
             "Responses": [
                 {
-                    "Text": "Я от Виктора. Бумажка есть.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "SHOW_QUEST_LIST"
-                },
-                {
-                    "Text": "Есть работа?",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "SHOW_QUEST_LIST"
-                },
-                {
                     "Text": "Сделал. Готово.",
                     "NextNodeID": 2,
                     "RequiredQuestID": 102,
@@ -39,6 +27,18 @@
                     "RequiredQuestID": 102,
                     "RequiredQuestState": "CAN_TURNIN",
                     "ActionType": "TURN_IN_QUEST"
+                },
+                {
+                    "Text": "Я от Виктора. Бумажка есть.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
+                    "Text": "Есть работа?",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
                 },
                 {
                     "Text": "Не мешаю.",

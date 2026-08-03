@@ -8,18 +8,6 @@
             "SpeakerText": "А, новенький! Здорово, сынок. Ну как ты? Не замёрз? Не голодный? Ты если что — подходи, не стесняйся. У меня тут и хлеб есть, и вода. Всякое бывает. Давай, рассказывай, с чем пришёл.",
             "Responses": [
                 {
-                    "Text": "Я от Виктора. Сказали — вы поможете.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "SHOW_QUEST_LIST"
-                },
-                {
-                    "Text": "Есть работа?",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "SHOW_QUEST_LIST"
-                },
-                {
                     "Text": "Я справился. Принёс всё.",
                     "NextNodeID": 2,
                     "RequiredQuestID": 102,
@@ -39,6 +27,18 @@
                     "RequiredQuestID": 102,
                     "RequiredQuestState": "CAN_TURNIN",
                     "ActionType": "TURN_IN_QUEST"
+                },
+                {
+                    "Text": "Я от Виктора. Сказали — вы поможете.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
+                    "Text": "Есть работа?",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
                 },
                 {
                     "Text": "Спасибо, я пойду.",

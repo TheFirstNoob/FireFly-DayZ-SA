@@ -134,14 +134,18 @@
             "ID": 6,
             "Type": "STANDARD",
             "SpeakerText": "Доктор прислал? Ну-ка покажи... Хм. Интересная структура. Я такие штуки в довоенных журналах видела. Экспериментальная фитотерапия. Доктор прав — в обычной медицине такого нет. А тебе вообще зачем это знать? Хотя... Нестандартная медицина на нелегальных препаратах. Мы и сами не знаем, что это за хрень. Терять нам нечего. Забирай, неси обратно Гоусту. Пусть знает, что мы глянули, но ничего определённого сказать не можем.",
-            "Responses": [
-                {
-                    "Text": "Понял, отнесу Гоусту.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "END_CONVERSATION"
-                }
-            ]
+ "Responses": [
+  {
+   "Text": "Понял, отнесу Гоусту.",
+   "NextNodeID": -1,
+   "RequiredQuestID": -1,
+   "RequiredItemClassName": "CP_CannabisSeedsPurpleKush",
+   "RequiredItemCount": 1,
+   "RemoveItemClassName": "CP_CannabisSeedsPurpleKush",
+   "RemoveItemCount": 1,
+   "ActionType": "END_CONVERSATION"
+  }
+ ]
         }
     ]
 }

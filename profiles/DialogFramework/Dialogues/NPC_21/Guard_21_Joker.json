@@ -8,18 +8,6 @@
             "SpeakerText": "Опа! Новое лицо! А я уж думал — все нормальные свалили. А ты, видать, не нормальный, раз сюда припёрся. Заходь, не стесняйся. Только смотри — у нас тут инфицированные кусаются, а девки все с автоматами.",
             "Responses": [
                 {
-                    "Text": "Я от Виктора.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "SHOW_QUEST_LIST"
-                },
-                {
-                    "Text": "Есть работа?",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "SHOW_QUEST_LIST"
-                },
-                {
                     "Text": "Я принёс добычу, начальник.",
                     "NextNodeID": 2,
                     "RequiredQuestID": 102,
@@ -39,6 +27,18 @@
                     "RequiredQuestID": 102,
                     "RequiredQuestState": "CAN_TURNIN",
                     "ActionType": "TURN_IN_QUEST"
+                },
+                {
+                    "Text": "Я от Виктора.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
+                    "Text": "Есть работа?",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
                 },
                 {
                     "Text": "Бывай, весельчак.",

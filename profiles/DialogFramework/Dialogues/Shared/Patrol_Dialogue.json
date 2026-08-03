@@ -1,6 +1,10 @@
 {
     "ID": 102,
-    "NPCIDs": [30, 31, 32],
+    "NPCIDs": [
+        30,
+        31,
+        32
+    ],
     "RootNodeID": 1,
     "Nodes": [
         {
@@ -8,6 +12,13 @@
             "Type": "STANDARD",
             "SpeakerText": "Стой! А, это ты... Ну чего застыл? Говори, раз пришёл.",
             "Responses": [
+                {
+                    "Text": "Я принёс, что просили.",
+                    "NextNodeID": 5,
+                    "RequiredQuestID": 102,
+                    "RequiredQuestState": "STARTED",
+                    "ActionType": "NONE"
+                },
                 {
                     "Text": "Есть работа?",
                     "NextNodeID": -1,
@@ -18,13 +29,6 @@
                     "Text": "Как обстановка?",
                     "NextNodeID": 2,
                     "RequiredQuestID": -1,
-                    "ActionType": "NONE"
-                },
-                {
-                    "Text": "Я принёс, что просили.",
-                    "NextNodeID": 5,
-                    "RequiredQuestID": 102,
-                    "RequiredQuestState": "STARTED",
                     "ActionType": "NONE"
                 },
                 {

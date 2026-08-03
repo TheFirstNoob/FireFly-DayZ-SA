@@ -8,18 +8,6 @@
             "SpeakerText": "Чего надо? Не видишь — я работаю. Быстро говори и вали.",
             "Responses": [
                 {
-                    "Text": "Я от Виктора.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "SHOW_QUEST_LIST"
-                },
-                {
-                    "Text": "Есть работа?",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "SHOW_QUEST_LIST"
-                },
-                {
                     "Text": "Пришёл отчитаться. Готово.",
                     "NextNodeID": 2,
                     "RequiredQuestID": 102,
@@ -39,6 +27,18 @@
                     "RequiredQuestID": 102,
                     "RequiredQuestState": "CAN_TURNIN",
                     "ActionType": "TURN_IN_QUEST"
+                },
+                {
+                    "Text": "Я от Виктора.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
+                    "Text": "Есть работа?",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
                 },
                 {
                     "Text": "Пока.",
