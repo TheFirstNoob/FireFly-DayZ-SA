@@ -938,21 +938,21 @@
             "all": 1
         },
         "LongVisionMetersInSearchModeDay": {
-            "all": 120.0
+            "all": 70.0
         },
         "LongVisionMetersInSearchModeNight": {
             "all": 0.0
         },
         "LongVisionMetersInCalmModeDay": {
-            "AlienQueen": 150.0,
-            "AlienCaptain": 120.0,
-            "Miniboss_Buther": 100.0,
-            "Miniboss_Psycho": 100.0,
-            "Solder": 80.0,
-            "Police": 60.0,
-            "PoliceSpecForce": 70.0,
-            "UFO_Astro": 90.0,
-            "Arachnids": 110.0,
+            "AlienQueen": 100.0,
+            "AlienCaptain": 80.0,
+            "Miniboss_Buther": 65.0,
+            "Miniboss_Psycho": 65.0,
+            "Solder": 50.0,
+            "Police": 40.0,
+            "PoliceSpecForce": 45.0,
+            "UFO_Astro": 60.0,
+            "Arachnids": 70.0,
             "all": 0.0
         },
         "LongVisionMetersInCalmModeNight": {
@@ -968,10 +968,10 @@
             "all": 0.0
         },
         "LongVisionVisualAcuityInSearchModeDay": {
-            "all": 1.0
+            "all": 0.6
         },
         "LongVisionVisualAcuityInSearchModeNight": {
-            "all": 1.0
+            "all": 0.6
         },
         "LongVisionVisualAcuityInCalmModeDay": {
             "all": 0.1
@@ -1971,28 +1971,28 @@
             "all": 1.0
         },
         "ReactWeaponShotNoise": {
-            "all": 1.5
+            "all": 1.3
         },
         "ReactFriendlyWeaponShotNoise": {
             "all": 0.0
         },
         "ReactFootstepsJogDayNoise": {
-            "all": 1.0
+            "all": 0.8
         },
         "ReactFootstepsJogNightNoise": {
-            "all": 1.1
+            "all": 0.8
         },
         "ReactFootstepsCrouchSprintDayNoise": {
-            "all": 0.7
+            "all": 0.5
         },
         "ReactFootstepsCrouchSprintNightNoise": {
-            "all": 0.9
+            "all": 0.6
         },
         "ReactFootstepsSprintDayNoise": {
-            "all": 1.0
+            "all": 0.85
         },
         "ReactFootstepsSprintNightNoise": {
-            "all": 1.2
+            "all": 0.9
         },
         "ReactHorseHoofstepsDayNoise": {
             "all": 1.0
@@ -2001,10 +2001,10 @@
             "all": 1.0
         },
         "ReactDoorsDayNoise": {
-            "all": 1.0
+            "all": 0.8
         },
         "ReactDoorsNightNoise": {
-            "all": 1.2
+            "all": 1.0
         },
         "ReactPlayerFallDayNoise": {
             "all": 1.0
@@ -2031,16 +2031,16 @@
             "all": 1.1
         },
         "ReactVoiceWhisperDayNoise": {
-            "all": 1.0
+            "all": 0.3
         },
         "ReactVoiceWhisperNightNoise": {
-            "all": 1.0
+            "all": 0.3
         },
         "ReactVoiceTalkDayNoise": {
-            "all": 1.0
+            "all": 0.7
         },
         "ReactVoiceTalkNightNoise": {
-            "all": 1.0
+            "all": 0.7
         },
         "ReactVoiceShoutDayNoise": {
             "all": 1.0
@@ -3241,16 +3241,16 @@
             "Miniboss_Psycho": 0
         },
         "VisionRangeMultiplierDay": {
-            "all": 1.2,
-            "AlienScout": 1.0,
-            "AlienQueen": 1.0,
-            "UFO_Astro": 1.1,
-            "Arachnids": 1.2,
-            "Miniboss_Buther": 1.3,
-            "Miniboss_Psycho": 1.2
+            "all": 1.0,
+            "AlienScout": 0.9,
+            "AlienQueen": 0.9,
+            "UFO_Astro": 1.0,
+            "Arachnids": 1.0,
+            "Miniboss_Buther": 1.0,
+            "Miniboss_Psycho": 1.0
         },
         "VisionRangeMultiplierNight": {
-            "all": 0.8
+            "all": 0.7
         },
         "SizeHandlerIsActive": {
             "all": 1
