@@ -1,4 +1,4 @@
-{
+﻿{
     "ID": 112,
     "RootNodeID": 1,
     "Nodes": [
@@ -25,6 +25,20 @@
             ],
             "Responses": [
                 {
+                    "Text": "Что за работа?",
+                    "NextNodeID": -1,
+                    "ActionType": "NONE",
+                    "File": "quest_106.json",
+                    "RequiredQuestID": 105,
+                    "RequiredQuestState": "COMPLETED"
+                },
+                {
+                    "Text": "Есть работа?",
+                    "NextNodeID": -1,
+                    "ActionType": "SHOW_QUEST_LIST",
+                    "RequiredQuestID": -1
+                },
+                {
                     "Text": "Я отнес семена. Доктор и Климентина посмотрели.",
                     "NextNodeID": 9,
                     "RequiredQuestID": 106,
@@ -33,24 +47,10 @@
                     "ActionType": "NONE"
                 },
                 {
-                    "Text": "Призрак, Петрович сказал зайти. Говорит, у тебя дело.",
-                    "NextNodeID": 8,
-                    "RequiredQuestID": 106,
-                    "RequiredQuestState": "NONE",
-                    "ActionType": "NONE"
-                },
-                {
                     "Text": "Петрович сказал найти тебя.",
                     "NextNodeID": 7,
                     "RequiredQuestID": 104,
                     "RequiredQuestState": "STARTED",
-                    "ActionType": "NONE"
-                },
-                {
-                    "Text": "Я разобрался с тем местом.",
-                    "NextNodeID": 10,
-                    "RequiredQuestID": 106,
-                    "RequiredQuestState": "CAN_TURNIN",
                     "ActionType": "NONE"
                 },
                 {
@@ -81,335 +81,18 @@
             ]
         },
         {
-            "ID": 2,
+            "ID": 1,
             "Type": "STANDARD",
             "SpeakerText": "Призрак. Меня так зовут все. Я здесь недавно. Видел, как лагерь строился, как люди приходили и уходили. Некоторые не возвращались.",
             "Responses": [
                 {
                     "Text": "Почему Призрак?",
-                    "NextNodeID": 4,
+                    "NextNodeID": 3,
                     "RequiredQuestID": -1,
                     "ActionType": "NONE"
                 },
                 {
                     "Text": "Жутковато тут у тебя.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "END_CONVERSATION"
-                }
-            ]
-        },
-        {
-            "ID": 3,
-            "Type": "STANDARD",
-            "SpeakerText": "Говорить не люблю. Слова — шум. В этом мире лучше слушать, чем говорить.",
-            "Responses": [
-                {
-                    "Text": "И что же ты слышишь?",
-                    "NextNodeID": 4,
-                    "RequiredQuestID": -1,
-                    "ActionType": "NONE"
-                },
-                {
-                    "Text": "Понятно.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "END_CONVERSATION"
-                }
-            ]
-        },
-        {
-            "ID": 4,
-            "Type": "STANDARD",
-            "SpeakerText": "Ветер доносит многое. Крики вдалеке. Шорохи в кустах. Люди думают, что я странный. А я просто смотрю. И запоминаю. В мире, где каждый день может стать последним, знания — единственная валюта.",
-            "Responses": [
-                {
-                    "Text": "Какие знания?",
-                    "NextNodeID": 5,
-                    "RequiredQuestID": -1,
-                    "ActionType": "NONE"
-                },
-                {
-                    "Text": "Мне пора.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "END_CONVERSATION"
-                }
-            ]
-        },
-        {
-            "ID": 5,
-            "Type": "STANDARD",
-            "SpeakerText": "Я знаю, где спрятаны тайники. Где водятся твари. Какие дороги безопасны, а какие — нет. Иногда я делюсь этим с теми, кто не боится заплатить.",
-            "Responses": [
-                {
-                    "Text": "Расскажешь?",
-                    "NextNodeID": 6,
-                    "RequiredQuestID": -1,
-                    "ActionType": "NONE"
-                },
-                {
-                    "Text": "В другой раз.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "END_CONVERSATION"
-                }
-            ]
-        },
-        {
-            "ID": 6,
-            "Type": "STANDARD",
-            "SpeakerText": "Приходи, когда будешь готов. У меня есть пара интересных мест на примете. Но предупреждаю: лёгкой прогулки не жди.",
-            "Responses": [
-                {
-                    "Text": "Договорились.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "END_CONVERSATION"
-                },
-                {
-                    "Text": "Подумаю.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "END_CONVERSATION"
-                }
-            ]
-        },
-        {
-            "ID": 7,
-            "Type": "STANDARD",
-            "SpeakerText": "Бубылда пропустил... хм. Вижу, все отметки на месте. Ты прошёл. Держи итоговую бумажку — верни Петровичу. Он ждёт именно её. Без неё ты в лагере — никто. С ней — свой.",
-            "Responses": [
-                {
-                    "Text": "Понял. Бывай.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "END_CONVERSATION"
-                }
-            ]
-        },
-        {
-            "ID": 8,
-            "Type": "STANDARD",
-            "SpeakerText": "Петрович сказал? Рано ещё. Иди, занимайся делами.",
-            "SpeakerTextConditions": [
-                {
-                    "Text": "А, Петрович сказал. Да, есть дело. Зараза вокруг — не простая. Обычная медицина её не берёт. Нужны свои методы. Возьми это. Отнеси Доктору — посмотрим, что скажет.",
-                    "RequiredQuestID": 105,
-                    "RequiredState": "COMPLETED"
-                }
-            ],
-            "Responses": [
-                {
-                    "Text": "Что это?",
-                    "NextNodeID": 12,
-                    "RequiredQuestID": -1,
-                    "ActionType": "NONE"
-                },
-                {
-                    "Text": "Понял, несу Доктору.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": 106,
-                    "RequiredQuestState": "NONE",
-                    "ActionType": "ACCEPT_QUEST"
-                },
-                {
-                    "Text": "В другой раз.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "END_CONVERSATION"
-                }
-            ]
-        },
-        {
-            "ID": 9,
-            "Type": "STANDARD",
-            "SpeakerText": "Доктор и Климентина посмотрели, говоришь? И что сказали?.. Хм. Не помогло, значит. Ну... спасибо, что сбегал.",
-            "Responses": [
-                {
-                    "Text": "И это всё? Я бегал туда-сюда, таскал твои семена, а ты просто «спасибо»? Сам бы мог тогда сходить!",
-                    "NextNodeID": 13,
-                    "RequiredQuestID": -1,
-                    "ActionType": "NONE"
-                },
-                {
-                    "Text": "Да пожалуйста. Бывай.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "END_CONVERSATION"
-                }
-            ]
-        },
-        {
-            "ID": 10,
-            "Type": "STANDARD",
-            "SpeakerText": "Слушаю. Рассказывай.",
-            "Responses": [
-                {
-                    "Text": "Это какие-то ебанаты в белых одеждах. Они дикие, орут, размахивают символикой. Но главное — инфицированные их не трогают. Вообще. Проходят мимо как будто их нет. Ты куда меня послал, Призрак? Подставить решил?",
-                    "NextNodeID": 14,
-                    "RequiredQuestID": -1,
-                    "ActionType": "NONE"
-                }
-            ]
-        },
-        {
-            "ID": 12,
-            "Type": "STANDARD",
-            "SpeakerText": "Семена. Необычные. Говорят, до всего этого бардака их использовали в экспериментальной медицине. Если кто и разберётся — то Доктор. Или Климентина. Неси им.",
-            "Responses": [
-                {
-                    "Text": "Понял, несу.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": 106,
-                    "RequiredQuestState": "NONE",
-                    "ActionType": "ACCEPT_QUEST"
-                },
-                {
-                    "Text": "Уговорил.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": 106,
-                    "RequiredQuestState": "NONE",
-                    "ActionType": "ACCEPT_QUEST"
-                }
-            ]
-        },
-        {
-            "ID": 13,
-            "Type": "STANDARD",
-            "SpeakerText": "А ты не так прост. Это было... мелочно. Ладно, хрен с тобой, глядишь сработаемся. Есть кое-что. Тут недалеко тусуется странная группа. Называют себя «Новый Рассвет». Обосновались на старом заводе — что-то химичат. Я туда уже совался, но в одиночку всех не вынести. А с тобой — другое дело. Съезди, глянь, что там. Если что — разберись. Обещаю — в этот раз не пожалеешь.",
-            "Responses": [
-                {
-                    "Text": "Ладно. Где они?",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "END_CONVERSATION"
-                }
-            ]
-        },
-        {
-            "ID": 14,
-            "Type": "STANDARD",
-            "SpeakerText": "Инфицированные их не трогают...? . Я чувствовал, что с ними что-то не так, но чтобы настолько. Нет, я не подставлял тебя. Я сам не знал, что там такое. Теперь знаем. Надо будет за ними присмотреть. Инфа полезная, так что держи — заслужил. И вот ещё — семена того же сорта. Попробуй вырастить ну или сам побалуйся, тебе ж ничего не убудет, а так может тогда Климентина или Док смогут разобраться, что к чему.",
-            "Responses": [
-                {
-                    "Text": "Что за ящик?",
-                    "NextNodeID": 15,
-                    "RequiredQuestID": -1,
-                    "ActionType": "NONE"
-                },
-                {
-                    "Text": "Спасибо. Выращу — занесу им.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": 106,
-                    "ActionType": "TURN_IN_QUEST"
-                }
-            ]
-        },
-        {
-            "ID": 15,
-            "Type": "STANDARD",
-            "SpeakerText": "Не спрашивай, где я его взял. Скажем так — есть люди, которые делают вещи, не предназначенные для общего пользования. Ты Пробудившийся — вы особенные. Вещи внутри не пропадут, даже если ты снова «очнёшься» где-нибудь в поле. Никому про него не рассказывай — уникальная технология, лишние вопросы нам ни к чему. Семена посади где-нибудь в тихом месте. Как вырастут — покажи Доку или Климентине. Может, из этого выйдет толк.",
-            "Responses": [
-                {
-                    "Text": "Понял. Никому ни слова.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": 106,
-                    "ActionType": "TURN_IN_QUEST"
-                }
-            ]
-        },
-        {
-            "ID": 16,
-            "Type": "STANDARD",
-            "SpeakerText": "Есть три места, до которых я добраться не смог. Не потому что далеко — а потому что там всё зашифровано. Военные схемы, кодовые замки, электронные ключи. Я собирал информацию годами. Карты, коды, обрывки записей. Всё это у меня есть. Бери — плати — владей.",
-            "Responses": [
-                {
-                    "Text": "Покажи, что есть.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "SHOW_QUEST_LIST"
-                },
-                {
-                    "Text": "В другой раз.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "END_CONVERSATION"
-                }
-            ]
-        },
-        {
-            "ID": 17,
-            "Type": "STANDARD",
-            "SpeakerText": "Старый военный бункер. На картах не значится. Я нашёл его случайно — заросший вход, свежие следы. Кто-то там был, но не смог открыть. Внутри — запасы связистов: радиостанции, приборы ночного видения, может, оружие. Говорю «может» — потому что сам не вскрыл. Шифр первого уровня, но без кода — стена.",
-            "Responses": [
-                {
-                    "Text": "Сколько стоит?",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": 6001,
-                    "RequiredQuestState": "NONE",
-                    "ActionType": "SHOW_QUEST_LIST"
-                },
-                {
-                    "Text": "Дороговато...",
-                    "NextNodeID": 16,
-                    "RequiredQuestID": -1,
-                    "ActionType": "NONE"
-                },
-                {
-                    "Text": "Не интересует.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "END_CONVERSATION"
-                }
-            ]
-        },
-        {
-            "ID": 18,
-            "Type": "STANDARD",
-            "SpeakerText": "Склад оружейный. Нелегальный, довоенный. Хозяева погибли, схрон остался. Я выменял часть карты у одного сталкера — он нашёл её в мёртвом городе. Говорил, там целый арсенал: автоматы, броня, боеприпасы. Но дверь — с электронным замком. Код я подобрал, проверять не ходил — берегу себя. Тебе он нужнее.",
-            "Responses": [
-                {
-                    "Text": "Сколько стоит?",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": 6002,
-                    "RequiredQuestState": "NONE",
-                    "ActionType": "SHOW_QUEST_LIST"
-                },
-                {
-                    "Text": "Многовато...",
-                    "NextNodeID": 16,
-                    "RequiredQuestID": -1,
-                    "ActionType": "NONE"
-                },
-                {
-                    "Text": "Не интересует.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "END_CONVERSATION"
-                }
-            ]
-        },
-        {
-            "ID": 19,
-            "Type": "STANDARD",
-            "SpeakerText": "Самое жирное место. Элитный схрон — не знаю, кто его строил, но явно не рядовые военные. Трёхуровневая защита: код, биометрия, механический ключ. У меня есть все три части. Но цена высокая — потому что и риск, и награда максимальные. Там может быть всё что угодно: от образцов оружия до документов, переворачивающих историю этого мира.",
-            "Responses": [
-                {
-                    "Text": "Сколько стоит?",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": 6003,
-                    "RequiredQuestState": "NONE",
-                    "ActionType": "SHOW_QUEST_LIST"
-                },
-                {
-                    "Text": "Это точно не моя цена...",
-                    "NextNodeID": 16,
-                    "RequiredQuestID": -1,
-                    "ActionType": "NONE"
-                },
-                {
-                    "Text": "Не интересует.",
                     "NextNodeID": -1,
                     "RequiredQuestID": -1,
                     "ActionType": "END_CONVERSATION"

@@ -1,4 +1,4 @@
-{
+﻿{
     "ID": 101,
     "RootNodeID": 1,
     "Nodes": [
@@ -20,39 +20,94 @@
             ],
             "Responses": [
                 {
+                    "Text": "Меня охранник прислал. Сказал — вы главный, есть разговор.",
+                    "NextNodeID": -1,
+                    "ActionType": "NONE",
+                    "File": "quest_103.json",
+                    "RequiredQuestID": 103,
+                    "RequiredQuestState": "NONE"
+                },
+                {
                     "Text": "Я сделал то, что ты просил. Пять трупов — готово.",
-                    "NextNodeID": 5,
+                    "NextNodeID": 2,
                     "RequiredQuestID": 103,
                     "RequiredQuestState": "CAN_TURNIN",
-                    "ActionType": "NONE"
+                    "ActionType": "TURN_IN_QUEST"
+                },
+                {
+                    "Text": "Слышал, Вовчику помощь нужна?",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 105,
+                    "RequiredQuestState": "COMPLETED",
+                    "ActionType": "NONE",
+                    "File": "quest_301.json"
                 },
                 {
                     "Text": "С кого начать?",
-                    "NextNodeID": 20,
+                    "NextNodeID": -1,
                     "RequiredQuestID": 104,
                     "RequiredQuestState": "STARTED",
-                    "ActionType": "NONE"
+                    "ActionType": "NONE",
+                    "File": "quest_104.json"
                 },
                 {
                     "Text": "Я познакомился со всеми!",
-                    "NextNodeID": 8,
+                    "NextNodeID": 4,
                     "RequiredQuestID": 104,
                     "RequiredQuestState": "CAN_TURNIN",
-                    "ActionType": "NONE"
+                    "ActionType": "TURN_IN_QUEST"
                 },
                 {
                     "Text": "Петрович, я готов проверить маршрут.",
-                    "NextNodeID": 9,
-                    "RequiredQuestID": 105,
-                    "RequiredQuestState": "NONE",
-                    "ActionType": "NONE"
+                    "NextNodeID": -1,
+                    "ActionType": "NONE",
+                    "File": "quest_105.json",
+                    "RequiredQuestID": 104,
+                    "RequiredQuestState": "COMPLETED"
                 },
                 {
                     "Text": "Сходил я. КПП пуст, военных нет. По пути к городу на южной стороне видел полотно WOLF и повешенного. Кто они такие?",
-                    "NextNodeID": 10,
+                    "NextNodeID": 3,
                     "RequiredQuestID": 105,
                     "RequiredQuestState": "CAN_TURNIN",
-                    "ActionType": "NONE"
+                    "ActionType": "TURN_IN_QUEST"
+                },
+                {
+                    "Text": "Я сводил Вовчика. Живой, целый.",
+                    "NextNodeID": 2,
+                    "RequiredQuestID": 301,
+                    "RequiredQuestState": "CAN_TURNIN",
+                    "ActionType": "TURN_IN_QUEST"
+                },
+                {
+                    "Text": "Что там с Вовчиком?",
+                    "NextNodeID": -1,
+                    "ActionType": "NONE",
+                    "File": "quest_302.json",
+                    "RequiredQuestID": 301,
+                    "RequiredQuestState": "COMPLETED"
+                },
+                {
+                    "Text": "Я вытащил Вовчика из города.",
+                    "NextNodeID": 2,
+                    "RequiredQuestID": 302,
+                    "RequiredQuestState": "CAN_TURNIN",
+                    "ActionType": "TURN_IN_QUEST"
+                },
+                {
+                    "Text": "Что слышно про полицейский участок?",
+                    "NextNodeID": -1,
+                    "ActionType": "NONE",
+                    "File": "quest_9401.json",
+                    "RequiredQuestID": 105,
+                    "RequiredQuestState": "COMPLETED"
+                },
+                {
+                    "Text": "Я разобрался в участке.",
+                    "NextNodeID": 3,
+                    "RequiredQuestID": 9401,
+                    "RequiredQuestState": "CAN_TURNIN",
+                    "ActionType": "TURN_IN_QUEST"
                 },
                 {
                     "Text": "Работа есть какая?",
@@ -62,61 +117,6 @@
                     "ActionType": "SHOW_QUEST_LIST"
                 },
                 {
-                    "Text": "Что слышно про полицейский участок?",
-                    "NextNodeID": 16,
-                    "RequiredQuestID": 105,
-                    "RequiredQuestState": "COMPLETED",
-                    "ActionType": "NONE"
-                },
-                {
-                    "Text": "Призрак просил зайти, говорит — дело есть.",
-                    "NextNodeID": 11,
-                    "RequiredQuestID": 105,
-                    "RequiredQuestState": "COMPLETED",
-                    "ActionType": "NONE"
-                },
-                {
-                    "Text": "Я разобрался в участке.",
-                    "NextNodeID": 17,
-                    "RequiredQuestID": 9401,
-                    "RequiredQuestState": "CAN_TURNIN",
-                    "ActionType": "NONE"
-                },
-                {
-                    "Text": "Слышал, Вовчику помощь нужна?",
-                    "NextNodeID": 12,
-                    "RequiredQuestID": 301,
-                    "RequiredQuestState": "NONE",
-                    "ActionType": "NONE"
-                },
-                {
-                    "Text": "Я сводил Вовчика. Живой, целый.",
-                    "NextNodeID": 13,
-                    "RequiredQuestID": 301,
-                    "RequiredQuestState": "CAN_TURNIN",
-                    "ActionType": "NONE"
-                },
-                {
-                    "Text": "Что там с Вовчиком?",
-                    "NextNodeID": 14,
-                    "RequiredQuestID": 301,
-                    "RequiredQuestState": "COMPLETED",
-                    "ActionType": "NONE"
-                },
-                {
-                    "Text": "Я вытащил Вовчика из города.",
-                    "NextNodeID": 15,
-                    "RequiredQuestID": 302,
-                    "RequiredQuestState": "CAN_TURNIN",
-                    "ActionType": "NONE"
-                },
-                {
-                    "Text": "Меня охранник прислал. Сказал — вы главный, есть разговор.",
-                    "NextNodeID": 2,
-                    "RequiredQuestID": -1,
-                    "ActionType": "NONE"
-                },
-                {
                     "Text": "Да так, мимо проходил.",
                     "NextNodeID": 3,
                     "RequiredQuestID": -1,
@@ -124,31 +124,6 @@
                 },
                 {
                     "Text": "Бывай.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "END_CONVERSATION"
-                }
-            ]
-        },
-        {
-            "ID": 2,
-            "Type": "STANDARD",
-            "SpeakerText": "А, от моих ребят. Ну лады. Раз пропустили — значит, не совсем безнадёга. Но я проверю тебя сам. Слышал, я тут заправляю, да? Это правда. Но я не доверяю просто так. Никому. Ты мне должен доказать, что не сдохнешь в первую же вылазку.",
-            "Responses": [
-                {
-                    "Text": "Что я должен сделать?",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "SHOW_QUEST_LIST"
-                },
-                {
-                    "Text": "А что будет, если откажусь?",
-                    "NextNodeID": 4,
-                    "RequiredQuestID": -1,
-                    "ActionType": "NONE"
-                },
-                {
-                    "Text": "Пока рано. Я подумаю.",
                     "NextNodeID": -1,
                     "RequiredQuestID": -1,
                     "ActionType": "END_CONVERSATION"
@@ -181,293 +156,6 @@
                 },
                 {
                     "Text": "Пока.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "END_CONVERSATION"
-                }
-            ]
-        },
-        {
-            "ID": 5,
-            "Type": "STANDARD",
-            "SpeakerText": "О, смотрю — справился! Мать твою, а я уж думал — не вывезут тебя. Ну, молодец. Неожиданно. Лады, держи слово. Торговцы теперь тебя обслужат. Заслужил. В банк и схрон пока рановато, но базар — открыт. А там посмотрим, что из тебя выйдет.",
-            "Responses": [
-                {
-                    "Text": "Спасибо за доверие. Я оправдаю, но больше молоток мне этот не давай. Издевательство!",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": 103,
-                    "ActionType": "TURN_IN_QUEST"
-                },
-                {
-                    "Text": "Что дальше?",
-                    "NextNodeID": 6,
-                    "RequiredQuestID": -1,
-                    "ActionType": "NONE"
-                }
-            ]
-        },
-        {
-            "ID": 6,
-            "Type": "STANDARD",
-            "SpeakerText": "Слушай, раз теперь ты с нами — надо познакомить тебя с остальными. Найди Климентину, Доктора, Бубылду и Гоуста. Скажи каждому — я прислал. Как обойдёшь всех — возвращайся, расскажешь впечатления.",
-            "SpeakerTextConditions": [
-                {
-                    "Text": "Ты уже всё знаешь. Отдыхай пока, потом будет работа.",
-                    "RequiredQuestID": 104,
-                    "RequiredState": "COMPLETED"
-                },
-                {
-                    "Text": "Отдохнул? Есть пара подработок, если хочешь. Заглядывай, когда нужно.",
-                    "RequiredQuestID": 105,
-                    "RequiredState": "COMPLETED"
-                },
-                {
-                    "Text": "Призрак просил зайти — дуй к нему, не задерживай.",
-                    "RequiredQuestID": 106,
-                    "RequiredState": "COMPLETED"
-                }
-            ],
-            "Responses": [
-                {
-                    "Text": "Понял, иду знакомиться.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": 104,
-                    "RequiredQuestState": "NONE",
-                    "ActionType": "ACCEPT_QUEST"
-                },
-                {
-                    "Text": "Показывай, что есть.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": 105,
-                    "RequiredQuestState": "COMPLETED",
-                    "ActionType": "SHOW_QUEST_LIST"
-                },
-                {
-                    "Text": "Что за люди? Расскажи.",
-                    "NextNodeID": 7,
-                    "RequiredQuestID": -1,
-                    "ActionType": "NONE"
-                },
-                {
-                    "Text": "Давай потом.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "END_CONVERSATION"
-                }
-            ]
-        },
-        {
-            "ID": 7,
-            "Type": "STANDARD",
-            "SpeakerText": "Климентина — главный исследователь. Пришла недавно с основного города с парой работяг своих и вроде как знает... ну или делает вид что знает как заразу обуздать. Доктор — лечит всех подряд, усталый вечно. Бубылда — гений-электрик, но характер — жесть. Гоуст... ну, сам увидишь. Странный он. Очень. Но свой.",
-            "Responses": [
-                {
-                    "Text": "Понял, иду знакомиться.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": 104,
-                    "RequiredQuestState": "NONE",
-                    "ActionType": "ACCEPT_QUEST"
-                },
-                {
-                    "Text": "Ладно, потом зайду.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "END_CONVERSATION"
-                }
-            ]
-        },
-        {
-            "ID": 8,
-            "Type": "STANDARD",
-            "SpeakerText": "Ну как тебе? Лагерь — он такой. Люди разные, но своих не бросаем. Ты теперь свой, считай. Отдыхай, набирайся сил. Завтра может быть жарко.",
-            "Responses": [
-                {
-                    "Text": "Спасибо за доверие.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": 104,
-                    "ActionType": "TURN_IN_QUEST"
-                }
-            ]
-        },
-        {
-            "ID": 9,
-            "Type": "STANDARD",
-            "SpeakerText": "Слушай, Пробудившийся. До города теперь добираться надо, а я хрен знает что там сейчас. Сделаем так: сначала сходи на КПП у южного выезда — проверь, остались ли там военные или уже всё разбежалось. Потом пройди по самому маршруту до города — безопасно ли, не засел ли кто. Ну и в городе разведай обстановку. Мне нужна полная картина, прежде чем мы начнём туда соваться.",
-            "Responses": [
-                {
-                    "Text": "Понял, иду смотреть.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": 105,
-                    "RequiredQuestState": "NONE",
-                    "ActionType": "ACCEPT_QUEST"
-                },
-                {
-                    "Text": "Давай позже схожу.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "END_CONVERSATION"
-                }
-            ]
-        },
-        {
-            "ID": 10,
-            "Type": "STANDARD",
-            "SpeakerText": "WOLF... К сожалению подробностей не много, но как говорят это именно они виноваты в текущем апокалипсисе. Что в городе?",
-            "Responses": [
-                {
-                    "Text": "Город кишит инфицированными. Нормальной жизни там нет. Надо думать, как укреплять лагерь.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": 105,
-                    "ActionType": "TURN_IN_QUEST"
-                }
-            ]
-        },
-        {
-            "ID": 11,
-            "Type": "STANDARD",
-            "SpeakerText": "А, точно! Призрак просил, чтобы ты заглянул к нему. Говорит, дело есть. Меня это не касается, но он помогает лагерю — так что дуй, не задерживайся. Не хочу у него в долгу быть.",
-            "Responses": [
-                {
-                    "Text": "Понял, схожу к нему.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "END_CONVERSATION"
-                }
-            ]
-        },
-        {
-            "ID": 12,
-            "Type": "STANDARD",
-            "SpeakerText": "А, Вовчик... Короче, алкаш местный. Нажрался и забил все сортиры — теперь людям ходить некуда. Сейчас сидит, трясётся, до последнего целого сам не дойдёт. Своди его, а? Он обещал бумажкой расплатиться — я глянул, там ценная какая-то, на схрон идёт. Не пропадать же добру.",
-            "Responses": [
-                {
-                    "Text": "Помогу, конечно.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": 301,
-                    "RequiredQuestState": "NONE",
-                    "ActionType": "ACCEPT_QUEST"
-                },
-                {
-                    "Text": "Не до него сейчас.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "END_CONVERSATION"
-                }
-            ]
-        },
-        {
-            "ID": 13,
-            "Type": "STANDARD",
-            "SpeakerText": "Ну, молодец. Угодил парню. Он там бумажку тебе оставил. Пользуйся.",
-            "Responses": [
-                {
-                    "Text": "Спасибо.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": 301,
-                    "ActionType": "TURN_IN_QUEST"
-                }
-            ]
-        },
-        {
-            "ID": 14,
-            "Type": "STANDARD",
-            "SpeakerText": "Да всё тот же Вовчик. Мало ему было наши сортиры забить — теперь в город попёрся. Говорит, там общественный санузел нормальный. А на деле — заражённые, целая орда. Найди его, отбейся от заражённых и приведи обратно. У него бумажка есть, ещё круче прошлой.",
-            "Responses": [
-                {
-                    "Text": "Вытащу.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": 302,
-                    "RequiredQuestState": "NONE",
-                    "ActionType": "ACCEPT_QUEST"
-                },
-                {
-                    "Text": "Потом.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "END_CONVERSATION"
-                }
-            ]
-        },
-        {
-            "ID": 15,
-            "Type": "STANDARD",
-            "SpeakerText": "Смотрю, Вовчик довольный бегает. Справился. Держи, заслужил.",
-            "Responses": [
-                {
-                    "Text": "Спасибо.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": 302,
-                    "ActionType": "TURN_IN_QUEST"
-                }
-            ]
-        },
-        {
-            "ID": 16,
-            "Type": "STANDARD",
-            "SpeakerText": "С полицейским участком? Хуёво там. Мои парни перестали выходить на связь. Я послал ребят проверить — не вернулись. Чувствую, там что-то недоброе. Собери группу и сгоняй, глянь что к чему. В одного не суйся — я тебя знаю, ты живучий, но там что-то серьёзное.",
-            "Responses": [
-                {
-                    "Text": "Я готов, но пока один.",
-                    "NextNodeID": 18,
-                    "RequiredQuestID": 9401,
-                    "RequiredQuestState": "NONE",
-                    "ActionType": "NONE"
-                },
-                {
-                    "Text": "У меня есть группа. Берёмся.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": 9401,
-                    "RequiredQuestState": "NONE",
-                    "ActionType": "ACCEPT_QUEST"
-                },
-                {
-                    "Text": "Позже займусь.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "END_CONVERSATION"
-                }
-            ]
-        },
-        {
-            "ID": 17,
-            "Type": "STANDARD",
-            "SpeakerText": "Вернулся... По лицу вижу — не с пустыми руками. Рассказывай.",
-            "SpeakerTextConditions": [
-                {
-                    "Text": "Вернулся... По лицу вижу — не с пустыми руками. Надеюсь, ты принёс хорошие новости.",
-                    "RequiredQuestID": 9401,
-                    "RequiredState": "STARTED"
-                }
-            ],
-            "Responses": [
-                {
-                    "Text": "Там был Мясник. Какой-то здоровый инфицированный. Зачистил весь участок. Я его уложил.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": 9401,
-                    "ActionType": "TURN_IN_QUEST"
-                }
-            ]
-        },
-        {
-            "ID": 18,
-            "Type": "STANDARD",
-            "SpeakerText": "Слышь, я ж сказал — в одного не суйся. Там не шутки. Собери хотя бы пару человек, тогда и приходи. Без группы я тебя не пущу — мне трупы лишние не нужны.",
-            "Responses": [
-                {
-                    "Text": "Понял, найду людей.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "END_CONVERSATION"
-                }
-            ]
-        },
-        {
-            "ID": 20,
-            "Type": "STANDARD",
-            "SpeakerText": "Вот, держи рекомендательную бумажку для Климентины. Она главная по науке и исследованиям — без её слова никто тут не работает. Отдашь ей — она скажет, к кому идти дальше. По цепочке обойдёшь всех, последний даст бумажку ко мне. Без неё не возвращайся.",
-            "Responses": [
-                {
-                    "Text": "Понял. Иду.",
                     "NextNodeID": -1,
                     "RequiredQuestID": -1,
                     "ActionType": "END_CONVERSATION"

@@ -1,0 +1,100 @@
+﻿{
+    "Nodes": [
+        {
+            "ID": 1,
+            "Type": "STANDARD",
+            "SpeakerText": "Слушай, раз теперь ты с нами — надо познакомить тебя с остальными. Найди Климентину, Доктора, Бубылду и Гоуста. Скажи каждому — я прислал. Как обойдёшь всех — возвращайся, расскажешь впечатления.",
+            "SpeakerTextConditions": [
+                {
+                    "Text": "Ты уже всё знаешь. Отдыхай пока, потом будет работа.",
+                    "RequiredQuestID": 104,
+                    "RequiredState": "COMPLETED"
+                },
+                {
+                    "Text": "Отдохнул? Есть пара подработок, если хочешь. Заглядывай, когда нужно.",
+                    "RequiredQuestID": 105,
+                    "RequiredState": "COMPLETED"
+                },
+                {
+                    "Text": "Призрак просил зайти — дуй к нему, не задерживай.",
+                    "RequiredQuestID": 106,
+                    "RequiredState": "COMPLETED"
+                }
+            ],
+            "Responses": [
+                {
+                    "Text": "Понял, иду знакомиться.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 104,
+                    "RequiredQuestState": "NONE",
+                    "ActionType": "ACCEPT_QUEST"
+                },
+                {
+                    "Text": "Показывай, что есть.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 105,
+                    "RequiredQuestState": "COMPLETED",
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
+                    "Text": "Что за люди? Расскажи.",
+                    "NextNodeID": 7,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Давай потом.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 2,
+            "Type": "STANDARD",
+            "SpeakerText": "Климентина — главный исследователь. Пришла недавно с основного города с парой работяг своих и вроде как знает... ну или делает вид что знает как заразу обуздать. Доктор — лечит всех подряд, усталый вечно. Бубылда — гений-электрик, но характер — жесть. Гоуст... ну, сам увидишь. Странный он. Очень. Но свой.",
+            "Responses": [
+                {
+                    "Text": "Понял, иду знакомиться.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 104,
+                    "RequiredQuestState": "NONE",
+                    "ActionType": "ACCEPT_QUEST"
+                },
+                {
+                    "Text": "Ладно, потом зайду.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 3,
+            "Type": "STANDARD",
+            "SpeakerText": "Вот, держи рекомендательную бумажку для Климентины. Она главная по науке и исследованиям — без её слова никто тут не работает. Отдашь ей — она скажет, к кому идти дальше. По цепочке обойдёшь всех, последний даст бумажку ко мне. Без неё не возвращайся.",
+            "Responses": [
+                {
+                    "Text": "Понял. Иду.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 4,
+            "Type": "STANDARD",
+            "SpeakerText": "Ну как тебе? Лагерь — он такой. Люди разные, но своих не бросаем. Ты теперь свой, считай. Отдыхай, набирайся сил. Завтра может быть жарко.",
+            "Responses": [
+                {
+                    "Text": "Спасибо за доверие.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 104,
+                    "ActionType": "TURN_IN_QUEST"
+                }
+            ]
+        }
+    ]
+}

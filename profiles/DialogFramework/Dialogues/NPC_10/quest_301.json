@@ -1,0 +1,37 @@
+﻿{
+    "Nodes": [
+        {
+            "ID": 1,
+            "Type": "STANDARD",
+            "SpeakerText": "А, Вовчик... Короче, алкаш местный. Нажрался и забил все сортиры — теперь людям ходить некуда. Сейчас сидит, трясётся, до последнего целого сам не дойдёт. Своди его, а? Он обещал бумажкой расплатиться — я глянул, там ценная какая-то, на схрон идёт. Не пропадать же добру.",
+            "Responses": [
+                {
+                    "Text": "Помогу, конечно.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 301,
+                    "RequiredQuestState": "NONE",
+                    "ActionType": "ACCEPT_QUEST"
+                },
+                {
+                    "Text": "Не до него сейчас.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 2,
+            "Type": "STANDARD",
+            "SpeakerText": "Ну, молодец. Угодил парню. Он там бумажку тебе оставил. Пользуйся.",
+            "Responses": [
+                {
+                    "Text": "Спасибо.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 301,
+                    "ActionType": "TURN_IN_QUEST"
+                }
+            ]
+        }
+    ]
+}
