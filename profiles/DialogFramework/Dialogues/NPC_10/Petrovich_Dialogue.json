@@ -23,7 +23,7 @@
                     "Text": "Меня охранник прислал. Сказал — вы главный, есть разговор.",
                     "NextNodeID": -1,
                     "ActionType": "NONE",
-                    "File": "quest_103.json",
+                    "SubFile": "quest_103.json",
                     "RequiredQuestID": 103,
                     "RequiredQuestState": "NONE"
                 },
@@ -40,7 +40,7 @@
                     "RequiredQuestID": 105,
                     "RequiredQuestState": "COMPLETED",
                     "ActionType": "NONE",
-                    "File": "quest_301.json"
+                    "SubFile": "quest_301.json"
                 },
                 {
                     "Text": "С кого начать?",
@@ -48,7 +48,7 @@
                     "RequiredQuestID": 104,
                     "RequiredQuestState": "STARTED",
                     "ActionType": "NONE",
-                    "File": "quest_104.json"
+                    "SubFile": "quest_104.json"
                 },
                 {
                     "Text": "Я познакомился со всеми!",
@@ -61,7 +61,7 @@
                     "Text": "Петрович, я готов проверить маршрут.",
                     "NextNodeID": -1,
                     "ActionType": "NONE",
-                    "File": "quest_105.json",
+                    "SubFile": "quest_105.json",
                     "RequiredQuestID": 104,
                     "RequiredQuestState": "COMPLETED"
                 },
@@ -83,7 +83,7 @@
                     "Text": "Что там с Вовчиком?",
                     "NextNodeID": -1,
                     "ActionType": "NONE",
-                    "File": "quest_302.json",
+                    "SubFile": "quest_302.json",
                     "RequiredQuestID": 301,
                     "RequiredQuestState": "COMPLETED"
                 },
@@ -98,7 +98,7 @@
                     "Text": "Что слышно про полицейский участок?",
                     "NextNodeID": -1,
                     "ActionType": "NONE",
-                    "File": "quest_9401.json",
+                    "SubFile": "quest_9401.json",
                     "RequiredQuestID": 105,
                     "RequiredQuestState": "COMPLETED"
                 },

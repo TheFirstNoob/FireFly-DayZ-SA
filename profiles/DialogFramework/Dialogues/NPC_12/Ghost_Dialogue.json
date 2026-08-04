@@ -31,7 +31,7 @@
                     "RequiredQuestState": "STARTED",
                     "RequiredItemClassName": "CP_CannabisSeedsPurpleKush",
                     "ActionType": "TALK_DONE",
-                    "File": "quest_106.json",
+                    "SubFile": "quest_106.json",
                     "FileNodeID": 106002
                 },
                 {
@@ -40,7 +40,7 @@
                     "RequiredQuestID": 106,
                     "RequiredQuestState": "NONE",
                     "ActionType": "NONE",
-                    "File": "quest_106.json",
+                    "SubFile": "quest_106.json",
                     "FileNodeID": 106001
                 },
                 {
@@ -49,7 +49,7 @@
                     "RequiredQuestID": 104,
                     "RequiredQuestState": "STARTED",
                     "ActionType": "NONE",
-                    "File": "quest_104.json"
+                    "SubFile": "quest_104.json"
                 },
                 {
                     "Text": "Я разобрался с тем местом.",
@@ -57,7 +57,7 @@
                     "RequiredQuestID": 106,
                     "RequiredQuestState": "CAN_TURNIN",
                     "ActionType": "NONE",
-                    "File": "quest_106.json",
+                    "SubFile": "quest_106.json",
                     "FileNodeID": 106003
                 },
                 {
