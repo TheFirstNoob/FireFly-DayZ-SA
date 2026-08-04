@@ -38,7 +38,7 @@
                 },
                 {
                     "Text": "Что за люди? Расскажи.",
-                    "NextNodeID": 7,
+                    "NextNodeID": 2,
                     "RequiredQuestID": -1,
                     "ActionType": "NONE"
                 },
@@ -67,32 +67,6 @@
                     "NextNodeID": -1,
                     "RequiredQuestID": -1,
                     "ActionType": "END_CONVERSATION"
-                }
-            ]
-        },
-        {
-            "ID": 3,
-            "Type": "STANDARD",
-            "SpeakerText": "Вот, держи рекомендательную бумажку для Климентины. Она главная по науке и исследованиям — без её слова никто тут не работает. Отдашь ей — она скажет, к кому идти дальше. По цепочке обойдёшь всех, последний даст бумажку ко мне. Без неё не возвращайся.",
-            "Responses": [
-                {
-                    "Text": "Понял. Иду.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "END_CONVERSATION"
-                }
-            ]
-        },
-        {
-            "ID": 4,
-            "Type": "STANDARD",
-            "SpeakerText": "Ну как тебе? Лагерь — он такой. Люди разные, но своих не бросаем. Ты теперь свой, считай. Отдыхай, набирайся сил. Завтра может быть жарко.",
-            "Responses": [
-                {
-                    "Text": "Спасибо за доверие.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": 104,
-                    "ActionType": "TURN_IN_QUEST"
                 }
             ]
         }

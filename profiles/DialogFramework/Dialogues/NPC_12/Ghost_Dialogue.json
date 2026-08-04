@@ -30,8 +30,9 @@
                     "RequiredQuestID": 106,
                     "RequiredQuestState": "STARTED",
                     "RequiredItemClassName": "CP_CannabisSeedsPurpleKush",
-                    "ActionType": "NONE",
-                    "File": "quest_106.json"
+                    "ActionType": "TALK_DONE",
+                    "File": "quest_106.json",
+                    "FileNodeID": 106002
                 },
                 {
                     "Text": "Призрак, Петрович сказал зайти. Говорит, у тебя дело.",
@@ -39,7 +40,8 @@
                     "RequiredQuestID": 106,
                     "RequiredQuestState": "NONE",
                     "ActionType": "NONE",
-                    "File": "quest_106.json"
+                    "File": "quest_106.json",
+                    "FileNodeID": 106001
                 },
                 {
                     "Text": "Петрович сказал найти тебя.",
@@ -55,7 +57,8 @@
                     "RequiredQuestID": 106,
                     "RequiredQuestState": "CAN_TURNIN",
                     "ActionType": "NONE",
-                    "File": "quest_106.json"
+                    "File": "quest_106.json",
+                    "FileNodeID": 106003
                 },
                 {
                     "Text": "Ты кто?",
