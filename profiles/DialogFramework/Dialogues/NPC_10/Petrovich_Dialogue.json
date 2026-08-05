@@ -29,7 +29,7 @@
                 },
                 {
                     "Text": "Я сделал то, что ты просил. Пять трупов — готово.",
-                    "NextNodeID": 2,
+                    "NextNodeID": -1,
                     "RequiredQuestID": 103,
                     "RequiredQuestState": "CAN_TURNIN",
                     "ActionType": "TURN_IN_QUEST"
@@ -46,13 +46,13 @@
                     "Text": "С кого начать?",
                     "NextNodeID": -1,
                     "RequiredQuestID": 104,
-                    "RequiredQuestState": "STARTED",
+                    "RequiredQuestState": "NONE",
                     "ActionType": "NONE",
                     "SubFile": "quest_104.json"
                 },
                 {
                     "Text": "Я познакомился со всеми!",
-                    "NextNodeID": 4,
+                    "NextNodeID": -1,
                     "RequiredQuestID": 104,
                     "RequiredQuestState": "CAN_TURNIN",
                     "ActionType": "TURN_IN_QUEST"
@@ -67,14 +67,14 @@
                 },
                 {
                     "Text": "Сходил я. КПП пуст, военных нет. По пути к городу на южной стороне видел полотно WOLF и повешенного. Кто они такие?",
-                    "NextNodeID": 3,
+                    "NextNodeID": -1,
                     "RequiredQuestID": 105,
                     "RequiredQuestState": "CAN_TURNIN",
                     "ActionType": "TURN_IN_QUEST"
                 },
                 {
                     "Text": "Я сводил Вовчика. Живой, целый.",
-                    "NextNodeID": 2,
+                    "NextNodeID": -1,
                     "RequiredQuestID": 301,
                     "RequiredQuestState": "CAN_TURNIN",
                     "ActionType": "TURN_IN_QUEST"
@@ -89,7 +89,7 @@
                 },
                 {
                     "Text": "Я вытащил Вовчика из города.",
-                    "NextNodeID": 2,
+                    "NextNodeID": -1,
                     "RequiredQuestID": 302,
                     "RequiredQuestState": "CAN_TURNIN",
                     "ActionType": "TURN_IN_QUEST"
@@ -104,7 +104,7 @@
                 },
                 {
                     "Text": "Я разобрался в участке.",
-                    "NextNodeID": 3,
+                    "NextNodeID": -1,
                     "RequiredQuestID": 9401,
                     "RequiredQuestState": "CAN_TURNIN",
                     "ActionType": "TURN_IN_QUEST"
