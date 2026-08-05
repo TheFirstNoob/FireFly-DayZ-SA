@@ -11,19 +11,10 @@
 			"SlotName": "Body",
 			"Items": [
 				{
-					"ClassName": "Kerberos_NBCJacketBlack",
+					"ClassName": "TFN_UmbrellaJacket",
 					"Chance": 1.0,
-					"Quantity": {
-						"Min": 0.0,
-						"Max": 0.0
-					},
-					"Health": [
-						{
-							"Min": 0.2,
-							"Max": 0.25,
-							"Zone": ""
-						}
-					],
+					"Quantity": { "Min": 0.0, "Max": 0.0 },
+					"Health": [{ "Min": 0.7, "Max": 1.0, "Zone": "" }],
 					"InventoryAttachments": [],
 					"InventoryCargo": [],
 					"ConstructionPartsBuilt": [],
@@ -35,67 +26,10 @@
 			"SlotName": "Legs",
 			"Items": [
 				{
-					"ClassName": "Kerberos_NBCPantsBlack",
+					"ClassName": "TFN_UmbrellaPants",
 					"Chance": 1.0,
-					"Quantity": {
-						"Min": 0.0,
-						"Max": 0.0
-					},
-					"Health": [
-						{
-							"Min": 0.2,
-							"Max": 0.25,
-							"Zone": ""
-						}
-					],
-					"InventoryAttachments": [],
-					"InventoryCargo": [],
-					"ConstructionPartsBuilt": [],
-					"Sets": []
-				}
-			]
-		},
-		{
-			"SlotName": "Feet",
-			"Items": [
-				{
-					"ClassName": "Kerberos_Boots",
-					"Chance": 1.0,
-					"Quantity": {
-						"Min": 0.0,
-						"Max": 0.0
-					},
-					"Health": [
-						{
-							"Min": 0.2,
-							"Max": 0.25,
-							"Zone": ""
-						}
-					],
-					"InventoryAttachments": [],
-					"InventoryCargo": [],
-					"ConstructionPartsBuilt": [],
-					"Sets": []
-				}
-			]
-		},
-		{
-			"SlotName": "Armband",
-			"Items": [
-				{
-					"ClassName": "Kerberos_Hands",
-					"Chance": 1.0,
-					"Quantity": {
-						"Min": 0.0,
-						"Max": 0.0
-					},
-					"Health": [
-						{
-							"Min": 0.2,
-							"Max": 0.25,
-							"Zone": ""
-						}
-					],
+					"Quantity": { "Min": 0.0, "Max": 0.0 },
+					"Health": [{ "Min": 0.7, "Max": 1.0, "Zone": "" }],
 					"InventoryAttachments": [],
 					"InventoryCargo": [],
 					"ConstructionPartsBuilt": [],
@@ -109,18 +43,55 @@
 				{
 					"ClassName": "TFN_UmbrellaGloves",
 					"Chance": 1.0,
-					"Quantity": {
-						"Min": 0.0,
-						"Max": 0.0
-					},
-					"Health": [
+					"Quantity": { "Min": 0.0, "Max": 0.0 },
+					"Health": [{ "Min": 0.7, "Max": 1.0, "Zone": "" }],
+					"InventoryAttachments": [],
+					"InventoryCargo": [],
+					"ConstructionPartsBuilt": [],
+					"Sets": []
+				}
+			]
+		},
+		{
+			"SlotName": "Feet",
+			"Items": [
+				{
+					"ClassName": "Kerberos_Boots",
+					"Chance": 1.0,
+					"Quantity": { "Min": 0.0, "Max": 0.0 },
+					"Health": [{ "Min": 0.2, "Max": 0.25, "Zone": "" }],
+					"InventoryAttachments": [],
+					"InventoryCargo": [],
+					"ConstructionPartsBuilt": [],
+					"Sets": []
+				}
+			]
+		},
+		{
+			"SlotName": "Armband",
+			"Items": [
+				{
+					"ClassName": "Kerberos_Hand_Armor",
+					"Chance": 1.0,
+					"Quantity": { "Min": 0.0, "Max": 0.0 },
+					"Health": [{ "Min": 0.2, "Max": 0.25, "Zone": "" }],
+					"InventoryAttachments": [
 						{
-							"Min": 0.2,
-							"Max": 0.25,
-							"Zone": ""
+							"SlotName": "Kerberos_Badge",
+							"Items": [
+								{
+									"ClassName": "Kerberos_Badge",
+									"Chance": 1.0,
+									"Quantity": { "Min": 0.0, "Max": 0.0 },
+									"Health": [],
+									"InventoryAttachments": [],
+									"InventoryCargo": [],
+									"ConstructionPartsBuilt": [],
+									"Sets": []
+								}
+							]
 						}
 					],
-					"InventoryAttachments": [],
 					"InventoryCargo": [],
 					"ConstructionPartsBuilt": [],
 					"Sets": []
@@ -133,19 +104,21 @@
 				{
 					"ClassName": "Kerberos_Backpack",
 					"Chance": 1.0,
-					"Quantity": {
-						"Min": 0.0,
-						"Max": 0.0
-					},
-					"Health": [
+					"Quantity": { "Min": 0.0, "Max": 0.0 },
+					"Health": [{ "Min": 0.2, "Max": 0.25, "Zone": "" }],
+					"InventoryAttachments": [],
+					"InventoryCargo": [
 						{
-							"Min": 0.2,
-							"Max": 0.25,
-							"Zone": ""
+							"ClassName": "GasMask_Filter_Kerberos",
+							"Chance": 1.0,
+							"Quantity": { "Min": 0.0, "Max": 0.0 },
+							"Health": [],
+							"InventoryAttachments": [],
+							"InventoryCargo": [],
+							"ConstructionPartsBuilt": [],
+							"Sets": []
 						}
 					],
-					"InventoryAttachments": [],
-					"InventoryCargo": [],
 					"ConstructionPartsBuilt": [],
 					"Sets": []
 				}
@@ -157,17 +130,8 @@
 				{
 					"ClassName": "Kerberos_Helmet",
 					"Chance": 1.0,
-					"Quantity": {
-						"Min": 0.0,
-						"Max": 0.0
-					},
-					"Health": [
-						{
-							"Min": 0.2,
-							"Max": 0.25,
-							"Zone": ""
-						}
-					],
+					"Quantity": { "Min": 0.0, "Max": 0.0 },
+					"Health": [{ "Min": 0.2, "Max": 0.25, "Zone": "" }],
 					"InventoryAttachments": [],
 					"InventoryCargo": [],
 					"ConstructionPartsBuilt": [],
@@ -181,17 +145,8 @@
 				{
 					"ClassName": "Kerberos_Mask_Gas",
 					"Chance": 1.0,
-					"Quantity": {
-						"Min": 0.0,
-						"Max": 0.0
-					},
-					"Health": [
-						{
-							"Min": 0.2,
-							"Max": 0.25,
-							"Zone": ""
-						}
-					],
+					"Quantity": { "Min": 0.0, "Max": 0.0 },
+					"Health": [{ "Min": 0.2, "Max": 0.25, "Zone": "" }],
 					"InventoryAttachments": [],
 					"InventoryCargo": [],
 					"ConstructionPartsBuilt": [],
@@ -205,36 +160,8 @@
 				{
 					"ClassName": "Kerberos_Armor_Vest",
 					"Chance": 1.0,
-					"Quantity": {
-						"Min": 0.0,
-						"Max": 0.0
-					},
-					"Health": [
-						{
-							"Min": 0.2,
-							"Max": 0.25,
-							"Zone": ""
-						}
-					],
-					"InventoryAttachments": [],
-					"InventoryCargo": [],
-					"ConstructionPartsBuilt": [],
-					"Sets": []
-				},
-				{
-					"ClassName": "Kerberos_Armor_Vest2",
-					"Chance": 1.0,
-					"Quantity": {
-						"Min": 0.0,
-						"Max": 0.0
-					},
-					"Health": [
-						{
-							"Min": 0.2,
-							"Max": 0.25,
-							"Zone": ""
-						}
-					],
+					"Quantity": { "Min": 0.0, "Max": 0.0 },
+					"Health": [{ "Min": 0.2, "Max": 0.25, "Zone": "" }],
 					"InventoryAttachments": [],
 					"InventoryCargo": [],
 					"ConstructionPartsBuilt": [],
@@ -248,18 +175,40 @@
 				{
 					"ClassName": "Kerberos_Belt",
 					"Chance": 1.0,
-					"Quantity": {
-						"Min": 0.0,
-						"Max": 0.0
-					},
-					"Health": [
+					"Quantity": { "Min": 0.0, "Max": 0.0 },
+					"Health": [{ "Min": 0.2, "Max": 0.25, "Zone": "" }],
+					"InventoryAttachments": [
 						{
-							"Min": 0.2,
-							"Max": 0.25,
-							"Zone": ""
+							"SlotName": "Pouch_KerberosA",
+							"Items": [
+								{
+									"ClassName": "Kerberos_Pouch_Belt",
+									"Chance": 1.0,
+									"Quantity": { "Min": 0.0, "Max": 0.0 },
+									"Health": [],
+									"InventoryAttachments": [],
+									"InventoryCargo": [],
+									"ConstructionPartsBuilt": [],
+									"Sets": []
+								}
+							]
+						},
+						{
+							"SlotName": "Pouch_KerberosB",
+							"Items": [
+								{
+									"ClassName": "Kerberos_Pouch_Belt",
+									"Chance": 1.0,
+									"Quantity": { "Min": 0.0, "Max": 0.0 },
+									"Health": [],
+									"InventoryAttachments": [],
+									"InventoryCargo": [],
+									"ConstructionPartsBuilt": [],
+									"Sets": []
+								}
+							]
 						}
 					],
-					"InventoryAttachments": [],
 					"InventoryCargo": [],
 					"ConstructionPartsBuilt": [],
 					"Sets": []
@@ -271,10 +220,7 @@
 		{
 			"ClassName": "BandageDressing",
 			"Chance": 1.0,
-			"Quantity": {
-				"Min": 1.0,
-				"Max": 1.0
-			},
+			"Quantity": { "Min": 1.0, "Max": 1.0 },
 			"Health": [],
 			"InventoryAttachments": [],
 			"InventoryCargo": [],
@@ -285,399 +231,41 @@
 	"ConstructionPartsBuilt": [],
 	"Sets": [
 		{
-            "ClassName": "WEAPON",
-            "Chance": 1.0,
-            "Quantity": {
-                "Min": 0.0,
-                "Max": 0.0
-            },
-            "Health": [],
-            "InventoryAttachments": [
-                {
-                    "SlotName": "Shoulder",
-                    "Items": [
-                        {
-                            "ClassName": "PNC_W_M60",
-                            "Chance": 1.0,
-                            "Quantity": {
-                                "Min": 0.0,
-                                "Max": 0.0
-                            },
-                            "Health": [
-                                {
-                                "Min": 0.4,
-                                "Max": 0.6,
-                                "Zone": ""
-                                }
-                            ],
-                            "InventoryAttachments": [
-                                {
-                                    "Items": [
-                                        {
-                                            "ClassName": "PNC_M60_Mag",
-                                            "Chance": 1.0,
-                                            "Quantity": {
-                                                "Min": 1.0,
-                                                "Max": 1.0
-                                            },
-                                            "Health": [],
-                                            "InventoryAttachments": [],
-                                            "InventoryCargo": [],
-                                            "ConstructionPartsBuilt": [],
-                                            "Sets": []
-                                        }
-                                    ]
-                                }
-                            ],
-                            "InventoryCargo": [],
-                            "ConstructionPartsBuilt": [],
-                            "Sets": []
-                        }
-                    ]
-                }
-            ],
-            "InventoryCargo": [
-                {
-                    "ClassName": "PNC_M60_Mag",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "PNC_M60_Mag",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "PNC_M60_Mag",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "Ammo_new_308WinM61",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.8,
-                        "Max": 1.0
-                    },
-                    "Health": [],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                }
-            ],
-            "ConstructionPartsBuilt": [],
-            "Sets": []
-        },
-		{
-            "ClassName": "WEAPON",
-            "Chance": 1.0,
-            "Quantity": {
-                "Min": 0.0,
-                "Max": 0.0
-            },
-            "Health": [],
-            "InventoryAttachments": [
-                {
-                    "SlotName": "Shoulder",
-                    "Items": [
-                        {
-                            "ClassName": "TF_M249",
-                            "Chance": 1.0,
-                            "Quantity": {
-                                "Min": 0.0,
-                                "Max": 0.0
-                            },
-                            "Health": [
-                                {
-                                "Min": 0.4,
-                                "Max": 0.6,
-                                "Zone": ""
-                                }
-                            ],
-                            "InventoryAttachments": [
-                                {
-                                    "Items": [
-                                        {
-                                            "ClassName": "TF_Mag_M249_200Rnd",
-                                            "Chance": 1.0,
-                                            "Quantity": {
-                                                "Min": 1.0,
-                                                "Max": 1.0
-                                            },
-                                            "Health": [],
-                                            "InventoryAttachments": [],
-                                            "InventoryCargo": [],
-                                            "ConstructionPartsBuilt": [],
-                                            "Sets": []
-                                        }
-                                    ]
-                                }
-                            ],
-                            "InventoryCargo": [],
-                            "ConstructionPartsBuilt": [],
-                            "Sets": []
-                        }
-                    ]
-                }
-            ],
-            "InventoryCargo": [
-                {
-                    "ClassName": "TF_Mag_M249_200Rnd",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "TF_Mag_M249_200Rnd",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "TF_Mag_M249_200Rnd",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "Ammo_new_556x45M855",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.8,
-                        "Max": 1.0
-                    },
-                    "Health": [],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                }
-            ],
-            "ConstructionPartsBuilt": [],
-            "Sets": []
-        },
-		{
-            "ClassName": "WEAPON",
-            "Chance": 1.0,
-            "Quantity": {
-                "Min": 0.0,
-                "Max": 0.0
-            },
-            "Health": [],
-            "InventoryAttachments": [
-                {
-                    "SlotName": "Shoulder",
-                    "Items": [
-                        {
-                            "ClassName": "TF_PKP",
-                            "Chance": 1.0,
-                            "Quantity": {
-                                "Min": 0.0,
-                                "Max": 0.0
-                            },
-                            "Health": [
-                                {
-                                "Min": 0.4,
-                                "Max": 0.6,
-                                "Zone": ""
-                                }
-                            ],
-                            "InventoryAttachments": [
-                                {
-                                    "Items": [
-                                        {
-                                            "ClassName": "TF_Mag_PKM_100Rnd",
-                                            "Chance": 1.0,
-                                            "Quantity": {
-                                                "Min": 1.0,
-                                                "Max": 1.0
-                                            },
-                                            "Health": [],
-                                            "InventoryAttachments": [],
-                                            "InventoryCargo": [],
-                                            "ConstructionPartsBuilt": [],
-                                            "Sets": []
-                                        }
-                                    ]
-                                },
-								{
-                                    "Items": [
-                                        {
-                                            "ClassName": "TF_PKM_ZenitPT2Bttstck",
-                                            "Chance": 1.0,
-                                            "Quantity": {
-                                                "Min": 0.0,
-                                                "Max": 0.0
-                                            },
-                                            "Health": [],
-                                            "InventoryAttachments": [],
-                                            "InventoryCargo": [],
-                                            "ConstructionPartsBuilt": [],
-                                            "Sets": []
-                                        }
-                                    ]
-                                },
-								{
-                                    "Items": [
-                                        {
-                                            "ClassName": "TF_PKM_Zenit50Hndgrd_RIS",
-                                            "Chance": 1.0,
-                                            "Quantity": {
-                                                "Min": 0.0,
-                                                "Max": 0.0
-                                            },
-                                            "Health": [],
-                                            "InventoryAttachments": [],
-                                            "InventoryCargo": [],
-                                            "ConstructionPartsBuilt": [],
-                                            "Sets": []
-                                        }
-                                    ]
-                                },
-								{
-                                    "Items": [
-                                        {
-                                            "ClassName": "TF_ZenitRK1B25U_RIS_Grip",
-                                            "Chance": 1.0,
-                                            "Quantity": {
-                                                "Min": 0.0,
-                                                "Max": 0.0
-                                            },
-                                            "Health": [],
-                                            "InventoryAttachments": [],
-                                            "InventoryCargo": [],
-                                            "ConstructionPartsBuilt": [],
-                                            "Sets": []
-                                        }
-                                    ]
-                                },
-								{
-                                    "Items": [
-                                        {
-                                            "ClassName": "TF_PKM_6ch43Compensator",
-                                            "Chance": 1.0,
-                                            "Quantity": {
-                                                "Min": 0.0,
-                                                "Max": 0.0
-                                            },
-                                            "Health": [],
-                                            "InventoryAttachments": [],
-                                            "InventoryCargo": [],
-                                            "ConstructionPartsBuilt": [],
-                                            "Sets": []
-                                        }
-                                    ]
-                                }
-                            ],
-                            "InventoryCargo": [],
-                            "ConstructionPartsBuilt": [],
-                            "Sets": []
-                        }
-                    ]
-                }
-            ],
-            "InventoryCargo": [
-                {
-                    "ClassName": "TF_Mag_PKM_100Rnd",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "TF_Mag_PKM_100Rnd",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "TF_Mag_PKM_100Rnd",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "Ammo_new_762x54Snb",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.8,
-                        "Max": 1.0
-                    },
-                    "Health": [],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                }
-            ],
-            "ConstructionPartsBuilt": [],
-            "Sets": []
-        }
+			"ClassName": "WEAPON",
+			"Chance": 1.0,
+			"Quantity": { "Min": 0.0, "Max": 0.0 },
+			"Health": [],
+			"InventoryAttachments": [
+				{
+					"SlotName": "Shoulder",
+					"Items": [
+						{
+							"ClassName": "TF_PKP",
+							"Chance": 1.0,
+							"Quantity": { "Min": 0.0, "Max": 0.0 },
+							"Health": [{ "Min": 0.4, "Max": 0.6, "Zone": "" }],
+							"InventoryAttachments": [
+								{ "Items": [{ "ClassName": "TF_Mag_PKM_100Rnd", "Chance": 1.0, "Quantity": { "Min": 1.0, "Max": 1.0 }, "Health": [], "InventoryAttachments": [], "InventoryCargo": [], "ConstructionPartsBuilt": [], "Sets": [] }] },
+								{ "Items": [{ "ClassName": "TF_PKM_ZenitPT2Bttstck", "Chance": 1.0, "Quantity": { "Min": 0.0, "Max": 0.0 }, "Health": [], "InventoryAttachments": [], "InventoryCargo": [], "ConstructionPartsBuilt": [], "Sets": [] }] },
+								{ "Items": [{ "ClassName": "TF_PKM_Zenit50Hndgrd_RIS", "Chance": 1.0, "Quantity": { "Min": 0.0, "Max": 0.0 }, "Health": [], "InventoryAttachments": [], "InventoryCargo": [], "ConstructionPartsBuilt": [], "Sets": [] }] },
+								{ "Items": [{ "ClassName": "TF_ZenitRK1B25U_RIS_Grip", "Chance": 1.0, "Quantity": { "Min": 0.0, "Max": 0.0 }, "Health": [], "InventoryAttachments": [], "InventoryCargo": [], "ConstructionPartsBuilt": [], "Sets": [] }] },
+								{ "Items": [{ "ClassName": "TF_PKM_6ch43Compensator", "Chance": 1.0, "Quantity": { "Min": 0.0, "Max": 0.0 }, "Health": [], "InventoryAttachments": [], "InventoryCargo": [], "ConstructionPartsBuilt": [], "Sets": [] }] }
+							],
+							"InventoryCargo": [],
+							"ConstructionPartsBuilt": [],
+							"Sets": []
+						}
+					]
+				}
+			],
+			"InventoryCargo": [
+				{ "ClassName": "TF_Mag_PKM_100Rnd", "Chance": 1.0, "Quantity": { "Min": 0.0, "Max": 0.0 }, "Health": [], "InventoryAttachments": [], "InventoryCargo": [], "ConstructionPartsBuilt": [], "Sets": [] },
+				{ "ClassName": "TF_Mag_PKM_100Rnd", "Chance": 1.0, "Quantity": { "Min": 0.0, "Max": 0.0 }, "Health": [], "InventoryAttachments": [], "InventoryCargo": [], "ConstructionPartsBuilt": [], "Sets": [] },
+				{ "ClassName": "TF_Mag_PKM_100Rnd", "Chance": 1.0, "Quantity": { "Min": 0.0, "Max": 0.0 }, "Health": [], "InventoryAttachments": [], "InventoryCargo": [], "ConstructionPartsBuilt": [], "Sets": [] },
+				{ "ClassName": "Ammo_new_762x54Snb", "Chance": 1.0, "Quantity": { "Min": 0.8, "Max": 1.0 }, "Health": [], "InventoryAttachments": [], "InventoryCargo": [], "ConstructionPartsBuilt": [], "Sets": [] }
+			],
+			"ConstructionPartsBuilt": [],
+			"Sets": []
+		}
 	]
 }
