@@ -23,7 +23,7 @@
 		"MaxAccuracy": 0.33,
 		"CanBeLooted": true,
 		"UnlimitedReload": false,
-		"ThreatDistanceLimit": 300.0,
+		"ThreatDistanceLimit": 450.0,
 		"DamageMultiplier": 1.0,
 		"DamageReceivedMultiplier": 1.0,
 		"ClassNames": [
@@ -63,8 +63,8 @@
 		"RespawnTime": 1.0,
 		"DespawnTime": 1.0,
 		"MinDistanceRadius": 50.0,
-		"MaxDistanceRadius": 350.0,
-		"DespawnRadius": 350.0
+		"MaxDistanceRadius": 650.0,
+		"DespawnRadius": 650.0
 	},
 	"MaxDistance": -1,
 	"MinDistance": -1,
