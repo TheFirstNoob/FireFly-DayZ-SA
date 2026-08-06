@@ -1,0 +1,35 @@
+{
+    "ConfigVersion": 101,
+    "Crops": [
+        {
+            "PlantTypeName": "Plant_Tomato",
+            "MinutesToGrow": 30,
+            "CropCount": 7,
+            "InitialYield": 1
+        },
+        {
+            "PlantTypeName": "Plant_Pepper",
+            "MinutesToGrow": 35,
+            "CropCount": 5,
+            "InitialYield": 1
+        },
+        {
+            "PlantTypeName": "Plant_Zucchini",
+            "MinutesToGrow": 25,
+            "CropCount": 4,
+            "InitialYield": 1
+        },
+        {
+            "PlantTypeName": "Plant_Pumpkin",
+            "MinutesToGrow": 45,
+            "CropCount": 2,
+            "InitialYield": 1
+        },
+        {
+            "PlantTypeName": "Plant_Potato",
+            "MinutesToGrow": 35,
+            "CropCount": 6,
+            "InitialYield": 1
+        }
+    ]
+}
