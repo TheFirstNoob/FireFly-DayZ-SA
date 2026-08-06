@@ -3,8 +3,13 @@
 	<defaults>
 		<default name="group" lootmax="6"/>
 		<default name="container" lootmax="4"/>
-		<default name="clusterMatrix" de="TrajectoryCraterellus" width="12" height="12"/>
+		<default name="keepInvalidPoints" enabled="yes"/>
+		<default name="clusterMatrix" de="TrajectoryApple" width="12" height="12"/>
 		<default name="clusterMatrix" de="TrajectoryStones" width="12" height="12"/>
+		<default name="clusterMatrix" de="TrajectoryConiferous" width="12" height="12"/>
+		<default name="clusterMatrix" de="TrajectoryDeciduous" width="12" height="12"/>
+		<default name="clusterMatrix" de="TrajectoryHumus" width="12" height="12"/>
+		<default name="clusterMatrix" de="TrajectoryPear" width="12" height="12"/>
 	</defaults>
 	<group name="Land_Roadblock_Table" lootmax="2">
 		<usage name="Military"/>
@@ -3615,6 +3620,8 @@
 			<point pos="3.712806 8.622662 17.108110" range="1.199951" height="2.000011"/>
 		</container>
 	</group>
+	<!-- Land_Office_Municipal2: no points, disabled -->
+	<!--
 	<group name="Land_Office_Municipal2" lootmax="0">
 		<usage name="Town"/>
 		<usage name="Office"/>
@@ -3633,6 +3640,7 @@
 			<category name="weapons"/>
 		</container>
 	</group>
+	-->
 	<group name="Land_City_Store" lootmax="90">
 		<usage name="Town"/>
 		<usage name="Industrial"/>
@@ -15468,6 +15476,8 @@
 			<point pos="-3.818542 -1.811153 -1.685303" range="0.460957" height="1.302490"/>
 		</container>
 	</group>
+	<!-- Land_Wreck_C130J: no points, disabled -->
+	<!--
 	<group name="Land_Wreck_C130J" lootmax="0">
 		<usage name="Military"/>
 		<container name="lootFloor" lootmax="0">
@@ -15479,6 +15489,7 @@
 			<tag name="shelves"/>
 		</container>
 	</group>
+	-->
 	<group name="Land_Wreck_Volha_Police" lootmax="11">
 		<usage name="Police"/>
 		<usage name="Town"/>
@@ -22692,7 +22703,7 @@
 			<category name="containers"/>
 			<category name="clothes"/>
 			<category name="food"/>
-			<category name="book"/>
+			<category name="books"/>
 			<usage name="Medic"/>
 			<point pos="-0.870431 -2.774014 -0.832269" range="0.271875" height="0.679688"/>
 			<point pos="-1.011703 -3.093178 0.071347" range="0.271875" height="0.679688"/>
@@ -22714,52 +22725,6 @@
 			<point pos="3.884297 -2.817455 -0.651012" range="0.443750" height="1.109375"/>
 			<point pos="5.420890 -3.787657 2.122980" range="1.066406" height="2.000002"/>
 			<point pos="4.645061 -3.787657 0.512769" range="0.720963" height="1.995642"/>
-		</container>
-	</group>
-	<group name="Land_CementWorks_ConveyorHall" lootmax="18">
-		<usage name="Industrial"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-		<container name="lootFloor" lootmax="10">
-			<category name="tools"/>
-			<category name="containers"/>
-			<category name="clothes"/>
-			<tag name="floor"/>
-			<tag name="ground"/>
-			<point pos="12.861005 -4.115185 -2.386193" range="0.654281" height="1.635703"/>
-			<point pos="26.978739 -4.124046 6.058780" range="1.116939" height="2.000000"/>
-			<point pos="12.490808 -4.115185 8.556733" range="0.770981" height="1.927452"/>
-			<point pos="4.800537 -4.115185 -0.891561" range="1.200000" height="2.000000"/>
-			<point pos="-15.780611 -4.115185 -1.063776" range="1.200000" height="2.000000"/>
-			<point pos="-22.018421 -4.115185 8.940730" range="0.735764" height="1.839409"/>
-			<point pos="-18.303463 -4.115185 -4.486224" range="1.153192" height="2.000000"/>
-			<point pos="-0.550945 -4.115185 -7.492153" range="1.200000" height="2.000000"/>
-			<point pos="9.345941 -4.115185 -4.716638" range="1.200000" height="2.000000"/>
-			<point pos="21.937628 -4.124046 -2.432721" range="0.715048" height="1.787620"/>
-		</container>
-		<container name="lootshelves" lootmax="6">
-			<category name="tools"/>
-			<category name="containers"/>
-			<category name="clothes"/>
-			<category name="books"/>
-			<category name="food"/>
-			<tag name="shelves"/>
-			<point pos="-19.682100 -3.034866 10.560308" range="1.058589" height="2.000000"/>
-			<point pos="5.571986 -3.031399 10.662122" range="0.962259" height="2.000000"/>
-			<point pos="22.197868 -3.029118 10.481261" range="0.956735" height="2.000000"/>
-			<point pos="-5.812254 -3.032963 10.506893" range="0.997822" height="2.000000"/>
-			<point pos="24.759348 -2.907398 5.510709" range="0.237500" height="0.593750"/>
-			<point pos="-9.195829 -4.126305 -8.872463" range="1.200000" height="2.000004"/>
-		</container>
-		<container name="lootweapons" lootmax="2">
-			<category name="weapons"/>
-			<point pos="-14.611382 -3.034172 10.707123" range="0.902183" height="2.000000"/>
-			<point pos="-8.653253 -4.115185 -1.722317" range="1.200000" height="2.000000"/>
-			<point pos="-2.065600 -4.115185 1.212933" range="0.477850" height="1.194625"/>
-			<point pos="0.950818 -3.032032 10.173044" range="0.646685" height="1.616713"/>
-			<point pos="24.697807 -3.035328 7.199706" range="0.168750" height="0.421875"/>
-			<point pos="16.440996 -3.029907 10.846585" range="0.784101" height="1.960254"/>
 		</container>
 	</group>
 	<!--
@@ -23525,7 +23490,7 @@
 			<category name="clothes"/>
 			<category name="weapons"/>
 			<category name="food"/>
-			<category name="book"/>
+			<category name="books"/>
 			<tag name="floor"/>
 			<tag name="shelves"/>
 			<point pos="2.268555 -3.487514 2.257568" range="0.100000" height="0.250000"/>
