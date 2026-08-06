@@ -37,8 +37,8 @@
                 {
                     "Text": "Слышал, Вовчику помощь нужна?",
                     "NextNodeID": -1,
-                    "RequiredQuestID": 105,
-                    "RequiredQuestState": "COMPLETED",
+                    "RequiredQuestID": 301,
+                    "RequiredQuestState": "NONE",
                     "ActionType": "NONE",
                     "SubFile": "quest_301.json"
                 },
@@ -62,8 +62,8 @@
                     "NextNodeID": -1,
                     "ActionType": "NONE",
                     "SubFile": "quest_105.json",
-                    "RequiredQuestID": 104,
-                    "RequiredQuestState": "COMPLETED"
+                    "RequiredQuestID": 105,
+                    "RequiredQuestState": "NONE"
                 },
                 {
                     "Text": "Сходил я. КПП пуст, военных нет. По пути к городу на южной стороне видел полотно WOLF и повешенного. Кто они такие?",
@@ -84,8 +84,8 @@
                     "NextNodeID": -1,
                     "ActionType": "NONE",
                     "SubFile": "quest_302.json",
-                    "RequiredQuestID": 301,
-                    "RequiredQuestState": "COMPLETED"
+                    "RequiredQuestID": 302,
+                    "RequiredQuestState": "NONE"
                 },
                 {
                     "Text": "Я вытащил Вовчика из города.",
@@ -99,8 +99,8 @@
                     "NextNodeID": -1,
                     "ActionType": "NONE",
                     "SubFile": "quest_9401.json",
-                    "RequiredQuestID": 105,
-                    "RequiredQuestState": "COMPLETED"
+                    "RequiredQuestID": 9401,
+                    "RequiredQuestState": "NONE"
                 },
                 {
                     "Text": "Я разобрался в участке.",
