@@ -47,6 +47,14 @@
                     "RequiredQuestState": "STARTED",
                     "ActionType": "NONE",
                     "SubFile": "quest_104.json"
+                },
+                {
+                    "Text": "Помоги мне, док.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 104,
+                    "RequiredQuestState": "COMPLETED",
+                    "ActionType": "NONE",
+                    "SubFile": "doctor_heal.json"
                 }
             ]
         },

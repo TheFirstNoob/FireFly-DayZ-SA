@@ -1,0 +1,59 @@
+{
+    "Nodes": [
+        {
+            "ID": 1,
+            "Type": "STANDARD",
+            "SpeakerText": "Ну, давай смотреть. Что у тебя болит? За лечение беру репутацией — за бесплатно тут ничего не бывает.",
+            "Responses": [
+                {
+                    "Text": "Вылечить сепсис (-250)",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "DOCTOR_HEAL",
+                    "HealType": "sepsis"
+                },
+                {
+                    "Text": "Вылечить зомби-вирус (-300)",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "DOCTOR_HEAL",
+                    "HealType": "zvirus"
+                },
+                {
+                    "Text": "Вылечить бешенство (-200)",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "DOCTOR_HEAL",
+                    "HealType": "rabies"
+                },
+                {
+                    "Text": "Восполнить здоровье (25 за 15%)",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "DOCTOR_HEAL",
+                    "HealType": "health"
+                },
+                {
+                    "Text": "Восполнить кровь (10 за 250 мл)",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "DOCTOR_HEAL",
+                    "HealType": "blood"
+                },
+                {
+                    "Text": "Вылечить всё (по факту)",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "DOCTOR_HEAL",
+                    "HealType": "all"
+                },
+                {
+                    "Text": "Пока.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        }
+    ]
+}
