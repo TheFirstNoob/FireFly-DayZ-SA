@@ -891,7 +891,7 @@
         <nominal>2</nominal>
         <min>1</min>
         <max>2</max>
-        <lifetime>60</lifetime>
+        <lifetime>2100</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
         <distanceradius>500</distanceradius>
@@ -902,7 +902,7 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="15" lootmin="10" max="3" min="1" type="Land_UFO_v2"/>		<!-- update objectname -->
+            <child lootmax="7" lootmin="5" max="3" min="1" type="Land_UFO_v2"/>		<!-- loot via BanovPod -->
         </children>
     </event>
     <event name="StaticHeliCrash">

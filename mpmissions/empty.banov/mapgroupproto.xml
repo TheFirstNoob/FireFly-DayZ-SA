@@ -15363,13 +15363,13 @@
 			<point pos="-4.802368 -1.856922 -0.578615" range="0.329033" height="1.024933" flags="32"/>
 		</container>
 	</group>
-	<group name="Land_UFO_v2" lootmax="18">
+	<group name="Land_UFO_v2" lootmax="8">
 		<usage name="Military"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
 		<value name="Tier4"/>
-		<container name="lootFloor" lootmax="18">
+		<container name="lootFloor" lootmax="8">
 			<category name="alienpod"/>
 			<tag name="floor"/>
 			<tag name="shelves"/>
