@@ -2,6 +2,17 @@
 <!-- 'reset' and 'enable' are a bool, and therefore supports: 0/1, true/false, yes/no -->
 <!-- 'reset' controls whether you want to load in the weather from storage or not (false by default) -->
 <!-- 'enable' controls whether this file is enabled or not (true by default) -->
+<!--
+  ВНИМАНИЕ: на карте Banov фактическое поведение погоды задаёт WorldData карты
+  (class banovData + FireFly_Weather.c из FireFly_Vanilla_Fixes). Этот файл
+  применяется при старте миссии, но погодой рулит сессионная логика модуля.
+  Реальные параметры (FireFly_Vanilla_Fixes/Scripts/4_World/WorldData/FireFly_Weather.c):
+    - сессия 6 часов: ясно -> облачно -> максимально облачно, после 100% - рассеивание
+    - дождь: шанс 8% на сессию (5-10%), начинается только после сильной облачности
+      (progress >= 0.7, облачность ~0.82), нарастает к концу сессии
+    - порог дождя по облачности: 0.7 (здесь: thresholds min=0.7, end=60)
+    - гроза: только в окне дождя, плотность 0.3, threshold 0.85, timeout 45
+-->
 <weather reset="0" enable="1">
     <overcast>
         <!-- Initial conditions of the overcast (target value, time to change, how long will it stay) -->
@@ -33,7 +44,7 @@
         <!-- How much should the rain change (0..1) -->
         <changelimits min="0.0" max="0.2" />
         <!-- What range of the overcast value allows the rain to be preset (min, max overcast value, time in seconds it takes for rain to stop if the overcast is outside of the specified range) -->
-        <thresholds min="0.75" max="1.0" end="120" />
+        <thresholds min="0.7" max="1.0" end="60" />
     </rain>
     <windMagnitude>
         <!-- Initial conditions of the wind magnitude (target value, time to change, how long will it stay), restricted by thresholds (see below) -->
@@ -69,5 +80,5 @@
         <thresholds min="1.0" max="1.0" end="120" />
     </snowfall>
     <!-- Lightning density (0..1), threshold for the lightning appearance (tied to the overcast value, 0..1), time (seconds) between the lightning strikes -->
-    <storm density="0.5" threshold="0.85" timeout="45"/>
+    <storm density="0.3" threshold="0.85" timeout="45"/>
 </weather>
