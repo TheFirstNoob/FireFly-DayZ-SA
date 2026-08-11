@@ -1,0 +1,42 @@
+{
+  "ConfigVersion": 28,
+  "ID": 10703,
+  "ObjectiveType": 8,
+  "ObjectiveText": "Убейте фанатиков в хижине",
+  "TimeLimit": -1,
+  "Active": 1,
+  "AISpawns": [
+    {
+      "Name": "Фанатик",
+      "Persist": 0,
+      "Faction": "Fanatic",
+      "Formation": "RANDOM",
+      "Loadout": "AI_Quest107_Loadout",
+      "Units": [
+        "eAI_SurvivorM_Boris"
+      ],
+      "NumberOfAI": 3,
+      "Behaviour": "HALT_OR_ALTERNATE",
+      "Speed": "WALK",
+      "UnderThreatSpeed": "SPRINT",
+      "AccuracyMin": 0.2,
+      "AccuracyMax": 0.35,
+      "ThreatDistanceLimit": 200,
+      "MinDistRadius": 10,
+      "MaxDistRadius": 40,
+      "DespawnRadius": 100,
+      "Chance": 1,
+      "CanBeLooted": 1,
+      "Waypoints": [
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ],
+  "InfectedDeletionRadius": 200,
+  "MaxDistance": -1,
+  "MinDistance": -1
+}

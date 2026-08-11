@@ -5,10 +5,19 @@
         {
             "ID": 1,
             "Type": "STANDARD",
-            "SpeakerText": "Кто таков? Чего уставился? Говори, раз пришёл.",
+            "SpeakerText": "Что-то нужно? Я просто сильно занят как видишь...",
             "Responses": [
                 {
-                    "Text": "Петрович сказал познакомиться.",
+                    "Text": "Петрович прислал. Говорит, ты ловишь странный сигнал.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 108,
+                    "RequiredQuestState": "STARTED",
+                    "ActionType": "NONE",
+                    "SubFile": "quest_108.json",
+                    "FileNodeID": 108001
+                },
+                {
+                    "Text": "Меня Петрович прислал познакомиться.",
                     "NextNodeID": -1,
                     "RequiredQuestID": 104,
                     "RequiredQuestState": "STARTED",

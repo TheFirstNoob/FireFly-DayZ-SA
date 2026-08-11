@@ -1,0 +1,26 @@
+{
+  "ConfigVersion": 28,
+  "ID": 10704,
+  "ObjectiveType": 5,
+  "ObjectiveText": "Найдите журнал Тараса и листовку",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Collections": [
+    {
+      "ClassName": "FireFly_ScoutJournal",
+      "Amount": 1,
+      "QuantityPercent": -1,
+      "MinQuantityPercent": -1
+    },
+    {
+      "ClassName": "FireFly_FanaticFlyer",
+      "Amount": 1,
+      "QuantityPercent": -1,
+      "MinQuantityPercent": -1
+    }
+  ],
+  "NeedAnyCollection": false,
+  "ShowDistance": 0,
+  "MaxDistance": -1,
+  "AddItemsToNearbyMarketZone": 0
+}

@@ -110,6 +110,60 @@
                     "ActionType": "TURN_IN_QUEST"
                 },
                 {
+                    "Text": "Тарас нашёлся? Что с ним?",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 107,
+                    "RequiredQuestState": "NONE",
+                    "ActionType": "NONE",
+                    "SubFile": "quest_107.json",
+                    "FileNodeID": 107001
+                },
+                {
+                    "Text": "Я нашёл Тараса. И кое-что ещё.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 107,
+                    "RequiredQuestState": "CAN_TURNIN",
+                    "ActionType": "NONE",
+                    "SubFile": "quest_107.json",
+                    "FileNodeID": 107003
+                },
+                {
+                    "Text": "Я иду по следу Тараса.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 107,
+                    "RequiredQuestState": "STARTED",
+                    "ActionType": "NONE",
+                    "SubFile": "quest_107.json",
+                    "FileNodeID": 107001
+                },
+                {
+                    "Text": "Ты говорил про сигнал Бубылды. Я готов.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 108,
+                    "RequiredQuestState": "NONE",
+                    "ActionType": "NONE",
+                    "SubFile": "quest_108.json",
+                    "FileNodeID": 108001
+                },
+                {
+                    "Text": "Я был на вышке. Вот что они записывали.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 108,
+                    "RequiredQuestState": "CAN_TURNIN",
+                    "ActionType": "NONE",
+                    "SubFile": "quest_108.json",
+                    "FileNodeID": 108003
+                },
+                {
+                    "Text": "Я ещё ищу эту вышку.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 108,
+                    "RequiredQuestState": "STARTED",
+                    "ActionType": "NONE",
+                    "SubFile": "quest_108.json",
+                    "FileNodeID": 108001
+                },
+                {
                     "Text": "Работа есть какая?",
                     "NextNodeID": -1,
                     "RequiredQuestID": 105,

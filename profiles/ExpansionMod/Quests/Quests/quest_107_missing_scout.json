@@ -1,0 +1,91 @@
+{
+  "ConfigVersion": 22,
+  "ID": 107,
+  "Type": 1,
+  "Title": "[СЮЖЕТ] Пропавший",
+  "Descriptions": [
+    "Петрович хмуро смотрит на карту: «Тарас, наш разведчик. Двое суток молчит. Его маршрут — старая охотничья хижина на северо-востоке. Сходи. Если жив — приведи. Если нет... принеси что найдёшь.»",
+    "В хижине — следы борьбы. Вещи Тараса разбросаны. Чужие следы ведут к обрыву. Нужно найти Тараса и его журнал — и проверить, кто здесь был.",
+    "Ты возвращаешься с журналом Тараса и листовкой. Петрович должен это увидеть."
+  ],
+  "ObjectiveText": "Найдите пропавшего разведчика Тараса. Последний маршрут — старая охотничья хижина.",
+  "FollowUpQuest": 108,
+  "Repeatable": 0,
+  "IsDailyQuest": 0,
+  "IsWeeklyQuest": 0,
+  "CancelQuestOnPlayerDeath": 1,
+  "Autocomplete": 0,
+  "IsGroupQuest": 0,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [
+    {
+      "ClassName": "MSP_VorpalKnife",
+      "Amount": 1,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": -1,
+      "MinObjectiveCount": -1,
+      "RequiredObjectiveID": -1,
+      "Chance": 1.0
+    }
+  ],
+  "NeedToSelectReward": 0,
+  "RandomReward": 0,
+  "RandomRewardAmount": -1,
+  "RewardsForGroupOwnerOnly": 1,
+  "RewardBehavior": 0,
+  "QuestGiverIDs": [
+    10
+  ],
+  "QuestTurnInIDs": [
+    10
+  ],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 10701,
+      "ObjectiveType": 14
+    },
+    {
+      "ConfigVersion": 28,
+      "ID": 10702,
+      "ObjectiveType": 3
+    },
+    {
+      "ConfigVersion": 28,
+      "ID": 10703,
+      "ObjectiveType": 8
+    },
+    {
+      "ConfigVersion": 28,
+      "ID": 10704,
+      "ObjectiveType": 5
+    },
+    {
+      "ConfigVersion": 28,
+      "ID": 10705,
+      "ObjectiveType": 3
+    }
+  ],
+  "QuestColor": 0,
+  "ReputationReward": 250,
+  "ReputationRequirement": -1,
+  "PreQuestIDs": [
+    106
+  ],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 0,
+  "DeleteQuestItems": 0,
+  "SequentialObjectives": 1,
+  "CompletionMode": 0,
+  "MinRequiredObjectives": -1,
+  "QuestTimeLimit": -1,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 1
+}
