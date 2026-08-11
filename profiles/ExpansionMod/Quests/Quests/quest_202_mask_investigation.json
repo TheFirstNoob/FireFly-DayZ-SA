@@ -1,0 +1,97 @@
+{
+  "ConfigVersion": 22,
+  "ID": 202,
+  "Type": 1,
+  "Title": "[Побочный сюжет] Что скрывают маски",
+  "Descriptions": [
+    "Гоуст задумчиво смотрит на дым над заводом: «Я наблюдал за ними. Это не просто безумцы — у них система. Одинаковые маски, но символы разные. Ритуалы каждую ночь. Принеси мне несколько масок с их тел. И Доктору занеси — может, он поймёт, чем они дышат.»",
+    "Доктор вертит маску в руках: «Химический осадок. Галлюциноген. Концентрация — как для боевого применения. Их не просто промыли мозги — их травят. Кто-то поставляет им эту дрянь.»",
+    "Гоуст молча слушает, потом кивает: «Я так и думал. Кто-то стоит за ними. Кто-то с ресурсами. Ладно — ты сделал больше, чем я просил. Держи.»"
+  ],
+  "ObjectiveText": "Соберите маски с тел фанатиков и отнесите Доктору на анализ, затем доложите Гоусту.",
+  "FollowUpQuest": -1,
+  "Repeatable": 0,
+  "IsDailyQuest": 0,
+  "IsWeeklyQuest": 0,
+  "CancelQuestOnPlayerDeath": 1,
+  "Autocomplete": 0,
+  "IsGroupQuest": 0,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [
+    {
+      "ClassName": "A6_SecureContainer_Beta",
+      "Amount": 1,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": -1,
+      "MinObjectiveCount": -1,
+      "RequiredObjectiveID": -1,
+      "Chance": 1.0
+    },
+    {
+      "ClassName": "CP_CannabisSeedsBlueGod",
+      "Amount": 1,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": -1,
+      "MinObjectiveCount": -1,
+      "RequiredObjectiveID": -1,
+      "Chance": 1.0
+    }
+  ],
+  "NeedToSelectReward": 0,
+  "RandomReward": 0,
+  "RandomRewardAmount": -1,
+  "RewardsForGroupOwnerOnly": 1,
+  "RewardBehavior": 0,
+  "QuestGiverIDs": [
+    12
+  ],
+  "QuestTurnInIDs": [
+    12
+  ],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 20201,
+      "ObjectiveType": 14
+    },
+    {
+      "ConfigVersion": 28,
+      "ID": 20202,
+      "ObjectiveType": 5
+    },
+    {
+      "ConfigVersion": 28,
+      "ID": 20203,
+      "ObjectiveType": 14
+    },
+    {
+      "ConfigVersion": 28,
+      "ID": 20204,
+      "ObjectiveType": 14
+    }
+  ],
+  "QuestColor": 0,
+  "ReputationReward": 400,
+  "ReputationRequirement": -1,
+  "PreQuestIDs": [
+    201
+  ],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 0,
+  "DeleteQuestItems": 1,
+  "SequentialObjectives": 1,
+  "CompletionMode": 0,
+  "MinRequiredObjectives": -1,
+  "QuestTimeLimit": -1,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 1
+}

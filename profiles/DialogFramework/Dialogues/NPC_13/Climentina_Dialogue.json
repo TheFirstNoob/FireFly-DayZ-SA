@@ -20,6 +20,60 @@
                     "ActionType": "NONE"
                 },
                 {
+                    "Text": "Гоуст сказал — у тебя есть образцы для эксперимента.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 204,
+                    "RequiredQuestState": "NONE",
+                    "ActionType": "NONE",
+                    "SubFile": "quest_204.json",
+                    "FileNodeID": 204001
+                },
+                {
+                    "Text": "Я принёс шприцы. Давай выберем протокол.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 204,
+                    "RequiredQuestState": "CAN_TURNIN",
+                    "ActionType": "NONE",
+                    "SubFile": "quest_204.json",
+                    "FileNodeID": 204003
+                },
+                {
+                    "Text": "Я готов к эксперименту.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 204,
+                    "RequiredQuestState": "STARTED",
+                    "ActionType": "NONE",
+                    "SubFile": "quest_204.json",
+                    "FileNodeID": 204003
+                },
+                {
+                    "Text": "Я провёл эксперимент. Контроль.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 2041,
+                    "RequiredQuestState": "CAN_TURNIN",
+                    "ActionType": "NONE",
+                    "SubFile": "quest_2041.json",
+                    "FileNodeID": 2041002
+                },
+                {
+                    "Text": "Я провёл эксперимент. Стимулятор.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 2042,
+                    "RequiredQuestState": "CAN_TURNIN",
+                    "ActionType": "NONE",
+                    "SubFile": "quest_2042.json",
+                    "FileNodeID": 2042002
+                },
+                {
+                    "Text": "Я провёл эксперимент. Сыворотка.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 2043,
+                    "RequiredQuestState": "CAN_TURNIN",
+                    "ActionType": "NONE",
+                    "SubFile": "quest_2043.json",
+                    "FileNodeID": 2043002
+                },
+                {
                     "Text": "Доктор сказал тебе это показать.",
                     "NextNodeID": -1,
                     "RequiredQuestID": 106,

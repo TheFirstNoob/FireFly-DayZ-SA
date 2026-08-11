@@ -1,0 +1,126 @@
+{
+  "ConfigVersion": 22,
+  "ID": 203,
+  "Type": 1,
+  "Title": "[Побочный сюжет] Корни",
+  "Descriptions": [
+    "Гоуст молча кладёт на стол несколько древесных волокон. Они светятся в темноте — слабо, но заметно. «Я не спрашиваю откуда. Лаборанты делятся образцами. Это — из аномальной рощи. Деревья там растут странно. Быстро. И древесина не гниёт. Я проверял. Мне нужно больше волокон — пять стволов, с разных мест. Сходи.»",
+    "«Интересно. Очень интересно.» — Гоуст бросает волокна в миску с остатками масок. Смесь шипит, дымится. Через минуту он протягивает пакетик семян. «Новый сорт. Назвал Future. Не спрашивай как — я много чего умею. В лаборатории многому научился.»",
+    "Гоуст кивает: «Будущее, которое ты помог создать. Возвращайся — будут ещё образцы.»"
+  ],
+  "ObjectiveText": "Срубите по одному дереву в пяти аномальных точках. Понадобится топор.",
+  "FollowUpQuest": -1,
+  "Repeatable": 0,
+  "IsDailyQuest": 0,
+  "IsWeeklyQuest": 0,
+  "CancelQuestOnPlayerDeath": 1,
+  "Autocomplete": 0,
+  "IsGroupQuest": 0,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [
+    {
+      "ClassName": "CP_CannabisSeedsFuture",
+      "Amount": 1,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": -1,
+      "MinObjectiveCount": -1,
+      "RequiredObjectiveID": -1,
+      "Chance": 1.0
+    }
+  ],
+  "NeedToSelectReward": 0,
+  "RandomReward": 0,
+  "RandomRewardAmount": -1,
+  "RewardsForGroupOwnerOnly": 1,
+  "RewardBehavior": 0,
+  "QuestGiverIDs": [
+    12
+  ],
+  "QuestTurnInIDs": [
+    12
+  ],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 20301,
+      "ObjectiveType": 14
+    },
+    {
+      "ConfigVersion": 28,
+      "ID": 20302,
+      "ObjectiveType": 3
+    },
+    {
+      "ConfigVersion": 28,
+      "ID": 20303,
+      "ObjectiveType": 10
+    },
+    {
+      "ConfigVersion": 28,
+      "ID": 20304,
+      "ObjectiveType": 3
+    },
+    {
+      "ConfigVersion": 28,
+      "ID": 20305,
+      "ObjectiveType": 10
+    },
+    {
+      "ConfigVersion": 28,
+      "ID": 20306,
+      "ObjectiveType": 3
+    },
+    {
+      "ConfigVersion": 28,
+      "ID": 20307,
+      "ObjectiveType": 10
+    },
+    {
+      "ConfigVersion": 28,
+      "ID": 20308,
+      "ObjectiveType": 3
+    },
+    {
+      "ConfigVersion": 28,
+      "ID": 20309,
+      "ObjectiveType": 10
+    },
+    {
+      "ConfigVersion": 28,
+      "ID": 20310,
+      "ObjectiveType": 3
+    },
+    {
+      "ConfigVersion": 28,
+      "ID": 20311,
+      "ObjectiveType": 10
+    },
+    {
+      "ConfigVersion": 28,
+      "ID": 20312,
+      "ObjectiveType": 14
+    }
+  ],
+  "QuestColor": 0,
+  "ReputationReward": 500,
+  "ReputationRequirement": -1,
+  "PreQuestIDs": [
+    202
+  ],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 0,
+  "DeleteQuestItems": 0,
+  "SequentialObjectives": 1,
+  "CompletionMode": 0,
+  "MinRequiredObjectives": -1,
+  "QuestTimeLimit": -1,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 1
+}

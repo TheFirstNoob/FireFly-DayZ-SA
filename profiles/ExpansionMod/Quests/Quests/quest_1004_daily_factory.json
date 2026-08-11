@@ -1,0 +1,76 @@
+{
+  "ConfigVersion": 22,
+  "ID": 1004,
+  "Type": 1,
+  "Title": "[Ежедневный] Возвращение на завод",
+  "Descriptions": [
+    "Призрак молча кивает на дым над заводом: «Они опять там. Каждый день — как по расписанию. Фанатики с промытыми HIVE мозгами прутся обратно, сколько их ни выноси. Если вычистишь — забирай их семена. Мне они без надобности.»",
+    "Они не сдаются. Возвращаются на завод снова и снова — будто сама земля их зовёт обратно. Каждый вечер — костры, песнопения и новые партии фанатиков. Ты уже знаешь дорогу.",
+    "Дым снова над трубой. Значит — опять там. Призрак лишь хмыкает: «Я же говорил — они как тараканы.»"
+  ],
+  "ObjectiveText": "Отправляйтесь на старый завод и зачистите территорию от вернувшихся фанатиков.",
+  "FollowUpQuest": -1,
+  "Repeatable": 1,
+  "IsDailyQuest": 1,
+  "IsWeeklyQuest": 0,
+  "CancelQuestOnPlayerDeath": 1,
+  "Autocomplete": 0,
+  "IsGroupQuest": 0,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [
+    {
+      "ClassName": "CP_CannabisSeedsBlueGod",
+      "Amount": 3,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": -1,
+      "MinObjectiveCount": -1,
+      "RequiredObjectiveID": -1,
+      "Chance": 1.0
+    }
+  ],
+  "NeedToSelectReward": 0,
+  "RandomReward": 0,
+  "RandomRewardAmount": -1,
+  "RewardsForGroupOwnerOnly": 1,
+  "RewardBehavior": 0,
+  "QuestGiverIDs": [
+    12
+  ],
+  "QuestTurnInIDs": [
+    12
+  ],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 20101,
+      "ObjectiveType": 3
+    },
+    {
+      "ConfigVersion": 28,
+      "ID": 20102,
+      "ObjectiveType": 8
+    }
+  ],
+  "QuestColor": 0,
+  "ReputationReward": 100,
+  "ReputationRequirement": -1,
+  "PreQuestIDs": [
+    201
+  ],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 0,
+  "DeleteQuestItems": 0,
+  "SequentialObjectives": 1,
+  "CompletionMode": 0,
+  "MinRequiredObjectives": -1,
+  "QuestTimeLimit": -1,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 1
+}

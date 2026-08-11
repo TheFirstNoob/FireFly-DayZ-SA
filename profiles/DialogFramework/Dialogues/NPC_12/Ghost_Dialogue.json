@@ -79,6 +79,87 @@
                     "ActionType": "END_CONVERSATION"
                 },
                 {
+                    "Text": "Фанатики опять дымят завод?",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 201,
+                    "RequiredQuestState": "COMPLETED",
+                    "ActionType": "NONE",
+                    "SubFile": "quest_1004.json",
+                    "FileNodeID": 1004001
+                },
+                {
+                    "Text": "Ты говорил про их маски. Что с ними?",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 202,
+                    "RequiredQuestState": "NONE",
+                    "ActionType": "NONE",
+                    "SubFile": "quest_202.json",
+                    "FileNodeID": 202001
+                },
+                {
+                    "Text": "Есть что-то новое, Призрак?",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 203,
+                    "RequiredQuestState": "NONE",
+                    "ActionType": "NONE",
+                    "SubFile": "quest_203.json",
+                    "FileNodeID": 203001
+                },
+                {
+                    "Text": "Я принёс волокна.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 203,
+                    "RequiredQuestState": "CAN_TURNIN",
+                    "ActionType": "NONE",
+                    "SubFile": "quest_203.json",
+                    "FileNodeID": 203003
+                },
+                {
+                    "Text": "Я ещё ищу деревья.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 203,
+                    "RequiredQuestState": "STARTED",
+                    "ActionType": "NONE",
+                    "SubFile": "quest_203.json",
+                    "FileNodeID": 203001
+                },
+                {
+                    "Text": "Я раздобыл маски. Доктор сказал — галлюциноген.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 202,
+                    "RequiredQuestState": "CAN_TURNIN",
+                    "ActionType": "NONE",
+                    "SubFile": "quest_202.json",
+                    "FileNodeID": 202002
+                },
+                {
+                    "Text": "Я ещё собираю маски.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 202,
+                    "RequiredQuestState": "STARTED",
+                    "ActionType": "NONE",
+                    "SubFile": "quest_202.json",
+                    "FileNodeID": 202001
+                },
+                {
+                    "Text": "На заводе чисто.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 1004,
+                    "RequiredQuestState": "CAN_TURNIN",
+                    "ActionType": "NONE",
+                    "SubFile": "quest_1004.json",
+                    "FileNodeID": 1004002
+                },
+                {
+                    "Text": "По поводу завода...",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 1004,
+                    "RequiredQuestState": "STARTED",
+                    "ActionType": "NONE",
+                    "SubFile": "quest_1004.json",
+                    "FileNodeID": 1004001
+                },
+                {
                     "Text": "Есть что предложить?",
                     "NextNodeID": 16,
                     "RequiredQuestID": 105,

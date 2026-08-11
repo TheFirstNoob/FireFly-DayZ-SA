@@ -1,24 +1,24 @@
 {
-    "Nodes": [
+  "Nodes": [
+    {
+      "ID": 1,
+      "Type": "STANDARD",
+      "SpeakerText": "Петрович прислал? Ну давай, покажись... Ага, всё верно. Я ставлю отметку, что ты прошёл знакомство. Теперь дуй к Доктору — он проверит, что ты здоров. Без его слова дальше не пустят.",
+      "Responses": [
         {
-            "ID": 1,
-            "Type": "STANDARD",
-            "SpeakerText": "Петрович прислал? Ну давай, покажись... Ага, всё верно. Я ставлю отметку, что ты прошёл знакомство. Теперь дуй к Доктору — он проверит, что ты здоров. Без его слова дальше не пустят.",
-            "Responses": [
-                {
-                    "Text": "Понял. Иду к Доктору.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": 104,
-                    "RequiredQuestState": "STARTED",
-                    "ActionType": "TALK_DONE"
-                },
-                {
-                    "Text": "Пока.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "END_CONVERSATION"
-                }
-            ]
+          "Text": "Понял. Иду к Доктору.",
+          "NextNodeID": -1,
+          "RequiredQuestID": 104,
+          "RequiredQuestState": "STARTED",
+          "ActionType": "TALK_DONE"
+        },
+        {
+          "Text": "Пока.",
+          "NextNodeID": -1,
+          "RequiredQuestID": -1,
+          "ActionType": "END_CONVERSATION"
         }
-    ]
+      ]
+    }
+  ]
 }

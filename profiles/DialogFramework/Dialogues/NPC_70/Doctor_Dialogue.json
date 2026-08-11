@@ -29,6 +29,14 @@
                     "SubFile": "quest_106.json"
                 },
                 {
+                    "Text": "Док, глянь маски фанатиков. Призрак просил.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": 202,
+                    "RequiredQuestState": "STARTED",
+                    "ActionType": "NONE",
+                    "SubFile": "quest_202.json"
+                },
+                {
                     "Text": "Есть работа?",
                     "NextNodeID": -1,
                     "RequiredQuestID": -1,

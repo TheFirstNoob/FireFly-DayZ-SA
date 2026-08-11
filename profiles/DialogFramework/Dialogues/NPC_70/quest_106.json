@@ -1,25 +1,25 @@
 {
-    "Nodes": [
+  "Nodes": [
+    {
+      "ID": 1,
+      "Type": "STANDARD",
+      "SpeakerText": "Хм, семена? Необычные. Дай-ка глянуть... Интересно. Очень интересно. Структура необычная — я такое не видел. Возьми их обратно, отнеси Климентине — она у нас по ботанике. Пусть посмотрит, что это за сорт.",
+      "Responses": [
         {
-            "ID": 1,
-            "Type": "STANDARD",
-            "SpeakerText": "Хм, семена? Необычные. Дай-ка глянуть... Интересно. Очень интересно. Структура необычная — я такое не видел. Возьми их обратно, отнеси Климентине — она у нас по ботанике. Пусть посмотрит, что это за сорт.",
-            "Responses": [
-                {
-                    "Text": "Понял, схожу к Климентине.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": 106,
-                    "RequiredQuestState": "STARTED",
-                    "RequiredItemClassName": "CP_CannabisSeedsPurpleKush",
-                    "ActionType": "TALK_DONE"
-                },
-                {
-                    "Text": "Пока.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "END_CONVERSATION"
-                }
-            ]
+          "Text": "Понял, схожу к Климентине.",
+          "NextNodeID": -1,
+          "RequiredQuestID": 106,
+          "RequiredQuestState": "STARTED",
+          "RequiredItemClassName": "CP_CannabisSeedsPurpleKush",
+          "ActionType": "TALK_DONE"
+        },
+        {
+          "Text": "Пока.",
+          "NextNodeID": -1,
+          "RequiredQuestID": -1,
+          "ActionType": "END_CONVERSATION"
         }
-    ]
+      ]
+    }
+  ]
 }

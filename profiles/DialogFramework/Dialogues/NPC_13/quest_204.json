@@ -1,0 +1,88 @@
+{
+  "Nodes": [
+    {
+      "ID": 204001,
+      "Type": "STANDARD",
+      "SpeakerText": "Гоуст передал твои образцы. Древесные волокна и маски фанатиков. Мы с лаборантами провели анализ. Это не просто галлюциноген — под его воздействием организм ПЕРЕСТРАИВАЕТСЯ на клеточном уровне. Я хочу провести эксперимент. Но мне нужны чистые шприцы — три штуки. Найди.",
+      "Responses": [
+        {
+          "Text": "Что за эксперимент?",
+          "NextNodeID": 204002,
+          "ActionType": "NONE"
+        },
+        {
+          "Text": "Найду шприцы.",
+          "NextNodeID": -1,
+          "RequiredQuestID": 204,
+          "RequiredQuestState": "NONE",
+          "ActionType": "ACCEPT_QUEST"
+        }
+      ]
+    },
+    {
+      "ID": 204002,
+      "Type": "STANDARD",
+      "SpeakerText": "У нас есть вещество из масок. Есть волокна с аномальных деревьев. Я хочу проверить три протокола. Контроль — просто ввести и наблюдать. Стимулятор — попробовать ОБРАТИТЬ эффект галлюциногена. Сыворотка — УСИЛИТЬ и посмотреть, на что способен изменённый организм. Каждый протокол — отдельно. Выбери один.",
+      "Responses": [
+        {
+          "Text": "Принесу шприцы — и выберу.",
+          "NextNodeID": -1,
+          "RequiredQuestID": 204,
+          "RequiredQuestState": "NONE",
+          "ActionType": "ACCEPT_QUEST"
+        }
+      ]
+    },
+    {
+      "ID": 204003,
+      "Type": "STANDARD",
+      "SpeakerText": "Отлично. Шприцы на месте. Теперь — слушай внимательно. У нас три протокола. Образцов хватит только на один. Выбирай с умом — второго шанса не будет.",
+      "Responses": [
+        {
+          "Text": "Контроль. Просто физраствор.",
+          "NextNodeID": -1,
+          "RequiredQuestID": 2041,
+          "RequiredQuestState": "NONE",
+          "RequiredItemClassName": "SyringeEmpty",
+          "RequiredItemCount": 3,
+          "RemoveItemClassName": "SyringeEmpty",
+          "RemoveItemCount": 3,
+          "ActionType": "NONE",
+          "SubFile": "quest_2041.json",
+          "FileNodeID": 2041001
+        },
+        {
+          "Text": "Стимулятор. Попробуем обратить эффект.",
+          "NextNodeID": -1,
+          "RequiredQuestID": 2042,
+          "RequiredQuestState": "NONE",
+          "RequiredItemClassName": "SyringeEmpty",
+          "RequiredItemCount": 3,
+          "RemoveItemClassName": "SyringeEmpty",
+          "RemoveItemCount": 3,
+          "ActionType": "NONE",
+          "SubFile": "quest_2042.json",
+          "FileNodeID": 2042001
+        },
+        {
+          "Text": "Сыворотка. Усилим и посмотрим.",
+          "NextNodeID": -1,
+          "RequiredQuestID": 2043,
+          "RequiredQuestState": "NONE",
+          "RequiredItemClassName": "SyringeEmpty",
+          "RequiredItemCount": 3,
+          "RemoveItemClassName": "SyringeEmpty",
+          "RemoveItemCount": 3,
+          "ActionType": "NONE",
+          "SubFile": "quest_2043.json",
+          "FileNodeID": 2043001
+        },
+        {
+          "Text": "Я подумаю.",
+          "NextNodeID": -1,
+          "ActionType": "END_CONVERSATION"
+        }
+      ]
+    }
+  ]
+}

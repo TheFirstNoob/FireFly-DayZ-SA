@@ -1,0 +1,32 @@
+{
+  "Nodes": [
+    {
+      "ID": 2041001,
+      "Type": "STANDARD",
+      "SpeakerText": "Контрольный образец. Обычный физраствор. Если ничего не произойдёт — значит, эффект от вещества, а не от процедуры. Иди в экспериментальную зону. Я скажу когда отойти на безопасное расстояние.",
+      "Responses": [
+        {
+          "Text": "Понял. Иду.",
+          "NextNodeID": -1,
+          "RequiredQuestID": 2041,
+          "RequiredQuestState": "NONE",
+          "ActionType": "ACCEPT_QUEST"
+        }
+      ]
+    },
+    {
+      "ID": 2041002,
+      "Type": "STANDARD",
+      "SpeakerText": "Никакой реакции. Как я и предполагала — эффект именно от вещества, а не от процедуры введения. Это важный результат. Держи — за помощь лаборатории.",
+      "Responses": [
+        {
+          "Text": "Спасибо.",
+          "NextNodeID": -1,
+          "RequiredQuestID": 2041,
+          "RequiredQuestState": "CAN_TURNIN",
+          "ActionType": "TURN_IN_QUEST"
+        }
+      ]
+    }
+  ]
+}

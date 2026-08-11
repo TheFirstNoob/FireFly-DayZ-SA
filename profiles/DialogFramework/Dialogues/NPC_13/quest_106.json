@@ -1,25 +1,25 @@
 {
-    "Nodes": [
+  "Nodes": [
+    {
+      "ID": 1,
+      "Type": "STANDARD",
+      "SpeakerText": "Доктор прислал? Ну-ка покажи... Хм. Интересная структура. Я такое не выращивала, но запах знакомый — вроде конопля, но не простая. Возьми обратно, отнеси Гоусту — пусть скажет, что дальше делать.",
+      "Responses": [
         {
-            "ID": 1,
-            "Type": "STANDARD",
-            "SpeakerText": "Доктор прислал? Ну-ка покажи... Хм. Интересная структура. Я такое не выращивала, но запах знакомый — вроде конопля, но не простая. Возьми обратно, отнеси Гоусту — пусть скажет, что дальше делать.",
-            "Responses": [
-                {
-                    "Text": "Понял, отнесу Гоусту.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": 106,
-                    "RequiredQuestState": "STARTED",
-                    "RequiredItemClassName": "CP_CannabisSeedsPurpleKush",
-                    "ActionType": "TALK_DONE"
-                },
-                {
-                    "Text": "Пока.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": -1,
-                    "ActionType": "END_CONVERSATION"
-                }
-            ]
+          "Text": "Понял, отнесу Гоусту.",
+          "NextNodeID": -1,
+          "RequiredQuestID": 106,
+          "RequiredQuestState": "STARTED",
+          "RequiredItemClassName": "CP_CannabisSeedsPurpleKush",
+          "ActionType": "TALK_DONE"
+        },
+        {
+          "Text": "Пока.",
+          "NextNodeID": -1,
+          "RequiredQuestID": -1,
+          "ActionType": "END_CONVERSATION"
         }
-    ]
+      ]
+    }
+  ]
 }

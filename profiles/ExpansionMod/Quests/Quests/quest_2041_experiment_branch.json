@@ -1,0 +1,85 @@
+{
+  "ConfigVersion": 22,
+  "ID": 2041,
+  "Type": 1,
+  "Title": "[Эксперимент] Контроль (4 objs)",
+  "Descriptions": [
+    "Климентина готовит шприц: «Контрольный образец. Обычный физраствор. Если ничего не произойдёт — значит, эффект от вещества, а не от процедуры. Иди в экспериментальную зону. Я скажу когда отойти на безопасное расстояние.»",
+    "Климентина докладывает результат эксперимента #1."
+  ],
+  "ObjectiveText": "Отправляйтесь в экспериментальную зону.",
+  "FollowUpQuest": -1,
+  "Repeatable": 0,
+  "IsDailyQuest": 0,
+  "IsWeeklyQuest": 0,
+  "CancelQuestOnPlayerDeath": 1,
+  "Autocomplete": 0,
+  "IsGroupQuest": 0,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [
+    {
+      "ClassName": "A6_SecureContainer_Gamma",
+      "Amount": 1,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": -1,
+      "MinObjectiveCount": -1,
+      "RequiredObjectiveID": -1,
+      "Chance": 1.0
+    }
+  ],
+  "NeedToSelectReward": 0,
+  "RandomReward": 0,
+  "RandomRewardAmount": -1,
+  "RewardsForGroupOwnerOnly": 1,
+  "RewardBehavior": 0,
+  "QuestGiverIDs": [
+    13
+  ],
+  "QuestTurnInIDs": [
+    13
+  ],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 20411,
+      "ObjectiveType": 14
+    },
+    {
+      "ConfigVersion": 28,
+      "ID": 20412,
+      "ObjectiveType": 3
+    },
+    {
+      "ConfigVersion": 28,
+      "ID": 20413,
+      "ObjectiveType": 3
+    },
+    {
+      "ConfigVersion": 28,
+      "ID": 20414,
+      "ObjectiveType": 14
+    }
+  ],
+  "QuestColor": 0,
+  "ReputationReward": 300,
+  "ReputationRequirement": -1,
+  "PreQuestIDs": [
+    204
+  ],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 0,
+  "DeleteQuestItems": 0,
+  "SequentialObjectives": 1,
+  "CompletionMode": 0,
+  "MinRequiredObjectives": -1,
+  "QuestTimeLimit": -1,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 1
+}
