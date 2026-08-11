@@ -29,16 +29,7 @@
                     "FileNodeID": 204001
                 },
                 {
-                    "Text": "Я принёс шприцы. Давай выберем протокол.",
-                    "NextNodeID": -1,
-                    "RequiredQuestID": 204,
-                    "RequiredQuestState": "CAN_TURNIN",
-                    "ActionType": "NONE",
-                    "SubFile": "quest_204.json",
-                    "FileNodeID": 204003
-                },
-                {
-                    "Text": "Я готов к эксперименту.",
+                    "Text": "Я готов к эксперименту. Показывай варианты.",
                     "NextNodeID": -1,
                     "RequiredQuestID": 204,
                     "RequiredQuestState": "STARTED",
