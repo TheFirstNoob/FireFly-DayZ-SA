@@ -1,4 +1,4 @@
-{
+﻿{
     "CategoryName": "Ammo_AP",
     "CategoryDisplay": "Бронебойные патроны",
     "RequiredLevel": 0,
@@ -6,6 +6,7 @@
         {
             "Result": "AmmoBox_new_357HollowPoint",
             "ResultCount": 1,
+            "FillToFull": true,
             "RecipeName": ".357 Hollow Point",
             "CraftTime": 35.0,
             "SuccessChance": 0.6,
@@ -25,6 +26,7 @@
         {
             "Result": "AmmoBox_new_380BondedJhp",
             "ResultCount": 1,
+            "FillToFull": true,
             "RecipeName": ".380 Bonded JHP",
             "CraftTime": 40.0,
             "SuccessChance": 0.6,
@@ -44,6 +46,7 @@
         {
             "Result": "AmmoBox_new_45AcpAP",
             "ResultCount": 1,
+            "FillToFull": true,
             "RecipeName": ".45 ACP AP",
             "CraftTime": 35.0,
             "SuccessChance": 0.6,
@@ -63,6 +66,7 @@
         {
             "Result": "AmmoBox_new_545x397H39",
             "ResultCount": 1,
+            "FillToFull": true,
             "RecipeName": "5.45x39 7H39",
             "CraftTime": 35.0,
             "SuccessChance": 0.6,
@@ -82,6 +86,7 @@
         {
             "Result": "AmmoBox_new_556x45M995",
             "ResultCount": 1,
+            "FillToFull": true,
             "RecipeName": "5.56x45 M995",
             "CraftTime": 35.0,
             "SuccessChance": 0.6,
@@ -101,6 +106,7 @@
         {
             "Result": "AmmoBox_new_762x39Bp",
             "ResultCount": 1,
+            "FillToFull": true,
             "RecipeName": "7.62x39 BP",
             "CraftTime": 35.0,
             "SuccessChance": 0.6,
@@ -120,6 +126,7 @@
         {
             "Result": "AmmoBox_new_9x19Ap",
             "ResultCount": 1,
+            "FillToFull": true,
             "RecipeName": "9x19 AP",
             "CraftTime": 35.0,
             "SuccessChance": 0.6,
@@ -139,6 +146,7 @@
         {
             "Result": "AmmoBox_new_9x39Sp6",
             "ResultCount": 1,
+            "FillToFull": true,
             "RecipeName": "9x39 SP-6",
             "CraftTime": 35.0,
             "SuccessChance": 0.6,
@@ -158,6 +166,7 @@
         {
             "Result": "AmmoBox_new_308WinM993",
             "ResultCount": 1,
+            "FillToFull": true,
             "RecipeName": ".308 Win M993",
             "CraftTime": 50.0,
             "SuccessChance": 0.55,
@@ -177,6 +186,7 @@
         {
             "Result": "AmmoBox_new_762x547H37",
             "ResultCount": 1,
+            "FillToFull": true,
             "RecipeName": "7.62x54 7H37",
             "CraftTime": 50.0,
             "SuccessChance": 0.55,
@@ -196,6 +206,7 @@
         {
             "Result": "AmmoBox_new_12gaRip",
             "ResultCount": 1,
+            "FillToFull": true,
             "RecipeName": "12ga RIP Slug",
             "CraftTime": 35.0,
             "SuccessChance": 0.6,
@@ -215,6 +226,7 @@
         {
             "Result": "AmmoBox_new_12ga2Sabot",
             "ResultCount": 1,
+            "FillToFull": true,
             "RecipeName": "12ga 2-Sabot",
             "CraftTime": 35.0,
             "SuccessChance": 0.6,

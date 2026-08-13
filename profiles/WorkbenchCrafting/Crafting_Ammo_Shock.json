@@ -1,4 +1,4 @@
-{
+﻿{
     "CategoryName": "Ammo_Shock",
     "CategoryDisplay": "Шоковые патроны",
     "RequiredLevel": 0,
@@ -6,6 +6,7 @@
         {
             "Result": "AmmoBox_new_357QuikShokJhp",
             "ResultCount": 1,
+            "FillToFull": true,
             "RecipeName": ".357 QuikShok JHP",
             "CraftTime": 35.0,
             "SuccessChance": 0.65,
@@ -24,6 +25,7 @@
         {
             "Result": "AmmoBox_new_380HydraShokJhp",
             "ResultCount": 1,
+            "FillToFull": true,
             "RecipeName": ".380 HydraShok JHP",
             "CraftTime": 40.0,
             "SuccessChance": 0.65,
@@ -42,6 +44,7 @@
         {
             "Result": "AmmoBox_new_45AcpHydrShock",
             "ResultCount": 1,
+            "FillToFull": true,
             "RecipeName": ".45 ACP HydraShock",
             "CraftTime": 35.0,
             "SuccessChance": 0.65,
@@ -60,6 +63,7 @@
         {
             "Result": "AmmoBox_new_545x39Hp",
             "ResultCount": 1,
+            "FillToFull": true,
             "RecipeName": "5.45x39 HP",
             "CraftTime": 30.0,
             "SuccessChance": 0.65,
@@ -78,6 +82,7 @@
         {
             "Result": "AmmoBox_new_762x39Hp",
             "ResultCount": 1,
+            "FillToFull": true,
             "RecipeName": "7.62x39 HP",
             "CraftTime": 30.0,
             "SuccessChance": 0.65,
@@ -96,6 +101,7 @@
         {
             "Result": "AmmoBox_new_9x19Rip",
             "ResultCount": 1,
+            "FillToFull": true,
             "RecipeName": "9x19 RIP",
             "CraftTime": 35.0,
             "SuccessChance": 0.65,
@@ -114,6 +120,7 @@
         {
             "Result": "AmmoBox_new_308WinM61",
             "ResultCount": 1,
+            "FillToFull": true,
             "RecipeName": ".308 Win M61 Shock",
             "CraftTime": 45.0,
             "SuccessChance": 0.6,
@@ -132,6 +139,7 @@
         {
             "Result": "AmmoBox_new_762x547H1",
             "ResultCount": 1,
+            "FillToFull": true,
             "RecipeName": "7.62x54 7H1",
             "CraftTime": 45.0,
             "SuccessChance": 0.6,
@@ -150,6 +158,7 @@
         {
             "Result": "AmmoBox_new_12gaFlchetteS",
             "ResultCount": 1,
+            "FillToFull": true,
             "RecipeName": "12ga Flechette",
             "CraftTime": 30.0,
             "SuccessChance": 0.7,
