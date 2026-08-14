@@ -549,6 +549,38 @@
                 {"Classname": "RIP_bolts", "MinAmount": 1, "MaxAmount": 2}
             ],
             "Tables": []
+        },
+        {
+            "ItemToDisassemble": "AmmoBox_338_30rnd",
+            "RecipeName": "Разбор .338 Lapua Magnum",
+            "CraftTime": 15.0,
+            "SuccessChance": 0.75,
+            "AttachmentsDamage": 8.0,
+            "RequiredLevel": -1,
+            "RequiredTools": ["HP_Vise"],
+            "DisassembleResults": [
+                {"Classname": "RIP_LeadSmall", "MinAmount": 14, "MaxAmount": 18},
+                {"Classname": "RIP_Foil", "MinAmount": 22, "MaxAmount": 27},
+                {"Classname": "SAC_GunPowder", "MinAmount": 11, "MaxAmount": 14},
+                {"Classname": "RIP_bolts", "MinAmount": 2, "MaxAmount": 3}
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "AmmoBox_Expansion_46x30_25rnd",
+            "RecipeName": "Разбор 4.6x30мм",
+            "CraftTime": 12.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": ["HP_Vise"],
+            "DisassembleResults": [
+                {"Classname": "RIP_LeadSmall", "MinAmount": 9, "MaxAmount": 11},
+                {"Classname": "RIP_Foil", "MinAmount": 18, "MaxAmount": 22},
+                {"Classname": "SAC_GunPowder", "MinAmount": 9, "MaxAmount": 11},
+                {"Classname": "RIP_bolts", "MinAmount": 2, "MaxAmount": 3}
+            ],
+            "Tables": []
         }
     ]
 }
