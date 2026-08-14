@@ -1021,13 +1021,24 @@
             "all": 80.0
         },
         "UpJumpHandlerIsActive": {
-            "all": 1,
+            "all": 0,
             "AlienScout": 0,
+            "AlienCaptain": 0,
             "AlienQueen": 0,
             "Arachnids": 1,
             "UFO_Astro": 0,
             "Miniboss_Buther": 0,
-            "Miniboss_Psycho": 0
+            "Miniboss_Psycho": 0,
+            "CivilianMan": 1,
+            "CivilianWoman": 1,
+            "WorkerMan": 1,
+            "WorkerWoman": 1,
+            "Solder": 1,
+            "Police": 1,
+            "PoliceSpecForce": 1,
+            "Firefighter": 1,
+            "Prisoner": 1,
+            "Mummy": 1
         },
         "UpJumpHeightMax": {
             "Police": 2.5,
@@ -1080,46 +1091,46 @@
             "Arachnids": 60.0
         },
         "UpJumpChancePercent": {
-            "Police": 35.0,
-            "all": 100.0,
-            "Nbc": 15.0,
-            "Santa": 100.0,
-            "CivilianOldWoman": 3.0,
-            "Firefighter": 40.0,
-            "MedicAndPatientMan": 10.0,
-            "Pop": 10.0,
-            "CivilianWoman": 7.0,
+            "Police": 30.0,
+            "all": 0.0,
+            "Nbc": 10.0,
+            "Santa": 10.0,
+            "CivilianOldWoman": 0.0,
+            "Firefighter": 25.0,
+            "MedicAndPatientMan": 0.0,
+            "Pop": 0.0,
+            "CivilianWoman": 20.0,
             "Prisoner": 20.0,
-            "Mummy": 100.0,
-            "Solder": 50.0,
-            "WorkerMan": 15.0,
-            "FarmerMan": 7.0,
-            "PoliceSpecForce": 35.0,
-            "WorkerWoman": 12.0,
-            "MedicAndPatientWoman": 7.0,
-            "CivilianMan": 10.0,
-            "PopClerk": 10.0,
-            "CivilianOldMan": 5.0,
+            "Mummy": 15.0,
+            "Solder": 30.0,
+            "WorkerMan": 25.0,
+            "FarmerMan": 0.0,
+            "PoliceSpecForce": 30.0,
+            "WorkerWoman": 20.0,
+            "MedicAndPatientWoman": 0.0,
+            "CivilianMan": 20.0,
+            "PopClerk": 0.0,
+            "CivilianOldMan": 0.0,
             "Arachnids": 100.0
         },
         "UpJumpCooldownSeconds": {
-            "Police": 15.0,
-            "all": 0.0,
-            "Nbc": 90.0,
-            "Santa": 5.0,
+            "Police": 30.0,
+            "all": 60.0,
+            "Nbc": 60.0,
+            "Santa": 60.0,
             "CivilianOldWoman": 75.0,
-            "Firefighter": 5.0,
-            "MedicAndPatientMan": 40.0,
+            "Firefighter": 40.0,
+            "MedicAndPatientMan": 60.0,
             "Pop": 120.0,
-            "CivilianWoman": 60.0,
-            "Prisoner": 30.0,
-            "Mummy": 5.0,
-            "Solder": 10.0,
-            "WorkerMan": 30.0,
+            "CivilianWoman": 45.0,
+            "Prisoner": 50.0,
+            "Mummy": 60.0,
+            "Solder": 30.0,
+            "WorkerMan": 40.0,
             "FarmerMan": 60.0,
-            "PoliceSpecForce": 10.0,
+            "PoliceSpecForce": 30.0,
             "WorkerWoman": 45.0,
-            "MedicAndPatientWoman": 50.0,
+            "MedicAndPatientWoman": 60.0,
             "CivilianMan": 45.0,
             "PopClerk": 120.0,
             "CivilianOldMan": 60.0,
@@ -2854,9 +2865,6 @@
         "DamageToZombieBodyPartsPiercingIsActive": {
             "all": 1
         },
-        "DamageToZombieAlwaysKillOnBackstab": {
-            "all": 1
-        },
         "DamageToZombieShockToStunHandlerIsActive": {
             "all": 1
         },
@@ -2926,10 +2934,11 @@
             "AlienCaptain": 40.0,
             "Miniboss_Buther": 35.0,
             "Miniboss_Psycho": 35.0,
-            "PoliceSpecForce": 25.0,
+            "PoliceSpecForce": 20.0,
             "Solder": 20.0,
+            "Police": 18.0,
             "Arachnids": 45.0,
-            "all": 25.0
+            "all": 12.0
         },
         "MeleeAttacksDodgeCooldownSeconds": {
             "AlienQueen": 8.0,
@@ -3124,7 +3133,12 @@
             "all": 75.0
         },
         "ScreamChancePercent": {
-            "all": 15.0
+            "all": 15.0,
+            "FarmerMan": 20.0,
+            "CivilianWoman": 20.0,
+            "CivilianMan": 20.0,
+            "WorkerWoman": 20.0,
+            "MedicAndPatientWoman": 18.0
         },
         "ScreamCooldownSeconds": {
             "all": 45.0
@@ -3221,8 +3235,8 @@
             ]
         },
         "CanBeBackstabbedHandlerIsActive": {
+            "all": 0,
             "Captain_Alien": 0,
-            "all": 1,
             "AlienScout": 0,
             "AlienQueen": 0,
             "Arachnids": 0,
@@ -3231,8 +3245,8 @@
             "Miniboss_Psycho": 0
         },
         "CanBeBackstabbed": {
+            "all": 0,
             "Captain_Alien": 0,
-            "all": 1,
             "AlienScout": 0,
             "AlienQueen": 0,
             "Arachnids": 0,
