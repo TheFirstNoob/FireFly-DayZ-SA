@@ -7,7 +7,7 @@ void main()
 		ce.InitOffline();
 
 	int year, month, day, hour, minute;
-	int reset_month = 2, reset_day = 1;
+	int reset_month = 2, reset_day = 13;
 	g_Game.GetWorld().GetDate(year, month, day, hour, minute);
 
 	// Reset to target month/day if we've drifted outside the window
@@ -88,36 +88,29 @@ class CustomMission: MissionServer
 		}
 	}
 
-	//! FireFly: when player reaches safe distance after injection, trigger the experiment result.
-	override void Expansion_OnObjectiveCompleted(ExpansionQuest quest, int objectiveID)
+	//! FireFly: when all quest objectives are done, clean up the temp lab tech NPCs.
+	//! NOTE: "Expansion_OnObjectiveCompleted(quest, objectiveID)" DOES NOT EXIST in Expansion.
+	//! init.c hooks are per-quest only; per-objective events are not exposed to the mission.
+	//! TODO: scream/explosion effects when the player enters the experiment zone
+	//! (objectives 20412 / 20422 / 20432) must be moved into a FireFly script mod:
+	//! modded class ExpansionQuestObjectiveTravelEvent with override SetReachedLocation().
+	override void Expansion_OnQuestObjectivesComplete(ExpansionQuest quest)
 	{
 		int qid = quest.GetQuestConfig().GetID();
 
 		switch (qid)
 		{
-			// 2041 — Control: nothing happens
 			case 2041:
-				ExpansionQuestModule.GetModuleInstance().DeleteQuestHolder(4001, ExpansionQuestNPCType.AI);
+				if (!ExpansionQuestModule.GetModuleInstance().IsOtherQuestInstanceActive(2041))
+					ExpansionQuestModule.GetModuleInstance().DeleteQuestHolder(4001, ExpansionQuestNPCType.AI);
 				break;
-
-			// 2042 — Neutralizer: scream → explosion at the experiment zone
 			case 2042:
-				if (objectiveID == 20412) // Player reached the zone
-				{
-					SEffectManager.PlaySound("FireFly_ExperimentScream_SoundSet", "5 0 5"); // TODO: zone position
-					g_Game.GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(SpawnExplosion, 5000, false, "5 0 5"); // TODO: zone position
+				if (!ExpansionQuestModule.GetModuleInstance().IsOtherQuestInstanceActive(2042))
 					ExpansionQuestModule.GetModuleInstance().DeleteQuestHolder(4002, ExpansionQuestNPCType.AI);
-				}
 				break;
-
-			// 2043 — Concentrate: monster scream → InfectedCamp spawns
 			case 2043:
-				if (objectiveID == 20432) // Player reached the zone
-				{
-					SEffectManager.PlaySound("FireFly_MonsterScream_SoundSet", "5 0 5"); // TODO: zone position
-					// InfectedCamp objective (20434) spawns monster via quest system
+				if (!ExpansionQuestModule.GetModuleInstance().IsOtherQuestInstanceActive(2043))
 					ExpansionQuestModule.GetModuleInstance().DeleteQuestHolder(4003, ExpansionQuestNPCType.AI);
-				}
 				break;
 		}
 	}
