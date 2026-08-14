@@ -7,11 +7,14 @@
   (class banovData + FireFly_Weather.c из FireFly_Vanilla_Fixes). Этот файл
   применяется при старте миссии, но погодой рулит сессионная логика модуля.
   Реальные параметры (FireFly_Vanilla_Fixes/Scripts/4_World/WorldData/FireFly_Weather.c):
-    - сессия 6 часов: ясно -> облачно -> максимально облачно, после 100% - рассеивание
-    - дождь: шанс 8% на сессию (5-10%), начинается только после сильной облачности
-      (progress >= 0.7, облачность ~0.82), нарастает к концу сессии
-    - порог дождя по облачности: 0.7 (здесь: thresholds min=0.7, end=60)
+    - сессия 6 часов: ясно -> облачно -> умеренно облачно (максимум 0.75),
+      после 100% - рассеивание до 0.4
+    - дождь: шанс 6% на сессию, начинается только под конец сессии
+      (progress >= 0.8) и остаётся умеренным (до 0.5), плавные 30-минутные
+      переходы; нативный порог облачности для дождя отключён скриптом
+    - порог дождя по облачности: 0.0-1.0 (гейт отключён, гвард скрипта 0.5)
     - гроза: только в окне дождя, плотность 0.3, threshold 0.85, timeout 45
+    - туман: стартовый 0.05, дальше ванильная машина в лимитах 0.0-0.1
 -->
 <weather reset="0" enable="1">
     <overcast>
@@ -26,7 +29,7 @@
     </overcast>
     <fog>
         <!-- Initial conditions of the fog (target value, time to change, how long will it stay) -->
-        <current actual="0.02" time="120" duration="240" />
+        <current actual="0.05" time="120" duration="240" />
         <!-- What is the range of the fog value (0..1) -->
         <limits min="0.0" max="0.1" />
         <!-- How long does it take to the fog to change from one value to other (time in seconds) -->
