@@ -60,6 +60,122 @@
                 }
             ],
             "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Chemlight_Red",
+            "RecipeName": "Разборка Химсвета (Красный)",
+            "CraftTime": 8.0,
+            "SuccessChance": 0.85,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_Plastik",
+                    "MinAmount": 2,
+                    "MaxAmount": 2
+                },
+                {
+                    "Classname": "RIP_Urotropine",
+                    "MinAmount": 9,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "RIP_K2",
+                    "MinAmount": 6,
+                    "MaxAmount": 8
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Chemlight_Green",
+            "RecipeName": "Разборка Химсвета (Зелёный)",
+            "CraftTime": 8.0,
+            "SuccessChance": 0.85,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_Plastik",
+                    "MinAmount": 2,
+                    "MaxAmount": 2
+                },
+                {
+                    "Classname": "RIP_Urotropine",
+                    "MinAmount": 9,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "RIP_K2",
+                    "MinAmount": 6,
+                    "MaxAmount": 8
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Chemlight_Blue",
+            "RecipeName": "Разборка Химсвета (Синий)",
+            "CraftTime": 8.0,
+            "SuccessChance": 0.85,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_Plastik",
+                    "MinAmount": 2,
+                    "MaxAmount": 2
+                },
+                {
+                    "Classname": "RIP_Urotropine",
+                    "MinAmount": 9,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "RIP_K2",
+                    "MinAmount": 6,
+                    "MaxAmount": 8
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Chemlight_Yellow",
+            "RecipeName": "Разборка Химсвета (Жёлтый)",
+            "CraftTime": 8.0,
+            "SuccessChance": 0.85,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_Plastik",
+                    "MinAmount": 2,
+                    "MaxAmount": 2
+                },
+                {
+                    "Classname": "RIP_Urotropine",
+                    "MinAmount": 9,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "RIP_K2",
+                    "MinAmount": 6,
+                    "MaxAmount": 8
+                }
+            ],
+            "Tables": []
         }
     ]
 }
