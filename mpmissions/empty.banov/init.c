@@ -127,15 +127,15 @@ class CustomMission: MissionServer
 		}
 	}
 
-	protected void SpawnLabTech(int holderID, string posStr, string oriStr)
+	protected void SpawnLabTech(int holderID, vector pos, vector ori)
 	{
 		ExpansionTempQuestHolder holder = new ExpansionTempQuestHolder(holderID, "ExpansionQuestNPCAIMaria", "Лаборант", "...");
 		if (!holder)
 			return;
 		holder.SetNPCEmoteID(EmoteConstants.ID_EMOTE_WATCHING);
 		holder.SetLoadoutName("NPC_Laborant");
-		ExpansionTempQuestHolderPosition pos = new ExpansionTempQuestHolderPosition(posStr, oriStr);
-		ExpansionQuestModule.GetModuleInstance().SpawnQuestHolder(holder, pos);
+		ExpansionTempQuestHolderPosition holderPos = new ExpansionTempQuestHolderPosition(pos, ori);
+		ExpansionQuestModule.GetModuleInstance().SpawnQuestHolder(holder, holderPos);
 	}
 
 	protected void SpawnExplosion(vector pos)
