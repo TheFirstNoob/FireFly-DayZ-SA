@@ -4,565 +4,3083 @@
     "RequiredLevel": 0,
     "Recipes": [
         {
-            "ItemToDisassemble": "AmmoBox_new_22HighVelocity",
-            "RecipeName": "Разбор .22 High Velocity",
-            "CraftTime": 15.0,
-            "SuccessChance": 0.8,
-            "AttachmentsDamage": 5.0,
-            "RequiredLevel": -1,
-            "RequiredTools": ["HP_Vise"],
-            "DisassembleResults": [
-                {"Classname": "RIP_LeadSmall", "MinAmount": 18, "MaxAmount": 22},
-                {"Classname": "RIP_Foil", "MinAmount": 35, "MaxAmount": 40},
-                {"Classname": "SAC_GunPowder", "MinAmount": 18, "MaxAmount": 22},
-                {"Classname": "RIP_bolts", "MinAmount": 3, "MaxAmount": 4}
-            ],
-            "Tables": []
-        },
-        {
-            "ItemToDisassemble": "AmmoBox_new_22HyperVelocity",
-            "RecipeName": "Разбор .22 Hyper Velocity",
-            "CraftTime": 15.0,
-            "SuccessChance": 0.8,
-            "AttachmentsDamage": 5.0,
-            "RequiredLevel": -1,
-            "RequiredTools": ["HP_Vise"],
-            "DisassembleResults": [
-                {"Classname": "RIP_LeadSmall", "MinAmount": 18, "MaxAmount": 22},
-                {"Classname": "RIP_Foil", "MinAmount": 35, "MaxAmount": 40},
-                {"Classname": "SAC_GunPowder", "MinAmount": 18, "MaxAmount": 22},
-                {"Classname": "RIP_bolts", "MinAmount": 3, "MaxAmount": 4}
-            ],
-            "Tables": []
-        },
-        {
-            "ItemToDisassemble": "AmmoBox_new_45AcpFmj",
-            "RecipeName": "Разбор .45 ACP FMJ",
-            "CraftTime": 12.0,
-            "SuccessChance": 0.8,
-            "AttachmentsDamage": 5.0,
-            "RequiredLevel": -1,
-            "RequiredTools": ["HP_Vise"],
-            "DisassembleResults": [
-                {"Classname": "RIP_LeadSmall", "MinAmount": 9, "MaxAmount": 11},
-                {"Classname": "RIP_Foil", "MinAmount": 18, "MaxAmount": 22},
-                {"Classname": "SAC_GunPowder", "MinAmount": 9, "MaxAmount": 11},
-                {"Classname": "RIP_bolts", "MinAmount": 2, "MaxAmount": 3}
-            ],
-            "Tables": []
-        },
-        {
-            "ItemToDisassemble": "AmmoBox_new_357SilvertipJhp",
-            "RecipeName": "Разбор .357 Silvertip",
+            "ItemToDisassemble": "AmmoBox_new_12ga2Sabot",
+            "RecipeName": "Разбор 12ga2Sabot",
             "CraftTime": 10.0,
             "SuccessChance": 0.8,
             "AttachmentsDamage": 5.0,
             "RequiredLevel": -1,
-            "RequiredTools": ["HP_Vise"],
-            "DisassembleResults": [
-                {"Classname": "RIP_LeadSmall", "MinAmount": 7, "MaxAmount": 9},
-                {"Classname": "RIP_Foil", "MinAmount": 14, "MaxAmount": 18},
-                {"Classname": "SAC_GunPowder", "MinAmount": 7, "MaxAmount": 9},
-                {"Classname": "RIP_bolts", "MinAmount": 1, "MaxAmount": 2}
+            "RequiredTools": [
+                "HP_Vise"
             ],
-            "Tables": []
-        },
-        {
-            "ItemToDisassemble": "AmmoBox_new_545x39Bp",
-            "RecipeName": "Разбор 5.45x39 BP",
-            "CraftTime": 10.0,
-            "SuccessChance": 0.8,
-            "AttachmentsDamage": 5.0,
-            "RequiredLevel": -1,
-            "RequiredTools": ["HP_Vise"],
             "DisassembleResults": [
-                {"Classname": "RIP_LeadSmall", "MinAmount": 7, "MaxAmount": 9},
-                {"Classname": "RIP_Foil", "MinAmount": 14, "MaxAmount": 18},
-                {"Classname": "SAC_GunPowder", "MinAmount": 7, "MaxAmount": 9},
-                {"Classname": "RIP_bolts", "MinAmount": 1, "MaxAmount": 2}
-            ],
-            "Tables": []
-        },
-        {
-            "ItemToDisassemble": "AmmoBox_new_556x45M855",
-            "RecipeName": "Разбор 5.56x45 M855",
-            "CraftTime": 10.0,
-            "SuccessChance": 0.8,
-            "AttachmentsDamage": 5.0,
-            "RequiredLevel": -1,
-            "RequiredTools": ["HP_Vise"],
-            "DisassembleResults": [
-                {"Classname": "RIP_LeadSmall", "MinAmount": 7, "MaxAmount": 9},
-                {"Classname": "RIP_Foil", "MinAmount": 14, "MaxAmount": 18},
-                {"Classname": "SAC_GunPowder", "MinAmount": 7, "MaxAmount": 9},
-                {"Classname": "RIP_bolts", "MinAmount": 1, "MaxAmount": 2}
-            ],
-            "Tables": []
-        },
-        {
-            "ItemToDisassemble": "AmmoBox_new_556x4555Fmj",
-            "RecipeName": "Разбор 5.56x45 55 FMJ",
-            "CraftTime": 10.0,
-            "SuccessChance": 0.8,
-            "AttachmentsDamage": 5.0,
-            "RequiredLevel": -1,
-            "RequiredTools": ["HP_Vise"],
-            "DisassembleResults": [
-                {"Classname": "RIP_LeadSmall", "MinAmount": 7, "MaxAmount": 9},
-                {"Classname": "RIP_Foil", "MinAmount": 14, "MaxAmount": 18},
-                {"Classname": "SAC_GunPowder", "MinAmount": 7, "MaxAmount": 9},
-                {"Classname": "RIP_bolts", "MinAmount": 1, "MaxAmount": 2}
-            ],
-            "Tables": []
-        },
-        {
-            "ItemToDisassemble": "AmmoBox_new_762x39Ps",
-            "RecipeName": "Разбор 7.62x39 PS",
-            "CraftTime": 10.0,
-            "SuccessChance": 0.8,
-            "AttachmentsDamage": 5.0,
-            "RequiredLevel": -1,
-            "RequiredTools": ["HP_Vise"],
-            "DisassembleResults": [
-                {"Classname": "RIP_LeadSmall", "MinAmount": 7, "MaxAmount": 9},
-                {"Classname": "RIP_Foil", "MinAmount": 14, "MaxAmount": 18},
-                {"Classname": "SAC_GunPowder", "MinAmount": 7, "MaxAmount": 9},
-                {"Classname": "RIP_bolts", "MinAmount": 1, "MaxAmount": 2}
-            ],
-            "Tables": []
-        },
-        {
-            "ItemToDisassemble": "AmmoBox_new_9x19Pst",
-            "RecipeName": "Разбор 9x19 PST",
-            "CraftTime": 12.0,
-            "SuccessChance": 0.8,
-            "AttachmentsDamage": 5.0,
-            "RequiredLevel": -1,
-            "RequiredTools": ["HP_Vise"],
-            "DisassembleResults": [
-                {"Classname": "RIP_LeadSmall", "MinAmount": 9, "MaxAmount": 11},
-                {"Classname": "RIP_Foil", "MinAmount": 18, "MaxAmount": 22},
-                {"Classname": "SAC_GunPowder", "MinAmount": 9, "MaxAmount": 11},
-                {"Classname": "RIP_bolts", "MinAmount": 2, "MaxAmount": 3}
-            ],
-            "Tables": []
-        },
-        {
-            "ItemToDisassemble": "AmmoBox_new_9x39Sp5",
-            "RecipeName": "Разбор 9x39 SP-5",
-            "CraftTime": 10.0,
-            "SuccessChance": 0.8,
-            "AttachmentsDamage": 5.0,
-            "RequiredLevel": -1,
-            "RequiredTools": ["HP_Vise"],
-            "DisassembleResults": [
-                {"Classname": "RIP_LeadSmall", "MinAmount": 7, "MaxAmount": 9},
-                {"Classname": "RIP_Foil", "MinAmount": 14, "MaxAmount": 18},
-                {"Classname": "SAC_GunPowder", "MinAmount": 7, "MaxAmount": 9},
-                {"Classname": "RIP_bolts", "MinAmount": 1, "MaxAmount": 2}
-            ],
-            "Tables": []
-        },
-        {
-            "ItemToDisassemble": "AmmoBox_new_308WinM80",
-            "RecipeName": "Разбор .308 M80",
-            "CraftTime": 15.0,
-            "SuccessChance": 0.75,
-            "AttachmentsDamage": 8.0,
-            "RequiredLevel": -1,
-            "RequiredTools": ["HP_Vise"],
-            "DisassembleResults": [
-                {"Classname": "RIP_LeadSmall", "MinAmount": 14, "MaxAmount": 18},
-                {"Classname": "RIP_Foil", "MinAmount": 22, "MaxAmount": 27},
-                {"Classname": "SAC_GunPowder", "MinAmount": 11, "MaxAmount": 14},
-                {"Classname": "RIP_bolts", "MinAmount": 2, "MaxAmount": 3}
-            ],
-            "Tables": []
-        },
-        {
-            "ItemToDisassemble": "AmmoBox_new_762x54Snb",
-            "RecipeName": "Разбор 7.62x54 SNB",
-            "CraftTime": 15.0,
-            "SuccessChance": 0.75,
-            "AttachmentsDamage": 8.0,
-            "RequiredLevel": -1,
-            "RequiredTools": ["HP_Vise"],
-            "DisassembleResults": [
-                {"Classname": "RIP_LeadSmall", "MinAmount": 14, "MaxAmount": 18},
-                {"Classname": "RIP_Foil", "MinAmount": 22, "MaxAmount": 27},
-                {"Classname": "SAC_GunPowder", "MinAmount": 11, "MaxAmount": 14},
-                {"Classname": "RIP_bolts", "MinAmount": 2, "MaxAmount": 3}
-            ],
-            "Tables": []
-        },
-        {
-            "ItemToDisassemble": "AmmoBox_new_12gaMagnumBuckshot8",
-            "RecipeName": "Разбор 12ga Magnum Buckshot",
-            "CraftTime": 10.0,
-            "SuccessChance": 0.8,
-            "AttachmentsDamage": 5.0,
-            "RequiredLevel": -1,
-            "RequiredTools": ["HP_Vise"],
-            "DisassembleResults": [
-                {"Classname": "RIP_LeadSmall", "MinAmount": 14, "MaxAmount": 18},
-                {"Classname": "RIP_Foil", "MinAmount": 7, "MaxAmount": 9},
-                {"Classname": "RIP_Plastik", "MinAmount": 3, "MaxAmount": 4},
-                {"Classname": "SAC_GunPowder", "MinAmount": 7, "MaxAmount": 9},
-                {"Classname": "RIP_bolts", "MinAmount": 1, "MaxAmount": 1}
-            ],
-            "Tables": []
-        },
-        {
-            "ItemToDisassemble": "AmmoBox_new_357QuikShokJhp",
-            "RecipeName": "Разбор .357 QuikShok",
-            "CraftTime": 12.0,
-            "SuccessChance": 0.75,
-            "AttachmentsDamage": 5.0,
-            "RequiredLevel": -1,
-            "RequiredTools": ["HP_Vise"],
-            "DisassembleResults": [
-                {"Classname": "RIP_LeadSmall", "MinAmount": 5, "MaxAmount": 7},
-                {"Classname": "RIP_Foil", "MinAmount": 14, "MaxAmount": 17},
-                {"Classname": "SAC_GunPowder", "MinAmount": 8, "MaxAmount": 10},
-                {"Classname": "RIP_bolts", "MinAmount": 1, "MaxAmount": 2}
-            ],
-            "Tables": []
-        },
-        {
-            "ItemToDisassemble": "AmmoBox_new_380HydraShokJhp",
-            "RecipeName": "Разбор .380 HydraShok",
-            "CraftTime": 15.0,
-            "SuccessChance": 0.75,
-            "AttachmentsDamage": 5.0,
-            "RequiredLevel": -1,
-            "RequiredTools": ["HP_Vise"],
-            "DisassembleResults": [
-                {"Classname": "RIP_LeadSmall", "MinAmount": 10, "MaxAmount": 12},
-                {"Classname": "RIP_Foil", "MinAmount": 25, "MaxAmount": 30},
-                {"Classname": "SAC_GunPowder", "MinAmount": 14, "MaxAmount": 17},
-                {"Classname": "RIP_bolts", "MinAmount": 3, "MaxAmount": 4}
-            ],
-            "Tables": []
-        },
-        {
-            "ItemToDisassemble": "AmmoBox_new_45AcpHydrShock",
-            "RecipeName": "Разбор .45 HydraShock",
-            "CraftTime": 12.0,
-            "SuccessChance": 0.75,
-            "AttachmentsDamage": 5.0,
-            "RequiredLevel": -1,
-            "RequiredTools": ["HP_Vise"],
-            "DisassembleResults": [
-                {"Classname": "RIP_LeadSmall", "MinAmount": 7, "MaxAmount": 9},
-                {"Classname": "RIP_Foil", "MinAmount": 18, "MaxAmount": 22},
-                {"Classname": "SAC_GunPowder", "MinAmount": 10, "MaxAmount": 13},
-                {"Classname": "RIP_bolts", "MinAmount": 2, "MaxAmount": 3}
-            ],
-            "Tables": []
-        },
-        {
-            "ItemToDisassemble": "AmmoBox_new_545x39Hp",
-            "RecipeName": "Разбор 5.45x39 HP",
-            "CraftTime": 10.0,
-            "SuccessChance": 0.75,
-            "AttachmentsDamage": 5.0,
-            "RequiredLevel": -1,
-            "RequiredTools": ["HP_Vise"],
-            "DisassembleResults": [
-                {"Classname": "RIP_LeadSmall", "MinAmount": 5, "MaxAmount": 7},
-                {"Classname": "RIP_Foil", "MinAmount": 14, "MaxAmount": 17},
-                {"Classname": "SAC_GunPowder", "MinAmount": 8, "MaxAmount": 10},
-                {"Classname": "RIP_bolts", "MinAmount": 1, "MaxAmount": 2}
-            ],
-            "Tables": []
-        },
-        {
-            "ItemToDisassemble": "AmmoBox_new_762x39Hp",
-            "RecipeName": "Разбор 7.62x39 HP",
-            "CraftTime": 10.0,
-            "SuccessChance": 0.75,
-            "AttachmentsDamage": 5.0,
-            "RequiredLevel": -1,
-            "RequiredTools": ["HP_Vise"],
-            "DisassembleResults": [
-                {"Classname": "RIP_LeadSmall", "MinAmount": 5, "MaxAmount": 7},
-                {"Classname": "RIP_Foil", "MinAmount": 14, "MaxAmount": 17},
-                {"Classname": "SAC_GunPowder", "MinAmount": 8, "MaxAmount": 10},
-                {"Classname": "RIP_bolts", "MinAmount": 1, "MaxAmount": 2}
-            ],
-            "Tables": []
-        },
-        {
-            "ItemToDisassemble": "AmmoBox_new_9x19Rip",
-            "RecipeName": "Разбор 9x19 RIP",
-            "CraftTime": 12.0,
-            "SuccessChance": 0.75,
-            "AttachmentsDamage": 5.0,
-            "RequiredLevel": -1,
-            "RequiredTools": ["HP_Vise"],
-            "DisassembleResults": [
-                {"Classname": "RIP_LeadSmall", "MinAmount": 7, "MaxAmount": 9},
-                {"Classname": "RIP_Foil", "MinAmount": 18, "MaxAmount": 22},
-                {"Classname": "SAC_GunPowder", "MinAmount": 10, "MaxAmount": 13},
-                {"Classname": "RIP_bolts", "MinAmount": 2, "MaxAmount": 3}
-            ],
-            "Tables": []
-        },
-        {
-            "ItemToDisassemble": "AmmoBox_new_308WinM61",
-            "RecipeName": "Разбор .308 M61 Shock",
-            "CraftTime": 15.0,
-            "SuccessChance": 0.7,
-            "AttachmentsDamage": 8.0,
-            "RequiredLevel": -1,
-            "RequiredTools": ["HP_Vise"],
-            "DisassembleResults": [
-                {"Classname": "RIP_LeadSmall", "MinAmount": 10, "MaxAmount": 13},
-                {"Classname": "RIP_Foil", "MinAmount": 22, "MaxAmount": 26},
-                {"Classname": "SAC_GunPowder", "MinAmount": 14, "MaxAmount": 17},
-                {"Classname": "RIP_bolts", "MinAmount": 2, "MaxAmount": 3}
-            ],
-            "Tables": []
-        },
-        {
-            "ItemToDisassemble": "AmmoBox_new_762x547H1",
-            "RecipeName": "Разбор 7.62x54 7H1",
-            "CraftTime": 15.0,
-            "SuccessChance": 0.7,
-            "AttachmentsDamage": 8.0,
-            "RequiredLevel": -1,
-            "RequiredTools": ["HP_Vise"],
-            "DisassembleResults": [
-                {"Classname": "RIP_LeadSmall", "MinAmount": 10, "MaxAmount": 13},
-                {"Classname": "RIP_Foil", "MinAmount": 22, "MaxAmount": 26},
-                {"Classname": "SAC_GunPowder", "MinAmount": 14, "MaxAmount": 17},
-                {"Classname": "RIP_bolts", "MinAmount": 2, "MaxAmount": 3}
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinAmount": 10,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 10,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinAmount": 6,
+                    "MaxAmount": 8
+                },
+                {
+                    "Classname": "RIP_Carbon",
+                    "MinAmount": 0,
+                    "MaxAmount": 2
+                }
             ],
             "Tables": []
         },
         {
             "ItemToDisassemble": "AmmoBox_new_12gaFlchetteS",
-            "RecipeName": "Разбор 12ga Flechette",
+            "RecipeName": "Разбор 12gaFlchetteS",
             "CraftTime": 10.0,
             "SuccessChance": 0.8,
             "AttachmentsDamage": 5.0,
             "RequiredLevel": -1,
-            "RequiredTools": ["HP_Vise"],
+            "RequiredTools": [
+                "HP_Vise"
+            ],
             "DisassembleResults": [
-                {"Classname": "RIP_Foil", "MinAmount": 7, "MaxAmount": 9},
-                {"Classname": "RIP_Plastik", "MinAmount": 3, "MaxAmount": 4},
-                {"Classname": "SAC_GunPowder", "MinAmount": 8, "MaxAmount": 10},
-                {"Classname": "RIP_bolts", "MinAmount": 2, "MaxAmount": 3}
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinAmount": 10,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 10,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinAmount": 6,
+                    "MaxAmount": 8
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "MinAmount": 2,
+                    "MaxAmount": 4
+                }
             ],
             "Tables": []
         },
         {
-            "ItemToDisassemble": "AmmoBox_new_357HollowPoint",
-            "RecipeName": "Разбор .357 Hollow Point",
-            "CraftTime": 12.0,
-            "SuccessChance": 0.7,
-            "AttachmentsDamage": 8.0,
+            "ItemToDisassemble": "AmmoBox_new_12gaMagnumBuckshot8",
+            "RecipeName": "Разбор 12gaMagnumBuckshot8",
+            "CraftTime": 10.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 5.0,
             "RequiredLevel": -1,
-            "RequiredTools": ["HP_Vise"],
-            "DisassembleResults": [
-                {"Classname": "RIP_LeadSmall", "MinAmount": 10, "MaxAmount": 13},
-                {"Classname": "RIP_Foil", "MinAmount": 14, "MaxAmount": 17},
-                {"Classname": "SAC_GunPowder", "MinAmount": 10, "MaxAmount": 13},
-                {"Classname": "RIP_bolts", "MinAmount": 2, "MaxAmount": 3}
+            "RequiredTools": [
+                "HP_Vise"
             ],
-            "Tables": []
-        },
-        {
-            "ItemToDisassemble": "AmmoBox_new_380BondedJhp",
-            "RecipeName": "Разбор .380 Bonded JHP",
-            "CraftTime": 15.0,
-            "SuccessChance": 0.7,
-            "AttachmentsDamage": 8.0,
-            "RequiredLevel": -1,
-            "RequiredTools": ["HP_Vise"],
             "DisassembleResults": [
-                {"Classname": "RIP_LeadSmall", "MinAmount": 18, "MaxAmount": 22},
-                {"Classname": "RIP_Foil", "MinAmount": 25, "MaxAmount": 30},
-                {"Classname": "SAC_GunPowder", "MinAmount": 18, "MaxAmount": 22},
-                {"Classname": "RIP_bolts", "MinAmount": 3, "MaxAmount": 4}
-            ],
-            "Tables": []
-        },
-        {
-            "ItemToDisassemble": "AmmoBox_new_45AcpAP",
-            "RecipeName": "Разбор .45 ACP AP",
-            "CraftTime": 12.0,
-            "SuccessChance": 0.7,
-            "AttachmentsDamage": 8.0,
-            "RequiredLevel": -1,
-            "RequiredTools": ["HP_Vise"],
-            "DisassembleResults": [
-                {"Classname": "RIP_LeadSmall", "MinAmount": 13, "MaxAmount": 16},
-                {"Classname": "RIP_Foil", "MinAmount": 18, "MaxAmount": 22},
-                {"Classname": "SAC_GunPowder", "MinAmount": 13, "MaxAmount": 16},
-                {"Classname": "RIP_bolts", "MinAmount": 3, "MaxAmount": 4}
-            ],
-            "Tables": []
-        },
-        {
-            "ItemToDisassemble": "AmmoBox_new_545x397H39",
-            "RecipeName": "Разбор 5.45x39 7H39",
-            "CraftTime": 12.0,
-            "SuccessChance": 0.7,
-            "AttachmentsDamage": 8.0,
-            "RequiredLevel": -1,
-            "RequiredTools": ["HP_Vise"],
-            "DisassembleResults": [
-                {"Classname": "RIP_LeadSmall", "MinAmount": 10, "MaxAmount": 13},
-                {"Classname": "RIP_Foil", "MinAmount": 14, "MaxAmount": 17},
-                {"Classname": "SAC_GunPowder", "MinAmount": 10, "MaxAmount": 13},
-                {"Classname": "RIP_bolts", "MinAmount": 2, "MaxAmount": 3}
-            ],
-            "Tables": []
-        },
-        {
-            "ItemToDisassemble": "AmmoBox_new_556x45M995",
-            "RecipeName": "Разбор 5.56x45 M995",
-            "CraftTime": 12.0,
-            "SuccessChance": 0.7,
-            "AttachmentsDamage": 8.0,
-            "RequiredLevel": -1,
-            "RequiredTools": ["HP_Vise"],
-            "DisassembleResults": [
-                {"Classname": "RIP_LeadSmall", "MinAmount": 10, "MaxAmount": 13},
-                {"Classname": "RIP_Foil", "MinAmount": 14, "MaxAmount": 17},
-                {"Classname": "SAC_GunPowder", "MinAmount": 10, "MaxAmount": 13},
-                {"Classname": "RIP_bolts", "MinAmount": 2, "MaxAmount": 3}
-            ],
-            "Tables": []
-        },
-        {
-            "ItemToDisassemble": "AmmoBox_new_762x39Bp",
-            "RecipeName": "Разбор 7.62x39 BP",
-            "CraftTime": 12.0,
-            "SuccessChance": 0.7,
-            "AttachmentsDamage": 8.0,
-            "RequiredLevel": -1,
-            "RequiredTools": ["HP_Vise"],
-            "DisassembleResults": [
-                {"Classname": "RIP_LeadSmall", "MinAmount": 10, "MaxAmount": 13},
-                {"Classname": "RIP_Foil", "MinAmount": 14, "MaxAmount": 17},
-                {"Classname": "SAC_GunPowder", "MinAmount": 10, "MaxAmount": 13},
-                {"Classname": "RIP_bolts", "MinAmount": 2, "MaxAmount": 3}
-            ],
-            "Tables": []
-        },
-        {
-            "ItemToDisassemble": "AmmoBox_new_9x19Ap",
-            "RecipeName": "Разбор 9x19 AP",
-            "CraftTime": 12.0,
-            "SuccessChance": 0.7,
-            "AttachmentsDamage": 8.0,
-            "RequiredLevel": -1,
-            "RequiredTools": ["HP_Vise"],
-            "DisassembleResults": [
-                {"Classname": "RIP_LeadSmall", "MinAmount": 13, "MaxAmount": 16},
-                {"Classname": "RIP_Foil", "MinAmount": 18, "MaxAmount": 22},
-                {"Classname": "SAC_GunPowder", "MinAmount": 13, "MaxAmount": 16},
-                {"Classname": "RIP_bolts", "MinAmount": 3, "MaxAmount": 4}
-            ],
-            "Tables": []
-        },
-        {
-            "ItemToDisassemble": "AmmoBox_new_9x39Sp6",
-            "RecipeName": "Разбор 9x39 SP-6",
-            "CraftTime": 12.0,
-            "SuccessChance": 0.7,
-            "AttachmentsDamage": 8.0,
-            "RequiredLevel": -1,
-            "RequiredTools": ["HP_Vise"],
-            "DisassembleResults": [
-                {"Classname": "RIP_LeadSmall", "MinAmount": 10, "MaxAmount": 13},
-                {"Classname": "RIP_Foil", "MinAmount": 14, "MaxAmount": 17},
-                {"Classname": "SAC_GunPowder", "MinAmount": 10, "MaxAmount": 13},
-                {"Classname": "RIP_bolts", "MinAmount": 2, "MaxAmount": 3}
-            ],
-            "Tables": []
-        },
-        {
-            "ItemToDisassemble": "AmmoBox_new_308WinM993",
-            "RecipeName": "Разбор .308 M993",
-            "CraftTime": 18.0,
-            "SuccessChance": 0.65,
-            "AttachmentsDamage": 10.0,
-            "RequiredLevel": -1,
-            "RequiredTools": ["HP_Vise"],
-            "DisassembleResults": [
-                {"Classname": "RIP_LeadSmall", "MinAmount": 22, "MaxAmount": 27},
-                {"Classname": "RIP_Foil", "MinAmount": 22, "MaxAmount": 26},
-                {"Classname": "SAC_GunPowder", "MinAmount": 18, "MaxAmount": 22},
-                {"Classname": "RIP_bolts", "MinAmount": 3, "MaxAmount": 4}
-            ],
-            "Tables": []
-        },
-        {
-            "ItemToDisassemble": "AmmoBox_new_762x547H37",
-            "RecipeName": "Разбор 7.62x54 7H37",
-            "CraftTime": 18.0,
-            "SuccessChance": 0.65,
-            "AttachmentsDamage": 10.0,
-            "RequiredLevel": -1,
-            "RequiredTools": ["HP_Vise"],
-            "DisassembleResults": [
-                {"Classname": "RIP_LeadSmall", "MinAmount": 22, "MaxAmount": 27},
-                {"Classname": "RIP_Foil", "MinAmount": 22, "MaxAmount": 26},
-                {"Classname": "SAC_GunPowder", "MinAmount": 18, "MaxAmount": 22},
-                {"Classname": "RIP_bolts", "MinAmount": 3, "MaxAmount": 4}
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinAmount": 10,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 10,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinAmount": 6,
+                    "MaxAmount": 8
+                }
             ],
             "Tables": []
         },
         {
             "ItemToDisassemble": "AmmoBox_new_12gaRip",
-            "RecipeName": "Разбор 12ga RIP Slug",
-            "CraftTime": 12.0,
-            "SuccessChance": 0.7,
-            "AttachmentsDamage": 8.0,
+            "RecipeName": "Разбор 12gaRip",
+            "CraftTime": 10.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 5.0,
             "RequiredLevel": -1,
-            "RequiredTools": ["HP_Vise"],
+            "RequiredTools": [
+                "HP_Vise"
+            ],
             "DisassembleResults": [
-                {"Classname": "RIP_LeadSmall", "MinAmount": 18, "MaxAmount": 22},
-                {"Classname": "RIP_Foil", "MinAmount": 7, "MaxAmount": 9},
-                {"Classname": "RIP_Plastik", "MinAmount": 3, "MaxAmount": 4},
-                {"Classname": "SAC_GunPowder", "MinAmount": 10, "MaxAmount": 13},
-                {"Classname": "RIP_bolts", "MinAmount": 1, "MaxAmount": 2}
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinAmount": 10,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 10,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinAmount": 6,
+                    "MaxAmount": 8
+                },
+                {
+                    "Classname": "RIP_Carbon",
+                    "MinAmount": 0,
+                    "MaxAmount": 2
+                }
             ],
             "Tables": []
         },
         {
-            "ItemToDisassemble": "AmmoBox_new_12ga2Sabot",
-            "RecipeName": "Разбор 12ga 2-Sabot",
+            "ItemToDisassemble": "AmmoBox_new_22HighVelocity",
+            "RecipeName": "Разбор 22HighVelocity",
             "CraftTime": 12.0,
-            "SuccessChance": 0.7,
-            "AttachmentsDamage": 8.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 5.0,
             "RequiredLevel": -1,
-            "RequiredTools": ["HP_Vise"],
+            "RequiredTools": [
+                "HP_Vise"
+            ],
             "DisassembleResults": [
-                {"Classname": "RIP_LeadSmall", "MinAmount": 22, "MaxAmount": 26},
-                {"Classname": "RIP_Foil", "MinAmount": 7, "MaxAmount": 9},
-                {"Classname": "RIP_Plastik", "MinAmount": 3, "MaxAmount": 4},
-                {"Classname": "SAC_GunPowder", "MinAmount": 10, "MaxAmount": 13},
-                {"Classname": "RIP_bolts", "MinAmount": 1, "MaxAmount": 2}
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinAmount": 9,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 16,
+                    "MaxAmount": 20
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinAmount": 8,
+                    "MaxAmount": 10
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "AmmoBox_new_22HyperVelocity",
+            "RecipeName": "Разбор 22HyperVelocity",
+            "CraftTime": 12.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinAmount": 9,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 16,
+                    "MaxAmount": 20
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinAmount": 8,
+                    "MaxAmount": 10
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "AmmoBox_new_308WinM61",
+            "RecipeName": "Разбор 308WinM61",
+            "CraftTime": 12.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinAmount": 10,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 15,
+                    "MaxAmount": 18
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinAmount": 7,
+                    "MaxAmount": 9
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "MinAmount": 2,
+                    "MaxAmount": 5
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "AmmoBox_new_308WinM80",
+            "RecipeName": "Разбор 308WinM80",
+            "CraftTime": 12.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinAmount": 10,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 15,
+                    "MaxAmount": 18
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinAmount": 7,
+                    "MaxAmount": 9
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "AmmoBox_new_308WinM993",
+            "RecipeName": "Разбор 308WinM993",
+            "CraftTime": 12.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinAmount": 10,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 15,
+                    "MaxAmount": 18
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinAmount": 7,
+                    "MaxAmount": 9
+                },
+                {
+                    "Classname": "RIP_Carbon",
+                    "MinAmount": 1,
+                    "MaxAmount": 2
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "AmmoBox_new_357HollowPoint",
+            "RecipeName": "Разбор 357HollowPoint",
+            "CraftTime": 12.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinAmount": 9,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 16,
+                    "MaxAmount": 20
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinAmount": 8,
+                    "MaxAmount": 10
+                },
+                {
+                    "Classname": "RIP_Carbon",
+                    "MinAmount": 1,
+                    "MaxAmount": 3
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "AmmoBox_new_357QuikShokJhp",
+            "RecipeName": "Разбор 357QuikShokJhp",
+            "CraftTime": 12.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinAmount": 9,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 16,
+                    "MaxAmount": 20
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinAmount": 8,
+                    "MaxAmount": 10
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "MinAmount": 4,
+                    "MaxAmount": 8
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "AmmoBox_new_357SilvertipJhp",
+            "RecipeName": "Разбор 357SilvertipJhp",
+            "CraftTime": 12.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinAmount": 9,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 16,
+                    "MaxAmount": 20
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinAmount": 8,
+                    "MaxAmount": 10
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "AmmoBox_new_380BondedJhp",
+            "RecipeName": "Разбор 380BondedJhp",
+            "CraftTime": 12.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinAmount": 9,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 16,
+                    "MaxAmount": 20
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinAmount": 8,
+                    "MaxAmount": 10
+                },
+                {
+                    "Classname": "RIP_Carbon",
+                    "MinAmount": 1,
+                    "MaxAmount": 3
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "AmmoBox_new_380HydraShokJhp",
+            "RecipeName": "Разбор 380HydraShokJhp",
+            "CraftTime": 12.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinAmount": 9,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 16,
+                    "MaxAmount": 20
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinAmount": 8,
+                    "MaxAmount": 10
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "MinAmount": 4,
+                    "MaxAmount": 8
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "AmmoBox_new_45AcpAP",
+            "RecipeName": "Разбор 45AcpAP",
+            "CraftTime": 12.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinAmount": 9,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 16,
+                    "MaxAmount": 20
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinAmount": 8,
+                    "MaxAmount": 10
+                },
+                {
+                    "Classname": "RIP_Carbon",
+                    "MinAmount": 1,
+                    "MaxAmount": 3
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "AmmoBox_new_45AcpFmj",
+            "RecipeName": "Разбор 45AcpFmj",
+            "CraftTime": 12.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinAmount": 9,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 16,
+                    "MaxAmount": 20
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinAmount": 8,
+                    "MaxAmount": 10
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "AmmoBox_new_45AcpHydrShock",
+            "RecipeName": "Разбор 45AcpHydrShock",
+            "CraftTime": 12.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinAmount": 9,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 16,
+                    "MaxAmount": 20
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinAmount": 8,
+                    "MaxAmount": 10
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "MinAmount": 4,
+                    "MaxAmount": 8
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "AmmoBox_new_545x397H39",
+            "RecipeName": "Разбор 545x397H39",
+            "CraftTime": 12.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinAmount": 9,
+                    "MaxAmount": 11
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 15,
+                    "MaxAmount": 18
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinAmount": 7,
+                    "MaxAmount": 9
+                },
+                {
+                    "Classname": "RIP_Carbon",
+                    "MinAmount": 1,
+                    "MaxAmount": 2
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "AmmoBox_new_545x39Bp",
+            "RecipeName": "Разбор 545x39Bp",
+            "CraftTime": 12.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinAmount": 9,
+                    "MaxAmount": 11
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 15,
+                    "MaxAmount": 18
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinAmount": 7,
+                    "MaxAmount": 9
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "AmmoBox_new_545x39Hp",
+            "RecipeName": "Разбор 545x39Hp",
+            "CraftTime": 12.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinAmount": 9,
+                    "MaxAmount": 11
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 15,
+                    "MaxAmount": 18
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinAmount": 7,
+                    "MaxAmount": 9
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "MinAmount": 3,
+                    "MaxAmount": 6
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "AmmoBox_new_556x4555Fmj",
+            "RecipeName": "Разбор 556x4555Fmj",
+            "CraftTime": 12.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinAmount": 9,
+                    "MaxAmount": 11
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 15,
+                    "MaxAmount": 18
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinAmount": 7,
+                    "MaxAmount": 9
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "AmmoBox_new_556x45M855",
+            "RecipeName": "Разбор 556x45M855",
+            "CraftTime": 12.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinAmount": 9,
+                    "MaxAmount": 11
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 15,
+                    "MaxAmount": 18
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinAmount": 7,
+                    "MaxAmount": 9
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "AmmoBox_new_556x45M995",
+            "RecipeName": "Разбор 556x45M995",
+            "CraftTime": 12.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinAmount": 9,
+                    "MaxAmount": 11
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 15,
+                    "MaxAmount": 18
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinAmount": 7,
+                    "MaxAmount": 9
+                },
+                {
+                    "Classname": "RIP_Carbon",
+                    "MinAmount": 1,
+                    "MaxAmount": 2
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "AmmoBox_new_762x39Bp",
+            "RecipeName": "Разбор 762x39Bp",
+            "CraftTime": 12.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinAmount": 9,
+                    "MaxAmount": 11
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 15,
+                    "MaxAmount": 18
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinAmount": 7,
+                    "MaxAmount": 9
+                },
+                {
+                    "Classname": "RIP_Carbon",
+                    "MinAmount": 1,
+                    "MaxAmount": 2
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "AmmoBox_new_762x39Hp",
+            "RecipeName": "Разбор 762x39Hp",
+            "CraftTime": 12.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinAmount": 9,
+                    "MaxAmount": 11
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 15,
+                    "MaxAmount": 18
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinAmount": 7,
+                    "MaxAmount": 9
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "MinAmount": 3,
+                    "MaxAmount": 6
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "AmmoBox_new_762x39Ps",
+            "RecipeName": "Разбор 762x39Ps",
+            "CraftTime": 12.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinAmount": 9,
+                    "MaxAmount": 11
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 15,
+                    "MaxAmount": 18
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinAmount": 7,
+                    "MaxAmount": 9
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "AmmoBox_new_762x547H1",
+            "RecipeName": "Разбор 762x547H1",
+            "CraftTime": 12.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinAmount": 10,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 15,
+                    "MaxAmount": 18
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinAmount": 7,
+                    "MaxAmount": 9
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "MinAmount": 2,
+                    "MaxAmount": 5
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "AmmoBox_new_762x547H37",
+            "RecipeName": "Разбор 762x547H37",
+            "CraftTime": 12.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinAmount": 10,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 15,
+                    "MaxAmount": 18
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinAmount": 7,
+                    "MaxAmount": 9
+                },
+                {
+                    "Classname": "RIP_Carbon",
+                    "MinAmount": 1,
+                    "MaxAmount": 2
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "AmmoBox_new_762x54Snb",
+            "RecipeName": "Разбор 762x54Snb",
+            "CraftTime": 12.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinAmount": 10,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 15,
+                    "MaxAmount": 18
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinAmount": 7,
+                    "MaxAmount": 9
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "AmmoBox_new_9x19Ap",
+            "RecipeName": "Разбор 9x19Ap",
+            "CraftTime": 12.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinAmount": 9,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 16,
+                    "MaxAmount": 20
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinAmount": 8,
+                    "MaxAmount": 10
+                },
+                {
+                    "Classname": "RIP_Carbon",
+                    "MinAmount": 1,
+                    "MaxAmount": 3
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "AmmoBox_new_9x19Pst",
+            "RecipeName": "Разбор 9x19Pst",
+            "CraftTime": 12.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinAmount": 9,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 16,
+                    "MaxAmount": 20
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinAmount": 8,
+                    "MaxAmount": 10
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "AmmoBox_new_9x19Rip",
+            "RecipeName": "Разбор 9x19Rip",
+            "CraftTime": 12.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinAmount": 9,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 16,
+                    "MaxAmount": 20
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinAmount": 8,
+                    "MaxAmount": 10
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "MinAmount": 4,
+                    "MaxAmount": 8
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "AmmoBox_new_9x39Sp5",
+            "RecipeName": "Разбор 9x39Sp5",
+            "CraftTime": 12.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinAmount": 9,
+                    "MaxAmount": 11
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 12,
+                    "MaxAmount": 15
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinAmount": 6,
+                    "MaxAmount": 8
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "AmmoBox_new_9x39Sp6",
+            "RecipeName": "Разбор 9x39Sp6",
+            "CraftTime": 12.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 5.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinAmount": 9,
+                    "MaxAmount": 11
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 12,
+                    "MaxAmount": 15
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinAmount": 6,
+                    "MaxAmount": 8
+                },
+                {
+                    "Classname": "RIP_Carbon",
+                    "MinAmount": 1,
+                    "MaxAmount": 2
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_new_12ga2Sabot",
+            "RecipeName": "Разбор 12ga2Sabot",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.25,
+                    "MaxPerUnit": 0.3
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.25,
+                    "MaxPerUnit": 0.3
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                },
+                {
+                    "Classname": "RIP_Carbon",
+                    "MinPerUnit": 0.02,
+                    "MaxPerUnit": 0.03
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_new_12gaFlchetteS",
+            "RecipeName": "Разбор 12gaFlchetteS",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.25,
+                    "MaxPerUnit": 0.3
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.25,
+                    "MaxPerUnit": 0.3
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "MinPerUnit": 0.05,
+                    "MaxPerUnit": 0.1
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_new_12gaMagnumBuckshot8",
+            "RecipeName": "Разбор 12gaMagnumBuckshot8",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.25,
+                    "MaxPerUnit": 0.3
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.25,
+                    "MaxPerUnit": 0.3
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_new_12gaRip",
+            "RecipeName": "Разбор 12gaRip",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.25,
+                    "MaxPerUnit": 0.3
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.25,
+                    "MaxPerUnit": 0.3
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                },
+                {
+                    "Classname": "RIP_Carbon",
+                    "MinPerUnit": 0.02,
+                    "MaxPerUnit": 0.03
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_new_22HighVelocity",
+            "RecipeName": "Разбор 22HighVelocity",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.12,
+                    "MaxPerUnit": 0.15
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.2,
+                    "MaxPerUnit": 0.25
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.1,
+                    "MaxPerUnit": 0.12
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_new_22HyperVelocity",
+            "RecipeName": "Разбор 22HyperVelocity",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.12,
+                    "MaxPerUnit": 0.15
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.2,
+                    "MaxPerUnit": 0.25
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.1,
+                    "MaxPerUnit": 0.12
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_new_308WinM61",
+            "RecipeName": "Разбор 308WinM61",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.2,
+                    "MaxPerUnit": 0.24
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.3,
+                    "MaxPerUnit": 0.36
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "MinPerUnit": 0.05,
+                    "MaxPerUnit": 0.1
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_new_308WinM80",
+            "RecipeName": "Разбор 308WinM80",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.2,
+                    "MaxPerUnit": 0.24
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.3,
+                    "MaxPerUnit": 0.36
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_new_308WinM993",
+            "RecipeName": "Разбор 308WinM993",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.2,
+                    "MaxPerUnit": 0.24
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.3,
+                    "MaxPerUnit": 0.36
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                },
+                {
+                    "Classname": "RIP_Carbon",
+                    "MinPerUnit": 0.02,
+                    "MaxPerUnit": 0.03
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_new_357HollowPoint",
+            "RecipeName": "Разбор 357HollowPoint",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.12,
+                    "MaxPerUnit": 0.15
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.2,
+                    "MaxPerUnit": 0.25
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.1,
+                    "MaxPerUnit": 0.12
+                },
+                {
+                    "Classname": "RIP_Carbon",
+                    "MinPerUnit": 0.02,
+                    "MaxPerUnit": 0.03
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_new_357QuikShokJhp",
+            "RecipeName": "Разбор 357QuikShokJhp",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.12,
+                    "MaxPerUnit": 0.15
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.2,
+                    "MaxPerUnit": 0.25
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.1,
+                    "MaxPerUnit": 0.12
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "MinPerUnit": 0.05,
+                    "MaxPerUnit": 0.1
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_new_357SilvertipJhp",
+            "RecipeName": "Разбор 357SilvertipJhp",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.12,
+                    "MaxPerUnit": 0.15
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.2,
+                    "MaxPerUnit": 0.25
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.1,
+                    "MaxPerUnit": 0.12
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_new_380BondedJhp",
+            "RecipeName": "Разбор 380BondedJhp",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.12,
+                    "MaxPerUnit": 0.15
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.2,
+                    "MaxPerUnit": 0.25
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.1,
+                    "MaxPerUnit": 0.12
+                },
+                {
+                    "Classname": "RIP_Carbon",
+                    "MinPerUnit": 0.02,
+                    "MaxPerUnit": 0.03
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_new_380HydraShokJhp",
+            "RecipeName": "Разбор 380HydraShokJhp",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.12,
+                    "MaxPerUnit": 0.15
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.2,
+                    "MaxPerUnit": 0.25
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.1,
+                    "MaxPerUnit": 0.12
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "MinPerUnit": 0.05,
+                    "MaxPerUnit": 0.1
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_new_45AcpAP",
+            "RecipeName": "Разбор 45AcpAP",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.12,
+                    "MaxPerUnit": 0.15
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.2,
+                    "MaxPerUnit": 0.25
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.1,
+                    "MaxPerUnit": 0.12
+                },
+                {
+                    "Classname": "RIP_Carbon",
+                    "MinPerUnit": 0.02,
+                    "MaxPerUnit": 0.03
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_new_45AcpFmj",
+            "RecipeName": "Разбор 45AcpFmj",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.12,
+                    "MaxPerUnit": 0.15
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.2,
+                    "MaxPerUnit": 0.25
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.1,
+                    "MaxPerUnit": 0.12
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_new_45AcpHydrShock",
+            "RecipeName": "Разбор 45AcpHydrShock",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.12,
+                    "MaxPerUnit": 0.15
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.2,
+                    "MaxPerUnit": 0.25
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.1,
+                    "MaxPerUnit": 0.12
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "MinPerUnit": 0.05,
+                    "MaxPerUnit": 0.1
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_new_545x397H39",
+            "RecipeName": "Разбор 545x397H39",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.25,
+                    "MaxPerUnit": 0.3
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.12,
+                    "MaxPerUnit": 0.15
+                },
+                {
+                    "Classname": "RIP_Carbon",
+                    "MinPerUnit": 0.02,
+                    "MaxPerUnit": 0.03
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_new_545x39Bp",
+            "RecipeName": "Разбор 545x39Bp",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.25,
+                    "MaxPerUnit": 0.3
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.12,
+                    "MaxPerUnit": 0.15
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_new_545x39Hp",
+            "RecipeName": "Разбор 545x39Hp",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.25,
+                    "MaxPerUnit": 0.3
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.12,
+                    "MaxPerUnit": 0.15
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "MinPerUnit": 0.05,
+                    "MaxPerUnit": 0.1
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_new_556x4555Fmj",
+            "RecipeName": "Разбор 556x4555Fmj",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.25,
+                    "MaxPerUnit": 0.3
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.12,
+                    "MaxPerUnit": 0.15
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_new_556x45M855",
+            "RecipeName": "Разбор 556x45M855",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.25,
+                    "MaxPerUnit": 0.3
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.12,
+                    "MaxPerUnit": 0.15
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_new_556x45M995",
+            "RecipeName": "Разбор 556x45M995",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.25,
+                    "MaxPerUnit": 0.3
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.12,
+                    "MaxPerUnit": 0.15
+                },
+                {
+                    "Classname": "RIP_Carbon",
+                    "MinPerUnit": 0.02,
+                    "MaxPerUnit": 0.03
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_new_762x39Bp",
+            "RecipeName": "Разбор 762x39Bp",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.25,
+                    "MaxPerUnit": 0.3
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.12,
+                    "MaxPerUnit": 0.15
+                },
+                {
+                    "Classname": "RIP_Carbon",
+                    "MinPerUnit": 0.02,
+                    "MaxPerUnit": 0.03
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_new_762x39Hp",
+            "RecipeName": "Разбор 762x39Hp",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.25,
+                    "MaxPerUnit": 0.3
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.12,
+                    "MaxPerUnit": 0.15
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "MinPerUnit": 0.05,
+                    "MaxPerUnit": 0.1
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_new_762x39Ps",
+            "RecipeName": "Разбор 762x39Ps",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.25,
+                    "MaxPerUnit": 0.3
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.12,
+                    "MaxPerUnit": 0.15
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_new_762x547H1",
+            "RecipeName": "Разбор 762x547H1",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.2,
+                    "MaxPerUnit": 0.24
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.3,
+                    "MaxPerUnit": 0.36
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "MinPerUnit": 0.05,
+                    "MaxPerUnit": 0.1
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_new_762x547H37",
+            "RecipeName": "Разбор 762x547H37",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.2,
+                    "MaxPerUnit": 0.24
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.3,
+                    "MaxPerUnit": 0.36
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                },
+                {
+                    "Classname": "RIP_Carbon",
+                    "MinPerUnit": 0.02,
+                    "MaxPerUnit": 0.03
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_new_762x54Snb",
+            "RecipeName": "Разбор 762x54Snb",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.2,
+                    "MaxPerUnit": 0.24
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.3,
+                    "MaxPerUnit": 0.36
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_new_9x19Ap",
+            "RecipeName": "Разбор 9x19Ap",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.12,
+                    "MaxPerUnit": 0.15
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.2,
+                    "MaxPerUnit": 0.25
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.1,
+                    "MaxPerUnit": 0.12
+                },
+                {
+                    "Classname": "RIP_Carbon",
+                    "MinPerUnit": 0.02,
+                    "MaxPerUnit": 0.03
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_new_9x19Pst",
+            "RecipeName": "Разбор 9x19Pst",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.12,
+                    "MaxPerUnit": 0.15
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.2,
+                    "MaxPerUnit": 0.25
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.1,
+                    "MaxPerUnit": 0.12
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_new_9x19Rip",
+            "RecipeName": "Разбор 9x19Rip",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.12,
+                    "MaxPerUnit": 0.15
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.2,
+                    "MaxPerUnit": 0.25
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.1,
+                    "MaxPerUnit": 0.12
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "MinPerUnit": 0.05,
+                    "MaxPerUnit": 0.1
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_new_9x39Sp5",
+            "RecipeName": "Разбор 9x39Sp5",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.2,
+                    "MaxPerUnit": 0.24
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.1,
+                    "MaxPerUnit": 0.12
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_new_9x39Sp6",
+            "RecipeName": "Разбор 9x39Sp6",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.2,
+                    "MaxPerUnit": 0.24
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.1,
+                    "MaxPerUnit": 0.12
+                },
+                {
+                    "Classname": "RIP_Carbon",
+                    "MinPerUnit": 0.02,
+                    "MaxPerUnit": 0.03
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_12_7_55",
+            "RecipeName": "Разбор 12_7_55",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.2,
+                    "MaxPerUnit": 0.24
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.3,
+                    "MaxPerUnit": 0.36
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_12gaBeanbag",
+            "RecipeName": "Разбор 12gaBeanbag",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.25,
+                    "MaxPerUnit": 0.3
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.25,
+                    "MaxPerUnit": 0.3
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_12gaPellets",
+            "RecipeName": "Разбор 12gaPellets",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.25,
+                    "MaxPerUnit": 0.3
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.25,
+                    "MaxPerUnit": 0.3
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_12gaRubberSlug",
+            "RecipeName": "Разбор 12gaRubberSlug",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.25,
+                    "MaxPerUnit": 0.3
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.25,
+                    "MaxPerUnit": 0.3
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_12gaSlug",
+            "RecipeName": "Разбор 12gaSlug",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.25,
+                    "MaxPerUnit": 0.3
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.25,
+                    "MaxPerUnit": 0.3
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_22",
+            "RecipeName": "Разбор 22",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.12,
+                    "MaxPerUnit": 0.15
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.2,
+                    "MaxPerUnit": 0.25
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.1,
+                    "MaxPerUnit": 0.12
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_300AAC",
+            "RecipeName": "Разбор 300AAC",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.25,
+                    "MaxPerUnit": 0.3
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.12,
+                    "MaxPerUnit": 0.15
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_308Win",
+            "RecipeName": "Разбор 308Win",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.2,
+                    "MaxPerUnit": 0.24
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.3,
+                    "MaxPerUnit": 0.36
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_308WinTracer",
+            "RecipeName": "Разбор 308WinTracer",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.2,
+                    "MaxPerUnit": 0.24
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.3,
+                    "MaxPerUnit": 0.36
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_357",
+            "RecipeName": "Разбор 357",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.12,
+                    "MaxPerUnit": 0.15
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.2,
+                    "MaxPerUnit": 0.25
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.1,
+                    "MaxPerUnit": 0.12
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_380",
+            "RecipeName": "Разбор 380",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.12,
+                    "MaxPerUnit": 0.15
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.2,
+                    "MaxPerUnit": 0.25
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.1,
+                    "MaxPerUnit": 0.12
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_408CheyTac",
+            "RecipeName": "Разбор 408CheyTac",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.2,
+                    "MaxPerUnit": 0.24
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.3,
+                    "MaxPerUnit": 0.36
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_45ACP",
+            "RecipeName": "Разбор 45ACP",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.12,
+                    "MaxPerUnit": 0.15
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.2,
+                    "MaxPerUnit": 0.25
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.1,
+                    "MaxPerUnit": 0.12
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_50BMG",
+            "RecipeName": "Разбор 50BMG",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.2,
+                    "MaxPerUnit": 0.24
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.3,
+                    "MaxPerUnit": 0.36
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_50BMG_AP",
+            "RecipeName": "Разбор 50BMG_AP",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.2,
+                    "MaxPerUnit": 0.24
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.3,
+                    "MaxPerUnit": 0.36
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_50Beowolf",
+            "RecipeName": "Разбор 50Beowolf",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.2,
+                    "MaxPerUnit": 0.24
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.3,
+                    "MaxPerUnit": 0.36
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_545x39",
+            "RecipeName": "Разбор 545x39",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.25,
+                    "MaxPerUnit": 0.3
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.12,
+                    "MaxPerUnit": 0.15
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_545x39Tracer",
+            "RecipeName": "Разбор 545x39Tracer",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.25,
+                    "MaxPerUnit": 0.3
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.12,
+                    "MaxPerUnit": 0.15
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_556x45",
+            "RecipeName": "Разбор 556x45",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.25,
+                    "MaxPerUnit": 0.3
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.12,
+                    "MaxPerUnit": 0.15
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_556x45Tracer",
+            "RecipeName": "Разбор 556x45Tracer",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.25,
+                    "MaxPerUnit": 0.3
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.12,
+                    "MaxPerUnit": 0.15
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_65Creedmore",
+            "RecipeName": "Разбор 65Creedmore",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.2,
+                    "MaxPerUnit": 0.24
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.3,
+                    "MaxPerUnit": 0.36
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_762x39",
+            "RecipeName": "Разбор 762x39",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.25,
+                    "MaxPerUnit": 0.3
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.12,
+                    "MaxPerUnit": 0.15
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_762x39Tracer",
+            "RecipeName": "Разбор 762x39Tracer",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.25,
+                    "MaxPerUnit": 0.3
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.12,
+                    "MaxPerUnit": 0.15
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_762x54",
+            "RecipeName": "Разбор 762x54",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.2,
+                    "MaxPerUnit": 0.24
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.3,
+                    "MaxPerUnit": 0.36
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_762x54Tracer",
+            "RecipeName": "Разбор 762x54Tracer",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.2,
+                    "MaxPerUnit": 0.24
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.3,
+                    "MaxPerUnit": 0.36
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_9x19",
+            "RecipeName": "Разбор 9x19",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.12,
+                    "MaxPerUnit": 0.15
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.2,
+                    "MaxPerUnit": 0.25
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.1,
+                    "MaxPerUnit": 0.12
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_9x39",
+            "RecipeName": "Разбор 9x39",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.2,
+                    "MaxPerUnit": 0.24
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.1,
+                    "MaxPerUnit": 0.12
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_9x39AP",
+            "RecipeName": "Разбор 9x39AP",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.2,
+                    "MaxPerUnit": 0.24
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.1,
+                    "MaxPerUnit": 0.12
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_Expansion_338",
+            "RecipeName": "Разбор Expansion_338",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.2,
+                    "MaxPerUnit": 0.24
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.3,
+                    "MaxPerUnit": 0.36
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.15,
+                    "MaxPerUnit": 0.18
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "Ammo_Expansion_46x30",
+            "RecipeName": "Разбор Expansion_46x30",
+            "CraftTime": 1.0,
+            "SuccessChance": 0.95,
+            "AttachmentsDamage": 1.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinPerUnit": 0.12,
+                    "MaxPerUnit": 0.15
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinPerUnit": 0.2,
+                    "MaxPerUnit": 0.25
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinPerUnit": 0.1,
+                    "MaxPerUnit": 0.12
+                }
             ],
             "Tables": []
         },
         {
             "ItemToDisassemble": "AmmoBox_338_30rnd",
             "RecipeName": "Разбор .338 Lapua Magnum",
-            "CraftTime": 15.0,
-            "SuccessChance": 0.75,
-            "AttachmentsDamage": 8.0,
+            "CraftTime": 12.0,
+            "SuccessChance": 0.8,
+            "AttachmentsDamage": 5.0,
             "RequiredLevel": -1,
-            "RequiredTools": ["HP_Vise"],
+            "RequiredTools": [
+                "HP_Vise"
+            ],
             "DisassembleResults": [
-                {"Classname": "RIP_LeadSmall", "MinAmount": 14, "MaxAmount": 18},
-                {"Classname": "RIP_Foil", "MinAmount": 22, "MaxAmount": 27},
-                {"Classname": "SAC_GunPowder", "MinAmount": 11, "MaxAmount": 14},
-                {"Classname": "RIP_bolts", "MinAmount": 2, "MaxAmount": 3}
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinAmount": 10,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 15,
+                    "MaxAmount": 18
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinAmount": 7,
+                    "MaxAmount": 9
+                }
             ],
             "Tables": []
         },
@@ -573,12 +3091,25 @@
             "SuccessChance": 0.8,
             "AttachmentsDamage": 5.0,
             "RequiredLevel": -1,
-            "RequiredTools": ["HP_Vise"],
+            "RequiredTools": [
+                "HP_Vise"
+            ],
             "DisassembleResults": [
-                {"Classname": "RIP_LeadSmall", "MinAmount": 9, "MaxAmount": 11},
-                {"Classname": "RIP_Foil", "MinAmount": 18, "MaxAmount": 22},
-                {"Classname": "SAC_GunPowder", "MinAmount": 9, "MaxAmount": 11},
-                {"Classname": "RIP_bolts", "MinAmount": 2, "MaxAmount": 3}
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "MinAmount": 9,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 16,
+                    "MaxAmount": 20
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "MinAmount": 8,
+                    "MaxAmount": 10
+                }
             ],
             "Tables": []
         }

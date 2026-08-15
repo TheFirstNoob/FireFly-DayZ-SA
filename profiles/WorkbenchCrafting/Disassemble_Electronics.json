@@ -276,6 +276,91 @@
                 }
             ],
             "Tables": []
+        },
+        {
+            "ItemToDisassemble": "RIP_FlightRecorderBox",
+            "RecipeName": "Разборка бортового самописца",
+            "CraftTime": 20.0,
+            "SuccessChance": 0.75,
+            "AttachmentsDamage": 10.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise",
+                "HP_Payalnik"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_milMCs",
+                    "MinAmount": 1,
+                    "MaxAmount": 2
+                },
+                {
+                    "Classname": "RIP_Semiconds",
+                    "MinAmount": 5,
+                    "MaxAmount": 8
+                },
+                {
+                    "Classname": "RIP_modCap",
+                    "MinAmount": 3,
+                    "MaxAmount": 5
+                },
+                {
+                    "Classname": "RIP_modRes",
+                    "MinAmount": 3,
+                    "MaxAmount": 5
+                },
+                {
+                    "Classname": "RIP_Wire",
+                    "MinAmount": 8,
+                    "MaxAmount": 12
+                },
+                {
+                    "Classname": "RIP_LiPoBatt",
+                    "MinAmount": 1,
+                    "MaxAmount": 1
+                }
+            ],
+            "Tables": []
+        },
+        {
+            "ItemToDisassemble": "RIP_FlightRecorderPot",
+            "RecipeName": "Разборка капсулы бортового самописца",
+            "CraftTime": 15.0,
+            "SuccessChance": 0.75,
+            "AttachmentsDamage": 10.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise",
+                "HP_Payalnik"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_milMCs",
+                    "MinAmount": 1,
+                    "MaxAmount": 1
+                },
+                {
+                    "Classname": "RIP_Semiconds",
+                    "MinAmount": 4,
+                    "MaxAmount": 6
+                },
+                {
+                    "Classname": "RIP_modCap",
+                    "MinAmount": 2,
+                    "MaxAmount": 4
+                },
+                {
+                    "Classname": "RIP_modRes",
+                    "MinAmount": 2,
+                    "MaxAmount": 4
+                },
+                {
+                    "Classname": "RIP_Wire",
+                    "MinAmount": 6,
+                    "MaxAmount": 10
+                }
+            ],
+            "Tables": []
         }
     ]
 }

@@ -200,6 +200,50 @@
                 }
             ],
             "Tables": []
+        },
+        {
+            "ItemToDisassemble": "RIP_Rustymetal",
+            "RecipeName": "Разборка ящика с металлоломом",
+            "CraftTime": 10.0,
+            "SuccessChance": 0.9,
+            "AttachmentsDamage": 8.0,
+            "RequiredLevel": -1,
+            "RequiredTools": [
+                "HP_Vise"
+            ],
+            "DisassembleResults": [
+                {
+                    "Classname": "RIP_bolts",
+                    "MinAmount": 2,
+                    "MaxAmount": 5
+                },
+                {
+                    "Classname": "RIP_nuts",
+                    "MinAmount": 2,
+                    "MaxAmount": 5
+                },
+                {
+                    "Classname": "RIP_Rivets",
+                    "MinAmount": 1,
+                    "MaxAmount": 3
+                },
+                {
+                    "Classname": "RIP_Wire",
+                    "MinAmount": 1,
+                    "MaxAmount": 3
+                },
+                {
+                    "Classname": "RIP_Corners",
+                    "MinAmount": 0,
+                    "MaxAmount": 2
+                },
+                {
+                    "Classname": "RIP_MetalRods",
+                    "MinAmount": 0,
+                    "MaxAmount": 2
+                }
+            ],
+            "Tables": []
         }
     ]
 }
