@@ -50,29 +50,54 @@
             ],
             "DisassembleResults": [
                 {
-                    "Classname": "RIP_GlassPK",
-                    "MinAmount": 3,
-                    "MaxAmount": 5
+                    "Classname": "RIP_Plexiglass",
+                    "MinAmount": 0,
+                    "MaxAmount": 1
                 },
                 {
                     "Classname": "RIP_Plastik",
-                    "MinAmount": 15,
-                    "MaxAmount": 19
-                },
-                {
-                    "Classname": "RIP_milMCs",
-                    "MinAmount": 3,
+                    "MinAmount": 4,
                     "MaxAmount": 5
                 },
                 {
+                    "Classname": "RIP_milMCs",
+                    "MinAmount": 1,
+                    "MaxAmount": 1
+                },
+                {
                     "Classname": "RIP_Semiconds",
-                    "MinAmount": 10,
-                    "MaxAmount": 13
+                    "MinAmount": 2,
+                    "MaxAmount": 4
+                },
+                {
+                    "Classname": "RIP_Inductors",
+                    "MinAmount": 1,
+                    "MaxAmount": 1
+                },
+                {
+                    "Classname": "RIP_modCap",
+                    "MinAmount": 2,
+                    "MaxAmount": 3
                 },
                 {
                     "Classname": "RIP_rubber",
-                    "MinAmount": 29,
-                    "MaxAmount": 39
+                    "MinAmount": 8,
+                    "MaxAmount": 10
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 12,
+                    "MaxAmount": 18
+                },
+                {
+                    "Classname": "RIP_Wire",
+                    "MinAmount": 10,
+                    "MaxAmount": 14
+                },
+                {
+                    "Classname": "RIP_SolderCoil",
+                    "MinAmount": 6,
+                    "MaxAmount": 9
                 }
             ],
             "Tables": []
@@ -91,28 +116,53 @@
             "DisassembleResults": [
                 {
                     "Classname": "RIP_CivMC",
-                    "MinAmount": 6,
-                    "MaxAmount": 8
+                    "MinAmount": 1,
+                    "MaxAmount": 2
                 },
                 {
                     "Classname": "RIP_Semiconds",
-                    "MinAmount": 14,
-                    "MaxAmount": 20
+                    "MinAmount": 3,
+                    "MaxAmount": 4
                 },
                 {
                     "Classname": "RIP_modCap",
-                    "MinAmount": 10,
-                    "MaxAmount": 12
+                    "MinAmount": 2,
+                    "MaxAmount": 3
                 },
                 {
                     "Classname": "RIP_modRes",
-                    "MinAmount": 12,
-                    "MaxAmount": 16
+                    "MinAmount": 2,
+                    "MaxAmount": 4
+                },
+                {
+                    "Classname": "RIP_Textolit",
+                    "MinAmount": 0,
+                    "MaxAmount": 1
+                },
+                {
+                    "Classname": "RIP_Inductors",
+                    "MinAmount": 1,
+                    "MaxAmount": 1
                 },
                 {
                     "Classname": "RIP_GlassPK",
-                    "MinAmount": 2,
-                    "MaxAmount": 4
+                    "MinAmount": 0,
+                    "MaxAmount": 1
+                },
+                {
+                    "Classname": "RIP_Wire",
+                    "MinAmount": 10,
+                    "MaxAmount": 14
+                },
+                {
+                    "Classname": "RIP_SolderCoil",
+                    "MinAmount": 5,
+                    "MaxAmount": 7
+                },
+                {
+                    "Classname": "RIP_Rosin",
+                    "MinAmount": 8,
+                    "MaxAmount": 10
                 }
             ],
             "Tables": []
@@ -131,28 +181,58 @@
             "DisassembleResults": [
                 {
                     "Classname": "RIP_CivMC",
-                    "MinAmount": 4,
-                    "MaxAmount": 6
+                    "MinAmount": 1,
+                    "MaxAmount": 1
                 },
                 {
                     "Classname": "RIP_Semiconds",
-                    "MinAmount": 12,
-                    "MaxAmount": 17
+                    "MinAmount": 2,
+                    "MaxAmount": 4
                 },
                 {
                     "Classname": "RIP_modCap",
+                    "MinAmount": 2,
+                    "MaxAmount": 2
+                },
+                {
+                    "Classname": "RIP_modRes",
+                    "MinAmount": 2,
+                    "MaxAmount": 3
+                },
+                {
+                    "Classname": "RIP_Textolit",
+                    "MinAmount": 0,
+                    "MaxAmount": 1
+                },
+                {
+                    "Classname": "RIP_Inductors",
+                    "MinAmount": 1,
+                    "MaxAmount": 1
+                },
+                {
+                    "Classname": "RIP_GlassPK",
+                    "MinAmount": 1,
+                    "MaxAmount": 1
+                },
+                {
+                    "Classname": "RIP_Plastik",
+                    "MinAmount": 3,
+                    "MaxAmount": 4
+                },
+                {
+                    "Classname": "RIP_Wire",
                     "MinAmount": 8,
                     "MaxAmount": 10
                 },
                 {
-                    "Classname": "RIP_modRes",
-                    "MinAmount": 10,
-                    "MaxAmount": 12
+                    "Classname": "RIP_SolderCoil",
+                    "MinAmount": 4,
+                    "MaxAmount": 5
                 },
                 {
-                    "Classname": "RIP_GlassPK",
-                    "MinAmount": 4,
-                    "MaxAmount": 4
+                    "Classname": "RIP_Rosin",
+                    "MinAmount": 6,
+                    "MaxAmount": 9
                 }
             ],
             "Tables": []
@@ -167,38 +247,74 @@
             "RequiredTools": [
                 "HP_Vise",
                 "HP_Payalnik",
-                "HP_Drill"
+                "HP_Drill",
+                "HP_Oiler"
             ],
             "DisassembleResults": [
                 {
                     "Classname": "RIP_Elmotor",
-                    "MinAmount": 1,
+                    "MinAmount": 0,
                     "MaxAmount": 1
                 },
                 {
                     "Classname": "RIP_ElmotorDriver",
-                    "MinAmount": 1,
+                    "MinAmount": 0,
                     "MaxAmount": 1
                 },
                 {
                     "Classname": "RIP_TRR",
-                    "MinAmount": 1,
-                    "MaxAmount": 3
+                    "MinAmount": 0,
+                    "MaxAmount": 1
                 },
                 {
                     "Classname": "RIP_CivMC",
-                    "MinAmount": 4,
-                    "MaxAmount": 6
+                    "MinAmount": 1,
+                    "MaxAmount": 2
+                },
+                {
+                    "Classname": "RIP_modCap",
+                    "MinAmount": 2,
+                    "MaxAmount": 4
                 },
                 {
                     "Classname": "RIP_rubber",
-                    "MinAmount": 67,
-                    "MaxAmount": 89
+                    "MinAmount": 20,
+                    "MaxAmount": 28
                 },
                 {
                     "Classname": "RIP_Cable",
-                    "MinAmount": 17,
-                    "MaxAmount": 22
+                    "MinAmount": 5,
+                    "MaxAmount": 7
+                },
+                {
+                    "Classname": "RIP_Wire",
+                    "MinAmount": 20,
+                    "MaxAmount": 28
+                },
+                {
+                    "Classname": "RIP_Fuses",
+                    "MinAmount": 1,
+                    "MaxAmount": 1
+                },
+                {
+                    "Classname": "RIP_Connectors",
+                    "MinAmount": 4,
+                    "MaxAmount": 5
+                },
+                {
+                    "Classname": "RIP_Plastik",
+                    "MinAmount": 6,
+                    "MaxAmount": 9
+                },
+                {
+                    "Classname": "RIP_bolts",
+                    "MinAmount": 3,
+                    "MaxAmount": 4
+                },
+                {
+                    "Classname": "RIP_nuts",
+                    "MinAmount": 3,
+                    "MaxAmount": 4
                 }
             ],
             "Tables": []
@@ -217,28 +333,63 @@
             "DisassembleResults": [
                 {
                     "Classname": "RIP_milMCs",
-                    "MinAmount": 4,
-                    "MaxAmount": 8
+                    "MinAmount": 0,
+                    "MaxAmount": 1
                 },
                 {
                     "Classname": "RIP_CivMC",
-                    "MinAmount": 8,
-                    "MaxAmount": 8
+                    "MinAmount": 1,
+                    "MaxAmount": 1
                 },
                 {
                     "Classname": "RIP_Semiconds",
-                    "MinAmount": 20,
-                    "MaxAmount": 24
+                    "MinAmount": 2,
+                    "MaxAmount": 3
                 },
                 {
                     "Classname": "RIP_modCap",
-                    "MinAmount": 20,
-                    "MaxAmount": 24
+                    "MinAmount": 2,
+                    "MaxAmount": 3
+                },
+                {
+                    "Classname": "RIP_modRes",
+                    "MinAmount": 2,
+                    "MaxAmount": 4
+                },
+                {
+                    "Classname": "RIP_Inductors",
+                    "MinAmount": 1,
+                    "MaxAmount": 1
                 },
                 {
                     "Classname": "RIP_TRR",
-                    "MinAmount": 4,
-                    "MaxAmount": 8
+                    "MinAmount": 0,
+                    "MaxAmount": 1
+                },
+                {
+                    "Classname": "RIP_CopperCoil",
+                    "MinAmount": 10,
+                    "MaxAmount": 14
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "MinAmount": 8,
+                    "MaxAmount": 10
+                },
+                {
+                    "Classname": "RIP_Wire",
+                    "MinAmount": 10,
+                    "MaxAmount": 14
+                },
+                {
+                    "Classname": "RIP_Connectors",
+                    "MinAmount": 2,
+                    "MaxAmount": 3
+                },
+                {
+                    "Classname": "RIP_SolderCoil",
+                    "MinAmount": 5,
+                    "MaxAmount": 7
                 }
             ],
             "Tables": []
@@ -256,22 +407,57 @@
             "DisassembleResults": [
                 {
                     "Classname": "RIP_CivMC",
-                    "MinAmount": 4,
-                    "MaxAmount": 8
+                    "MinAmount": 0,
+                    "MaxAmount": 1
                 },
                 {
                     "Classname": "RIP_Semiconds",
-                    "MinAmount": 12,
-                    "MaxAmount": 16
+                    "MinAmount": 1,
+                    "MaxAmount": 2
                 },
                 {
                     "Classname": "RIP_modCap",
-                    "MinAmount": 8,
-                    "MaxAmount": 12
+                    "MinAmount": 1,
+                    "MaxAmount": 1
+                },
+                {
+                    "Classname": "RIP_modRes",
+                    "MinAmount": 2,
+                    "MaxAmount": 2
+                },
+                {
+                    "Classname": "RIP_Inductors",
+                    "MinAmount": 0,
+                    "MaxAmount": 1
                 },
                 {
                     "Classname": "RIP_TRR",
                     "MinAmount": 0,
+                    "MaxAmount": 1
+                },
+                {
+                    "Classname": "RIP_CopperCoil",
+                    "MinAmount": 5,
+                    "MaxAmount": 7
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "MinAmount": 4,
+                    "MaxAmount": 5
+                },
+                {
+                    "Classname": "RIP_Wire",
+                    "MinAmount": 5,
+                    "MaxAmount": 7
+                },
+                {
+                    "Classname": "RIP_Connectors",
+                    "MinAmount": 1,
+                    "MaxAmount": 1
+                },
+                {
+                    "Classname": "RIP_SolderCoil",
+                    "MinAmount": 2,
                     "MaxAmount": 4
                 }
             ],

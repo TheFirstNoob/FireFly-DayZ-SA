@@ -12,7 +12,8 @@
             "RequiredLevel": -1,
             "RequiredTools": [
                 "HP_Vise",
-                "HP_napilnik"
+                "HP_napilnik",
+                "HP_Oiler"
             ],
             "DisassembleResults": [
                 {
@@ -46,18 +47,28 @@
             "DisassembleResults": [
                 {
                     "Classname": "RIP_Plastik",
+                    "MinAmount": 2,
+                    "MaxAmount": 4
+                },
+                {
+                    "Classname": "RIP_Wire",
                     "MinAmount": 8,
                     "MaxAmount": 10
                 },
                 {
-                    "Classname": "RIP_Wire",
-                    "MinAmount": 23,
-                    "MaxAmount": 31
+                    "Classname": "RIP_CivMC",
+                    "MinAmount": 0,
+                    "MaxAmount": 1
                 },
                 {
-                    "Classname": "RIP_CivMC",
-                    "MinAmount": 1,
-                    "MaxAmount": 3
+                    "Classname": "RIP_Foil",
+                    "MinAmount": 5,
+                    "MaxAmount": 7
+                },
+                {
+                    "Classname": "RIP_Rosin",
+                    "MinAmount": 4,
+                    "MaxAmount": 5
                 }
             ],
             "Tables": []
@@ -76,28 +87,48 @@
             "DisassembleResults": [
                 {
                     "Classname": "RIP_Plastik",
-                    "MinAmount": 17,
-                    "MaxAmount": 22
-                },
-                {
-                    "Classname": "RIP_CivMC",
-                    "MinAmount": 3,
-                    "MaxAmount": 3
-                },
-                {
-                    "Classname": "RIP_Semiconds",
-                    "MinAmount": 6,
+                    "MinAmount": 5,
                     "MaxAmount": 7
                 },
                 {
+                    "Classname": "RIP_CivMC",
+                    "MinAmount": 1,
+                    "MaxAmount": 1
+                },
+                {
+                    "Classname": "RIP_Semiconds",
+                    "MinAmount": 2,
+                    "MaxAmount": 2
+                },
+                {
+                    "Classname": "RIP_modCap",
+                    "MinAmount": 1,
+                    "MaxAmount": 2
+                },
+                {
                     "Classname": "RIP_CopperCoil",
-                    "MinAmount": 21,
-                    "MaxAmount": 28
+                    "MinAmount": 6,
+                    "MaxAmount": 9
+                },
+                {
+                    "Classname": "RIP_rubber",
+                    "MinAmount": 6,
+                    "MaxAmount": 9
                 },
                 {
                     "Classname": "RIP_GlassPK",
-                    "MinAmount": 1,
-                    "MaxAmount": 3
+                    "MinAmount": 0,
+                    "MaxAmount": 1
+                },
+                {
+                    "Classname": "RIP_Wire",
+                    "MinAmount": 6,
+                    "MaxAmount": 9
+                },
+                {
+                    "Classname": "RIP_SolderCoil",
+                    "MinAmount": 4,
+                    "MaxAmount": 5
                 }
             ],
             "Tables": []
@@ -111,7 +142,8 @@
             "RequiredLevel": -1,
             "RequiredTools": [
                 "HP_Vise",
-                "HP_napilnik"
+                "HP_napilnik",
+                "HP_Oiler"
             ],
             "DisassembleResults": [
                 {
