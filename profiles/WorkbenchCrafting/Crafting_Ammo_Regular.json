@@ -7,258 +7,442 @@
             "Result": "AmmoBox_new_22HighVelocity",
             "ResultCount": 1,
             "FillToFull": true,
-            "RecipeName": ".22 High Velocity",
+            "RecipeName": "22HighVelocity",
             "CraftTime": 30.0,
             "SuccessChance": 0.75,
             "AttachmentsDamage": 5.0,
             "RequiredLevel": -1,
             "CraftComponents": [
-                {"Classname": "RIP_LeadSmall", "Amount": 25, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_Foil", "Amount": 50, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "SAC_GunPowder", "Amount": 25, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_bolts", "Amount": 5, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_Rosin", "Amount": 8, "Destroy": true, "HealthChange": 0.0}
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "Amount": 20,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "Amount": 32,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "Amount": 16,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
             ],
-            "RequiredTools": ["HP_Vise"],
+            "RequiredTools": [
+                "HP_Vise"
+            ],
             "Tables": []
         },
         {
             "Result": "AmmoBox_new_22HyperVelocity",
             "ResultCount": 1,
             "FillToFull": true,
-            "RecipeName": ".22 Hyper Velocity",
+            "RecipeName": "22HyperVelocity",
             "CraftTime": 30.0,
-            "SuccessChance": 0.7,
+            "SuccessChance": 0.75,
             "AttachmentsDamage": 5.0,
             "RequiredLevel": -1,
             "CraftComponents": [
-                {"Classname": "RIP_LeadSmall", "Amount": 25, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_Foil", "Amount": 50, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "SAC_GunPowder", "Amount": 25, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_bolts", "Amount": 5, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_Rosin", "Amount": 8, "Destroy": true, "HealthChange": 0.0}
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "Amount": 20,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "Amount": 32,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "Amount": 16,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
             ],
-            "RequiredTools": ["HP_Vise"],
+            "RequiredTools": [
+                "HP_Vise"
+            ],
             "Tables": []
         },
         {
             "Result": "AmmoBox_new_45AcpFmj",
             "ResultCount": 1,
             "FillToFull": true,
-            "RecipeName": ".45 ACP FMJ",
-            "CraftTime": 35.0,
+            "RecipeName": "45AcpFmj",
+            "CraftTime": 30.0,
             "SuccessChance": 0.75,
             "AttachmentsDamage": 5.0,
             "RequiredLevel": -1,
             "CraftComponents": [
-                {"Classname": "RIP_LeadSmall", "Amount": 13, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_Foil", "Amount": 25, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "SAC_GunPowder", "Amount": 13, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_bolts", "Amount": 3, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_Rosin", "Amount": 4, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_SandpaperS", "Amount": 1, "Destroy": false, "HealthChange": 0.0}
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "Amount": 20,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "Amount": 32,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "Amount": 16,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
             ],
-            "RequiredTools": ["HP_Vise"],
+            "RequiredTools": [
+                "HP_Vise"
+            ],
             "Tables": []
         },
         {
             "Result": "AmmoBox_new_357SilvertipJhp",
             "ResultCount": 1,
             "FillToFull": true,
-            "RecipeName": ".357 Silvertip JHP",
+            "RecipeName": "357SilvertipJhp",
             "CraftTime": 30.0,
             "SuccessChance": 0.75,
             "AttachmentsDamage": 5.0,
             "RequiredLevel": -1,
             "CraftComponents": [
-                {"Classname": "RIP_LeadSmall", "Amount": 10, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_Foil", "Amount": 20, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "SAC_GunPowder", "Amount": 10, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_bolts", "Amount": 2, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_Rosin", "Amount": 3, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_SandpaperS", "Amount": 1, "Destroy": false, "HealthChange": 0.0}
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "Amount": 20,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "Amount": 32,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "Amount": 16,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
             ],
-            "RequiredTools": ["HP_Vise"],
+            "RequiredTools": [
+                "HP_Vise"
+            ],
             "Tables": []
         },
         {
             "Result": "AmmoBox_new_545x39Bp",
             "ResultCount": 1,
             "FillToFull": true,
-            "RecipeName": "5.45x39 BP",
+            "RecipeName": "545x39Bp",
             "CraftTime": 30.0,
-            "SuccessChance": 0.7,
+            "SuccessChance": 0.75,
             "AttachmentsDamage": 5.0,
             "RequiredLevel": -1,
             "CraftComponents": [
-                {"Classname": "RIP_LeadSmall", "Amount": 10, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_Foil", "Amount": 20, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "SAC_GunPowder", "Amount": 10, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_bolts", "Amount": 2, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_Rosin", "Amount": 3, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_SandpaperS", "Amount": 1, "Destroy": false, "HealthChange": 0.0}
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "Amount": 18,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "Amount": 30,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "Amount": 15,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
             ],
-            "RequiredTools": ["HP_Vise"],
+            "RequiredTools": [
+                "HP_Vise"
+            ],
             "Tables": []
         },
         {
             "Result": "AmmoBox_new_556x45M855",
             "ResultCount": 1,
             "FillToFull": true,
-            "RecipeName": "5.56x45 M855",
+            "RecipeName": "556x45M855",
             "CraftTime": 30.0,
             "SuccessChance": 0.75,
             "AttachmentsDamage": 5.0,
             "RequiredLevel": -1,
             "CraftComponents": [
-                {"Classname": "RIP_LeadSmall", "Amount": 10, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_Foil", "Amount": 20, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "SAC_GunPowder", "Amount": 10, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_bolts", "Amount": 2, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_Rosin", "Amount": 3, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_SandpaperS", "Amount": 1, "Destroy": false, "HealthChange": 0.0}
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "Amount": 18,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "Amount": 30,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "Amount": 15,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
             ],
-            "RequiredTools": ["HP_Vise"],
+            "RequiredTools": [
+                "HP_Vise"
+            ],
             "Tables": []
         },
         {
             "Result": "AmmoBox_new_556x4555Fmj",
             "ResultCount": 1,
             "FillToFull": true,
-            "RecipeName": "5.56x45 55 FMJ",
+            "RecipeName": "556x4555Fmj",
             "CraftTime": 30.0,
             "SuccessChance": 0.75,
             "AttachmentsDamage": 5.0,
             "RequiredLevel": -1,
             "CraftComponents": [
-                {"Classname": "RIP_LeadSmall", "Amount": 10, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_Foil", "Amount": 20, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "SAC_GunPowder", "Amount": 10, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_bolts", "Amount": 2, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_Rosin", "Amount": 3, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_SandpaperS", "Amount": 1, "Destroy": false, "HealthChange": 0.0}
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "Amount": 18,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "Amount": 30,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "Amount": 15,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
             ],
-            "RequiredTools": ["HP_Vise"],
+            "RequiredTools": [
+                "HP_Vise"
+            ],
             "Tables": []
         },
         {
             "Result": "AmmoBox_new_762x39Ps",
             "ResultCount": 1,
             "FillToFull": true,
-            "RecipeName": "7.62x39 PS",
+            "RecipeName": "762x39Ps",
             "CraftTime": 30.0,
             "SuccessChance": 0.75,
             "AttachmentsDamage": 5.0,
             "RequiredLevel": -1,
             "CraftComponents": [
-                {"Classname": "RIP_LeadSmall", "Amount": 12, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_Foil", "Amount": 22, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "SAC_GunPowder", "Amount": 12, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_bolts", "Amount": 2, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_Rosin", "Amount": 3, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_SandpaperS", "Amount": 1, "Destroy": false, "HealthChange": 0.0}
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "Amount": 18,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "Amount": 30,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "Amount": 15,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
             ],
-            "RequiredTools": ["HP_Vise"],
+            "RequiredTools": [
+                "HP_Vise"
+            ],
             "Tables": []
         },
         {
             "Result": "AmmoBox_new_9x19Pst",
             "ResultCount": 1,
             "FillToFull": true,
-            "RecipeName": "9x19 PST",
-            "CraftTime": 35.0,
+            "RecipeName": "9x19Pst",
+            "CraftTime": 30.0,
             "SuccessChance": 0.75,
             "AttachmentsDamage": 5.0,
             "RequiredLevel": -1,
             "CraftComponents": [
-                {"Classname": "RIP_LeadSmall", "Amount": 13, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_Foil", "Amount": 25, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "SAC_GunPowder", "Amount": 13, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_bolts", "Amount": 3, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_Rosin", "Amount": 4, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_SandpaperS", "Amount": 1, "Destroy": false, "HealthChange": 0.0}
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "Amount": 20,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "Amount": 32,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "Amount": 16,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
             ],
-            "RequiredTools": ["HP_Vise"],
+            "RequiredTools": [
+                "HP_Vise"
+            ],
             "Tables": []
         },
         {
             "Result": "AmmoBox_new_9x39Sp5",
             "ResultCount": 1,
             "FillToFull": true,
-            "RecipeName": "9x39 SP-5",
+            "RecipeName": "9x39Sp5",
             "CraftTime": 30.0,
-            "SuccessChance": 0.7,
+            "SuccessChance": 0.75,
             "AttachmentsDamage": 5.0,
             "RequiredLevel": -1,
             "CraftComponents": [
-                {"Classname": "RIP_LeadSmall", "Amount": 10, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_Foil", "Amount": 20, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "SAC_GunPowder", "Amount": 10, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_bolts", "Amount": 2, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_Rosin", "Amount": 3, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_SandpaperS", "Amount": 1, "Destroy": false, "HealthChange": 0.0}
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "Amount": 18,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "Amount": 24,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "Amount": 12,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
             ],
-            "RequiredTools": ["HP_Vise"],
+            "RequiredTools": [
+                "HP_Vise"
+            ],
             "Tables": []
         },
         {
             "Result": "AmmoBox_new_308WinM80",
             "ResultCount": 1,
             "FillToFull": true,
-            "RecipeName": ".308 Win M80",
+            "RecipeName": "308WinM80",
             "CraftTime": 40.0,
-            "SuccessChance": 0.7,
-            "AttachmentsDamage": 8.0,
+            "SuccessChance": 0.75,
+            "AttachmentsDamage": 5.0,
             "RequiredLevel": -1,
             "CraftComponents": [
-                {"Classname": "RIP_LeadSmall", "Amount": 20, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_Foil", "Amount": 30, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "SAC_GunPowder", "Amount": 15, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_bolts", "Amount": 3, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_Rosin", "Amount": 4, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_SandpaperS", "Amount": 1, "Destroy": false, "HealthChange": 0.0}
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "Amount": 20,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "Amount": 30,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "Amount": 15,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
             ],
-            "RequiredTools": ["HP_Vise"],
+            "RequiredTools": [
+                "HP_Vise"
+            ],
             "Tables": []
         },
         {
             "Result": "AmmoBox_new_762x54Snb",
             "ResultCount": 1,
             "FillToFull": true,
-            "RecipeName": "7.62x54 SNB",
+            "RecipeName": "762x54Snb",
             "CraftTime": 40.0,
-            "SuccessChance": 0.7,
-            "AttachmentsDamage": 8.0,
+            "SuccessChance": 0.75,
+            "AttachmentsDamage": 5.0,
             "RequiredLevel": -1,
             "CraftComponents": [
-                {"Classname": "RIP_LeadSmall", "Amount": 20, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_Foil", "Amount": 30, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "SAC_GunPowder", "Amount": 15, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_bolts", "Amount": 3, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_Rosin", "Amount": 4, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_SandpaperS", "Amount": 1, "Destroy": false, "HealthChange": 0.0}
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "Amount": 20,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "Amount": 30,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "Amount": 15,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
             ],
-            "RequiredTools": ["HP_Vise"],
+            "RequiredTools": [
+                "HP_Vise"
+            ],
             "Tables": []
         },
         {
             "Result": "AmmoBox_new_12gaMagnumBuckshot8",
             "ResultCount": 1,
             "FillToFull": true,
-            "RecipeName": "12ga Magnum Buckshot",
+            "RecipeName": "12gaMagnumBuckshot8",
             "CraftTime": 25.0,
             "SuccessChance": 0.75,
             "AttachmentsDamage": 5.0,
             "RequiredLevel": -1,
             "CraftComponents": [
-                {"Classname": "RIP_LeadSmall", "Amount": 20, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_Foil", "Amount": 10, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_Plastik", "Amount": 5, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "SAC_GunPowder", "Amount": 10, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_bolts", "Amount": 1, "Destroy": true, "HealthChange": 0.0},
-                {"Classname": "RIP_Rosin", "Amount": 3, "Destroy": true, "HealthChange": 0.0}
+                {
+                    "Classname": "RIP_LeadSmall",
+                    "Amount": 20,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "RIP_Foil",
+                    "Amount": 20,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                },
+                {
+                    "Classname": "SAC_GunPowder",
+                    "Amount": 12,
+                    "Destroy": true,
+                    "HealthChange": 0.0
+                }
             ],
-            "RequiredTools": ["HP_Vise"],
+            "RequiredTools": [
+                "HP_Vise"
+            ],
             "Tables": []
         }
     ]
