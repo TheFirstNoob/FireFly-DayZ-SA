@@ -328,28 +328,6 @@
             ],
             "RequiredTools": [],
             "Tables": []
-        },
-        {
-            "Result": "RIP_LeadSmall",
-            "ResultCount": 40,
-            "RecipeName": "Нарезка свинцового листа",
-            "CraftTime": 25.0,
-            "SuccessChance": 0.95,
-            "AttachmentsDamage": 8.0,
-            "RequiredLevel": -1,
-            "CraftComponents": [
-                {
-                    "Classname": "RIP_LeadSheets",
-                    "Amount": 1,
-                    "Destroy": true,
-                    "HealthChange": 0.0
-                }
-            ],
-            "RequiredTools": [
-                "HP_Vise",
-                "HP_napilnik"
-            ],
-            "Tables": []
         }
     ]
 }
