@@ -54,16 +54,10 @@
             <child lootmax="0" lootmin="0" max="4" min="1" type="Animal_GallusGallusDomesticusF_White"/>
         </children>
     </event>
-    <!--
-  
-  ==============================================
-                  # WILD_ANIMALS #
-  ==============================================
-  -->
     <event name="AnimalBear">
         <nominal>3</nominal>
         <min>2</min>
-        <max>2</max>
+        <max>8</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -208,7 +202,7 @@
         </children>
     </event>
     <event name="AnimalWolf">
-        <nominal>18</nominal>
+        <nominal>28</nominal>
         <min>4</min>
         <max>6</max>
         <lifetime>180</lifetime>
@@ -233,7 +227,7 @@
   -->
     <event name="InfectedAlien">
         <nominal>20</nominal>
-        <min>5</min>
+        <min>7</min>
         <max>25</max>
         <lifetime>3</lifetime>
         <restock>0</restock>
