@@ -5,15 +5,15 @@
 	"Title": "Зашифрованный тайник (Базовый)",
 	"Descriptions": [
 		"<p align=\"center\"><image set=\"expansion_iconset\" name=\"Codelock\" scale=\"1.28\" /><color hex=\"0xFFCC6600\"> Купи карту с шифром. Сможешь расшифровать — получишь припасы.</color></p>",
-		"<p align=\"center\"><color hex=\"0xFFCC6600\"> Проверь инвентарь — там записка с шифром. Разгадай и следуй к маркеру.</color></p>",
+		"<p align=\"center\"><color hex=\"0xFFCC6600\"> Проверь инвентарь — там записка с шифром. Разгадай и следуй к нужной зоне.</color></p>",
 		"<p align=\"center\"><color hex=\"0xFFCC6600\"> Сейф открыт! Забирай трофеи.</color></p>"
 	],
 	"ObjectiveText": "Расшифруй записку и открой сейф.",
 	"FollowUpQuest": -1,
 	"Repeatable": 1,
 	"IsDailyQuest": 0,
-	"IsWeeklyQuest": 0,
-	"CancelQuestOnPlayerDeath": 0,
+	"IsWeeklyQuest": 1,
+	"CancelQuestOnPlayerDeath": 1,
 	"Autocomplete": 1,
 	"IsGroupQuest": 0,
 	"ObjectSetFileName": "",
@@ -55,5 +55,5 @@
 	"FactionReputationRequirements": {},
 	"FactionReputationRewards": {},
 	"SuppressQuestLogOnCompetion": 0,
-	"Active": 0
+	"Active": 1
 }

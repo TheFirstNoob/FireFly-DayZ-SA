@@ -11,13 +11,13 @@
 	"MarkerName": "",
 	"MarkerVisibility": 0,
 	"Positions": [
-		[6672.06, 289.32, 7726.74],
-		[8857.44, 247.52, 6298.23],
-		[5923.69, 246.87, 9313.21],
-		[4427.47, 209.05, 7412.72],
-		[6930.14, 234.10, 3553.08]
+		[406.806, 279.601, 138.415],
+		[1035.57, 264.309, 1359.01],
+		[1317.78, 258.71, 1694.42],
+		[2103.04, 213.971, 2093.74],
+		[2807.86, 201.177, 544.4]
 	],
-	"LootItemsAmount": 3,
+	"LootItemsAmount": 8,
 	"MaxDistance": 10.0,
 	"Loot": [
 		{
@@ -30,7 +30,7 @@
 			"Variants": []
 		},
 		{
-			"Name": "VitaminBottle",
+			"Name": "BatteryCharger",
 			"Chance": 0.5,
 			"Attachments": [],
 			"QuantityPercent": -1,
@@ -39,17 +39,8 @@
 			"Variants": []
 		},
 		{
-			"Name": "BatteryCharger",
-			"Chance": 0.3,
-			"Attachments": [],
-			"QuantityPercent": -1,
-			"Max": -1,
-			"Min": 0,
-			"Variants": []
-		},
-		{
 			"Name": "ExpansionGPS",
-			"Chance": 0.2,
+			"Chance": 0.5,
 			"Attachments": [],
 			"QuantityPercent": -1,
 			"Max": -1,
@@ -57,7 +48,115 @@
 			"Variants": []
 		},
 		{
-			"Name": "Binoculars",
+			"Name": "SR_Food_IRP30",
+			"Chance": 0.5,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "AmmoBox_new_9x39Sp6",
+			"Chance": 0.5,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "AmmoBox_new_12gaRip",
+			"Chance": 0.5,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "AmmoBox_new_308WinM61",
+			"Chance": 0.5,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "AmmoBox_new_545x39Bp",
+			"Chance": 0.5,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "AmmoBox_new_556x45M995",
+			"Chance": 0.5,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "AmmoBox_new_762x39Bp",
+			"Chance": 0.5,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "AmmoBox_new_762x547H37",
+			"Chance": 0.5,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "TF_NVGoggles_AVS9",
+			"Chance": 0.5,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "TerjeSurgicalKit",
+			"Chance": 0.5,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "RSH12",
+			"Chance": 0.5,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "MSP_BeanBasher",
+			"Chance": 0.5,
+			"Attachments": [],
+			"QuantityPercent": -1,
+			"Max": -1,
+			"Min": 0,
+			"Variants": []
+		},
+		{
+			"Name": "MSP_Egg_Pink",
 			"Chance": 0.5,
 			"Attachments": [],
 			"QuantityPercent": -1,
