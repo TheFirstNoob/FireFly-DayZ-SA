@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <eventposdef>
   <event name="StaticHeliCrash">
-		<zone smin="1" smax="3" dmin="1" dmax="5" r="45" />
+		<zone smin="1" smax="3" dmin="1" dmax="5" r="45"/>
    		<pos x="4971.89"  z="9055.77" a="0"/>
 		<pos x="5552.11"  z="8384.04" a="0"/>
 		<pos x="3592.53"  z="8067.36" a="0"/>
@@ -57,7 +57,7 @@
 		<pos x="4867.39"  z="5076.88" a="0"/>
 	</event>
 	<event name="StaticUFOCrash">
-		<zone smin="1" smax="3" dmin="1" dmax="5" r="45" />
+		<zone smin="1" smax="3" dmin="1" dmax="5" r="45"/>
 		<pos x="10845.8"  z="10709.8" a="-175.088"/>
 		<pos x="4588.2"   z="13829.3" a="-175.088"/>
 		<pos x="3481.06"  z="12806.9" a="39.269"/>
@@ -83,7 +83,7 @@
 		<pos x="2610.47"  z="13308.5" a="-104.771"/>
   </event>
     <event name="StaticBonfire">	<!-- StaticSantaCrash We temp use this for StaticBonfire...-->
-		<zone smin="2" smax="4" dmin="3" dmax="5" r="45" />
+		<zone smin="2" smax="4" dmin="3" dmax="5" r="45"/>
 		<pos x="4667.17" z="4218.25" a="1.8"/>
 		<pos x="5686.05" z="5086.91" a="1.8"/>
 		<pos x="3505.63" z="6017.52" a="1.8"/>
@@ -198,7 +198,7 @@
 		<pos x="4792.98" y="202.599" z="5023.08" a="132.952"/>
 	</event>
 	<event name="StaticPoliceCar">
-		<zone smin="1" smax="3" dmin="1" dmax="2" r="45" />
+		<zone smin="1" smax="3" dmin="1" dmax="2" r="45"/>
 		<pos x="8755.88" z="3107.24" a="-30.3471"/>
 		<pos x="7417"    z="1771.54" a="-125.246"/>
 		<pos x="5608.2"  z="2404.44" a="126.277"/>
@@ -216,7 +216,7 @@
 		<pos x="8631.3"  z="5989.09" a="-142.139"/>
 	</event>
 	<event name="StaticAmbulance">
-		<zone smin="1" smax="1" dmin="1" dmax="2" r="45" />
+		<zone smin="1" smax="1" dmin="1" dmax="2" r="45"/>
 		<pos x="9920.73"  z="3755.21" a="94.3566"/>
 		<pos x="5406.33"  z="624.446" a="77.0355"/>
 		<pos x="3981.34"  z="4021.91" a="-55.5565"/>
@@ -346,7 +346,7 @@
 	</event>
 
 	<event name="StaticContaminatedArea">
-		<zone smin="0" smax="0" dmin="4" dmax="8" r="50" />
+		<zone smin="0" smax="0" dmin="4" dmax="8" r="50"/>
 
 		<!-- Military Tisovik -->
 		<pos x="12087.3" y="616.612" z="14898.9" a="0"/>
@@ -383,7 +383,7 @@
 		<pos x="4904.52" y="201.296" z="4706.71" a="0"/>
 		<pos x="4864.78" y="201.407" z="4934.85" a="0"/>
 	</event>
-    <event name="Loot" />
+    <event name="Loot"/>
 	
 	<event name="Vehicle_Spawn">
 		<pos x="11047.7" y="596.44" z="12765.6" a="-131.505"/>
@@ -584,7 +584,7 @@
 	</event>
 
 	<event name="StaticAirplaneCrate">
-		<zone smin="0" smax="0" dmin="0" dmax="0" r="0" />
+		<zone smin="0" smax="0" dmin="0" dmax="0" r="0"/>
 		<pos x="11130.7"  z="7206.84" a="49.0307"/>
 		<pos x="8863.59"  z="8085.5" a="-138.387"/>
 		<pos x="5241.61"  z="4017.42" a="0"/>
@@ -612,12 +612,12 @@
 		<pos x="2003.83"  z="11895.2" a="0"/>
 	</event>
 	<event name="StaticTrain">
-		<zone smin="0" smax="0" dmin="1" dmax="1" r="20" />
+		<zone smin="0" smax="0" dmin="1" dmax="1" r="20"/>
 		<pos x="3545.89" z="4105.65" a="0" y="217.807" group="OzorovceVlak"/>
 		<pos x="4155.13" z="3482.62" a="0" y="203.165" group="RuskovceVlak"/>
 	</event>
 	<event name="StaticMilitaryConvoy">
-		<zone smin="0" smax="0" dmin="1" dmax="1" r="5" />
+		<zone smin="0" smax="0" dmin="1" dmax="1" r="5"/>
 		<pos x="2071.14" z="7208.71" a="0" y="215.33" group="Hornany"/>
 		<pos x="11945.4" z="3295.57" a="0" y="252.336" group="UhrovecCamp"/>
 		<pos x="5621.75" z="10674.6" a="0" y="389.705" group="Lom"/>
@@ -627,20 +627,20 @@
 		<pos x="12442.5" z="8291.66" a="0" y="309.973" group="Radisa"/>
 	</event>
 
-    <event name="InfectedVillage" />
-    <event name="InfectedSolitude" />
-    <event name="InfectedArmy" />
-    <event name="InfectedCity" />
-	<event name="InfectedAlien" />
-    <event name="InfectedMedic" />
-    <event name="InfectedPolice" />
-    <event name="InfectedFirefighter" />
-    <event name="InfectedPrisoner" />
-    <event name="AnimalDeer" />
-    <event name="AnimalCow" />
-    <event name="AnimalSheep" />
-    <event name="AnimalRoeDeer" />
-    <event name="AnimalWolf" />
-    <event name="AnimalWildBoar" />
+    <event name="InfectedVillage"/>
+    <event name="InfectedSolitude"/>
+    <event name="InfectedArmy"/>
+    <event name="InfectedCity"/>
+	<event name="InfectedAlien"/>
+    <event name="InfectedMedic"/>
+    <event name="InfectedPolice"/>
+    <event name="InfectedFirefighter"/>
+    <event name="InfectedPrisoner"/>
+    <event name="AnimalDeer"/>
+    <event name="AnimalCow"/>
+    <event name="AnimalSheep"/>
+    <event name="AnimalRoeDeer"/>
+    <event name="AnimalWolf"/>
+    <event name="AnimalWildBoar"/>
 	<event name="AnimalBear"/>
 </eventposdef>
