@@ -9,7 +9,7 @@
     "Ты возвращаешься с журналом Тараса и листовкой. Петрович должен это увидеть."
   ],
   "ObjectiveText": "Найдите пропавшего разведчика Тараса. Последний маршрут — старая охотничья хижина.",
-  "FollowUpQuest": 108,
+  "FollowUpQuest": -1,
   "Repeatable": 0,
   "IsDailyQuest": 0,
   "IsWeeklyQuest": 0,
@@ -44,11 +44,6 @@
   ],
   "IsAchievement": 0,
   "Objectives": [
-    {
-      "ConfigVersion": 28,
-      "ID": 10701,
-      "ObjectiveType": 14
-    },
     {
       "ConfigVersion": 28,
       "ID": 10702,

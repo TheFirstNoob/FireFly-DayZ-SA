@@ -9,7 +9,7 @@
     "Ты вернулся с тетрадью фанатиков. Петрович должен увидеть, что они записывали."
   ],
   "ObjectiveText": "Расспросите Бубылду о странном сигнале и проверьте старую радиовышку.",
-  "FollowUpQuest": 109,
+  "FollowUpQuest": -1,
   "Repeatable": 0,
   "IsDailyQuest": 0,
   "IsWeeklyQuest": 0,
@@ -46,11 +46,6 @@
   "Objectives": [
     {
       "ConfigVersion": 28,
-      "ID": 10801,
-      "ObjectiveType": 14
-    },
-    {
-      "ConfigVersion": 28,
       "ID": 10802,
       "ObjectiveType": 14
     },
@@ -68,11 +63,6 @@
       "ConfigVersion": 28,
       "ID": 10805,
       "ObjectiveType": 5
-    },
-    {
-      "ConfigVersion": 28,
-      "ID": 10806,
-      "ObjectiveType": 14
     }
   ],
   "QuestColor": 0,
