@@ -64,6 +64,26 @@ class CustomMission: MissionServer
 				if (!ExpansionQuestModule.GetModuleInstance().TempQuestHolderExists(4003))
 					SpawnLabTech(4003, "5 0 5", "0 0 0"); // TODO: zone position
 				break;
+			case 107:
+				//! Сюжет «Пропавший»: умирающий Тарас у реки (отдаёт журнал и листовку)
+				if (!ExpansionQuestModule.GetModuleInstance().TempQuestHolderExists(4010))
+					SpawnTaras();
+				break;
+		}
+	}
+
+	override void Expansion_OnQuestContinue(ExpansionQuest quest)
+	{
+		int qid = quest.GetQuestConfig().GetID();
+
+		switch (qid)
+		{
+			case 107:
+				//! После рестарта сервера темп-NPC не переживают выгрузку — восстанавливаем Тараса,
+				//! если игрок продолжает квест 107
+				if (!ExpansionQuestModule.GetModuleInstance().TempQuestHolderExists(4010))
+					SpawnTaras();
+				break;
 		}
 	}
 
@@ -84,6 +104,10 @@ class CustomMission: MissionServer
 			case 2043:
 				if (!ExpansionQuestModule.GetModuleInstance().IsOtherQuestInstanceActive(2043))
 					ExpansionQuestModule.GetModuleInstance().DeleteQuestHolder(4003, ExpansionQuestNPCType.AI);
+				break;
+			case 107:
+				if (!ExpansionQuestModule.GetModuleInstance().IsOtherQuestInstanceActive(107))
+					ExpansionQuestModule.GetModuleInstance().DeleteQuestHolder(4010, ExpansionQuestNPCType.AI);
 				break;
 		}
 	}
@@ -112,6 +136,11 @@ class CustomMission: MissionServer
 				if (!ExpansionQuestModule.GetModuleInstance().IsOtherQuestInstanceActive(2043))
 					ExpansionQuestModule.GetModuleInstance().DeleteQuestHolder(4003, ExpansionQuestNPCType.AI);
 				break;
+			case 107:
+				//! все цели выполнены — Тарас «умер»/его забрала охрана, убираем сцену
+				if (!ExpansionQuestModule.GetModuleInstance().IsOtherQuestInstanceActive(107))
+					ExpansionQuestModule.GetModuleInstance().DeleteQuestHolder(4010, ExpansionQuestNPCType.AI);
+				break;
 		}
 	}
 
@@ -124,6 +153,7 @@ class CustomMission: MissionServer
 			case 2041: ExpansionQuestModule.GetModuleInstance().DeleteQuestHolder(4001, ExpansionQuestNPCType.AI); break;
 			case 2042: ExpansionQuestModule.GetModuleInstance().DeleteQuestHolder(4002, ExpansionQuestNPCType.AI); break;
 			case 2043: ExpansionQuestModule.GetModuleInstance().DeleteQuestHolder(4003, ExpansionQuestNPCType.AI); break;
+			case 107: ExpansionQuestModule.GetModuleInstance().DeleteQuestHolder(4010, ExpansionQuestNPCType.AI); break;
 		}
 	}
 
@@ -135,6 +165,19 @@ class CustomMission: MissionServer
 		holder.SetNPCEmoteID(EmoteConstants.ID_EMOTE_WATCHING);
 		holder.SetLoadoutName("NPC_Laborant");
 		ExpansionTempQuestHolderPosition holderPos = new ExpansionTempQuestHolderPosition(pos, ori);
+		ExpansionQuestModule.GetModuleInstance().SpawnQuestHolder(holder, holderPos);
+	}
+
+	protected void SpawnTaras()
+	{
+		//! Умирающий разведчик Тарас (квест 107): лежит у реки, в диалоге отдаёт
+		//! журнал и листовку. Держать позицию синхронизированной с obj_10703_river.json!
+		ExpansionTempQuestHolder holder = new ExpansionTempQuestHolder(4010, "ExpansionQuestNPCAIBoris", "Тарас", "У воды лежит окровавленный мужчина. Он едва дышит.");
+		if (!holder)
+			return;
+		holder.SetNPCEmoteID(EmoteConstants.ID_EMOTE_LYINGDOWN);
+		holder.SetLoadoutName("Story_Taras");
+		ExpansionTempQuestHolderPosition holderPos = new ExpansionTempQuestHolderPosition("5 0 5", "0 0 0"); // TODO: позиция Тараса = рядом с точкой Travel 10703 (вдоль реки)
 		ExpansionQuestModule.GetModuleInstance().SpawnQuestHolder(holder, holderPos);
 	}
 

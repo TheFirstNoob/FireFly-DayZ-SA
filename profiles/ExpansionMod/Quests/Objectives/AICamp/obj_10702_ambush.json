@@ -1,8 +1,8 @@
 {
   "ConfigVersion": 28,
-  "ID": 10703,
+  "ID": 10702,
   "ObjectiveType": 8,
-  "ObjectiveText": "Убейте фанатиков в хижине",
+  "ObjectiveText": "Отбейтесь от засады",
   "TimeLimit": -1,
   "Active": 1,
   "AISpawns": [
@@ -11,7 +11,7 @@
       "Persist": 0,
       "Faction": "Fanatic",
       "Formation": "RANDOM",
-      "Loadout": "AI_Quest107_Loadout",
+      "Loadout": "AI_Fanatic_Loadout",
       "Units": [
         "eAI_SurvivorM_Boris"
       ],

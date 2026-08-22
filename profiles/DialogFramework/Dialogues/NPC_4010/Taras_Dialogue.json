@@ -1,0 +1,92 @@
+{
+    "ID": 410,
+    "RootNodeID": 1,
+    "Nodes": [
+        {
+            "ID": 1,
+            "Type": "STANDARD",
+            "SpeakerText": "У самой воды лежит мужчина. Куртка в крови, дыхание хриплое, глаза закрыты. Это он — разведчик Тарас.",
+            "Responses": [
+                {
+                    "Text": "Тарас? Это я, из лагеря Петровича!",
+                    "NextNodeID": 2,
+                    "RequiredQuestID": 107,
+                    "RequiredQuestState": "STARTED",
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "(Оставить его в покое)",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 2,
+            "Type": "STANDARD",
+            "SpeakerText": "Тарас приоткрывает глаза и с трудом узнаёт тебя: — Живой... значит, лагерь стоит... Слушай... маски... их трое было в хижине, я двоих зацепил... Они допрашивали меня. Про лагерь спрашивали. Не сказал. Пока не сказал...",
+            "Responses": [
+                {
+                    "Text": "Кто они? Что им нужно?",
+                    "NextNodeID": 3,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Держись. Я отнесу всё Петровичу.",
+                    "NextNodeID": 4,
+                    "RequiredQuestID": 107,
+                    "RequiredQuestState": "STARTED",
+                    "ActionType": "TALK_DONE",
+                    "GiveItems": [
+                        {
+                            "ClassName": "FireFly_ScoutJournal",
+                            "Count": 1
+                        },
+                        {
+                            "ClassName": "FireFly_FanaticFlyer",
+                            "Count": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ID": 3,
+            "Type": "STANDARD",
+            "SpeakerText": "— Не бандиты. Хуже. Они... слушают. По ночам что-то шепчет им с севера, со старой вышки. Они зовут это «голосом». Вырвался я, ножом их... журнал при мне, береги его... и листовку ихнюю взял, докажешь Петровичу...",
+            "Responses": [
+                {
+                    "Text": "Возьму. Держись, за тобой придут.",
+                    "NextNodeID": 4,
+                    "RequiredQuestID": 107,
+                    "RequiredQuestState": "STARTED",
+                    "ActionType": "TALK_DONE",
+                    "GiveItems": [
+                        {
+                            "ClassName": "FireFly_ScoutJournal",
+                            "Count": 1
+                        },
+                        {
+                            "ClassName": "FireFly_FanaticFlyer",
+                            "Count": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ID": 4,
+            "Type": "STANDARD",
+            "SpeakerText": "Он слабо сжимает твою руку: — Скажи Петровичу... они уже знают про лагерь. Иди. Не возвращайся сюда один.",
+            "Responses": [
+                {
+                    "Text": "Я пошёл. Держись.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        }
+    ]
+}

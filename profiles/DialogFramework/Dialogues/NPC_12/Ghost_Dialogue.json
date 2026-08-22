@@ -8,6 +8,11 @@
             "SpeakerText": "...",
             "SpeakerTextConditions": [
                 {
+                    "Text": "Петрович приходил. Спрашивал про «Новый Рассвет». Это ты разболтал?.. Впрочем, неважно — всё равно пришлось бы рассказать.",
+                    "RequiredQuestID": 107,
+                    "RequiredState": "COMPLETED"
+                },
+                {
                     "Text": "Ты снова здесь.",
                     "RequiredQuestID": 104,
                     "RequiredState": "COMPLETED"
@@ -59,6 +64,13 @@
                     "ActionType": "NONE",
                     "SubFile": "quest_106.json",
                     "FileNodeID": 106003
+                },
+                {
+                    "Text": "Петрович говорит, ты знал про «Новый Рассвет» и молчал.",
+                    "NextNodeID": 5,
+                    "RequiredQuestID": 107,
+                    "RequiredQuestState": "COMPLETED",
+                    "ActionType": "NONE"
                 },
                 {
                     "Text": "Ты кто?",
@@ -213,6 +225,25 @@
             "Responses": [
                 {
                     "Text": "Интересно. Ладно, бывай.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                }
+            ]
+        },
+        {
+            "ID": 5,
+            "Type": "STANDARD",
+            "SpeakerText": "Петрович — это порядок и стены. Услышь он про завод раньше времени — поднял бы охрану, пошёл бы туда толпой. И потерял бы людей. Эти — не те, с кем воюют строем. Я молчал, потому что знал больше, чем нужно всем. — Он отворачивается. — А теперь знает и Петрович... и ты. Ладно. Что сделано, то сделано. Держись подальше от их масок — и от вышки на севере.",
+            "Responses": [
+                {
+                    "Text": "Что ты ещё скрываешь, Призрак?",
+                    "NextNodeID": 3,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Понял. Бывай.",
                     "NextNodeID": -1,
                     "RequiredQuestID": -1,
                     "ActionType": "END_CONVERSATION"
