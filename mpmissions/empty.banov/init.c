@@ -177,7 +177,8 @@ class CustomMission: MissionServer
 			return;
 		holder.SetNPCEmoteID(EmoteConstants.ID_EMOTE_LYINGDOWN);
 		holder.SetLoadoutName("Story_Taras");
-		ExpansionTempQuestHolderPosition holderPos = new ExpansionTempQuestHolderPosition("5027.94, 188.302, 1207.4", "0 0 0");
+		//! Позиция Тараса = точка Travel 10703 (obj_10703_river.json)
+		ExpansionTempQuestHolderPosition holderPos = new ExpansionTempQuestHolderPosition("5027.94 188.302 1207.4", "0 0 0");
 		ExpansionQuestModule.GetModuleInstance().SpawnQuestHolder(holder, holderPos);
 	}
 
