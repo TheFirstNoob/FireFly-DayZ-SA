@@ -69,6 +69,10 @@ class CustomMission: MissionServer
 				if (!ExpansionQuestModule.GetModuleInstance().TempQuestHolderExists(4010))
 					SpawnTaras();
 				break;
+			case 108:
+				//! Сюжет «Голос в эфире»: хор фанатиков у вышки (модуль QuestScenes)
+				FireFly_QuestAmbient.Spawn("108_tower", "FireFly_CultChant_SoundSet", "5 0 5"); // TODO: позиция = точка Travel 10802 (радиовышка)
+				break;
 		}
 	}
 
@@ -83,6 +87,9 @@ class CustomMission: MissionServer
 				//! если игрок продолжает квест 107
 				if (!ExpansionQuestModule.GetModuleInstance().TempQuestHolderExists(4010))
 					SpawnTaras();
+				break;
+			case 108:
+				FireFly_QuestAmbient.Spawn("108_tower", "FireFly_CultChant_SoundSet", "5 0 5"); // TODO: позиция = точка Travel 10802 (радиовышка)
 				break;
 		}
 	}
@@ -108,6 +115,9 @@ class CustomMission: MissionServer
 			case 107:
 				if (!ExpansionQuestModule.GetModuleInstance().IsOtherQuestInstanceActive(107))
 					ExpansionQuestModule.GetModuleInstance().DeleteQuestHolder(4010, ExpansionQuestNPCType.AI);
+				break;
+			case 108:
+				FireFly_QuestAmbient.Remove("108_tower", 108);
 				break;
 		}
 	}
@@ -141,6 +151,9 @@ class CustomMission: MissionServer
 				if (!ExpansionQuestModule.GetModuleInstance().IsOtherQuestInstanceActive(107))
 					ExpansionQuestModule.GetModuleInstance().DeleteQuestHolder(4010, ExpansionQuestNPCType.AI);
 				break;
+			case 108:
+				FireFly_QuestAmbient.Remove("108_tower", 108);
+				break;
 		}
 	}
 
@@ -154,6 +167,7 @@ class CustomMission: MissionServer
 			case 2042: ExpansionQuestModule.GetModuleInstance().DeleteQuestHolder(4002, ExpansionQuestNPCType.AI); break;
 			case 2043: ExpansionQuestModule.GetModuleInstance().DeleteQuestHolder(4003, ExpansionQuestNPCType.AI); break;
 			case 107: ExpansionQuestModule.GetModuleInstance().DeleteQuestHolder(4010, ExpansionQuestNPCType.AI); break;
+			case 108: FireFly_QuestAmbient.Remove("108_tower", 108); break;
 		}
 	}
 
