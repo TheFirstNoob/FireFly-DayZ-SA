@@ -335,7 +335,11 @@
 			"MinStockThreshold": 1,
 			"QuantityPercent": -1,
 			"SpawnAttachments": [],
-			"Variants": []
+			"Variants": [
+				"gaz_51_doors_driver_camo",
+				"gaz_51_doors_driver_camo2",
+				"gaz_51_doors_driver_yellow"
+			]
 		},
 		{
 			"ClassName": "gaz_51_doors_codriver",
@@ -346,7 +350,11 @@
 			"MinStockThreshold": 1,
 			"QuantityPercent": -1,
 			"SpawnAttachments": [],
-			"Variants": []
+			"Variants": [
+				"gaz_51_doors_codriver_camo",
+				"gaz_51_doors_codriver_camo2",
+				"gaz_51_doors_codriver_yellow"
+			]
 		},
 		{
 			"ClassName": "Gaz_53RF_doors_driver",
@@ -396,6 +404,34 @@
 			"Variants": [
 				"GAZ_66_doors_codriver_camo",
 				"GAZ_66_doors_codriver_zima_camo"
+			]
+		},
+		{
+			"ClassName": "GAZ_66_doors_cargo3",
+			"MaxPriceThreshold": 3125,
+			"MinPriceThreshold": 3125,
+			"SellPricePercent": -1,
+			"MaxStockThreshold": 1,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"GAZ_66_doors_cargo3_camo",
+				"GAZ_66_doors_cargo3_zima_camo"
+			]
+		},
+		{
+			"ClassName": "GAZ_66_doors_cargo4",
+			"MaxPriceThreshold": 3125,
+			"MinPriceThreshold": 3125,
+			"SellPricePercent": -1,
+			"MaxStockThreshold": 1,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": [
+				"GAZ_66_doors_cargo4_camo",
+				"GAZ_66_doors_cargo4_zima_camo"
 			]
 		},
 		{
