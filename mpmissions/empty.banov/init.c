@@ -24,8 +24,31 @@ void main()
 	}
 }
 
+// ===== ВРЕМЕННО (анализ лута): CSV спавнабельности всех предметов =====
+// После рестарта забрать CSV из mpmissions\empty.banov\storage\log, затем УДАЛИТЬ эти строки.
+class FireFlySpawnAnalyzeHelper
+{
+	void RunDelayed()
+	{
+		GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(this, "Start", 60, false);
+	}
+	void Start()
+	{
+		bool ok = GetCEApi().SpawnAnalyze("*");
+		Print(string.Format("[FireFly] SpawnAnalyze = %1", ok));
+	}
+}
+
 class CustomMission: MissionServer
 {
+	override void OnMissionStart()
+	{
+		super.OnMissionStart();
+		// ВРЕМЕННО: анализ спавна лута (удалить после получения CSV)
+		FireFlySpawnAnalyzeHelper helper = new FireFlySpawnAnalyzeHelper();
+		helper.RunDelayed();
+	}
+
 	override PlayerBase CreateCharacter(PlayerIdentity identity, vector pos, ParamsReadContext ctx, string characterName)
 	{
 		Entity playerEnt;
