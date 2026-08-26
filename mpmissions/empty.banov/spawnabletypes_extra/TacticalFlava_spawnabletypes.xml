@@ -2,41 +2,41 @@
 <spawnabletypes>
 	<!-- BAGS -->
 	<type name="TF_CamelBakBag_Black">
-		<cargo preset="foodVillage" />
-		<cargo preset="mixVillage" />
+		<cargo preset="z_village_food" />
+		<cargo preset="z_mix_village" />
 	</type>
 	<type name="TF_CamelBakBag_Brown">
-		<cargo preset="foodVillage" />
-		<cargo preset="toolsIndustrial" />
-		<cargo preset="mixHunter" />
+		<cargo preset="z_village_food" />
+		<cargo preset="z_worker_tools" />
+		<cargo preset="z_mix_hunter" />
 	</type>
 	<type name="TF_CamelBakBag_EMR">
-		<cargo preset="foodArmy" />
-		<cargo preset="mixArmy" />
+		<cargo preset="z_military_food" />
+		<cargo preset="z_mix_army" />
 	</type>
 	<type name="TF_CamelBakBag_OD">
-		<cargo preset="foodArmy" />
-		<cargo preset="mixArmy" />
+		<cargo preset="z_military_food" />
+		<cargo preset="z_mix_army" />
 	</type>
 	<type name="TF_CamelBakBag_Tan">
-		<cargo preset="foodArmy" />
-		<cargo preset="mixArmy" />
+		<cargo preset="z_military_food" />
+		<cargo preset="z_mix_army" />
 	</type>
 	<type name="TF_AVSBag_Coyote">
-		<cargo preset="foodArmy" />
-		<cargo preset="mixArmy" />
+		<cargo preset="z_military_food" />
+		<cargo preset="z_mix_army" />
 	</type>
 	<type name="TF_AVSBag_Khaki">
-		<cargo preset="foodArmy" />
-		<cargo preset="mixArmy" />
+		<cargo preset="z_military_food" />
+		<cargo preset="z_mix_army" />
 	</type>
 	<type name="TF_MAPBag_Khaki">
-		<cargo preset="foodArmy" />
-		<cargo preset="mixArmy" />
+		<cargo preset="z_military_food" />
+		<cargo preset="z_mix_army" />
 	</type>
 	<type name="TF_MAPBag_Coyote">
-		<cargo preset="foodArmy" />
-		<cargo preset="mixArmy" />
+		<cargo preset="z_military_food" />
+		<cargo preset="z_mix_army" />
 	</type>
 	<!-- M14 -->
 	<type name="TF_M14_DMR">
@@ -1015,63 +1015,63 @@
 		</cargo>
 	</type>
 	<type name="TF_6sh122Jacket_Spring">
-		<cargo preset="foodArmy" />
-		<cargo preset="ammoArmy" />
+		<cargo preset="z_military_food" />
+		<cargo preset="z_military_ammo" />
 	</type>
 	<type name="TF_6sh122Jacket_Autumn">
-		<cargo preset="foodArmy" />
-		<cargo preset="ammoArmy" />
+		<cargo preset="z_military_food" />
+		<cargo preset="z_military_ammo" />
 	</type>
 	<type name="TF_6sh122Jacket_Syrian">
-		<cargo preset="foodArmy" />
-		<cargo preset="ammoArmy" />
+		<cargo preset="z_military_food" />
+		<cargo preset="z_military_ammo" />
 	</type>
 	<type name="TF_6sh122Jacket_Syrian_EMR">
-		<cargo preset="foodArmy" />
-		<cargo preset="ammoArmy" />
+		<cargo preset="z_military_food" />
+		<cargo preset="z_military_ammo" />
 	</type>
 	<type name="TF_6sh122Jacket_Winter">
-		<cargo preset="foodArmy" />
-		<cargo preset="ammoArmy" />
+		<cargo preset="z_military_food" />
+		<cargo preset="z_military_ammo" />
 	</type>
 	<type name="TF_6sh122Pants_Spring">
-		<cargo preset="mixArmy" />
+		<cargo preset="z_mix_army" />
 	</type>
 	<type name="TF_6sh122Pants_Autumn">
-		<cargo preset="mixArmy" />
+		<cargo preset="z_mix_army" />
 	</type>
 	<type name="TF_6sh122Pants_Syrian">
-		<cargo preset="mixArmy" />
+		<cargo preset="z_mix_army" />
 	</type>
 	<type name="TF_6sh122Pants_Syrian_EMR">
-		<cargo preset="mixArmy" />
+		<cargo preset="z_mix_army" />
 	</type>
 	<type name="TF_6sh122Pants_Winter">
-		<cargo preset="mixArmy" />
+		<cargo preset="z_mix_army" />
 	</type>
 	<type name="TF_CargoPantsShort_Black">
-		<cargo preset="mixVillage" />
+		<cargo preset="z_mix_village" />
 	</type>
 	<type name="TF_CargoPantsShort_MARPAT">
-		<cargo preset="mixVillage" />
+		<cargo preset="z_mix_village" />
 	</type>
 	<type name="TF_G3CombatShirt_RG">
-		<cargo preset="ammoArmy" />
+		<cargo preset="z_military_ammo" />
 	</type>
 	<type name="TF_G3CombatShirt_MC">
-		<cargo preset="ammoArmy" />
+		<cargo preset="z_military_ammo" />
 	</type>
 	<type name="TF_G3CombatShirt_WD">
-		<cargo preset="ammoArmy" />
+		<cargo preset="z_military_ammo" />
 	</type>
 	<type name="TF_G3CombatPants_RG">
-		<cargo preset="mixArmy" />
+		<cargo preset="z_mix_army" />
 	</type>
 	<type name="TF_G3CombatPants_MC">
-		<cargo preset="mixArmy" />
+		<cargo preset="z_mix_army" />
 	</type>
 	<type name="TF_G3CombatPants_WD">
-		<cargo preset="mixArmy" />
+		<cargo preset="z_mix_army" />
 	</type>
 	<!-- VESTS -->
 	<type name="TF_IMTVVest"></type>
