@@ -7,7 +7,14 @@ void main()
 		ce.InitOffline();
 
 	int year, month, day, hour, minute;
-	int reset_month = 2, reset_day = 13;
+	//! ТЕСТ 2026-09-04: солнце Banov инвертировано (CfgWorlds latitude=+48, а все
+	//! официальные карты DayZ используют ОТРИЦАТЕЛЬНУЮ: Chernarus -56, Enoch -54;
+	//! минус = север). SetStarsObserverPosition(-48,18) возвращает астрономического
+	//! наблюдателя в северное полушарие — лето снова длинный день.
+	//! ЕСЛИ ТЕСТ НЕ ПРОЙДЁТ (солнце не изменится) — откатить обе строки:
+	//! вернуть reset_month = 2 и удалить SetStarsObserverPosition.
+	g_Game.GetWorld().SetStarsObserverPosition(-48.0, 18.0);
+	int reset_month = 7, reset_day = 13;
 	g_Game.GetWorld().GetDate(year, month, day, hour, minute);
 
 	// Reset to target month/day if we've drifted outside the window

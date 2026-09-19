@@ -1,54 +1,53 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<!-- 'reset' and 'enable' are a bool, and therefore supports: 0/1, true/false, yes/no -->
-<!-- 'reset' controls whether you want to load in the weather from storage or not (false by default) -->
-<!-- 'enable' controls whether this file is enabled or not (true by default) -->
 <!--
-  ВНИМАНИЕ: на карте Banov фактическое поведение погоды задаёт WorldData карты
-  (class banovData + FireFly_Weather.c из FireFly_Vanilla_Fixes). Этот файл
-  применяется при старте миссии, но погодой рулит сессионная логика модуля.
-  Реальные параметры (FireFly_Vanilla_Fixes/Scripts/4_World/WorldData/FireFly_Weather.c):
-    - сессия 6 часов: ясно -> облачно -> умеренно облачно (максимум 0.75),
-      после 100% - рассеивание до 0.4
-    - дождь: шанс 6% на сессию, начинается только под конец сессии
-      (progress >= 0.8) и остаётся умеренным (до 0.5), плавные 30-минутные
-      переходы; нативный порог облачности для дождя отключён скриптом
-    - порог дождя по облачности: 0.0-1.0 (гейт отключён, гвард скрипта 0.5)
-    - гроза: только в окне дождя, плотность 0.3, threshold 0.85, timeout 45
-    - туман: стартовый 0.05, дальше ванильная машина в лимитах 0.0-0.1
+  ВНИМАНИЕ (2026-09-04): ПОГОДА ПОЛНОСТЬЮ УПРАВЛЯЕТСЯ СКРИПТОМ.
+  enable="0" — этот файл НЕ применяется движком. Единственный источник
+  правды: FireFly_Vanilla_Fixes/Scripts/4_World/WorldData/FireFly_Weather.c
+  (modded banovData) + конфиг $profile:FireFly_Vanilla_Fixes/WeatherConfig.json.
+
+  Почему enable=0 безопасен:
+    - WorldData (banovData) создаёт миссия (MissionBase), не этот файл;
+    - WeatherOnBeforeChange вызывается движковым контроллером погоды
+      независимо от xml — наш modded banovData перехватывает все 6 феноменов
+      и ставит свои прогнозы + SetNextChange (ваниль не вмешивается);
+    - Init сам ставит: стартовые значения (0.15/0/0/0.03), лимиты всех
+      феноменов, rain/snowfall thresholds, SetStorm, SetWindMaximumSpeed.
+
+  Файл оставлен как ДОКУМЕНТАЦИЯ параметров (и бэкап). Если когда-нибудь
+  вернуть управление движку — вернуть enable="1" и аккуратно проверить.
 -->
-<weather reset="1" enable="1">
+<weather reset="1" enable="0">
     <overcast>
         <!-- Initial conditions of the overcast (target value, time to change, how long will it stay) -->
         <current actual="0.15" time="120" duration="240" />
         <!-- What is the range of the overcast value (0..1) -->
-        <limits min="0.0" max="1.0" />
+        <limits min="0.1" max="0.9" />
         <!-- How long does it take to the overcast to change from one value to other (time in seconds) -->
         <timelimits min="900" max="1800" />
         <!-- How much should the overcast change (0..1) -->
-        <changelimits min="0.0" max="0.15" />
+        <changelimits min="0.0" max="0.25" />
     </overcast>
     <fog>
         <!-- Initial conditions of the fog (target value, time to change, how long will it stay) -->
         <current actual="0.05" time="120" duration="240" />
         <!-- What is the range of the fog value (0..1) -->
-        <limits min="0.0" max="0.1" />
+        <limits min="0.0" max="0.3" />
         <!-- How long does it take to the fog to change from one value to other (time in seconds) -->
         <timelimits min="1200" max="1800" />
         <!-- How much should the fog change (0..1) -->
         <changelimits min="0.0" max="0.1" />
     </fog>
     <rain>
-        <!-- FireFly: дождь отключён полностью - limits 0..0, ванильная машина не сможет его поднять -->
+        <!-- FireFly: значения ведёт модуль; лимиты - страховка от ванильного контроллера -->
         <current actual="0.0" time="0" duration="32768" />
         <!-- What is the range of the rain value (0..1) -->
-        <limits min="0.0" max="0.0" />
+        <limits min="0.0" max="0.6" />
         <!-- How long does it take to the rain to change from one value to other (time in seconds) -->
         <timelimits min="300" max="600" />
         <!-- How much should the rain change (0..1) -->
-        <changelimits min="0.0" max="0.0" />
+        <changelimits min="0.0" max="0.15" />
         <!-- What range of the overcast value allows the rain to be preset (min, max overcast value, time in seconds it takes for rain to stop if the overcast is outside of the specified range) -->
-        <!-- FireFly: min/max 2.0 - overcast физически не может достичь 2.0, дождь не начнётся никогда -->
-        <thresholds min="2.0" max="2.0" end="60" />
+        <thresholds min="0.55" max="1.0" end="60" />
     </rain>
     <windMagnitude>
         <!-- Initial conditions of the wind magnitude (target value, time to change, how long will it stay), restricted by thresholds (see below) -->
@@ -67,23 +66,23 @@
         <limits min="-3.14" max="3.14" />
         <!-- How long does it take to the wind direction to change from one value to other (time in seconds) -->
         <timelimits min="60" max="120" />
-        <!-- How much should the wind change direction -->
+        <!-- How much should the wind direction change -->
         <changelimits min="-1.0" max="1.0" />
     </windDirection>
-    <!-- Snowfall should always remain at 0 for this world. -->
+    <!-- Snowfall: зимой его ведёт модуль (вместо дождя), лимиты - страховка -->
     <snowfall>
         <!-- Initial conditions of the snowfall (target value, time to change, how long will it stay), restricted by thresholds (see below) -->
         <current actual="0.0" time="0" duration="32768" />
         <!-- What is the range of the snowfall value (0..1) -->
-        <limits min="0.0" max="0.0" />
+        <limits min="0.0" max="0.6" />
         <!-- How long does it take to the snowfall to change from one value to other (time in seconds) -->
         <timelimits min="300" max="3600" />
         <!-- How much should the snowfall change (0..1) -->
-        <changelimits min="0.0" max="0.0" />
+        <changelimits min="0.0" max="0.2" />
         <!-- What range of the overcast value allows the snowfall to be preset (min, max overcast value, time in seconds it takes for snowfall to stop if the overcast is outside of the specified range) -->
-        <thresholds min="1.0" max="1.0" end="120" />
+        <thresholds min="0.5" max="1.0" end="120" />
     </snowfall>
     <!-- Lightning density (0..1), threshold for the lightning appearance (tied to the overcast value, 0..1), time (seconds) between the lightning strikes -->
-    <!-- FireFly: гроза выключена вместе с дождём -->
-    <storm density="0.0" threshold="0.85" timeout="45"/>
+    <!-- FireFly: гроза возможна только в окне дождя (модуль ставит SetStorm сам) -->
+    <storm density="0.5" threshold="0.85" timeout="45"/>
 </weather>

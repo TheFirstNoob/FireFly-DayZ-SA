@@ -1,0 +1,21 @@
+{
+    "ConfigVersion": 1,
+    "SessionLength": 21600.0,
+    "RainChanceBase": 0.02,
+    "RainChancePerOvercast": 0.25,
+    "MaxRainsPerSession": 2,
+    "RainCooldownAfter": 3600.0,
+    "RainMinDuration": 900.0,
+    "RainMaxDuration": 2400.0,
+    "RainIntensityMin": 0.25,
+    "RainIntensityMax": 0.5,
+    "StormOvercastThreshold": 0.78,
+    "StormChanceWhenCloudy": 0.35,
+    "StormDensity": 0.35,
+    "StormThreshold": 0.8,
+    "StormTimeout": 45.0,
+    "SnowEnabled": false,
+    "SnowMonths": [12, 1, 2],
+    "FogMorningChance": 0.6,
+    "FogAfterRainValue": 0.1
+}
