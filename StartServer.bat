@@ -9,7 +9,7 @@ set serverPort=2303
 ::Server config
 set serverConfig=serverDZ.cfg
 ::Sets title for terminal (DONT edit)
-set modlist=@CF;@Dabs-Framework;@Community-Online-Tools;@sFramework;@Banov;@DayZ-Expansion-Licensed;@DayZ-Expansion-Bundle;@DayZ-Expansion-Animations;@InediaInfectedAI;@InediaStamina;@RaG-Core;@RaG-Immersive-Vehicles;@Tactical-Flava;@RUSForma-vehicles;@MuchFramework;@A-6-Secure-Containers;@AgricultureCore;@CannabisPlus;@sGunplay;@sVisual;@FireFly-Main;
+set modlist=@CF;@Dabs-Framework;@Community-Online-Tools;@sFramework;@Banov;@DayZ-Expansion-Licensed;@DayZ-Expansion-Bundle;@DayZ-Expansion-Animations;@InediaInfectedAI;@InediaStamina;@RaG-Core;@RaG-Immersive-Vehicles;@Tactical-Flava;@MuchFramework;@A-6-Secure-Containers;@AgricultureCore;@CannabisPlus;@sGunplay;@sVisual;@FireFly-Main;
 set servermodlist=@FireFly-ServerPack;
 title %serverName% batch
 ::DayZServer location (DONT edit)
