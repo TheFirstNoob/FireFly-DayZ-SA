@@ -643,4 +643,29 @@
     <event name="AnimalWolf"/>
     <event name="AnimalWildBoar"/>
 	<event name="AnimalBear"/>
+<!-- Insert into mpmissions/empty.banov/cfgeventspawns.xml, before the closing </eventposdef>.
+	     20 Banov vehicle-size points evenly sampled from the existing Vehicle_Spawn pool (valid map coordinates). -->
+	<event name="VehicleMotorbike">
+		<pos x="37.1083" y="289.15" z="11587.5" a="36.625"/>
+		<pos x="827.129" y="255.02" z="8933.02" a="109.074"/>
+		<pos x="1177.8" y="237.84" z="10685.7" a="56.639"/>
+		<pos x="1833.99" y="226.05" z="8940.71" a="-70.5531"/>
+		<pos x="2422.62" y="342.71" z="14674" a="-77.0561"/>
+		<pos x="3424.25" y="275.015" z="7708.13" a="-90.4695"/>
+		<pos x="4168.85" y="253.485" z="13663.4" a="-43.745"/>
+		<pos x="4718.88" y="210.08" z="6628.02" a="-103.641"/>
+		<pos x="5432.33" y="197.6" z="2650.29" a="-120.915"/>
+		<pos x="5660.14" y="277.54" z="14617" a="167.148"/>
+		<pos x="5931.04" y="206.404" z="1188.45" a="81.419"/>
+		<pos x="6196.61" y="220.377" z="5699.98" a="109.074"/>
+		<pos x="6489.02" y="430.76" z="11007.3" a="-90.536"/>
+		<pos x="7249.86" y="290.21" z="13832.4" a="-173.75"/>
+		<pos x="8243.92" y="438.16" z="13795" a="60.5015"/>
+		<pos x="8965.48" y="500.24" z="13132" a="-46.2383"/>
+		<pos x="10063.9" y="447.93" z="10635.2" a="114.624"/>
+		<pos x="11047.7" y="596.44" z="12765.6" a="-131.505"/>
+		<pos x="11817.8" y="364.73" z="10530" a="-46.2383"/>
+		<pos x="12385.1" y="331.71" z="9612.13" a="35.9359"/>
+	</event>
+
 </eventposdef>

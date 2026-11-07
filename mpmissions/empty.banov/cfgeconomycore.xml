@@ -8,6 +8,7 @@
 		<rootclass name="SurvivorBase" act="character" reportMemoryLOD="no"/> <!-- player characters -->
 		<rootclass name="DZ_LightAI" act="character" reportMemoryLOD="no"/> <!-- infected, animals -->
 		<rootclass name="CarScript" act="car" reportMemoryLOD="no"/> <!-- cars (sedan, hatchback, transitBus, V3S, ...) -->
+		<rootclass name="MotorbikeScript" act="car" reportMemoryLOD="no"/> <!-- motorbikes -->
 	</classes>
 	<defaults>
 		<default name="backup_period" value="0"/>
@@ -109,6 +110,7 @@
 		<file name="Weapons_SMG.xml" type="types"/>
 		<file name="Weapons_SnipRifles.xml" type="types"/>
 		<file name="Zombies.xml" type="types"/>
+			<file name="Motorbikes.xml" type="types"/>
 	</ce>
 	
 	<ce folder="spawnabletypes_extra">
@@ -120,5 +122,6 @@
 		<file name="TacticalFlava_spawnabletypes.xml" type="spawnabletypes"/>
 		<file name="Weapons_spawnabletypes.xml" type="spawnabletypes"/>
 		<file name="Zombies_spawnabletypes.xml" type="spawnabletypes"/>
+			<file name="Motorbikes_spawnabletypes.xml" type="spawnabletypes"/>
 	</ce>
 </economycore>

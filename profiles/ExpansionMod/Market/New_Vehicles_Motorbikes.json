@@ -1,0 +1,129 @@
+{
+    "m_Version": 12,
+    "DisplayName": "Автомобили - Мотоциклы",
+    "Icon": "Car",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 100.0,
+    "Items": [
+        {
+            "ClassName": "Motorbike_01_Blue",
+            "MaxPriceThreshold": 55000,
+            "MinPriceThreshold": 55000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "LugWrench",
+                "Wrench",
+                "Screwdriver",
+                "Motorbike_01_Wheel_1",
+                "Motorbike_01_Wheel_2",
+                "sparkplug"
+            ]
+        },
+        {
+            "ClassName": "Motorbike_01_Red",
+            "MaxPriceThreshold": 55000,
+            "MinPriceThreshold": 55000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "LugWrench",
+                "Wrench",
+                "Screwdriver",
+                "Motorbike_01_Wheel_1",
+                "Motorbike_01_Wheel_2",
+                "sparkplug"
+            ]
+        },
+        {
+            "ClassName": "Motorbike_01_Yellow",
+            "MaxPriceThreshold": 55000,
+            "MinPriceThreshold": 55000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "LugWrench",
+                "Wrench",
+                "Screwdriver",
+                "Motorbike_01_Wheel_1",
+                "Motorbike_01_Wheel_2",
+                "sparkplug"
+            ]
+        },
+        {
+            "ClassName": "Motorbike_02_Blue",
+            "MaxPriceThreshold": 70000,
+            "MinPriceThreshold": 70000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "LugWrench",
+                "Wrench",
+                "Screwdriver",
+                "Motorbike_02_Wheel_1",
+                "Motorbike_02_Wheel_2",
+                "sparkplug"
+            ]
+        },
+        {
+            "ClassName": "Motorbike_02_Green",
+            "MaxPriceThreshold": 70000,
+            "MinPriceThreshold": 70000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "LugWrench",
+                "Wrench",
+                "Screwdriver",
+                "Motorbike_02_Wheel_1",
+                "Motorbike_02_Wheel_2",
+                "sparkplug"
+            ]
+        },
+        {
+            "ClassName": "Motorbike_02_Red",
+            "MaxPriceThreshold": 70000,
+            "MinPriceThreshold": 70000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "LugWrench",
+                "Wrench",
+                "Screwdriver",
+                "Motorbike_02_Wheel_1",
+                "Motorbike_02_Wheel_2",
+                "sparkplug"
+            ]
+        },
+        {
+            "ClassName": "Motorbike_02_Yellow",
+            "MaxPriceThreshold": 70000,
+            "MinPriceThreshold": 70000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "LugWrench",
+                "Wrench",
+                "Screwdriver",
+                "Motorbike_02_Wheel_1",
+                "Motorbike_02_Wheel_2",
+                "sparkplug"
+            ]
+        }
+    ]
+}

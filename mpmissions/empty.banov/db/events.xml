@@ -1075,4 +1075,25 @@
         <active>1</active>
         <children/>
     </event>
+<!-- Insert into mpmissions/empty.banov/db/events.xml, before the closing </events> -->
+	<!-- FireFly: vanilla motorbikes. Pop-40 scaling: vanilla enoch nominal 12/min 5/max 11 -> 8/3/7. -->
+	<event name="VehicleMotorbike">
+		<nominal>8</nominal>
+		<min>3</min>
+		<max>7</max>
+		<lifetime>300</lifetime>
+		<restock>0</restock>
+		<saferadius>500</saferadius>
+		<distanceradius>500</distanceradius>
+		<cleanupradius>200</cleanupradius>
+		<flags deletable="0" init_random="0" remove_damaged="1"/>
+		<position>fixed</position>
+		<limit>mixed</limit>
+		<active>1</active>
+		<children>
+			<child lootmax="0" lootmin="0" max="7" min="4" type="Motorbike_01_Blue"/>
+			<child lootmax="0" lootmin="0" max="7" min="4" type="Motorbike_02_Red"/>
+		</children>
+	</event>
+
 </events>
