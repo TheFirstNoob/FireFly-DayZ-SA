@@ -15,6 +15,9 @@
         ],
         "LootLifetimeSeconds": 7200,
         "ExhaustionResetSeconds": 1800,
+        "ExcludedProxies": [
+            "static_vending_machine"
+        ],
         "SearchableBuildings": [
             {
                 "Type": "Land_House_*",
@@ -601,13 +604,6 @@
             },
             {
                 "Type": "static_sink",
-                "Category": "Food",
-                "MaxSearches": 2,
-                "Duration": 15,
-                "DeleteAfterDone": 0
-            },
-            {
-                "Type": "static_vending_machine",
                 "Category": "Food",
                 "MaxSearches": 2,
                 "Duration": 15,
@@ -4657,6 +4653,59 @@
                         "ConditionMax": 1.0
                     }
                 ]
+            },
+            {
+                "Name": "VendingMachine",
+                "Items": [
+                    {
+                        "Classname": "SodaCan_Cola",
+                        "Chance": 30.0,
+                        "QuantityMin": 9999,
+                        "QuantityMax": 9999,
+                        "ConditionMin": 1.0,
+                        "ConditionMax": 1.0
+                    },
+                    {
+                        "Classname": "SodaCan_Pipsi",
+                        "Chance": 30.0,
+                        "QuantityMin": 9999,
+                        "QuantityMax": 9999,
+                        "ConditionMin": 1.0,
+                        "ConditionMax": 1.0
+                    },
+                    {
+                        "Classname": "SodaCan_Spite",
+                        "Chance": 20.0,
+                        "QuantityMin": 9999,
+                        "QuantityMax": 9999,
+                        "ConditionMin": 1.0,
+                        "ConditionMax": 1.0
+                    },
+                    {
+                        "Classname": "SodaCan_Fronta",
+                        "Chance": 10.0,
+                        "QuantityMin": 9999,
+                        "QuantityMax": 9999,
+                        "ConditionMin": 1.0,
+                        "ConditionMax": 1.0
+                    },
+                    {
+                        "Classname": "SodaCan_Kvass",
+                        "Chance": 10.0,
+                        "QuantityMin": 9999,
+                        "QuantityMax": 9999,
+                        "ConditionMin": 1.0,
+                        "ConditionMax": 1.0
+                    },
+                    {
+                        "Classname": "ExpansionBanknoteHryvnia",
+                        "Chance": 5.0,
+                        "QuantityMin": 5,
+                        "QuantityMax": 15,
+                        "ConditionMin": 1.0,
+                        "ConditionMax": 1.0
+                    }
+                ]
             }
         ]
     },
@@ -5279,5 +5328,15 @@
                 ]
             }
         ]
+    },
+    "Vending": {
+        "Enabled": true,
+        "LockedChancePercent": 100.0,
+        "StockMin": 0,
+        "StockMax": 2,
+        "HandCutChancePercent": 5.0,
+        "SearchDuration": 3,
+        "BreachDuration": 3,
+        "LootCategory": "VendingMachine"
     }
 }
