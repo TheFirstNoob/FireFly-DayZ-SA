@@ -986,30 +986,30 @@
             },
             {
                 "Type": "static_cashier",
-                "Category": "City",
-                "MaxSearches": 2,
-                "Duration": 15,
+                "Category": "Money",
+                "MaxSearches": 1,
+                "Duration": 10,
                 "DeleteAfterDone": 0
             },
             {
                 "Type": "static_pokladna",
-                "Category": "City",
-                "MaxSearches": 2,
-                "Duration": 15,
+                "Category": "Money",
+                "MaxSearches": 1,
+                "Duration": 10,
                 "DeleteAfterDone": 0
             },
             {
                 "Type": "static_pult",
-                "Category": "City",
-                "MaxSearches": 2,
-                "Duration": 15,
+                "Category": "Money",
+                "MaxSearches": 1,
+                "Duration": 10,
                 "DeleteAfterDone": 0
             },
             {
                 "Type": "static_pultskasou",
-                "Category": "City",
-                "MaxSearches": 2,
-                "Duration": 15,
+                "Category": "Money",
+                "MaxSearches": 1,
+                "Duration": 10,
                 "DeleteAfterDone": 0
             },
             {
@@ -4642,6 +4642,19 @@
                         "QuantityMax": 1,
                         "ConditionMin": 0.10000000149011612,
                         "ConditionMax": 0.6000000238418579
+                    }
+                ]
+            },
+            {
+                "Name": "Money",
+                "Items": [
+                    {
+                        "Classname": "ExpansionBanknoteHryvnia",
+                        "Chance": 100.0,
+                        "QuantityMin": 50,
+                        "QuantityMax": 150,
+                        "ConditionMin": 1.0,
+                        "ConditionMax": 1.0
                     }
                 ]
             }
