@@ -1,0 +1,54 @@
+{
+	"m_Version": 12,
+	"DisplayName": "Зимние обогреватели",
+	"Icon": "Bonfire",
+	"Color": "FBFCFEFF",
+	"IsExchange": 0,
+	"InitStockPercent": 35.0,
+	"Items": [
+		{
+			"ClassName": "CH_SmallHeater",
+			"MaxPriceThreshold": 9000,
+			"MinPriceThreshold": 4500,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 25,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "CH_VintageHeater",
+			"MaxPriceThreshold": 12000,
+			"MinPriceThreshold": 6000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 25,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "CH_SovietHeater",
+			"MaxPriceThreshold": 15000,
+			"MinPriceThreshold": 7500,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 20,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		},
+		{
+			"ClassName": "CH_SpaceHeater",
+			"MaxPriceThreshold": 18000,
+			"MinPriceThreshold": 9000,
+			"SellPricePercent": -1.0,
+			"MaxStockThreshold": 20,
+			"MinStockThreshold": 1,
+			"QuantityPercent": -1,
+			"SpawnAttachments": [],
+			"Variants": []
+		}
+	]
+}

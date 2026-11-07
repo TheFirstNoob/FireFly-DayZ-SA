@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<types>
+	<!-- FireFly: Customisable_Heater dynamic heaters (task-66, winter). Loot only, no static/map spawns. -->
+	<!-- Values: nominal 1, restock standard 1800 s, lifetime 28800 s, min 0 (rare winter item; vanilla PortableGasStove uses 25/28800/0/21, tools). -->
+	<type name="CH_SmallHeater">
+		<nominal>1</nominal>
+		<lifetime>28800</lifetime>
+		<restock>1800</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="tools"/>
+		<usage name="Farm"/>
+		<usage name="Hunting"/>
+		<usage name="Village"/>
+	</type>
+	<type name="CH_VintageHeater">
+		<nominal>1</nominal>
+		<lifetime>28800</lifetime>
+		<restock>1800</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="tools"/>
+		<usage name="Farm"/>
+		<usage name="Hunting"/>
+		<usage name="Village"/>
+	</type>
+	<type name="CH_SovietHeater">
+		<nominal>1</nominal>
+		<lifetime>28800</lifetime>
+		<restock>1800</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="tools"/>
+		<usage name="Industrial"/>
+		<usage name="Village"/>
+	</type>
+	<type name="CH_SpaceHeater">
+		<nominal>1</nominal>
+		<lifetime>28800</lifetime>
+		<restock>1800</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="tools"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+	</type>
+	<!-- Static heater classes (CH_SmallHeater_Static, CH_VintageHeater_Static, CH_SovietHeater_Static, CH_SpaceHeater_Static)
+	     are intentionally NOT listed here: owner decision 2026-11-07 = loot + market only, no static map spawns. -->
+</types>
