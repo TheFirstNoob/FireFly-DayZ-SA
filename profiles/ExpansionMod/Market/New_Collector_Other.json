@@ -7,7 +7,7 @@
 	"InitStockPercent": 25.0,
 	"Items": [
 		{
-			"ClassName": "Msp_Egg_Blue",
+			"ClassName": "EasterEgg",
 			"MaxPriceThreshold": 15000,
 			"MinPriceThreshold": 15000,
 			"SellPricePercent": -1.0,
@@ -15,13 +15,7 @@
 			"MinStockThreshold": 1,
 			"QuantityPercent": -1,
 			"SpawnAttachments": [],
-			"Variants": [
-				"Msp_Egg_Pink",
-				"Msp_Egg_Red",
-				"Msp_Egg_Green",
-				"Msp_Egg_Purple",
-				"Msp_Egg_Yellow"
-			]
+			"Variants": []
 		},
 		{
 			"ClassName": "Expansion_Guitar",
@@ -145,7 +139,7 @@
 			"Variants": []
 		},
 		{
-			"ClassName": "Msp_BeanBasher",
+			"ClassName": "NailedBaseballBat",
 			"MaxPriceThreshold": 7000,
 			"MinPriceThreshold": 7000,
 			"SellPricePercent": -1.0,
@@ -156,7 +150,7 @@
 			"Variants": []
 		},
 		{
-			"ClassName": "Msp_PipeAxe",
+			"ClassName": "WoodAxe",
 			"MaxPriceThreshold": 9000,
 			"MinPriceThreshold": 9000,
 			"SellPricePercent": -1.0,
@@ -167,7 +161,7 @@
 			"Variants": []
 		},
 		{
-			"ClassName": "Msp_BassAxe",
+			"ClassName": "FirefighterAxe",
 			"MaxPriceThreshold": 12500,
 			"MinPriceThreshold": 12500,
 			"SellPricePercent": -1.0,
