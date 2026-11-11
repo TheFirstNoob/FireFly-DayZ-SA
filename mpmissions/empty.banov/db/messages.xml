@@ -1,3 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <messages>
+    <!-- FireFly W1 "Полевой сезон" onboarding (config-only; staging proposed_retention_w1).
+         Правила DayZ server messages: delay/onconnect/repeat/deadline/shutdown, #name/#tmin.
+         Ссылка: https://community.bistudio.com/wiki/DayZ:Server_Messages -->
+    <message>
+        <delay>2</delay>
+        <onconnect>1</onconnect>
+        <text>Banov: это не квестовый сервер. Исследуй, крафти, ремонтируй, строй и езди. Открой карту (M) — вкладка Explorer: 137 мест ждут открытия.</text>
+    </message>
+    <message>
+        <repeat>45</repeat>
+        <text>BANOV PROTOCOL: раз в 1-2 часа падает сигнал чужого объекта. Найди красный аномальный свет, зачисти зону, забери ZeroPoint-осколок и донеси его до ZeroPoint (удерживай 300 с). Награда — один из ключей AREA.</text>
+    </message>
+    <message>
+        <repeat>60</repeat>
+        <text>AREA: 4 бункера закрыты на ключ. Ключи (синий/красный/жёлтый/нано) выдают только за Banov Protocol. Вскрыл дверь — забери всё, что внутри.</text>
+    </message>
+    <message>
+        <repeat>90</repeat>
+        <text>Верстак: 10 досок + 100 гвоздей = HP_Crafter Kit. Поставь верстак и крафти (82 рецепта) или разбирай (148 рецептов). Нужны инструменты и опыт.</text>
+    </message>
+    <message>
+        <repeat>120</repeat>
+        <text>Колодцы на карте сломаны. Почини трубным/разводным ключом: вода пригодится и тебе, и другим. Колодец снова сломается через 2 недели.</text>
+    </message>
+    <message>
+        <repeat>180</repeat>
+        <text>Транспорт: на карте ~50 ванильных машин (4 типа) и 8 мотоциклов. Лебёдка и ремкомплекты — в промышленном луте. Машина — не покупка, а проект: найди, почини, вывези.</text>
+    </message>
 </messages>
