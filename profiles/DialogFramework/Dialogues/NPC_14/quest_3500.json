@@ -1,0 +1,63 @@
+{
+  "Nodes": [
+    {
+      "ID": 350001,
+      "Type": "STANDARD",
+      "SpeakerText": "Мешок лежит на КПП под пломбой. Дойдёшь — забирай и неси сюда. Печать не снимать: вскроешь — назад не приму.",
+      "Responses": [
+        {
+          "Text": "Берусь.",
+          "NextNodeID": -1,
+          "RequiredQuestID": 3500,
+          "RequiredQuestState": "NONE",
+          "ActionType": "ACCEPT_QUEST",
+          "SubFile": "",
+          "FileNodeID": -1
+        },
+        {
+          "Text": "А если конвой уйдёт?",
+          "NextNodeID": 350002,
+          "RequiredQuestID": -1,
+          "RequiredQuestState": "COMPLETED",
+          "ActionType": "NONE",
+          "SubFile": "",
+          "FileNodeID": -1
+        },
+        {
+          "Text": "Позже.",
+          "NextNodeID": -1,
+          "RequiredQuestID": -1,
+          "RequiredQuestState": "COMPLETED",
+          "ActionType": "END_CONVERSATION",
+          "SubFile": "",
+          "FileNodeID": -1
+        }
+      ]
+    },
+    {
+      "ID": 350002,
+      "Type": "STANDARD",
+      "SpeakerText": "Конвой уйдёт — мешок останется. Они не будут ждать, но и груз не бросят. Время есть, пока его не растащили.",
+      "Responses": [
+        {
+          "Text": "Понял. Берусь.",
+          "NextNodeID": -1,
+          "RequiredQuestID": 3500,
+          "RequiredQuestState": "NONE",
+          "ActionType": "ACCEPT_QUEST",
+          "SubFile": "",
+          "FileNodeID": -1
+        },
+        {
+          "Text": "Позже.",
+          "NextNodeID": -1,
+          "RequiredQuestID": -1,
+          "RequiredQuestState": "COMPLETED",
+          "ActionType": "END_CONVERSATION",
+          "SubFile": "",
+          "FileNodeID": -1
+        }
+      ]
+    }
+  ]
+}

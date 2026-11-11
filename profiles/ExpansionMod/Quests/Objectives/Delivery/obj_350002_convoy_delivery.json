@@ -1,0 +1,20 @@
+{
+  "ConfigVersion": 28,
+  "ID": 350002,
+  "ObjectiveType": 5,
+  "ObjectiveText": "Донести мешок снабженцу в лагерь.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Collections": [
+    {
+      "Amount": 3,
+      "ClassName": "CrabCan",
+      "QuantityPercent": -1,
+      "MinQuantityPercent": -1
+    }
+  ],
+  "ShowDistance": 1,
+  "AddItemsToNearbyMarketZone": true,
+  "NeedAnyCollection": false,
+  "MaxDistance": 10
+}

@@ -1,0 +1,28 @@
+{
+  "ConfigVersion": 6,
+  "ID": 15,
+  "ClassName": "ExpansionQuestNPCMirek",
+  "Position": [
+    1717.2,
+    270.7,
+    806
+  ],
+  "Orientation": [
+    180,
+    0,
+    0
+  ],
+  "NPCName": "Интендант",
+  "DefaultNPCText": "Стоять. Дальше КПП никого нет — только конвой и груз. Что нужно?",
+  "Waypoints": [],
+  "NPCEmoteID": 46,
+  "NPCEmoteIsStatic": 0,
+  "NPCLoadoutFile": "AI_Military_Loadout",
+  "NPCInteractionEmoteID": 1,
+  "NPCQuestCancelEmoteID": 60,
+  "NPCQuestStartEmoteID": 58,
+  "NPCQuestCompleteEmoteID": 39,
+  "NPCFaction": "InvincibleObservers",
+  "NPCType": 0,
+  "Active": 1
+}

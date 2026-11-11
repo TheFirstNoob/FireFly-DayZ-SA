@@ -1,0 +1,90 @@
+{
+  "ID": 1501,
+  "RootNodeID": 1,
+  "Nodes": [
+    {
+      "ID": 1,
+      "Type": "STANDARD",
+      "SpeakerText": "Стоять. Дальше КПП никого нет — только конвой и груз. Что нужно?",
+      "Responses": [
+        {
+          "Text": "Мне нужен мешок для лагеря.",
+          "NextNodeID": 2,
+          "RequiredQuestID": -1,
+          "RequiredQuestState": "COMPLETED",
+          "ActionType": "NONE",
+          "SubFile": "",
+          "FileNodeID": -1
+        },
+        {
+          "Text": "Что здесь происходит?",
+          "NextNodeID": 3,
+          "RequiredQuestID": -1,
+          "RequiredQuestState": "COMPLETED",
+          "ActionType": "NONE",
+          "SubFile": "",
+          "FileNodeID": -1
+        },
+        {
+          "Text": "Есть работа?",
+          "NextNodeID": -1,
+          "RequiredQuestID": -1,
+          "RequiredQuestState": "COMPLETED",
+          "ActionType": "SHOW_QUEST_LIST",
+          "SubFile": "",
+          "FileNodeID": -1
+        },
+        {
+          "Text": "Пока.",
+          "NextNodeID": -1,
+          "RequiredQuestID": -1,
+          "RequiredQuestState": "COMPLETED",
+          "ActionType": "END_CONVERSATION",
+          "SubFile": "",
+          "FileNodeID": -1
+        }
+      ]
+    },
+    {
+      "ID": 2,
+      "Type": "STANDARD",
+      "SpeakerText": "Мешок под описью, пломба на месте. Печать не снимать — снимешь, назад не примут. В город мы не заходим: приказ. Дальше сам.",
+      "Responses": [
+        {
+          "Text": "Почему не заходите?",
+          "NextNodeID": 3,
+          "RequiredQuestID": -1,
+          "RequiredQuestState": "COMPLETED",
+          "ActionType": "NONE",
+          "SubFile": "",
+          "FileNodeID": -1
+        },
+        {
+          "Text": "Понял.",
+          "NextNodeID": -1,
+          "RequiredQuestID": -1,
+          "RequiredQuestState": "COMPLETED",
+          "ActionType": "END_CONVERSATION",
+          "SubFile": "",
+          "FileNodeID": -1
+        }
+      ]
+    },
+    {
+      "ID": 3,
+      "Type": "STANDARD",
+      "SpeakerText": "Колонна вошла — колонна не вышла. Наша работа — держать дорогу, а не чистить кварталы. Лагерь ваш — вы и разбирайтесь, что там внутри.",
+      "Responses": [
+        {
+          "Text": "Ясно.",
+          "NextNodeID": -1,
+          "RequiredQuestID": -1,
+          "RequiredQuestState": "COMPLETED",
+          "ActionType": "END_CONVERSATION",
+          "SubFile": "",
+          "FileNodeID": -1
+        }
+      ]
+    }
+  ]
+}

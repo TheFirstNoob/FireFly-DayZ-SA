@@ -1,0 +1,28 @@
+{
+  "ConfigVersion": 6,
+  "ID": 14,
+  "ClassName": "ExpansionQuestNPCMirek",
+  "Position": [
+    1100.2,
+    226.5,
+    505
+  ],
+  "Orientation": [
+    215,
+    0,
+    0
+  ],
+  "NPCName": "Снабженец",
+  "DefaultNPCText": "Стой, не сваливай в кучу. Сначала в опись, потом в котёл. Что нужно?",
+  "Waypoints": [],
+  "NPCEmoteID": 46,
+  "NPCEmoteIsStatic": 0,
+  "NPCLoadoutFile": "NPC_Survivor",
+  "NPCInteractionEmoteID": 1,
+  "NPCQuestCancelEmoteID": 60,
+  "NPCQuestStartEmoteID": 58,
+  "NPCQuestCompleteEmoteID": 39,
+  "NPCFaction": "InvincibleObservers",
+  "NPCType": 0,
+  "Active": 1
+}

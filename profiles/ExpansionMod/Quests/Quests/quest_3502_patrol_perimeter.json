@@ -1,0 +1,78 @@
+{
+  "ConfigVersion": 22,
+  "ID": 3502,
+  "Type": 1,
+  "Title": "[Ежедневный] Патруль периметра",
+  "Descriptions": [
+    "<p align=\"center\"><color hex=\"0xFFCC6600\"> Снабженец кивает за забор: <br /><br /><b>\"Слышишь? За периметром опять шевелятся. Пройдись по зоне патруля, прореди тварей — и доложи. Лагерь должен спать спокойно.\"</b></color></p>",
+    "<p align=\"center\"><color hex=\"0xFFCC6600\"> Мне нужно дойти до зоны патруля за периметром, зачистить десять заражённых и вернуться к снабженцу.</color></p>",
+    "<p align=\"center\"><color hex=\"0xFFCC6600\"> Снабженец кивает: <br /><br /><b>\"Тише стало. Держи, что обещал.\"</b></color></p>"
+  ],
+  "ObjectiveText": "Зачистить зону патруля.",
+  "FollowUpQuest": -1,
+  "Repeatable": 1,
+  "IsDailyQuest": 1,
+  "IsWeeklyQuest": 0,
+  "CancelQuestOnPlayerDeath": 0,
+  "Autocomplete": 0,
+  "IsGroupQuest": 0,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [
+    {
+      "ClassName": "ExpansionBanknoteHryvnia",
+      "Amount": 400,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": -1,
+      "MinObjectiveCount": -1,
+      "RequiredObjectiveID": -1,
+      "Chance": 1
+    }
+  ],
+  "NeedToSelectReward": 0,
+  "RandomReward": 0,
+  "RandomRewardAmount": -1,
+  "RewardsForGroupOwnerOnly": 1,
+  "RewardBehavior": 0,
+  "QuestGiverIDs": [
+    14,
+    1
+  ],
+  "QuestTurnInIDs": [
+    14,
+    1
+  ],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 350201,
+      "ObjectiveType": 3
+    },
+    {
+      "ConfigVersion": 28,
+      "ID": 350202,
+      "ObjectiveType": 12
+    }
+  ],
+  "QuestColor": 0,
+  "ReputationReward": 25,
+  "ReputationRequirement": -1,
+  "PreQuestIDs": [
+    103
+  ],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 0,
+  "DeleteQuestItems": 0,
+  "SequentialObjectives": 1,
+  "CompletionMode": 0,
+  "MinRequiredObjectives": -1,
+  "QuestTimeLimit": -1,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 0
+}

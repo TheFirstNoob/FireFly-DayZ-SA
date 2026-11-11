@@ -1,0 +1,73 @@
+{
+  "ConfigVersion": 22,
+  "ID": 3501,
+  "Type": 1,
+  "Title": "[Ежедневный] Заказ снабженца",
+  "Descriptions": [
+    "<p align=\"center\"><color hex=\"0xFFCC6600\"> Снабженец листает заявку: <br /><br /><b>\"Лагерю нужны припасы: еда, медикаменты или патроны. Принеси — закрою заявку и выдам премию. И да, не тяни: кладовая не резиновая.\"</b></color></p>",
+    "<p align=\"center\"><color hex=\"0xFFCC6600\"> Мне нужно принести снабженцу припасы: три банки еды, либо два бинта, либо тридцать патронов 7.62×54.</color></p>",
+    "<p align=\"center\"><color hex=\"0xFFCC6600\"> Снабженец пересчитывает банки и ставит отметку: <br /><br /><b>\"Сходится. Заявка закрыта — премия твоя.\"</b></color></p>"
+  ],
+  "ObjectiveText": "Принести припасы снабженцу.",
+  "FollowUpQuest": -1,
+  "Repeatable": 1,
+  "IsDailyQuest": 1,
+  "IsWeeklyQuest": 0,
+  "CancelQuestOnPlayerDeath": 0,
+  "Autocomplete": 0,
+  "IsGroupQuest": 0,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [
+    {
+      "ClassName": "ExpansionBanknoteHryvnia",
+      "Amount": 450,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": -1,
+      "MinObjectiveCount": -1,
+      "RequiredObjectiveID": -1,
+      "Chance": 1
+    }
+  ],
+  "NeedToSelectReward": 0,
+  "RandomReward": 0,
+  "RandomRewardAmount": -1,
+  "RewardsForGroupOwnerOnly": 1,
+  "RewardBehavior": 0,
+  "QuestGiverIDs": [
+    14,
+    1
+  ],
+  "QuestTurnInIDs": [
+    14,
+    1
+  ],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 350101,
+      "ObjectiveType": 4
+    }
+  ],
+  "QuestColor": 0,
+  "ReputationReward": 25,
+  "ReputationRequirement": -1,
+  "PreQuestIDs": [
+    103
+  ],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 0,
+  "DeleteQuestItems": 0,
+  "SequentialObjectives": 1,
+  "CompletionMode": 0,
+  "MinRequiredObjectives": -1,
+  "QuestTimeLimit": -1,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 0
+}

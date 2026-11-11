@@ -1,0 +1,192 @@
+{
+  "ID": 1401,
+  "RootNodeID": 1,
+  "Nodes": [
+    {
+      "ID": 1,
+      "Type": "STANDARD",
+      "SpeakerText": "Стой, не сваливай всё в кучу. Сначала в опись, потом в котёл. Что нужно?",
+      "SpeakerTextConditions": [
+        {
+          "Text": "Опять ты. В описи долг висит — не забудь закрыть.",
+          "RequiredQuestID": 3503,
+          "RequiredState": "STARTED"
+        }
+      ],
+      "Responses": [
+        {
+          "Text": "Есть работа?",
+          "NextNodeID": -1,
+          "RequiredQuestID": -1,
+          "RequiredQuestState": "COMPLETED",
+          "ActionType": "SHOW_QUEST_LIST",
+          "SubFile": "",
+          "FileNodeID": -1
+        },
+        {
+          "Text": "Принёс мешок.",
+          "NextNodeID": -1,
+          "RequiredQuestID": 3500,
+          "RequiredQuestState": "CAN_TURNIN",
+          "ActionType": "TURN_IN_QUEST",
+          "SubFile": "",
+          "FileNodeID": -1
+        },
+        {
+          "Text": "Заказ снабженца готов.",
+          "NextNodeID": -1,
+          "RequiredQuestID": 3501,
+          "RequiredQuestState": "CAN_TURNIN",
+          "ActionType": "TURN_IN_QUEST",
+          "SubFile": "",
+          "FileNodeID": -1
+        },
+        {
+          "Text": "Патруль зачищен.",
+          "NextNodeID": -1,
+          "RequiredQuestID": 3502,
+          "RequiredQuestState": "CAN_TURNIN",
+          "ActionType": "TURN_IN_QUEST",
+          "SubFile": "",
+          "FileNodeID": -1
+        },
+        {
+          "Text": "Закрыть долг.",
+          "NextNodeID": -1,
+          "RequiredQuestID": 3503,
+          "RequiredQuestState": "CAN_TURNIN",
+          "ActionType": "TURN_IN_QUEST",
+          "SubFile": "",
+          "FileNodeID": -1
+        },
+        {
+          "Text": "Я насчёт мешка.",
+          "NextNodeID": -1,
+          "RequiredQuestID": 3500,
+          "RequiredQuestState": "STARTED",
+          "ActionType": "NONE",
+          "SubFile": "quest_3500.json",
+          "FileNodeID": 350001
+        },
+        {
+          "Text": "Что за военный конвой?",
+          "NextNodeID": 2,
+          "RequiredQuestID": -1,
+          "RequiredQuestState": "COMPLETED",
+          "ActionType": "NONE",
+          "SubFile": "",
+          "FileNodeID": -1
+        },
+        {
+          "Text": "Насчёт долга...",
+          "NextNodeID": 4,
+          "RequiredQuestID": -1,
+          "RequiredQuestState": "COMPLETED",
+          "ActionType": "NONE",
+          "SubFile": "",
+          "FileNodeID": -1
+        },
+        {
+          "Text": "Я просто мимо шёл.",
+          "NextNodeID": -1,
+          "RequiredQuestID": -1,
+          "RequiredQuestState": "COMPLETED",
+          "ActionType": "END_CONVERSATION",
+          "SubFile": "",
+          "FileNodeID": -1
+        }
+      ]
+    },
+    {
+      "ID": 2,
+      "Type": "STANDARD",
+      "SpeakerText": "Военные привозят груз на КПП и дальше не суются — приказ. В город они не заходят, мы забираем сами. Дойдёшь до блокпоста, возьмёшь мешок под опись — и назад. Печать не снимай: вскроешь, назад не примут.",
+      "Responses": [
+        {
+          "Text": "Понял. Где именно КПП?",
+          "NextNodeID": 3,
+          "RequiredQuestID": -1,
+          "RequiredQuestState": "COMPLETED",
+          "ActionType": "NONE",
+          "SubFile": "",
+          "FileNodeID": -1
+        },
+        {
+          "Text": "Понял.",
+          "NextNodeID": -1,
+          "RequiredQuestID": -1,
+          "RequiredQuestState": "COMPLETED",
+          "ActionType": "END_CONVERSATION",
+          "SubFile": "",
+          "FileNodeID": -1
+        }
+      ]
+    },
+    {
+      "ID": 3,
+      "Type": "STANDARD",
+      "SpeakerText": "Старый блокпост у лагеря — там, где дорога уходит от торговой зоны. Больше негде: военные дальше не ходят.",
+      "Responses": [
+        {
+          "Text": "Ясно. Иду.",
+          "NextNodeID": -1,
+          "RequiredQuestID": -1,
+          "RequiredQuestState": "COMPLETED",
+          "ActionType": "END_CONVERSATION",
+          "SubFile": "",
+          "FileNodeID": -1
+        }
+      ]
+    },
+    {
+      "ID": 4,
+      "Type": "STANDARD",
+      "SpeakerText": "Долг — не наказание, а опись. Лагерь отдал военным расписку за груз; не донёс — мы в убытке. Вернёшь товар — закрою долг. Закрыть можно позже, жёсткого провала нет — но строку в описи я запомню.",
+      "Responses": [
+        {
+          "Text": "Записать недостачу.",
+          "NextNodeID": 5,
+          "RequiredQuestID": 3503,
+          "RequiredQuestState": "NONE",
+          "ActionType": "ACCEPT_QUEST",
+          "SubFile": "",
+          "FileNodeID": -1
+        },
+        {
+          "Text": "Я верну сам.",
+          "NextNodeID": -1,
+          "RequiredQuestID": -1,
+          "RequiredQuestState": "COMPLETED",
+          "ActionType": "END_CONVERSATION",
+          "SubFile": "",
+          "FileNodeID": -1
+        },
+        {
+          "Text": "Позже.",
+          "NextNodeID": -1,
+          "RequiredQuestID": -1,
+          "RequiredQuestState": "COMPLETED",
+          "ActionType": "END_CONVERSATION",
+          "SubFile": "",
+          "FileNodeID": -1
+        }
+      ]
+    },
+    {
+      "ID": 5,
+      "Type": "STANDARD",
+      "SpeakerText": "Записал. Вернёшь товар — вычеркну строку. Можно позже.",
+      "Responses": [
+        {
+          "Text": "Понял.",
+          "NextNodeID": -1,
+          "RequiredQuestID": -1,
+          "RequiredQuestState": "COMPLETED",
+          "ActionType": "END_CONVERSATION",
+          "SubFile": "",
+          "FileNodeID": -1
+        }
+      ]
+    }
+  ]
+}

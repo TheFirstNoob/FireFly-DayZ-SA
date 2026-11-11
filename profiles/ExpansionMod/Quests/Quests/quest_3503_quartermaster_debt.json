@@ -1,0 +1,57 @@
+{
+  "ConfigVersion": 22,
+  "ID": 3503,
+  "Type": 1,
+  "Title": "Долг снабженца",
+  "Descriptions": [
+    "<p align=\"center\"><color hex=\"0xFFCC6600\"> Снабженец закрывает опись и смотрит холодно: <br /><br /><b>\"Ты не донёс мешок. Либо возвращаешь товар, либо пишу недостачу. Закрыть можно позже — жёсткого провала нет, но строку в описи я запомню.\"</b></color></p>",
+    "<p align=\"center\"><color hex=\"0xFFCC6600\"> Мне нужно вернуть снабженцу три порции еды — недостачу по описи.</color></p>",
+    "<p align=\"center\"><color hex=\"0xFFCC6600\"> Снабженец принимает товар и вычёркивает строку: <br /><br /><b>\"Чисто. Недостача закрыта. В следующий раз думай, прежде чем бросать мешок.\"</b></color></p>"
+  ],
+  "ObjectiveText": "Вернуть недостачу снабженцу.",
+  "FollowUpQuest": -1,
+  "Repeatable": 0,
+  "IsDailyQuest": 0,
+  "IsWeeklyQuest": 0,
+  "CancelQuestOnPlayerDeath": 0,
+  "Autocomplete": 0,
+  "IsGroupQuest": 0,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [],
+  "NeedToSelectReward": 0,
+  "RandomReward": 0,
+  "RandomRewardAmount": -1,
+  "RewardsForGroupOwnerOnly": 1,
+  "RewardBehavior": 0,
+  "QuestGiverIDs": [
+    14
+  ],
+  "QuestTurnInIDs": [
+    14
+  ],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 350301,
+      "ObjectiveType": 4
+    }
+  ],
+  "QuestColor": 0,
+  "ReputationReward": 0,
+  "ReputationRequirement": -1,
+  "PreQuestIDs": [],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 0,
+  "DeleteQuestItems": 0,
+  "SequentialObjectives": 1,
+  "CompletionMode": 0,
+  "MinRequiredObjectives": -1,
+  "QuestTimeLimit": -1,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 0
+}

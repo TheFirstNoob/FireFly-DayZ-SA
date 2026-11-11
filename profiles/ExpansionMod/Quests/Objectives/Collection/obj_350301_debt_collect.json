@@ -1,0 +1,20 @@
+{
+  "ConfigVersion": 28,
+  "ID": 350301,
+  "ObjectiveType": 4,
+  "ObjectiveText": "Вернуть недостачу снабженцу.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Collections": [
+    {
+      "Amount": 3,
+      "ClassName": "CrabCan",
+      "QuantityPercent": -1,
+      "MinQuantityPercent": -1
+    }
+  ],
+  "NeedAnyCollection": false,
+  "AddItemsToNearbyMarketZone": false,
+  "ShowDistance": 1,
+  "MaxDistance": -1
+}

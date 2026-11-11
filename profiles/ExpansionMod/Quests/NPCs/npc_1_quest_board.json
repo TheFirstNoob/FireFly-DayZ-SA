@@ -1,30 +1,28 @@
 {
-    "ConfigVersion":  6,
-    "ID":  1,
-    "ClassName":  "ExpansionQuestBoardLarge",
-    "Position":  [
-                     1097.14,
-                     226.806,
-                     501.499
-                 ],
-    "Orientation":  [
-                        215.0,
-                        0.0,
-                        0.0
-                    ],
-    "NPCName":  "Доска заданий",
-    "DefaultNPCText":  "Совершенно обычные задания...",
-    "Waypoints":  [
-
-                  ],
-    "NPCEmoteID":  46,
-    "NPCEmoteIsStatic":  0,
-    "NPCLoadoutFile":  "",
-    "NPCInteractionEmoteID":  1,
-    "NPCQuestCancelEmoteID":  60,
-    "NPCQuestStartEmoteID":  58,
-    "NPCQuestCompleteEmoteID":  39,
-    "NPCFaction":  "InvincibleObservers",
-    "NPCType":  1,
-    "Active":  1
+  "ConfigVersion": 6,
+  "ID": 1,
+  "ClassName": "ExpansionQuestBoardLarge",
+  "Position": [
+    1097.14,
+    226.806,
+    501.499
+  ],
+  "Orientation": [
+    215,
+    0,
+    0
+  ],
+  "NPCName": "Доска заданий",
+  "DefaultNPCText": "Заказы лагеря: что нужно — висит здесь. Личные — каждому свои, редкие — один конвой на всех. Сдавать — снабженцу у склада или прямо в доску.",
+  "Waypoints": [],
+  "NPCEmoteID": 46,
+  "NPCEmoteIsStatic": 0,
+  "NPCLoadoutFile": "",
+  "NPCInteractionEmoteID": 1,
+  "NPCQuestCancelEmoteID": 60,
+  "NPCQuestStartEmoteID": 58,
+  "NPCQuestCompleteEmoteID": 39,
+  "NPCFaction": "InvincibleObservers",
+  "NPCType": 1,
+  "Active": 1
 }

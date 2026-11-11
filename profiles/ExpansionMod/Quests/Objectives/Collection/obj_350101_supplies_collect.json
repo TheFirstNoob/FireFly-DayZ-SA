@@ -1,0 +1,32 @@
+{
+  "ConfigVersion": 28,
+  "ID": 350101,
+  "ObjectiveType": 4,
+  "ObjectiveText": "Принести припасы снабженцу.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Collections": [
+    {
+      "Amount": 3,
+      "ClassName": "CrabCan",
+      "QuantityPercent": -1,
+      "MinQuantityPercent": -1
+    },
+    {
+      "Amount": 2,
+      "ClassName": "BandageDressing",
+      "QuantityPercent": -1,
+      "MinQuantityPercent": -1
+    },
+    {
+      "Amount": 30,
+      "ClassName": "Ammo_762x54",
+      "QuantityPercent": -1,
+      "MinQuantityPercent": -1
+    }
+  ],
+  "NeedAnyCollection": true,
+  "ShowDistance": 1,
+  "AddItemsToNearbyMarketZone": false,
+  "MaxDistance": -1
+}
